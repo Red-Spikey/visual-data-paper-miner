@@ -1,0 +1,87 @@
+Caption,Filename,UCS Locator,UTD EID,contains_keywords,contains_keywords2,found_keywords,link,text
+Graphical model of Denoising Diffusion Probabilistic Models.,gr2.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1270963826000581/gr2/DOWNSAMPLED/image/jpeg/83abc63b8d1925088cb65f909d3d6f0d/gr2.jpg,1-s2.0-S1270963826000581-gr2.jpg,0,,,https://ars.els-cdn.com/content/image/1-s2.0-S1270963826000581-gr2_lrg.jpg,
+Graphical model for non-Markovian inference models.,gr3.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1270963826000581/gr3/DOWNSAMPLED/image/jpeg/9650982b381b7b594574c4e0826dcc6a/gr3.jpg,1-s2.0-S1270963826000581-gr3.jpg,0,,,https://ars.els-cdn.com/content/image/1-s2.0-S1270963826000581-gr3_lrg.jpg,
+"The FoilDiff architecture, incorporating an encoder, a latent transformer, and a decoder, with U-Net-style skip connections and deep latent embeddings to integrate conditional information effectively.",gr1.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1270963826000581/gr1/DOWNSAMPLED/image/jpeg/eb5c13669ccd1c30a590be3b3113b188/gr1.jpg,1-s2.0-S1270963826000581-gr1.jpg,0,,,https://ars.els-cdn.com/content/image/1-s2.0-S1270963826000581-gr1_lrg.jpg,
+"Latent transformer architectures. (a) Standard DiT architecture illustrating the conventional diffusion transformer pipeline [30]; (b) U-ViT architecture showing modifications [50]. Z ∈ R B × M denotes the latent representation obtained at the final block of the encoder, where B is the batch size, M the embedding dimension, and D is the total number of blocks.",gr8.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1270963826000581/gr8/DOWNSAMPLED/image/jpeg/66c482dd280e964f231b4cc5443b9a29/gr8.jpg,1-s2.0-S1270963826000581-gr8.jpg,0,,,https://ars.els-cdn.com/content/image/1-s2.0-S1270963826000581-gr8_lrg.jpg,
+Structure of the dataset.,gr11.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1270963826000581/gr11/DOWNSAMPLED/image/jpeg/bde7dff3962aba2899487b1cd01c3019/gr11.jpg,1-s2.0-S1270963826000581-gr11.jpg,0,,,https://ars.els-cdn.com/content/image/1-s2.0-S1270963826000581-gr11_lrg.jpg,
+"Comparison of predicted and reference flow fields for representative test cases. The left side displays the ground-truth CFD flow fields, and the right FoilDiff’s reconstructed pressure and velocity fields.",gr9.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1270963826000581/gr9/DOWNSAMPLED/image/jpeg/d86fa7a855e4e4f05579d64d84429672/gr9.jpg,1-s2.0-S1270963826000581-gr9.jpg,1,0.0,"pressure, cfd",https://ars.els-cdn.com/content/image/1-s2.0-S1270963826000581-gr9_lrg.jpg,"10-4
+
+10-6 +
+
+&
+&
+
+es
+
+| -—i- AiFnet (Extra Large) |
+—¢ FoilDitff
+—-—— FoilDiff (UVIT)
+
+ 
+
+9 S
+& se
+"
+Calculated mean and standard deviation fields from 20 samples of individual cases in the dataset.,gr6.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1270963826000581/gr6/DOWNSAMPLED/image/jpeg/172192a6e0ef97476cf74efae3c75f79/gr6.jpg,1-s2.0-S1270963826000581-gr6.jpg,0,,,https://ars.els-cdn.com/content/image/1-s2.0-S1270963826000581-gr6_lrg.jpg,
+Flow predictions for a single test case (Case 7). The predicted pressure and velocity fields for six individual samples are shown by the six columns with the ellipsis indicating omitted intermediate samples. The bottom row presents the calculated mean (μ) and standard deviation (σ) fields from the predicted samples used to model the uncertainty distribution.,gr7.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1270963826000581/gr7/DOWNSAMPLED/image/jpeg/961747a73446acc99e0dc28553f1e2ca/gr7.jpg,1-s2.0-S1270963826000581-gr7.jpg,1,0.0,pressure,https://ars.els-cdn.com/content/image/1-s2.0-S1270963826000581-gr7_lrg.jpg,"—0.597—0.188 0.220 0.629 —0.268 0.237 0.741 1.246 —0.186 0.207 0.599 0.992 0.0000 0.1809 0.3618 0.5427 0.0000 0.2103 0.4206 0.6309 0.0000 0.1118 0.2236 0.3354
+
+Re=0.5 x 10°
+
+2.5 x 106
+
+Re=
+
+4.5 x 10°
+
+Re=
+
+°
+o
+ad
+x
+wn
+oO
+
+Re=
+
+Re=8.5 x 10°
+
+Re =10.5 x 10°
+
+ 
+
+x=
+3
+"
+Mean squared error (MSE) comparison of scaled-up Aifnet (Extra Large) and FoilDiff variants across Reynolds numbers after 150k training iterations.,gr10.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1270963826000581/gr10/DOWNSAMPLED/image/jpeg/4ae2b504ea6702d5895ce0738ed3c6eb/gr10.jpg,1-s2.0-S1270963826000581-gr10.jpg,1,0.0,reynolds,https://ars.els-cdn.com/content/image/1-s2.0-S1270963826000581-gr10_lrg.jpg,"MSE of a;
+
+10-2
+
+10-3
+
+10-4 4:
+
+10> 4
+
+10-6 4.
+
+1077 4
+
+— (AiFnet)UNet Backbone /
+= <= (FoilDiff)UNet with Transformer Backbone
+—@ (FoilDiff)UNet with UVit Backbone
+
+ 
+"
+Logarithmic plot of mean squared error (MSE) of the recommended-sized Aifnet model compared with FoilDiff variants after 150k training iterations.,gr4.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1270963826000581/gr4/DOWNSAMPLED/image/jpeg/fa0195ed32af9027d45e8594d213c498/gr4.jpg,1-s2.0-S1270963826000581-gr4.jpg,0,,,https://ars.els-cdn.com/content/image/1-s2.0-S1270963826000581-gr4_lrg.jpg,
+"Surface flow quantities predicted by FoilDiff and a DiT-based baseline against the CFD ground truth for E598 airfoil at Re = 6.482 × 10 6 at an angle of − 2 ∘ . The three subplots (left to right) show the distributions of the surface pressure coefficient (p) and the streamwise and normalised vertical velocity components (ux , uy ) respectively, along the airfoil surface.",gr5.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1270963826000581/gr5/DOWNSAMPLED/image/jpeg/4ef0a2cadd9b886830a794f0ed023514/gr5.jpg,1-s2.0-S1270963826000581-gr5.jpg,1,0.0,"pressure, pressure coefficient, airfoil, cfd",https://ars.els-cdn.com/content/image/1-s2.0-S1270963826000581-gr5_lrg.jpg,"0.000 1.566 3.132 4.698 0.00 0.5 1.14 1.71 0.000 0.333 0.667 1.000 —1.711-—0.915—0.118 0.679 —0.277 0.290 0.857 1.424 —0.160 0.387 0.934 1.482
+
+| sei ee | | |
+wW p* uy uy
+
+0.5 x 10°
+
+Re=
+
+Recosa Resina
+"
