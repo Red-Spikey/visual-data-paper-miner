@@ -1,3 +1,4 @@
+Credits - Prof. Shivam Tripathi, Prathamesh, Arvind - MSE, IITK
 # Figure-Centered Literature Mining Pipeline
 
 This repository contains the code and manuscript for a figure-centered approach to scientific literature mining. Traditional search methods rely primarily on keyword matching within abstracts or body text, which often retrieves articles that merely mention target keywords without presenting actual data. 
