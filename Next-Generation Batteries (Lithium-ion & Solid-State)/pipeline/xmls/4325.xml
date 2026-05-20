@@ -1,0 +1,1570 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1452398123024331</prism:url><dc:identifier>doi:10.20964/2022.05.14</dc:identifier><eid>1-s2.0-S1452398123024331</eid><prism:doi>10.20964/2022.05.14</prism:doi><pii>S1452-3981(23)02433-1</pii><dc:title>A Novel Approach for the Open-circuit Voltage Estimation of Lithium-ion Batteries by epsilon SVR </dc:title><prism:publicationName>International Journal of Electrochemical Science</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>14523981</prism:issn><prism:volume>17</prism:volume><prism:issueIdentifier>5</prism:issueIdentifier><prism:startingPage>22059</prism:startingPage><prism:pageRange>22059</prism:pageRange><prism:number>5</prism:number><articleNumber>22059</articleNumber><dc:format>text/xml</dc:format><prism:coverDate>2022-05-31</prism:coverDate><prism:coverDisplayDate>May 2022</prism:coverDisplayDate><prism:copyright>Copyright © 2022 The Authors. Published by ESG. Published by Elsevier B.V.</prism:copyright><prism:publisher>The Authors. Published by ESG. Published by Elsevier B.V.</prism:publisher><dc:creator>Xiao, Bin</dc:creator><dc:creator>Wu, Houmin</dc:creator><dc:creator>Zhang, Xiubin</dc:creator><dc:creator>Wu, Rongjie</dc:creator><dc:creator>Liu, Yonggui</dc:creator><dc:description>
+                  Open-circuit voltage (OCV) estimation is an essential challenge for battery management systems (BMSs). Accurate OCV estimation can benefit the state estimation of lithium-ion batteries (LiBs), including state of charge (SoC) and state of health (SoH) estimations. When obtaining a SoC-OCV curve, a battery test method based on low current discharge cannot overcome the effect of battery polarization, and the discharge time usually takes several hours. Hence, an ε-support vector regression (ε-SVR) model for battery OCV estimation was proposed in this research. In accordance with the voltage relaxation behaviour of LiBs, the sample data were collected by hybrid pulse power current (HPPC) experiments on LiBs under different ageing degrees. The features were selected from the data samples using grey association analysis (GRA), and the hyperparameters of the ε-SVR model were obtained by K-folding cross-validation (CV). To validate this approach, the proposed model was trained and tested over the dataset acquired from the LiBs with varying degrees of ageing. Based on the experimental results, the model only needs some short-term battery characteristic data to achieve high-precision OCV estimation.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>Author</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>Lithium-ion batteries</dcterms:subject><dcterms:subject>Open circuit voltage</dcterms:subject><dcterms:subject>Support vector regression</dcterms:subject><dcterms:subject>Cross-validation</dcterms:subject><dcterms:subject>hybrid pulse power current</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1452398123024331" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1452398123024331" rel="scidir"/></coredata><scopus-id>85129579460</scopus-id><scopus-eid>2-s2.0-85129579460</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85129579460" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>783334</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291802</xocs:ssid>
+         <xocs:ssid type="subj">291865</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>International Journal of Electrochemical Science</xocs:srctitle>
+      <xocs:normalized-srctitle>INTERNATIONALJOURNALELECTROCHEMICALSCIENCE</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20230617">2023-06-17</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20230617">2023-06-17</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20230617">2023-06-17</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20230617">2023-06-17</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2024-10-15T17:30:37</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1452398123024331</xocs:eid>
+      <xocs:pii-formatted>S1452-3981(23)02433-1</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1452398123024331</xocs:pii-unformatted>
+      <xocs:doi>10.20964/2022.05.14</xocs:doi>
+      <xocs:item-stage>S350</xocs:item-stage>
+      <xocs:item-version-number>S350.2</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1452398122X75007</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20241015">2024-10-15T16:38:20.588682Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20220501</xocs:date-search-begin>
+      <xocs:date-search-end>20220531</xocs:date-search-end>
+      <xocs:year-nav>2022</xocs:year-nav>
+      <xocs:indexeddate epoch="1687010904">2023-06-17T14:08:24.649504Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issfirst issn issnnorm issuelist itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content oa subj tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authkeywords authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1452-3981</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>14523981</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>17</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>17</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>5</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>5</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 17, Issue 5</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>9</xocs:sort-order>
+      <xocs:first-fp>22059</xocs:first-fp>
+      <xocs:article-number>22059</xocs:article-number>
+      <xocs:pages>
+         <xocs:first-page>22059</xocs:first-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>202205</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>May 2022</xocs:cover-date-text>
+      <xocs:cover-date-start>2022-05-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2022-05-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2022</xocs:cover-date-year>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 2022 The Authors. Published by ESG. Published by Elsevier B.V.</xocs:copyright-line>
+      <xocs:normalized-article-title>ANOVELAPPROACHFOROPENCIRCUITVOLTAGEESTIMATIONLITHIUMIONBATTERIESBYEPSILONSVR</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>XIAO</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>B</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="rf0005">
+            <xocs:ref-normalized-surname>GHASSAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>292</xocs:ref-first-fp>
+            <xocs:ref-last-lp>308</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0010">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-article-number>101980</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0015">
+            <xocs:ref-normalized-surname>KIM</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-article-number>101841</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0020">
+            <xocs:ref-normalized-surname>ESFANDYARI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-article-number>100758</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0025">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-article-number>100945</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>Q</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0030">
+            <xocs:ref-normalized-surname>ZHOU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-article-number>101830</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0035">
+            <xocs:ref-normalized-surname>FARMANN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1102</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1122</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0040">
+            <xocs:ref-normalized-surname>CAMPESTRINI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>149</xocs:ref-first-fp>
+            <xocs:ref-last-lp>156</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0045">
+            <xocs:ref-normalized-surname>NEWMAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>A110-4</xocs:ref-first-fp>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0050">
+            <xocs:ref-normalized-surname>BARAI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>99</xocs:ref-first-fp>
+            <xocs:ref-last-lp>107</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0055">
+            <xocs:ref-normalized-surname>ARORA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>117</xocs:ref-first-fp>
+            <xocs:ref-last-lp>126</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0060">
+            <xocs:ref-normalized-surname>WLADISLAW</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>416</xocs:ref-first-fp>
+            <xocs:ref-last-lp>427</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0065">
+            <xocs:ref-normalized-surname>PEI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>412</xocs:ref-first-fp>
+            <xocs:ref-last-lp>418</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0070">
+            <xocs:ref-normalized-surname>QIAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>183</xocs:ref-first-fp>
+            <xocs:ref-last-lp>191</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0075">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>24</xocs:ref-first-fp>
+            <xocs:ref-last-lp>36</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0080">
+            <xocs:ref-normalized-surname>PAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>764</xocs:ref-first-fp>
+            <xocs:ref-last-lp>775</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0085">
+            <xocs:ref-normalized-surname>XIONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>346</xocs:ref-first-fp>
+            <xocs:ref-last-lp>353</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0090">
+            <xocs:ref-normalized-surname>YIHSIEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3921</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3932</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0095">
+            <xocs:ref-normalized-surname>ZHENG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>513</xocs:ref-first-fp>
+            <xocs:ref-last-lp>525</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0100">
+            <xocs:ref-normalized-surname>FARMANN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-last-lp>13</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0105">
+            <xocs:ref-normalized-surname>YANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>682</xocs:ref-first-fp>
+            <xocs:ref-last-lp>694</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0110">
+            <xocs:ref-normalized-surname>PAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-article-number>137101</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>B</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0115">
+            <xocs:ref-normalized-surname>GOODENOUGH</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>6688</xocs:ref-first-fp>
+            <xocs:ref-last-lp>6694</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0120">
+            <xocs:ref-normalized-surname>DREYER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>448</xocs:ref-first-fp>
+            <xocs:ref-last-lp>453</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0125">
+            <xocs:ref-normalized-surname>JIANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>6844</xocs:ref-first-fp>
+            <xocs:ref-last-lp>6851</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0130">
+            <xocs:ref-normalized-surname>WEIDMAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>219</xocs:ref-first-fp>
+            <xocs:ref-last-lp>230</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0135">
+            <xocs:ref-normalized-surname>TOSUN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>450</xocs:ref-first-fp>
+            <xocs:ref-last-lp>455</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0140">
+            <xocs:ref-normalized-surname>CORTES</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1995</xocs:ref-pub-year>
+            <xocs:ref-first-fp>273</xocs:ref-first-fp>
+            <xocs:ref-last-lp>297</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0145">
+            <xocs:ref-normalized-surname>KOHAVI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1995</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>INTERNATIONALJOINTCONFERENCEARTIFICIALINTELLIGENCEIJCAI</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="or1000"/>
+         <xocs:ref-info refid="or1120"/>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>XIAOX2022X22059</xocs:refkey3>
+         <xocs:refkey4ai>XIAOX2022X22059XB</xocs:refkey4ai>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2023-06-15T09:31:09Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>Author</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/1452-3981_UNBOUNDED_Author">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:article-sharing-framework/>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1452-3981(23)02433-1</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1452398123024331</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1452398123024331</xocs:eid>
+         <xocs:doi>10.20964/2022.05.14</xocs:doi>
+         <xocs:cid>783334</xocs:cid>
+         <xocs:timestamp>2024-10-15T16:38:20.588682Z</xocs:timestamp>
+         <xocs:cover-date-start>2022-05-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2022-05-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1452398123024331-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1452398123024331/MAIN/application/pdf/f3abf6df75460a18216051dc1af9bfd4/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>989555</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>20</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1452398123024331-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1452398123024331/PREVIEW/image/png/37fc9c008dbb3bac941702d55948f5d9/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>61437</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">A Novel Approach for the Open-circuit Voltage Estimation of Lithium-ion Batteries by epsilon SVR Bin Xiao, 1 Houmin Wu, 1 Xiubin Zhang, 1 Rongjie Wu, 2 Yonggui Liu, 3 auygliu@scut.edu.cn 1 School of Information Engineering, Guangzhou Vocational College of Technology &amp;Business, Guangzhou 511442, China School of Information Engineering Guangzhou Vocational College of Technology &amp;Business Guangzhou 511442 China School of Information Engineering, Guangzhou Vocational College of Technology &amp;Business, Guangzhou 511442, China 2 Paitan Middle School of Zengcheng District, Guangzhou 511385, China Paitan Middle School of Zengcheng District Guangzhou 511385 China Paitan Middle School of Zengcheng District, Guangzhou 511385, China 3 College of Automation Science and Engineering, South China University of Technology, Guangzhou 510641, China College of Automation Science and Engineering South China University of Technology Guangzhou 510641 China College of Automation Science and Engineering, South China University of Technology, Guangzhou 510641, China   Open-circuit voltage (OCV) estimation is an essential challenge for battery management systems (BMSs). Accurate OCV estimation can benefit the state estimation of lithium-ion batteries (LiBs), including state of charge (SoC) and state of health (SoH) estimations. When obtaining a SoC-OCV curve, a battery test method based on low current discharge cannot overcome the effect of battery polarization, and the discharge time usually takes several hours. Hence, an Îµ-support vector regression (Îµ-SVR) model for battery OCV estimation was proposed in this research. In accordance with the voltage relaxation behaviour of LiBs, the sample data were collected by hybrid pulse power current (HPPC) experiments on LiBs under different ageing degrees. The features were selected from the data samples using grey association analysis (GRA), and the hyperparameters of the Îµ-SVR model were obtained by K-folding cross-validation (CV). To validate this approach, the proposed model was trained and tested over the dataset acquired from the LiBs with varying degrees of ageing. Based on the experimental results, the model only needs some short-term battery characteristic data to achieve high-precision OCV estimation. Keywords Lithium-ion batteries Open circuit voltage Support vector regression Cross-validation hybrid pulse power current   References 1. Z.B. Ghassan, D.L. Rodolfo, C. Monica, G. Pasaoglu, Renew Sust Energ Rev 89: (2018) 292-308 Z. B. Ghassan, D. L. Rodolfo, C. Monica, G. Pasaoglu, Renew Sust Energ Rev, 89 (2018) 292-308. 2. S. Zhang, X. Guo, X. Zhang, J. Energy Storage 32: (2020) 101980 S. Zhang, X. Guo, X. Zhang, J. Energy Storage, 32 (2020) 101980. 3. J. Kim, L. KrÃ¼ger, J. Kowal, J. Energy Storage 32: (2020) 101841 J. Kim, L. KrÃ¼ger, J. Kowal, J. Energy Storage, 32 (2020) 101841. 4. M.J. Esfandyari, Y.D. Hairi, M.R. Esfahanian, V. Masih-Tehrani, M. Nehzati, H. Shekoofa, J. Energy Storage 24: (2019) 100758 M. J. Esfandyari, Y. D. Hairi, M. R. Esfahanian, V. Masih-Tehrani, M. Nehzati, H. Shekoofa, J. Energy Storage, 24 (2019) 100758. 5. Q. Zhang, N. Cui, Y. Li, B. Duan, C. Zhang, J. Energy Storage 27: (2020) 100945 Q. Zhang, N. Cui, Y. Li, B. Duan, C. Zhang, J. Energy Storage, 27 (2020) 100945. 6. Z. Zhou, Y. Cui, X. Kong, J. Li, Y. Zheng, J. Energy Storage 32: (2020) 101830 Z. Zhou, Y. Cui, X. Kong, J. Li, Y. Zheng, J. Energy Storage, 32 (2020) 101830. 7. A. Farmann, D.U. Sauer, Appl Energ 225: (2018) 1102-1122 A. Farmann, D. U. Sauer, Appl Energ, 225 (2018) 1102-1122. 8. C. Campestrini, S. Kosch, A. Jossen, J. Energy Storage 12: (2017) 149-156 C. Campestrini, S. Kosch, A. Jossen, J. Energy Storage, 12 (2017) 149-156. 9. Newman, Srinivasan, Electrochem Solid-State Lett 9: (2006) A110-4-Newman, Srinivasan. Electrochem Solid-State Lett, 9 (2006) A110-4. 10. A. Barai, W.D. Widanage, J. Marco, A. McGordon, P. Jennings, J. Power Sources 295: (2015) 99-107 A. Barai, W. D. Widanage, J. Marco, A. McGordon, P. Jennings, J. Power Sources, 295 (2015) 99-107. 11. S. Arora, W. Shen, A. Kapoor, J. Power Sources 350: (2017) 117-26 S. Arora, W. Shen, A. Kapoor, J. Power Sources, 350 (2017) 117-26. 12. W. Wladislaw, S.D. Uwe, Appl Energ 111: (2013) 416-427 W. Wladislaw, S. D. Uwe, Appl Energ, 111 (2013) 416-427. 13. L. Pei, T.S. Wang, R.G. Lu, C.B. Zhu, J. Power Sources 253: (2014) 412-418 L. Pei, T. S. Wang, R. G. Lu, C. B. Zhu, J. Power Sources, 253 (2014) 412-418. 14. K. Qian, B.H. Huang, A.H. Ran, Y.B. He, B.H. Li, F.Y. Kang, Electrochimica Acta 303: (2019) 183-191 K. Qian, B. H. Huang, A. H. Ran, Y. B. He, B. H. Li, F. Y. Kang, Electrochimica Acta, 303 (2019) 183-191. 15. C. Zhang, K. Li, L. Pei, C. Zhu, J. Power Sources 283: (2015) 24-36 C. Zhang, K. Li, L. Pei, C. Zhu, J. Power Sources, 283 (2015) 24-36. 16. H.H. Pan, Z.Q. Lu, W.L. Lin, J.Z. Li, L. Chen, Energy 138: (2017) 764-775 H. H. Pan, Z. Q. Lu, W. L. Lin, J. Z. Li, L. Chen, Energy, 138 (2017) 764-775. 17. R. Xiong, Q.Q. Yu, L.Y. Wang, Appl Energ 207: (2017) 346-353 R. Xiong, Q. Q. Yu, L. Y. Wang, Appl Energ, 207 (2017) 346-353. 18. C. Yi-Hsien, W.Y. Sean, J.C. Ke, J. Power Sources 196: (2011) 3921-3932 C. Yi-Hsien, W. Y. Sean, J. C. Ke, J. Power Sources, 196 (2011) 3921-3932. 19. F.D. Zheng, Y.J. Xing, J.C. Jiang, B.X. Sun, J.H. Kim, M. Pecht, Appl Energ 183: (2016) 513-525 F. D. Zheng, Y. J. Xing, J. C. Jiang, B. X. Sun, J. H. Kim, M. Pecht, Appl Energ, 183 (2016) 513-525. 20. A. Farmann, D.U. Sauer, J. Power Sources 347: (2017) 1-13 A. Farmann, D. U. Sauer, J. Power Sources, 347 (2017) 1-13. 21. J.F. Yang, W.X. Huang, B. Xia, C. Mi, Appl Energ 237: (2019) 682-694 J. F. Yang, W. X. Huang, B. Xia, C. Mi, Appl Energ, 237 (2019) 682-694. 22. B. Pan, D. Dong, J.G. Wang, J.B. Nie, S.Y. Liu, Y.H. Cao, Y.Z. Jiang, Electrochimica Acta 362: (2020) 137101 B. Pan, D. Dong, J. G. Wang, J. B. Nie, S. Y. Liu, Y. H. Cao, Y. Z. Jiang, Electrochimica Acta, 362 (2020) 137101. 23. J.B. Goodenough, Y. Kim, J. Power Sources 196: (2011) 6688-6694 J. B. Goodenough, Y. Kim, J. Power Sources, 196 (2011) 6688-6694. 24. W. Dreyer, J. Jamnik, C. Guhlke, R. Huth, J. Moskon, M. Gaberscek, Nature Materials 9: (2010) 448-453 W. Dreyer, J. Jamnik, C. Guhlke, R. Huth, J. Moskon, M. Gaberscek, Nature Materials, 9 (2010) 448-453. 25. J.C. Jiang, Q.J. Liu, C.P. Zhang, W. Zhang, IEEE T Ind Electron 61: (2014) 6844-6851 J. C. Jiang, Q. J. Liu, C. P. Zhang, W. Zhang, IEEE T Ind Electron, 61 (2014) 6844-6851. 26. P.D. Weidman, D. Ahn, R. Raj, J Power Sources 249: (2014) 219-230 P. D. Weidman, D. Ahn, R. Raj, J Power Sources, 249 (2014) 219-230. 27. N. Tosun, Int J Adv Manuf Tech 28: (2006) 450-455 N. Tosun, Int J Adv Manuf Tech, 28 (2006) 450-455. 28. C. Cortes, V.N. Vapnik, Mach Learn 20: (1995) 273-297 C. Cortes and V.N. Vapnik, Mach Learn, 20 (1995) 273-297. 29. R. Kohavi, International Joint Conference on Artificial Intelligence (IJCAI) (1995) Montreal R. Kohavi, International Joint Conference on Artificial Intelligence (IJCAI), 1995, Montreal 30. Matlab 2015. online: https://www.mathworks.com/ 31. libsvm. [Online] https://www.csie.ntu.edu.tw/~cjlin/libsvm/   . Masih-Tehrani, M. Nehzati, H. Shekoofa, J. Energy Storage, 24 (2019) 100758. 5. Q. Zhang, N. Cui, Y. Li, B. Duan, C. Zhang, J. Energy Storage 27: (2020) 100945 Q. Zhang, N. Cui, Y. Li, B. Duan, C. Zhang, J. Energy Storage, 27 (2020) 100945. 6. Z. Zhou, Y. Cui, X. Kong, J. Li, Y. Zheng, J. Energy Storage 32: (2020) 101830 Z. Zhou, Y. Cui, X. Kong, J. Li, Y. Zheng, J. Energy Storage, 32 (2020) 101830. 7. A. Farmann, D.U. Sauer, Appl Energ 225: (2018) 1102-1122 A. Farmann, D. U. Sauer, Appl Energ, 225 (2018) 1102-1122. 8. C. Campestrini, S. Kosch, A. Jossen, J. Energy Storage 12: (2017) 149-156 C. Campestrini, S. Kosch, A. Jossen, J. Energy Storage, 12 (2017) 149-156. 9. Newman, Srinivasan, Electrochem Solid-State Lett 9: (2006) A110-4-Newman, Srinivasan. Electrochem Solid-State Lett, 9 (2006) A110-4. 10. A. Barai, W.D. Widanage, J. Marco, A. McGordon, P. Jennings, J. Power Sources 295: (2015) 99-107 A. Barai, W. D. Widanage, J. Marco, A. McGordon, P. Jennings, J. Power Sources, 295 (2015) 99-107. 11. S. Arora, W. Shen, A. Kapoor, J. Power So</xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.6" docsubtype="fla" xml:lang="en">
+         <item-info>
+            <jid>IJOES</jid>
+            <aid>50101818</aid>
+            <ce:article-number>22059</ce:article-number>
+            <ce:pii>S1452-3981(23)02433-1</ce:pii>
+            <ce:doi>10.20964/2022.05.14</ce:doi>
+            <ce:copyright type="other" year="2022">The Authors. Published by ESG</ce:copyright>
+            <ce:copyright-line>© 2022 The Authors. Published by ESG</ce:copyright-line>
+         </item-info>
+         <head>
+            <ce:title id="ti0005">A Novel Approach for the Open-circuit Voltage Estimation of Lithium-ion Batteries by epsilon SVR</ce:title>
+            <ce:author-group id="ag0005">
+               <ce:author id="au0005" author-id="S1452398123024331-3846a9b8689f70e5400f62f5c13c7c15">
+                  <ce:given-name>Bin</ce:given-name>
+                  <ce:surname>Xiao</ce:surname>
+                  <ce:cross-ref refid="af0005" id="cf0005">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0010" author-id="S1452398123024331-5659eeb91426cb128a1902d78b2832e1">
+                  <ce:given-name>Houmin</ce:given-name>
+                  <ce:surname>Wu</ce:surname>
+                  <ce:cross-ref refid="af0005" id="cf0010">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0015" author-id="S1452398123024331-9d64d44d358cf0428d94699c7dd949cf">
+                  <ce:given-name>Xiubin</ce:given-name>
+                  <ce:surname>Zhang</ce:surname>
+                  <ce:cross-ref refid="af0005" id="cf0015">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0020" author-id="S1452398123024331-ee06ac12c7299e1a2af70d0a38aed1e8">
+                  <ce:given-name>Rongjie</ce:given-name>
+                  <ce:surname>Wu</ce:surname>
+                  <ce:cross-ref refid="af0010" id="cf0020">
+                     <ce:sup loc="post">2</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0025" author-id="S1452398123024331-5bea7d62fa8a5a66c822f37401c1544e">
+                  <ce:given-name>Yonggui</ce:given-name>
+                  <ce:surname>Liu</ce:surname>
+                  <ce:cross-ref refid="af0015" id="cf0025">
+                     <ce:sup loc="post">3</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:affiliation id="af0005" affiliation-id="S1452398123024331-d5a922bf10c3e79d4af338fd0e655bc6">
+                  <ce:label>1</ce:label>
+                  <ce:textfn id="tn0005">School of Information Engineering, Guangzhou Vocational College of Technology &amp;Business, Guangzhou 511442, China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>School of Information Engineering</sa:organization>
+                     <sa:organization>Guangzhou Vocational College of Technology &amp;Business</sa:organization>
+                     <sa:city>Guangzhou</sa:city>
+                     <sa:postal-code>511442</sa:postal-code>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="se0005">School of Information Engineering, Guangzhou Vocational College of Technology &amp;Business, Guangzhou 511442, China</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="af0010" affiliation-id="S1452398123024331-60a7380b7a1cab0f430f5c479754fb8f">
+                  <ce:label>2</ce:label>
+                  <ce:textfn id="tn0010">Paitan Middle School of Zengcheng District, Guangzhou 511385, China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Paitan Middle School of Zengcheng District</sa:organization>
+                     <sa:city>Guangzhou</sa:city>
+                     <sa:postal-code>511385</sa:postal-code>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="se0010">Paitan Middle School of Zengcheng District, Guangzhou 511385, China</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="af0015" affiliation-id="S1452398123024331-899d8a363d1cf46790446920ec8a81f5">
+                  <ce:label>3</ce:label>
+                  <ce:textfn id="tn0015">College of Automation Science and Engineering, South China University of Technology, Guangzhou 510641, China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>College of Automation Science and Engineering</sa:organization>
+                     <sa:organization>South China University of Technology</sa:organization>
+                     <sa:city>Guangzhou</sa:city>
+                     <sa:postal-code>510641</sa:postal-code>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="se0015">College of Automation Science and Engineering, South China University of Technology, Guangzhou 510641, China</ce:source-text>
+               </ce:affiliation>
+            </ce:author-group>
+            <ce:date-received day="3" month="1" year="2022"/>
+            <ce:date-accepted day="26" month="2" year="2022"/>
+            <ce:abstract id="ab0005" xml:lang="en" view="all" class="author"><ce:abstract-sec id="as0005" view="all">
+                  <ce:simple-para id="sp0005" view="all">Open-circuit voltage (OCV) estimation is an essential challenge for battery management systems (BMSs). Accurate OCV estimation can benefit the state estimation of lithium-ion batteries (LiBs), including state of charge (SoC) and state of health (SoH) estimations. When obtaining a SoC-OCV curve, a battery test method based on low current discharge cannot overcome the effect of battery polarization, and the discharge time usually takes several hours. Hence, an ε-support vector regression (ε-SVR) model for battery OCV estimation was proposed in this research. In accordance with the voltage relaxation behaviour of LiBs, the sample data were collected by hybrid pulse power current (HPPC) experiments on LiBs under different ageing degrees. The features were selected from the data samples using grey association analysis (GRA), and the hyperparameters of the ε-SVR model were obtained by K-folding cross-validation (CV). To validate this approach, the proposed model was trained and tested over the dataset acquired from the LiBs with varying degrees of ageing. Based on the experimental results, the model only needs some short-term battery characteristic data to achieve high-precision OCV estimation.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="ks0005" view="all" class="keyword">
+               <ce:section-title id="st0015">Keywords</ce:section-title>
+               <ce:keyword id="kw0005">
+                  <ce:text id="tx0005">Lithium-ion batteries</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0010">
+                  <ce:text id="tx0010">Open circuit voltage</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0015">
+                  <ce:text id="tx0015">Support vector regression</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0020">
+                  <ce:text id="tx0020">Cross-validation</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0025">
+                  <ce:text id="tx0025">hybrid pulse power current</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <tail view="all">
+            <ce:bibliography id="bi0005" view="all">
+               <ce:section-title id="st0025">References</ce:section-title>
+               <ce:bibliography-sec id="bs0005" view="all">
+                  <ce:bib-reference id="bb0005">
+                     <ce:label>1.</ce:label>
+                     <sb:reference id="rf0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.B.</ce:given-name>
+                                 <ce:surname>Ghassan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.L.</ce:given-name>
+                                 <ce:surname>Rodolfo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Monica</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Pasaoglu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Renew Sust Energ Rev</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>89</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>292</sb:first-page>
+                              <sb:last-page>308</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0030">Z. B. Ghassan, D. L. Rodolfo, C. Monica, G. Pasaoglu, Renew Sust Energ Rev, 89 (2018) 292-308.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0010">
+                     <ce:label>2.</ce:label>
+                     <sb:reference id="rf0010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Guo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Energy Storage</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>32</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:article-number>101980</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0035">S. Zhang, X. Guo, X. Zhang, J. Energy Storage, 32 (2020) 101980.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0015">
+                     <ce:label>3.</ce:label>
+                     <sb:reference id="rf0015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Krüger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Kowal</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Energy Storage</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>32</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:article-number>101841</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0040">J. Kim, L. Krüger, J. Kowal, J. Energy Storage, 32 (2020) 101841.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0020">
+                     <ce:label>4.</ce:label>
+                     <sb:reference id="rf0020">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.J.</ce:given-name>
+                                 <ce:surname>Esfandyari</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.D.</ce:given-name>
+                                 <ce:surname>Hairi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.R.</ce:given-name>
+                                 <ce:surname>Esfahanian</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Masih-Tehrani</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Nehzati</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Shekoofa</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Energy Storage</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>24</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:article-number>100758</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0045">M. J. Esfandyari, Y. D. Hairi, M. R. Esfahanian, V. Masih-Tehrani, M. Nehzati, H. Shekoofa, J. Energy Storage, 24 (2019) 100758.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0025">
+                     <ce:label>5.</ce:label>
+                     <sb:reference id="rf0025">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Q.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Cui</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Duan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Energy Storage</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>27</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:article-number>100945</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0050">Q. Zhang, N. Cui, Y. Li, B. Duan, C. Zhang, J. Energy Storage, 27 (2020) 100945.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0030">
+                     <ce:label>6.</ce:label>
+                     <sb:reference id="rf0030">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Cui</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Kong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Zheng</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Energy Storage</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>32</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:article-number>101830</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0055">Z. Zhou, Y. Cui, X. Kong, J. Li, Y. Zheng, J. Energy Storage, 32 (2020) 101830.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0035">
+                     <ce:label>7.</ce:label>
+                     <sb:reference id="rf0035">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Farmann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.U.</ce:given-name>
+                                 <ce:surname>Sauer</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl Energ</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>225</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1102</sb:first-page>
+                              <sb:last-page>1122</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0060">A. Farmann, D. U. Sauer, Appl Energ, 225 (2018) 1102-1122.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0040">
+                     <ce:label>8.</ce:label>
+                     <sb:reference id="rf0040">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Campestrini</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Kosch</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Jossen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Energy Storage</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>12</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>149</sb:first-page>
+                              <sb:last-page>156</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0065">C. Campestrini, S. Kosch, A. Jossen, J. Energy Storage, 12 (2017) 149-156.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0045">
+                     <ce:label>9.</ce:label>
+                     <sb:reference id="rf0045">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Newman</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Srinivasan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochem Solid-State Lett</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>9</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>A110-4</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0070">Newman, Srinivasan. Electrochem Solid-State Lett, 9 (2006) A110-4.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0050">
+                     <ce:label>10.</ce:label>
+                     <sb:reference id="rf0050">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Barai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.D.</ce:given-name>
+                                 <ce:surname>Widanage</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Marco</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>McGordon</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Jennings</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>295</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>99</sb:first-page>
+                              <sb:last-page>107</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0075">A. Barai, W. D. Widanage, J. Marco, A. McGordon, P. Jennings, J. Power Sources, 295 (2015) 99-107.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0055">
+                     <ce:label>11.</ce:label>
+                     <sb:reference id="rf0055">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Arora</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Shen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Kapoor</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>350</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>117</sb:first-page>
+                              <sb:last-page>126</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0080">S. Arora, W. Shen, A. Kapoor, J. Power Sources, 350 (2017) 117-26.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0060">
+                     <ce:label>12.</ce:label>
+                     <sb:reference id="rf0060">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Wladislaw</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.D.</ce:given-name>
+                                 <ce:surname>Uwe</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl Energ</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>111</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>416</sb:first-page>
+                              <sb:last-page>427</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0085">W. Wladislaw, S. D. Uwe, Appl Energ, 111 (2013) 416-427.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0065">
+                     <ce:label>13.</ce:label>
+                     <sb:reference id="rf0065">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Pei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.S.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.G.</ce:given-name>
+                                 <ce:surname>Lu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.B.</ce:given-name>
+                                 <ce:surname>Zhu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>253</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>412</sb:first-page>
+                              <sb:last-page>418</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0090">L. Pei, T. S. Wang, R. G. Lu, C. B. Zhu, J. Power Sources, 253 (2014) 412-418.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0070">
+                     <ce:label>14.</ce:label>
+                     <sb:reference id="rf0070">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Qian</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.H.</ce:given-name>
+                                 <ce:surname>Huang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.H.</ce:given-name>
+                                 <ce:surname>Ran</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.B.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.H.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.Y.</ce:given-name>
+                                 <ce:surname>Kang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochimica Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>303</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>183</sb:first-page>
+                              <sb:last-page>191</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0095">K. Qian, B. H. Huang, A. H. Ran, Y. B. He, B. H. Li, F. Y. Kang, Electrochimica Acta, 303 (2019) 183-191.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0075">
+                     <ce:label>15.</ce:label>
+                     <sb:reference id="rf0075">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Pei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Zhu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>283</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>24</sb:first-page>
+                              <sb:last-page>36</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0100">C. Zhang, K. Li, L. Pei, C. Zhu, J. Power Sources, 283 (2015) 24-36.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0080">
+                     <ce:label>16.</ce:label>
+                     <sb:reference id="rf0080">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.H.</ce:given-name>
+                                 <ce:surname>Pan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.Q.</ce:given-name>
+                                 <ce:surname>Lu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.L.</ce:given-name>
+                                 <ce:surname>Lin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.Z.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>138</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>764</sb:first-page>
+                              <sb:last-page>775</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0105">H. H. Pan, Z. Q. Lu, W. L. Lin, J. Z. Li, L. Chen, Energy, 138 (2017) 764-775.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0085">
+                     <ce:label>17.</ce:label>
+                     <sb:reference id="rf0085">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Xiong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Q.Q.</ce:given-name>
+                                 <ce:surname>Yu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.Y.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl Energ</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>207</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>346</sb:first-page>
+                              <sb:last-page>353</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0110">R. Xiong, Q. Q. Yu, L. Y. Wang, Appl Energ, 207 (2017) 346-353.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0090">
+                     <ce:label>18.</ce:label>
+                     <sb:reference id="rf0090">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Yi-Hsien</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.Y.</ce:given-name>
+                                 <ce:surname>Sean</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.C.</ce:given-name>
+                                 <ce:surname>Ke</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>196</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3921</sb:first-page>
+                              <sb:last-page>3932</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0115">C. Yi-Hsien, W. Y. Sean, J. C. Ke, J. Power Sources, 196 (2011) 3921-3932.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0095">
+                     <ce:label>19.</ce:label>
+                     <sb:reference id="rf0095">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.D.</ce:given-name>
+                                 <ce:surname>Zheng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.J.</ce:given-name>
+                                 <ce:surname>Xing</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.C.</ce:given-name>
+                                 <ce:surname>Jiang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.X.</ce:given-name>
+                                 <ce:surname>Sun</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.H.</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Pecht</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl Energ</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>183</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>513</sb:first-page>
+                              <sb:last-page>525</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0120">F. D. Zheng, Y. J. Xing, J. C. Jiang, B. X. Sun, J. H. Kim, M. Pecht, Appl Energ, 183 (2016) 513-525.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0100">
+                     <ce:label>20.</ce:label>
+                     <sb:reference id="rf0100">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Farmann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.U.</ce:given-name>
+                                 <ce:surname>Sauer</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>347</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                              <sb:last-page>13</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0125">A. Farmann, D. U. Sauer, J. Power Sources, 347 (2017) 1-13.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0105">
+                     <ce:label>21.</ce:label>
+                     <sb:reference id="rf0105">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.F.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.X.</ce:given-name>
+                                 <ce:surname>Huang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Xia</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Mi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl Energ</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>237</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>682</sb:first-page>
+                              <sb:last-page>694</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0130">J. F. Yang, W. X. Huang, B. Xia, C. Mi, Appl Energ, 237 (2019) 682-694.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0110">
+                     <ce:label>22.</ce:label>
+                     <sb:reference id="rf0110">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Pan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Dong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.G.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.B.</ce:given-name>
+                                 <ce:surname>Nie</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.Y.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.H.</ce:given-name>
+                                 <ce:surname>Cao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.Z.</ce:given-name>
+                                 <ce:surname>Jiang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochimica Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>362</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:article-number>137101</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0135">B. Pan, D. Dong, J. G. Wang, J. B. Nie, S. Y. Liu, Y. H. Cao, Y. Z. Jiang, Electrochimica Acta, 362 (2020) 137101.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0115">
+                     <ce:label>23.</ce:label>
+                     <sb:reference id="rf0115">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.B.</ce:given-name>
+                                 <ce:surname>Goodenough</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>196</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>6688</sb:first-page>
+                              <sb:last-page>6694</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0140">J. B. Goodenough, Y. Kim, J. Power Sources, 196 (2011) 6688-6694.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0120">
+                     <ce:label>24.</ce:label>
+                     <sb:reference id="rf0120">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Dreyer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Jamnik</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Guhlke</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Huth</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Moskon</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Gaberscek</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nature Materials</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>9</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>448</sb:first-page>
+                              <sb:last-page>453</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0145">W. Dreyer, J. Jamnik, C. Guhlke, R. Huth, J. Moskon, M. Gaberscek, Nature Materials, 9 (2010) 448-453.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0125">
+                     <ce:label>25.</ce:label>
+                     <sb:reference id="rf0125">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.C.</ce:given-name>
+                                 <ce:surname>Jiang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Q.J.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.P.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE T Ind Electron</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>61</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>6844</sb:first-page>
+                              <sb:last-page>6851</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0150">J. C. Jiang, Q. J. Liu, C. P. Zhang, W. Zhang, IEEE T Ind Electron, 61 (2014) 6844-6851.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0130">
+                     <ce:label>26.</ce:label>
+                     <sb:reference id="rf0130">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.D.</ce:given-name>
+                                 <ce:surname>Weidman</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Ahn</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Raj</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>249</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>219</sb:first-page>
+                              <sb:last-page>230</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0155">P. D. Weidman, D. Ahn, R. Raj, J Power Sources, 249 (2014) 219-230.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0135">
+                     <ce:label>27.</ce:label>
+                     <sb:reference id="rf0135">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Tosun</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Int J Adv Manuf Tech</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>28</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>450</sb:first-page>
+                              <sb:last-page>455</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0160">N. Tosun, Int J Adv Manuf Tech, 28 (2006) 450-455.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0140">
+                     <ce:label>28.</ce:label>
+                     <sb:reference id="rf0140">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Cortes</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.N.</ce:given-name>
+                                 <ce:surname>Vapnik</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Mach Learn</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>20</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1995</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>273</sb:first-page>
+                              <sb:last-page>297</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0165">C. Cortes and V.N. Vapnik, Mach Learn, 20 (1995) 273-297.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0145">
+                     <ce:label>29.</ce:label>
+                     <sb:reference id="rf0145">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Kohavi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:title>
+                                 <sb:maintitle>International Joint Conference on Artificial Intelligence (IJCAI)</sb:maintitle>
+                              </sb:title>
+                              <sb:date>1995</sb:date>
+                           </sb:book>
+                        </sb:host>
+                        <sb:comment>Montreal</sb:comment>
+                     </sb:reference>
+                     <ce:source-text id="se0170">R. Kohavi, International Joint Conference on Artificial Intelligence (IJCAI), 1995, Montreal</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0150">
+                     <ce:label>30.</ce:label>
+                     <ce:other-ref id="or1000">
+                        <ce:textref id="tr1000">Matlab 2015. online: https://www.mathworks.com/</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0155">
+                     <ce:label>31.</ce:label>
+                     <ce:other-ref id="or1120">
+                        <ce:textref id="tr1120">libsvm. [Online] https://www.csie.ntu.edu.tw/~cjlin/libsvm/</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

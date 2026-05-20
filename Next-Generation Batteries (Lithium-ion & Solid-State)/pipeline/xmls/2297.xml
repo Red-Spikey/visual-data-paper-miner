@@ -1,0 +1,1213 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1876610216317209</prism:url><dc:identifier>doi:10.1016/j.egypro.2016.12.131</dc:identifier><eid>1-s2.0-S1876610216317209</eid><prism:doi>10.1016/j.egypro.2016.12.131</prism:doi><pii>S1876-6102(16)31720-9</pii><dc:title>Maximum Available Capacity and Energy Estimation Based on Support Vector Machine Regression for Lithium-ion Battery </dc:title><prism:publicationName>Energy Procedia</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>18766102</prism:issn><prism:volume>107</prism:volume><prism:startingPage>68</prism:startingPage><prism:endingPage>75</prism:endingPage><prism:pageRange>68-75</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2017-02-28</prism:coverDate><prism:coverDisplayDate>February 2017</prism:coverDisplayDate><prism:copyright>© 2016 Published by Elsevier Ltd.</prism:copyright><prism:publisher>Published by Elsevier Ltd.</prism:publisher><prism:issueName>3rd International Conference on Energy and Environment Research, ICEER 2016, 7-11 September 2016, Barcelona, Spain</prism:issueName><dc:creator>Deng, Zhongwei</dc:creator><dc:creator>Yang, Lin</dc:creator><dc:creator>Cai, Yishan</dc:creator><dc:creator>Deng, Hao</dc:creator><dc:description>
+                  The practical application of electric vehicle needs an accurate and robust battery management system to monitor the battery state in real-time. The maximum available capacity (MAC) and maximum available energy (MAE) need to be derived before calculating state of charge and state of energy. However, the estimation of these two parameters is a difficult task due to the complicated and comprehensive influences of temperature, aging level and discharge rate. In this paper a data-driven algorithm, least squares support vector machine, is implemented to estimate the MAC and MAE, and the influences of temperature and degradation are taken into consideration. Meanwhile, a current correction term is proposed to compensate the effect of current rate. The experimental results verify the proposed methods have excellent estimation accuracy for LiFePO4 battery.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>ElsevierWaived</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>Battery management system</dcterms:subject><dcterms:subject>current correction</dcterms:subject><dcterms:subject>least squares support vector machine</dcterms:subject><dcterms:subject>maximum available capacity</dcterms:subject><dcterms:subject>maximum available energy.</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1876610216317209" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1876610216317209" rel="scidir"/></coredata><scopus-id>85015364387</scopus-id><scopus-eid>2-s2.0-85015364387</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85015364387" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>277910</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291711</xocs:ssid>
+         <xocs:ssid type="subj">291731</xocs:ssid>
+         <xocs:ssid type="subj">291877</xocs:ssid>
+         <xocs:ssid type="subj">291892</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Energy Procedia</xocs:srctitle>
+      <xocs:normalized-srctitle>ENERGYPROCEDIA</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20170309">2017-03-09</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20170309">2017-03-09</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20170309">2017-03-09</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20170309">2017-03-09</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2017-04-20T12:02:09</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1876610216317209</xocs:eid>
+      <xocs:pii-formatted>S1876-6102(16)31720-9</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1876610216317209</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.egypro.2016.12.131</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.2</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1876610217X00027</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20240102">2024-01-02T00:49:47.025266Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20170201</xocs:date-search-begin>
+      <xocs:date-search-end>20170228</xocs:date-search-end>
+      <xocs:year-nav>2017</xocs:year-nav>
+      <xocs:indexeddate epoch="1489060709">2017-03-09T11:58:29.663132Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids confeditor contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content oa subj suppl tomb vol volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authkeywords authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1876-6102</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>18766102</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>107</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>107</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 107</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>9</xocs:sort-order>
+      <xocs:first-fp>68</xocs:first-fp>
+      <xocs:last-lp>75</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>68</xocs:first-page>
+         <xocs:last-page>75</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201702</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>February 2017</xocs:cover-date-text>
+      <xocs:cover-date-start>2017-02-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2017-02-28</xocs:cover-date-end>
+      <xocs:cover-date-year>2017</xocs:cover-date-year>
+      <xocs:title-editors-groups>
+         <xocs:title-editors-group>
+            <ce:title>3rd International Conference on Energy and Environment Research, ICEER 2016, 7-11 September 2016, Barcelona, Spain</ce:title>
+            <ce:editors>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00027-14d7693ff8daa0265f06c27c03048d21">
+                     <ce:degrees>Dr.</ce:degrees>
+                     <ce:given-name>Nídia de</ce:given-name>
+                     <ce:surname>Sá Caetano</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00027-17200090f26e8fb78d61a756ec35c29d">
+                     <ce:degrees>Dr.</ce:degrees>
+                     <ce:given-name>Manuel</ce:given-name>
+                     <ce:surname>Carlos Felgueiras</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00027-2686a0cf953000253875348efcb96e3f">
+                     <ce:degrees>Dr.</ce:degrees>
+                     <ce:given-name>Marc Alier</ce:given-name>
+                     <ce:surname>Forment</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+            </ce:editors>
+         </xocs:title-editors-group>
+      </xocs:title-editors-groups>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>© 2016 Published by Elsevier Ltd.</xocs:copyright-line>
+      <xocs:normalized-article-title>MAXIMUMAVAILABLECAPACITYENERGYESTIMATIONBASEDSUPPORTVECTORMACHINEREGRESSIONFORLITHIUMIONBATTERY</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>DENG</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>Z</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="sbref0005">
+            <xocs:ref-normalized-surname>LU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>272</xocs:ref-first-fp>
+            <xocs:ref-last-lp>288</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0010">
+            <xocs:ref-normalized-surname>BURGOS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>355</xocs:ref-first-fp>
+            <xocs:ref-last-lp>366</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0015">
+            <xocs:ref-normalized-surname>SHEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1093</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1098</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0020">
+            <xocs:ref-normalized-surname>JUNPING</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>858</xocs:ref-first-fp>
+            <xocs:ref-last-lp>864</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0025">
+            <xocs:ref-normalized-surname>HU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>682</xocs:ref-first-fp>
+            <xocs:ref-last-lp>693</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0030">
+            <xocs:ref-normalized-surname>WAAG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>321</xocs:ref-first-fp>
+            <xocs:ref-last-lp>339</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0035">
+            <xocs:ref-normalized-surname>MAMADOU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>105</xocs:ref-first-fp>
+            <xocs:ref-last-lp>112</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="oref0040"/>
+         <xocs:ref-info refid="sbref0045">
+            <xocs:ref-normalized-surname>LIU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>151</xocs:ref-first-fp>
+            <xocs:ref-last-lp>157</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0050">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>50</xocs:ref-first-fp>
+            <xocs:ref-last-lp>62</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0055">
+            <xocs:ref-normalized-surname>HAUSMANN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>148</xocs:ref-first-fp>
+            <xocs:ref-last-lp>158</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0060">
+            <xocs:ref-normalized-surname>ZHENG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>33</xocs:ref-first-fp>
+            <xocs:ref-last-lp>41</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0065">
+            <xocs:ref-normalized-surname>GUO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>457</xocs:ref-first-fp>
+            <xocs:ref-last-lp>462</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0070">
+            <xocs:ref-normalized-surname>BARAI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>81</xocs:ref-first-fp>
+            <xocs:ref-last-lp>85</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0075">
+            <xocs:ref-normalized-surname>DONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>879</xocs:ref-first-fp>
+            <xocs:ref-last-lp>888</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0080">
+            <xocs:ref-normalized-surname>DONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>277</xocs:ref-first-fp>
+            <xocs:ref-last-lp>286</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0085">
+            <xocs:ref-normalized-surname>FENG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>192</xocs:ref-first-fp>
+            <xocs:ref-last-lp>203</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0090">
+            <xocs:ref-normalized-surname>DENG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>472</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0095">
+            <xocs:ref-normalized-surname>BARRE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>680</xocs:ref-first-fp>
+            <xocs:ref-last-lp>689</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0100">
+            <xocs:ref-normalized-surname>DENG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>469</xocs:ref-first-fp>
+            <xocs:ref-last-lp>480</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>DENGX2017X68</xocs:refkey3>
+         <xocs:refkey4lp>DENGX2017X68X75</xocs:refkey4lp>
+         <xocs:refkey4ai>DENGX2017X68XZ</xocs:refkey4ai>
+         <xocs:refkey5>DENGX2017X68X75XZ</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2016-12-27T00:47:04Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>ElsevierWaived</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/PROC_UNBOUNDED_ESWaived">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY-NC-ND license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2016 Published by Elsevier Ltd.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1876-6102(16)31720-9</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1876610216317209</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1876610216317209</xocs:eid>
+         <xocs:doi>10.1016/j.egypro.2016.12.131</xocs:doi>
+         <xocs:cid>277910</xocs:cid>
+         <xocs:timestamp>2024-01-02T00:49:47.025266Z</xocs:timestamp>
+         <xocs:cover-date-start>2017-02-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2017-02-28</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1876610216317209-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1876610216317209/MAIN/application/pdf/b9bc3330f5571014ccea3cebeafb8e2a/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1876610216317209/MAIN/application/pdf/b9bc3330f5571014ccea3cebeafb8e2a/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>329714</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>8</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1876610216317209-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1876610216317209/PREVIEW/image/png/8f8794b6d7a4e959e6efb64780690f01/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1876610216317209/PREVIEW/image/png/8f8794b6d7a4e959e6efb64780690f01/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>46452</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">1876-6102 Â© 2017 Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license  (http://creativecommons.org/licenses/by-nc-nd/4.0/). Peer-review under responsibility of the scientific committee of the 3rd International Conference on Energy and Environment Research. doi: 10.1016/j.egypro.2016.12.131   Energy Procedia  107 ( 2017 )  68 â€“ 75  ScienceDirect 3rd International Conference on Energy and Environment Research, ICEER 2016, 7-11 September  2016, Barcelona, Spain  Maximum Available Capacity and Energy Estimation Based on  Support Vector Machine Regression for Lithium-ion Battery  Zhongwei Deng, Lin Yang*, Yishan Cai, Hao Deng  Institute of Automotive Electronic Technology, Shanghai Jiao Tong University, 800 DongChuan Road, Shanghai 200240, China  Abstract  The practical application of electric vehicle needs an accurate and robust battery management system to monitor the battery state in real-time. The maximum available capacity (MAC) and maximum available energy (MAE) need to be derived before  calculating state of charge and state of energy. However, the estimation of these two parameters is a difficult task due to the complicated and comprehensive influences of temperature, aging level and discharge rate. In this paper a data-driven algorithm, least squares support vector machine, is implemented to estimate the MAC and MAE, and the influences of temperature and  degradation are taken into consideration. Meanwhile, a current correction term is proposed to compensate the effect of current  rate. The experimental results verify the proposed methods have excellent estimation accuracy for LiFePO4 battery.   Â© 2016 The Authors. Published by Elsevier Ltd.  Peer-review under responsibility of the scientific committee of the 3rd International Conference on Energy and Environment  Research.  Keywords: Battery management system; current correction; least squares support vector machine; maximum available capacity; maximum  available energy.  1. Introduction  The increasing pressure from environmental pollution and energy crisis contribute to the hybridization and  electrification of vehicle propulsion systems. With the superiority of high specific energy and power, lithium-ion  batteries are selected as the main energy storage systems for electric vehicles (EVs). During the whole life-cycle of  * Corresponding author. Tel.: +86-139-1682-7881.  E-mail address: yanglin@sjtu.edu.cn.  Available online at www.sciencedirect.com Â© 2017 Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license  (http://creativecommons.org/licenses/by-nc-nd/4.0/). Peer-review under responsibility of the scientific committee of the 3rd International Conference on Energy and Environment Research.  Zhongwei Deng et al. /  Energy Procedia  107 ( 2017 )  68 â€“ 75 69 battery, an intelligent battery management system (BMS) is indispensable to online monitor the battery state and  prevent the abuse of battery.  The state of charge (SOC) as a crucial index of battery state cannot be calculated directly. The Ampere-hour (Ah)  counting is the most widely used method to calculate SOC in real application but it is an open-loop calculation  method. The open circuit voltage method is accurate but the battery needs long time to relax, which is unsuitable for  real application [1]. Besides, the fuzzy logic [2], artificial neural network (ANN) [3], and support vector machine  (SVM) [4, 5] methods have been applied to construct the black-box models for SOC estimation. The similar  disadvantages of above mentioned methods are the requirement of extensive experimental data to extract the prior  knowledge or train the models. Wang et al. [4] point out that the merit of SVM compared with ANN is the property  of condensing information in the training data and providing a sparse representation by using a very small number of  data points. The most frequently used algorithm for SOC estimation is the extended Kalman filter method which  combines the Ah counting with open circuit voltage correction. This method realizes the closed-loop estimation of  SOC, and a variety of the analogous improved algorithms have been proposed [6]. Generally, the remaining driving  range is embodied by the SOC of battery pack, and estimated by transmitting the remaining capacity in terms of Ah  into driving distance. Some authors have proposed that the state of energy (SOE) serves as an analogue to the fuel  gauge for EV range prediction better than SOC [7-10]. Mamadou et al. [7, 8] presented a definition of SOE and a  method to calculate SOE based on direct power integral which is similar to the Ampere-hour counting method. Liu  et al. [9] proposed an improved direct SOE estimation method at dynamic currents and temperatures based on Back  Propagation Neural Network. However, it is an open-loop estimation method, and the estimation accuracy of this  method may become poor due to the incorrect measurements. Zhang et al. [10] established a joint estimator for SOE  and state of power, where the parameters of battery model are estimated dynamically using the recursive least square  (RLS) algorithm method. However, it does not take the influences of temperature and discharge rate on MAE into  consideration. The maximum available capacity (MAC) and maximum available energy (MAE) are the amount of charge and  energy that can be released from the battery starting from a fully charged state, respectively. These two  indispensable parameters can contribute to the SOC and SOE estimation, and also indicate the state of health (SOH)  of battery. However, the estimation of MAC and MAE are crucial challenges of battery monitoring due to the  comprehensive influences of temperature, aging level and discharge rate. The simplest idea to acquire MAC is  accumulating the charges (Q) between two SOC levels and then calculating the value of /Q SOCÎ” . It is worth  noting that only voltage-based SOC estimation methods are effective for this method. Hausmann et al. [11] employ  temperature and current correction terms similar to the Peukertâ€™s law to calculate the remaining available capacity,  but the aging factor is not taken into consideration. Zheng et al. [12] and Guo et al. [13] demonstrated that the MAC  is related to the variation of constant current charging curves, and can be determined by comparing the measured  voltage curve with the parameterized charging voltage curve of the new battery. This method is suitable for the pure  electric vehicles with specific charging procedure. In terms of MAE, Barai et al. [14] proposed a method to consider  the discharge rate based on the short-term cycling history of battery. Dong et al. [15, 16] derived the empirical  expression of MAE with the variables temperature and discharge rate. However, the above methods do not take the  influence of aging level into account, and the aging is the vital factor determining the capacity and energy of the  battery. Aiming at the existing problem, the data-driven algorithm, namely least squares support vector machine  (LS-SVM) was implemented to accurately estimate MAC and MAE. The proposed LS-SVM model is a common  resolution for the estimation of MAC and MAE due to their quite similar characteristics. The influences of  temperature and degradation are considered by inputting corresponding feature parameters, while the effect of  discharge rate is considered by multiplying the current correction term according to the Peukertâ€™s law.  2. Battery parametric model  2.1. Battery model  The SOC has been employed in the figurative sense as a replacement for a fuel gauge used in conventional  vehicles. It provides the information of the remaining available capacity of battery, and can be defined as Eq. (1).  Similarly, the SOE is generally defined as the ratio of the residual energy to the MAE of battery, and can be  70   Zhongwei Deng et al. /  Energy Procedia  107 ( 2017 )  68 â€“ 75  expressed as Eq. (2).  0 0 ( ) ( ) t Mt ISOC t SOC d C Î·Î¼ Ï„ Ï„= âˆ’ Â³                                                                                                                       (1) 0 0 ( ) ( ) ( ) t t Mt U ISOE t SOE d E Î¼ Ï„ Ï„ Ï„= âˆ’ Â³                                                                                                                      (2)  where Î·  is the coulomb efficiency and can be assumed as ( 1Î· â‰… ) in most cases due to the very low rate of side  reactions for lithium-ion battery; ,M MC E  are the MAC and MAE of battery, respectively; Î¼ is the current  correction term introduced to take the effect of discharge rate into consideration, and will be discussed in section 2.3.  According to Eq. (1) and Eq. (2), a simple capacity or energy integral method can be employed to calculate SOC  and SOE of battery. It is noted that the accuracy of this method curiously depends on the precise estimation of MAC  and MAE at different operating temperatures and aging levels of battery.   A variety of equivalent circuit models have been proposed to model the dynamic characteristic of battery. Among  them, the ThÃ©venin model, as shown in Fig. 1, is the most widely used [17, 18]. intR  is used to represent the  electrical resistance of battery components or with the accumulation and dissipation of charge in the electrical  double layer. The first-order RC network is to model the diffusion phenomena of the battery because of its relatively  slower dynamics. The OCV stands for the equilibrium potential of the battery, and is a function of SOC and battery  temperature. Load current I is the input variable (suppose positive for discharge, negative for charge), and terminal  voltage tU  is the output variable. The battery model can be expressed as in equations (3):  p p p p p t oc p int U IU C R C U U U R I = âˆ’ + = âˆ’ âˆ’ &lt;                                                                                                                                         (3)  where pU  is the terminal voltage of the RC network; ocU  is the mean value of OCV at charge and discharge  condition.   Fig. 1. The structure of ThÃ©venin model.  2.2. Obtaining aging features  For applying the LS-SVM to estimate MAC and MAE among the lifetime of battery, the aging features need to  be extracted as the input parameters of LS-SVM model. The two principal consequences of battery aging are  capacity loss and impedance raise [19]. The impedance parameters can be derived by fitting the battery model with I as the input variable and tU  as the output variable. Aiming at the practical application in EVs, the model parameters  need to be dynamically identified to reflect the effect of present driving condition. The RLS algorithm can be used  to online identify the model parameters and has the advantage of low computation complexity [20]. Before applying  the RLS algorithm, a single input single output (SISO) discrete system of the battery model needs to be derived in  advance. By discretizing Eq. (3) with zero-order hold method, the state equation of the battery model can be  represented as:  , 1 ,exp( ) (1 exp( ))p k p k p k t tU U R I Ï„ Ï„+ Î” Î” = âˆ’ + âˆ’ âˆ’                                                                                                      (4) , 1 , 1 1t k oc p k int kU U U R I+ + += âˆ’ âˆ’                                                                                                                              (5)  Zhongwei Deng et al. /  Energy Procedia  107 ( 2017 )  68 â€“ 75 71 where tÎ”  is fixed sampling period and time constant p pR CÏ„ = . By replacing Eq. (4) in Eq. (5), we can get the complete response of the ThÃ©venin model as:  , 1 , 1(exp( ) (1 exp( )) )t k oc p k p k int k t tU U U R I R I Ï„ Ï„+ + Î” Î” = âˆ’ âˆ’ + âˆ’ âˆ’ âˆ’  (6)  Combining the previous state of Eq. (5), we can eliminate ,p kU  and get,  , 1 , 1 1 exp( ) (1 exp( )) (exp( ) (1 exp( )) )t k t k oc int k int p k T k t t t tU U U R I R R I Ï„ Ï„ Ï„ Ï„+ + + Î” Î” Î” Î” = âˆ’ + âˆ’ âˆ’ âˆ’ + âˆ’ âˆ’ âˆ’ âˆ’ = Ï† Î¸  (7)  where  , 1,1, , [exp( ), (1 exp( )) , , exp( ) (1 exp( )) ] t k k k oc int int p U I I t t t tU R R R Ï„ Ï„ Ï„ Ï„ += Âª ÂºÂ¬ Â¼ Î” Î” Î” Î” = âˆ’ âˆ’ âˆ’ âˆ’ âˆ’ âˆ’ âˆ’ âˆ’ Ï† Î¸  (8)  Then the RLS algorithm with forgetting factor can be implemented to realize online parameters identification.  The forgetting factor gives higher weight to the new data so that the algorithm can avoid the phenomenon of data  saturation. The detailed implementation methods of RLS algorithm for battery parameters identification are  presented in the works of Feng et al. and Deng et al. [17, 18].   Fig. 2. The online identification results of RLS algorithm: (a) UDDS profiles; (b) voltage errors.  For validating the proposed online identification model, we need battery current and voltage profiles to  implement the RLS algorithm. The urban dynamometer driving schedule (UDDS) cycle is the typical driving cycle,  which is widely used to evaluate the battery model and the state estimation algorithms. The current profile of the  UDDS cycle is extracted from an electric vehicle, and then loaded into the battery to generate the voltage response.  The UDDS cycle current and voltage profiles are shown in Fig. 2(a), while the voltage errors between measured and  estimated terminal voltages using the RLS algorithm are shown in Fig. 2(b). The mean voltage error is only 1.2 mV,  and the maximum voltage error is 11.3 mV. These results verify that the ThÃ©venin model can effectively capture the  dynamic characteristics of battery and the RLS algorithm can online estimate the model parameters accurately.   Fig. 3. Comparison of impedance parameters between (a) new and (b) aged batteries (25 Â°C).  72   Zhongwei Deng et al. /  Energy Procedia  107 ( 2017 )  68 â€“ 75  In the battery aging tests of this paper, an operating cycle of battery includes fully charging the battery by the  constant current-constant voltage mode and then fully discharging the battery by the constant current mode. With  the increase of operating cycles, the degree of aging gradually aggravated. Applying the RLS algorithm for the  battery at different number of cycles, the varying law of impedance parameters along with aging can be obtained.  The comparison of impedance parameters between new and aged batteries is presented in Fig. 3, where the evident  increase of impedance can be observed. Thus, we can use the impedance parameters as the input of LS-SVM model  to reflect the effect of aging on MAC and MAE.  2.3. Current correction term  The Peukertâ€™s equation is intended to establish the relationship between the discharge current and discharge time  (or battery capacity) [12], and it can be expressed by a single equation (9):  constantkI t =                                                                                                                                                  (9)  where k is the Peukertâ€™s coefficient with the value approximating 1.03 for lithium-ion battery and much lower than  that for lead-acid battery. When discharging a battery at relatively higher current, the available capacity of the  battery decreases. By transforming Eq. (9), the actual capacity (C) at a different discharge rate can be calculated as  in Eq. (10):   1( / ) /kM n MC C I I C Î¼âˆ’= =                                                                                                                            (10) where nI  and I are the nominal current and actual current respectively; Î¼  as defined previously, can compensate  the effect of discharge rate on MAC and MAE.  The fitting results of Peukertâ€™s equation for LiFePO4 battery at different temperatures are presented in Table 1.        Table 1. The fitting results of Peukertâ€™s equation for LiFePO4 battery.  Temperature (Â°C) (Discharge current (A), Lasting time (s)) Fitting results  -10 (12, 1353),(24, 677),(36, 411) 1.046 18230I t = 0 (12, 2558),(24, 1157),(36, 769) 1.117 41020I t = 25 (12, 3025),(24, 1507),(36, 1005) 1.004 36660I t = 52 (12, 3111),(24, 1539),(36, 1012) 1.019 39170I t = 3. Principle of LS-SVM  The LS-SVM is the improved pattern of the standard SVM. It uses the equality constraints to replace the  inequality constraints in SVM, thus the original quadratic programming problem becomes solving the simpler linear  equations [4]. The problem of LS-SVM can be described as in Eq. (11):  2 2 1 1 min 2 2 . .    ( ) ,    1,2,..., l i i i i i C e s t y b e i lÏ• = + + + = Â¦ w w = w x                                                                                                           (11)  where x  is the input data with m attributes; ( )Ï• x  is the nonlinear mapping function; ,bw  are the weight and  intercept of the hyperplane respectively; l represents the sampling number of the training set; C is the positive  penalty term; and ie  can be looked as the self-defined regression error.   Building the Lagrangian function of Eq. (11) we get Eq. (12):  2 2 1 1 1 ( , , ; ) ( ( ) ) 2 2 l l i i i i i i i CL b e e y b eÎ± Ï• = = = + + âˆ’ âˆ’ âˆ’Â¦ Â¦w w xwÎ±  (12)  where iÎ±  are the Lagrangian multipliers.   According to the optimality conditions, the solution of Eq. (11) can be derived as Eq. (13):   1 00 T b C Iâˆ’ Âª Âº Âª Âº Âª Âº Â« Â» =Â« Â» Â« Â» Â« Â» Â¬ Â¼ Â¬ Â¼+Â¬ Â¼ 1 1 G G Î© Î± y                                                                                                                                  (13)   Zhongwei Deng et al. /  Energy Procedia  107 ( 2017 )  68 â€“ 75 73 where 1 2 1 2[1,1,...,1] , [ , ,..., ] , [ , ,..., ] T T T l ly y y Î± Î± Î±= = =1 K y Î± , and Î©  is a square matrix with  ( , ) ( ) ( ),  , 1, 2,...,Tij i j i jK i j lÏ• Ï•Î© = = =x x x x . The kernel function ( , )i jK x x  is intended to replace the dot product  of two high dimension elements and thus greatly reduces the computing power. The Gauss kernel function as in Eq.  (14) has been proved with excellent generalization ability and will be used in this work.  2 2( , ) exp( / 2 )i iK Ïƒ= âˆ’ âˆ’x x x x                                                                                                                     (14)  After training of the LS-SVM model, we can obtain the predicted model in Eq. (15):  1 ( ) ( , ) l i i i f K bÎ± = = +Â¦x x x                                                                                                                                 (15)  The estimation accuracy of LS-SVM is intensively dependent to the input feature parameters. As discussed  before, the temperature, aging level and discharge rate are the main factors affecting the MAC and MAE. The  influence of discharge rate can be compensated by the current correction term as discussed in section 2.3, and the  effect of aging level can be equivalent to the effect of impedance parameters on MAC and MAE. Furthermore, the  direct representation of capacity and energy degradation is that the terminal voltage change ( VÎ” ) continuously  increases with discharging or charging the same amount of Ah. Since VÎ”  is different in the whole voltage range,  the present value of voltage needs to be included. Thus each input data owns five attributes containing temperature,  , , V,int pR R Î”  and voltage.   In this paper, the sampling interval of input data is 10% nominal capacity change instead of the SOC change. VÎ” is acquired under this interval, and the temperature, present voltage and ,int pR R  are the mean values during the  interval. It is noted that ,int pR R  are obtained by the online identification method in section 2.2.  4. Experimental validation and discussion  The battery experiments consist of constant current (CC) discharge, constant current-constant voltage (CC-CV)  charge, and UDDS cycle tests. The UDDS cycle tests are conducted every 50 cycles to validate the proposed  algorithms. The capacity and energy released by the CC discharge experiments at different temperatures serve as the  measured MAC and MAE. In this study, the battery available energy is equal to the time integral of current times  terminal voltage rather than the simple product of capacity and OCV [15]. This energy considers the loss on the  resistance thus more access to the meaning of available energy. The characteristic parameters of the used LiFePO4  battery are presented in Table 2. The LS-SVM model needs to be fully trained before applying to the MAC and  MAE estimation. To ensure the effectiveness of the LS-SVM model, the training data should cover the expected  range of practical operation conditions. In the battery aging tests, four LiFePO4 batteries continuously operate under  four typical temperatures, this is -12, 0, 25 and 52 Â°C, respectively. The sample set is constructed by extracting the  results of the UDDS cycle tests every 50 cycles at different temperatures, and 400 samples among the lifetime of  battery are acquired finally. In this paper, the sample set was divided into two parts, 100 samples are randomly  chosen for validation, while the remaining 300 samples are used to train the model. During the training process, the  parameters that should be optimized for LS-SVM model are the penalty term C and g in the Gauss kernel function,  where 21/ 2g Ïƒ= âˆ’ . In this paper, the optimal parameters were obtained by applying the genetic algorithm (GA),  which is a powerful stochastic search and optimization technique based on the process of evolution theory. The  fitness function of the GA is the inverse of the root mean square error (RMSE) of the estimated MAC and MAE, and  is the function of the parameters (C, g). The optimal parameters of LS-SVM models and the numeric results of  estimation errors are listed in Table 3. The MAC estimation results by the LS-SVM model are presented in Fig. 4,  while the MAE estimation results are presented in Fig. 5. In the training process of MAC estimation, the max error  (MaxE) is 0.0244 Ah and the RMSE is 0.0083 Ah. While in the test process, the MaxE is 0. 2031 Ah and the RMSE  is 0. 0631Ah. Comparing with the 10 Ah nominal capacity, the MaxE of the estimated MAC is only 2%, which is  much small and acceptable. In the training process of MAE estimation, the MaxE is 0.1475 Wh and the RMSE is  0.0451 Wh. While in the test process, the MaxE is 0. 7638 Wh and the RMSE is 0. 2730 Wh. Since the nominal  energy of the battery is 30.184 Wh, so the MaxE of the estimated MAE is only 2.6%. These results verify that the  proposed LS-SVM models have been fully trained and thus obtain very high estimation accuracy.  74   Zhongwei Deng et al. /  Energy Procedia  107 ( 2017 )  68 â€“ 75               Table 2. Characteristic parameters of the used LiFePO4 battery.  Name Value  Rated capacity 10 Ah  Nominal voltage 3.2 V  Maximum discharge current (continuous) 36 A  Maximum charge current (continuous) 24 A  Maximum discharge current (within 15s) 48 A  Cut-off voltage range 2.5~3.6 V            Table 3. The optimal parameters of LS-SVM models and the numeric results of estimation errors.  C g Training process Test process  MaxE RMSE MaxE RMSE  MAC estimation 2.2 2.8 0.0244 Ah 0.0083 Ah 0.2031 Ah 0.0631 Ah  MAE estimation 2.4 3.1 0.1475 Wh 0.0451 Wh 0.7638 Wh 0.2730 Wh  Fig. 4. The MAC estimation results by the LS-SVM algorithm: (a) training process; (b) test process.  Fig. 5. The MAE estimation results by the LS-SVM algorithm: (a) training process; (b) test process.  5. Conclusion  The MAC and MAE are two crucial parameters facilitating the calculation of SOC and SOE, and also indicating  the SOH of the battery. In order to accurately estimate MAC and MAE among the lifetime of the battery, the  advanced data-driven algorithm, namely the LS-SVM is employed, which can take the influences of temperature  and aging level into consideration. The input feature parameters of LS-SVM model consist of temperature,  , , V,int pR R Î”  and voltage, where impedance parameters ,int pR R represent the influence of aging level and are  acquired by applying the RLS algorithm to the ThÃ©venin model. While the effect of discharge rate is compensated  by the current correction term according to the Peukertâ€™s law. The parameters of the LS-SVM model are optimized  by the GA algorithm to reduce the estimation error. Finally, 2% MaxE of the estimated MAC and 2.6% MaxE of the  estimated MAE are acquired. These results verify the excellent estimation accuracy of the proposed LS-SVM model.  Future research will combine the proposed LS-SVM method with the model-based algorithms to estimate the SOC,  SOE and SOH of the battery. This combination makes it possible to estimate the battery state at different   Zhongwei Deng et al. /  Energy Procedia  107 ( 2017 )  68 â€“ 75 75 temperatures along the lifetime of battery.  Acknowledgements  This work was supported by National Key Technology R&amp;D Program under Grant 2013BAG03B01. The authors  would like to express their appreciations for the fund.  References  [1] Lu L, Han X, Li J, Hua J, Ouyang M. A review on the key issues for lithium-ion battery management in electric vehicles. Journal of Power  Sources 2013;226:272-288.  [2] C Burgos, D SÃ¡ez, M E Orchard, R. CÃ¡rdenas. Fuzzy modelling for the state-of-charge estimation of lead-acid batteries. Journal of Power  Sources 2015;274:355-366.  [3] Shen Y. Adaptive online state-of-charge determination based on neuro-controller and neural network. Energy Conversion and Management  2010;51(5):1093-1098.  [4] W Junping, C Quanshi, C Binggang. Support vector machine based battery model for electric vehicles. Energy Conversion and  Management 2006;47:858-864.  [5] J Hu, J Hu, H Lin, X Li, C Jiang, X Qiu, W Li. State-of-charge estimation for battery management system using optimized support vector  machine for regression. Journal of Power Sources 2014;269:682-693.  [6] W Waag, C Fleischer, D U Sauer. Critical review of the methods for monitoring of lithium-ion batteries in electric and hybrid vehicles.  Journal of Power Sources 2014;258:321-339.  [7] Mamadou K, Delaille A, Lemaire-Potteau E, Bultel, Y. The state-of-energy: A new criterion for the energetic performances evaluation of  electrochemical storage devices. ECS Transactions 2010;25(35):105-112.  [8] Mamadou K, Lemaire E, Delaille A, Riu D, Hing S E, Bultel Y. Definition of a state-of-energy indicator (SoE) for electrochemical storage  devices: application for energetic availability forecasting. Journal of The Electrochemical Society 2012;159(8): A1298-A1307.  [9] Liu X, Wu J, Zhang C, Chen Z. A method for state of energy estimation of lithium-ion batteries at dynamic currents and temperatures.  Journal of Power Sources 2014;270:151-157.  [10] Zhang W, Shi W, Ma Z. Adaptive unscented Kalman filter based state of energy and power capability estimation approach for lithium-ion  battery. Journal of Power Sources 2015;289:50-62.  [11] A Hausmann, C Depcik. Expanding the Peukert equation for battery capacity modeling through inclusion of a temperature dependency.  Journal of Power Sources 2013;235:148-158.  [12] Y Zheng, L Lu, X Han, J Li, M Ouyang. LiFePO4 battery pack capacity estimation for electric vehicles based on charging cell voltage  curve transformation. Journal of Power Sources 2013;226:33-41.  [13] Z Guo, X Qiu, G Hou, B Y Liaw, C Zhang. State of health estimation for lithium ion batteries based on charging curves. Journal of Power  Sources 2014;249:457-462.  [14] Barai A, Uddin K, Widanalage W D, McGordon A, Jennings P. The effect of average cycling current on total energy of lithium-ion batteries for electric vehicles. Journal of Power Sources 2016;303:81-85.  [15] Dong G, Zhang X, Zhang C, Chen Z. A method for state of energy estimation of lithium-ion batteries based on neural network model.  Energy 2015;90:879-888.  [16] Dong G, Chen Z, Wei J, Zhang C, Wang P. An online model-based method for state of energy estimation of lithium-ion batteries using dual  filters. Journal of Power Sources 2016;301:277-286.  [17] Feng T, Yang L, Zhao X, Zhang H, Qiang J. Online identification of lithium-ion battery parameters based on an improved equivalent-circuit  model and its implementation on battery state-of-power prediction. Journal of Power Sources 2015;281:192-203.  [18] Deng Z, Yang L, Cai Y, Deng H. Online Identification with Reliability Criterion and State of Charge Estimation Based on a Fuzzy Adaptive Extended Kalman Filter for Lithium-Ion Batteries. Energies 2016;9(6):472.  [19] BarrÃ© A, Deguilhem B, Grolleau S, GÃ©rard M, Suard F, Riu D. A review on lithium-ion battery ageing mechanisms and estimations for  automotive applications. Journal of Power Sources 2013;241:680-689.  [20] Deng Z, Yang L, Cai Y, Deng H, Sun L. Online available capacity prediction and state of charge estimation based on advanced data-driven  algorithms for lithium iron phosphate battery. Energy 2016;112:469-480.  owledgements  This work was supported by National Key Technology R&amp;D Program under Grant 2013BAG03B01. The authors  would like to express their appreciations for the fund.  References  [1] Lu L, Han X, Li J, Hua J, Ouyang M. A review on the key issues for lithium-ion battery management in electric vehicles. Journal of Power  Sources 2013;226:272-288.  [2] C Burgos, D SÃ¡ez, M E Orchard, R. CÃ¡rdenas. Fuzzy modelling for the state-of-charge estimation of lead-acid batteries. Journal of Power  Sources 2015;274:355-366.  [3] Shen Y. Adaptive online state-of-charge determination based on neuro-controller and neural network. Energy Conversion and Management  2010;51(5):1093-1098.  [4] W Junping, C Quanshi, C Binggang. Support vector machine based battery model for electric vehicles. Energy Conversion and  Management 2006;47:858-864.  [5] J Hu, J Hu, H Lin, X Li, C Jiang, X Qiu, W Li. State-of-charge estimation for battery management system using optimized support vector  machine for regression. Journal of Power Sources 2014;269:682-693.  [6] W Waag, C Fleischer, D U Sauer. Critical review of the methods for monitoring of lithium-ion batteries in electric and hybrid vehicles.  Journal of Power Sources 2014;258:321-339.  [7] Mamadou K, Delaille A, Lemaire-Potteau E, Bultel, Y. The state-of-energy: A new criterion for the energetic performances evaluation of  electrochemical storage devices. ECS Transactions 2010;25(35):105-112.  [8] Mamadou K, Lemaire E, Delaille A, Riu D, Hing S E, Bultel Y. Definition of a state-of-energy indicator (SoE) for electrochemical storage  devices: application for energetic availability forecasting. Journal of The Electrochemical Society 2012;159(8): A1298-A1307.  [9] Liu X, Wu J, Zhang C, Chen Z. A method for state of energy estimation of lithium-ion batteries at dynamic currents and temperatures.  Journal of Power Sources 2014;270:151-157.  [10] Zhang W, Shi W, Ma Z. Adaptive unscented Kalman filter based state of energy and power capability estimation approach for lithium-ion  battery. Journal of Power Sources 2015;289:50-62.  [11] A Hausmann, C Depcik. Expanding the Peukert equation for battery capacity modeling through inclusion of a temperature dependency.  Journal of Power Sources 2013;235:148-158.  [12] Y Zheng, L Lu, X Han, J Li, M Ouyang. LiFePO4 battery pack capacity estimation for electric vehicles based on charging cell voltage  curve transformation. Journal of Power Sources 2013;226:33-41.  [13] Z Guo, X Qiu, G Hou, B Y Liaw, C Zhang. State of health estimation for lithium ion batteries based on charging curves. Journal of Power  Sources 2014;249:457-462.  [14] Barai A, Uddin K, Widanalage W D, McGordon A, Jennings P. The effect of average cycling current on total energy of lithium-ion batteries for electric vehicles. Journal of Power Sources 2016;303:81-85.  [15] Dong G, Zhang X, Zhang C, Chen Z. A method for state of energy estimation of lithium-ion batteries based on neural network model.  Energy 2015;90:879-888.  [16] Dong G, Chen Z, Wei J, Zhang C, Wang P. An online model-based method for state of energy estimation of lithium-ion batteries using dual  filters. Journal of Power Sources 2016;301:277-286.  [17] Feng T, Yang L, Zhao X, Zhang H, Qiang J. Online identification of lithium-ion battery parameters based on an improved equivalent-circuit  model and its implementation on battery state-of-power prediction. Journal of Power Sources 2015;281:192-203.  [18] Deng Z, Yang L, Cai Y, Deng H. Online Identification with Reliability Criterion and State of Charge Estimation Based on a Fuzzy Adaptive Extended Kalman Filter for Lithium-Ion Batteries. Energies 2016;9(6):472.  [19] BarrÃ© A, Deguilhem B, Grolleau S, GÃ©rard M, Suard F, Riu D. A review on lithium-ion battery ageing mechanisms and estimations for  automotive applications. Journal of Power Source</xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.4" xml:lang="en" docsubtype="fla">
+         <item-info>
+            <jid>EGYPRO</jid>
+            <aid>28808</aid>
+            <ce:pii>S1876-6102(16)31720-9</ce:pii>
+            <ce:doi>10.1016/j.egypro.2016.12.131</ce:doi>
+            <ce:copyright type="unknown" year="2017"/>
+         </item-info>
+         <head>
+            <ce:article-footnote>
+               <ce:label>☆</ce:label>
+               <ce:note-para id="npar0005" view="all">Peer-review under responsibility of the scientific committee of the 3rd International Conference on Energy and Environment Research.</ce:note-para>
+            </ce:article-footnote>
+            <ce:title id="tit0005">Maximum Available Capacity and Energy Estimation Based on Support Vector Machine Regression for Lithium-ion Battery</ce:title>
+            <ce:author-group id="aug0005">
+               <ce:author id="aut0005" author-id="S1876610216317209-a6318e2315bfdea61f48698695afafac">
+                  <ce:given-name>Zhongwei</ce:given-name>
+                  <ce:surname>Deng</ce:surname>
+               </ce:author>
+               <ce:author id="aut0010" author-id="S1876610216317209-5aaded9c804dff1d2a1b69f2a0a927a2">
+                  <ce:given-name>Lin</ce:given-name>
+                  <ce:surname>Yang</ce:surname>
+                  <ce:cross-ref id="crf0005" refid="cor0005">
+                     <ce:sup loc="post">⁎</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:author id="aut0015" author-id="S1876610216317209-56b9f4e2f784a088bc95bd8124f50b3c">
+                  <ce:given-name>Yishan</ce:given-name>
+                  <ce:surname>Cai</ce:surname>
+               </ce:author>
+               <ce:author id="aut0020" author-id="S1876610216317209-53728d920619d249608fb44b4838313b">
+                  <ce:given-name>Hao</ce:given-name>
+                  <ce:surname>Deng</ce:surname>
+               </ce:author>
+               <ce:affiliation id="aff0005">
+                  <ce:textfn>Institute of Automotive Electronic Technology, Shanghai Jiao Tong University, 800 DongChuan Road, Shanghai 200240, China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Institute of Automotive Electronic Technology, Shanghai Jiao Tong University, 800 DongChuan Road, Shanghai 200240</sa:organization>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:correspondence id="cor0005">
+                  <ce:label>⁎</ce:label>
+                  <ce:text>Corresponding author. Tel.: +86-139-1682-7881.</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:abstract id="abs0005" view="all" class="author"><ce:abstract-sec id="abst0005" view="all">
+                  <ce:simple-para id="spar0005" view="all">The practical application of electric vehicle needs an accurate and robust battery management system to monitor the battery state in real-time. The maximum available capacity (MAC) and maximum available energy (MAE) need to be derived before calculating state of charge and state of energy. However, the estimation of these two parameters is a difficult task due to the complicated and comprehensive influences of temperature, aging level and discharge rate. In this paper a data-driven algorithm, least squares support vector machine, is implemented to estimate the MAC and MAE, and the influences of temperature and degradation are taken into consideration. Meanwhile, a current correction term is proposed to compensate the effect of current rate. The experimental results verify the proposed methods have excellent estimation accuracy for LiFePO4 battery.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="kwd0005" class="keyword" view="all">
+               <ce:section-title id="sect0010">Keywords</ce:section-title>
+               <ce:keyword id="kw0005">
+                  <ce:text>Battery management system</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0010">
+                  <ce:text>current correction</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0015">
+                  <ce:text>least squares support vector machine</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0020">
+                  <ce:text>maximum available capacity</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0025">
+                  <ce:text>maximum available energy.</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <tail view="all">
+            <ce:bibliography id="bibl0005" view="all">
+               <ce:section-title id="sect0020">References</ce:section-title>
+               <ce:bibliography-sec id="bibs0005" view="all">
+                  <ce:bib-reference id="bib0005">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference id="sbref0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Lu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Han</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Hua</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Ouyang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A review on the key issues for lithium-ion battery management in electric vehicles</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>226</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>272</sb:first-page>
+                              <sb:last-page>288</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0010">
+                     <ce:label>[2]</ce:label>
+                     <sb:reference id="sbref0010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Burgos</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Sáez</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.E.</ce:given-name>
+                                 <ce:surname>Orchard</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Cárdenas</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Fuzzy modelling for the state-of-charge estimation of lead-acid batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>274</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>355</sb:first-page>
+                              <sb:last-page>366</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0015">
+                     <ce:label>[3]</ce:label>
+                     <sb:reference id="sbref0015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Shen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Adaptive online state-of-charge determination based on neuro-controller and neural network</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy Conversion and Management</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>51</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>5</sb:issue-nr>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1093</sb:first-page>
+                              <sb:last-page>1098</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0020">
+                     <ce:label>[4]</ce:label>
+                     <sb:reference id="sbref0020">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Junping</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Quanshi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Binggang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Support vector machine based battery model for electric vehicles</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy Conversion and Management</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>47</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>858</sb:first-page>
+                              <sb:last-page>864</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0025">
+                     <ce:label>[5]</ce:label>
+                     <sb:reference id="sbref0025">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Hu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Hu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Lin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Jiang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Qiu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>State-of-charge estimation for battery management system using optimized support vector machine for regression</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>269</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>682</sb:first-page>
+                              <sb:last-page>693</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0030">
+                     <ce:label>[6]</ce:label>
+                     <sb:reference id="sbref0030">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Waag</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Fleischer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.U.</ce:given-name>
+                                 <ce:surname>Sauer</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Critical review of the methods for monitoring of lithium-ion batteries in electric and hybrid vehicles</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>258</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>321</sb:first-page>
+                              <sb:last-page>339</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0035">
+                     <ce:label>[7]</ce:label>
+                     <sb:reference id="sbref0035">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Mamadou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Delaille</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Lemaire-Potteau</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Bultel</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The state-of-energy: A new criterion for the energetic performances evaluation of electrochemical storage devices</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>ECS Transactions</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>25</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>35</sb:issue-nr>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>105</sb:first-page>
+                              <sb:last-page>112</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0040">
+                     <ce:label>[8]</ce:label>
+                     <ce:other-ref id="oref0040">
+                        <ce:textref>Mamadou K, Lemaire E, Delaille A, Riu D, Hing S E, Bultel Y. Definition of a state-of-energy indicator (SoE) for electrochemical storage devices: application for energetic availability forecasting. Journal of The Electrochemical Society 2012; 159(8): A1298-A1307.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0045">
+                     <ce:label>[9]</ce:label>
+                     <sb:reference id="sbref0045">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A method for state of energy estimation of lithium-ion batteries at dynamic currents and temperatures</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>270</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>151</sb:first-page>
+                              <sb:last-page>157</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0050">
+                     <ce:label>[10]</ce:label>
+                     <sb:reference id="sbref0050">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Shi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Ma</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Adaptive unscented Kalman filter based state of energy and power capability estimation approach for lithium-ion battery</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>289</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>50</sb:first-page>
+                              <sb:last-page>62</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0055">
+                     <ce:label>[11]</ce:label>
+                     <sb:reference id="sbref0055">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Hausmann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Depcik</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Expanding the Peukert equation for battery capacity modeling through inclusion of a temperature dependency</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>235</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>148</sb:first-page>
+                              <sb:last-page>158</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0060">
+                     <ce:label>[12]</ce:label>
+                     <sb:reference id="sbref0060">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Zheng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Lu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Han</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Ouyang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>LiFePO4 battery pack capacity estimation for electric vehicles based on charging cell voltage curve transformation</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>226</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>33</sb:first-page>
+                              <sb:last-page>41</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0065">
+                     <ce:label>[13]</ce:label>
+                     <sb:reference id="sbref0065">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Guo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Qiu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Hou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.Y.</ce:given-name>
+                                 <ce:surname>Liaw</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>State of health estimation for lithium ion batteries based on charging curves</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>249</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>457</sb:first-page>
+                              <sb:last-page>462</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0070">
+                     <ce:label>[14]</ce:label>
+                     <sb:reference id="sbref0070">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Barai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Uddin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.D.</ce:given-name>
+                                 <ce:surname>Widanalage</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>McGordon</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Jennings</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The effect of average cycling current on total energy of lithium-ion batteries for electric vehicles</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>303</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>81</sb:first-page>
+                              <sb:last-page>85</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0075">
+                     <ce:label>[15]</ce:label>
+                     <sb:reference id="sbref0075">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Dong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A method for state of energy estimation of lithium-ion batteries based on neural network model</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>90</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>879</sb:first-page>
+                              <sb:last-page>888</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0080">
+                     <ce:label>[16]</ce:label>
+                     <sb:reference id="sbref0080">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Dong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Wei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>An online model-based method for state of energy estimation of lithium-ion batteries using dual filters</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>301</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>277</sb:first-page>
+                              <sb:last-page>286</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0085">
+                     <ce:label>[17]</ce:label>
+                     <sb:reference id="sbref0085">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Feng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Qiang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Online identification of lithium-ion battery parameters based on an improved equivalent-circuit model and its implementation on battery state-of-power prediction</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>281</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>192</sb:first-page>
+                              <sb:last-page>203</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0090">
+                     <ce:label>[18]</ce:label>
+                     <sb:reference id="sbref0090">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Deng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Cai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Deng</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Online Identification with Reliability Criterion and State of Charge Estimation Based on a Fuzzy Adaptive Extended Kalman Filter for Lithium-Ion Batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energies</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>9</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>6</sb:issue-nr>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>472</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0095">
+                     <ce:label>[19]</ce:label>
+                     <sb:reference id="sbref0095">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Barré</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Deguilhem</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Grolleau</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Gérard</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Suard</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Riu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A review on lithium-ion battery ageing mechanisms and estimations for automotive applications</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>241</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>680</sb:first-page>
+                              <sb:last-page>689</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0100">
+                     <ce:label>[20]</ce:label>
+                     <sb:reference id="sbref0100">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Deng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Cai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Deng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Sun</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Online available capacity prediction and state of charge estimation based on advanced data-driven algorithms for lithium iron phosphate battery</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>112</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>469</sb:first-page>
+                              <sb:last-page>480</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

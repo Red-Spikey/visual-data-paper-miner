@@ -1,0 +1,1025 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1877705816302740</prism:url><dc:identifier>doi:10.1016/j.proeng.2016.05.059</dc:identifier><eid>1-s2.0-S1877705816302740</eid><prism:doi>10.1016/j.proeng.2016.05.059</prism:doi><pii>S1877-7058(16)30274-0</pii><dc:title>Random Vibration Energy Harvesting by Piezoelectric Stack Charging the Battery </dc:title><prism:publicationName>Procedia Engineering</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>18777058</prism:issn><prism:volume>144</prism:volume><prism:startingPage>645</prism:startingPage><prism:endingPage>652</prism:endingPage><prism:pageRange>645-652</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2016-12-31</prism:coverDate><prism:coverDisplayDate>2016</prism:coverDisplayDate><prism:copyright>© 2016 The Author(s). Published by Elsevier Ltd.</prism:copyright><prism:publisher>The Author(s). Published by Elsevier Ltd.</prism:publisher><prism:issueName>International Conference on Vibration Problems 2015</prism:issueName><dc:creator>Shevtsov, Sergey</dc:creator><dc:creator>Flek, Michail</dc:creator><dc:description>
+                  This paper highlights the electric energy harvesting system that consists of piezoelectric (PZT) stack transducer which is excited by random mechanical oscillating force and charges the Li-Ion battery. This battery is a power supply for LED lamp lighting. A very big electric capacitance of the multilayered PZT stack affects on the electric energy flow from PZT energy source to the electric sink. The reason for this influence is because the electric capacitance of the device, its mechanical losses and leakage increase along with the increased number of PZT layers. An electronic circuitry of the studied energy harvesting system provides the interfaces between the piezoelectric device and electric load. Such the circuits should match the input impedance of electric load (battery) and output impedance of voltage source (PZT stack). Basing on the experimental data and the finite element (FE) investigation we derive and tune the lumped model of multilayered PZT stack, which transforms the energy of low frequency mechanical excitation with random amplitudes and discretely distributed frequencies to the energy of electric current. In order to optimize an efficiency of harvester we find the number of PZT layers at constrained excitation parameters, stack's dimensions, and generated voltage required by the charging battery. The lumped model of the whole harvesting system has been built in SimElectronics / Simulink MATLAB© environment. It was also simulated to find the best harvesting system parameters.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>ElsevierWaived</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>Structural optimization</dcterms:subject><dcterms:subject>mechanical vibration</dcterms:subject><dcterms:subject>energy harvesting</dcterms:subject><dcterms:subject>piezoelectric transducer</dcterms:subject><dcterms:subject>electric circuit</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1877705816302740" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1877705816302740" rel="scidir"/></coredata><scopus-id>84982903415</scopus-id><scopus-eid>2-s2.0-84982903415</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/84982903415" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>278653</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291884</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Procedia Engineering</xocs:srctitle>
+      <xocs:normalized-srctitle>PROCEDIAENGINEERING</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20160525">2016-05-25</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20160525">2016-05-25</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20160525">2016-05-25</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20160525">2016-05-25</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2021-12-30T19:56:14</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1877705816302740</xocs:eid>
+      <xocs:pii-formatted>S1877-7058(16)30274-0</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1877705816302740</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.proeng.2016.05.059</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.3</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1877705816X00124</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20211230">2021-12-30T21:07:20.025685Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20160101</xocs:date-search-begin>
+      <xocs:date-search-end>20161231</xocs:date-search-end>
+      <xocs:year-nav>2016</xocs:year-nav>
+      <xocs:indexeddate epoch="1464222586">2016-05-26T00:29:46.760616Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids confeditor contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content oa subj suppl tomb vol volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authkeywords authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1877-7058</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>18777058</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>144</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>144</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 144</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>79</xocs:sort-order>
+      <xocs:first-fp>645</xocs:first-fp>
+      <xocs:last-lp>652</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>645</xocs:first-page>
+         <xocs:last-page>652</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>2016</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>2016</xocs:cover-date-text>
+      <xocs:cover-date-start>2016-01-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2016-12-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2016</xocs:cover-date-year>
+      <xocs:title-editors-groups>
+         <xocs:title-editors-group>
+            <ce:title>International Conference on Vibration Problems 2015</ce:title>
+            <ce:editors>
+               <ce:author-group>
+                  <ce:author id="ceauthor1" author-id="S1877705816X00124-5e9ef59ccbdfe57b80ed77cbc990ee2b">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>Santosha</ce:given-name>
+                     <ce:surname>K. Dwivedy</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author id="ceauthor2" author-id="S1877705816X00124-79b9edb3b733deaf41d4f92261930e60">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>Rajiv</ce:given-name>
+                     <ce:surname>Tiwari</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+            </ce:editors>
+         </xocs:title-editors-group>
+      </xocs:title-editors-groups>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>D Smart structures</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>© 2016 The Author(s). Published by Elsevier Ltd.</xocs:copyright-line>
+      <xocs:normalized-article-title>RANDOMVIBRATIONENERGYHARVESTINGBYPIEZOELECTRICSTACKCHARGINGBATTERY</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>SHEVTSOV</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>S</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="sbref0005">
+            <xocs:ref-normalized-surname>ERTURK</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>PIEZOELECTRICENERGYHARVESTING</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0010">
+            <xocs:ref-normalized-surname>LIU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>575</xocs:ref-first-fp>
+            <xocs:ref-last-lp>586</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0015">
+            <xocs:ref-normalized-surname>LIAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>505</xocs:ref-first-fp>
+            <xocs:ref-last-lp>515</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0020">
+            <xocs:ref-normalized-surname>BOHAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2255</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2269</xocs:ref-last-lp>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0025">
+            <xocs:ref-normalized-surname>LIANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>515</xocs:ref-first-fp>
+            <xocs:ref-last-lp>528</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0030">
+            <xocs:ref-normalized-surname>SHEVTSOV</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>145</xocs:ref-first-fp>
+            <xocs:ref-last-lp>157</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0035">
+            <xocs:ref-normalized-surname>ELVIN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>587</xocs:ref-first-fp>
+            <xocs:ref-last-lp>596</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0040">
+            <xocs:ref-normalized-surname>YANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2223</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2237</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0045">
+            <xocs:ref-normalized-surname>WICKENHEISER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1343</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1362</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0050">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2021</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2040</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0055">
+            <xocs:ref-normalized-surname>FLINT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1995</xocs:ref-pub-year>
+            <xocs:ref-first-fp>117</xocs:ref-first-fp>
+            <xocs:ref-last-lp>126</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>E</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0060">
+            <xocs:ref-normalized-surname>RUPP</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1923</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1940</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0065">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1626</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1637</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0070">
+            <xocs:ref-normalized-surname>WEITZING</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1999</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1333</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1337</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0075">
+            <xocs:ref-normalized-surname>LEE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2003</xocs:ref-pub-year>
+            <xocs:ref-first-fp>849</xocs:ref-first-fp>
+            <xocs:ref-last-lp>854</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0080">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2003</xocs:ref-pub-year>
+            <xocs:ref-first-fp>81</xocs:ref-first-fp>
+            <xocs:ref-last-lp>85</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0085">
+            <xocs:ref-normalized-surname>TREMBLAY</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-last-lp>10</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>O</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0090">
+            <xocs:ref-normalized-surname>WIJEWARDANA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>622</xocs:ref-first-fp>
+            <xocs:ref-last-lp>631</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>SHEVTSOVX2016X645</xocs:refkey3>
+         <xocs:refkey4lp>SHEVTSOVX2016X645X652</xocs:refkey4lp>
+         <xocs:refkey4ai>SHEVTSOVX2016X645XS</xocs:refkey4ai>
+         <xocs:refkey5>SHEVTSOVX2016X645X652XS</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2016-05-10T01:08:06Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>ElsevierWaived</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/PROC_UNBOUNDED_ESWaived">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY-NC-ND license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2016 The Author(s). Published by Elsevier Ltd.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:funding-list has-funding-info="1">
+         <xocs:funding-addon-generated-timestamp>2021-05-24T08:21:21.199Z</xocs:funding-addon-generated-timestamp>
+         <xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined</xocs:funding-addon-type>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>RFBR</xocs:funding-agency-matched-string>
+            <xocs:funding-agency-acronym>RFBR</xocs:funding-agency-acronym>
+            <xocs:funding-agency>Russian Foundation for Basic Research</xocs:funding-agency>
+            <xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100002261</xocs:funding-agency-id>
+            <xocs:funding-agency-country>http://sws.geonames.org/2017370/</xocs:funding-agency-country>
+         </xocs:funding>
+         <xocs:funding-text>The authors wish to kindly acknowledge the partial financial support from RFBR (Grant 15-08-00849).</xocs:funding-text>
+      </xocs:funding-list>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1877-7058(16)30274-0</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1877705816302740</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1877705816302740</xocs:eid>
+         <xocs:doi>10.1016/j.proeng.2016.05.059</xocs:doi>
+         <xocs:cid>278653</xocs:cid>
+         <xocs:timestamp>2021-12-30T21:07:20.025685Z</xocs:timestamp>
+         <xocs:cover-date-start>2016-01-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2016-12-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1877705816302740-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1877705816302740/MAIN/application/pdf/9e9a691af8a6d77448ad1204983bc58f/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>343376</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>8</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1877705816302740-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1877705816302740/PREVIEW/image/png/11f73bab960c8cd0c5ced5c69cd63f11/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>54967</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd"> Procedia Engineering  144 ( 2016 )  645 â€“ 652  Available online at www.sciencedirect.com 1877-7058 Â© 2016 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license  (http://creativecommons.org/licenses/by-nc-nd/4.0/). Peer-review under responsibility of the organizing committee of ICOVP 2015 doi: 10.1016/j.proeng.2016.05.059  ScienceDirect 12th International Conference on Vibration Problems, ICOVP 2015  Random Vibration Energy Harvesting by Piezoelectric Stack  Charging the Battery  Sergey Shevtsova,b*, Michail Flekc,d  aSouth Center of Russian Academy, 41, Chekhov str., Rostov on Don, 344006, Russia   bSouthern Federal University, 105/42, Sadovaya str., Rostov on Don, 344006, Russia  cRostvertol PJSC, 5, Novatorov str., Rostov on Don, 344038, Russia  dDon State Technical University, 1, Gagarin sq., Rostov on Don, 344000, Russia    Abstract  This paper highlights the electric energy harvesting system that consists of piezoelectric (PZT) stack transducer which is excited  by random mechanical oscillating force and charges the Li-Ion battery. This battery is a power supply for LED lamp lighting. A  very big electric capacitance of the multilayered PZT stack affects on the electric energy flow from PZT energy source to the  electric sink. The reason for this influence is because the electric capacitance of the device, its mechanical losses and leakage  increase along with the increased number of PZT layers. An electronic circuitry of the studied energy harvesting system provides  the interfaces between the piezoelectric device and electric load. Such the circuits should match the input impedance of electric  load (battery) and output impedance of voltage source (PZT stack). Basing on the experimental data and the finite element (FE)  investigation we derive and tune the lumped model of multilayered PZT stack, which transforms the energy of low frequency  mechanical excitation with random amplitudes and discretely distributed frequencies to the energy of electric current. In order to  optimize an efficiency of harvester we find the number of PZT layers at constrained excitation parameters, stackâ€™s dimensions,  and generated voltage required by the charging battery. The lumped model of the whole harvesting system has been built in  SimElectronics / Simulink MATLABÂ© environment. It was also simulated to find the best harvesting system parameters.  Â© 2016 S. Shevtsov, M. Flek. Published by Elsevier Ltd.  Peer-review under responsibility of the organizing committee of ICOVP 2015.  Keywords: Structural optimization; mechanical vibration; energy harvesting; piezoelectric transducer; electric circuit.      * Corresponding author. Tel.: +7-903-401-3385.  E-mail address: sergnshevtsov@gmail.com   016 The Authors. Publish d by Elsevi r Ltd. This is an open access article under the CC BY-NC-ND license  (http://creativecommons. rg/licenses/by-nc-nd/4.0/). Peer-review under responsibility of the organizing committee of ICOVP 2015 646   Sergey Shevtsov and Michail Flek /  Procedia Engineering  144 ( 2016 )  645 â€“ 652  1. Introduction  The problem of renewable energy sourcesâ€™ efficient use, such as solar, geothermal, hydro-energy, ambient  vibration energy, attracts the growing attention of wide range of engineering specialties. Bridges, buildings,  railways, highways surface on which traffic moves, and even human walking are the sources of such mechanical  vibrations that can be transformed to the electric energy. Piezoelectric transducers are the most efficient devices to  implement such energies transformation and harvesting. Many ways of their use are studied in the fundamental  monograph [1] and survey papers, such as [2 - 4] to overcome difficulties, e.g., to the match impedances of  piezoelectric transducer and electric loading circuits. In those cases when a host vibrating structure is relatively light,  an energy harvesting subsystem acts back to the host structure, e.g. in the form of the structural damping increase [5,  6], and this further complicates design of the harvesting system. Its electronic parts, which usually combine resistive  / capacitive / inductive load with rectifier, may be supplemented by the semi-active circuits that open or close a  switch when the peak force is achieved across the device, and/or by the active energy harvesting that utilizes a  bidirectional switch-mode converter to control the voltage on the PZT device electrodes [7 -10]. Most approaches to  the optimization of PZT based vibration energy harvesters implies some conversion of FE model of the piezoelectric  transducer to the lumped model, then its merging with equations that describe an electric circuit, and solving this  joint system [7 - 9].   To present equivalent circuit equations in the easiest form, most of works study an efficiency of harvesters that  are installed on the light weight cantilever in a frequency domain. Such harvesters are developed for the small power  AC/DC generation, whereas PZT stack based harvesters can perceive very high vibration forces and they are  intended for high power applications. However, reports devoted to the study of high power harvesters based on PZT  stacks are very rare [11, 12]. Wang et al. [13] present the analytical model for dynamics of piezoelectric composite  stack transducers, on the base of linear piezo-elasticity. This model describes the stackâ€™s behavior in a broad  frequency range. But it must be admitted that it is cumbersome and difficult for analysis and solving an inverse  optimization problem.   It is important to note two things that sufficiently simplify the problem of optimal design the PZT stack based  harvesters. The high mechanical stiffness of piezoelectric stacks leads to their very high eigenfrequencies, which are  far from the vibrations frequencies; so, we can neglect any resonance phenomena. Another simplification is due to  very big mass of the host structures, which transmit mechanical vibrations to the stack. It allows justifying the  neglect of the influence of the harvesterâ€™s dynamics on the host structure, and exclude the energy return phenomenon  [1], [5], [9, 10] from our consideration.  At the formulation of the harvesterâ€™s optimization problem [7], [12] we assume a design space, which includes a  number of piezoelectric layers, area of their plane surface, thickness, and the design constraints such as total volume  and height. As the operational conditions of power PZT stack we assume random, low frequency range, high force  excitation, generated by a moving transport and transmitted to the harvester by a pavement. Due to a high force  excitation the minimum value of PZT stackâ€™s cross-section area is constrained by the strength of piezoelectric  ceramics. Significant decrease of cyclic fatigue properties of poled piezo ceramics, which experience the mechanical  loading combined with an electric field [14] are highlighted in many works [14 - 16]. Basing on the above stated,  such combined electro-mechanical action can decrease an admissible cyclic stresses twice [16].  All the referred articles inform not only of the investigation in the field of different kinds of harvesters, but only  of harvesters with passive load, which consume the entire electric power. Nevertheless, mechanical energy  conversion to the electro-magnetic field at the capacitive and/or inductive load) or to the heat, at just resistive load, is  unsensed. More by token, power PZT stack harvester cannot be a stable source of electric energy at the random  mechanical excitation; as a result an electric power generated by it, cannot be used immediately. The electric battery  application as a sink of generated electric energy is a much promising technical solution at these operating  conditions. However, the battery impedance varies during charging and discharging, and this makes it difficult  impedance matching. Hence, the piezoelectric harvester should operate effectively when the battery status is  changing. The hysteretic phenomena that are sufficiently strong for NiSD, Lead-Acid, NiMH batteries, are less  significant in the Li-Ion batteries [17, 18], and will be neglected in our study.  This paper is composed as follows. To determine the transverse dimension of the PZT stackâ€™s FE models we  accept the given vibration excitation spectrum, the maximum mechanical forces, and known fatigue strength  647 Sergey Shevtsov and Michail Flek /  Procedia Engineering  144 ( 2016 )  645 â€“ 652  properties [15, 16] of used piezoelectric ceramic. In order to tune and validate the studied FE models with different  number of layers, we compare their output at the transient analysis with the experimental data obtained for two  prototype stacks. Then we investigate and collect the frequency response functions (FRF) of output voltage at the  different values of resistance load. After that all the obtained data were used in order to tune the simplified lumped  model of PZT stack. As such the lumped model the â€œPiezoelectric Stackâ€� from the SimElectronics MATLABÂ©  block-library, was chosen. This principal decision allowed to combine together the models of the electric circuit, of  stack, and its mechanical excitation. As the electric load for the PZT stack harvester we assume the Li-Ion battery,  and we propose new equation for its charge dynamics. Using results of our simulation we found the optimal PZT  stackâ€™s design at the varying initial state of charge for the chosen battery.   2. Finite Element-to-Lumped Model of PZT Stack Transducer  In order to investigate how the number of layers affects on the stacks performance, the FE models of stacks with  4, 8, 16, and 32 identical PZT layers were studied at the varied load impedance. These layers were modeled as a  circular piezoelectric PZT-5H plate with thickness of 1 mm, whose plane surfaces were coated by the thin Ag  electrodes with thickness of 0.1 mm. The governing equations for the linear piezoelectricity were formulated in the  strain-charge form                                                                                ED E T E dT dTsS ,                                                              (1)  where S  is strain tensor, T  is stress tensor, DE,  is electric field and electric displacement vectors respectively, Es   is elastic compliance matrix, d  is piezoelectric constant matrix, T is the dielectric permittivity which is measured  at a constant stress.  All piezoelectric layers of 3D FEM model of PZT stack were connected in parallel (refer to Fig. 1), and at the  first numerical experiments were loaded on the resistance with varied value. PZT stackâ€™s model was slowly  prestressed by compressive axial force to eliminate the tensile strain, which is unacceptable for the brittle ceramic,  and then excited by the uniformly distributed force with different frequencies. These simulation results were  compared with the experimental data that allowed to validate and tune the built FE model. Electric voltage on the  load resistance was determined using Ohm's law                                0)( k dstJRV ,                                                            (2)  where alternating electric current )(tJ  through load was calculated by integration of the current density normal to  the electrodes surfaces over these surfaces .  In order to the following model simplifications the 3D FE problems were reformulated as axially symmetric,  which have a sufficiently lower computational cost. The simulations of these models were carried out at the different  number of layers N, load resistance R, and excitation frequency f to reconstruct the stackâ€™s performance parameters.  These dependencies (refer to Fig. 2) demonstrate that PZT stack performance is growing as long as the excitation  frequency; and for each frequency there is the value of the load resistance, which provides the biggest electric output  power. It is a case of full matching of impedances. And such matching load resistance decreases at the bigger  quantity of piezoelectric layers.  The lumped model of PZT stack has been constructed using â€œPiezo Stackâ€� block integrated into Simulink  MATLAB block library. This structure and dynamics of this block correspond to the equations (1) when only z-axis  is active. Any transversal effects and hysteretic phenomena were neglected. The block adjustment is performed by  entering the elements of coupling, compliance, relative permittivity matrices of piezoelectric materials, quantity and  thickness of layers into block setting window. The values of mechanical loss factor, and leakage resistance for each  stackâ€™s configuration were calculated from the experimental data. Order of these values is present in Fig. 3.  648   Sergey Shevtsov and Michail Flek /  Procedia Engineering  144 ( 2016 )  645 â€“ 652     Fig. 1. Piezoelectric stack FE model loaded by uniformly distributed axial stress:   (a) diagrammatic view [13]; (b) an example of the modeled stacks geometry.     Fig. 2. The dependencies of the output voltage (a) and output electric power (b) generated by PZT stack same as in Fig. 2.    Fig. 3. The values of leakage resistance and electric capacitance for the modeled configurations of stacks with constrained height of 96 mm.  3. Lithium-Ion Battery Model  The circuit-based models of the battery, such as RC model, Rint model, Thevenin model or PNGV model [17,  18] are most suitable for the integration into symbolic lumped model that to be created in Simulink MATLAB  environment. As the main parameter these models use so-called batteryâ€™s state of charge (SOC), which is equal to an  actual battery charge divided by the maximum battery capacity, and their feature is that they describe the stage of  charge and discharge separately. In our investigation we used the discharge model for the Li-Ion batteries that  presents in [17]  649 Sergey Shevtsov and Michail Flek /  Procedia Engineering  144 ( 2016 )  645 â€“ 652  iRitBA QQ QQ KEE in in bat exp 1.00 ,   (3)  In equation (3) E0 is battery constant voltage (V), Q is the battery capacity (A*h), id is discharge current (A), K is  the polarization constant (V/(A*h)), A is the exponential zone amplitude (V), B is the inverse time constant of  exponential zone (A*h)-1, R is the internal resistance of battery (Ohm), and inQ  is the actual battery charge (A*h).  During our examination we revealed that known charge models are complicated enough, but they aren't sufficiently  stable and accurate. The simple model suggested by us takes into consideration actual state of charge  QQSOC inin  of the battery and added charge Qadd expressed in terms of SOC  in add ininadd SOCQ Q SOCSOCQSOC 1 2 exp11, .   (4)  where   dtiQ cadd .      (5)  Battery voltage after an additional charge addQ  is calculated from equation (3) using new value of SOC, which  is determined from equation (4). The models (3) and (4) assume that internal resistance and capacity of the battery  are constant during discharge and charge cycles and their values did not vary with the amplitude of the current. The  self-discharge and memory effect of the battery were not represented.   For chosen 0.25 AËŸh battery with rated voltage of 12 V and nominal current of 12 mA, the voltage dependencies  at discharge, which were calculated from Eq. (3), change of the battery SOC at its charge, which was calculated  from Eq. (4), and corresponded battery voltage are present in Fig. 4. These plots are calculated at the assumed  battery parameters: K=0.25, A=1 V, B=30 (A*h)-1. Figure 4(d) also shows that the battery input impedance  sufficiently depends on the SOC, i.e. changes at the battery charge. Workflow diagram for harvester's load with the  battery, resistor, inductance, capacitor and element supporting Simscape / Simulink interface are given in Fig. 5.  This model can simulate both charge and discharge of the battery, but not simultaneously.        Fig. 4. The dependencies of the battery voltage at discharge (a); SOC (b), voltage (c) and apparent resistance (d) of the battery at its charge.  650   Sergey Shevtsov and Michail Flek /  Procedia Engineering  144 ( 2016 )  645 â€“ 652    Fig. 5. SimElectronics / Simulink workflow diagram for PZT harvester's load.  4. Dynamic Model to Simulate the Harvesting System  The principal parts of full equivalent circuit model of the harvesting system (refer to Fig. 6) are PZT stack itself,  the full bridge rectifier, module generating the random mechanical excitation (refer to Fig. 7), full electric load  including battery, R-C-L filter (see Fig. 6), and means for the process monitoring. Battery charging process has been  carried out for the initial values of SOC 0.3; 0.5; 0.7; 0.85 and 0.95. We also examined five different numbers of  layers in the stacks with constrained height of 96 mm: 96, 120, 160, 192 and 240 layers with their thickness of 1.0;  0.8; 0.6; 0.5 and 0.4 mm, respectively. Mechanical excitation of the harvester was controlled by two modules  â€œPrestressâ€� and â€œExcitation Forceâ€� that provide the slowly growing compression of the stack by the force up to 2500  N, and then application of alternating excitation force with random amplitudes and phases (see Fig. 7). Maximum  force amplitude was limited by the value 2000 N to eliminate the tensile strains in piezoelectric ceramics.  At each initial state of the battery charge a simulation time of 60 sec was chosen. During this time the average  charge current has been calculated by numerical integration. It allows us to quantitatively estimate the charge rate  and efficiency of the harvester at the actual SOC of the battery.  For each PZT stackâ€™s design with different number of layers we tried to choose the optimum values for the R-L-C  filter components, but the efficiency of the harvester is weakly dependent on these variables that is due to very small  impedance of the battery. For more clarity we present some optimization results for five studied PZT stacks in Fig.  8. These results confirm the ability of all studied PZT stacks to fully charge the battery during 10-16 hours. Such  charging duration corresponds to intensive transport traffic, when cars motion generates the mechanical excitation of  the highway substrate. Furthermore, these plots prove an existence of optimal PZT stackâ€™s design that corresponds  to case of 160 layers. Naturally, this inference is valid only for the accepted operating conditions and constraints.  651 Sergey Shevtsov and Michail Flek /  Procedia Engineering  144 ( 2016 )  645 â€“ 652    Fig. 6. Assembled workflow diagram for PZT stack - based harvesting system.  a    b    Fig. 7. Discrete spectrum (a); and an example of time history of the random excitation forces (b)    Fig. 8. The dependency of the charging current averaged during full battery charging time on the number of PZT layers for the randomly excited  piezoelectric stack harvesters  652   Sergey Shevtsov and Michail Flek /  Procedia Engineering  144 ( 2016 )  645 â€“ 652  5. Conclusions  The lumped symbolic model of power PZT stack - based harvester system, which transforms the mechanical  vibration energy, generated by moving transport, to the electric energy stored in Li-Ion battery, was developed and  studied to optimize the PZT stackâ€™s design. The first requirements to their design are dictated by the parameters of  mechanical vibrations experienced by PZT stack, and by the nominal voltage and electric power that should be  supply the LED lamp, which should illuminate at dark time. In its turn, the parameters of this lamp determine the  choice of the battery, which should store the harvested electric energy. The PZT stackâ€™s design is constrained also  by the fatigue strength of piezoelectric ceramics, its elastic, electromechanical and electric properties.  In order to create a lumped model for the harvesting system we build step-by-step stackâ€™s 3D FE model, then  compare its simulation results with the experimental data obtained at the study of two prototypes of stacks, further  we simplify 3D model to the axially symmetric one, and finally we tune the built-in â€œPiezoelectric Stackâ€� lumped  model from the SimElectronics MATLABÂ© block-library using the results of the previous researches. On the base  of known discharge model of Li-Ion battery we proposed a new battery charge model, which correctly describes the  battery state evolution at its charging by a current generated by PZT stack. Both these PZT stackâ€™s and battery  models together with all electronic components (full bridge diode rectifier, R-L-C filter), the means for the process  monitoring, and subsystem, which generates the random mechanical excitation, were integrated into symbolic block- diagram that has been used to investigate the battery charge by the randomly excited PZT stack harvester.   The developed approach and modeling tools allow to accurately estimate the limiting performance of PZT-stack  based harvester at the different operating conditions, and to find the parameters of stackâ€™s design, optimal for the  accepted battery characteristics.  Acknowledgements  The authors wish to kindly acknowledge the partial financial support from RFBR (Grant 15-08-00849).  References  [1]  A. Erturk, D.J. Inman, Piezoelectric Energy Harvesting, A John Wiley and Sons, Ltd, Publication, Chichester, West Sussex, UK, 2011.  [2]  Y. Liu, et al., Active Piezoelectric Energy Harvesting: General Principle and Experimental Demonstration, J.  Intel. Mat. Syst. Struct. 20   (2009) 575-586.  [3]  Y. Liao, H.A. Sodano, Structural Effects and Energy Conversion Efficiency of Power Harvesting, J. Intel. Mat. Syst. Struct. 20 (2009) 505- 515.  [4]  Bo Han et al., Harvesting energy from vibrations of the underlying structure, J. Vibr. Contr. 19(15) (2013) 2255â€“2269.  [5]  J.R.Liang, W.H.Liao, Piezoelectric Energy Harvesting and Dissipation on Structural Damping, J. Intel. Mat. Syst. Struct. 20 (2009) 515-528.  [6]  S. Shevtsov et al., On the Active Vibration Control and Stability of the Tubular Structures by Piezoelectric Patch-Like Actuators, Math.  Eng., Sci. Aero. 2 (2) (2011) 145-157.  [7]  N.G. Elvin, A.A. Elvin, A Coupled Finite Element Circuit Simulation Model for Analyzing Piezoelectric Energy Generators, J. Intel. Mat.  Syst. Struct. 20 (2009) 587-596.  [8]  Y. Yang, L. Tang, Equivalent Circuit Modeling of Piezoelectric Energy Harvesters, J. Intel. Mat. Syst. Struct. 20 (2009) 2223-2237.  [9]  A.M. Wickenheiser, E. Garcia, Power Optimization of Vibration Energy Harvesters Utilizing Passive and Active Circuits, J. Intel. Mat. Syst.  Struct.21 (2010) 1343-1362.  [10]  Y. Wang, D.J. Inman, A Survey of Control Strategies for Simultaneous Vibration Suppression and Energy Harvesting via Piezoceramics, J.  Intel. Mat. Syst. Struct. 23 (2012) 2021-2040.  [11]  E. Flint, C. Liang, C.A. Rogers, Electromechanical Analysis of Piezoelectric Stack Active Member Power Consumption, J. Intel. Mat. Syst.  Struct. 6 (1995) 117-126.  [12]  C.J. Rupp, A. Evgrafov, K. Maute, and M.L. Dunn, Design of Piezoelectric Energy Harvesting Systems: A Topology Optimization  Approach Based on Multilayer Plates and Shells, J. Intel. Mat. Syst. Struct. 20, (2009) 1923-1940.  [13]  K. Wang, Z. Shi, Z. Han, Analytical Solution of Piezoelectric Composite Stack Transducers, J. Intel. Mat. Syst. Struct. 24 (2013) 1626-1637.  [14]  H. Weitzing et al., Cyclic Fatigue Due to Electric Loading in Ferroelectric Ceramics, J. Europ. Ceram. Soc. 19 (6-7) (1999) 1333â€“1337.  [15]  K.L.Lee et al., Fatigue Failure of Ferroelectric Ceramics Subjected to Cyclic Inclined Electric Loading, Scripta Mater. 49(9) (2003) 849-854.  [16]  Y. Zhang, X. Cheng, R. Qian, Fatigue Behavior of Ferroelectric Ceramics Under Mechanically Electrically Coupled Cyclic Load, Mater.  Sci. Eng. A. 351 (1-2) (2003) 81 85.  [17]  O.Tremblay, L.A. Dessaint, Experimental Validation of a Battery Dynamic Model for EV Applications, World Electr. Veh. J. 3 (2009) 1-10.  [18]  S. Wijewardana, New Dynamic Battery Model for Hybrid Vehicles, Int. J. Emerg. Techn. Adv. Eng. 4 (4) (2014) 622-631.  otypes of stacks, further  we simplify 3D model to the axially symmetric one, and finally we tune the built-in â€œPiezoelectric Stackâ€� lumped  model from the SimElectronics MATLABÂ© block-library using the results of the previous researches. On the base  of known discharge model of Li-Ion battery we proposed a new battery charge model, which correctly describes the  battery state </xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.4" xml:lang="en" docsubtype="fla">
+         <item-info>
+            <jid>PROENG</jid>
+            <aid>28202</aid>
+            <ce:pii>S1877-7058(16)30274-0</ce:pii>
+            <ce:doi>10.1016/j.proeng.2016.05.059</ce:doi>
+            <ce:copyright type="other" year="2016">The Authors</ce:copyright>
+         </item-info>
+         <head>
+            <ce:article-footnote>
+               <ce:label>☆</ce:label>
+               <ce:note-para id="npar0005" view="all">Peer-review under responsibility of the organizing committee of ICOVP 2015.</ce:note-para>
+            </ce:article-footnote>
+            <ce:title id="tit0005">Random Vibration Energy Harvesting by Piezoelectric Stack Charging the Battery</ce:title>
+            <ce:author-group id="aug0005">
+               <ce:author id="aut0005" author-id="S1877705816302740-3af6dfb5779a1a5c624cd1e34f674964">
+                  <ce:given-name>Sergey</ce:given-name>
+                  <ce:surname>Shevtsov</ce:surname>
+                  <ce:cross-ref id="crf0005" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0010" refid="aff0010">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0015" refid="cor0005">
+                     <ce:sup loc="post">⁎</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:author id="aut0010" author-id="S1877705816302740-54fd6bbca220f366b73d627a92d58458">
+                  <ce:given-name>Michail</ce:given-name>
+                  <ce:surname>Flek</ce:surname>
+                  <ce:cross-ref id="crf0020" refid="aff0015">
+                     <ce:sup loc="post">c</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0025" refid="aff0020">
+                     <ce:sup loc="post">d</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:affiliation id="aff0005">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>South Center of Russian Academy, 41, Chekhov str., Rostov on Don, 344006, Russia</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>South Center of Russian Academy, 41, Chekhov str., Rostov on Don, 344006</sa:organization>
+                     <sa:country>Russia</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff0010">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>Southern Federal University, 105/42, Sadovaya str., Rostov on Don, 344006, Russia</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Southern Federal University, 105/42, Sadovaya str., Rostov on Don, 344006</sa:organization>
+                     <sa:country>Russia</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff0015">
+                  <ce:label>c</ce:label>
+                  <ce:textfn>Rostvertol PJSC, 5, Novatorov str., Rostov on Don, 344038, Russia</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Rostvertol PJSC, 5, Novatorov str., Rostov on Don, 344038</sa:organization>
+                     <sa:country>Russia</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff0020">
+                  <ce:label>d</ce:label>
+                  <ce:textfn>Don State Technical University, 1, Gagarin sq., Rostov on Don, 344000, Russia</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Don State Technical University, 1, Gagarin sq., Rostov on Don, 344000</sa:organization>
+                     <sa:country>Russia</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:correspondence id="cor0005">
+                  <ce:label>⁎</ce:label>
+                  <ce:text>Corresponding author. Tel.: +7-903-401-3385.</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:abstract id="abs0005" view="all" class="author"><ce:abstract-sec id="abst0005" view="all">
+                  <ce:simple-para id="spar0005" view="all">This paper highlights the electric energy harvesting system that consists of piezoelectric (PZT) stack transducer which is excited by random mechanical oscillating force and charges the Li-Ion battery. This battery is a power supply for LED lamp lighting. A very big electric capacitance of the multilayered PZT stack affects on the electric energy flow from PZT energy source to the electric sink. The reason for this influence is because the electric capacitance of the device, its mechanical losses and leakage increase along with the increased number of PZT layers. An electronic circuitry of the studied energy harvesting system provides the interfaces between the piezoelectric device and electric load. Such the circuits should match the input impedance of electric load (battery) and output impedance of voltage source (PZT stack). Basing on the experimental data and the finite element (FE) investigation we derive and tune the lumped model of multilayered PZT stack, which transforms the energy of low frequency mechanical excitation with random amplitudes and discretely distributed frequencies to the energy of electric current. In order to optimize an efficiency of harvester we find the number of PZT layers at constrained excitation parameters, stack's dimensions, and generated voltage required by the charging battery. The lumped model of the whole harvesting system has been built in SimElectronics / Simulink MATLAB© environment. It was also simulated to find the best harvesting system parameters.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="kwd0005" class="keyword" view="all">
+               <ce:section-title id="sect0010">Keywords</ce:section-title>
+               <ce:keyword id="kw0005">
+                  <ce:text>Structural optimization</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0010">
+                  <ce:text>mechanical vibration</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0015">
+                  <ce:text>energy harvesting</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0020">
+                  <ce:text>piezoelectric transducer</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0025">
+                  <ce:text>electric circuit</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <tail view="all">
+            <ce:bibliography id="bibl0005" view="all">
+               <ce:section-title id="sect0020">References</ce:section-title>
+               <ce:bibliography-sec id="bibs0005" view="all">
+                  <ce:bib-reference id="bib0005">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference id="sbref0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Erturk</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.J.</ce:given-name>
+                                 <ce:surname>Inman</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Piezoelectric Energy Harvesting</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:date>2011</sb:date>
+                              <sb:publisher>
+                                 <sb:name>A John Wiley and Sons, Ltd, Publication</sb:name>
+                                 <sb:location>Chichester, West Sussex, UK</sb:location>
+                              </sb:publisher>
+                           </sb:book>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0010">
+                     <ce:label>[2]</ce:label>
+                     <sb:reference id="sbref0010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Active Piezoelectric Energy Harvesting: General Principle and Experimental Demonstration</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Intel. Mat. Syst. Struct.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>20</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>575</sb:first-page>
+                              <sb:last-page>586</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0015">
+                     <ce:label>[3]</ce:label>
+                     <sb:reference id="sbref0015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Liao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.A.</ce:given-name>
+                                 <ce:surname>Sodano</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Structural Effects and Energy Conversion Efficiency of Power Harvesting</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Intel. Mat. Syst. Struct.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>20</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>505</sb:first-page>
+                              <sb:last-page>515</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0020">
+                     <ce:label>[4]</ce:label>
+                     <sb:reference id="sbref0020">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Bo Han</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Harvesting energy from vibrations of the underlying structure</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Vibr. Contr.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>19</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>15</sb:issue-nr>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2255</sb:first-page>
+                              <sb:last-page>2269</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0025">
+                     <ce:label>[5]</ce:label>
+                     <sb:reference id="sbref0025">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.R.</ce:given-name>
+                                 <ce:surname>Liang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.H.</ce:given-name>
+                                 <ce:surname>Liao</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Piezoelectric Energy Harvesting and Dissipation on Structural Damping</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Intel. Mat. Syst. Struct.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>20</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>515</sb:first-page>
+                              <sb:last-page>528</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0030">
+                     <ce:label>[6]</ce:label>
+                     <sb:reference id="sbref0030">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Shevtsov</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>On the Active Vibration Control and Stability of the Tubular Structures by Piezoelectric Patch-Like Actuators</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Math. Eng., Sci. Aero.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>2</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>2</sb:issue-nr>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>145</sb:first-page>
+                              <sb:last-page>157</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0035">
+                     <ce:label>[7]</ce:label>
+                     <sb:reference id="sbref0035">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>N.G.</ce:given-name>
+                                 <ce:surname>Elvin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.A.</ce:given-name>
+                                 <ce:surname>Elvin</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A Coupled Finite Element Circuit Simulation Model for Analyzing Piezoelectric Energy Generators</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Intel. Mat. Syst. Struct.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>20</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>587</sb:first-page>
+                              <sb:last-page>596</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0040">
+                     <ce:label>[8]</ce:label>
+                     <sb:reference id="sbref0040">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Tang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Equivalent Circuit Modeling of Piezoelectric Energy Harvesters</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Intel. Mat. Syst. Struct.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>20</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2223</sb:first-page>
+                              <sb:last-page>2237</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0045">
+                     <ce:label>[9]</ce:label>
+                     <sb:reference id="sbref0045">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.M.</ce:given-name>
+                                 <ce:surname>Wickenheiser</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Garcia</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Power Optimization of Vibration Energy Harvesters Utilizing Passive and Active Circuits</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Intel. Mat. Syst. Struct.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>21</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1343</sb:first-page>
+                              <sb:last-page>1362</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0050">
+                     <ce:label>[10]</ce:label>
+                     <sb:reference id="sbref0050">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.J.</ce:given-name>
+                                 <ce:surname>Inman</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A Survey of Control Strategies for Simultaneous Vibration Suppression and Energy Harvesting via Piezoceramics</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Intel. Mat. Syst. Struct.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>23</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2021</sb:first-page>
+                              <sb:last-page>2040</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0055">
+                     <ce:label>[11]</ce:label>
+                     <sb:reference id="sbref0055">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Flint</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Liang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.A.</ce:given-name>
+                                 <ce:surname>Rogers</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Electromechanical Analysis of Piezoelectric Stack Active Member Power Consumption</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Intel. Mat. Syst. Struct.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>6</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1995</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>117</sb:first-page>
+                              <sb:last-page>126</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0060">
+                     <ce:label>[12]</ce:label>
+                     <sb:reference id="sbref0060">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.J.</ce:given-name>
+                                 <ce:surname>Rupp</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Evgrafov</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Maute</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.L.</ce:given-name>
+                                 <ce:surname>Dunn</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Design of Piezoelectric Energy Harvesting Systems: A Topology Optimization Approach Based on Multilayer Plates and Shells</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Intel. Mat. Syst. Struct.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>20</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1923</sb:first-page>
+                              <sb:last-page>1940</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0065">
+                     <ce:label>[13]</ce:label>
+                     <sb:reference id="sbref0065">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Shi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Han</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Analytical Solution of Piezoelectric Composite Stack Transducers</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Intel. Mat. Syst. Struct.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>24</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1626</sb:first-page>
+                              <sb:last-page>1637</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0070">
+                     <ce:label>[14]</ce:label>
+                     <sb:reference id="sbref0070">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Weitzing</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Cyclic Fatigue Due to Electric Loading in Ferroelectric Ceramics</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Europ. Ceram. Soc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>19</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>6–7</sb:issue-nr>
+                              <sb:date>1999</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1333</sb:first-page>
+                              <sb:last-page>1337</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0075">
+                     <ce:label>[15]</ce:label>
+                     <sb:reference id="sbref0075">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.L.</ce:given-name>
+                                 <ce:surname>Lee</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Fatigue Failure of Ferroelectric Ceramics Subjected to Cyclic Inclined Electric Loading</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Scripta Mater.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>49</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>9</sb:issue-nr>
+                              <sb:date>2003</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>849</sb:first-page>
+                              <sb:last-page>854</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0080">
+                     <ce:label>[16]</ce:label>
+                     <sb:reference id="sbref0080">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Cheng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Qian</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Fatigue Behavior of Ferroelectric Ceramics Under Mechanically–Electrically Coupled Cyclic Load</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Mater. Sci. Eng. A.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>351</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>1–2</sb:issue-nr>
+                              <sb:date>2003</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>81</sb:first-page>
+                              <sb:last-page>85</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0085">
+                     <ce:label>[17]</ce:label>
+                     <sb:reference id="sbref0085">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>O.</ce:given-name>
+                                 <ce:surname>Tremblay</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.A.</ce:given-name>
+                                 <ce:surname>Dessaint</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Experimental Validation of a Battery Dynamic Model for EV Applications</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>World Electr. Veh. J.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>3</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                              <sb:last-page>10</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0090">
+                     <ce:label>[18]</ce:label>
+                     <sb:reference id="sbref0090">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Wijewardana</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>New Dynamic Battery Model for Hybrid Vehicles</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Int. J. Emerg. Techn. Adv. Eng.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>4</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>4</sb:issue-nr>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>622</sb:first-page>
+                              <sb:last-page>631</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

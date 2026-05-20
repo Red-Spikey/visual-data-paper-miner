@@ -1,0 +1,887 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1876610217346301</prism:url><dc:identifier>doi:10.1016/j.egypro.2017.09.525</dc:identifier><eid>1-s2.0-S1876610217346301</eid><prism:doi>10.1016/j.egypro.2017.09.525</prism:doi><pii>S1876-6102(17)34630-1</pii><dc:title>Systematic experimental pulse test investigation for parameter identification of an equivalent based lithium-ion battery model </dc:title><prism:publicationName>Energy Procedia</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>18766102</prism:issn><prism:volume>135</prism:volume><prism:startingPage>337</prism:startingPage><prism:endingPage>346</prism:endingPage><prism:pageRange>337-346</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2017-10-31</prism:coverDate><prism:coverDisplayDate>October 2017</prism:coverDisplayDate><prism:copyright>© 2017 The Author(s). Published by Elsevier Ltd.</prism:copyright><prism:publisher>The Author(s). Published by Elsevier Ltd.</prism:publisher><prism:issueName>11th International Renewable Energy Storage Conference, IRES 2017, 14-16 March 2017, Düsseldorf, Germany</prism:issueName><dc:creator>Böttiger, Michael</dc:creator><dc:creator>Paulitschke, Martin</dc:creator><dc:creator>Bocklisch, Thilo</dc:creator><dc:description>
+                  The paper presents an equivalent circuit based simulation model for the static and dynamic behavior of lithium-ion battery systems and explains the different steps of the theoretical and experimental modeling process. The equivalent circuit based model describes the voltage-current characteristic, the state of charge behavior and the occurring losses of the battery system. A parameter identification method based on three characteristic experiments, a cycle test, an open circuit voltage test and pulse tests, is introduced. The model parameters are estimated employing a nonlinear optimization method. Furthermore, the experimental test bed for investigation of lithium-ion battery systems is described. The battery model approach is demonstrated and validated for a commercial 5 kWh lithium-ion battery system, including the model validation for test profiles and emulated battery charging and discharging profiles of a real photovoltaic home storage application. The comparison of measured and simulated voltage profiles indicates an excellent performance of the battery model.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>ElsevierWaived</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>lithium-ion battery</dcterms:subject><dcterms:subject>modeling</dcterms:subject><dcterms:subject>equivalent circuit model</dcterms:subject><dcterms:subject>parameter identification</dcterms:subject><dcterms:subject>current-pulse</dcterms:subject><dcterms:subject>experimental testbed</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1876610217346301" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1876610217346301" rel="scidir"/></coredata><scopus-id>85035108774</scopus-id><scopus-eid>2-s2.0-85035108774</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85035108774" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>277910</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291711</xocs:ssid>
+         <xocs:ssid type="subj">291731</xocs:ssid>
+         <xocs:ssid type="subj">291877</xocs:ssid>
+         <xocs:ssid type="subj">291892</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Energy Procedia</xocs:srctitle>
+      <xocs:normalized-srctitle>ENERGYPROCEDIA</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20171028">2017-10-28</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20171028">2017-10-28</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20171028">2017-10-28</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20171028">2017-10-28</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2018-01-09T17:11:54</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1876610217346301</xocs:eid>
+      <xocs:pii-formatted>S1876-6102(17)34630-1</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1876610217346301</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.egypro.2017.09.525</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.2</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1876610217X00325</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20240102">2024-01-02T00:52:14.597726Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20171001</xocs:date-search-begin>
+      <xocs:date-search-end>20171031</xocs:date-search-end>
+      <xocs:year-nav>2017</xocs:year-nav>
+      <xocs:indexeddate epoch="1509208694">2017-10-28T16:38:14.422209Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids confeditor contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content oa subj suppl tomb vol volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authkeywords authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1876-6102</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>18766102</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>135</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>135</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 135</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>31</xocs:sort-order>
+      <xocs:first-fp>337</xocs:first-fp>
+      <xocs:last-lp>346</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>337</xocs:first-page>
+         <xocs:last-page>346</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201710</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>October 2017</xocs:cover-date-text>
+      <xocs:cover-date-start>2017-10-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2017-10-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2017</xocs:cover-date-year>
+      <xocs:title-editors-groups>
+         <xocs:title-editors-group>
+            <ce:title id="tt001">11th International Renewable Energy Storage Conference, IRES 2017, 14-16 March 2017, Düsseldorf, Germany</ce:title>
+            <ce:editors>
+               <ce:author-group id="aa001">
+                  <ce:author id="aa002" author-id="S1876610217X00325-f61ffe96177078f7c51ad5191c53fbe8">
+                     <ce:given-name>Peter</ce:given-name>
+                     <ce:surname>Droege</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+            </ce:editors>
+         </xocs:title-editors-group>
+      </xocs:title-editors-groups>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>© 2017 The Author(s). Published by Elsevier Ltd.</xocs:copyright-line>
+      <xocs:normalized-article-title>SYSTEMATICEXPERIMENTALPULSETESTINVESTIGATIONFORPARAMETERIDENTIFICATIONEQUIVALENTBASEDLITHIUMIONBATTERYMODEL</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>BOTTIGER</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>M</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="sbref0001">
+            <xocs:ref-normalized-surname>HOLLINGER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0002">
+            <xocs:ref-normalized-surname>LUTHANDER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0003">
+            <xocs:ref-normalized-surname>BOTTIGER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="oref0004"/>
+         <xocs:ref-info refid="sbref0005">
+            <xocs:ref-normalized-surname>BOCKLISCH</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0006">
+            <xocs:ref-normalized-surname>BOCKLISCH</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0007">
+            <xocs:ref-normalized-surname>PAULITSCHKE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="oref0008"/>
+         <xocs:ref-info refid="sbref0009">
+            <xocs:ref-normalized-surname>KLEIN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00010">
+            <xocs:ref-normalized-surname>GU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2000</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="oref00011"/>
+         <xocs:ref-info refid="oref00012"/>
+         <xocs:ref-info refid="sbref00013">
+            <xocs:ref-normalized-surname>ROSCHER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00014">
+            <xocs:ref-normalized-surname>KNAUFF</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00015">
+            <xocs:ref-normalized-surname>GONZALESLONGATT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00016">
+            <xocs:ref-normalized-surname>DURR</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="oref00017"/>
+         <xocs:ref-info refid="sbref00018">
+            <xocs:ref-normalized-surname>LEE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="oref00019"/>
+         <xocs:ref-info refid="sbref00020">
+            <xocs:ref-normalized-surname>PATTIPATI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>B</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00021">
+            <xocs:ref-normalized-surname>NIKOLIAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>BOTTIGERX2017X337</xocs:refkey3>
+         <xocs:refkey4lp>BOTTIGERX2017X337X346</xocs:refkey4lp>
+         <xocs:refkey4ai>BOTTIGERX2017X337XM</xocs:refkey4ai>
+         <xocs:refkey5>BOTTIGERX2017X337X346XM</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2017-09-27T00:09:04Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>ElsevierWaived</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/PROC_UNBOUNDED_ESWaived">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY-NC-ND license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2017 The Author(s). Published by Elsevier Ltd.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1876-6102(17)34630-1</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1876610217346301</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1876610217346301</xocs:eid>
+         <xocs:doi>10.1016/j.egypro.2017.09.525</xocs:doi>
+         <xocs:cid>277910</xocs:cid>
+         <xocs:timestamp>2024-01-02T00:52:14.597726Z</xocs:timestamp>
+         <xocs:cover-date-start>2017-10-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2017-10-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1876610217346301-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1876610217346301/MAIN/application/pdf/5fb3d1fcef86ad2e2f8f330b9705be2d/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1876610217346301/MAIN/application/pdf/5fb3d1fcef86ad2e2f8f330b9705be2d/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>1347382</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>10</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1876610217346301-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1876610217346301/PREVIEW/image/png/bdfc6031a18024183072b0090b0c5f8c/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1876610217346301/PREVIEW/image/png/bdfc6031a18024183072b0090b0c5f8c/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>37452</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">ScienceDirect Available online at www.sciencedirect.com Energy Procedia 135 (2017) 337â€“346 1876-6102 Â© 2017 The Authors. Published by Elsevier Ltd. Peer-review under the responsibility of EUROSOLAR - The European Association for Renewable Energy. 10.1016/j.egypro.2017.09.525 Available online at w.sciencedirect.com ScienceDirect Energy Procedia 00 ( ) 000 000 www.elsevier.com/locate/procedia 1876-6102 Â© 2017 The Authors. Published by Elsevier Ltd. Peer-review under responsibility of the Scientific Committee of The 15th International Symposium on District Heating and Cooling. The 15th International Symposium on District Heating and Cooling Assessing the feasibility of using the heat demand-outdoor  temperature function for a long-term district heat demand forecast I. AndriÄ‡a,b,c*, A. Pinaa, P. FerrÃ£oa, J. Fournierb., B. LacarriÃ¨rec, O. Le Correc aIN+ Center for Innovation, Technology and Policy Research - Instituto Superior TÃ©cnico, Av. Rovisco Pais 1, 1049-001 Lisbon, Portugal bVeolia Recherche &amp; Innovation, 291 Avenue Dreyfous Daniel, 78520 Limay, France cDÃ©partement SystÃ¨mes Ã‰nergÃ©tiques et Environnement - IMT Atlantique, 4 rue Alfred Kastler, 44300 Nantes, France Abstract District heating networks are commonly addressed in the literature as one of the most effective solutions for decreasing the  greenhouse gas emissions from the building sector. These systems require high investments which are returned through the heat sales. Due to the changed climate conditions and building renovation policies, heat demand in the future could decrease,  prolonging the investment return period.  The main scope of this paper is to assess the feasibility of using the heat demand â€“ outdoor temperature function for heat demand  forecast. The district of Alvalade, located in Lisbon (Portugal), was used as a case study. The district is consisted of 665  buildings that vary in both construction period and typology. Three weather scenarios (low, medium, high) and three district  renovation scenarios were developed (shallow, intermediate, deep). To estimate the error, obtained heat demand values were  compared with results from a dynamic heat demand model, previously developed and validated by the authors. The results showed that when only weather change is considered, the margin of error could be acceptable for some applications (the error in annual demand was lower than 20% for all weather scenarios considered). However, after introducing renovation  scenarios, the error value increased up to 59.5% (depending on the weather and renovation scenarios combination considered).  The value of slope coefficient increased on average within the range of 3.8% up to 8% per decade, that corresponds to the  decrease in the number of heating hours of 22-139h during the heating season (depending on the combination of weather and  renovation scenarios considered). On the other hand, function intercept increased for 7.8-12.7% per decade (depending on the  coupled scenarios). The values suggested could be used to modify the function parameters for the scenarios considered, and  improve the accuracy of heat demand estimations. Â© 2017 The Authors. Published by Elsevier Ltd. Peer-review under responsibility of the Scientific Committee of The 15th International Symposium on District Heating and  Cooling. Keywords: Heat demand; Forecast; Climate change 10.1016/j.egypro.2017.09.525 Â© 2017 The Authors. Published by Elsevier Ltd. Peer-review under the responsibility of EUROSOLAR - The European Association for Renewable Energy. 1876-6102   Available online at www.sciencedirect.com  ScienceDirect  Energy Procedia 00 (2017) 000â€“000     www.elsevier.com/locate/procedia    1876-6102 Â© 2017 The Authors. Published by Elsevier Ltd.  Peer-review under the responsibility of EUROSOLAR - The European Association for Renewable Energy.   11th International Renewable Energy Storage Conference, IRES 2017, 14-16 March 2017,  DÃ¼sseldorf, Germany  Systematic experimental pulse test investigation for parameter  identification of an equivalent circuit based lithium-ion battery  model  Michael BÃ¶ttiger*, Martin Paulitschke, Thilo Bocklisch  Technische UniversitÃ¤t Dresden, Chair of Energy Storage Systems, George-Baehr-Str 3c, 01069 Dresden, Germany  Abstract  The paper presents an equivalent circuit based simulation model for the static and dynamic behavior of lithium-ion battery systems  and explains the different steps of the theoretical and experimental modeling process. The equivalent circuit based model describes  the voltage-current characteristic, the state of charge behavior and the occurring losses of the battery system. A parameter  identification method based on three characteristic experiments, a cycle test, an open circuit voltage test and pulse tests, is  introduced. The model parameters are estimated employing a nonlinear optimization method. Furthermore, the experimental test  bed for investigation of lithium-ion battery systems is described. The battery model approach is demonstrated and validated for a  commercial 5 kWh lithium-ion battery system, including the model validation for test profiles and emulated battery charging and  discharging profiles of a real photovoltaic home storage application. The co parison of measured and simulated voltage profiles  indicates an excellent performance of the battery model.    Â© 2017 The Authors. Published by Elsevier Ltd.  Peer-review under the responsibility of EUROSOLAR - The European Association for Renewable En rgy.  Keywords: lithium-ion battery, modeling, equivalent circuit model, parameter identification, current-pulse, experimental testbed      * Corr sponding author. Tel.: +49-351-463-40268; ax: +49-351-463-40271.  E-mail address: michael.boettiger@tu-dresden.de    Available online at www.sciencedirect.com  ScienceDirect  Energy Procedia 00 (2017) 000â€“000     www.elsevier.com/locate/procedia    1876-6102 Â© 2017 The Authors. Published by Elsevier Ltd.  Peer-review under the responsibility of EUROSOLAR - The European Association for Renewable Energy.   11th International Renewable Energy Storage Conference, IRES 2017, 14-16 March 2017,  DÃ¼sseldorf, Germany  Systematic experiment l pulse test inves ig on for parameter  identification of an equivalent circuit based lithium-ion battery  model  Michael BÃ¶ttiger*, Martin Paulitschke, Thilo Bocklisch  Technische UniversitÃ¤t Dresden, Chair of Energy Storage Systems, George-Baehr-Str 3c, 01069 Dresden, Germany  Abstract  The paper presents an equivalent circuit based simulation model for the static and dynamic behavior of lithium-ion battery systems  and explains the different steps of the theoretical and experimental modeling process. The equivalent circuit based model describes  the voltage-current characteristic, the state of charge behavior and the occurring losses of the battery system. A parameter  identification method based on three characteristic experiments, a cycle test, an open circuit voltage test and pulse tests, is  introduced. The model parameters are estimated employing a nonlinear optimization method. Furthermore, the experimental test  bed for investigation of lithium-ion battery systems is described. The battery model approach is demonstrated and validated for a  commercial 5 kWh lithium-ion battery system, including the model validation for test profiles and emulated battery charging and  discharging profiles of a real photovoltaic home storage application. The comparison of measured and simulated voltage profiles  indicates an excellent performance of the battery model.    Â© 2017 The Authors. Published by Elsevier Ltd.  Peer-review under the responsibility of EUROSOLAR - The European Association for Renewable Energy.  Keywords: lithium-ion battery, modeling, equivalent circuit model, parameter identification, current-pulse, experimental testbed      * Corresponding author. Tel.: +49-351-463-40268; fax: +49-351-463-40271.  E-mail address: michael.boettiger@tu-dresden.de  338 Michael BÃ¶ttiger et al. / Energy Procedia 135 (2017) 337â€“346 2 M. BÃ¶ttiger, M. Paulitschke, T. Bocklisch / Energy Procedia 00 (2017) 000â€“000  1. Introduction  Due to their high energy density, long cycle-life and efficient charge and discharge behavior lithium-ion batteries  play an important role in many different kind of energy storage applications. They are increasingly used in the  consumer sector (cellphones, laptops, camcorders), the rising e-mobility sector (hybrid and full electric vehicles), as  well as in storage solutions for the optimal utilization and grid integration of renewable energies such as wind and  photovoltaics (PV) [1]. PV-home storage systems based on lithium-ion battery technology offer a great opportunity  for an improved operation with higher self-sufficiency and self-consumption, active limitation of grid feed-in power  and back-up power functionality [2, 3]. Lithium-ion batteries can also be employed in off-grid and hybrid energy  storage systems [4-6]. For the optimal sizing [7] and energy management of battery and hybrid energy storage systems  adequate simulation models are required that reflect the electrical, thermal and aging behavior (s. Fig. 1).  Fig. 1. Principle structure of a lithium-ion battery system model [8].  Model inputs are the battery current Ibatt and the ambient temperature Tamb. Model outputs are the voltage Ubatt, the  state of charge SOCbatt, the temperature Tbatt, the state of health SOHbatt, the available capacity Cbatt, the internal  resistance R0,batt, and the occurring losses Ploss of the battery. The lithium-ion battery model consists of three sub- models that are depending on each other, the electrical model, the thermal model and the aging model. This paper  only focusses on the electrical sub-model.   Different modeling approaches for the electrical behavior of lithium-ion batteries have been suggested and published.  They significantly vary in complexity and accuracy. Three main groups of battery models can be distinguished, phy- sico-chemical models [9, 10], empiric models [11, 12], and impedance based models [13-21]. Physico-chemical mo- dels characterize the chemical process inside the battery employing differential equations. This approach is very  complex, and it takes a long computing time for a simulation. Another way to model the battery behavior is the utili- zation of an empiric approach. The relationship between the internal battery parameters and the battery voltage is  formulated with functional relationships. Impedance based models characterize the battery behavior with equivalent  circuits. An electrical circuit network consisting of a voltage source, resistors and capacitors is easily to be  implemented and describes the dynamic behavior of the battery with high accuracy. The equivalent circuit based  battery model with a realistic description of the static and dynamic battery behavior, limited number of model  parameters, a simple implementation and an adaptability for different technologies (iron phosphate, titanate,  manganese) will be applied.   This paper is organized as follows, section 2 describes the lithium-ion battery model. Section 3 presents the identi- fication method focusing on the required specific tests and experiments and the description of the parameter estimation  algorithm employing a nonlinear optimization method. Section 4 explains the experimental test bed for investigation  of various lithium-ion battery systems. Section 5 presents the results of measurements and model identification process  for an example of a commercial 5 kWh lithium-ion battery system, including the discussion of the model validation  electrical model thermal model aging model Ibatt Tamb Tbatt Ploss SOHbatt SOHbatt, Cbatt, R0,batt Tbatt Tbatt Ubatt, SOCbatt, Ploss Ubatt, SOCbatt SOHbatt Ibatt  Michael BÃ¶ttiger et al. / Energy Procedia 135 (2017) 337â€“346 339 M. BÃ¶ttiger, M. Paulitschke, T. Bocklisch / Energy Procedia 00 (2017) 000â€“000   3  for pulse tests and for emulated load profiles of a typical PV-home storage application. Section 6 gives a brief summary  of the paper and an outlook on future research.  2. Lithium-ion battery model  The structure of the equivalent circuit based lithium-ion battery model used within this paper is shown in Fig. 2.  All parameters of the proposed model are functions of the state of charge SOCbatt, the current Ibatt and the temperature  Tbatt. In order to minimize the model complexity, in a first approach only the state of charge dependency and the current  direction are considered. Temperature and current rate effects are neglected.  Fig. 2. Principle structure of the equivalent circuit based lithium-ion battery model.  The chosen model structure consists of a voltage source UOCV, a serial resistance R0,batt, two RC-elements, and a  parallel resistance Rpc. The open circuit voltage UOCV describes the static behavior of the lithium-ion battery. The  nonlinear relationship between the open circuit voltage UOCV and the battery state of charge SOCbatt is represented by  the OCV-SOC-characteristic (s. equation (1)).  ï€¨ ï€©battOCV SOCfU ï€½    (1)  The serial resistance R0,batt mainly represents the ohmic losses of the current collectors, the electrodes, and the  electrolyte. It depends on the current direction and the SOCbatt. The resulting overvoltage U0 can be calculated based  on Ohmâ€™s law.  00 RIU batt ïƒ—ï€½    (2)  The two RC-elements represent the dynamic behavior of the battery. The overvoltage U1 characterizes the fast  transient processes marked by time constant Ï„1. The slow transient processes are determined by the overvoltage U2  with the associated time constant Ï„2.  ï€¨ ï€© 2,110 ï€½ïƒ—ï€­ïƒ—ï€«ï€½ï€½ ïƒ²ïƒ² i              dtUdtI RtUU i i batt i i ii ï�´ï�´  (3)  Equation (4) shows the terminal voltage Ubatt, which is calculated as the sum of the potential differences across all  RC-elements and across the ohmic resistance R0.  210 UUUUU OCVbatt ï€«ï€«ï€«ï€½   (4)  The state of charge SOCbatt is calculated from Coulomb-counting (s. equation (5)) with the battery current Ibatt as the  model input. It indicates the remaining energy amount of the battery after charging and discharging.  UOCV C1 R1 R2 C2 R0,batt UbattRpc Ibatt Ipc U2U1U0 340 Michael BÃ¶ttiger et al. / Energy Procedia 135 (2017) 337â€“3464 M. BÃ¶ttiger, M. Paulitschke, T. Bocklisch / Energy Procedia 00 (2017) 000â€“000  ï€¨ ï€©ïƒ² ïƒ—ï€­ï€«ï€½ dtIICSOCSOC pcbattbattbattbatt 1 0,    (5)  SOCbatt,0 represents the initial state of charge at time t = t0, Cbatt is the available battery capacity and Ipc the power  consumption of the battery management system. Charge and discharge losses are neglected in this model.  3. Experimental investigations and parameter identification method  3.1. Experiments  Three characteristic experiments have to be performed during the modeling process, a cycle test, an open circuit  voltage test and pulse tests.  Fig. 3 a) cycle test; b) open circuit voltage test; c) pulse test.  3.1.1. Cycle test  During the cycle test the battery is charged and discharged within a predefined voltage range with a constant current  (e.g. 10 A and three cycles) to determine the available battery capacity Cbatt, the power consumption of the battery  management system, and the parameters of the second RC-element. A pause (typically one hour) has to be made  between the changes of the current direction. Fig. 3a) shows the current- and voltage-profiles for the demonstration  example. The total measurement time is 35 h.  3.1.2. Open circuit voltage test  For this experiment the battery is charged with a slow C-rate (e.g. 0.05 C) for a defined period of time, beginning  with the minimum terminal voltage Ubatt,min. Then the charging process is paused for the relaxation processes to decay.  Afterwards the measured terminal voltage is defined as the open circuit voltage value. The battery is subsequently  charged with 0.05 C until the next measurement point is reached. The described procedure is repeated until the  maximum terminal voltage Ubatt,max is achieved. Fig. 3b) illustrates the current- and voltage-profiles for the demon- stration example. The total measurement time is 24 h.  t in h 0 15 36 -15 0 15 t in h 0 15 36 0 25 50 t in h 0 15 36 50 54 58 U ba tt  in  V I ba tt in  A Q in  A h t in h 0 3 6 0 15 30 t in h 0 3 6 0 40 80 t in h 0 3 6 48 52 56 U ba tt  in  V I ba tt in  A Q in  A h t in s 0 1200 2400 -60 0 60 t in s 0 1200 2400 -5 0 5 t in s 0 1200 2400 50 50.5 53 U ba tt  in  V I ba tt in  A Q in  A h a) b) c)  Michael BÃ¶ttiger et al. / Energy Procedia 135 (2017) 337â€“346 341 M. BÃ¶ttiger, M. Paulitschke, T. Bocklisch / Energy Procedia 00 (2017) 000â€“000   5  3.1.3. Pulse test  The third characteristic experiment involves a series of constant current charge and discharge periods (50 A). These  periods are interrupted when no current is drawn from the battery to determine the parameter R0, R1 and Ï„1 depending  on the current direction. The pulse- and pause-time is set to 300 s. This test is repeated at different SOC-levels. Fig.  3c) presents the current- and voltage-profiles for the demonstration example. The total duration of this experiment is  24 h.  3.2. Parameter identification method  The parameter identification is carried out in two steps. First, the cycle test and the open circuit voltage test are  evaluated. Subsequently to the pulse test the parameters R0,batt,ch, R0,batt,disch, R1,ch, R1,disch, Ï„1,ch and Ï„1,disch are identified  for each SOC-level. Finally, the parameters R2,ch, R2,disch, Ï„2,ch and Ï„2,disch are determined with the cycle test. A script  for an automated pulse detection is employed to significantly speed up the parameter identification process. Fig. 4a)  shows the result of two detected pulses. The green cross marks the begin and the red cross marks the end of a pulse  sequence. For a simple processing the start- and end-point of a detected pulse, the corresponding voltage, and the  SOC-level are saved   Fig. 4 a) automated pulse detection example; b) illustration of a pulse identification result at 50% SOC-level.  Initially, for each pulse sequence the resistance R0 is calculated with equation (6). Each pulse sequence contains  four positive and negative current steps. The mean values of each of these four pulses determine the final parameters  R0,batt,ch and R0,batt,disch.  1,2, 1,2, 0 battbatt battbatt II UU R ï€­ ï€­ ï€½    (6)  Next, the identification of the parameters of the first RC-element (depending on the current direction) is performed  solving the minimization problem  ï€¨ ï€© min,,,, ,1,1,1,1 ï‚®ï€­  RRIUU dischchdischchmeasbattmeas ï�´ï�´   (7)  with the Levenberg-Marquardt algorithm (â€œ|| ||â€� being the Euclidean norm). The results of the parameter  identification process for 50% SOC-level are displayed in Fig. 4b). The measured data (blue line) and the estimated  terminal voltage of the battery (red dashed line) are illustrated. The simulation error is smaller than 0.1%. Finally, the  U ba tt   in  V t in h 0 0.5 1 1.5 2 2.5 3 49 50 51 52 53 54 U ba tt   in  V a) t in s 0   800 1600 2400 3200 4000 4800 52 53 54 56 b) simulation measurement55 51 342 Michael BÃ¶ttiger et al. / Energy Procedia 135 (2017) 337â€“346 6 M. BÃ¶ttiger, M. Paulitschke, T. Bocklisch / Energy Procedia 00 (2017) 000â€“000  parameters of the second RC-element are estimated. They are determined in the same way like the parameters of the  first RC-element. In this case, the measured data of the cycle test is utilized as the reference data.  4. Experimental test bed  The experimental test bed, shown in Fig. 5a), is based on a flexible deployable mobile power supply and load  frame. In this mobile rack system, a programmable power supply (Delta Elektronika, type SM 60-100) and a  programmable electric load (HÃ¶cherl &amp; Hackl, type ZS 4812) are coupled with the lithium-ion battery.   Fig. 5. a) experimental test bed consisting of a control and monitoring PC (1), a power supply (2), an electric load (3), and a  lithium-ion battery (4); b) control scheme of the experimental testbed.  The devices communicate via RS232 with the control and monitoring PC (Fig. 5b)). The PC is employed to control  the power supply and load (current, terminal voltage), record information from the battery management system via  CAN-bus, and receive measurement data from power supply and load. For that purpose, specific software, based on a  multithreading approach, was developed. The CAN-messages of the battery are received from the USB-adapter,  interpreted and saved in the local memory. To ensure that MATLAB can analyze the actual state of the battery, once  per second the program saves the data. Every half an hour the measured data is stored on a hard disk to avoid data  loss, by an unpredictable system crash. The object-oriented implementation in classes ensures a parallel computing.  The classes contain complex initialising, control and monitoring of the power supply, load and battery in easy  functions. The coordination of the time flow is realized through different timer-functions. A graphical user interface  enables easy and efficient administration.  5. Demonstration of the parameter identification for a commercial lithium-ion battery  In this section the proposed parameter identification method is demonstrated for a commercial lithium-ion battery  (nickel-manganese-cobalt, nominal capacity: 106 Ah, nominal voltage: 48 V, nominal power: 5 kW). All experiments  have been performed at the experimental test bed presented in section 4. The practical available battery capacity is  about 99 Ah. The power consumption of the battery management system is ca. 10 W. Fig. 6 shows the result of the  open circuit voltage estimation depending on the charge transport. The black dotted line indicates the manufacturer  data. The blue line shows the measurement and the red crosses characterize the UOCV points.      electric load (HÃ¶cherl &amp;  Hackl ZS 4812) power supply (Delta  Elektronika SM60-100)  lithium-ionbattery 48 V DC bus USB RS232 control and monitoringPC Ubatt, Ibatt T batt, SOCbatt CAN/US B b) 1 3 2 4 1 2 4 3 a)  Michael BÃ¶ttiger et al. / Energy Procedia 135 (2017) 337â€“346 343 M. BÃ¶ttiger, M. Paulitschke, T. Bocklisch / Energy Procedia 00 (2017) 000â€“000   7  Fig. 6. Open circuit voltage of the investigated lithium-ion battery.  Next, the parameters describing the dynamic battery behavior are identified utilizing the data from the pulse test.  Finally, the parameters of the second RC-element are estimated. The measured data of the cycle test is utilized as  reference data. The parameters of the complete identification process are shown in the Tab. 1. The SOCbatt independent  parameters are mentioned in the headline.  Tab. 1: Overview of the battery model parameters; R2,ch = 0.028 Î©, R2,disch = 0.050 Î©, Ï„2,ch = 3744.0 s, Ï„2,disch = 6499.0 s.  SOC (%) UOCV (V) R0,ch (Î©) R0,disch (Î©) R1,ch (Î©) R1,disch (Î©) Ï„1,ch (s) Ï„1,disch (s)  30 50.68 0.0218 0.0216 0.0094 0.0101 53.0 63.3  40 51.24 0.0200 0.0198 0.0081 0.0091 48.9 58.2  50 51.80 0.0192 0.0190 0.0083 0.0086 41.8 47.7  60 52.50 0.0186 0.0184 0.0089 0.0083 60.2 50.9  70 53.90 0.0182 0.0179 0.0088 0.0079 51.1 51.6  80 55.30 0.0172 0.0169 0.0065 0.0074 23.7 29.0    To validate the proposed equivalent circuit model and the parameter identification process, the lithium-ion battery  is tested at the experimental test bed with two different kinds of profile types. Tab. 2 shows the seven validation  profiles. The root mean square value RMS was chosen to assess the lithium-ion battery model performance.  ï€¨ ï€©ïƒ¥ ï€½ ï€­ïƒ—ï€½ N i simmeas uuN RMS 1 21    (8)  Tab. 2: Experiments for the validation of the lithium-ion battery model.  Name Duration (h)  Variable pulse test at 30% SOC 6  Variable pulse test at 50% SOC 6  Variable pulse test at 80% SOC 6  Winter week 168  Spring week 168  Summer week 168  Autumn week 168  + + + + + + + + + + + + + + 0 10 20 30 40 50 60 70 80 90 100 110 48 50 52 54 56 58 Q in Ah U ba tt   in  V measurement manufacturer OCV-points+ 344 Michael BÃ¶ttiger et al. / Energy Procedia 135 (2017) 337â€“346 8 M. BÃ¶ttiger, M. Paulitschke, T. Bocklisch / Energy Procedia 00 (2017) 000â€“000  First, the analysis of the variable pulse tests shows that the measured terminal voltage fits very well with the  simulated battery voltage. The RMS value for the 30% SOC-level is 0.1039 V, the value for the 50% SOC-level is  0.0645 V, and for the 80% SOC-level is 0.0603 V. Exemplary Fig. 7 illustrates the voltage profile for the variable  pulse test at 50% SOC-level. The maximal error between measurement and simulation is smaller than Â±0.5%.   Fig. 7. Comparison of measured and simulated battery voltage for variable pulse test at 50% SOC-level.  The simulated voltage of 51.9 V shows that the OCV-SOC-relationship is correct. Furthermore, itâ€™s clearly to be  seen that the ohmic overvoltage and the dynamics of the RC-elements reflect the battery behavior very well. It should  be noted, that the error rises with higher pulse currents. Finally, the peaks in the error frame results from a small shift  between the input current and voltage. The reasons are the measurement step size and the interpolation of this  measurement data. Second, a validation with real PV-generation and load data was applied to demonstrate the behavior  of the battery model in a renewable energy system environment.  Fig 8. Comparison of the measured and simulated battery voltage of the reference week in autumn.  With the experimental test bed various profiles of renewable energy sources and electricity consumption behavior  have been emulated. For the test one week, of each season, of a PV-home storage system was chosen. Exemplary,  t in h 0 1 2 3 4 5 6 50 51 52 53 54 t in h 0 1 2 3 4 5 6 -1 -0.5 0 0.5 1 U ba tt in  V e i n  % simulation measurement t in h 0 24 48 72 96 120 144 168 50 52 54 56 58 t in h -1 -0.5 0 0.5 1 U ba tt in  V e i n  % simulation measurement 0 24 48 72 96 120 144 168  Michael BÃ¶ttiger et al. / Energy Procedia 135 (2017) 337â€“346 345  M. BÃ¶ttiger, M. Paulitschke, T. Bocklisch / Energy Procedia 00 (2017) 000â€“000   9  Fig. 8 presents the autumn week. The voltage profiles in the upper figure show that measurement and simulation fits  very well. The maximal error for this test is smaller than Â±0.5% when current is established. If the battery current is  zero, the error is smaller than Â±0.1%. The results illustrate that the chosen model in combination with the identified  parameters match a very good long-time behavior. No drift was recognized. Hence, the battery capacity and the self- consumption of the battery management system were estimated precise. This result emphasizes the correct log of the  open circuit voltage. The RMS value of the complete test week is 0.0771. Further RMS-values of the other weeks are  0.0850 (winter week), 0.0956 (spring week), and 0.0830 (summer week).  6. Conclusion  This paper presents an equivalent circuit based model describing the static and the dynamic behavior of a lithium- ion battery. The model considers the voltage-current characteristic, the state of charge and the occurring losses.  Furthermore, this paper demonstrates how to identify the parameters of the equivalent circuit from characteristic  measurements. Three experiments were carried out for parameter identification. The simulation model has been  validated with a variable pulse test at three different SOC-levels, and four exemplary weeks of a photovoltaic battery  system. The close agreement between simulation and experiment shows that the model accurately predicts the battery  behavior within 0.5% error. In ongoing research, the thermal and aging model will be implemented. The battery model  will be used for model predictive control concepts for PV-battery and hybrid energy storage systems. In addition to  this, further lithium-ion battery systems will be investigated and evaluated at the test bed.  References  [1] Hollinger, R.; Diazgranados, L.M.; Wittwer, C.; Engel, B.: â€œOptimal provision of primary frequency control with battery systems  by exploiting all degrees of freedom within regulationâ€�, Energy Procedia, vol. 99, 2016, doi: 10.1016/j.egypro.2016.10.111   [2] Luthander R.; WidÃ©n, J.; Nilsson, D.; Palm, J.: â€œPhotovoltaic self-consumption in buildings: A reviewâ€�, Applied Energy, vol. 142,  2014, doi: 10.1016/j.apenergy.2014.12.028   [3] BÃ¶ttiger, M.; Paulitschke, M.; Bocklisch, T.: â€œInnovative reactive energy management for a photovoltaic battery systemâ€�, Energy  Procedia, vol. 99, 2016, doi: 10.1016/j.egypro.2016.10.124   [4] Bocklisch, T.: â€œHybrid energy storage approach for renewable energy applicationsâ€�, Journal of Energy Storage, 2016, ISSN 2352- 152X, doi: 10.1016/j.est.2016.01.004   [5] Bocklisch, T.; BÃ¶ttiger, M.; Paulitschke, M.: â€œMulti-storage hybrid system approach and experimental investigationsâ€�, Energy  Procedia, vol. 46, 2014, doi: 10.1016/j.egypro.2014.01.172   [6] Bocklisch, T.; Lindner, J.: â€œTechnical and economic investigation and comparison of photovoltaic â€“ wind energy â€“ hybrid systems  with battery and heat-storage pathâ€�, Energy Procedia, vol. 99, 2016, doi: 10.1016/j.egypro.2016.10.125   [7] Paulitschke, M.; Bocklisch, T.; BÃ¶ttiger, M.: â€œSizing algorithm for a PV-battery-H2-hybrid system employing particle swarm  optimizationâ€�, Energy Procedia, vol. 73, 2015, doi: 10.1016/j.egypro.2015.07.664.   [8] Gerschler, J.B.; â€žOrtsaufgelÃ¶ste Modellbildung von Lithium-Ionen-Systemen unter spezieller BerÃ¼cksichtigung der  Batteriealterungâ€œ, Dissertation an der RWTH Aachen, 2012, ISBN: 978-3-8440-1307-8   [9] Klein, R.; Chaturvedi, N.A.; Christensen, J.; Ahmed, J.; Findeisen, R.; Kojic, A.: â€œElectrochemical model based observer design  for a lithium-ion batteryâ€�, IEEE Transactions on Control Systems Technology, vol. 21, 2013, doi: 10.1109/TCST.2015.2446947   [10] Gu, W.B.; Wang, C.Y.: â€œThermal-electrochemical modeling of battery systemsâ€�, Journal of The Electrochemical Society, vol.  147, 2000, doi: 10.1149/1.1393625   [11] Prieto, R.; Oliver, J.A.; Reglero, I.; Cobos, J.A.: â€œGeneric battery model based on a parametric implementationâ€� applied Power  electronics conference and exposition, Twenty-Fourth Annual IEEE, 2009, doi: 10.1109/APEC.2009.4802720   [12] Rakhmatov, D.; Vrudhula, S.: â€œAn analytical high-level battery model for use in energy management of portable electronic  systemsâ€�, Proceedings of the 2001 IEEE/ACM international conference on Computer-aided design, 2001, doi:  10.1109/ICCAD.2001.968687   [13] Roscher, M.A.; Sauer, D.U.: â€œDynamic electric behavior and open-circuit-voltage modeling of LiFePO4-based lithium ion  secondary batteriesâ€�, Journal of Power Sources, vol. 196, 2011, doi: 10.1016/j.jpowsour.2010.06.098   [14] Knauff, M.; McLaughlin, J.; Dafis, C.; Niebur, D.; Singh, P.; Kwatny, H.; Nwankpa, C.: â€œSimulink model of a lithium-ion battery  for the hybrid power system test bedâ€�, 2006   [15] Gonzales-Longatt, F. M.: â€œCircuit based battery models: A Reviewâ€œ, 2. Congreso Iberoamericano de Estudiantes de IngenierÃ­a  ElÃ©ctrica, ElectrÃ³nica y ComputaciÃ³n (II CIBELEC 2006), 2006   [16] DÃ¼rr, M.; Cruden, A.; Gair, S.; McDonald, J.R.: â€œDynamic model of a lead acid battery for use in a domestic fuel cell systemâ€�,  Journal of Power Sources, vol.161, 2006, doi: 10.1016/j.jpowsour.2005.12.075   346 Michael BÃ¶ttiger et al. / Energy Procedia 135 (2017) 337â€“346 10 M. BÃ¶ttiger, M. Paulitschke, T. Bocklisch / Energy Procedia 00 (2017) 000â€“000  [17] Jackey, R.; Saginaw, M.; Sanghvi, P.; et al.: â€œBattery model parameter estimation using a layered technique: An example using a  lithium iron phosphate cellâ€�, SAE Technical Paper, 2013, doi: 10.4271/2009-01-1381   [18] Lee, S.; Kim, J.; Cho, B.H.: â€œMaximum pulse current estimation for high accuracy power capability prediction of a Li-Ion  batteryâ€�, Microelectronics Reliability, vol. 55, 2015, doi: 10.1016/j.microrel.2014.12.016   [19] Li, J.; Mazzola, M.; Gafford, J.; Younan, N.: â€œA new parameter estimation algorithm for an electrical analogue battery modelâ€�,  Twenty-Seventh Annual IEEE Applied Power Electronics Conference and Exposition (APEC), 2012, doi:  10.1109/APEC.2012.6165855   [20] Pattipati, B.; Balasingam, B.; Avvari, G.V.: â€œOpen circuit voltage characterization of lithium-ion batteriesâ€�, Journal of Power  Sources, vol. 269, 2014, doi: 10.1016/j.jpowsour.2014.06.152   [21] Nikolian, A.; Firouz, Y.; Gopalakrishnan, R.; et al.: â€œLithium-ion batteries - development of advanced electrical equivalent circuit  models for nickel manganese cobalt lithium-ionâ€�, Energies, vol. 5, 2016, doi: 10.3390/en9050360     €œHybrid energy storage approach for renewable energy applicationsâ€�, Journal of Energy Storage, 2016, ISSN 2352- 152X, doi: 10.1016/j.est.2016.01.004   [5] Bocklisch, T.; BÃ¶ttiger, M.; Paulitschke, M.: â€œMulti-storage hybrid system approach and experimental investigationsâ€�, Energy  Procedia, vol. 46, 2014, doi: 10.1016/j.egypro.2014.01.172   [6] Bocklisch, T.; Lindner, J.: â€œTechnical and economic investigation and comparison of photovoltaic â€“ wind energy â€“ hybrid systems  with battery and heat-storage pathâ€�, Energy Procedia, vol. 99, 2016, doi: 10.1016/j.egypro.2016.10.125   [7] Paulitschke, M.; Bocklisch, T.; BÃ¶ttiger, M.: â€œSizing algorithm for a PV-battery-H2-hybrid system employing particle swarm  optimizationâ€�, Energy Procedia, vol. 73, 2015, doi: 10.1016/j.egypro.2015.07.664.   [8] Gerschler, J.B.; â€žOrtsaufgelÃ¶ste Modellbildung von Lithium-Ionen-Systemen unter spezieller BerÃ¼cksichtigung der  Batteriealterungâ€œ, Dissertation an der RWTH Aachen, 2012, ISBN: 978-3-8440-1307-8   [9] Klein, R.; Chaturvedi, N.A.; Christensen, J.; Ahmed, J.; Findeisen, R.; Kojic, A.: â€œElectrochemical model based observer design  for a lithium-ion batteryâ€�, IEEE Transactions on Control Systems Technology, vol. 21, 2013, doi: 10.1109/TCST.2015.2446947   [10] Gu, W.B.; Wang, C.Y.: â€œThermal-electrochemical modeling of battery systemsâ€�, Journal of The Electrochemical Society, vol.  147, 2000, doi: 10.1149/1.1393625   [11] Prieto, R.; Oliver, J.A.; Reglero, I.; Cobos, J.A.: â€œGeneric battery model based on a parametric implementationâ€� applied Power  electronics conference and exposition, Twenty-Fourth Annual IEEE, 2009, doi: 10.1109/APEC.2009.4802720   [12] Rakhmatov, D.; Vrudhula, S.: â€œAn analytical high-level battery model for use in energy management of portable electronic  systemsâ€�, Proceedings of the 2001 IEEE/ACM international conference on Computer-aided design, 2001, doi:  10.1109/ICCAD.2001.968687   [13] Roscher, M.A.; Sauer, D.U.: â€œDynamic electric behavior and open-circuit-voltage modeling of LiFePO4-based lithium ion  secondary batteriesâ€�, Journal of Power Sources, vol. 196, 2011, doi: 10.1016/j.jpowsour.2010.06.098   [14] Knauff, M.; McLaughlin, J.; Dafis, C.; Niebur, D.; Singh, P.; Kwatny, H.; Nwankpa, C.: â€œSimulink model of a lithium-ion battery  for the hybrid power system test bedâ€�, 2006   [15] Gonzales-Longatt, F. M.: â€œCircuit based battery models: A Reviewâ€œ, 2. Congreso Iberoamericano de Estudiantes de IngenierÃ­a  ElÃ©ctrica, ElectrÃ³nica y ComputaciÃ³n (II CIBELEC 2006), 2006   [16] DÃ¼rr, M.; Cruden, A.; Gair, S.; McDonald, J.R.: â€œDynamic model of a lead acid battery for use in a domestic fuel cell systemâ€�,  Journal of Power Sources, vol.161, 2006, doi: 10.1016/j.jpowsour.2005.12.075   346 Michael BÃ¶ttiger et al. / Energy Procedia 135 (2017) 337â€“346 10 M. BÃ¶ttiger, M. Paulitschke, T. Bocklisch / Energy Procedia 00 (2017) 000â€“000  [17] Jackey, R.; Saginaw, M.; Sanghvi, P.; et al.: â€œBattery model parameter estimation using a layered technique: An example using a  lithium iron phosphate cellâ€�, SAE Technical Paper, 2013, doi: 10.4271/2009-01-1381   [18] Lee, S.; Kim, J.; Cho, B.H.: â€œMaximum pulse current estimation for high accuracy power capability prediction of a Li-Ion  batteryâ€�, Microelectronics Reliability, vol. 55, 2015, doi: 10.1016/j.microrel.2014.12.016   [19] Li, J.; Mazzola, M.; Gafford, J.; Younan, N.: â€œA new parameter estimation algorithm for an electrical analogue battery modelâ€�,  Twenty-Seventh Annual IEEE Applied Power Electronics Conference and Exposition (APEC), 2012, doi:  10.1109/APEC.2012.6165855   [20] Pattipati, B.; Balasingam, B.; Avvari, G.V.: â€œOpen circuit voltage characterization of lithium-ion batteriesâ€�, Journal of Power  Sources, vol. 269, 2014, doi: 10.1016/j.jpowsour.2014.06.152   [21] Nikolian, A.; Firouz, Y.; Gopalakrishnan, R.; et al.: â€œLithium-ion batteries - development of advanced electrical equivalent circuit  models for nickel manganese cobalt lithium</xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.5" xml:lang="en" docsubtype="fla">
+         <item-info>
+            <jid>EGYPRO</jid>
+            <aid>32407</aid>
+            <ce:pii>S1876-6102(17)34630-1</ce:pii>
+            <ce:doi>10.1016/j.egypro.2017.09.525</ce:doi>
+            <ce:copyright type="unknown" year="2017"/>
+         </item-info>
+         <head>
+            <ce:title id="tte0001">Systematic experimental pulse test investigation for parameter identification of an equivalent based lithium-ion battery model</ce:title>
+            <ce:author-group id="aug0001">
+               <ce:author id="au0127" author-id="S1876610217346301-0016aad85230d4963f897467e734009e">
+                  <ce:given-name>Michael</ce:given-name>
+                  <ce:surname>Böttiger</ce:surname>
+                  
+               </ce:author>
+               <ce:author id="au0128" author-id="S1876610217346301-162283fc4baef53823c0e3f19386c2ad">
+                  <ce:given-name>Martin</ce:given-name>
+                  <ce:surname>Paulitschke</ce:surname>
+               </ce:author>
+               <ce:author id="au0129" author-id="S1876610217346301-688f2711538ecb26bd6876c9f33fa7b1">
+                  <ce:given-name>Thilo</ce:given-name>
+                  <ce:surname>Bocklisch</ce:surname>
+               </ce:author>
+               <ce:affiliation id="aff0001" affiliation-id="S1876610217346301-f4e6c27c448efa885db697b8bf6c10cc">
+                  <ce:textfn id="cetextfn0001">Technische Universität Dresden, Chair of Energy Storage Systems, George-Baehr-Str 3c, 01069 Dresden, Germany</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Technische Universität Dresden</sa:organization>
+                     <sa:organization>Chair of Energy Storage Systems</sa:organization>
+                     <sa:address-line>George-Baehr-Str 3c</sa:address-line>
+                     <sa:city>Dresden</sa:city>
+                     <sa:postal-code>01069</sa:postal-code>
+                     <sa:country>Germany</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+            </ce:author-group>
+            <ce:abstract id="abs0001" view="all" class="author"><ce:abstract-sec id="abss0001" view="all">
+                  <ce:simple-para id="spara0044" view="all">The paper presents an equivalent circuit based simulation model for the static and dynamic behavior of lithium-ion battery systems and explains the different steps of the theoretical and experimental modeling process. The equivalent circuit based model describes the voltage-current characteristic, the state of charge behavior and the occurring losses of the battery system. A parameter identification method based on three characteristic experiments, a cycle test, an open circuit voltage test and pulse tests, is introduced. The model parameters are estimated employing a nonlinear optimization method. Furthermore, the experimental test bed for investigation of lithium-ion battery systems is described. The battery model approach is demonstrated and validated for a commercial 5 kWh lithium-ion battery system, including the model validation for test profiles and emulated battery charging and discharging profiles of a real photovoltaic home storage application. The comparison of measured and simulated voltage profiles indicates an excellent performance of the battery model.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="keys0001" view="all" class="keyword">
+               <ce:section-title id="cesectitle0002">Keywords</ce:section-title>
+               <ce:keyword id="key0143">
+                  <ce:text id="cetext0143">lithium-ion battery</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0144">
+                  <ce:text id="cetext0144">modeling</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0145">
+                  <ce:text id="cetext0145">equivalent circuit model</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0146">
+                  <ce:text id="cetext0146">parameter identification</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0147">
+                  <ce:text id="cetext0147">current-pulse</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0148">
+                  <ce:text id="cetext0148">experimental testbed</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <tail view="all">
+            <ce:bibliography id="cebibsec1" view="all">
+               <ce:section-title id="cesectitle0003">References</ce:section-title>
+               <ce:bibliography-sec id="cebibsec2" view="all">
+                  <ce:bib-reference id="bib0001">
+                     <ce:label>1</ce:label>
+                     <sb:reference id="sbref0001">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Hollinger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.M.</ce:given-name>
+                                 <ce:surname>Diazgranados</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Wittwer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Engel</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>“Optimal provision of primary frequency control with battery systems by exploiting all degrees of freedom within regulation”</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy Procedia</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>99</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                        <sb:comment>doi: 10.1016/j.egypro.2016.10.111</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0002">
+                     <ce:label>2</ce:label>
+                     <sb:reference id="sbref0002">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Luthander</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Widén</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Nilsson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Palm</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>“Photovoltaic self-consumption in buildings: A review”</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Applied Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>142</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                        <sb:comment>doi: 10.1016/j.apenergy.2014.12.028</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0003">
+                     <ce:label>3</ce:label>
+                     <sb:reference id="sbref0003">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Böttiger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Paulitschke</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Bocklisch</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>“Innovative reactive energy management for a photovoltaic battery system”</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy Procedia</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>99</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                        <sb:comment>doi: 10.1016/j.egypro.2016.10.124</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0004">
+                     <ce:label>4</ce:label>
+                     <ce:other-ref id="oref0004">
+                        <ce:textref>Bocklisch, T.: “Hybrid energy storage approach for renewable energy applications”, Journal of Energy Storage, 2016, ISSN 2352-152X, doi: 10.1016/j.est.2016.01.004.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0005">
+                     <ce:label>5</ce:label>
+                     <sb:reference id="sbref0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Bocklisch</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Böttiger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Paulitschke</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>“Multi-storage hybrid system approach and experimental investigations”</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy Procedia</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>46</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                        <sb:comment>doi: 10.1016/j.egypro.2014.01.172</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0006">
+                     <ce:label>6</ce:label>
+                     <sb:reference id="sbref0006">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Bocklisch</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Lindner</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>“Technical and economic investigation and comparison of photovoltaic – wind energy – hybrid systems with battery and heat-storage path”</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy Procedia</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>99</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                        <sb:comment>doi: 10.1016/j.egypro.2016.10.125</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0007">
+                     <ce:label>7</ce:label>
+                     <sb:reference id="sbref0007">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Paulitschke</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Bocklisch</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Böttiger</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>“Sizing algorithm for a PV-battery-H2-hybrid system employing particle swarm optimization”</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy Procedia</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>73</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                        <sb:comment>doi: 10.1016/j.egypro.2015.07.664.</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0008">
+                     <ce:label>8</ce:label>
+                     <ce:other-ref id="oref0008">
+                        <ce:textref>Gerschler, J.B.; “Ortsaufgelöste Modellbildung von Lithium-Ionen-Systemen unter spezieller Berücksichtigung der Batteriealterung“, Dissertation an der RWTH Aachen, 2012, ISBN: 978-3-8440-1307-8.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0009">
+                     <ce:label>9</ce:label>
+                     <sb:reference id="sbref0009">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Klein</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.A.</ce:given-name>
+                                 <ce:surname>Chaturvedi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Christensen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Ahmed</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Findeisen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Kojic</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>“Electrochemical model based observer design for a lithium-ion battery”</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Transactions on Control Systems Technology</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>21</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                        <sb:comment>doi: 10.1109/TCST.2015.2446947</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00010">
+                     <ce:label>10</ce:label>
+                     <sb:reference id="sbref00010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.B.</ce:given-name>
+                                 <ce:surname>Gu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.Y.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>“Thermal-electrochemical modeling of battery systems”</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of The Electrochemical Society</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>147</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2000</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                        <sb:comment>doi: 10.1149/1.1393625</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00011">
+                     <ce:label>11</ce:label>
+                     <ce:other-ref id="oref00011">
+                        <ce:textref>Prieto, R.; Oliver, J.A.; Reglero, I.; Cobos, J.A.: “Generic battery model based on a parametric implementation” applied Power electronics conference and exposition, Twenty-Fourth Annual IEEE, 2009, doi: 10.1109/APEC.2009.4802720.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00012">
+                     <ce:label>12</ce:label>
+                     <ce:other-ref id="oref00012">
+                        <ce:textref>Rakhmatov, D.; Vrudhula, S.: “An analytical high-level battery model for use in energy management of portable electronic systems”, Proceedings of the 2001 IEEE/ACM international conference on Computer-aided design, 2001, doi: 10.1109/ICCAD.2001.968687.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00013">
+                     <ce:label>13</ce:label>
+                     <sb:reference id="sbref00013">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.A.</ce:given-name>
+                                 <ce:surname>Roscher</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.U.</ce:given-name>
+                                 <ce:surname>Sauer</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>“Dynamic electric behavior and open-circuit-voltage modeling of LiFePO4-based lithium ion secondary batteries”</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>196</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                        <sb:comment>doi: 10.1016/j.jpowsour.2010.06.098</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00014">
+                     <ce:label>14</ce:label>
+                     <sb:reference id="sbref00014">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Knauff</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>McLaughlin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Dafis</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Niebur</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Singh</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Kwatny</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Nwankpa</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>“Simulink model of a lithium-ion battery for the hybrid power system test bed”</sb:maintitle>
+                                 </sb:title>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00015">
+                     <ce:label>15</ce:label>
+                     <sb:reference id="sbref00015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.M.</ce:given-name>
+                                 <ce:surname>Gonzales-Longatt</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>“Circuit based battery models: A Review“, 2</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Congreso Iberoamericano de Estudiantes de Ingeniería Eléctrica, Electrónica y Computación (II CIBELEC 2006)</sb:maintitle>
+                                 </sb:title>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00016">
+                     <ce:label>16</ce:label>
+                     <sb:reference id="sbref00016">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Dürr</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Cruden</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Gair</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.R.</ce:given-name>
+                                 <ce:surname>McDonald</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>“Dynamic model of a lead acid battery for use in a domestic fuel cell system”</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>161</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                        <sb:comment>doi: 10.1016/j.jpowsour.2005.12.075</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00017">
+                     <ce:label>17</ce:label>
+                     <ce:other-ref id="oref00017">
+                        <ce:textref>Jackey, R.; Saginaw, M.; Sanghvi, P.; et al.: “Battery model parameter estimation using a layered technique: An example using a lithium iron phosphate cell”, SAE Technical Paper, 2013, doi: 10.4271/2009-01-1381.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00018">
+                     <ce:label>18</ce:label>
+                     <sb:reference id="sbref00018">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Lee</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.H.</ce:given-name>
+                                 <ce:surname>Cho</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>“Maximum pulse current estimation for high accuracy power capability prediction of a Li-Ion battery”</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Microelectronics Reliability</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>55</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                        <sb:comment>doi: 10.1016/j.microrel.2014.12.016</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00019">
+                     <ce:label>19</ce:label>
+                     <ce:other-ref id="oref00019">
+                        <ce:textref>Li, J.; Mazzola, M.; Gafford, J.; Younan, N.: “A new parameter estimation algorithm for an electrical analogue battery model”, Twenty-Seventh Annual IEEE Applied Power Electronics Conference and Exposition (APEC), 2012, doi: 10.1109/APEC.2012.6165855.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00020">
+                     <ce:label>20</ce:label>
+                     <sb:reference id="sbref00020">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Pattipati</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Balasingam</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.V.</ce:given-name>
+                                 <ce:surname>Avvari</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>“Open circuit voltage characterization of lithium-ion batteries”</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>269</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                        <sb:comment>doi: 10.1016/j.jpowsour.2014.06.152</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00021">
+                     <ce:label>21</ce:label>
+                     <sb:reference id="sbref00021">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Nikolian</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Firouz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Gopalakrishnan</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>“Lithium-ion batteries - development of advanced electrical equivalent circuit models for nickel manganese cobalt lithium-ion”</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energies</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>5</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                        <sb:comment>doi: 10.3390/en9050360</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

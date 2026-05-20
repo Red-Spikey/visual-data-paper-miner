@@ -1,0 +1,2420 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1452398123006570</prism:url><dc:identifier>doi:10.20964/2022.12.55</dc:identifier><eid>1-s2.0-S1452398123006570</eid><prism:doi>10.20964/2022.12.55</prism:doi><pii>S1452-3981(23)00657-0</pii><dc:title>Online Model Identification for State of Charge Estimation for Lithium-ion Batteries with Missing Data </dc:title><prism:publicationName>International Journal of Electrochemical Science</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>14523981</prism:issn><prism:volume>17</prism:volume><prism:issueIdentifier>12</prism:issueIdentifier><prism:startingPage>221269</prism:startingPage><prism:pageRange>221269</prism:pageRange><prism:number>12</prism:number><articleNumber>221269</articleNumber><dc:format>text/xml</dc:format><prism:coverDate>2022-12-31</prism:coverDate><prism:coverDisplayDate>December 2022</prism:coverDisplayDate><prism:copyright>Copyright © 2022 The Authors. Published by ESG. Published by Elsevier B.V.</prism:copyright><prism:publisher>The Authors. Published by ESG. Published by Elsevier B.V.</prism:publisher><dc:creator>Jin, Hao</dc:creator><dc:creator>Mao, Ling</dc:creator><dc:creator>Qu, Keqing</dc:creator><dc:creator>Zhao, Jinbin</dc:creator><dc:creator>Li, Fen</dc:creator><dc:description>
+                  Online model identification is critical for determining the accurate state of charge (SOC) for a battery based on a model, which depends on the use of complete and reliable measurement data. To ensure precision for parameter identification and reliability for SOC estimation in practical applications, the occurrence of data loss and noise interference must be considered. In this paper, a first-order resistor–capacitor equivalent circuit model is developed to simulate the “black box” system of a battery. A recursive least square method based on a variable interval auxiliary model is proposed to compensate for the missing data in an unreliable actual environment. Meanwhile, a forgetting factor is introduced to prevent the influence of historical data in parameter identification. To further reduce the noise effects on SOC estimation, the extended Kalman filter (EKF) is applied to the algorithm. The proposed method is verified using CALCE experimental data. The experimental results show that the proposed method can be used to realize accurate model parameter identification and reliable online SOC estimation under conditions of data loss and noise interference.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>Author</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>lithium-ion battery</dcterms:subject><dcterms:subject>model parameter identification</dcterms:subject><dcterms:subject>data loss</dcterms:subject><dcterms:subject>state of charge</dcterms:subject><dcterms:subject>auxiliary model</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1452398123006570" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1452398123006570" rel="scidir"/></coredata><scopus-id>85145905593</scopus-id><scopus-eid>2-s2.0-85145905593</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85145905593" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>783334</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291802</xocs:ssid>
+         <xocs:ssid type="subj">291865</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>International Journal of Electrochemical Science</xocs:srctitle>
+      <xocs:normalized-srctitle>INTERNATIONALJOURNALELECTROCHEMICALSCIENCE</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20230526">2023-05-26</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20230526">2023-05-26</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20230526">2023-05-26</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20230526">2023-05-26</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2023-06-02T18:45:37</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1452398123006570</xocs:eid>
+      <xocs:pii-formatted>S1452-3981(23)00657-0</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1452398123006570</xocs:pii-unformatted>
+      <xocs:doi>10.20964/2022.12.55</xocs:doi>
+      <xocs:item-stage>S350</xocs:item-stage>
+      <xocs:item-version-number>S350.3</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1452398122X72003</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20230602">2023-06-02T17:51:15.93725Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20221201</xocs:date-search-begin>
+      <xocs:date-search-end>20221231</xocs:date-search-end>
+      <xocs:year-nav>2022</xocs:year-nav>
+      <xocs:indexeddate epoch="1685106370">2023-05-26T13:06:10.421823Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issfirst issn issnnorm issuelist itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content oa subj tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authkeywords authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1452-3981</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>14523981</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>17</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>17</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>12</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>12</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 17, Issue 12</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>69</xocs:sort-order>
+      <xocs:first-fp>221269</xocs:first-fp>
+      <xocs:article-number>221269</xocs:article-number>
+      <xocs:pages>
+         <xocs:first-page>221269</xocs:first-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>202212</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>December 2022</xocs:cover-date-text>
+      <xocs:cover-date-start>2022-12-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2022-12-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2022</xocs:cover-date-year>
+      <xocs:document-type>simple-article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 2022 The Authors. Published by ESG. Published by Elsevier B.V.</xocs:copyright-line>
+      <xocs:normalized-article-title>ONLINEMODELIDENTIFICATIONFORSTATECHARGEESTIMATIONFORLITHIUMIONBATTERIESMISSINGDATA</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>JIN</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>H</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="rf7055">
+            <xocs:ref-normalized-surname>ELKHARBACHI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-first-fp>817</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7060">
+            <xocs:ref-normalized-surname>LU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>226</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7065">
+            <xocs:ref-normalized-surname>LIU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>14</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7070">
+            <xocs:ref-normalized-surname>TAMILSELVI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-first-fp>13</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7075">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>226</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7080">
+            <xocs:ref-normalized-surname>MENG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>7717</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7085">
+            <xocs:ref-normalized-surname>LIU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3170</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7090">
+            <xocs:ref-normalized-surname>BIAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-first-fp>399</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7095">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-first-fp>131</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7100">
+            <xocs:ref-normalized-surname>MENG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>37</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7105">
+            <xocs:ref-normalized-surname>CHAOUI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>8773</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7110">
+            <xocs:ref-normalized-surname>FOTOUHI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1008</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7115">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>146</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Q</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7120">
+            <xocs:ref-normalized-surname>HE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>310</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7125">
+            <xocs:ref-normalized-surname>ZENG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>468</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7130">
+            <xocs:ref-normalized-surname>WEI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1336</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7135">
+            <xocs:ref-normalized-surname>CHEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>202</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7140">
+            <xocs:ref-normalized-surname>LUO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2451</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7145">
+            <xocs:ref-normalized-surname>SUN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3531</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7150">
+            <xocs:ref-normalized-surname>GHOLIZADEH</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1335</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7155">
+            <xocs:ref-normalized-surname>LI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-first-fp>361</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7160">
+            <xocs:ref-normalized-surname>WEI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-first-fp>312</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7165">
+            <xocs:ref-normalized-surname>HONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>251</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7170">
+            <xocs:ref-normalized-surname>CHEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-first-fp>5175</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7175">
+            <xocs:ref-normalized-surname>YANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>985</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7180">
+            <xocs:ref-normalized-surname>LI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-first-fp>275</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7185">
+            <xocs:ref-normalized-surname>LI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4524</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7190">
+            <xocs:ref-normalized-surname>ADHIKAREE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>113</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7195">
+            <xocs:ref-normalized-surname>TANIZAWA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>27</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7200">
+            <xocs:ref-normalized-surname>YANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-first-fp>156232</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7205">
+            <xocs:ref-normalized-surname>DU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>744</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7210">
+            <xocs:ref-normalized-surname>POPESCU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3753</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7215">
+            <xocs:ref-normalized-surname>ZHU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4985</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7220">
+            <xocs:ref-normalized-surname>SHUAI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>55</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7225">
+            <xocs:ref-normalized-surname>HU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>10319</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7230">
+            <xocs:ref-normalized-surname>JIANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-first-fp>219</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7235">
+            <xocs:ref-normalized-surname>WEI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-first-fp>268</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7240">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2500</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7245">
+            <xocs:ref-normalized-surname>LI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>173</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7250">
+            <xocs:ref-normalized-surname>YANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>232</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Q</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7255">
+            <xocs:ref-normalized-surname>SHEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>92</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7260">
+            <xocs:ref-normalized-surname>DING</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>180</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7265">
+            <xocs:ref-normalized-surname>LI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-first-fp>456</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7270">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>6040</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7275">
+            <xocs:ref-normalized-surname>XIE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-first-fp>7935</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7280">
+            <xocs:ref-normalized-surname>XIONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4130</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7285">
+            <xocs:ref-normalized-surname>WEI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-first-fp>114932</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf7290">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-first-fp>12002</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>JINX2022X221269</xocs:refkey3>
+         <xocs:refkey4ai>JINX2022X221269XH</xocs:refkey4ai>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2023-05-25T12:24:17Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>Author</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/1452-3981_UNBOUNDED_Author">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:article-sharing-framework/>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1452-3981(23)00657-0</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1452398123006570</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1452398123006570</xocs:eid>
+         <xocs:doi>10.20964/2022.12.55</xocs:doi>
+         <xocs:cid>783334</xocs:cid>
+         <xocs:timestamp>2023-06-02T17:51:15.93725Z</xocs:timestamp>
+         <xocs:cover-date-start>2022-12-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2022-12-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1452398123006570-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1452398123006570/MAIN/application/pdf/01194cad6e18f8779c60d96cb123a60a/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>5624959</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>20</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1452398123006570-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1452398123006570/PREVIEW/image/png/c39f4f22b64df6fe690f7c494e88a091/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>62338</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">Online Model Identification for State of Charge Estimation for Lithium-ion Batteries with Missing Data Hao Jin, Ling Mao, maoling2290@shiep.edu.cn Keqing Qu, Jinbin Zhao, Fen Li, School of Electric Engineering, Shanghai University of Electric Power, Shanghai 200090, China School of Electric Engineering, Shanghai University of Electric Power Shanghai 200090 China School of Electric Engineering, Shanghai University of Electric Power, Shanghai 200090, China    Online model identification is critical for determining the accurate state of charge (SOC) for a battery based on a model, which depends on the use of complete and reliable measurement data. To ensure precision for parameter identification and reliability for SOC estimation in practical applications, the occurrence of data loss and noise interference must be considered. In this paper, a first-order resistorâ€“capacitor equivalent circuit model is developed to simulate the â€œblack boxâ€� system of a battery. A recursive least square method based on a variable interval auxiliary model is proposed to compensate for the missing data in an unreliable actual environment. Meanwhile, a forgetting factor is introduced to prevent the influence of historical data in parameter identification. To further reduce the noise effects on SOC estimation, the extended Kalman filter (EKF) is applied to the algorithm. The proposed method is verified using CALCE experimental data. The experimental results show that the proposed method can be used to realize accurate model parameter identification and reliable online SOC estimation under conditions of data loss and noise interference. Keywords lithium-ion battery model parameter identification data loss state of charge auxiliary model   References 1. A. El-Kharbachi, O. Zavorotynska, M. Latroche, F. Cuevas, V. Yartys, M. Fichtner, Exploits 8: (2020) 817-A. El-Kharbachi, O. Zavorotynska, M. Latroche, F. Cuevas, V. Yartys and M. Fichtner, Exploits, 8 (2020) 817. 2. L.G. Lu, X. Han, J. Li, J. Hua, M. Ouyang, J. Power Sources 46: (2013) 226-L.G. Lu, X. Han, J. Li, J. Hua and M. Ouyang, J. Power Sources, 46 (2013) 226. 3. K. Liu, K. Li, Q. Peng, C. Zhang, Front. Mech. Eng. 33: (2019) 14-K. Liu, K. Li, Q. Peng and C. Zhang, Front. Mech. Eng., 33 (2019) 14. 4. S. Tamilselvi, Z. Quan, H. He, Sustainability 6: (2021) 13-S. Tamilselvi, Z. Quan and H. He, Sustainability, 6 (2021) 13. 5. X. Zhang, D. Sun, Electrochim Acta 34: (2015) 226-X. Zhang and D. Sun, Electrochim Acta, 34 (2015) 226. 6. J. Meng, R. Chen, IEEE Trans. Ind. Electron. 10: (2019) 7717-J. Meng and R. Chen, IEEE Trans. Ind. Electron., 10 (2019) 7717. 7. K. Liu, Y. Shang, Q. Ouyang, W.D. Widanage, IEEE Trans. Ind. Electron. 68: (2021) 3170-K. Liu, Y. Shang, Q. Ouyang and W.D. Widanage, IEEE Trans. Ind. Electron., 68 (2021). 3170. 8. X. Bian, Z. Quan, H. He, IEEE Trans. Transp. Electrif. 7: (2021) 399-X. Bian, Z. Quan and H. He, IEEE Trans. Transp. Electrif., 7 (2021) 399. 9. Y. Wang, J. Tian, Z. Sun, L. Wang, R. Xu, M. Li, Z. Chen, Renewable Sustainable Energy Rev. 12: (2020) 131-Y. Wang, J. Tian, Z. Sun, L. Wang, R. Xu, M. Li and Z. Chen, Renewable Sustainable Energy Rev., 12 (2020) 131. 10. J. Meng, D. Stroe, M. Ricco, G. Luo, R. Teodorescu, Appl Sci-Basel 8: (2018) 37-J. Meng, D. Stroe, M. Ricco, G. Luo and R. Teodorescu, Appl Sci-Basel, 8 (2018) 37. 11. H. Chaoui, C.C. Ibe-Ekeocha, IEEE Trans. Veh. Technol. 66: (2017) 8773-H. Chaoui and C.C. Ibe-Ekeocha, IEEE Trans. Veh. Technol., 66 (2017) 8773. 12. A. Fotouhi, D. Auger, K. Propp, S. Longo, M. Wild, Renewable Sustainable Energy Rev. 56: (2016) 1008-A. Fotouhi, D. Auger, K. Propp, S. Longo and M. Wild, Renewable Sustainable Energy Rev., 56 (2016) 1008. 13. Q. Wang, J. Wang, P. Zhao, J. Kang, F. Yan, C. Du, Electrochim Acta 228: (2017) 146-Q. Wang, J. Wang, P. Zhao, J. Kang, F. Yan and C. Du, Electrochim Acta, 228 (2017) 146. 14. H. He, X. Zhang, R. Xiong, Y. Xu, H. Guo, Energy 39: (2012) 310-H. He, X. Zhang, R. Xiong, Y. Xu and H. Guo, Energy, 39 (2012) 310. 15. Z. Zeng, J. Tian, D. Li, Y. Tian, Energies 11: (2018) 468-Z. Zeng, J. Tian, D. Li and Y. Tian, Energies, 11 (2018) 468. 16. Z. Wei, C. Zou, F. Leng, B. Soong, K. Tseng, IEEE Trans. Ind. Electron. 65: (2018) 1336-Z. Wei, C. Zou, F. Leng, B. Soong and K. Tseng, IEEE Trans. Ind. Electron., 65 (2018) 1336. 17. X.K. Chen, D. Sun, Adv. Manuf. 33: (2015) 202-X. K.Chen and D. Sun, Adv. Manuf., 33 (2015) 202. 18. G. Luo, J. Meng, X. Ji, X. Cai, F. Gao, J. Energy Storage 18: (2017) 2451-G. Luo, J. Meng, X. Ji, X. Cai and F. Gao, J. Energy Storage, 18 (2017) 2451. 19. F. Sun, X. Hu, Y. Zou, L. Siguang, Energy 36: (2011) 3531-F. Sun, X Hu, Y. Zou and L. Siguang, Energy, 36 (2011) 3531. 20. M. Gholizadeh, F.R. Salmasi, IEEE Trans. Ind. Electron. 61: (2014) 1335-M. Gholizadeh and F.R. Salmasi, IEEE Trans. Ind. Electron., 61 (2014) 1335. 21. W. Li, M. Rentemeister, J. Badeda, D. JÃ¶st, D. Schulte, D. Sauer, J. Energy Storage 30: (2020) 361-W. Li, M. Rentemeister, J. Badeda, D. JÃ¶st, D. Schulte and D. Sauer, J. Energy Storage, 30 (2020) 361. 22. Z. Wei, G. Dong, X. Zhang, J. Pou, Z. Quan, H. He, IEEE Trans. Ind. Electron. 68: (2021) 312-Z. Wei, G. Dong, X. Zhang, J. Pou, Z. Quan and H. He, IEEE Trans. Ind. Electron., 68 (2021) 312. 23. J. Hong, Z. Wang, Y. Yao, Appl. Energy 18: (2019) 251-J. Hong, Z. Wang and Y. Yao, Appl. Energy, 18 (2019) 251. 24. H. Chen, E. Tian, L. Wang, IEEE Trans. Ind. Electron. 69: (2022) 5175-H. Chen, E. Tian, and L. Wang, IEEE Trans. Ind. Electron., 69 (2022) 5175. 25. A. Yang, G. Dong, IEEE Trans. Veh. Technol. 72: (2017) 985-A. Yang and G. Dong, IEEE Trans. Veh. Technol., 72 (2017) 985. 26. S. Li, H. He, C. Su, P. Zhao, Appl. Energy 72: (2020) 275-S. Li, H. He, C. Su and P. Zhao, Appl. Energy, 72 (2020) 275. 27. W. Li, M. Rentemeister, J. Badeda, D. JÃ¶st, D. Schulte, D. Sauer, J. Energy Storage 30: (2020) 4524-W. Li, M. Rentemeister, J. Badeda, D. JÃ¶st, D. Schulte and D. Sauer, J. Energy Storage, 30 (2020) 4524. 28. A. Adhikaree, L. Zhang, IEEE Trans. Veh. Technol. 28: (2018) 113-A. Adhikaree and L. Zhang, IEEE Trans. Veh. Technol., 28 (2018) 113 29. T. Tanizawa, T. Suzumiya, K. Ikeda, Fujitsu Sci. Tech. J. 51: (2015) 27-T. Tanizawa, T. Suzumiya and K. Ikeda, Fujitsu Sci. Tech. J., 51 (2015) 27. 30. S. Yang, Y. Cao, S. Zhou, Y. Hua, X. Zhou, X. Liu, IEEE Access 18: (2020) 156232-S. Yang, Y. Cao, S. Zhou, Y. Hua, X. Zhou and X. Liu, IEEE Access, 18 (2020) 156232. 31. D. Du, R. Chen, M. Fei, K. Li, IEEE Trans. Signal Inf. Process. Networks 34: (2017) 744-D. Du, R. Chen, M. Fei and K. Li, IEEE Trans. Signal Inf. Process. Networks, 34 (2017) 744. 32. D.A. Popescu, A.W. Moore, IEEE Trans. Netw. Serv. Manage. 15: (2021) 3753-D. A. Popescu and A.W. Moore, IEEE Trans. Netw. Serv. Manage., 15 (2021) 3753. 33. X. Zhu, H. Zhang, J. Wang, Z. Fang, IEEE Trans. Veh. Technol. 64: (2015) 4985-X. Zhu , H. Zhang, J. Wang and Z. Fang, IEEE Trans. Veh. Technol., 64 (2015) 4985. 34. Z. Shuai, H. Zhang, J. Wang, J. Li, M. Ouyang, Control Eng. Pract. 24: (2014) 55-Z. Shuai, H. Zhang, J. Wang, J. Li and M. Ouyang, Control Eng. Pract., 24 (2014) 55. 35. X. Hu, H. Yuan, C. Zou, Z. Li, L. Zhang, IEEE Trans. Veh. Technol. 67: (2018) 10319-X. Hu, H. Yuan, C. Zou, Z. Li and L. Zhang, IEEE Trans. Veh. Technol., 67 (2018) 10319. 36. C. Jiang, C. Jiang, S. Wang, B. Wu, C. Fernandez, X. Xiong, J. Coffie-Ken, Energy 52: (2021) 219-C. Jiang, C. Jiang, S. Wang, B. Wu, C. Fernandez, X. Xiong and J. Coffie-Ken, Energy, 52 (2021) 219. 37. Z. Wei, D. Zhao, H. He, W. Cao, G. Dong, Appl. Energy 73: (2020) 268-Z. Wei, D. Zhao, H. He, W. Cao and G. Dong, Appl. Energy, 73 (2020) 268. 38. D. Wang, S. Zhang, M. Gan, J. Qiu, IEEE Trans. Ind. Inf. 16: (2020) 2500-D. Wang, S. Zhang, M. Gan and J. Qiu, IEEE Trans. Ind. Inf., 16 (2020) 2500. 39. J. Li, A.D. Heap, Environ. Modell. Software 53: (2014) 173-J. Li and A.D. Heap, Environ. Modell. Software, 53 (2014) 173. 40. Q. Yang, Z. Liu, IEEE Access 11: (2012) 232-Q. Yang and Z. Liu, IEEE Access, 11 (2012) 232 41. P. Shen, M. Ouyang, L. Lu, J. Li, X. Feng, IEEE Trans. Veh. Technol. 67: (2018) 92-P. Shen, M. Ouyang, L. Lu, J. Li and X. Feng, IEEE Trans. Veh. Technol., 67 (2018) 92. 42. F. Ding, J. Ding, Int. J. Adapt. Control Signal Process. 57: (2009) 180-F. Ding and J. Ding, Int. J. Adapt. Control Signal Process., 57 (2009) 180. 43. Y. Li, J. Chen, F. Lan, J. Power Sources 17: (2020) 456-Y. Li, J. Chen and F. Lan, J. Power Sources, 17 (2020) 456. 44. J. Zhang, Y. Wei, H. Qi, Appl. Math. Modell. 11: (2016) 6040-J. Zhang, Y. Wei and H. Qi, Appl. Math. Modell., 11 (2016) 6040 45. F. Xie, S. Wang, Y. Xie, C. Fernandezb, X. Li, C. Zou, Int. J. Electrochem. Sci. 15: (2020) 7935-F. Xie, S. Wang, Y. Xie, C. Fernandezb, X. Li and C. Zou, Int. J. Electrochem. Sci., 15 (2020) 7935 46. R. Xiong, J. Tian, W. Shen, F. Sun, IEEE Trans. Veh. Technol. 68: (2019) 4130-R. Xiong, J. Tian, W. Shen and F. Sun, IEEE Trans. Veh. Technol., 68 (2019) 4130 47. Z. Wei, D. Zhao, H. He, W. Cao, G. Dong, Appl. Energy 268: (2020) 114932-Z. Wei, D. Zhao, H. He, W. Cao and G. Dong, Appl. Energy, 268 (2020) 114932 48. S. Zhang, H. Tao, K. Bi, W. Yan, H. Ni, J. Phys. 2216: (2022) 12002-S. Zhang, H. Tao, K. Bi, W. Yan and H. Ni, J. Phys., 2216 (2022) 12002   12-Z. Wei, G. Dong, X. Zhang, J. Pou, Z. Quan and H. He, IEEE Trans. Ind. Electron., 68 (2021) 312. 23. J. Hong, Z. Wang, Y. Yao, Appl. Energy 18: (2019) 251-J. Hong, Z. Wang and Y. Yao, Appl. Energy, 18 (2019) 251. 24. H. Chen, E. Tian, L. Wang, IEEE Trans. Ind. Electron. 69: (2022) 5175-H. Chen, E. Tian, and L. Wang, IEEE Trans. Ind. Electron., 69 (2022) 5175. 25. A. Yang, G. Dong, IEEE Trans. Veh. Technol. 72: (2017) 985-A. Yang and G. Dong, IEEE Trans. Veh. Technol., 72 (2017) 985. 26. S. Li, H. He, C. Su, P. Zhao, Appl. Energy 72: (2020) 275-S. Li, H. He, C. Su and P. Zhao, Appl. Energy, 72 (2020) 275. 27. W. Li, M. Rentemeister, J. Badeda, D. JÃ¶st, D. Schulte, D. Sauer, J. Energy Storage 30: (2020) 4524-W. Li, M. Rentemeister, J. Badeda, D. JÃ¶st, D. Schulte and D. Sauer, J. Energy Storage, 30 (2020) 4524. 28. A. Adhikaree, L. Zhang, IEEE Trans. Veh. Technol. 28: (2018) 113-A. Adhikaree and L. Zhang, IEEE Trans. Veh. Technol., 28 (2018) 113 29. T. Tanizawa, T. Suzumiya, K. Ikeda, Fujitsu Sci. Tech. J. 51: (2015) 27-T. Tanizawa, T. Suzumiya and K. Ikeda, Fujitsu Sci. Tech. J., 51 (2015) 27. 30. S. Yang, Y. Cao, S. Zhou, Y. Hua, X. Zhou, X. Liu, IEEE Access 18: (2020) 156232-S. Yang, Y. Cao, S. Zhou, Y. Hua, X. Zhou and X. Liu, IEEE Access, 18 (2020) 156232. 31. D. Du, R. Chen, M. Fei, K. Li, IEEE Trans. Signal Inf. Process. Networks 34: (2017) 744-D. Du, R. Chen, M. Fei and K. Li, IEEE Trans. Signal Inf. Process. Networks, 34 (2017) 744. 32. D.A. Popescu, A.W. Moore, IEEE Trans. Netw. Serv. Manage. 15: (2021) 3753-D. A. Popescu and A.W. Moore, IEEE Trans. Netw. Serv. Manage., 15 (2021) 3753. 33. X. Zhu, H. Zhang, J. Wang, Z. Fang, IEEE Trans. Veh. Technol. 64: (2015) 4985-X. Zhu , H. Zhang, J. Wang and Z. Fang, IEEE Trans. Veh. Technol., 64 (2015) 4985. 34. Z. Shuai, H. Zhang, J. Wang, J. Li, M. Ouyang, Control Eng. Pract. 24: (2014) 55-Z. Shuai, H. Zhang, J. Wang, J. Li and M. Ouyang, Control Eng. Pract., 24 (2014) 55. 35. X. Hu, H. Yuan, C. Zou, Z. Li, L. Zhang, IEEE Trans. Veh. Technol. 67: (2018) 10319-X. Hu, H. Yuan, C. Zou, Z. Li and L. Zhang, IEEE Trans. Veh. Technol., 67 (2018) 10319. 36. C. Jiang, C. Jiang, S. Wang, B. Wu, C. Fernandez, X. Xiong, J. Coffie-Ken, Energy 52: (2021) 219-C. Jiang, C. Jiang, S. Wang, B. Wu, C. Fernandez, X. Xiong and J. Coffie-Ken, Energy, 52 (2021) 219. 37. Z. Wei, D. Zhao, H. He, W. Cao, G. Dong, Appl. Energy 73: (2020) 268-Z. Wei, D. Zhao, H. He, W. Cao and G. Dong, Appl. Energy, 73 (2020) 268. 38. D. Wang, S. Zhang, M. Gan, J. Qiu, IEEE Trans. Ind. Inf. 16: (2020) 2500-D. Wang, S. Zhang, M. Gan and J. Qiu, IEEE Trans. Ind. Inf., 16 (2020) 2500. 39. J. Li, A.D. Heap, Environ. Modell. Software 53: (2014) 173-J. Li and A.D. Heap, Environ. Modell. Software, 53 (2014) 173. 40. Q. Yang, Z. Liu, IEEE Access 11: (2012) 232-Q. Yang and Z. Liu, IEEE Access, 11 (2012) 232 41. P. Shen, M. Ouyang, L. Lu, J. Li, X. Feng, IEEE Trans. Veh. Technol. 67: (2018) 92-P. Shen, M. Ouyang, L. Lu, J. Li and X. Feng, IEEE Trans. Veh. Technol., 67 (2018) 92.</xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <simple-article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.6" docsubtype="fla" xml:lang="en">
+         <item-info>
+            <jid>IJOES</jid>
+            <aid>50100084</aid>
+            <ce:article-number>221269</ce:article-number>
+            <ce:pii>S1452-3981(23)00657-0</ce:pii>
+            <ce:doi>10.20964/2022.12.55</ce:doi>
+            <ce:copyright type="other" year="2022">The Authors. Published by ESG</ce:copyright>
+            <ce:copyright-line>© 2022 The Authors. Published by ESG</ce:copyright-line>
+         </item-info>
+         <simple-head>
+            <ce:title id="ti0005">Online Model Identification for State of Charge Estimation for Lithium-ion Batteries with Missing Data</ce:title>
+            <ce:author-group id="ag0005">
+               <ce:author id="au1000" author-id="S1452398123006570-b7e6c81be4082e4ea6044d778d892098">
+                  <ce:given-name>Hao</ce:given-name>
+                  <ce:surname>Jin</ce:surname>
+               </ce:author>
+               <ce:author id="au1005" author-id="S1452398123006570-1ea9b753c4d094620c484190d51db342">
+                  <ce:given-name>Ling</ce:given-name>
+                  <ce:surname>Mao</ce:surname>
+                  
+               </ce:author>
+               <ce:author id="au1010" author-id="S1452398123006570-459f9e88ab8cbbe725352e37d7bad63f">
+                  <ce:given-name>Keqing</ce:given-name>
+                  <ce:surname>Qu</ce:surname>
+               </ce:author>
+               <ce:author id="au1015" author-id="S1452398123006570-262c1beeef98663642beaef69392ef20">
+                  <ce:given-name>Jinbin</ce:given-name>
+                  <ce:surname>Zhao</ce:surname>
+               </ce:author>
+               <ce:author id="au1020" author-id="S1452398123006570-4e346068f19a4ef22df182d99e693be8">
+                  <ce:given-name>Fen</ce:given-name>
+                  <ce:surname>Li</ce:surname>
+               </ce:author>
+               <ce:affiliation id="af0005" affiliation-id="S1452398123006570-902fc438d122e65e96d633afd64ffe43">
+                  <ce:textfn id="tn0005">School of Electric Engineering, Shanghai University of Electric Power, Shanghai 200090, China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>School of Electric Engineering, Shanghai University of Electric Power</sa:organization>
+                     <sa:city>Shanghai</sa:city>
+                     <sa:postal-code>200090</sa:postal-code>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="se7365">School of Electric Engineering, Shanghai University of Electric Power, Shanghai 200090, China</ce:source-text>
+               </ce:affiliation>
+            </ce:author-group>
+            <ce:date-received day="11" month="10" year="2022"/>
+            <ce:date-accepted day="14" month="11" year="2022"/>
+            <ce:abstract id="ab0005" xml:lang="en" view="all" class="author"><ce:abstract-sec id="as0005" view="all">
+                  <ce:simple-para id="sp0005" view="all">Online model identification is critical for determining the accurate state of charge (SOC) for a battery based on a model, which depends on the use of complete and reliable measurement data. To ensure precision for parameter identification and reliability for SOC estimation in practical applications, the occurrence of data loss and noise interference must be considered. In this paper, a first-order resistor–capacitor equivalent circuit model is developed to simulate the “black box” system of a battery. A recursive least square method based on a variable interval auxiliary model is proposed to compensate for the missing data in an unreliable actual environment. Meanwhile, a forgetting factor is introduced to prevent the influence of historical data in parameter identification. To further reduce the noise effects on SOC estimation, the extended Kalman filter (EKF) is applied to the algorithm. The proposed method is verified using CALCE experimental data. The experimental results show that the proposed method can be used to realize accurate model parameter identification and reliable online SOC estimation under conditions of data loss and noise interference.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="ks0005" view="all" class="keyword">
+               <ce:section-title id="st0005">Keywords</ce:section-title>
+               <ce:keyword id="kw1635">
+                  <ce:text id="tx1635">lithium-ion battery</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw1640">
+                  <ce:text id="tx1640">model parameter identification</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw1645">
+                  <ce:text id="tx1645">data loss</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw1650">
+                  <ce:text id="tx1650">state of charge</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw1655">
+                  <ce:text id="tx1655">auxiliary model</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </simple-head>
+         <simple-tail view="all">
+            <ce:bibliography id="bi0005" view="all">
+               <ce:section-title id="st0025">References</ce:section-title>
+               <ce:bibliography-sec id="bs0005" view="all">
+                  <ce:bib-reference id="bb1000">
+                     <ce:label>1.</ce:label>
+                     <sb:reference id="rf7055">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>El-Kharbachi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O.</ce:given-name>
+                                 <ce:surname>Zavorotynska</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Latroche</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Cuevas</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Yartys</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Fichtner</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Exploits</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>8</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>817</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7370">A. El-Kharbachi, O. Zavorotynska, M. Latroche, F. Cuevas, V. Yartys and M. Fichtner, Exploits, 8 (2020) 817.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1005">
+                     <ce:label>2.</ce:label>
+                     <sb:reference id="rf7060">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.G.</ce:given-name>
+                                 <ce:surname>Lu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Han</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Hua</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Ouyang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>46</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>226</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7375">L.G. Lu, X. Han, J. Li, J. Hua and M. Ouyang, J. Power Sources, 46 (2013) 226.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1010">
+                     <ce:label>3.</ce:label>
+                     <sb:reference id="rf7065">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Q.</ce:given-name>
+                                 <ce:surname>Peng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Front. Mech. Eng.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>33</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>14</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7380">K. Liu, K. Li, Q. Peng and C. Zhang, Front. Mech. Eng., 33 (2019) 14.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1015">
+                     <ce:label>4.</ce:label>
+                     <sb:reference id="rf7070">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Tamilselvi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Quan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Sustainability</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>6</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>13</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7385">S. Tamilselvi, Z. Quan and H. He, Sustainability, 6 (2021) 13.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1020">
+                     <ce:label>5.</ce:label>
+                     <sb:reference id="rf7075">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Sun</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochim Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>34</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>226</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7390">X. Zhang and D. Sun, Electrochim Acta, 34 (2015) 226.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1025">
+                     <ce:label>6.</ce:label>
+                     <sb:reference id="rf7080">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Meng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans. Ind. Electron.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>10</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>7717</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7395">J. Meng and R. Chen, IEEE Trans. Ind. Electron., 10 (2019) 7717.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1030">
+                     <ce:label>7.</ce:label>
+                     <sb:reference id="rf7085">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Shang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Q.</ce:given-name>
+                                 <ce:surname>Ouyang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.D.</ce:given-name>
+                                 <ce:surname>Widanage</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans. Ind. Electron.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>68</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3170</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7400">K. Liu, Y. Shang, Q. Ouyang and W.D. Widanage, IEEE Trans. Ind. Electron., 68 (2021). 3170.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1035">
+                     <ce:label>8.</ce:label>
+                     <sb:reference id="rf7090">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Bian</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Quan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans. Transp. Electrif.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>7</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>399</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7405">X. Bian, Z. Quan and H. He, IEEE Trans. Transp. Electrif., 7 (2021) 399.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1040">
+                     <ce:label>9.</ce:label>
+                     <sb:reference id="rf7095">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Tian</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Sun</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Xu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Renewable Sustainable Energy Rev.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>12</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>131</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7410">Y. Wang, J. Tian, Z. Sun, L. Wang, R. Xu, M. Li and Z. Chen, Renewable Sustainable Energy Rev., 12 (2020) 131.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1045">
+                     <ce:label>10.</ce:label>
+                     <sb:reference id="rf7100">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Meng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Stroe</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Ricco</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Luo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Teodorescu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl Sci-Basel</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>8</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>37</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7415">J. Meng, D. Stroe, M. Ricco, G. Luo and R. Teodorescu, Appl Sci-Basel, 8 (2018) 37.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1050">
+                     <ce:label>11.</ce:label>
+                     <sb:reference id="rf7105">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Chaoui</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.C.</ce:given-name>
+                                 <ce:surname>Ibe-Ekeocha</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans. Veh. Technol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>66</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>8773</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7420">H. Chaoui and C.C. Ibe-Ekeocha, IEEE Trans. Veh. Technol., 66 (2017) 8773.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1055">
+                     <ce:label>12.</ce:label>
+                     <sb:reference id="rf7110">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Fotouhi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Auger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Propp</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Longo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Wild</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Renewable Sustainable Energy Rev.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>56</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1008</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7425">A. Fotouhi, D. Auger, K. Propp, S. Longo and M. Wild, Renewable Sustainable Energy Rev., 56 (2016) 1008.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1060">
+                     <ce:label>13.</ce:label>
+                     <sb:reference id="rf7115">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Q.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Kang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Yan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Du</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochim Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>228</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>146</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7430">Q. Wang, J. Wang, P. Zhao, J. Kang, F. Yan and C. Du, Electrochim Acta, 228 (2017) 146.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1065">
+                     <ce:label>14.</ce:label>
+                     <sb:reference id="rf7120">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Xiong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Xu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Guo</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>39</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>310</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7435">H. He, X. Zhang, R. Xiong, Y. Xu and H. Guo, Energy, 39 (2012) 310.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1070">
+                     <ce:label>15.</ce:label>
+                     <sb:reference id="rf7125">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Zeng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Tian</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Tian</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energies</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>11</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>468</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7440">Z. Zeng, J. Tian, D. Li and Y. Tian, Energies, 11 (2018) 468.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1075">
+                     <ce:label>16.</ce:label>
+                     <sb:reference id="rf7130">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Wei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Zou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Leng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Soong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Tseng</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans. Ind. Electron.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>65</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1336</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7445">Z. Wei, C. Zou, F. Leng, B. Soong and K. Tseng, IEEE Trans. Ind. Electron., 65 (2018) 1336.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1080">
+                     <ce:label>17.</ce:label>
+                     <sb:reference id="rf7135">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.K.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Sun</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Adv. Manuf.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>33</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>202</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7450">X. K.Chen and D. Sun, Adv. Manuf., 33 (2015) 202.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1085">
+                     <ce:label>18.</ce:label>
+                     <sb:reference id="rf7140">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Luo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Meng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Ji</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Cai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Gao</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Energy Storage</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>18</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2451</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7455">G. Luo, J. Meng, X. Ji, X. Cai and F. Gao, J. Energy Storage, 18 (2017) 2451.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1090">
+                     <ce:label>19.</ce:label>
+                     <sb:reference id="rf7145">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Sun</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Hu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Zou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Siguang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>36</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3531</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7460">F. Sun, X Hu, Y. Zou and L. Siguang, Energy, 36 (2011) 3531.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1095">
+                     <ce:label>20.</ce:label>
+                     <sb:reference id="rf7150">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Gholizadeh</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.R.</ce:given-name>
+                                 <ce:surname>Salmasi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans. Ind. Electron.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>61</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1335</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7465">M. Gholizadeh and F.R. Salmasi, IEEE Trans. Ind. Electron., 61 (2014) 1335.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1100">
+                     <ce:label>21.</ce:label>
+                     <sb:reference id="rf7155">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Rentemeister</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Badeda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Jöst</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Schulte</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Sauer</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Energy Storage</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>30</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>361</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7470">W. Li, M. Rentemeister, J. Badeda, D. Jöst, D. Schulte and D. Sauer, J. Energy Storage, 30 (2020) 361.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1105">
+                     <ce:label>22.</ce:label>
+                     <sb:reference id="rf7160">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Wei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Dong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Pou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Quan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans. Ind. Electron.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>68</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>312</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7475">Z. Wei, G. Dong, X. Zhang, J. Pou, Z. Quan and H. He, IEEE Trans. Ind. Electron., 68 (2021) 312.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1110">
+                     <ce:label>23.</ce:label>
+                     <sb:reference id="rf7165">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Hong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Yao</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>18</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>251</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7480">J. Hong, Z. Wang and Y. Yao, Appl. Energy, 18 (2019) 251.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1115">
+                     <ce:label>24.</ce:label>
+                     <sb:reference id="rf7170">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Tian</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans. Ind. Electron.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>69</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>5175</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7485">H. Chen, E. Tian, and L. Wang, IEEE Trans. Ind. Electron., 69 (2022) 5175.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1120">
+                     <ce:label>25.</ce:label>
+                     <sb:reference id="rf7175">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Dong</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans. Veh. Technol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>72</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>985</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7490">A. Yang and G. Dong, IEEE Trans. Veh. Technol., 72 (2017) 985.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1125">
+                     <ce:label>26.</ce:label>
+                     <sb:reference id="rf7180">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Su</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>72</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>275</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7495">S. Li, H. He, C. Su and P. Zhao, Appl. Energy, 72 (2020) 275.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1130">
+                     <ce:label>27.</ce:label>
+                     <sb:reference id="rf7185">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Rentemeister</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Badeda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Jöst</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Schulte</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Sauer</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Energy Storage</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>30</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4524</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7500">W. Li, M. Rentemeister, J. Badeda, D. Jöst, D. Schulte and D. Sauer, J. Energy Storage, 30 (2020) 4524.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1135">
+                     <ce:label>28.</ce:label>
+                     <sb:reference id="rf7190">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Adhikaree</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans. Veh. Technol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>28</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>113</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7505">A. Adhikaree and L. Zhang, IEEE Trans. Veh. Technol., 28 (2018) 113</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1140">
+                     <ce:label>29.</ce:label>
+                     <sb:reference id="rf7195">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Tanizawa</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Suzumiya</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Ikeda</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Fujitsu Sci. Tech. J.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>51</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>27</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7510">T. Tanizawa, T. Suzumiya and K. Ikeda, Fujitsu Sci. Tech. J., 51 (2015) 27.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1145">
+                     <ce:label>30.</ce:label>
+                     <sb:reference id="rf7200">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Cao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Hua</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Access</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>18</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>156232</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7515">S. Yang, Y. Cao, S. Zhou, Y. Hua, X. Zhou and X. Liu, IEEE Access, 18 (2020) 156232.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1150">
+                     <ce:label>31.</ce:label>
+                     <sb:reference id="rf7205">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Du</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Fei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans. Signal Inf. Process. Networks</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>34</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>744</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7520">D. Du, R. Chen, M. Fei and K. Li, IEEE Trans. Signal Inf. Process. Networks, 34 (2017) 744.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1155">
+                     <ce:label>32.</ce:label>
+                     <sb:reference id="rf7210">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.A.</ce:given-name>
+                                 <ce:surname>Popescu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.W.</ce:given-name>
+                                 <ce:surname>Moore</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans. Netw. Serv. Manage.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>15</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3753</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7525">D. A. Popescu and A.W. Moore, IEEE Trans. Netw. Serv. Manage., 15 (2021) 3753.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1160">
+                     <ce:label>33.</ce:label>
+                     <sb:reference id="rf7215">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Zhu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Fang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans. Veh. Technol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>64</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4985</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7530">X. Zhu, H. Zhang, J. Wang and Z. Fang, IEEE Trans. Veh. Technol., 64 (2015) 4985.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1165">
+                     <ce:label>34.</ce:label>
+                     <sb:reference id="rf7220">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Shuai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Ouyang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Control Eng. Pract.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>24</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>55</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7535">Z. Shuai, H. Zhang, J. Wang, J. Li and M. Ouyang, Control Eng. Pract., 24 (2014) 55.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1170">
+                     <ce:label>35.</ce:label>
+                     <sb:reference id="rf7225">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Hu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Yuan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Zou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans. Veh. Technol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>67</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>10319</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7540">X. Hu, H. Yuan, C. Zou, Z. Li and L. Zhang, IEEE Trans. Veh. Technol., 67 (2018) 10319.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1175">
+                     <ce:label>36.</ce:label>
+                     <sb:reference id="rf7230">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Jiang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Jiang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Fernandez</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Xiong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Coffie-Ken</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>52</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>219</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7545">C. Jiang, C. Jiang, S. Wang, B. Wu, C. Fernandez, X. Xiong and J. Coffie-Ken, Energy, 52 (2021) 219.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1180">
+                     <ce:label>37.</ce:label>
+                     <sb:reference id="rf7235">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Wei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Cao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Dong</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>73</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>268</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7550">Z. Wei, D. Zhao, H. He, W. Cao and G. Dong, Appl. Energy, 73 (2020) 268.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1185">
+                     <ce:label>38.</ce:label>
+                     <sb:reference id="rf7240">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Gan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Qiu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans. Ind. Inf.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>16</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2500</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7555">D. Wang, S. Zhang, M. Gan and J. Qiu, IEEE Trans. Ind. Inf., 16 (2020) 2500.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1190">
+                     <ce:label>39.</ce:label>
+                     <sb:reference id="rf7245">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.D.</ce:given-name>
+                                 <ce:surname>Heap</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Environ. Modell. Software</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>53</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>173</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7560">J. Li and A.D. Heap, Environ. Modell. Software, 53 (2014) 173.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1195">
+                     <ce:label>40.</ce:label>
+                     <sb:reference id="rf7250">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Q.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Access</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>11</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>232</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7565">Q. Yang and Z. Liu, IEEE Access, 11 (2012) 232</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1200">
+                     <ce:label>41.</ce:label>
+                     <sb:reference id="rf7255">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Shen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Ouyang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Lu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Feng</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans. Veh. Technol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>67</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>92</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7570">P. Shen, M. Ouyang, L. Lu, J. Li and X. Feng, IEEE Trans. Veh. Technol., 67 (2018) 92.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1205">
+                     <ce:label>42.</ce:label>
+                     <sb:reference id="rf7260">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Ding</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Ding</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Int. J. Adapt. Control Signal Process.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>57</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>180</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7575">F. Ding and J. Ding, Int. J. Adapt. Control Signal Process., 57 (2009) 180.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1210">
+                     <ce:label>43.</ce:label>
+                     <sb:reference id="rf7265">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Lan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>17</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>456</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7580">Y. Li, J. Chen and F. Lan, J. Power Sources, 17 (2020) 456.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1215">
+                     <ce:label>44.</ce:label>
+                     <sb:reference id="rf7270">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Wei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Qi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Math. Modell.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>11</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>6040</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7585">J. Zhang, Y. Wei and H. Qi, Appl. Math. Modell., 11 (2016) 6040</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1220">
+                     <ce:label>45.</ce:label>
+                     <sb:reference id="rf7275">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Xie</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Xie</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Fernandezb</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Zou</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Int. J. Electrochem. Sci.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>15</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>7935</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7590">F. Xie, S. Wang, Y. Xie, C. Fernandezb, X. Li and C. Zou, Int. J. Electrochem. Sci., 15 (2020) 7935</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1225">
+                     <ce:label>46.</ce:label>
+                     <sb:reference id="rf7280">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Xiong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Tian</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Shen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Sun</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans. Veh. Technol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>68</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4130</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7595">R. Xiong, J. Tian, W. Shen and F. Sun, IEEE Trans. Veh. Technol., 68 (2019) 4130</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1230">
+                     <ce:label>47.</ce:label>
+                     <sb:reference id="rf7285">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Wei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Cao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Dong</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>268</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>114932</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7600">Z. Wei, D. Zhao, H. He, W. Cao and G. Dong, Appl. Energy, 268 (2020) 114932</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb1235">
+                     <ce:label>48.</ce:label>
+                     <sb:reference id="rf7290">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Tao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Bi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Yan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Ni</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Phys.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>2216</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>12002</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se7605">S. Zhang, H. Tao, K. Bi, W. Yan and H. Ni, J. Phys., 2216 (2022) 12002</ce:source-text>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </simple-tail>
+      </simple-article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

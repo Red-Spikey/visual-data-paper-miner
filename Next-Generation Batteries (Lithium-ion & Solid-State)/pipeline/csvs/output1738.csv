@@ -1,0 +1,377 @@
+UTD_EID,UCS_Locator,Filename,Caption,link,stage1_hit,stage1_keywords,stage2_ocr_status,stage2_ocr_text,stage2_keywords,stage2_hit
+1-s2.0-S0378775324006530-gr1.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/gr1/DOWNSAMPLED/image/jpeg/776699b37b34e2ad1550ae6d131db800/gr1.jpg,gr1.jpg,"Schematic representation of the cell-level model. (a) Cylindrical cell geometry containing jellyroll, tab and can. The electrical/thermal model element containing electrode and current collector components is magnified. (b) Cross section representation of the internal structure of the cylindrical cell. The temperature locations for core temperature T c o r e , side surface temperature T s u r f a c e and positive tab temperature T t o p are indicated.",https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr1_lrg.jpg,1,current,2.0,"(a) (b)
+
+top
+
+Thermal ECN
+element
+
+T
+
+surface core
+surface
+
+   
+
+Electrical ECN
+element
+
+Cross section
+
+R R R
+SHH
+C; C, C;
+
+Legend:
+
+—W\— Thermal resistance —\(— Thermalresistance —+— Electrical resistance —VA— Thermal resistance
+(Aluminum) (Copper) (electrodes) (electrodes)
+(Cs: Thermal mass (}_s Thermal mass st Electrical capacitor (}_—s—: Thermal mass
+(Aluminum) (Copper) (electrodes) (electrodes)
+
+mm Electrical resistance mm Electrical resistance —1/- Voltage source
+(Aluminum) (Copper) (electrodes)
+
+Tab 8% Separator at core Til Jellyroll side view Thermocouple
+
+ 
+",voltage,1.0
+1-s2.0-S0378775324006530-gr5.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/gr5/DOWNSAMPLED/image/jpeg/5ea467222005657e69c4d2368927f4af/gr5.jpg,gr5.jpg,In-cell thermocouple instrumentation. (a) Schematic concept of the sensor insertion (Reproduced from Ref. [22]). (b) Cylindrical LG M50T cell with inserted thermal probe for core temperature monitoring. (c) Terminal voltage during a 0.3C constant current discharge at 25 °C in a thermal chamber.,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr5_lrg.jpg,1,"voltage, current, discharge",2.0,"(a)
+
+Voltage (V)
+
+(Cc)
+
+Voltage (V)
+
+Voltage (V)
+
+Voltage sim
+
+——— Voltage exp
+
+0
+
+0
+
+0
+
+ 
+
+5000 10000 15000 20000
+Time (s)
+
+Voltage sim
+Voltage exp
+
+ 
+
+5000 10000 15000 20000
+Time (s)
+
+Voltage sim
+Voltage exp
+
+2000 4000 6000 8000 10000 12000
+Time (s)
+
+SoC
+
+SoC
+Temperature (°C)
+
+ 
+
+(0) 60
+
+Temperature (°C)
+
+=
+a
+—
+
+“=
+=h
+—
+
+Temperature (°C)
+
+0
+
+0
+
+0
+
+Core sim Core exp
+Surface exp
+Top exp
+
+Surface sim
+
+ 
+
+5000 10000 15000 20000
+
+Time (s)
+
+Core sim Core exp
+
+Surface sim
+
+Surface exp
+
+Top sim Top exp
+
+ 
+
+5000 10000 15000 20000
+
+Time (s)
+
+Core sim Core exp
+
+Surface sim
+
+Surface exp
+
+Top exp
+
+2000 4000 6000 98000
+Time (s)
+
+ 
+
+10000 12000
+",voltage,1.0
+1-s2.0-S0378775324006530-gr4.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/gr4/DOWNSAMPLED/image/jpeg/b61d56df9bf50910bb4fbe65d6e5ccc0/gr4.jpg,gr4.jpg,Schematic of the experimental setup.,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr4_lrg.jpg,0,,,,,
+1-s2.0-S0378775324006530-gr3.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/gr3/DOWNSAMPLED/image/jpeg/d466db9cc59e27b5cfd141d4c27b1cfd/gr3.jpg,gr3.jpg,"Model validation: experimental and simulation results for 1C and 2C constant current discharges. Terminal voltage and corresponding SoC (as calculated by Coulomb counting) for (a) 1C and (b) 2C discharge. Temperature at different locations within the cell: core, side surface at middle height and positive tab for (c) 1C and (d) 2C discharge. Model-predicted temperature distribution throughout the cell at the end of the (e) 1C and (f) 2C discharge. The experimental tests were repeated twice on two instrumented cells and the experimental measurements are highly reproducible. For visual simplicity, only the first test result is shown in (a–d). The difference between experimental measurements and simulation is RMSE of 7.73 mV, 0.66 °C and 0.3 °C for the terminal voltage, core and surface temperature of 1C discharge in (a) and (c), RMSE of 11.13 mV, 0.89 °C and 0.66 °C for the terminal voltage, core and surface temperature of 2C discharge in (b) and (d).",https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr3_lrg.jpg,1,"voltage, current, discharge",0.0,"+ve terminal | Q =
+
+  
+",,0.0
+1-s2.0-S0378775324006530-gr2.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/gr2/DOWNSAMPLED/image/jpeg/961be3f1432c2bb24dfc823ba612ce8b/gr2.jpg,gr2.jpg,"Model validation: experimental and simulation results for different current profiles: pulse discharge, drive cycle and current-switching. (a) Terminal voltage and (b) temperature for pulse discharge at 2C. (c) Terminal voltage and (d) temperature for drive cycle load. (e) Terminal voltage and (f) temperature for discharge-charge current switching load. The experimental tests were repeated twice on two instrumented cells and the experimental measurements are highly reproducible. For visual simplicity, only the first test result is shown in (a–f). The difference between experimental measurements and simulation is RMSE of 8.30 mV, 0.57 °C and 0.51 °C for the terminal voltage, core and surface temperature of pulse discharge in (a) and (b), RMSE of 1.93 mV, 0.45 °C and 1.20 °C for the terminal voltage, core and surface temperature of drive cycle load in (c) and (d), RMSE of 18.53 mV, 0.72 °C and 0.39 °C for the terminal voltage, core and surface temperature of drive cycle load in (e) and (f).",https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr2_lrg.jpg,1,"voltage, current, charge, discharge",2.0,"(a) (b)
+
+—
+O
+~—
+
+— « Instrumented cell-1
+= = = Instrumented cell-2
+
+'» Instrumented cell-3
+—— Fresh cell
+
+Terminal voltage (V)
+
+  
+
+0 1 2 3 4 5
+Discharge capacity (Ah)
+","capacity, voltage, discharge",1.0
+1-s2.0-S0378775324006530-gr8.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/gr8/DOWNSAMPLED/image/jpeg/284664a7ed935f4c88929aa35cdda4fb/gr8.jpg,gr8.jpg,"Temperature estimation results for the check of robustness against errors of the input surface temperature measurement. (a) Estimation results for different initial guesses of the core temperature: 0 °C, 10 °C and 30 °C. Estimation results with measurement input noise error N ( μ , σ ) : (b) disturbance error case with μ = 0 °C, σ = 5 °C and (c) shift error case with μ = 2 °C, σ = 0 °C. The core temperature measurement tests were repeated twice with RMSE of 0.15 °C. The experimental tests were repeated twice on two instrumented cells and the measurements are highly reproducible. For visual simplicity, only the first test result is shown.",https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr8_lrg.jpg,0,,,,,
+1-s2.0-S0378775324006530-gr7.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/gr7/DOWNSAMPLED/image/jpeg/bfc82cc417a871a1889c1011f3dde9c4/gr7.jpg,gr7.jpg,"Temperature estimation results for different current loads: (a) temperature and (b) terminal voltage for the 1C constant current discharge, with inset for the beginning of discharge. Temperature results for: (c) 2C constant current discharge, (d) pulse discharge, (e) drive cycle and (f) current-switching load. The experimental tests were repeated twice on two instrumented cells and the measurements are highly reproducible. For visual simplicity, only the first test result is shown.",https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr7_lrg.jpg,1,"voltage, current, discharge",2.0,"=
+o
+—
+
+Temperature (°C)
+
+—
+oO
+~—
+
+Temperature (°C)
+
+(€)
+
+Temperature (°C)
+
+o
+Oo
+
+ 
+
+ 
+
+Core sim Core exp
+50 Surface sim Surface exp
+Top sim Top exp
+40 ,
+30
+20
+10
+0
+0 1000 2000 3000 4000
+Time (s)
+100 -
+Core sim Core exp
+Surface sim Surface exp
+80 Top exp
+60
+40
+20
+0
+0 500 1000 1500 2000
+Time (s)
+
+Core sim Core exp
+Surface sim Surface exp
+Top sim Top exp
+
+ 
+
+5000 10000 15000 20000
+Time (s)
+
+—
+oO
+~—
+
+Temperature (°C) a Voltage (V)
+
+—~
+—h
+—
+
+Temperature (°C)
+
+0
+
+4
+§
+4
+§
+§
+5
+4
+4
+4
+4
+§
+‘
+‘
+
+0
+
+ 
+
+0
+
+ 
+
+ 
+
+Voltage (V)
+
+200 400 600
+Time (s)
+
+Voltage sim
+Voltage exp
+1000 2000 3000 4000
+Time (s)
+
+Core exp
+Surface exp
+
+5000 10000 15000 20000
+Time (s)
+Core sim Core exp
+
+Surface sim Surface exp
+Top exp
+
+2000 4000 6000 8000 10000 12000
+Time (s)
+",voltage,1.0
+1-s2.0-S0378775324006530-gr6.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/gr6/DOWNSAMPLED/image/jpeg/584205dc62044490c6e699c92dd1bf5d/gr6.jpg,gr6.jpg,"Temperature estimation in simplified conditions: the two-node model and the fully discretized model in open loop. (a) Schematic representation of the two-node electro-thermal model. Validation results of the two-node model during a 1C (5 A) constant current discharge, for (b) terminal voltage and (c) temperature. (d) Temperature estimation results using the two-node model. (e) Temperature estimation results of fully discretized model in open loop mode.",https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr6_lrg.jpg,1,"voltage, current, discharge",0.0,"Core temperature (°C)
+
+(b
+
+Core temperature (°C) —~
+
+(Cc
+
+—w
+
+Core temperature (°C)
+
+Prediction (0 °C guess)
+Prediction (10 °C guess)
+Prediction (30 °C guess)
+
+300 400 500 £600
+
+ 
+
+Input (7 =0 °C,a0=5 °C)
+Prediction
+
+ 
+
+300 400 500 #600
+
+Exp
+Input (4 =2 °C,a0=0)
+Prediction
+
+ 
+",,0.0
+1-s2.0-S0378775324006530-gr1.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/gr1/THUMBNAIL/image/gif/557c322e39514e7e560db5ad65886980/gr1.sml,gr1.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr1.sml,0,,,,,
+1-s2.0-S0378775324006530-gr5.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/gr5/THUMBNAIL/image/gif/a1c6c3f9ba30b35a3464d0abb7a06c6e/gr5.sml,gr5.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr5.sml,0,,,,,
+1-s2.0-S0378775324006530-gr4.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/gr4/THUMBNAIL/image/gif/02ec1c97d5472f3390b42d8feb07e7ea/gr4.sml,gr4.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr4.sml,0,,,,,
+1-s2.0-S0378775324006530-gr3.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/gr3/THUMBNAIL/image/gif/3bbf7cc0c1a18f69b59badd001423a94/gr3.sml,gr3.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr3.sml,0,,,,,
+1-s2.0-S0378775324006530-gr2.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/gr2/THUMBNAIL/image/gif/608a06b189264e77a3f80ce17d9f5a87/gr2.sml,gr2.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr2.sml,0,,,,,
+1-s2.0-S0378775324006530-gr8.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/gr8/THUMBNAIL/image/gif/b326610928d26e527665802c991804b4/gr8.sml,gr8.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr8.sml,0,,,,,
+1-s2.0-S0378775324006530-gr7.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/gr7/THUMBNAIL/image/gif/c3d3dc546ac1c5babe62957fcbfb88c3/gr7.sml,gr7.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr7.sml,0,,,,,
+1-s2.0-S0378775324006530-gr6.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/gr6/THUMBNAIL/image/gif/0fefc2946677420d2442d35e806e5e63/gr6.sml,gr6.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr6.sml,0,,,,,
+1-s2.0-S0378775324006530-gr1_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/HIGHRES/image/jpeg/9a63412cf8a65a2b0f8ae91335576396/gr1_lrg.jpg,gr1_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr1_lrg_lrg.jpg,0,,,,,
+1-s2.0-S0378775324006530-gr5_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/HIGHRES/image/jpeg/b348816c46ce3064cce0c6b87f9b1708/gr5_lrg.jpg,gr5_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr5_lrg_lrg.jpg,0,,,,,
+1-s2.0-S0378775324006530-gr4_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/HIGHRES/image/jpeg/6a5ec66a1a4f6177bbd2d69fb0b7212f/gr4_lrg.jpg,gr4_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr4_lrg_lrg.jpg,0,,,,,
+1-s2.0-S0378775324006530-gr3_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/HIGHRES/image/jpeg/dd1ae2d8319177ba3a6c4810d9c1e836/gr3_lrg.jpg,gr3_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr3_lrg_lrg.jpg,0,,,,,
+1-s2.0-S0378775324006530-gr2_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/HIGHRES/image/jpeg/4849889046683a1892cd16db9d5b94c4/gr2_lrg.jpg,gr2_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr2_lrg_lrg.jpg,0,,,,,
+1-s2.0-S0378775324006530-gr8_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/HIGHRES/image/jpeg/89da72fccef962ce6917c20f88a68911/gr8_lrg.jpg,gr8_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr8_lrg_lrg.jpg,0,,,,,
+1-s2.0-S0378775324006530-gr7_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/HIGHRES/image/jpeg/291a5400d67fa1d3038434613c4f10fe/gr7_lrg.jpg,gr7_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr7_lrg_lrg.jpg,0,,,,,
+1-s2.0-S0378775324006530-gr6_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/HIGHRES/image/jpeg/fe872a2fe59f789334a4801b682ad55d/gr6_lrg.jpg,gr6_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-gr6_lrg_lrg.jpg,0,,,,,
+1-s2.0-S0378775324006530-mmc1.docx,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/d89c57f2a97f52181697330a02e054c9/mmc1.docx,mmc1.docx,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-mmc1.docx,0,,,,,
+1-s2.0-S0378775324006530-si40.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/f68bb750ea8d53a624b2db3eb44f37e2/si40.svg,si40.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si40.svg,0,,,,,
+1-s2.0-S0378775324006530-si26.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/42232885fc3f38a6bcb73043a19ab5f2/si26.svg,si26.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si26.svg,0,,,,,
+1-s2.0-S0378775324006530-si11.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/c6b10a48d0af93d20ba5e29e35f307c2/si11.svg,si11.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si11.svg,0,,,,,
+1-s2.0-S0378775324006530-si42.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/979a80b6547d89c7bf33727d264a948c/si42.svg,si42.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si42.svg,0,,,,,
+1-s2.0-S0378775324006530-si34.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/747c735d13f5508be123bb70defc5ca1/si34.svg,si34.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si34.svg,0,,,,,
+1-s2.0-S0378775324006530-si32.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/313e8c5425ca45f4ce472a06dbcd8061/si32.svg,si32.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si32.svg,0,,,,,
+1-s2.0-S0378775324006530-si37.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/6903e00dc6bb0b1440caa54ea36adad2/si37.svg,si37.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si37.svg,0,,,,,
+1-s2.0-S0378775324006530-si20.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/df9b258b2be36d5a36a86faee8ef3d2b/si20.svg,si20.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si20.svg,0,,,,,
+1-s2.0-S0378775324006530-si9.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/cf4034c8413bf8525bbf6d40bdc4e24f/si9.svg,si9.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si9.svg,0,,,,,
+1-s2.0-S0378775324006530-si1.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/1cac76668bb9b707e1efa829b8dc3b6a/si1.svg,si1.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si1.svg,0,,,,,
+1-s2.0-S0378775324006530-si15.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/90aa44f7d238f6ff68111f60ae643074/si15.svg,si15.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si15.svg,0,,,,,
+1-s2.0-S0378775324006530-si8.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/a2abb6d41341c9ea1acc4b1d62713e61/si8.svg,si8.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si8.svg,0,,,,,
+1-s2.0-S0378775324006530-si3.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/87467ff17b9e038da0096a4b33e7ba46/si3.svg,si3.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si3.svg,0,,,,,
+1-s2.0-S0378775324006530-si28.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/1ecc5e43ec74a28fe4d1c7172cda775f/si28.svg,si28.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si28.svg,0,,,,,
+1-s2.0-S0378775324006530-si13.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/2850555fda595077ab3c8b7678406553/si13.svg,si13.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si13.svg,0,,,,,
+1-s2.0-S0378775324006530-si17.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/2df4308c7c3d5b57b3da9774eb73dd52/si17.svg,si17.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si17.svg,0,,,,,
+1-s2.0-S0378775324006530-si5.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/2a9f2d49b80d38dded32852cfa8c4ec1/si5.svg,si5.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si5.svg,0,,,,,
+1-s2.0-S0378775324006530-si25.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/7ab99dd7be4a1d8b80182be0d6182ea0/si25.svg,si25.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si25.svg,0,,,,,
+1-s2.0-S0378775324006530-si33.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/e07234374e6d96effc7202a977e22082/si33.svg,si33.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si33.svg,0,,,,,
+1-s2.0-S0378775324006530-si12.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/08437225d9eaab5dc2dad43cbacbc0d8/si12.svg,si12.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si12.svg,0,,,,,
+1-s2.0-S0378775324006530-si38.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/4cf27e91f4feb211a20bf12e1a679265/si38.svg,si38.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si38.svg,0,,,,,
+1-s2.0-S0378775324006530-si27.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/d80f8091ca8219d42895cd52166b6c18/si27.svg,si27.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si27.svg,0,,,,,
+1-s2.0-S0378775324006530-si24.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/e777df3b1bf4ef1c0fe11278bfc2b417/si24.svg,si24.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si24.svg,0,,,,,
+1-s2.0-S0378775324006530-si21.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/e81a6b6459433688a1887457fedb4968/si21.svg,si21.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si21.svg,0,,,,,
+1-s2.0-S0378775324006530-si10.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/0ff3f3df4ad13ead9e9976ebeaaa36aa/si10.svg,si10.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si10.svg,0,,,,,
+1-s2.0-S0378775324006530-si19.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/1a053c05294d070653c13956fcc9acb9/si19.svg,si19.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si19.svg,0,,,,,
+1-s2.0-S0378775324006530-si35.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/8ae25772b89cdd071db1022d920ad2a7/si35.svg,si35.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si35.svg,0,,,,,
+1-s2.0-S0378775324006530-si36.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/45c9b1a2cec02e52da59f61ab2877775/si36.svg,si36.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si36.svg,0,,,,,
+1-s2.0-S0378775324006530-si16.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/225489c011190b683925214c32ea3f80/si16.svg,si16.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si16.svg,0,,,,,
+1-s2.0-S0378775324006530-si14.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/94cc4494ce640c983b98ced107f1e6b7/si14.svg,si14.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si14.svg,0,,,,,
+1-s2.0-S0378775324006530-si4.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/215394a4836d3b429c0570a508d45a89/si4.svg,si4.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si4.svg,0,,,,,
+1-s2.0-S0378775324006530-si41.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/a32f4566e50100b2423210ce597f896d/si41.svg,si41.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si41.svg,0,,,,,
+1-s2.0-S0378775324006530-si18.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/4dbf7d1a4d6ee7dd785c7c2248fa541b/si18.svg,si18.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si18.svg,0,,,,,
+1-s2.0-S0378775324006530-si39.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/37f40f92301702fedbcf76611605cddb/si39.svg,si39.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si39.svg,0,,,,,
+1-s2.0-S0378775324006530-si29.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/6384e579ff9356d2915ff37465f4d25e/si29.svg,si29.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si29.svg,0,,,,,
+1-s2.0-S0378775324006530-si30.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/45d1ef4e4c258d697bf8f9ab60394975/si30.svg,si30.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si30.svg,0,,,,,
+1-s2.0-S0378775324006530-si23.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/e4116669503a83bf459552ab51593341/si23.svg,si23.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si23.svg,0,,,,,
+1-s2.0-S0378775324006530-si43.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/4aeb6a2364866b5c745c0a8dc55b6cdb/si43.svg,si43.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si43.svg,0,,,,,
+1-s2.0-S0378775324006530-si31.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/fa3728a2831abfe9c1ee6c69afb18347/si31.svg,si31.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si31.svg,0,,,,,
+1-s2.0-S0378775324006530-si2.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/f8e6866c732cd67050344dc1470620bb/si2.svg,si2.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si2.svg,0,,,,,
+1-s2.0-S0378775324006530-si6.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/f4b836217ff11e41ae525edf2f69d4ec/si6.svg,si6.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si6.svg,0,,,,,
+1-s2.0-S0378775324006530-si7.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0378775324006530/image/svg+xml/661cb97cea76cab12ed2a47ee33746b6/si7.svg,si7.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-si7.svg,0,,,,,
+1-s2.0-S0378775324006530-am.pdf,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105M80M6W3J/MAIN/application/pdf/d4a1f295f8a7ad378e1d9057fbf45eae/am.pdf,am.pdf,,https://ars.els-cdn.com/content/image/1-s2.0-S0378775324006530-am.pdf,0,,,,,

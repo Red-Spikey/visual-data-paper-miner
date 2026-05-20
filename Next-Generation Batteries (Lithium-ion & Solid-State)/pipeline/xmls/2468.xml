@@ -1,0 +1,779 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1876610215011224</prism:url><dc:identifier>doi:10.1016/j.egypro.2015.07.354</dc:identifier><eid>1-s2.0-S1876610215011224</eid><prism:doi>10.1016/j.egypro.2015.07.354</prism:doi><pii>S1876-6102(15)01122-4</pii><dc:title>State-of-charge Estimation of Lithium-ion Batteries Based on Multiple Filters Method </dc:title><prism:publicationName>Energy Procedia</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>18766102</prism:issn><prism:volume>75</prism:volume><prism:startingPage>2635</prism:startingPage><prism:endingPage>2640</prism:endingPage><prism:pageRange>2635-2640</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2015-08-31</prism:coverDate><prism:coverDisplayDate>August 2015</prism:coverDisplayDate><prism:copyright>Copyright © 2015 The Authors. Published by Elsevier Ltd.</prism:copyright><prism:publisher>The Authors. Published by Elsevier Ltd.</prism:publisher><prism:issueName>Clean, Efficient and Affordable Energy for a Sustainable Future: The 7th International Conference on Applied Energy (ICAE2015)</prism:issueName><dc:creator>Wang, Yujie</dc:creator><dc:creator>Zhang, Chenbin</dc:creator><dc:creator>Chen, Zonghai</dc:creator><dc:description>
+                  Energy crises and environmental issues have promoted research into development of various types of electric vehicles (EVs). Since the control strategy of EVs is essentially dependent on the state-of-charge (SOC) estimation of the batteries, one of the most critical issues of battery management system (BMS) is to accurately estimate the SOC in real-time. This paper proposes a multiple filters method for SOC estimation by combining extended Kalman filter (EKF) and particle filter (PF) method. Compared with EKF and PF method, this approach has higher SOC estimation accuracy. In the new method, each particle has its own filter, thus provides better tracking and prediction of SOC. Validation experiments are carried out based on IFP1865140-type batteries developed by Hefei Guoxuan High-Tech Power Energy CO. LTD. of China. Experiments under dynamic current condition are performed to verify the robustness of the proposed method. The experimental results have indicated that accurate and robust SOC estimation results can be obtained by the proposed method.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>ElsevierWaived</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>Electric vehicles</dcterms:subject><dcterms:subject>Lithium-ion battery</dcterms:subject><dcterms:subject>State-of-charge estimation</dcterms:subject><dcterms:subject>Battery model</dcterms:subject><dcterms:subject>Moltiple filters method.</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1876610215011224" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1876610215011224" rel="scidir"/></coredata><scopus-id>84947050640</scopus-id><scopus-eid>2-s2.0-84947050640</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/84947050640" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>277910</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291711</xocs:ssid>
+         <xocs:ssid type="subj">291731</xocs:ssid>
+         <xocs:ssid type="subj">291877</xocs:ssid>
+         <xocs:ssid type="subj">291892</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Energy Procedia</xocs:srctitle>
+      <xocs:normalized-srctitle>ENERGYPROCEDIA</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20150828">2015-08-28</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20150828">2015-08-28</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20150828">2015-08-28</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20150828">2015-08-28</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2015-08-27T04:47:25</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1876610215011224</xocs:eid>
+      <xocs:pii-formatted>S1876-6102(15)01122-4</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1876610215011224</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.egypro.2015.07.354</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.1</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1876610215X00130</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20240102">2024-01-02T00:47:24.878668Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20150801</xocs:date-search-begin>
+      <xocs:date-search-end>20150831</xocs:date-search-end>
+      <xocs:year-nav>2015</xocs:year-nav>
+      <xocs:indexeddate epoch="1440746008">2015-08-28T07:13:28.519382Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids confeditor contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content oa subj suppl tomb vol volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authkeywords authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1876-6102</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>18766102</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>75</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>75</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 75</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>396</xocs:sort-order>
+      <xocs:first-fp>2635</xocs:first-fp>
+      <xocs:last-lp>2640</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>2635</xocs:first-page>
+         <xocs:last-page>2640</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201508</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>August 2015</xocs:cover-date-text>
+      <xocs:cover-date-start>2015-08-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2015-08-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2015</xocs:cover-date-year>
+      <xocs:title-editors-groups>
+         <xocs:title-editors-group>
+            <ce:title>Clean, Efficient and Affordable Energy for a Sustainable Future: The 7th International Conference on Applied Energy (ICAE2015)</ce:title>
+            <ce:editors>
+               <ce:author-group>
+                  <ce:author>
+                     <ce:degrees>Dr.</ce:degrees>
+                     <ce:given-name>J.</ce:given-name>
+                     <ce:surname>Yan</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author>
+                     <ce:degrees>Dr.</ce:degrees>
+                     <ce:given-name>T.</ce:given-name>
+                     <ce:surname>Shamim</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author>
+                     <ce:degrees>Dr.</ce:degrees>
+                     <ce:given-name>S.K.</ce:given-name>
+                     <ce:surname>Chou</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author>
+                     <ce:degrees>Dr.</ce:degrees>
+                     <ce:given-name>H.</ce:given-name>
+                     <ce:surname>Li</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+            </ce:editors>
+         </xocs:title-editors-group>
+      </xocs:title-editors-groups>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 2015 The Authors. Published by Elsevier Ltd.</xocs:copyright-line>
+      <xocs:normalized-article-title>STATEOFCHARGEESTIMATIONLITHIUMIONBATTERIESBASEDMULTIPLEFILTERSMETHOD</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>WANG</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>Y</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="sbref0005">
+            <xocs:ref-normalized-surname>NG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1506</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1511</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0010">
+            <xocs:ref-normalized-surname>XING</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>106</xocs:ref-first-fp>
+            <xocs:ref-last-lp>115</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0015">
+            <xocs:ref-normalized-surname>PLETT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>252</xocs:ref-first-fp>
+            <xocs:ref-last-lp>261</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0020">
+            <xocs:ref-normalized-surname>PLETT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>262</xocs:ref-first-fp>
+            <xocs:ref-last-lp>276</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0025">
+            <xocs:ref-normalized-surname>PLETT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>277</xocs:ref-first-fp>
+            <xocs:ref-last-lp>292</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0030">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>427</xocs:ref-first-fp>
+            <xocs:ref-last-lp>434</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0035">
+            <xocs:ref-normalized-surname>TIAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>619</xocs:ref-first-fp>
+            <xocs:ref-last-lp>626</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0040">
+            <xocs:ref-normalized-surname>HE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>808</xocs:ref-first-fp>
+            <xocs:ref-last-lp>814</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0060">
+            <xocs:ref-normalized-surname>ZHONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>558</xocs:ref-first-fp>
+            <xocs:ref-last-lp>564</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0065">
+            <xocs:ref-normalized-surname>LIU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>263</xocs:ref-first-fp>
+            <xocs:ref-last-lp>272</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0045">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>81</xocs:ref-first-fp>
+            <xocs:ref-last-lp>87</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0050">
+            <xocs:ref-normalized-surname>WLADISLAW</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>321</xocs:ref-first-fp>
+            <xocs:ref-last-lp>339</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="oref0065"/>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>WANGX2015X2635</xocs:refkey3>
+         <xocs:refkey4lp>WANGX2015X2635X2640</xocs:refkey4lp>
+         <xocs:refkey4ai>WANGX2015X2635XY</xocs:refkey4ai>
+         <xocs:refkey5>WANGX2015X2635X2640XY</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2015-07-24T00:01:38Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>ElsevierWaived</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/PROC_UNBOUNDED_ESWaived">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1876-6102(15)01122-4</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1876610215011224</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1876610215011224</xocs:eid>
+         <xocs:doi>10.1016/j.egypro.2015.07.354</xocs:doi>
+         <xocs:cid>277910</xocs:cid>
+         <xocs:timestamp>2024-01-02T00:47:24.878668Z</xocs:timestamp>
+         <xocs:cover-date-start>2015-08-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2015-08-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1876610215011224-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1876610215011224/MAIN/application/pdf/308fcacea8766715f91827f94683425f/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1876610215011224/MAIN/application/pdf/308fcacea8766715f91827f94683425f/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>438395</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>6</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1876610215011224-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1876610215011224/PREVIEW/image/png/643d0b8da7fb261eaa1479d902f5d2f5/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1876610215011224/PREVIEW/image/png/643d0b8da7fb261eaa1479d902f5d2f5/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>56569</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">1876-6102 Â© 2015 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license  (http://creativecommons.org/licenses/by-nc-nd/4.0/). Peer-review under responsibility of Applied Energy Innovation Institute doi: 10.1016/j.egypro.2015.07.354   Energy Procedia  75 ( 2015 )  2635 â€“ 2640  ScienceDirect The 7th International Conference on Applied Energy â€“ ICAE2015  State-of-charge estimation of lithium-ion batteries based on  multiple filters method  Yujie Wang, Chenbin Zhang, Zonghai Chen*  Department of Automation, University of Science and Technology of China, Hefei 230027, PR China  Abstract  Energy crises and environmental issues have promoted research into development of various types of electric  vehicles (EVs). Since the control strategy of EVs is essentially dependent on the state-of-charge (SOC) estimation of  the batteries, one of the most critical issues of battery management system (BMS) is to accurately estimate the SOC  in real-time. This paper proposes a multiple filters method for SOC estimation by combining extended Kalman filter  (EKF) and particle filter (PF) method. Compared with EKF and PF method, this approach has higher SOC estimation  accuracy. In the new method, each particle has its own filter, thus provides better tracking and prediction of SOC.  Validation experiments are carried out based on IFP1865140-type batteries developed by Hefei Guoxuan High-Tech  Power Energy CO. LTD. of China. Experiments under dynamic current condition are performed to verify the  robustness of the proposed method. The experimental results have indicated that accurate and robust SOC estimation  results can be obtained by the proposed method.    Â© 2015 The Authors. Published by Elsevier Ltd.  Selection and/or peer-review under responsibility of ICAE    Keywords: Electric vehicles; Lithium-ion battery; State-of-charge estimation; Battery model; Moltiple filters method.  1. Introduction  The traction battery system of electric vehicles (EVs) usually consists of hundreds or thousands of  single cells, thus the battery management system (BMS) plays an important role to manage such numbers  of cells. Since the control strategy is essentially dependent on the state-of-charge (SOC) estimation of the  batteries, one of the most critical issues of BMS is to accurately estimate the SOC in real-time. Since the  SOC is not directly measurable by any sensors, it needs to be inferred, commonly from open-circuit  voltage method [1] or coulomb counting method [2]. These lead to big estimation errors, since the non- linear behavior of the battery voltage at operation is not regarded and the current offsets are accumulated.  Compared with the voltage measurement method or current integral method, model based filter algorithms    * Corresponding author. Tel.: +86 055163606104.  E-mail address: chenzh@ustc.edu.cn (Z. Chen).  Available online at www.sciencedirect.com Â© 2015 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license  (http://creativecommons.org/licenses/by-nc-nd/4.0/). Peer-review under responsibility of Applied Energy Innovation Institute 2636   Yujie Wang et al. /  Energy Procedia  75 ( 2015 )  2635 â€“ 2640  [3-11] which can effectively avoid the problems from noise or accumulated errors are attracting more  attentions.   Many model based methods have been proposed in literatures to obtain an accurate SOC estimation  such as the extended Kalman filter (EKF) [3-6], unscented Kalman filter (UKF) [7] or particle filter (PF)  [8-11, 13]. Plett [3-5] applied the EKF method for SOC estimation and believed that high-fidelity cell  models are required to estimate accurate SOC. Wang [6] et al. proposed a multi-model switching method  for SOC estimation based on EKF. It indicated that accurate SOC estimation results and reasonable  estimation time can be obtained by the proposed method. Tian [7] et al. proposed a modified model based  SOC estimation method by using UKF. The experimental results showed that the proposed method can  reduce the computation cost and improve the SOC estimation accuracy simultaneously. He [8] et al.  proposed a new working model that takes the drift current as a state variable to eliminate the effects of  drift noise in SOC estimation. The unscented PF was employed in the SOC estimation. It indicated that  accurate SOC estimation results can be obtained by this method. Zhong [9] et al. analyzed the relationship  between the pack SOC and the in-pack cells under different equalization conditions and proposed a  method for battery pack SOC estimation. Liu [10] et al. developed a temperature-compensated battery  model and employed a dual particle filter for SOC estimation. A joint estimation method of SOC and  state-of-energy (SOE) of LiFePO4 batteries in EVs was proposed by Wang [11] et al. The experiment  results under dynamic current and temperature have verified that accurate and robust SOC and SOE  estimation results can be obtained by the proposed method. Currently the integrated methods include  sliding mode observer, fuzzy logic based method, artificial neuronal networks (ANN) method and support  vector machines (SVM) have been proposed and applied in SOC estimation [12]. In this paper, we  propose a multiple filters method by combining EKF and PF method which provides high accuracy for  SOC estimation. Compared with PF method, this approach has higher SOC estimation accuracy. In the  new method, each particle has its own filter, thus provides better tracking and prediction of SOC.  This paper is organized as follows: In Section 2, the definition of SOC and the model of lithium-ion  batteries are introduced. In Section 3, The EKF-PF based multiple filters method is introduced. In Section  4, validation experiments are carried out based on IFP1865140-type batteries developed by Hefei  Guoxuan High-Tech Power Energy CO. LTD. Experiments under dynamic current condition are  performed to verify the robustness of the proposed method. The experimental results have indicated that  accurate and robust SOC estimation results can be obtained by the proposed method.  2. Model description  2.1. Definitions of SOC  The SOC reflects the residual capacity of a battery, and is defined as the ratio of the remaining capacity  to the nominal capacity. The SOC can be expressed by Eq.(1):    N C 0 C d)( )()( 0 Â³   t t i tSOCtSOC WWK  (1)  where SOC(t) is the SOC value at time t, SOC(t0) is the SOC value at initial time t0, CN represents the  nominal capacity, i(Ï„) represents the current at time Ï„, Î·C represents the coulombic efficiency (Î·C â‰ˆ 1).  2.2. Battery model  The most commonly used battery models for SOC estimation are the equivalent circuit model and the  electrochemical model. Based on the dynamic characteristics and working principles of the battery, the   Yujie Wang et al. /  Energy Procedia  75 ( 2015 )  2635 â€“ 2640 2637 equivalent circuit model is developed by using resistors, capacitors, and voltage sources to form a circuit  network. The electrochemical model based on the electrochemical mechanism of the battery can  accurately reflect the characteristics of the battery. With the SOC available as part of the model state  based on the electrochemical model, the open-circuit voltage can be expressed by Eq.(2) according to the  combined model in reference [4]:    ))(1ln())(ln()(/)( ))(()()()( 32100,OCV 1 TOCV tSOCktSOCktSOCktSOCkV tSOCfRtitVtV             (2)  where VOCV(t) represents the open-circuit voltage at time t, V1T(t) represents the terminal voltage at time t,  R represents the internal resistance, i(t) represents the current at time t, VOCV,0 represents the initial open- circuit voltage and ki (i = 0, 1, 2, 3) are model coefficients which can be obtained by the least-squares  method.  3. EKF-PF estimation algorithm  The EKF method has been proposed and applied for SOC. However, there are some essential defects in  the methods of EKF [8]. First, the method can be difficult to tune and often give unreliable estimation if  the nonlinearities of the battery models are severe. Second, the system noise and observation noise must  satisfy the Gaussian distribution, and the system parameters must be accurate. Otherwise, the filter  performance will decrease or even diverge. In contrast to the EKF, the PF is a completely nonlinear state  estimator based on the probability and can be a good candidate for SOC estimation [11]. Because the PF  uses a statistical approach, the method can yield better performance and works particularly well for  nonlinear and robust problems that are difficult for EKF. In this paper, we propose a multiple filters  method for SOC estimation by combining EKF and PF. In the new approach, each particle has its own  filter based on EKF before the PF works. The diagram of filter of each particle is shown in Fig.1.    Calculate SOCk+1 in Eq.(1) Initial SOC0 (SOCk)Current input ik+1 Model based open-circuit voltage Vocv, k+1 in Eq.(2) Terminal voltage error Terminal voltage input V2T, k+1 Model based terminal voltage V1T, k+1 in Eq.(2) Error covariance time update Error covariance measurement update Kalman gain matrix State estimate measurement update SOC1k+1 Estimation errorBattery   Fig.1 Diagram of filter of each particle based on EKF  4. Experiments and result analysis  4.1. Battery test bench  In order to acquire experimental data such as current, voltage and accumulated ampere-hour (Ah), a  battery test bench which composes of a host computer, a battery test system NEWARE BTS-4000 and a  programmable temperature chamber has been established for the validation experiment. The configuration  of the battery test bench is shown in Fig. 2. The host computer is used for on-line experiment control and  2638   Yujie Wang et al. /  Energy Procedia  75 ( 2015 )  2635 â€“ 2640  data recording. The NEWARE BTS-4000 is used to load the battery with dynamic current and the  programmable temperature chamber is used to provide manageable temperatures for the batteries. The  temperature is set as constant 25 Ä‡.    Host Computer AC Power NEWARE BTS-4000 TCP/IP Batteries Programmable Temperature Chamber   Fig.2. Battery test bench  4.2. Parameter identification and validation  The parameters of the battery model were determined by the recursive least-squares method from the  experimental data of an IFP1865140-type battery developed by Hefei Guoxuan High-Tech Power Energy  CO. LTD. of China. The resulting values of the parameters are listed in Table 1. Fig.3 (a) shows the  testing current condition. The tested battery is both charged and discharged. The estimated values from  the battery model and the measured values are compared in Fig.3 (b). As shown in the figure, the general  shape of the model output and that of the measured value are almost the same.    (a) (b) 0 2000 4000 6000 8000 10000-40 -20 0 20 Time step(s) Cu rre n t(A ) 0 2000 4000 6000 8000 100001.5 2 2.5 3 3.5 4 Time step(s) Vo lta ge (% )     Measured Model Charge Rest Discharge   Fig.3. (a) Testing current condition. (b) Comparison of terminal voltage of combined model and measured voltage.    Table 1. Parameters of an IFP1865140-type battery.  Parameter Value Parameter Value  VOCV,0 3.6196V R 0.0157Î©  k0 0.3102V k1 -7.6576Ã—10-4V  k2 0.2302V k3 -0.0151V   Yujie Wang et al. /  Energy Procedia  75 ( 2015 )  2635 â€“ 2640 2639 4.3. Experiments  In order to verify the applicability of the proposed method, validation experiments under dynamic  current condition are carried out based on IFP1865140-type batteries developed by Hefei Guoxuan High- Tech Power Energy CO. LTD.   The current profile of the dynamic condition is shown in Fig.4. Fig.5 (a) shows the comparison of SOC  estimate results based on different estimation algorithms. Fig.5 (b) shows the comparison of SOC estimate  error based on different estimation algorithms. The numerical results of root-mean square error (RMSE)  and maximum absolute error (MAE) of SOC based on different estimation algorithms are calculated and  listed in Table 2. As can be seen from the results, the EKF-PF method has shown better accuracy and  robustness than EKF and PF method.    0 500 1000 1500 2000-10 -5 0 5 Time step(s) Cu rre nt (C )   Fig.4. Dynamic current condition.    (a) (b) 0 500 1000 1500 20000 0.5 1 1.5 Time step(s) SO C  es tim a te  e rr o r(% )     PF estimate error EKF estimate error EKF-PF estimate error 0 500 1000 1500 200030 35 40 45 50 55 60 Time step(s) SO C( % )     True state PF estimate value EKF estimate value EKF-PF estimate value       Fig.5. (a) Comparison of SOC estimate results based on different estimation algorithms. (b) Comparison of SOC  estimate error based on different estimation algorithms.    Table 2. Comparison of RMSE and MAE of different estimation algorithms   EKF PF EKF-PF  RMSEa 0.849% 0.432% 0.363%  MAEb 1.336% 0.414% 0.390%  a root-mean square error, b maximum absolute error.  5. Conclusions  The SOC of traction batteries is a critical index in BMS. In this paper, we propose a multiple filters  method for SOC estimation by combining EKF and PF. In the new approach, each particle has its own  filter based on EKF before the PF works. Compared with EKF and PF method, this approach provides  better tracking and prediction of SOC. Validation experiments under dynamic current condition are  2640   Yujie Wang et al. /  Energy Procedia  75 ( 2015 )  2635 â€“ 2640  carried out to verify the applicability of the proposed method. The results have indicated that accurate and  robust SOC estimated results can be obtained by the proposed method.  Acknowledgement  This work is supported by the National Natural Science Fund of China (Grant No. 61375079).  References  [1] Ng K S, Moo C S, Chen Y P, et al. Enhanced coulomb counting method for estimating state-of-charge and state-of-health of  lithium-ion batteries. Applied energy, 2009, 86(9): 1506-1511.  [2] Xing Y, He W, Pecht M, et al. State of charge estimation of lithium-ion batteries using the open-circuit voltage at various  ambient temperatures. Applied Energy, 2014, 113: 106-115.  [3] Plett GL. Extended Kalman filtering for battery management systems of LiPB-based HEV battery packs: Part 1. Background.  Journal of Power sources, 2004, 134(2): 252-261.  [4] Plett GL. Extended Kalman filtering for battery management systems of LiPB-based HEV battery packs: Part 2. Modeling  and identification. Journal of power sources, 2004, 134(2): 262-276.  [5] Plett GL. Extended Kalman filtering for battery management systems of LiPB-based HEV battery packs: Part 3. State and  parameter estimation. Journal of Power sources, 2004, 134(2): 277-292.  [6] Wang Y J, Zhang C B, Chen Z H. A method for state-of-charge estimation of Li-ion batteries based on multi-model  switching strategy. Applied Energy, 2015, 137: 427-434.  [7] Tian Y, Xia B Z, Sun W, et al. A modified model based state of charge estimation of power lithium-ion batteries using  unscented Kalman filter. Journal of power sources, 2014, 270: 619-626.  [8] He Y, Liu X T, Zhang C B, et al. A new model for State-of-Charge (SOC) estimation for high-power Li-ion batteries.  Applied Energy, 2013, 101:808-814.  [9] Zhong L, Zhang C B, He Y, et al. A method for the estimation of the battery pack state of charge based on in-pack cells  uniformity analysis. Applied Energy, 2014, 113: 558-564.  [10] Liu X T, Chen Z H, Zhang C B, et al. A novel temperature-compensated model for power Li-ion batteries with dual- particle-filter state of charge estimation. Applied Energy, 2014, 123: 263-272.  [11] Wang Y J, Zhang C B, Chen Z H. A method for joint estimation of state-of-charge and available energy of LiFePO4  batteries. Applied energy, 2014, 135: 81-87.  [12] Wladislaw W, Christian F, Dirk U S. Critical review of the methods for monitoring of lithium-ion batteries in electric and  hybrid vehicles. Journal of Power Source, 2014, 258: 321-339.  [13] Wang Y J, Zhang C B, Chen Z H. A method for state-of-charge estimation of LiFePO4 batteries at dynamic currents and  temperatures using particle filter. Journal of power sources, doi:10.1016/j.jpowsour.2015.01.005.    Zonghai Chen received his BS and MS degrees from University of Science and  Technology of China (USTC) in 1988 and 1991 respectively. He has served on the  faculty of USTC from 1991. Since 1998, he has been a professor of USTC. He was  assigned assistant to the president of USTC from 2000 to 2003, in charge of the  technology industry. He is an expert that enjoys the special government allowances of  the State Council of Peopleâ€™s Republic of China. He has more than 300 refereed  publications. His research is focused on the modeling, simulation and control of complex systems,  information acquisition and control, robotics and intelligent systems. He has 12 provincial and  ministerial progress prizes in scientific and collective technology.  ms   EKF PF EKF-PF  RMSEa 0.849% 0.432% 0.363%  MAEb 1.336% 0.414% 0.390%  a root-mean square error, b maximum absolute error.  5. Conclusions  The SOC of traction batteries is a critical index in BMS. In this paper, we propose a multiple filters  method for SOC estimation by combining EKF and PF. In the new approach, each particle has its own  filter based on EKF before the PF works. Compared with EKF and PF method, this approach provides  better tracking and prediction of SOC. Validation experiments under dynamic current condition are  2640   Yujie Wang et al. /  Energy Procedia  75 ( 2015 )  2635 â€“ 2640  carried out to verify the applicability of the proposed method. The results have indicated that accurate and  robust SOC estimated results can be obtained by the proposed method.  Acknowledgement  This work is supported by the National Natural Science Fund of China (Grant No. 61375079).  References  [1] Ng K S, Moo C S, Chen Y P, et al. Enhanced coulomb counting method for estimating state-of-charge and state-of-health of  lithium-ion batteries. Applied energy, 2009, 86(9): 1506-1511.  [2] Xing Y, He W, Pecht M, et al. State of charge estimation of lithium-ion batteries using the open-circuit voltage at various  ambient temperatures. Applied Energy, 2014, 113: 106-115.  [3] Plett GL. Extended Kalman filtering for battery management systems of LiPB-based HEV battery packs: Part 1. Background.  Journal of Power sources, 2004, 134(2): 252-261.  [4] Plett GL. Extended Kalman filtering for battery management systems of LiPB-based HEV battery packs: Part 2. Modeling  and identification. Journal of power sources, 2004, 134(2): 262-276.  [5] Plett GL. Extended Kalman filtering for battery management systems of LiPB-based HEV battery packs: Part 3. State and  parameter estimation. Journal of Power sources, 2004, 134(2): 277-292.  [6] Wang Y J, Zhang C B, Chen Z H. A method for state-of-charge estimation of Li-ion batteries based on multi-model  switching strategy. Applied Energy, 2015, 137: 427-434.  [7] Tian Y, Xia B Z, Sun W, et al. A modified model based state of charge estimation of power lithium-ion batteries using  unscented Kalman filter. Journal of power sources, 2014, 270: 619-626.  [8] He Y, Liu X T, Zhang C B, et al. A new model for State-of-Charge (SOC) estimation for high-power Li-ion batteries.  Applied Energy, 2013, 101:808-814.  [9] Zhong L, Zhang C B, He Y, et al. A method for the estimation of the battery pack state of charge based on in-pack cells  uniformity analysis. Applied Energy, 2014, 113: 558-564.  [10] Liu X T, Chen Z H, Zhang C B, et al. A novel temperature-compensated model for power Li-ion batteries with dual- particle-filter state of charge estimation. Applied Energy, 2014, 123: 263-272.  [11] Wang Y J, Zhang C B, Chen Z H. A method for joint estimation of state-of-charge and available energy of LiFePO4  batteries. Applied energy, 2014, 135: 81-87.  [12] Wladislaw W, Christian F, Dirk U S. Critical review of the methods for monitoring of lithium-ion batteries in electric and  hybrid vehicles. Journal of Power Source, 2014, 258: 321-339.  [13] Wang Y J, Zhang C B, Chen Z H. A method for state-of-charge estimation of LiFePO4 batteries at dynamic currents and  temperatures using particle filter. Journal of power sources, doi:10.1016/j.jpowsour.2015.01.005.    Zonghai Chen received his BS and MS degrees from University of Science and  Technology of China (USTC) in 1988 and 1991 respectively. He has served on the  faculty of USTC from 1991. Si</xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.2" xml:lang="en" docsubtype="fla">
+         <item-info>
+            <jid>EGYPRO</jid>
+            <aid>25768</aid>
+            <ce:pii>S1876-6102(15)01122-4</ce:pii>
+            <ce:doi>10.1016/j.egypro.2015.07.354</ce:doi>
+            <ce:copyright type="other" year="2015">The Authors</ce:copyright>
+         </item-info>
+         <head>
+            <ce:article-footnote>
+               <ce:label>☆</ce:label>
+               <ce:note-para id="npar0005" view="all">Peer-review under responsibility of Applied Energy Innovation Institute.</ce:note-para>
+            </ce:article-footnote>
+            <ce:title id="tit0005">State-of-charge Estimation of Lithium-ion Batteries Based on Multiple Filters Method</ce:title>
+            <ce:author-group id="aug0005">
+               <ce:author id="aut0005">
+                  <ce:given-name>Yujie</ce:given-name>
+                  <ce:surname>Wang</ce:surname>
+               </ce:author>
+               <ce:author id="aut0010">
+                  <ce:given-name>Chenbin</ce:given-name>
+                  <ce:surname>Zhang</ce:surname>
+               </ce:author>
+               <ce:author id="aut0015">
+                  <ce:given-name>Zonghai</ce:given-name>
+                  <ce:surname>Chen</ce:surname>
+                  <ce:cross-ref id="crf0005" refid="cor0005">
+                     <ce:sup loc="post">⁎</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:affiliation id="aff0005">
+                  <ce:textfn>Department of Automation, University of Science and Technology of China, Hefei 230027, PR China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Automation, University of Science and Technology of China, Hefei 230027, PR</sa:organization>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:correspondence id="cor0005">
+                  <ce:label>⁎</ce:label>
+                  <ce:text>Corresponding author. Tel.: +86 055163606104.</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:abstract id="abs0005" view="all" class="author"><ce:abstract-sec id="abst0005" view="all">
+                  <ce:simple-para id="spar0005" view="all">Energy crises and environmental issues have promoted research into development of various types of electric vehicles (EVs). Since the control strategy of EVs is essentially dependent on the state-of-charge (SOC) estimation of the batteries, one of the most critical issues of battery management system (BMS) is to accurately estimate the SOC in real-time. This paper proposes a multiple filters method for SOC estimation by combining extended Kalman filter (EKF) and particle filter (PF) method. Compared with EKF and PF method, this approach has higher SOC estimation accuracy. In the new method, each particle has its own filter, thus provides better tracking and prediction of SOC. Validation experiments are carried out based on IFP1865140-type batteries developed by Hefei Guoxuan High-Tech Power Energy CO. LTD. of China. Experiments under dynamic current condition are performed to verify the robustness of the proposed method. The experimental results have indicated that accurate and robust SOC estimation results can be obtained by the proposed method.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="kwd0005" class="keyword" view="all">
+               <ce:section-title id="sect0010">Keywords</ce:section-title>
+               <ce:keyword id="kw0005">
+                  <ce:text>Electric vehicles</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0010">
+                  <ce:text>Lithium-ion battery</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0015">
+                  <ce:text>State-of-charge estimation</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0020">
+                  <ce:text>Battery model</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0025">
+                  <ce:text>Moltiple filters method.</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <tail view="all">
+            <ce:bibliography id="bibl0005" view="all">
+               <ce:section-title id="sect0020">References</ce:section-title>
+               <ce:bibliography-sec id="bibs0005" view="all">
+                  <ce:bib-reference id="bib0005">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference id="sbref0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.S.</ce:given-name>
+                                 <ce:surname>Ng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.S.</ce:given-name>
+                                 <ce:surname>Moo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.P.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Enhanced coulomb counting method for estimating state-of-charge and state-of-health of lithium-ion batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Applied energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>86</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>9</sb:issue-nr>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1506</sb:first-page>
+                              <sb:last-page>1511</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0010">
+                     <ce:label>[2]</ce:label>
+                     <sb:reference id="sbref0010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Xing</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Pecht</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>State of charge estimation of lithium-ion batteries using the open-circuit voltage at various ambient temperatures</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Applied Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>113</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>106</sb:first-page>
+                              <sb:last-page>115</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0015">
+                     <ce:label>[3]</ce:label>
+                     <sb:reference id="sbref0015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.L.</ce:given-name>
+                                 <ce:surname>Plett</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Extended Kalman filtering for battery management systems of LiPB-based HEV battery packs: Part 1. Background</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>134</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>2</sb:issue-nr>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>252</sb:first-page>
+                              <sb:last-page>261</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0020">
+                     <ce:label>[4]</ce:label>
+                     <sb:reference id="sbref0020">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.L.</ce:given-name>
+                                 <ce:surname>Plett</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Extended Kalman filtering for battery management systems of LiPB-based HEV battery packs: Part 2. Modeling and identification</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of power sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>134</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>2</sb:issue-nr>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>262</sb:first-page>
+                              <sb:last-page>276</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0025">
+                     <ce:label>[5]</ce:label>
+                     <sb:reference id="sbref0025">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.L.</ce:given-name>
+                                 <ce:surname>Plett</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Extended Kalman filtering for battery management systems of LiPB-based HEV battery packs: Part 3. State and parameter estimation</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>134</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>2</sb:issue-nr>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>277</sb:first-page>
+                              <sb:last-page>292</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0030">
+                     <ce:label>[6]</ce:label>
+                     <sb:reference id="sbref0030">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.J.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.B.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.H.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A method for state-of-charge estimation of Li-ion batteries based on multi-model switching strategy</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Applied Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>137</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>427</sb:first-page>
+                              <sb:last-page>434</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0035">
+                     <ce:label>[7]</ce:label>
+                     <sb:reference id="sbref0035">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Tian</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.Z.</ce:given-name>
+                                 <ce:surname>Xia</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Sun</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A modified model based state of charge estimation of power lithium-ion batteries using unscented Kalman filter</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of power sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>270</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>619</sb:first-page>
+                              <sb:last-page>626</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0040">
+                     <ce:label>[8]</ce:label>
+                     <sb:reference id="sbref0040">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.T.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.B.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A new model for State-of-Charge (SOC) estimation for high-power Li-ion batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Applied Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>101</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>808</sb:first-page>
+                              <sb:last-page>814</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0060">
+                     <ce:label>[9]</ce:label>
+                     <sb:reference id="sbref0060">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Zhong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.B.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A method for the estimation of the battery pack state of charge based on in-pack cells uniformity analysis</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Applied Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>113</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>558</sb:first-page>
+                              <sb:last-page>564</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0065">
+                     <ce:label>[10]</ce:label>
+                     <sb:reference id="sbref0065">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.T.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.H.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.B.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A novel temperature-compensated model for power Li-ion batteries with dual-particle-filter state of charge estimation</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Applied Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>123</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>263</sb:first-page>
+                              <sb:last-page>272</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0045">
+                     <ce:label>[11]</ce:label>
+                     <sb:reference id="sbref0045">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.J.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.B.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.H.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A method for joint estimation of state-of-charge and available energy of LiFePO<ce:inf loc="post">4</ce:inf> batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Applied energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>135</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>81</sb:first-page>
+                              <sb:last-page>87</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0050">
+                     <ce:label>[12]</ce:label>
+                     <sb:reference id="sbref0050">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Wladislaw</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Christian</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>U.S.</ce:given-name>
+                                 <ce:surname>Dirk</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Critical review of the methods for monitoring of lithium-ion batteries in electric and hybrid vehicles</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Source</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>258</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>321</sb:first-page>
+                              <sb:last-page>339</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0055">
+                     <ce:label>[13]</ce:label>
+                     <ce:other-ref id="oref0065">
+                        <ce:textref>Wang Y J, Zhang C B, Chen Z H. A method for state-of-charge estimation of LiFePO<ce:inf loc="post">4</ce:inf> batteries at dynamic currents and temperatures using particle filter. <ce:italic>Journal of power sources</ce:italic>, doi:10.1016/j.jpowsour.2015.01.005.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

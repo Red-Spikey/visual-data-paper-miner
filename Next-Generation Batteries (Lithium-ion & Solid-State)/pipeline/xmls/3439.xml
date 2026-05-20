@@ -1,0 +1,2108 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S2666248523000124</prism:url><dc:identifier>doi:10.1016/j.powera.2023.100120</dc:identifier><eid>1-s2.0-S2666248523000124</eid><prism:doi>10.1016/j.powera.2023.100120</prism:doi><pii>S2666-2485(23)00012-4</pii><dc:title>Numerical simulations of all-solid-state batteries using specific contact area diameters for active materials determined by X-ray computed tomography </dc:title><prism:publicationName>Journal of Power Sources Advances</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>sco</pubType><prism:issn>26662485</prism:issn><prism:volume>21</prism:volume><prism:startingPage>100120</prism:startingPage><prism:pageRange>100120</prism:pageRange><articleNumber>100120</articleNumber><dc:format>text/xml</dc:format><prism:coverDate>2023-04-30</prism:coverDate><prism:coverDisplayDate>April 2023</prism:coverDisplayDate><prism:copyright>© 2023 The Authors. Published by Elsevier Ltd.</prism:copyright><prism:publisher>The Authors. Published by Elsevier Ltd.</prism:publisher><dc:creator>Iwamoto, S.</dc:creator><dc:creator>Kodama, M.</dc:creator><dc:creator>Yanagi, K.</dc:creator><dc:creator>Haniu, Y.</dc:creator><dc:creator>Fujii, Y.</dc:creator><dc:creator>Masuda, N.</dc:creator><dc:creator>Higuchi, H.</dc:creator><dc:creator>Suetsugu, Y.</dc:creator><dc:creator>Hirai, S.</dc:creator><dc:description>
+                  At present, it would be desirable to improve the C-rate values of bulk-type all-solid-state lithium-ion batteries by optimizing the electrode structures. Although simulations are an effective means of determining optimal structures, a high degree of accuracy is required. The present study demonstrates a pseudo-two-dimensional (P2D) method of simulating cathodes providing improved accuracy along with low computational cost and based on actual three-dimensional electrode structures. This method incorporates the volume fraction and tortuosity of the solid electrolyte (SE) and active material (AM), both of which are widely used in conventional simulations, and takes into account the specific contact area diameter (DSCA) of the AM. The latter parameter reflects the extent of AM particle aggregation and is obtained from the analysis of three-dimensional X-ray computed tomography images. The validity of these P2D simulations is confirmed by comparison with experimental results for three electrodes having different SE particle sizes. The experimental result shows that battery capacity is increased with decreases in the SE particle sizes. This effect is not predicted using conventional P2D simulations employing only volume fraction and tortuosity but is reproduced by P2D simulations in which DSCA values are used to model AM particle aggregation and Li diffusion within AM particles.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>Author</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>All-solid-state lithium-ion battery</dcterms:subject><dcterms:subject>P2D simulation</dcterms:subject><dcterms:subject>X-ray CT</dcterms:subject><dcterms:subject>Specific contact area diameter</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S2666248523000124" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S2666248523000124" rel="scidir"/></coredata><objects><object ref="gr4" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="691" height="497" size="173375">https://api.elsevier.com/content/object/eid/1-s2.0-S2666248523000124-gr4.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="691" height="216" size="128102">https://api.elsevier.com/content/object/eid/1-s2.0-S2666248523000124-gr3.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="691" height="429" size="160507">https://api.elsevier.com/content/object/eid/1-s2.0-S2666248523000124-gr2.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="691" height="385" size="131544">https://api.elsevier.com/content/object/eid/1-s2.0-S2666248523000124-gr1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr4" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="157" size="82794">https://api.elsevier.com/content/object/eid/1-s2.0-S2666248523000124-gr4.sml?httpAccept=%2A%2F%2A</object><object ref="gr3" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="69" size="72817">https://api.elsevier.com/content/object/eid/1-s2.0-S2666248523000124-gr3.sml?httpAccept=%2A%2F%2A</object><object ref="gr2" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="136" size="77422">https://api.elsevier.com/content/object/eid/1-s2.0-S2666248523000124-gr2.sml?httpAccept=%2A%2F%2A</object><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="122" size="76726">https://api.elsevier.com/content/object/eid/1-s2.0-S2666248523000124-gr1.sml?httpAccept=%2A%2F%2A</object><object ref="gr4" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="3059" height="2199" size="688568">https://api.elsevier.com/content/object/eid/1-s2.0-S2666248523000124-gr4_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="3059" height="957" size="456612">https://api.elsevier.com/content/object/eid/1-s2.0-S2666248523000124-gr3_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="3059" height="1898" size="678190">https://api.elsevier.com/content/object/eid/1-s2.0-S2666248523000124-gr2_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="3059" height="1706" size="461611">https://api.elsevier.com/content/object/eid/1-s2.0-S2666248523000124-gr1_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="si1" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="67069">https://api.elsevier.com/content/object/eid/1-s2.0-S2666248523000124-si1.svg?httpAccept=%2A%2F%2A</object><object ref="si3" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="54838">https://api.elsevier.com/content/object/eid/1-s2.0-S2666248523000124-si3.svg?httpAccept=%2A%2F%2A</object><object ref="si2" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="60451">https://api.elsevier.com/content/object/eid/1-s2.0-S2666248523000124-si2.svg?httpAccept=%2A%2F%2A</object><object ref="am" category="standard" type="AAM-PDF" multimediatype="Acrobat PDF file" mimetype="application/pdf" size="1279712">https://api.elsevier.com/content/object/eid/1-s2.0-S2666248523000124-am.pdf?httpAccept=%2A%2F%2A</object></objects><scopus-id>85160823608</scopus-id><scopus-eid>2-s2.0-85160823608</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85160823608" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>776614</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291865</xocs:ssid>
+         <xocs:ssid type="subj">291877</xocs:ssid>
+         <xocs:ssid type="subj">291940</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Journal of Power Sources Advances</xocs:srctitle>
+      <xocs:normalized-srctitle>JOURNALPOWERSOURCESADVANCES</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20230602">2023-06-02</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20230602">2023-06-02</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20230602">2023-06-02</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20230602">2023-06-02</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2023-06-05T23:57:44</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S2666248523000124</xocs:eid>
+      <xocs:pii-formatted>S2666-2485(23)00012-4</xocs:pii-formatted>
+      <xocs:pii-unformatted>S2666248523000124</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.powera.2023.100120</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.1</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S2666248523X00043</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20240628">2024-06-28T11:13:11.00178Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20230401</xocs:date-search-begin>
+      <xocs:date-search-end>20230430</xocs:date-search-end>
+      <xocs:year-nav>2023</xocs:year-nav>
+      <xocs:indexeddate epoch="1685727055">2023-06-02T17:30:55.79149Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid fundingbodyid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder sponsoredaccesstype srctitle srctitlenorm srctype ssids alllist content oa subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast grantsponsor grantsponsorid highlightsabst orcid primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>2666-2485</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>26662485</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:sponsored-access-type>UNLIMITED</xocs:sponsored-access-type>
+      <xocs:funding-body-id>NONE</xocs:funding-body-id>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>21</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>21</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 21</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>2</xocs:sort-order>
+      <xocs:first-fp>100120</xocs:first-fp>
+      <xocs:article-number>100120</xocs:article-number>
+      <xocs:pages>
+         <xocs:first-page>100120</xocs:first-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>202304</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>April 2023</xocs:cover-date-text>
+      <xocs:cover-date-start>2023-04-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2023-04-30</xocs:cover-date-end>
+      <xocs:cover-date-year>2023</xocs:cover-date-year>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>Lithium and other Non-aqueous Batteries</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>sco</xocs:document-subtype>
+      <xocs:copyright-line>© 2023 The Authors. Published by Elsevier Ltd.</xocs:copyright-line>
+      <xocs:normalized-article-title>NUMERICALSIMULATIONSALLSOLIDSTATEBATTERIESUSINGSPECIFICCONTACTAREADIAMETERSFORACTIVEMATERIALSDETERMINEDBYXRAYCOMPUTEDTOMOGRAPHY</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>IWAMOTO</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>S</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>1</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Introduction</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>2</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Experimental and numerical procedures</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.1</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Experimental procedures</xocs:item-toc-section-title>
+               <xocs:item-toc-entry ref-elem="ce:sections">
+                  <xocs:item-toc-label>2.1.1</xocs:item-toc-label>
+                  <xocs:item-toc-section-title>Cathode half-cell discharge experiment procedures</xocs:item-toc-section-title>
+               </xocs:item-toc-entry>
+               <xocs:item-toc-entry ref-elem="ce:sections">
+                  <xocs:item-toc-label>2.1.2</xocs:item-toc-label>
+                  <xocs:item-toc-section-title>X-ray CT procedures</xocs:item-toc-section-title>
+               </xocs:item-toc-entry>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.2</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Numerical procedures</xocs:item-toc-section-title>
+               <xocs:item-toc-entry ref-elem="ce:sections">
+                  <xocs:item-toc-label>2.2.1</xocs:item-toc-label>
+                  <xocs:item-toc-section-title>Calculation of tortuosity and specific contact area diameter from X-ray CT images</xocs:item-toc-section-title>
+               </xocs:item-toc-entry>
+               <xocs:item-toc-entry ref-elem="ce:sections">
+                  <xocs:item-toc-label>2.2.2</xocs:item-toc-label>
+                  <xocs:item-toc-section-title>Modeling and simulation</xocs:item-toc-section-title>
+               </xocs:item-toc-entry>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>3</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Results and discussion</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.1</xocs:item-toc-label>
+               <xocs:item-toc-section-title>X-ray CT structural analyses</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.2</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Comparison of simulated and experimental battery performance data</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>4</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Conclusions</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>CRediT authorship contribution statement</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:acknowledgment">
+            <xocs:item-toc-section-title>Acknowledgements</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="sref1">
+            <xocs:ref-normalized-surname>TARASCON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2001</xocs:ref-pub-year>
+            <xocs:ref-first-fp>359</xocs:ref-first-fp>
+            <xocs:ref-last-lp>367</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref2">
+            <xocs:ref-normalized-surname>LIU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref3">
+            <xocs:ref-normalized-surname>SUN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>363</xocs:ref-first-fp>
+            <xocs:ref-last-lp>386</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref4">
+            <xocs:ref-normalized-surname>SIROMA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>215</xocs:ref-first-fp>
+            <xocs:ref-last-lp>223</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref5">
+            <xocs:ref-normalized-surname>STRAUSS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>992</xocs:ref-first-fp>
+            <xocs:ref-last-lp>996</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref6">
+            <xocs:ref-normalized-surname>OTOYAMA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>419</xocs:ref-first-fp>
+            <xocs:ref-last-lp>425</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref7">
+            <xocs:ref-normalized-surname>RAMADESIGAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>R31</xocs:ref-first-fp>
+            <xocs:ref-last-lp>R45</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>V</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref8">
+            <xocs:ref-normalized-surname>LEGRAND</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>370</xocs:ref-first-fp>
+            <xocs:ref-last-lp>378</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref9">
+            <xocs:ref-normalized-surname>NEWMAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1975</xocs:ref-pub-year>
+            <xocs:ref-first-fp>25</xocs:ref-first-fp>
+            <xocs:ref-last-lp>41</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref10">
+            <xocs:ref-normalized-surname>WOLFF</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>639</xocs:ref-first-fp>
+            <xocs:ref-last-lp>646</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>MODELBASEDASSESSMENTPERFORMANCELITHIUMIONBATTERIESUSINGSINGLEIONCONDUCTINGELECTROLYTES</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref11">
+            <xocs:ref-normalized-surname>BRUGGEMAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1935</xocs:ref-pub-year>
+            <xocs:ref-first-fp>636</xocs:ref-first-fp>
+            <xocs:ref-last-lp>664</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref12">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2002</xocs:ref-pub-year>
+            <xocs:ref-article-number>2200744</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref13">
+            <xocs:ref-normalized-surname>KNORR</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-last-lp>19</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>SIMULATIONBASEDDATADRIVENTECHNIQUESFORQUANTIFYINGINFLUENCECARBONBINDERDOMAINELECTROCHEMICALPROPERTIESLIIONBATTERIES</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref14">
+            <xocs:ref-normalized-surname>HLUSHKOU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>363</xocs:ref-first-fp>
+            <xocs:ref-last-lp>370</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref15">
+            <xocs:ref-normalized-surname>KASHKOOLI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>496</xocs:ref-first-fp>
+            <xocs:ref-last-lp>509</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref16">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2007</xocs:ref-pub-year>
+            <xocs:ref-first-fp>A1035</xocs:ref-first-fp>
+            <xocs:ref-last-lp>A1047</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref17">
+            <xocs:ref-normalized-surname>AWARKER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>405</xocs:ref-first-fp>
+            <xocs:ref-last-lp>411</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref18">
+            <xocs:ref-normalized-surname>GOLDIN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>118</xocs:ref-first-fp>
+            <xocs:ref-last-lp>129</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref19">
+            <xocs:ref-normalized-surname>KODAMA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-article-number>100048</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref20">
+            <xocs:ref-normalized-surname>OHASHI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-article-number>228437</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>STRESSDISTRIBUTIONINCOMPOSITEELECTRODESSULFIDEALLSOLIDSTATELITHIUMIONBATTERIES</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref21">
+            <xocs:ref-normalized-surname>OHASHI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-article-number>229212</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref22">
+            <xocs:ref-normalized-surname>KODAMA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-article-number>228160</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref23">
+            <xocs:ref-normalized-surname>DEES</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>A478</xocs:ref-first-fp>
+            <xocs:ref-last-lp>A486</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>IWAMOTOX2023X100120</xocs:refkey3>
+         <xocs:refkey4ai>IWAMOTOX2023X100120XS</xocs:refkey4ai>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2023-05-30T10:37:46Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>Author</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+      </xocs:open-access>
+      <xocs:open-research>
+         <xocs:or-agreements>
+            <xocs:or-agreement>
+               <xocs:or-agreement-id>http://vtw.elsevier.com/content/oragreement/15789</xocs:or-agreement-id>
+               <xocs:or-agreement-name>NR_JUSTICE</xocs:or-agreement-name>
+               <xocs:or-agreement-terms>publishAcceptedManuscriptIndexable</xocs:or-agreement-terms>
+            </xocs:or-agreement>
+         </xocs:or-agreements>
+         <xocs:or-embargo-opening-date>2023-06-02T00:00:00.000Z</xocs:or-embargo-opening-date>
+         <xocs:or-agreement-license>http://www.elsevier.com/open-access/userlicense/1.0/</xocs:or-agreement-license>
+      </xocs:open-research>
+      <xocs:self-archiving>
+         <xocs:sa-start-date>2023-06-02T00:00:00.000Z</xocs:sa-start-date>
+         <xocs:sa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:sa-user-license>
+      </xocs:self-archiving>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY-NC-ND license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2023 The Authors. Published by Elsevier Ltd.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:article-sharing-framework/>
+      <xocs:funding-list has-funding-info="1">
+         <xocs:funding-addon-generated-timestamp>2023-06-08T01:45:11.984Z</xocs:funding-addon-generated-timestamp>
+         <xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type>
+         <xocs:funding-source-document source-document-type="pii">S2666248523000124</xocs:funding-source-document>
+         <xocs:funding-text>This work was supported by Idemitsu Kosan Collaborative Research Cluster for Advanced Materials (IKCRCAM) in Tokyo Tech open innovation platform. The authors would like to thank Prof. Takeshi Kikutani, the research director of IKCRCAM , for the useful discussions and the support of this work.</xocs:funding-text>
+      </xocs:funding-list>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S2666-2485(23)00012-4</xocs:pii-formatted>
+         <xocs:pii-unformatted>S2666248523000124</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S2666248523000124</xocs:eid>
+         <xocs:doi>10.1016/j.powera.2023.100120</xocs:doi>
+         <xocs:cid>776614</xocs:cid>
+         <xocs:timestamp>2023-06-15T09:53:24.910708Z</xocs:timestamp>
+         <xocs:cover-date-start>2023-04-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2023-04-30</xocs:cover-date-end>
+         <xocs:sponsored-access-type>UNLIMITED</xocs:sponsored-access-type>
+         <xocs:funding-body-id>NONE</xocs:funding-body-id>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S2666248523000124-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2666248523000124/MAIN/application/pdf/3627cbe46bbd7c5f657988a18b1880cd/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>3619226</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>6</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S2666248523000124-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2666248523000124/PREVIEW/image/png/99fe62a24e7d97bf5c9a2a383d44abf5/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>58367</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2666248523000124-gr4.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2666248523000124/gr4/DOWNSAMPLED/image/jpeg/404237bf230fc3d072c84f76fb4e3f08/gr4.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>173375</xocs:filesize>
+               <xocs:pixel-height>497</xocs:pixel-height>
+               <xocs:pixel-width>691</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2666248523000124-gr3.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2666248523000124/gr3/DOWNSAMPLED/image/jpeg/6e6bb616ee3b7cc4d2b74b7de9d2a085/gr3.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>128102</xocs:filesize>
+               <xocs:pixel-height>216</xocs:pixel-height>
+               <xocs:pixel-width>691</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2666248523000124-gr2.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2666248523000124/gr2/DOWNSAMPLED/image/jpeg/13f442bafd7447c83f4d9f2d0d0bd2db/gr2.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>160507</xocs:filesize>
+               <xocs:pixel-height>429</xocs:pixel-height>
+               <xocs:pixel-width>691</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2666248523000124-gr1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2666248523000124/gr1/DOWNSAMPLED/image/jpeg/3681c257be324e91350dd34d671bf116/gr1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>131544</xocs:filesize>
+               <xocs:pixel-height>385</xocs:pixel-height>
+               <xocs:pixel-width>691</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2666248523000124-gr4.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2666248523000124/gr4/THUMBNAIL/image/gif/ab9029e0df6bda1582a4a5733590d4e9/gr4.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>82794</xocs:filesize>
+               <xocs:pixel-height>157</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2666248523000124-gr3.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2666248523000124/gr3/THUMBNAIL/image/gif/1e90e18a63bb5d97fc3a7aa1289040dc/gr3.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>72817</xocs:filesize>
+               <xocs:pixel-height>69</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2666248523000124-gr2.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2666248523000124/gr2/THUMBNAIL/image/gif/911ec8bef67632a2181e5153473d0f3b/gr2.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>77422</xocs:filesize>
+               <xocs:pixel-height>136</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2666248523000124-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2666248523000124/gr1/THUMBNAIL/image/gif/c2592f1ca7a006888a8d7e1b7789ec4e/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>76726</xocs:filesize>
+               <xocs:pixel-height>122</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2666248523000124-gr4_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2666248523000124/HIGHRES/image/jpeg/d32be2e9453bb98d34c6be793121098a/gr4_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>688568</xocs:filesize>
+               <xocs:pixel-height>2199</xocs:pixel-height>
+               <xocs:pixel-width>3059</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2666248523000124-gr3_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2666248523000124/HIGHRES/image/jpeg/45452a3d9523847f6fb4aa0b248a5987/gr3_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>456612</xocs:filesize>
+               <xocs:pixel-height>957</xocs:pixel-height>
+               <xocs:pixel-width>3059</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2666248523000124-gr2_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2666248523000124/HIGHRES/image/jpeg/af4a38068e9a5bcfe3cb5b121568717e/gr2_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>678190</xocs:filesize>
+               <xocs:pixel-height>1898</xocs:pixel-height>
+               <xocs:pixel-width>3059</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2666248523000124-gr1_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2666248523000124/HIGHRES/image/jpeg/edf3422aeeb21360d882ffcdeff2a635/gr1_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>461611</xocs:filesize>
+               <xocs:pixel-height>1706</xocs:pixel-height>
+               <xocs:pixel-width>3059</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2666248523000124-si1.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2666248523000124/image/svg+xml/34c4852d7f93f54868451cedf6d41150/si1.svg</xocs:ucs-locator>
+               <xocs:file-basename>si1</xocs:file-basename>
+               <xocs:filename>si1.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>67069</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2666248523000124-si3.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2666248523000124/image/svg+xml/bb31189ff263027f82c317dada0492e9/si3.svg</xocs:ucs-locator>
+               <xocs:file-basename>si3</xocs:file-basename>
+               <xocs:filename>si3.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>54838</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2666248523000124-si2.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2666248523000124/image/svg+xml/fb1912448cfbcc8bb1a050f750f217ed/si2.svg</xocs:ucs-locator>
+               <xocs:file-basename>si2</xocs:file-basename>
+               <xocs:filename>si2.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>60451</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2666248523000124-am.pdf</xocs:attachment-eid>
+               <xocs:file-basename>am</xocs:file-basename>
+               <xocs:filename>am.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:filesize>1279712</xocs:filesize>
+               <xocs:attachment-type>AAM-PDF</xocs:attachment-type>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105SFPRQ4WG/MAIN/application/pdf/709acbdef5bdf661b36df87b74fdfe5c/am.pdf</xocs:ucs-locator>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" docsubtype="sco" version="5.6" xml:lang="en">
+         <item-info>
+            <jid>POWERA</jid>
+            <aid>100120</aid>
+            <ce:article-number>100120</ce:article-number>
+            <ce:pii>S2666-2485(23)00012-4</ce:pii>
+            <ce:doi>10.1016/j.powera.2023.100120</ce:doi>
+            <ce:copyright type="other" year="2023">The Authors</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="fig1">
+               <ce:label>Fig. 1</ce:label>
+               <ce:caption id="cap0010">
+                  <ce:simple-para id="fspara0010" view="all">X-ray CT images of electrodes with solid electrolytes having D50<ce:inf loc="post">LPS</ce:inf> of (a) 1, (b) 2 and (c) 6 μm. Legend: red = AM, yellow = SE. The values for various structural parameters for each D50<ce:inf loc="post">LPS</ce:inf>: (d) tortuosity of the active material, (e) tortuosity of the solid electrolyte and (f) diameter of the AM-specific contact area. (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.)</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text role="short" id="alttext0010">Fig. 1</ce:alt-text>
+               <ce:link locator="gr1" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S2666248523000124/gr1"/>
+            </ce:figure>
+            <ce:figure id="fig2">
+               <ce:label>Fig. 2</ce:label>
+               <ce:caption id="cap0015">
+                  <ce:simple-para id="fspara0015" view="all">(a)–(c) Discharge capacities and (d)–(e) absolute differences between experimental and simulated capacities (Δ Capacity) as functions of C-rates. These data were acquired (a) experimentally, (b) (d) using simulations involving AM median diameters, and (c) (e) using simulations incorporating D<ce:inf loc="post">SCA</ce:inf> values.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text role="short" id="alttext0015">Fig. 2</ce:alt-text>
+               <ce:link locator="gr2" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S2666248523000124/gr2"/>
+            </ce:figure>
+            <ce:figure id="fig3">
+               <ce:label>Fig. 3</ce:label>
+               <ce:caption id="cap0020">
+                  <ce:simple-para id="fspara0020" view="all">Discharge curves acquired from (a) experiments, (b) simulations involving AM median diameters, and (c) simulations involving AM-specific contact area diameters for 2-μm solid electrolyte particles.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text role="short" id="alttext0020">Fig. 3</ce:alt-text>
+               <ce:link locator="gr3" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S2666248523000124/gr3"/>
+            </ce:figure>
+            <ce:figure id="fig4">
+               <ce:label>Fig. 4</ce:label>
+               <ce:caption id="cap0025">
+                  <ce:simple-para id="fspara0025" view="all">Li concentration distributions at the end of discharge obtained using AM median diameters in conjunction with SE particle sizes of (a) D50<ce:inf loc="post">LPS</ce:inf> = 1 μm, (b) D50<ce:inf loc="post">LPS</ce:inf> = 2 μm and (c) D50<ce:inf loc="post">LPS</ce:inf> = 6 μm, and using D<ce:inf loc="post">SCA</ce:inf> values with SE particle sizes of (d) D50<ce:inf loc="post">LPS</ce:inf> = 1 μm, (e) D50<ce:inf loc="post">LPS</ce:inf> = 2 μm and (f) D50<ce:inf loc="post">LPS</ce:inf> = 6 μm.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text role="short" id="alttext0025">Fig. 4</ce:alt-text>
+               <ce:link locator="gr4" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S2666248523000124/gr4"/>
+            </ce:figure>
+         </ce:floats>
+         <head>
+            <ce:title id="title0010">Numerical simulations of all-solid-state batteries using specific contact area diameters for active materials determined by X-ray computed tomography</ce:title>
+            <ce:author-group id="augrp0010">
+               <ce:author id="au1" author-id="S2666248523000124-1f5b41a634d535116bddbe854be3bb4c">
+                  <ce:given-name>S.</ce:given-name>
+                  <ce:surname>Iwamoto</ce:surname>
+                  <ce:cross-ref refid="aff1" id="crosref0010">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au2" orcid="0000-0002-6870-2450" author-id="S2666248523000124-d8cc3d67d5abce5d4e6de071ccd71a2c">
+                  <ce:given-name>M.</ce:given-name>
+                  <ce:surname>Kodama</ce:surname>
+                  <ce:cross-ref refid="aff1" id="crosref0015">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="cor1" id="crosref0020">
+                     <ce:sup loc="post">∗</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:author id="au3" author-id="S2666248523000124-20a576189f87bf1727dfaabbadc01a51">
+                  <ce:given-name>K.</ce:given-name>
+                  <ce:surname>Yanagi</ce:surname>
+                  <ce:cross-ref refid="aff2" id="crosref0025">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au4" author-id="S2666248523000124-8b9dfa8f6a71057343eb624adf38801e">
+                  <ce:given-name>Y.</ce:given-name>
+                  <ce:surname>Haniu</ce:surname>
+                  <ce:cross-ref refid="aff2" id="crosref0030">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au5" author-id="S2666248523000124-4af690273125e00d4d8d57dcbe5722d0">
+                  <ce:given-name>Y.</ce:given-name>
+                  <ce:surname>Fujii</ce:surname>
+                  <ce:cross-ref refid="aff2" id="crosref0035">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au6" author-id="S2666248523000124-8036d6020586784847bdc1e17068a183">
+                  <ce:given-name>N.</ce:given-name>
+                  <ce:surname>Masuda</ce:surname>
+                  <ce:cross-ref refid="aff2" id="crosref0040">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au7" author-id="S2666248523000124-e9d421a9f8ca0ee867da04086f532a60">
+                  <ce:given-name>H.</ce:given-name>
+                  <ce:surname>Higuchi</ce:surname>
+                  <ce:cross-ref refid="aff2" id="crosref0045">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au8" author-id="S2666248523000124-fe1e06bda4604680e6fc20660eb326d6">
+                  <ce:given-name>Y.</ce:given-name>
+                  <ce:surname>Suetsugu</ce:surname>
+                  <ce:cross-ref refid="aff2" id="crosref0050">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au9" author-id="S2666248523000124-58c2bdecbad05ca44268d93be8b9e674">
+                  <ce:given-name>S.</ce:given-name>
+                  <ce:surname>Hirai</ce:surname>
+                  <ce:cross-ref refid="aff1" id="crosref0055">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:affiliation id="aff1" affiliation-id="S2666248523000124-33bd8ccea0ce26a7b1eb217bf117e43f">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>Tokyo Institute of Technology, 2-12-1 Ookayama, Meguro-ku, Tokyo, 152-8550, Japan</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Tokyo Institute of Technology</sa:organization>
+                     <sa:address-line>2-12-1 Ookayama</sa:address-line>
+                     <sa:address-line>Meguro-ku</sa:address-line>
+                     <sa:city>Tokyo</sa:city>
+                     <sa:postal-code>152-8550</sa:postal-code>
+                     <sa:country>Japan</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="srct0010">Tokyo Institute of Technology, 2-12-1 Ookayama, Meguro-ku, Tokyo 152-8550, Japan</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="aff2" affiliation-id="S2666248523000124-c9fd1bb26b1468caefd53560f4725aeb">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>Idemitsu Kosan Co., Ltd., 1280 Kami-izumi, Sodegaura-shi, Chiba, 299-0293, Japan</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Idemitsu Kosan Co., Ltd.</sa:organization>
+                     <sa:address-line>1280 Kami-izumi</sa:address-line>
+                     <sa:address-line>Sodegaura-shi</sa:address-line>
+                     <sa:city>Chiba</sa:city>
+                     <sa:postal-code>299-0293</sa:postal-code>
+                     <sa:country>Japan</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="srct0015">Idemitsu Kosan Co., Ltd., 1280 Kami-izumi, Sodegaura-shi, Chiba 299-0293, Japan</ce:source-text>
+               </ce:affiliation>
+               <ce:correspondence id="cor1">
+                  <ce:label>∗</ce:label>
+                  <ce:text>Corresponding author.</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:date-received day="25" month="3" year="2023"/>
+            <ce:date-revised day="26" month="5" year="2023"/>
+            <ce:date-accepted day="30" month="5" year="2023"/>
+            <ce:abstract xml:lang="en" id="abs0010" view="all" class="author"><ce:abstract-sec id="abssec0010" view="all">
+                  <ce:simple-para id="abspara0010" view="all">At present, it would be desirable to improve the C-rate values of bulk-type all-solid-state lithium-ion batteries by optimizing the electrode structures. Although simulations are an effective means of determining optimal structures, a high degree of accuracy is required. The present study demonstrates a pseudo-two-dimensional (P2D) method of simulating cathodes providing improved accuracy along with low computational cost and based on actual three-dimensional electrode structures. This method incorporates the volume fraction and tortuosity of the solid electrolyte (SE) and active material (AM), both of which are widely used in conventional simulations, and takes into account the specific contact area diameter (D<ce:inf loc="post">SCA</ce:inf>) of the AM. The latter parameter reflects the extent of AM particle aggregation and is obtained from the analysis of three-dimensional X-ray computed tomography images. The validity of these P2D simulations is confirmed by comparison with experimental results for three electrodes having different SE particle sizes. The experimental result shows that battery capacity is increased with decreases in the SE particle sizes. This effect is not predicted using conventional P2D simulations employing only volume fraction and tortuosity but is reproduced by P2D simulations in which D<ce:inf loc="post">SCA</ce:inf> values are used to model AM particle aggregation and Li diffusion within AM particles.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            
+            <ce:keywords xml:lang="en" id="kwrds0010" view="all" class="keyword">
+               <ce:section-title id="sectitle0020">Keywords</ce:section-title>
+               <ce:keyword id="kwrd0010">
+                  <ce:text>All-solid-state lithium-ion battery</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kwrd0015">
+                  <ce:text>P2D simulation</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kwrd0020">
+                  <ce:text>X-ray CT</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kwrd0025">
+                  <ce:text>Specific contact area diameter</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+            <ce:data-availability id="da0010" view="all">
+               <ce:section-title id="sectitle0025">Data availability</ce:section-title>
+               <ce:para id="p0030" view="all">Data will be made available on request.</ce:para>
+            </ce:data-availability>
+         </head>
+         <body view="all">
+            <ce:sections>
+               <ce:section id="sec1" role="introduction" view="all">
+                  <ce:label>1</ce:label>
+                  <ce:section-title id="sectitle0030">Introduction</ce:section-title>
+                  <ce:para id="p0035" view="all">The shift from gasoline-powered vehicles to electric vehicles (EVs) has resulted in a drive to develop next-generation EVs, with much of this research focused on long-range cruising and fast charging/discharging. A key component of any EV is its rechargeable battery and batteries exhibiting high capacity, high power input and high power output are required for next-generation EVs [<ce:cross-ref refid="bib1" id="crosref0060">1</ce:cross-ref>]. Conventional EVs use lithium-ion batteries (LiBs) based on liquid organic compounds acting as electrolytes. Unfortunately, these compounds are flammable and so have associated safety concerns [<ce:cross-ref refid="bib2" id="crosref0065">2</ce:cross-ref>]. In contrast, all-solid-state LiBs (ASSLiBs) with sulfide solid electrolytes (SEs) are expected to exhibit fast charging/discharging with a low risk of combustion [<ce:cross-ref refid="bib3" id="crosref0070">3</ce:cross-ref>]. The electrodes in the bulk-type ASSLiBs that are likely to be employed as high-capacity batteries in newer EVs contain both an active material (AM) and an SE. Rapid ion transportation within the SE network, suitably fast interfacial reactions at the SE-AM interface and smooth lithium diffusion within AM particles will all be required to produce high-performance bulk-type ASSLiBs and could be satisfied by optimization of the electrode structure.</ce:para>
+                  <ce:para id="p0040" view="all">Many experimental studies have examined the relationship between electrode structure and the performance of bulk-type ASSLiBs [<ce:cross-refs refid="bib4 bib5 bib6" id="crosrefs0010">4–6</ce:cross-refs>]. As an example, Siroma et al. used AC impedance measurements to determine that the ionic conductivity of the electrode can be changed by varying the AM volume ratio. It has also been reported that the facile transportation of electrons and lithium ions is a necessary prerequisite for high battery capacity [<ce:cross-ref refid="bib4" id="crosref0075">4</ce:cross-ref>]. In addition, Strauss et al. demonstrated that the electronic conductivity associated with atomization of the AM contributes to achieving high capacity in such batteries [<ce:cross-ref refid="bib5" id="crosref0080">5</ce:cross-ref>]. Otoyama et al. assessed the state of charge distribution in the AM after charging using Raman spectroscopy. Their work established that this parameter was lowered by aggregation of the AM as a consequence of a reduced AM-SE contact area together with increases in the lithium diffusion length in the AM [<ce:cross-ref refid="bib6" id="crosref0085">6</ce:cross-ref>].</ce:para>
+                  <ce:para id="p0045" view="all">These previous studies suggest that the electrode should be constructed to promote the transport of lithium ions and electrons while also enhancing interfacial reactions and diffusion in the AM so as to achieve high-performance ASSLiBs. However, because various factors can affect the electrode structure (such as the mixing method, volume fraction and particle size of the AM and SE), the efficient optimization of these batteries via experimentation is very difficult. For this reason, numerical simulations involving low computational costs are a useful alternative approach to the structural optimization of electrodes. In particular, pseudo-two-dimensional (P2D) simulations performed in bulk-type ASSLiBs can provide lower computational costs compared with three-dimensional (3D) simulations [<ce:cross-ref refid="bib7" id="crosref0090">7</ce:cross-ref>].</ce:para>
+                  <ce:para id="p0050" view="all">The Newman model is one means of performing numerical simulations of batteries and has been previously applied in this manner [<ce:cross-refs refid="bib8 bib9 bib10" id="crosrefs0015">8–10</ce:cross-refs>]. One possible factor related to electrode structure that can affect electrode performance is the lithium-ion migration distance in the SE. This distance is reflected by a variable referred to as tortuosity. In prior work, Wolff et al. considered the effect of electrode structure on ionic conductivity using tortuosity values calculated using Bruggeman's equation [<ce:cross-ref refid="bib10" id="crosref0095">10</ce:cross-ref>,<ce:cross-ref refid="bib11" id="crosref0100">11</ce:cross-ref>]. However, the tortuosity obtained in this manner has been reported to be lower than that calculated from experimental data and so this type of analysis cannot accurately assess the effects of electrode structure [<ce:cross-ref refid="bib12" id="crosref0105">12</ce:cross-ref>]. Just as P2D simulation of LiBs has improved accuracy by reflecting 3D structures [<ce:cross-ref refid="bib13" id="crosref0110">13</ce:cross-ref>], P2D simulation of ASSLiBs has also been studied to improve accuracy by using 3D structures. Hlushkou et al. conducted simulations using the tortuosity values calculated from 3D electrode structures obtained from focused ion beam scanning electron microscopy images [<ce:cross-ref refid="bib14" id="crosref0115">14</ce:cross-ref>]. In addition, Kashkooli et al. obtained tortuosity data using 3D electrode structures generated using X-ray computed tomography (CT). The resulting simulations reproduced the C-rate characteristics of the device with improved accuracy compared with calculations using tortuosity values obtained from Bruggeman's equation [<ce:cross-ref refid="bib15" id="crosref0120">15</ce:cross-ref>].</ce:para>
+                  <ce:para id="p0055" view="all">Simulations employing a 3D electrode structure can allow the effects of the structure to be more accurately reflected in the calculations. However, these effects are not solely associated with tortuosity and volume fraction, as has been assumed in previous simulations of ASSLiBs [<ce:cross-ref refid="bib15" id="crosref0125">15</ce:cross-ref>]. The contact area between the AM and SE together with the lithium diffusion distances in the AM particles will also determine battery performance, because these factors can induce an overpotential as a result of reaction resistance and diffusion resistance. The contact area and lithium diffusion distance are, in turn, related to the extent of aggregation of the AM particles, and the effect of this aggregation will be more significant in ASSLiBs than in liquid LiBs. This difference can be attributed to the small gaps between aggregated AM particles in liquid LiBs, through which the liquid electrolyte can migrate to produce ion transportation paths. In contrast, the SE particles in ASSLiBs cannot penetrate into the aggregated AM particles. Therefore, the effect of AM particle aggregation should be incorporated into simulations of ASSLiBs to ensure a high degree of accuracy.</ce:para>
+                  <ce:para id="p0060" view="all">Several previous simulations of liquid LiBs have considered the effects of AM particle aggregation [<ce:cross-refs refid="bib16 bib17 bib18" id="crosrefs0020">16–18</ce:cross-refs>]. Wang et al. conducted discharge simulations of liquid LiB electrodes composed of AMs having different particle diameters and found that the discharge capacity increased with decreases in the AM particle size because of an associated decrease in the diffusion distance [<ce:cross-ref refid="bib16" id="crosref0130">16</ce:cross-ref>]. Awaker et al. conducted an electrolytic analysis of liquid LiB electrodes composed of AMs with varying particle sizes and found that the frequency of contact between the conductive agent and the AM increased with increases in particle size and that this, in turn, improved conductivity [<ce:cross-ref refid="bib17" id="crosref0135">17</ce:cross-ref>]. Goldin et al. reproduced the decrease in discharge capacity resulting from a loss of contact area between the AM and the electrolyte caused by aggregation of the AM by calculating an effective particle radius associated with the specific contact area in a liquid LiB [<ce:cross-ref refid="bib18" id="crosref0140">18</ce:cross-ref>].</ce:para>
+                  <ce:para id="p0065" view="all">As described above, highly accurate P2D simulations of liquid LiBs must incorporate the effects of AM particle aggregation in addition to the more commonly used parameters of volume fraction (ε) and tortuosity (τ). In the case of simulations involving ASSLiBs, it is even more important to consider the effects of AM particle aggregation based on determining the specific contact area between the AM and the SE, such as via the effective particle radius value previously used to model liquid LiBs [<ce:cross-ref refid="bib18" id="crosref0145">18</ce:cross-ref>].</ce:para>
+                  <ce:para id="p0070" view="all">Although the importance of reflecting 3D structure in P2D simulations has been demonstrated, the case of reflecting active material aggregation based on 3D structure in P2D simulations has hardly been confirmed for P2D simulation of ASSLiB. Therefore, in the present study, a new approach was developed for P2D simulation of ASSLiB using X-ray CT to determine the AM-specific contact area diameter (D<ce:inf loc="post">SCA</ce:inf>) as an indicator of the extent of aggregation. The validity of these simulations was verified by comparison with experimental results for three electrodes having different SE particle sizes.</ce:para>
+               </ce:section>
+               <ce:section id="sec2" view="all">
+                  <ce:label>2</ce:label>
+                  <ce:section-title id="sectitle0035">Experimental and numerical procedures</ce:section-title>
+                  <ce:para id="p0075" view="all">The accuracy of the present P2D simulations based on D<ce:inf loc="post">SCA</ce:inf> values was assessed by performing discharge experiments and P2D discharge simulations using structural parameters obtained from X-ray CT. The simulation results were compared with the discharge experiment results.</ce:para>
+                  <ce:section id="sec2.1" role="materials-methods" view="all">
+                     <ce:label>2.1</ce:label>
+                     <ce:section-title id="sectitle0040">Experimental procedures</ce:section-title>
+                     <ce:section id="sec2.1.1" view="all">
+                        <ce:label>2.1.1</ce:label>
+                        <ce:section-title id="sectitle0045">Cathode half-cell discharge experiment procedures</ce:section-title>
+                        <ce:para id="p0080" view="all">The cathode composite was prepared by mechanically mixing Li<ce:inf loc="post">4</ce:inf>Ti<ce:inf loc="post">5</ce:inf>O<ce:inf loc="post">12</ce:inf>-coated LiNi<ce:inf loc="post">0.8</ce:inf>Co<ce:inf loc="post">0.15</ce:inf>Al<ce:inf loc="post">0.05</ce:inf>O<ce:inf loc="post">2</ce:inf> (NCA) and 75Li<ce:inf loc="post">2</ce:inf>S–25P<ce:inf loc="post">2</ce:inf>S<ce:inf loc="post">5</ce:inf> glass (LPS) powders. The median diameter of the NCA was 5 μm while the median diameter of the LPS was 1, 2 or 6 μm. The electrical conductivities of the NCA and LPS were 910 and 0.45 mS/cm, respectively. These materials were combined at 85 and 15 wt%, respectively, then sealed in a zirconia pot along with 34 g of zirconia balls (2 mm diameter) and mechanically mixed at 600 rpm for 1 h using a rolling mill (AV-1, Asahi Rika Seisakujo). All the materials were processed in an argon-filled glove box with a low dew point (&lt;-70 °C).</ce:para>
+                        <ce:para id="p0085" view="all">Following this, the cathode half-cell was assembled in the glove box. A 90 mg quantity of LPS was transferred into a cell consisting of a 10 mm diameter Macor cylinder and a stainless-steel current collector. After pressing this material at 185 MPa, 12.4 mg of the cathode composite was inserted into the same cell and the combined sample was pressed at 555 MPa. These procedures fabricated a cathode having a thickness of 43 μm into which a section of lithium metal was inserted as a counter electrode. Finally, the resulting cell was pressed at 93 MPa and then clamped at 30 MPa.</ce:para>
+                        <ce:para id="p0090" view="all">The cathode half-cell was sealed in a container and discharge tests were conducted outside the glove box. These trials were performed over the potential range of 4.2 − 3.1 V vs Li<ce:sup loc="post">+</ce:sup>/Li and the constant current range of 0.189–15.12 mA (0.1 C − 4 C) using a battery testing system.</ce:para>
+                     </ce:section>
+                     <ce:section id="sec2.1.2" view="all">
+                        <ce:label>2.1.2</ce:label>
+                        <ce:section-title id="sectitle0050">X-ray CT procedures</ce:section-title>
+                        <ce:para id="p0095" view="all">Samples of the compressed cathodes were cut out using a 0.3 mm diameter hand punch (NOGAMI) in preparation for X-ray CT analysis. The sample size was selected so as to ensure sufficient X-ray transmission to allow for high resolution. These samples were transferred into an airtight jig made of polyetheretherketone (PEEK) inside a nitrogen-filled glove box with a low dew point (&lt;-70 °C). The jig also contained molecular sieves (type 3A, Kanto Chemical) to remove any water vapor adsorbed on the inner walls [<ce:cross-ref refid="bib19" id="crosref0150">19</ce:cross-ref>].</ce:para>
+                        <ce:para id="p0100" view="all">Each cathode sample was assessed using X-ray CT (Rigaku, customized nano3DX) with a voxel size of 325 × 325 × 325 nm. A rotating electrode-type X-ray generator was employed, operating at 45 kV and 66 mA with a molybdenum target [<ce:cross-ref refid="bib20" id="crosref0155">20</ce:cross-ref>]. The CT images were reconstructed from a series of X-ray transmission images. In these images, the AM (which had a high X-ray absorption coefficient) appeared white while the SE (with a low coefficient) appeared black, making it possible to identify the components of the cathode.</ce:para>
+                     </ce:section>
+                  </ce:section>
+                  <ce:section id="sec2.2" view="all">
+                     <ce:label>2.2</ce:label>
+                     <ce:section-title id="sectitle0055">Numerical procedures</ce:section-title>
+                     <ce:para id="p0105" view="all">The numerical procedures below are based on 3D X-ray CT images. To obtain these images, a 3D box smoothing filter in MATLAB is used to reduce noise. The active material and solid electrolyte were identified by setting the X-ray CT image threshold to match their respective volume fractions in the electrode, determined from the weight ratio of the composite material.</ce:para>
+                     <ce:section id="sec2.2.1" view="all">
+                        <ce:label>2.2.1</ce:label>
+                        <ce:section-title id="sectitle0060">Calculation of tortuosity and specific contact area diameter from X-ray CT images</ce:section-title>
+                        <ce:para id="p0110" view="all">The tortuosity values related to the electron and ion migration pathways in the AM and SE, respectively, were determined using an electric field analysis based on the X-ray CT 3D images [<ce:cross-refs refid="bib20 bib21 bib22" id="crosrefs0025">20–22</ce:cross-refs>]. As noted, the extent of AM particle aggregation can be quantitatively evaluated based on the specific contact area of the material (S<ce:inf loc="post">AM-SE</ce:inf>). This can be defined using the specific contact area diameter (D<ce:inf loc="post">SCA</ce:inf>) per unit volume and the number of AM aggregates per unit volume (N<ce:inf loc="post">AM</ce:inf>) as<ce:display>
+                              <ce:formula id="fd1">
+                                 <ce:label>(1)</ce:label>
+                                 <mml:math altimg="si1.svg" alttext="Equation 1.">
+                                    <mml:mrow>
+                                       <mml:mtable columnalign="center">
+                                          <mml:mtr>
+                                             <mml:mtd>
+                                                <mml:mrow>
+                                                   <mml:msub>
+                                                      <mml:mi>S</mml:mi>
+                                                      <mml:mrow>
+                                                         <mml:mi mathvariant="normal">A</mml:mi>
+                                                         <mml:mi mathvariant="normal">M</mml:mi>
+                                                         <mml:mo linebreak="badbreak">−</mml:mo>
+                                                         <mml:mi mathvariant="normal">S</mml:mi>
+                                                         <mml:mi mathvariant="normal">E</mml:mi>
+                                                      </mml:mrow>
+                                                   </mml:msub>
+                                                   <mml:mo linebreak="badbreak">=</mml:mo>
+                                                   <mml:msub>
+                                                      <mml:mi>N</mml:mi>
+                                                      <mml:mrow>
+                                                         <mml:mi mathvariant="normal">A</mml:mi>
+                                                         <mml:mi mathvariant="normal">M</mml:mi>
+                                                      </mml:mrow>
+                                                   </mml:msub>
+                                                   <mml:mn>4</mml:mn>
+                                                   <mml:mi>π</mml:mi>
+                                                   <mml:msup>
+                                                      <mml:mrow>
+                                                         <mml:mo stretchy="true">(</mml:mo>
+                                                         <mml:mfrac>
+                                                            <mml:msub>
+                                                               <mml:mi>D</mml:mi>
+                                                               <mml:mrow>
+                                                                  <mml:mi mathvariant="normal">S</mml:mi>
+                                                                  <mml:mi mathvariant="normal">C</mml:mi>
+                                                                  <mml:mi mathvariant="normal">A</mml:mi>
+                                                               </mml:mrow>
+                                                            </mml:msub>
+                                                            <mml:mn>2</mml:mn>
+                                                         </mml:mfrac>
+                                                         <mml:mo stretchy="true">)</mml:mo>
+                                                      </mml:mrow>
+                                                      <mml:mn>2</mml:mn>
+                                                   </mml:msup>
+                                                   <mml:mtext>.</mml:mtext>
+                                                </mml:mrow>
+                                             </mml:mtd>
+                                          </mml:mtr>
+                                       </mml:mtable>
+                                    </mml:mrow>
+                                 </mml:math>
+                              </ce:formula>
+                           </ce:display>
+                        </ce:para>
+                        <ce:para id="p0115" view="all">The corresponding volume of the AM (V<ce:inf loc="post">AM</ce:inf>) can be calculated using the equation<ce:display>
+                              <ce:formula id="fd2">
+                                 <ce:label>(2)</ce:label>
+                                 <mml:math altimg="si2.svg" alttext="Equation 2.">
+                                    <mml:mrow>
+                                       <mml:mtable columnalign="center">
+                                          <mml:mtr>
+                                             <mml:mtd>
+                                                <mml:mrow>
+                                                   <mml:msub>
+                                                      <mml:mi>V</mml:mi>
+                                                      <mml:mrow>
+                                                         <mml:mi mathvariant="normal">A</mml:mi>
+                                                         <mml:mi mathvariant="normal">M</mml:mi>
+                                                      </mml:mrow>
+                                                   </mml:msub>
+                                                   <mml:mo linebreak="badbreak">=</mml:mo>
+                                                   <mml:msub>
+                                                      <mml:mi>N</mml:mi>
+                                                      <mml:mrow>
+                                                         <mml:mi mathvariant="normal">A</mml:mi>
+                                                         <mml:mi mathvariant="normal">M</mml:mi>
+                                                      </mml:mrow>
+                                                   </mml:msub>
+                                                   <mml:mfrac>
+                                                      <mml:mn>4</mml:mn>
+                                                      <mml:mn>3</mml:mn>
+                                                   </mml:mfrac>
+                                                   <mml:mi>π</mml:mi>
+                                                   <mml:msup>
+                                                      <mml:mrow>
+                                                         <mml:mo stretchy="true">(</mml:mo>
+                                                         <mml:mfrac>
+                                                            <mml:msub>
+                                                               <mml:mi>D</mml:mi>
+                                                               <mml:mrow>
+                                                                  <mml:mi mathvariant="normal">S</mml:mi>
+                                                                  <mml:mi mathvariant="normal">C</mml:mi>
+                                                                  <mml:mi mathvariant="normal">A</mml:mi>
+                                                               </mml:mrow>
+                                                            </mml:msub>
+                                                            <mml:mn>2</mml:mn>
+                                                         </mml:mfrac>
+                                                         <mml:mo stretchy="true">)</mml:mo>
+                                                      </mml:mrow>
+                                                      <mml:mn>3</mml:mn>
+                                                   </mml:msup>
+                                                   <mml:mtext>.</mml:mtext>
+                                                </mml:mrow>
+                                             </mml:mtd>
+                                          </mml:mtr>
+                                       </mml:mtable>
+                                    </mml:mrow>
+                                 </mml:math>
+                              </ce:formula>
+                           </ce:display>
+                        </ce:para>
+                        <ce:para id="p0120" view="all">From these two equations, we have<ce:display>
+                              <ce:formula id="fd3">
+                                 <ce:label>(3)</ce:label>
+                                 <mml:math altimg="si3.svg" alttext="Equation 3.">
+                                    <mml:mrow>
+                                       <mml:mtable columnalign="center">
+                                          <mml:mtr>
+                                             <mml:mtd>
+                                                <mml:mrow>
+                                                   <mml:msub>
+                                                      <mml:mi>D</mml:mi>
+                                                      <mml:mrow>
+                                                         <mml:mi mathvariant="normal">S</mml:mi>
+                                                         <mml:mi mathvariant="normal">C</mml:mi>
+                                                         <mml:mi mathvariant="normal">A</mml:mi>
+                                                      </mml:mrow>
+                                                   </mml:msub>
+                                                   <mml:mo linebreak="badbreak">=</mml:mo>
+                                                   <mml:mfrac>
+                                                      <mml:mrow>
+                                                         <mml:mn>6</mml:mn>
+                                                         <mml:msub>
+                                                            <mml:mi>V</mml:mi>
+                                                            <mml:mrow>
+                                                               <mml:mi mathvariant="normal">A</mml:mi>
+                                                               <mml:mi mathvariant="normal">M</mml:mi>
+                                                            </mml:mrow>
+                                                         </mml:msub>
+                                                      </mml:mrow>
+                                                      <mml:msub>
+                                                         <mml:mi>S</mml:mi>
+                                                         <mml:mrow>
+                                                            <mml:mi mathvariant="normal">A</mml:mi>
+                                                            <mml:mi mathvariant="normal">M</mml:mi>
+                                                            <mml:mo linebreak="badbreak">−</mml:mo>
+                                                            <mml:mi mathvariant="normal">S</mml:mi>
+                                                            <mml:mi mathvariant="normal">E</mml:mi>
+                                                         </mml:mrow>
+                                                      </mml:msub>
+                                                   </mml:mfrac>
+                                                   <mml:mtext>.</mml:mtext>
+                                                </mml:mrow>
+                                             </mml:mtd>
+                                          </mml:mtr>
+                                       </mml:mtable>
+                                    </mml:mrow>
+                                 </mml:math>
+                              </ce:formula>
+                           </ce:display>
+                        </ce:para>
+                        <ce:para id="p0125" view="all">The values of both V<ce:inf loc="post">AM</ce:inf> and S<ce:inf loc="post">AM-SE</ce:inf> could be obtained from the X-ray CT images, allowing D<ce:inf loc="post">SCA</ce:inf> to be calculated. In this case, S<ce:inf loc="post">AM-SE</ce:inf> calculated by taking into account the increase in SE-AM contact area due to voxelization in the X-ray CT images. Because this parameter reflects the AM agglomeration structure, it represents the effective particle diameter.</ce:para>
+                        <ce:para id="p0130" view="all">P2D simulations cannot accurately reproduce the complex shapes of real electrodes because the active material is treated as a spherical shape. In the presented method, the complex active material shape is converted to spherical shape by using the D<ce:inf loc="post">SCA</ce:inf> such that the accuracy of the model is improved as much as possible.</ce:para>
+                     </ce:section>
+                     <ce:section id="sec2.2.2" view="all">
+                        <ce:label>2.2.2</ce:label>
+                        <ce:section-title id="sectitle0065">Modeling and simulation</ce:section-title>
+                        <ce:para id="p0135" view="all">Discharge simulations were performed on a cathode half-cell based on the P2D ASSLiB model proposed by Wolff et al. [<ce:cross-ref refid="bib10" id="crosref0160">10</ce:cross-ref>]. Wolff's model can simulate the structural characteristics of the solid electrolyte. However, the active material diameters used in this model is only its non-aggregated case of the diameter cannot simulate the aggregation of the active material. Therefore, reflecting the aggregation of the active material in this model is expected to achieve more accurate simulation. So, in this numerical simulation, D<ce:inf loc="post">SCA</ce:inf> explained above is used to the effective active material diameter. As in Wolff's model, the electrochemical reaction at the AM-SE interface, lithium-ion (Li<ce:sup loc="post">+</ce:sup>) transport through the SE and electron (e<ce:sup loc="post">−</ce:sup>) transport through the AM are simulated in a single dimension (x) corresponding to the thickness direction of the cell. In contrast, lithium (Li) diffusion through the AM is modeled in a pseudo-dimension (r) within the AM particles. The diffusion coefficient of Li in the AM depends on the Li concentration measured in the experiment [<ce:cross-ref refid="bib23" id="crosref0165">23</ce:cross-ref>]. The AM particle size included in these simulations was either the median particle diameter used in previous studies or the D<ce:inf loc="post">SCA</ce:inf> value calculated from X-ray CT 3D images. In addition, the τ<ce:inf loc="post">SE</ce:inf> and τ<ce:inf loc="post">AM</ce:inf> values obtained from X-ray CT 3D images were used to determine the effective Li<ce:sup loc="post">+</ce:sup> conductivity and electron transport values.</ce:para>
+                     </ce:section>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="sec3" role="results" view="all">
+                  <ce:label>3</ce:label>
+                  <ce:section-title id="sectitle0070">Results and discussion</ce:section-title>
+                  <ce:section id="sec3.1" view="all">
+                     <ce:label>3.1</ce:label>
+                     <ce:section-title id="sectitle0075">X-ray CT structural analyses</ce:section-title>
+                     <ce:para id="p0140" view="all">
+                        <ce:cross-ref refid="fig1" id="crosref0170">Fig. 1</ce:cross-ref>
+                        <ce:float-anchor refid="fig1"/> (a)−(c) present X-ray CT images of SE specimens having varying particle sizes. <ce:cross-ref refid="fig1" id="crosref0175">Fig. 1</ce:cross-ref> (d), (e) and (f) summarizes the tortuosity of the AM (τ<ce:inf loc="post">AM</ce:inf>), the tortuosity of the SE (τ<ce:inf loc="post">SE</ce:inf>) and the D<ce:inf loc="post">SCA</ce:inf> for each SE particle size as calculated from X-ray CT images. The data in <ce:cross-ref refid="fig1" id="crosref0180">Fig. 1</ce:cross-ref> (d) and (e) demonstrate that the tortuosity values of the AM and SE were independent of the LPS particle size. In contrast, the D<ce:inf loc="post">SCA</ce:inf> increased along with the SE particle size, as demonstrated by <ce:cross-ref refid="fig1" id="crosref0185">Fig. 1</ce:cross-ref> (f). It is likely that smaller SE particles were inserted between the AM particles such that the aggregation of the AM was inhibited, thus reducing the D<ce:inf loc="post">SCA</ce:inf>.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec3.2" view="all">
+                     <ce:label>3.2</ce:label>
+                     <ce:section-title id="sectitle0080">Comparison of simulated and experimental battery performance data</ce:section-title>
+                     <ce:para id="p0145" view="all">Discharge experiments and simulations were conducted for cathodes having varying SE particle sizes. <ce:cross-ref refid="fig2" id="crosref0190">Fig. 2</ce:cross-ref>
+                        <ce:float-anchor refid="fig2"/> (a) plots the discharge capacities as functions of the C-rates measured in the experiments. <ce:cross-ref refid="fig2" id="crosref0195">Fig. 2</ce:cross-ref> (b) plots the discharge capacities as function of the C-rates calculated in the P2D simulations. These simulations were based on the volume fractions and tortuosity values (that is, τ<ce:inf loc="post">AM</ce:inf> and τ<ce:inf loc="post">SE</ce:inf>) obtained from X-ray CT 3D images and the AM median particle diameter (D50<ce:inf loc="post">AM</ce:inf> = 5 μm). <ce:cross-ref refid="fig2" id="crosref0200">Fig. 2</ce:cross-ref> (d) plots the absolute differences between the experimental and simulated capacities obtained using the D50<ce:inf loc="post">AM</ce:inf> value (ΔCapacity). <ce:cross-ref refid="fig2" id="crosref0205">Fig. 2</ce:cross-ref> (c) shows the discharge capacities plotted against the C-rates calculated from the P2D simulations, based on the volume fractions and the tortuosity values (τ<ce:inf loc="post">AM</ce:inf>, τ<ce:inf loc="post">SE</ce:inf>) generated using X-ray CT 3D images in conjunction with the AM-specific contact area diameter (D<ce:inf loc="post">SCA</ce:inf>). <ce:cross-ref refid="fig2" id="crosref0210">Fig. 2</ce:cross-ref> (e) presents the absolute differences between the experimental and simulated capacities obtained using the D<ce:inf loc="post">SCA</ce:inf> (Δ Capacity). From <ce:cross-ref refid="fig2" id="crosref0215">Fig. 2</ce:cross-ref> (a) it is evident that the experimental discharge capacity decreased with increases in the C-rate at all SE particle sizes and that the discharge capacity at 1 C was lower for the 6-μm particles compared with the 1- and 2-μm particles. As shown in <ce:cross-ref refid="fig2" id="crosref0220">Fig. 2</ce:cross-ref> (b), the decrease in the discharge capacity with increases in the C-rate could be simulated using D50<ce:inf loc="post">AM</ce:inf> although the drop in discharge capacity associated with 6-μm SE particles was not accurately predicted. In contrast, simulations using the D<ce:inf loc="post">SCA</ce:inf> value successfully reproduced the decreased discharge capacity obtained with 6-μm SE particles. The differences in capacity from the experimental data were generally smaller in the case of simulations performed with the D<ce:inf loc="post">SCA</ce:inf> value (<ce:cross-ref refid="fig2" id="crosref0225">Fig. 2</ce:cross-ref> (e)) than for those using D50<ce:inf loc="post">AM</ce:inf> (<ce:cross-ref refid="fig2" id="crosref0230">Fig. 2</ce:cross-ref> (d)). Thus, the former simulations reproduced the experimental discharge capacity more accurately. It should also be noted that the simulations employing D<ce:inf loc="post">SCA</ce:inf> exhibited the greatest differences from experimental values at 2 C with 1- and 2-μm SE particles, although these discrepancies were less than 10 mAh/g and so not significant in practical terms.</ce:para>
+                     <ce:para id="p0150" view="all">The experimental discharge curves are presented in <ce:cross-ref refid="fig3" id="crosref0235">Fig. 3</ce:cross-ref>
+                        <ce:float-anchor refid="fig3"/> (a) while the P2D simulations with D50<ce:inf loc="post">AM</ce:inf> and with D<ce:inf loc="post">SCA</ce:inf> for 2-μm SE particles are shown in <ce:cross-ref refid="fig3" id="crosref0240">Fig. 3</ce:cross-ref> (b) and (c), respectively. It is apparent that both types of simulations correctly predicted the voltage drop at the start of the discharge (0 mAh/g). This outcome indicates that P2D simulations using both D50<ce:inf loc="post">AM</ce:inf> and D<ce:inf loc="post">SCA</ce:inf> can provide correct values for the ion transportation resistance in the SE as well as the interface resistance between the SE and AM. Even so, the discharge capacity plots obtained from the simulations involving D50<ce:inf loc="post">AM</ce:inf> and D<ce:inf loc="post">SCA</ce:inf> differ from one another, particularly in the last half of each plot. Specifically, the capacity values generated using the D<ce:inf loc="post">SCA</ce:inf> method are much closer to the experimental data. The greater accuracy of this approach is attributed to improved modeling of Li diffusion in the AM particles.</ce:para>
+                     <ce:para id="p0155" view="all">In this study, aggregation and agglomeration are not distinguished, and they are treated together as aggregation in the simulation, but the simulation accuracy is higher than that of the conventional method using the median particle size as described above. It is believed that distinguishing between them can simulate Li diffusion more accurately and increase the simulation accuracy. Moreover, the improvements in the calculation of the contact area would also increase the simulation accuracy.</ce:para>
+                     <ce:para id="p0160" view="all">
+                        <ce:cross-ref refid="fig4" id="crosref0245">Fig. 4</ce:cross-ref>
+                        <ce:float-anchor refid="fig4"/> summarizes the 2D Li concentration distribution in the AM particles at the end of a 1 C discharge for varying SE particle sizes as predicted by P2D simulations. <ce:cross-ref refid="fig4" id="crosref0250">Fig. 4</ce:cross-ref> (a), (b) and (c) present results obtained with D50<ce:inf loc="post">AM</ce:inf> for SE particle sizes of 1, 2 and 6 μm, respectively, while <ce:cross-ref refid="fig4" id="crosref0255">Fig. 4</ce:cross-ref> (d), (e) and (f) show the distributions generated with D<ce:inf loc="post">SCA</ce:inf> for these same particle sizes. In these plots, the Li concentrations are indicated by variations in color. The distribution throughout the AM particle radius is along the vertical axis while that in the electrode thickness direction is along the horizontal axis. Therefore, in these graphs, the maximum radius value is the AM particle size and the maximum depth value equals the electrode thickness. In the case of the simulations performed using D50<ce:inf loc="post">AM</ce:inf>, the Li concentration distribution in the AM was not changed by varying the SE particle size and was higher than 0.8 in all regions, meaning that all AM particles in the electrode would have been almost fully discharged. This result explains the high capacity in the simulations with D50<ce:inf loc="post">AM</ce:inf> shown in <ce:cross-ref refid="fig2" id="crosref0260">Fig. 2</ce:cross-ref> (b) and 3 (b). In contrast, the simulations with D<ce:inf loc="post">SCA</ce:inf> indicated that the Li concentration at the center of the AM particle is less than 0.65, and is even lower at deeper electrode location and larger SE particle sizes. These low Li concentrations are ascribed to the larger effective particle sizes produced by aggregation and the longer diffusion length from the surface of the AM particle (that is, the SE-AM interface) to the center of the AM particle. Lower Li concentrations would, in turn, decrease the battery capacity and so the P2D simulations using D<ce:inf loc="post">SCA</ce:inf> accurately reproduced Li diffusion in AM particle aggregates at various SE particle sizes.</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="sec4" role="conclusion" view="all">
+                  <ce:label>4</ce:label>
+                  <ce:section-title id="sectitle0085">Conclusions</ce:section-title>
+                  <ce:para id="p0165" view="all">A method allowing highly accurate P2D simulations of ASSLiBs using the Newman model in conjunction with D<ce:inf loc="post">SCA</ce:inf> values has been demonstrated. Simulations incorporating the volume fraction and tortuosity values calculated from X-ray CT images together with the AM median diameter were found not to accurately reproduce experimental data. In contrast, the use of D<ce:inf loc="post">SCA</ce:inf> values obtained from such images in place of the AM median diameter provided good agreement with the experimental results because AM particle aggregation and Li diffusion in the AM particles were properly simulated.</ce:para>
+                  <ce:para id="p0170" view="all">This study developed a high-accuracy P2D simulation and found that decreasing SE particle size reduces AM aggregation, resulting in a shorter lithium diffusion distance and improved discharge capacity. This suggests that battery performance can be improved by reducing both active material aggregation and AM atomization.</ce:para>
+               </ce:section>
+               <ce:section id="sec5" view="all">
+                  <ce:section-title id="sectitle0090">CRediT authorship contribution statement</ce:section-title>
+                  <ce:para id="p0175" view="all">S. Iwamoto: Writing - Original draft, Methodology, Investigation, Resources.</ce:para>
+                  <ce:para id="p0180" view="all">M. Kodama: Writing - Review &amp; Editing, Conceptualization, Software.</ce:para>
+                  <ce:para id="p0185" view="all">K. Yanagi: Conceptualization, Investigation, Data Curation.</ce:para>
+                  <ce:para id="p0190" view="all">Y. Haniu: Investigation.</ce:para>
+                  <ce:para id="p0195" view="all">Y. Fuji: Investigation.</ce:para>
+                  <ce:para id="p0200" view="all">N. Masuda: Investigation.</ce:para>
+                  <ce:para id="p0205" view="all">H. Higuchi: Conceptualization, Supervision.</ce:para>
+                  <ce:para id="p0210" view="all">Y. Suetsugu: Project administration, Funding acquisition.</ce:para>
+                  <ce:para id="p0215" view="all">S. Hirai: Project administration, Supervision.</ce:para>
+               </ce:section>
+            </ce:sections>
+            <ce:conflict-of-interest id="coi0010" view="all">
+               <ce:section-title id="sectitle0095">Declaration of competing interest</ce:section-title>
+               <ce:para id="p0220" view="all">The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</ce:para>
+            </ce:conflict-of-interest>
+            <ce:acknowledgment id="ack0010" view="all">
+               <ce:section-title id="sectitle0100">Acknowledgements</ce:section-title>
+               <ce:para id="p0225" view="all">This work was supported by <ce:grant-sponsor id="gs2" xlink:type="simple" xlink:role="http://www.elsevier.com/xml/linking-roles/grant-sponsor">Idemitsu Kosan Collaborative Research Cluster for Advanced Materials (IKCRCAM)</ce:grant-sponsor> in <ce:grant-sponsor id="gs1" sponsor-id="https://doi.org/10.13039/501100004520" xlink:type="simple" xlink:role="http://www.elsevier.com/xml/linking-roles/grant-sponsor">Tokyo Tech</ce:grant-sponsor> open innovation platform. The authors would like to thank Prof. Takeshi Kikutani, the research director of <ce:grant-sponsor id="gs3" xlink:type="simple" xlink:role="http://www.elsevier.com/xml/linking-roles/grant-sponsor">IKCRCAM</ce:grant-sponsor>, for the useful discussions and the support of this work.</ce:para>
+            </ce:acknowledgment>
+         </body>
+         <tail view="all">
+            <ce:bibliography id="cebib0010" view="all">
+               <ce:section-title id="sectitle0105">References</ce:section-title>
+               <ce:bibliography-sec id="cebibsec0010" view="all">
+                  <ce:bib-reference id="bib1">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference id="sref1">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.-M.</ce:given-name>
+                                 <ce:surname>Tarascon</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Armand</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Issues and challenges facing rechargeable lithium batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nature</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>414</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2001</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>359</sb:first-page>
+                              <sb:last-page>367</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1038/35104644</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0020">J.-M. Tarascon and M. Armand, “Issues and challenges facing rechargeable lithium batteries”, Nature, 414 (2001), pp. 359-367, https://doi.org/10.1038/35104644</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib2">
+                     <ce:label>[2]</ce:label>
+                     <sb:reference id="sref2">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Lin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Pei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Cui</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Materials for lithium-ion battery safety</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Sci. Adv.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>22</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4</sb:first-page>
+                           </sb:pages>
+                           <ce:doi>10.1126/sciadv.aas9820</ce:doi>
+                        </sb:host>
+                        <sb:comment>eaas9820</sb:comment>
+                     </sb:reference>
+                     <ce:source-text id="srct0025">K. Liu, Y. Liu, D. Lin, A. Pei and Y. Cui. “Materials for lithium-ion battery safety”. Science Advances 22, 4 (2018), eaas9820, https://doi.org/10.1126/sciadv.aas9820</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib3">
+                     <ce:label>[3]</ce:label>
+                     <sb:reference id="sref3">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Sun</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Gong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.P.</ce:given-name>
+                                 <ce:surname>Wilkinson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Recent advances in all-solid-state rechargeable lithium batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nanomater. Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>33</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>363</sb:first-page>
+                              <sb:last-page>386</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.nanoen.2017.01.028</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0030">C. Sun, J. Liu, Y. Gong, D.P. Wilkinson and J. Zhang, “Recent advances in all-solid-state rechargeable lithium batteries”, Nanomater. Energy, 33 (2017), pp. 363-386, https://doi.org/10.1016/j.nanoen.2017.01.028</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib4">
+                     <ce:label>[4]</ce:label>
+                     <sb:reference id="sref4">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Siroma</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Sato</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Takeuchi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Nagai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Ota</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Ioroi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>AC impedance analysis of ionic and electronic conductivities in electrode mixture layers for an all-solid-state lithium-ion battery</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>316</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>215</sb:first-page>
+                              <sb:last-page>223</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.jpowsour.2016.03.059</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0035">Z. Siroma, T. Sato, T. Takeuchi, R. Nagai, A. Ota and T. Ioroi, “AC Impedance Analysis of Ionic and Electronic Conductivities in Electrode Mixture Layers for an All-Solid-State Lithium-Ion Battery”, J. Power Sources, 316 (2016), 215- 223, https://doi.org/10.1016/j.jpowsour.2016.03.059</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib5">
+                     <ce:label>[5]</ce:label>
+                     <sb:reference id="sref5">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Strauss</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Bartsch</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>de Biasi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.Y.</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Janek</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Hartmann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Brezesinski</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Impact of cathode material particle size on the capacity of bulk-type all-solid-state batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>ACS Energy Lett.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>3</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>992</sb:first-page>
+                              <sb:last-page>996</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1021/acsenergylett.8b00275</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0040">F. Strauss, T. Bartsch, L. de Biasi and A. Y. Kim, J. Janek, P. Hartmann and T. Brezesinski, “Impact of Cathode Material Particle Size on the Capacity of Bulk-Type All-Solid-State Batteries.” ACS Energy Lett. 3 (2018), 992- 996, https://doi.org/10.1021/acsenergylett.8b00275</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib6">
+                     <ce:label>[6]</ce:label>
+                     <sb:reference id="sref6">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Otoyama</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Akitoshi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Masahiro</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Raman imaging for LiCoO2 composite positive electrodes in all-solid-state lithium batteries using Li<ce:inf loc="post">2</ce:inf>S–P<ce:inf loc="post">2</ce:inf>S<ce:inf loc="post">5</ce:inf> solid electrolytes</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>302</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>419</sb:first-page>
+                              <sb:last-page>425</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.jpowsour.2015.10.040</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0045">M. Otoyama, Y. Akitoshi and H. Masahiro, “Raman imaging for LiCoO2 composite positive electrodes in all-solid-state lithium batteries using Li2S-P2S5 solid electrolytes”. J. Power Sources, 302 (2016), pp. 419-425, https://doi.org/10.1016/j.jpowsour.2015.10.040</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib7">
+                     <ce:label>[7]</ce:label>
+                     <sb:reference id="sref7">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Ramadesigan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.W.C.</ce:given-name>
+                                 <ce:surname>Northrop</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>De</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Santhanagopalan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.D.</ce:given-name>
+                                 <ce:surname>Braatz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.R.</ce:given-name>
+                                 <ce:surname>Subramanian</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Modeling and simulation of lithium-ion batteries from a systems engineering perspective</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Electrochem. Soc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>159</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>R31</sb:first-page>
+                              <sb:last-page>R45</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1149/2.018203jes</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0050">V. Ramadesigan, P.W.C. Northrop, S. De, S. Santhanagopalan, R.D. Braatz and V.R. Subramanian, “Modeling and simulation of lithium-ion batteries from a systems engineering perspective”, J Electrochemical Society, 159 (2011), pp. R31-R45, https://doi.org/10.1149/2.018203jes</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib8">
+                     <ce:label>[8]</ce:label>
+                     <sb:reference id="sref8">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Legrand</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Raël</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Knosp</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Hinaje</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Desprez</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Lapicque</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Including double-layer capacitance in lithium-ion battery mathematical models</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>251</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>370</sb:first-page>
+                              <sb:last-page>378</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.jpowsour.2013.11.044</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0055">N. Legrand, S. Rael, B. Knosp, M. Hinaje, P. Desprez and F. Lapicque, “Including double-layer capacitance in lithium-ion battery mathematical models”, J. Power Sources, 251 (2014), pp. 370-378, https://doi.org/10.1016/j.jpowsour.2013.11.044</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib9">
+                     <ce:label>[9]</ce:label>
+                     <sb:reference id="sref9">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Newman</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Tiedemann</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Porous-electrode theory with battery applications</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>AIChE J.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>21</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1975</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>25</sb:first-page>
+                              <sb:last-page>41</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1002/aic.690210103</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0060">J. Newman and W. Tiedemann, “Porous-electrode theory with battery applications”, AIChE J., 21 (1975), pp. 25-41, https://doi.org/10.1002/aic.690210103</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib10">
+                     <ce:label>[10]</ce:label>
+                     <sb:reference id="sref10">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Wolff</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Roeder</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>U.J.E.A.</ce:given-name>
+                                 <ce:surname>Krewer</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:book-series>
+                                 <sb:series>
+                                    <sb:title>
+                                       <sb:maintitle>Model Based Assessment of Performance of Lithium-Ion Batteries Using Single Ion Conducting Electrolytes</sb:maintitle>
+                                    </sb:title>
+                                    <sb:volume-nr>vol. 284</sb:volume-nr>
+                                 </sb:series>
+                              </sb:book-series>
+                              <sb:date>2018</sb:date>
+                           </sb:book>
+                           <sb:pages>
+                              <sb:first-page>639</sb:first-page>
+                              <sb:last-page>646</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.electacta.2018.07.125</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0065">N. Wolff, F. Roeder and U.J.E.A. Krewer, “Model based assessment of performance of lithium-ion batteries using single ion conducting electrolytes”, 284 (2018), pp. 639-646, https://doi.org/10.1016/j.electacta.2018.07.125</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib11">
+                     <ce:label>[11]</ce:label>
+                     <sb:reference id="sref11">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.A.</ce:given-name>
+                                 <ce:surname>Bruggeman</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Berechnung verschiedener physikalischer konstanten von heterogenen substanzen</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Ann. Phys. Lpz.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>24</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1935</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>636</sb:first-page>
+                              <sb:last-page>664</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1002/andp.19354160705</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0070">D.A. Bruggeman “Berechnung verschiedener physikalischer konstanten von heterogenen substanzen“, Ann. Phys. Lpz., 24 (1935), pp. 636-664, https://doi.org/10.1002/andp.19354160705</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib12">
+                     <ce:label>[12]</ce:label>
+                     <sb:reference id="sref12">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Yu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Yan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Xie</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Huang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Unraveling the conversion evolution on solid‐state Na–SeS 2 battery via in situ TEM</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Adv. Sci.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>9</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2002</sb:date>
+                           </sb:issue>
+                           <sb:article-number>2200744</sb:article-number>
+                           <ce:doi>10.1002/advs.202200744</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0075">Z. Zhang, Z. Wang, L. Zhang, D. Liu, C. Yu, X. Yan, J. Xie and J. Huang. “Unraveling the Conversion Evolution on Solid-State Na-SeS 2 Battery via In Situ TEM“, Advanced Science, 9 (2002), 2200744, https://doi.org/10.1002/advs.202200744</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib13">
+                     <ce:label>[13]</ce:label>
+                     <sb:reference id="sref13">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Knorr</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Hein</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Prifling</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Neumann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Danner</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Schmidt</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Latz</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:book-series>
+                                 <sb:series>
+                                    <sb:title>
+                                       <sb:maintitle>Simulation-Based and Data-Driven Techniques for Quantifying the Influence of the Carbon Binder Domain on Electrochemical Properties of Li-Ion Batteries</sb:maintitle>
+                                    </sb:title>
+                                    <sb:volume-nr>vol. 15</sb:volume-nr>
+                                 </sb:series>
+                              </sb:book-series>
+                              <sb:date>2022</sb:date>
+                              <sb:publisher>
+                                 <sb:name>Multidisciplinary Digital Publishing Institute</sb:name>
+                              </sb:publisher>
+                           </sb:book>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                              <sb:last-page>19</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.3390/en15217821</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0080">T. Knorr, S. Hein, B. Prifling, M. Neumann, T. Danner, V. Schmidt and A. Latz, “Simulation-Based and Data-Driven Techniques for Quantifying the Influence of the Carbon Binder Domain on Electrochemical Properties of Li-Ion Batteries”, Multidisciplinary Digital Publishing Institute, 15(2022), p.p. 1-19, https://doi.org/10.3390/en15217821</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib14">
+                     <ce:label>[14]</ce:label>
+                     <sb:reference id="sref14">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Hlushkou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.E.</ce:given-name>
+                                 <ce:surname>Reising</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Kaiser</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Spannenberger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Schlabach</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Kato</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Roling</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>U.</ce:given-name>
+                                 <ce:surname>Tallarek</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The influence of void space on ion transport in a composite cathode for all-solid-state batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>396</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>363</sb:first-page>
+                              <sb:last-page>370</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.jpowsour.2018.06.041</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0085">D. Hlushkou, A. E. Reising, N. Kaiser, S. Spannenberger, S. Schlabach, Y. Kato, B. Roling and U. Tallarek, “The influence of void space on ion transport in a composite cathode for all-solid-state batteries,” J. Power Sources, 396 (2018), p.p. 363-370, https://doi.org/10.1016/j.jpowsour.2018.06.041</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib15">
+                     <ce:label>[15]</ce:label>
+                     <sb:reference id="sref15">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.G.</ce:given-name>
+                                 <ce:surname>Kashkooli</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Farhad</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.U.</ce:given-name>
+                                 <ce:surname>Lee</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Feng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Litster</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.K.</ce:given-name>
+                                 <ce:surname>Babu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Zhu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Chena</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Multiscale modeling of lithium-ion battery electrodes based on nano-scale X-ray computed tomography</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>307</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>496</sb:first-page>
+                              <sb:last-page>509</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.jpowsour.2015.12.134</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0090">A. G. Kashkooli, S. Farhad, D. U. Lee, K. Feng, S. Litster, S. K. Babu, L. Zhu and Z. Chena, “Multiscale modeling of lithium-ion battery electrodes based on nano-scale X-ray computed tomography”, J. Power Sources, 307 (2016), p.p. 496-509, https://doi.org/10.1016/j.jpowsour.2015.12.134</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib16">
+                     <ce:label>[16]</ce:label>
+                     <sb:reference id="sref16">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.W.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.M.</ce:given-name>
+                                 <ce:surname>Sastry</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Mesoscale modeling of a Li-ion polymer cell</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Electrochem. Soc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>154</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>11</sb:issue-nr>
+                              <sb:date>2007</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>A1035</sb:first-page>
+                              <sb:last-page>A1047</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1149/1.2778285</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0095">C.W. Wang and A.M. Sastry, “Mesoscale modeling of a Li-ion polymer cell”, J. Electrochem. Soc., 154 (11) (2007), pp. A1035-A1047, https://doi.org/10.1149/1.2778285</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib17">
+                     <ce:label>[17]</ce:label>
+                     <sb:reference id="sref17">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Awarker</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Lauer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Pischinger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Wittler</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Percolation–tunneling modeling for the study of the electric conductivity in LiFePO4 based Li-ion battery cathodes</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>196</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>405</sb:first-page>
+                              <sb:last-page>411</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.jpowsour.2010.07.048</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0100">A. Awarker, S. Lauer, S. Pischinger and M. Wittler, “Percolation-tunneling modeling for the study of the electric conductivity in LiFePO4 based Li-ion battery cathodes”, J. Power Sources, 196 (2011), pp. 405-411, https://doi.org/10.1016/j.jpowsour.2010.07.048</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib18">
+                     <ce:label>[18]</ce:label>
+                     <sb:reference id="sref18">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.M.</ce:given-name>
+                                 <ce:surname>Goldin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.M.</ce:given-name>
+                                 <ce:surname>Colclasure</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.H.</ce:given-name>
+                                 <ce:surname>Wiedemann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.J.</ce:given-name>
+                                 <ce:surname>Kee</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Three-dimensional particle-resolved models of Li-ion batteries to assist the evaluation of empirical parameters in one-dimensional models</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochim. Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>64</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>118</sb:first-page>
+                              <sb:last-page>129</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.electacta.2011.12.119</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0105">G. M. Goldin, A. M. Colclasure, A. H. Wiedemann and R. J. Kee,” Three-dimensional particle-resolved models of Li-ion batteries to assist the evaluation of empirical parameters in one-dimensional models”, Electrochimica Acta, 64 (2012), pp. 118-129. https://doi.org/10.1016/j.electacta.2011.12.119</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib19">
+                     <ce:label>[19]</ce:label>
+                     <sb:reference id="sref19">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Kodama</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Ohashi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Adachi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Miyuki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Takeuchi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Yasutake</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Uesugi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Kaburagi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Hirai</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Three-dimensional structural measurement and material identification of an all-solid-state lithium-ion battery by X-Ray nanotomography and deep learning</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources Adv.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>8</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:article-number>100048</sb:article-number>
+                           <ce:doi>10.1016/j.powera.2021.100048</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0110">M. Kodama, A. Ohashi, H. Adachi, T. Miyuki, A. Takeuchi, M. Yasutake, K. Uesugi, T. Kaburagi and S. Hirai, “Three-dimensional structural measurement and material identification of an all-solid-state lithium-ion battery by X-Ray nanotomography and deep learning”, J. Power Sources Adv., 8 (2021), p. 100048, https://doi.org/10.1016/j.powera.2021.100048</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib20">
+                     <ce:label>[20]</ce:label>
+                     <sb:reference id="sref20">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Ohashi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Kodama</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Xueying</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Hori</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Suzuki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Kanno</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Hirai</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:book-series>
+                                 <sb:series>
+                                    <sb:title>
+                                       <sb:maintitle>Stress Distribution in the Composite Electrodes of Sulfide All-Solid-State Lithium-Ion Batteries</sb:maintitle>
+                                    </sb:title>
+                                    <sb:volume-nr>vol. 470</sb:volume-nr>
+                                 </sb:series>
+                              </sb:book-series>
+                              <sb:date>2020</sb:date>
+                           </sb:book>
+                           <sb:article-number>228437</sb:article-number>
+                           <ce:doi>10.1016/j.jpowsour.2020.228437</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0115">A. Ohashi, M. Kodama, S. Xueying, S. Hori, K. Suzuki, R. Kanno, S. Hirai, “Stress distribution in the composite electrodes of sulfide all-solid-state lithium-ion batteries”, 470 (2020), p. 228437, https://doi.org/10.1016/j.jpowsour.2020.228437</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib21">
+                     <ce:label>[21]</ce:label>
+                     <sb:reference id="sref21">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Ohashi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Kodama</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Horikawa</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Hirai</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Effect of young's modulus of active materials on ion transport through solid electrolyte in all-solid-state lithium-ion battery</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>483</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:article-number>229212</sb:article-number>
+                           <ce:doi>10.1016/j.jpowsour.2020.229212</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0120">A. Ohashi, M. Kodama, N. Horikawa and S. Hirai, “Effect of young's modulus of active materials on ion transport through solid electrolyte in all-solid-state lithium-ion battery”, J. Power Sources, 483 (2021), p. 229212, https://doi.org/10.1016/j.jpowsour.2020.229212</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib22">
+                     <ce:label>[22]</ce:label>
+                     <sb:reference id="sref22">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Kodama</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Komiyama</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Ohashi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Horikawa</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Kawamura</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Hirai</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>High-pressure in situ X-ray computed tomography and numerical simulation of sulfide solid electrolyte</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>462</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:article-number>228160</sb:article-number>
+                           <ce:doi>10.1016/j.jpowsour.2020.228160</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0125">M. Kodama, S. Komiyama, A. Ohashi, N. Horikawa, K. Kawamura, S. Hirai, “High-pressure in situ X-ray computed tomography and numerical simulation of sulfide solid electrolyte”, J. Power Sources, 462 (2020), p. 228160, https://doi.org/10.1016/j.jpowsour.2020.228160</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib23">
+                     <ce:label>[23]</ce:label>
+                     <sb:reference id="sref23">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.W.</ce:given-name>
+                                 <ce:surname>Dees</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.G.</ce:given-name>
+                                 <ce:surname>Gallagher</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.P.</ce:given-name>
+                                 <ce:surname>Abraham</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.N.</ce:given-name>
+                                 <ce:surname>Jansen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Electrochemical modeling the impedance of a lithium-ion positive electrode single particle</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Electrochem. Soc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>160</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>A478</sb:first-page>
+                              <sb:last-page>A486</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1149/2.055303jes</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0130">D. W. Dees, K. G. Gallagher, D. P. Abraham and A. N. Jansen, “Electrochemical Modeling the Impedance of a Lithium-Ion Positive Electrode Single Particle”, J. Electrochemical Society, 160 (2013), pp. A478- A486, https://doi.org/10.1149/2.055303jes</ce:source-text>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

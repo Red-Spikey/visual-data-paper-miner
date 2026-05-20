@@ -1,0 +1,2143 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1452398123013779</prism:url><dc:identifier>doi:10.20964/2019.08.44</dc:identifier><eid>1-s2.0-S1452398123013779</eid><prism:doi>10.20964/2019.08.44</prism:doi><pii>S1452-3981(23)01377-9</pii><dc:title>The Remaining Useful Life Estimation of Lithium-ion Batteries Based on the HKA -ML-ELM Algorithm </dc:title><prism:publicationName>International Journal of Electrochemical Science</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>14523981</prism:issn><prism:volume>14</prism:volume><prism:issueIdentifier>8</prism:issueIdentifier><prism:startingPage>7737</prism:startingPage><prism:endingPage>7757</prism:endingPage><prism:pageRange>7737-7757</prism:pageRange><prism:number>8</prism:number><dc:format>text/xml</dc:format><prism:coverDate>2019-08-31</prism:coverDate><prism:coverDisplayDate>August 2019</prism:coverDisplayDate><prism:copyright>Copyright © 2019 The Authors. Published by ESG. Published by Elsevier B.V.</prism:copyright><prism:publisher>The Authors. Published by ESG. Published by Elsevier B.V.</prism:publisher><dc:creator>Ma, Yanying</dc:creator><dc:creator>Shen, Dongxu</dc:creator><dc:creator>Wu, Lifeng</dc:creator><dc:creator>Guan, Yong</dc:creator><dc:creator>Zhu, Hong</dc:creator><dc:description>
+                  Lithium-ion batteries have become the core energy supply component for many electronic devices. An accurate prediction of the remaining useful life (RUL) of lithium-ion batteries is of great significance for battery management and ensuring the reliability of electronic devices. The extreme learning machine (ELM) algorithm has been applied to predict the RUL of lithium-ion batteries; however, there are some disadvantages in this method: (i). the single hidden layer structure of the ELM necessarily restricts its ability to capture effective features in high-dimensional data. (ii). the input weights and biases of the ELM are generated randomly, which affects its prediction accuracy. To overcome these problems, this paper proposes an HKA-ML-ELM method for predicting the RUL of lithium-ion batteries. First, a new multi-layer ELM (ML-ELM) network is constructed. By adding an input layer into the last individual ELM of the ML-ELM and implementing the random selection of these input nodes to partially connect with the hidden layer, the network has higher robustness and can effectively prevent over-fitting. Second, the heuristic Kalman algorithm (HKA) is used to optimize the input weights and biases parameters of the ML-ELM, which improves the prediction accuracy. Finally, RUL prediction experiments are carried out for battery packs with different rated capacities and different discharge currents. The experimental results verify the effectiveness of the proposed method. The comparisons with other algorithms show that the proposed method has better prediction accuracy.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>Author</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>Lithium-ion battery</dcterms:subject><dcterms:subject>RUL prediction</dcterms:subject><dcterms:subject>ML-ELM</dcterms:subject><dcterms:subject>HKA</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1452398123013779" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1452398123013779" rel="scidir"/></coredata><scopus-id>85072739400</scopus-id><scopus-eid>2-s2.0-85072739400</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85072739400" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>783334</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291802</xocs:ssid>
+         <xocs:ssid type="subj">291865</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>International Journal of Electrochemical Science</xocs:srctitle>
+      <xocs:normalized-srctitle>INTERNATIONALJOURNALELECTROCHEMICALSCIENCE</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20230626">2023-06-26</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20230626">2023-06-26</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20230626">2023-06-26</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20230626">2023-06-26</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2023-06-26T10:42:09</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1452398123013779</xocs:eid>
+      <xocs:pii-formatted>S1452-3981(23)01377-9</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1452398123013779</xocs:pii-unformatted>
+      <xocs:doi>10.20964/2019.08.44</xocs:doi>
+      <xocs:item-stage>S350</xocs:item-stage>
+      <xocs:item-version-number>S350.1</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1452398119X94006</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20240314">2024-03-14T00:16:11.497991Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20190801</xocs:date-search-begin>
+      <xocs:date-search-end>20190831</xocs:date-search-end>
+      <xocs:year-nav>2019</xocs:year-nav>
+      <xocs:indexeddate epoch="1687779116">2023-06-26T11:31:56.908196Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issfirst issn issnnorm issuelist itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content oa subj tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authkeywords authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1452-3981</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>14523981</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>14</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>14</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>8</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>8</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 14, Issue 8</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>60</xocs:sort-order>
+      <xocs:first-fp>7737</xocs:first-fp>
+      <xocs:last-lp>7757</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>7737</xocs:first-page>
+         <xocs:last-page>7757</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201908</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>August 2019</xocs:cover-date-text>
+      <xocs:cover-date-start>2019-08-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2019-08-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2019</xocs:cover-date-year>
+      <xocs:document-type>simple-article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 2019 The Authors. Published by ESG. Published by Elsevier B.V.</xocs:copyright-line>
+      <xocs:normalized-article-title>REMAININGUSEFULLIFEESTIMATIONLITHIUMIONBATTERIESBASEDHKAMLELMALGORITHM</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>MA</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>Y</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="rf0001">
+            <xocs:ref-normalized-surname>TAEHOON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2942</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0002">
+            <xocs:ref-normalized-surname>PEI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0003">
+            <xocs:ref-normalized-surname>WEI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>5634</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0004">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1282</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0005">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>572</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0006">
+            <xocs:ref-normalized-surname>ZHENG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>759</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0007">
+            <xocs:ref-normalized-surname>WU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>166</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0008">
+            <xocs:ref-normalized-surname>GUHA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>33</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0009">
+            <xocs:ref-normalized-surname>DUONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>232</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0010">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>288</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0011">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0012">
+            <xocs:ref-normalized-surname>SONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>31</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0013">
+            <xocs:ref-normalized-surname>SU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>59</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0014">
+            <xocs:ref-normalized-surname>HU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>118</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0015">
+            <xocs:ref-normalized-surname>ZHAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>7</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0016">
+            <xocs:ref-normalized-surname>ZHAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>99</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Q</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0017">
+            <xocs:ref-normalized-surname>WU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>134</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0018">
+            <xocs:ref-normalized-surname>ROOZBEH</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0019">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0020">
+            <xocs:ref-normalized-surname>HUANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>985</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0021">
+            <xocs:ref-normalized-surname>HUANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>489</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0022">
+            <xocs:ref-normalized-surname>DUONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>232</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0023">
+            <xocs:ref-normalized-surname>YANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>9257</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0024">
+            <xocs:ref-normalized-surname>ZOU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3403</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0025">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>9</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0026">
+            <xocs:ref-normalized-surname>KASUN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>31</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0027">
+            <xocs:ref-normalized-surname>CHEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0028">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>851</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0029">
+            <xocs:ref-normalized-surname>VONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>265</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0030">
+            <xocs:ref-normalized-surname>DENG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0031">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0032">
+            <xocs:ref-normalized-surname>WONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0033">
+            <xocs:ref-normalized-surname>PAKRASHI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>445</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0034">
+            <xocs:ref-normalized-surname>TOSCANO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>107</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0035">
+            <xocs:ref-normalized-surname>LI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0036">
+            <xocs:ref-normalized-surname>TIAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0037">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>49</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0038">
+            <xocs:ref-normalized-surname>PATIL</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>285</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0039">
+            <xocs:ref-normalized-surname>ZHOU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>265</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0040">
+            <xocs:ref-normalized-surname>GAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1288</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0041">
+            <xocs:ref-normalized-surname>JIANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>179</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0042">
+            <xocs:ref-normalized-surname>LI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>110</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>MAX2019X7737</xocs:refkey3>
+         <xocs:refkey4lp>MAX2019X7737X7757</xocs:refkey4lp>
+         <xocs:refkey4ai>MAX2019X7737XY</xocs:refkey4ai>
+         <xocs:refkey5>MAX2019X7737X7757XY</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2023-06-23T03:19:41Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>Author</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/1452-3981_UNBOUNDED_Author">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:article-sharing-framework/>
+      <xocs:funding-list has-funding-info="1">
+         <xocs:funding-addon-generated-timestamp>2024-03-13T23:58:12.467Z</xocs:funding-addon-generated-timestamp>
+         <xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined</xocs:funding-addon-type>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>Fundamental Scientific Research Funds</xocs:funding-agency-matched-string>
+            <xocs:funding-id>025185305000-187</xocs:funding-id>
+         </xocs:funding>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>Key Project B Class of Beijing Natural Science Fund</xocs:funding-agency-matched-string>
+            <xocs:funding-id>KZ201710028028</xocs:funding-id>
+         </xocs:funding>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>Youth Innovative Research Team of Capital Normal University</xocs:funding-agency-matched-string>
+         </xocs:funding>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>National Natural Science Foundation of China</xocs:funding-agency-matched-string>
+            <xocs:funding-id>61873175</xocs:funding-id>
+            <xocs:funding-agency-acronym>NSFC</xocs:funding-agency-acronym>
+            <xocs:funding-agency>National Natural Science Foundation of China</xocs:funding-agency>
+            <xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100001809</xocs:funding-agency-id>
+            <xocs:funding-agency-country>http://sws.geonames.org/1814991/</xocs:funding-agency-country>
+         </xocs:funding>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>Natural Science Foundation of Beijing</xocs:funding-agency-matched-string>
+            <xocs:funding-id>4173074</xocs:funding-id>
+            <xocs:funding-agency>Natural Science Foundation of Beijing Municipality</xocs:funding-agency>
+            <xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100004826</xocs:funding-agency-id>
+            <xocs:funding-agency-country>http://sws.geonames.org/1814991/</xocs:funding-agency-country>
+         </xocs:funding>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>Capacity Building for Sci-Tech Innovation</xocs:funding-agency-matched-string>
+         </xocs:funding>
+         <xocs:funding-text>ACKNOWLEDGEMENTS This work received financial support from the National Natural Science Foundation of China (No.61873175), the Natural Science Foundation of Beijing (4173074), and the Key Project B Class of Beijing Natural Science Fund (KZ201710028028). The work was supported by Capacity Building for Sci-Tech Innovation - Fundamental Scientific Research Funds (025185305000-187) and the Youth Innovative Research Team of Capital Normal University.</xocs:funding-text>
+      </xocs:funding-list>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1452-3981(23)01377-9</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1452398123013779</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1452398123013779</xocs:eid>
+         <xocs:doi>10.20964/2019.08.44</xocs:doi>
+         <xocs:cid>783334</xocs:cid>
+         <xocs:timestamp>2023-06-26T10:31:56.908196Z</xocs:timestamp>
+         <xocs:cover-date-start>2019-08-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2019-08-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1452398123013779-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1452398123013779/MAIN/application/pdf/dd08b0ff5a0d7fd956ebd7132adb4498/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>2283657</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>21</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1452398123013779-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1452398123013779/PREVIEW/image/png/b54f6a6c97ed0fda574f1a5702610d2c/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>64276</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">The Remaining Useful Life Estimation of Lithium-ion Batteries Based on the HKA -ML-ELM Algorithm Yanying Ma, 1 2 Dongxu Shen, 1 2 Lifeng Wu, 1 2 Yong Guan, 1 2 Hong Zhu, 1 2 zhuhcoie@sina.com 1 College of Information Engineering, Capital Normal University, Beijing 100048, China   ;College of Information Engineering Capital Normal University Beijing 100048 China College of Information Engineering, Capital Normal University, Beijing 100048, China; 2 Beijing Key Laboratory of Electronic System Reliability Technology, Capital Normal University, Beijing 100048, China Beijing Key Laboratory of Electronic System Reliability Technology Capital Normal University Beijing 100048 China Beijing Key Laboratory of Electronic System Reliability Technology, Capital Normal University, Beijing 100048, China   Lithium-ion batteries have become the core energy supply component for many electronic devices. An accurate prediction of the remaining useful life (RUL) of lithium-ion batteries is of great significance for battery management and ensuring the reliability of electronic devices. The extreme learning machine (ELM) algorithm has been applied to predict the RUL of lithium-ion batteries; however, there are some disadvantages in this method: (i). the single hidden layer structure of the ELM necessarily restricts its ability to capture effective features in high-dimensional data. (ii). the input weights and biases of the ELM are generated randomly, which affects its prediction accuracy. To overcome these problems, this paper proposes an HKA-ML-ELM method for predicting the RUL of lithium-ion batteries. First, a new multi-layer ELM (ML-ELM) network is constructed. By adding an input layer into the last individual ELM of the ML-ELM and implementing the random selection of these input nodes to partially connect with the hidden layer, the network has higher robustness and can effectively prevent over-fitting. Second, the heuristic Kalman algorithm (HKA) is used to optimize the input weights and biases parameters of the ML-ELM, which improves the prediction accuracy. Finally, RUL prediction experiments are carried out for battery packs with different rated capacities and different discharge currents. The experimental results verify the effectiveness of the proposed method. The comparisons with other algorithms show that the proposed method has better prediction accuracy. Keywords Lithium-ion battery RUL prediction ML-ELM HKA   References 1. K. Taehoon, W.T. Song, D.Y. Son, K.O. Luis, Y.B. Qi, Journal of Materials Chemistry A 7: (2019) 2942-K. Taehoon, W.T. Song, D.Y. Son, K.O. Luis And Y.B. Qi, Journal of Materials Chemistry A, 7 (2019) 2942. 2. Z.D. Pei, X.X. Zhao, H.M. Yuan, Z. Peng, L.F. Wu, Journal of Control Science and Engineering 2018: (2019) 1-Z.D. Pei, X.X. Zhao, H.M. Yuan, Z. Peng And L.F. Wu, Journal of Control Science and Engineering, 2018 (2019) 1. 3. J.W. Wei, G.Z. Dong, Z.H. Chen, IEEE Transactions on Industrial Electronics 65: (2018) 5634-J.W. Wei, G.Z. Dong And Z.H. Chen, IEEE Transactions on Industrial Electronics, 65 (2018) 5634. 4. D. Wang, F. Yang, K.L. Tsui, Q. Zhou, S.J. Bae, IEEE Transactions on Instrumentation and Measurement 65: (2016) 1282-D. Wang, F. Yang, K.L. Tsui, Q. Zhou And S.J. Bae, IEEE Transactions on Instrumentation and Measurement, 65 (2016) 1282. 5. S.J. Wang, D.T. Liu, J.B. Zhou, B. Zhang, Y. Peng, Energies 9: (2016) 572-S.J. Wang, D.T. Liu, J.B. Zhou, B. Zhang And Y. Peng, Energies, 9 (2016) 572. 6. L.F. Zheng, J.G. Zhu, D.C. Lu, G.X. Wang, T.T. He, Energy 150: (2018) 759-L.F. Zheng, J.G. Zhu, D.C. Lu, G.X. Wang and T.T. He, Energy, 150 (2018) 759. 7. L.F. Wu, X.H. Fu, Y. Guan, Applied Science 6: (2016) 166-L.F. Wu, X.H. Fu And Y. Guan, Applied Science, 6 (2016) 166. 8. A. Guha, A. Patra, K.V. Vaisakh, IEEE ICC (2017) 33-A. Guha, A. Patra And K.V. Vaisakh, IEEE ICC, (2017) 33. 9. P.L.T. Duong, N. Raghavan, Microelectronics Reliability 81: (2018) 232-P.L.T. Duong And N. Raghavan, Microelectronics Reliability, 81 (2018) 232. 10. H. Zhang, Q. Miao, X. Zhang, Z.W. Liu, Microelectronics Reliability 81: (2018) 288-H. Zhang, Q. Miao, X. Zhang And Z.W. Liu, Microelectronics Reliability, 81 (2018) 288. 11. L.J. Zhang, Z.Q. Mu, C.Y. Sun, IEEE Access 99: (2018) 1-L.J. Zhang, Z.Q. Mu And C.Y. Sun, IEEE Access, 99 (2018) 1. 12. Y.C. Song, D.T. LIU, Y.D. HOU, J.X. YU, Y. Peng, Chinese Journal of Aeronautics 31: (2018) 31-Y.C. Song, D.T. LIU, Y.D. HOU, J.X. YU And Y. Peng, Chinese Journal of Aeronautics, 31 (2018) 31. 13. X.H. Su, S. Wang, P. Michael, L.L. Zhao, Z. Ye, Microelectronics Reliability 70: (2017) 59-X.H. Su, S. Wang, P. Michael, L.L. Zhao And Z. Ye, Microelectronics Reliability, 70 (2017) 59. 14. C. Hu, H. Ye, J. Gaurav, S. Craig, Journal of Power Sources 375: (2018) 118-C. Hu, H. Ye, J. Gaurav And S. Craig, Journal of Power Sources, 375 (2018) 118. 15. G.Q. Zhao, G.H. Zhang, Y.F. Liu, B. Zhang, IEEE International Conference on Prognostics and Health Management (2017) 7-G.Q. Zhao, G.H. Zhang, Y.F. Liu And B. Zhang, IEEE International Conference on Prognostics and Health Management, (2017) 7. 16. Q. Zhao, X.L. Qin, H.B. Zhao, W.Q. Feng, Microelectronics Reliability 85: (2018) 99-Q. Zhao, X.L. Qin, H.B. Zhao And W.Q. Feng, Microelectronics Reliability, 85 (2018) 99. 17. J. Wu, C.B. Zhang, Z.H. Chen, Applied Energy 173: (2016) 134-J. Wu, C.B. Zhang And Z.H. Chen, Applied Energy, 173 (2016) 134. 18. R.F. Roozbeh, F.Z. Maryam, C. Shiladitya, S. Mehrdad, IEEE International Conference on Prognostics and Health Management (2016) 1-R.F. Roozbeh, F.Z. Maryam, C. Shiladitya And S. Mehrdad, IEEE International Conference on Prognostics and Health Management, (2016) 1. 19. Y.Z. Zhang, R. Xiong, H.W. He, M. Pecht, IEEE Transactions on Vehicular Technology 99: (2018) 1-Y.Z. Zhang, R. Xiong, H.W. He and M. Pecht, IEEE Transactions on Vehicular Technology, 99 (2018) 1. 20. G.B. Huang, Q.Y. Zhu, C.K. Siew, Neural Networks 2: (2004) 985-G.B. Huang, Q.Y. Zhu and C.K. Siew, Neural Networks, 2 (2004) 985. 21. G.B. Huang, H. Zhou, C.K. Siew, Neurocomputing 70: (2006) 489-G.B. Huang, H. Zhou and C.K. Siew, Neurocomputing, 70 (2006) 489. 22. P.L.T. Duong, N. Raghavan, Microelectronics Reliability 81: (2018) 232-P.L.T. Duong And N. Raghavan, Microelectronics Reliability, 81 (2018) 232. 23. J. Yang, Z. Peng, Z.D. Pei, Y. Guan, H.M. Yuan, L.F. Wu, International Journal of Electrochemical Science 13: (2018) 9257-J. Yang, Z. Peng, Z.D. Pei, Y. Guan, H.M. Yuan and L.F. Wu, International Journal of Electrochemical Science, 13 (2018) 9257. 24. W.D. Zou, Y.Q. Xia, H.F. Li, IEEE Transactions on Cybernetics 12: (2018) 3403-W.D. Zou, Y.Q. Xia and H.F. Li, IEEE Transactions on Cybernetics, 12 (2018) 3403. 25. X.Q. Zhang, H.B. Chen, J.J. Xu, X.F. Song, J.W. Wang, X.Q. Chen, Journal of Materials Processing Technology 260: (2018) 9-X.Q. Zhang, H.B. Chen, J.J. Xu, X.F. Song, J.W. Wang and X.Q. Chen, Journal of Materials Processing Technology, 260 (2018) 9. 26. L.L.C. Kasun, H.M. Zhou, G.B. Huang, C.M. Vong, IEEE Intelligent Systems 28: (2013) 31-L.L.C. Kasun, H.M. Zhou, G.B. Huang and C.M. Vong, IEEE Intelligent Systems, 28 (2013) 31. 27. M.J. Chen, Y. Li, X. Luo, W.P. Wang, IEEE Internet of Things Journal (2018) 1-M.J. Chen, Y. Li, X. Luo And W.P. Wang, IEEE Internet of Things Journal, (2018) 1. 28. W.R. Wang, C.M. Vong, Y.L. Yang, P.K. Wong, Multidimensional Systems and Signal Processing 28: (2017) 851-W.R. Wang, C.M. Vong, Y.L. Yang and P.K. Wong, Multidimensional Systems and Signal Processing, 28 (2017) 851. 29. C.M. Vong, C.Q. Chen, P.K. Wong, Neurocomputing 310: (2018) 265-C.M. Vong, C.Q. Chen and P.K. Wong, Neurocomputing, 310 (2018) 265. 30. C.W. Deng, S.G. Wang, Z. Li, G.B. Huang, IEEE Transactions on Systems, Man, and Cybernetics: Systems 99: (2017) 1-C.W. Deng, S.G. Wang, Z. Li And G.B. Huang, IEEE Transactions on Systems, Man, and Cybernetics: Systems, 99 (2017) 1. 31. L. Zhang, X.H. Wang, G.B. Huang, T. Liu, IEEE Transactions on Cybernetics 99: (2018) 1-L. Zhang, X.H. Wang, G.B. Huang and T. Liu, IEEE Transactions on Cybernetics, 99 (2018) 1. 32. C.M. Wong, C.M. Vong, P.K. Wong, J.W. Cao, IEEE Transactions on Neural Networks and Learning Systems 29: (2017) 1-C.M. Wong, C.M. Vong, P.K. Wong and J.W. Cao, IEEE Transactions on Neural Networks and Learning Systems, 29 (2017) 1. 33. A. Pakrashi, International Conference on Swarm 8947: (2014) 445-A. Pakrashi, International Conference on Swarm, 8947 (2014) 445. 34. R. Toscano, Structured Controllers for Uncertain Systems (2013) 107-R. Toscano. Structured Controllers for Uncertain Systems, (2013) 107. 35. Y.Y. Li, S.M. Zhong, Q.S. Zhong, K.B. Shi, IEEE Access 99: (2019) 1-Y.Y. Li, S.M. Zhong, Q.S. Zhong and K.B. Shi, IEEE Access, 99 (2019) 1. 36. Y. Tian, C. Lu, Z. Wang, Mathematical Problems in Engineering 3: (2014) 1-Y. Tian, C. Lu and Z. Wang, Mathematical Problems in Engineering, 3 (2014) 1. 37. F.K. Wang, M. Tadele, Journal of Power Sources 401: (2018) 49-F. K. Wang and M. Tadele, Journal of Power Sources, 401 (2018) 49. 38. M.A. Patil, P. Tagade, K.S. Hariharan, Applied Energy 159: (2015) 285-M.A. Patil, P. Tagade and K.S. Hariharan, Applied Energy, 159 (2015) 285. 39. Y.P. Zhou, M.H. Huang, Microelectronics Reliability 65: (2016) 265-Y.P. Zhou and M.H. Huang, Microelectronics Reliability, 65 (2016) 265. 40. D. Gao, M. Huang, Journal of Power Electronics 5: (2017) 1288-D. Gao and M. Huang, Journal of Power Electronics, 5 (2017) 1288. 41. Y.Y. Jiang, Z. Liu, H. Luo, H. Wang, Journal of Electronic Measurement and Instrumentation 30: (2016) 179-Y.Y. Jiang, Z. Liu, H. Luo and H. Wang, Journal of Electronic Measurement and Instrumentation, 30 (2016) 179. 42. L.L. Li, Z.F. Liu, M.L. Tseng, S.F. Chiu, Applied Soft Computing Journal 74: (2019) 110-L.L. Li, Z.F. Liu, M.L. Tseng and S.F. Chiu, Applied Soft Computing Journal, 74 (2019) 110   nology 99: (2018) 1-Y.Z. Zhang, R. Xiong, H.W. He and M. Pecht, IEEE Transactions on Vehicular Technology, 99 (2018) 1. 20. G.B. Huang, Q.Y. Zhu, C.K. Siew, Neural Networks 2: (2004) 985-G.B. Huang, Q.Y. Zhu and C.K. Siew, Neural Networks, 2 (2004) 985. 21. G.B. Huang, H. Zhou, C.K. Siew, Neurocomputing 70: (2006) 489-G.B. Huang, H. Zhou and C.K. Siew, Neurocomputing, 70 (2006) 489. 22. P.L.T. Duong, N. Raghavan, Microelectronics Reliability 81: (2018) 232-P.L.T. Duong And N. Raghavan, Microelectronics Reliability, 81 (2018) 232. 23. J. Yang, Z. Peng, Z.D. Pei, Y. Guan, H.M. Yuan, L.F. Wu, International Journal of Electrochemical Science 13: (2018) 9257-J. Yang, Z. Peng, Z.D. Pei, Y. Guan, H.M. Yuan and L.F. Wu, International Journal of Electrochemical Science, 13 (2018) 9257. 24. W.D. Zou, Y.Q. Xia, H.F. Li, IEEE Transactions on Cybernetics 12: (2018) 3403-W.D. Zou, Y.Q. Xia and H.F. Li, IEEE Transactions on Cybernetics, 12 (2018) 3403. 25. X.Q. Zhang, H.B. Chen, J.J. Xu, X.F. Song, J.W. Wang, X.Q. Chen, Journal of Materials Processing Technology 260: (2018) 9-X.Q. Zhang, H.B. Chen, J.J. Xu, X.F. Song, J.W. Wang and X.Q. Chen, Journal of Materials Processing Technology, 260 (2018) 9. 26. L.L.C. Kasun, H.M. Zhou, G.B. Huang, C.M. Vong, IEEE Intelligent Systems 28: (2013) 31-L.L.C. Kasun, H.M. Zhou, G.B. Huang and C.M. Vong, IEEE Intelligent Systems, 28 (2013) 31. 27. M.J. Chen, Y. Li, X. Luo, W.P. Wang, IEEE Internet of Things Journal (2018) 1-M.J. Chen, Y. Li, X. Luo And W.P. Wang, IEEE Internet of Things Journal, (2018) 1. 28. W.R. Wang, C.M. Vong, Y.L. Yang, P.K. Wong, Multidimensional Systems and Signal Processing 28: (2017) 851-W.R. Wang, C.M. Vong, Y.L. Yang and P.K. Wong, Multidimensional Systems and Signal Processing, 28 (2017) 851. 29. C.M. Vong, C.Q. Chen, P.K. Wong, Neurocomputing 310: (2018) 265-C.M. Vong, C.Q. Chen and P.K. Wong, Neurocomputing, 310 (2018) 265. 30. C.W. Deng, S.G. Wang, Z. Li, G.B. Huang, IEEE Transactions on Systems, Man, and Cybernetics: Systems 99: (2017) 1-C.W. Deng, S.G. Wang, Z. Li And G.B. Huang, IEEE Transactions on Systems, Man, and Cybernetics: Systems, 99 (2017) 1. 31. L. Zhang, X.H. Wang, G.B. Huang, T. Liu, IEEE Transactions on Cybernetics 99: (2018) 1-L. Zhang, X.H. Wang, G.B. Huang and T. Liu, IEEE Transactions on Cybernetics, 99 (2018) 1. 32. C.M. Wong, C.M. Vong, P.K. Wong, J.W. Cao, IEEE Transactions on Neural Networks and Learning Systems 29: (201</xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <simple-article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.6" docsubtype="fla" xml:lang="en">
+         <item-info>
+            <jid>IJOES</jid>
+            <aid>50100766</aid>
+            <ce:pii>S1452-3981(23)01377-9</ce:pii>
+            <ce:doi>10.20964/2019.08.44</ce:doi>
+            <ce:copyright type="other" year="2019">The Authors. Published by ESG</ce:copyright>
+            <ce:copyright-line>© 2019 The Authors. Published by ESG</ce:copyright-line>
+         </item-info>
+         <simple-head>
+            <ce:title id="ti0005">The Remaining Useful Life Estimation of Lithium-ion Batteries Based on the HKA -ML-ELM Algorithm</ce:title>
+            <ce:author-group id="ag0005">
+               <ce:author id="au0005" author-id="S1452398123013779-8e226bf8ff7b1a7c9a0e271924d36437">
+                  <ce:given-name>Yanying</ce:given-name>
+                  <ce:surname>Ma</ce:surname>
+                  <ce:cross-ref refid="af0005" id="cf0005">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="af0010" id="cf0010">
+                     <ce:sup loc="post">2</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0010" author-id="S1452398123013779-3224635fefcbb8c822f3ef9c2006862a">
+                  <ce:given-name>Dongxu</ce:given-name>
+                  <ce:surname>Shen</ce:surname>
+                  <ce:cross-ref refid="af0005" id="cf0015">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="af0010" id="cf0020">
+                     <ce:sup loc="post">2</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0015" author-id="S1452398123013779-188bb9e04febf5bbbaa9b5f9a5e9e709">
+                  <ce:given-name>Lifeng</ce:given-name>
+                  <ce:surname>Wu</ce:surname>
+                  <ce:cross-ref refid="af0005" id="cf0025">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="af0010" id="cf0030">
+                     <ce:sup loc="post">2</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0020" author-id="S1452398123013779-c1e4644b8a6cff1fd5bf7c785568485a">
+                  <ce:given-name>Yong</ce:given-name>
+                  <ce:surname>Guan</ce:surname>
+                  <ce:cross-ref refid="af0005" id="cf0035">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="af0010" id="cf0040">
+                     <ce:sup loc="post">2</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0025" author-id="S1452398123013779-d5631831f47e8e9a4bcb816a8d5bc0aa">
+                  <ce:given-name>Hong</ce:given-name>
+                  <ce:surname>Zhu</ce:surname>
+                  <ce:cross-ref refid="af0005" id="cf0045">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="af0010" id="cf0050">
+                     <ce:sup loc="post">2</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:affiliation id="af0005" affiliation-id="S1452398123013779-7e5ae38215208bd4d0b5ed665d6f654c">
+                  <ce:label>1</ce:label>
+                  <ce:textfn id="tn0005">
+                     <ce:italic>College of Information Engineering, Capital Normal University, Beijing 100048, China</ce:italic>;</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>College of Information Engineering</sa:organization>
+                     <sa:organization>Capital Normal University</sa:organization>
+                     <sa:city>Beijing</sa:city>
+                     <sa:postal-code>100048</sa:postal-code>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="sea0005">College of Information Engineering, Capital Normal University, Beijing 100048, China;</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="af0010" affiliation-id="S1452398123013779-49f3e5b3133a770daf6a0bad6f43d92f">
+                  <ce:label>2</ce:label>
+                  <ce:textfn id="tn0010">
+                     <ce:italic>Beijing Key Laboratory of Electronic System Reliability Technology, Capital Normal University, Beijing 100048, China</ce:italic>
+                  </ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Beijing Key Laboratory of Electronic System Reliability Technology</sa:organization>
+                     <sa:organization>Capital Normal University</sa:organization>
+                     <sa:city>Beijing</sa:city>
+                     <sa:postal-code>100048</sa:postal-code>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="sea0010">Beijing Key Laboratory of Electronic System Reliability Technology, Capital Normal University, Beijing 100048, China</ce:source-text>
+               </ce:affiliation>
+            </ce:author-group>
+            <ce:date-received day="8" month="4" year="2019"/>
+            <ce:date-accepted day="4" month="6" year="2019"/>
+            <ce:abstract id="ab0005" xml:lang="en" view="extended" class="author"><ce:abstract-sec id="as0005" view="all">
+                  <ce:simple-para id="sp0005" view="all">Lithium-ion batteries have become the core energy supply component for many electronic devices. An accurate prediction of the remaining useful life (RUL) of lithium-ion batteries is of great significance for battery management and ensuring the reliability of electronic devices. The extreme learning machine (ELM) algorithm has been applied to predict the RUL of lithium-ion batteries; however, there are some disadvantages in this method: (i). the single hidden layer structure of the ELM necessarily restricts its ability to capture effective features in high-dimensional data. (ii). the input weights and biases of the ELM are generated randomly, which affects its prediction accuracy. To overcome these problems, this paper proposes an HKA-ML-ELM method for predicting the RUL of lithium-ion batteries. First, a new multi-layer ELM (ML-ELM) network is constructed. By adding an input layer into the last individual ELM of the ML-ELM and implementing the random selection of these input nodes to partially connect with the hidden layer, the network has higher robustness and can effectively prevent over-fitting. Second, the heuristic Kalman algorithm (HKA) is used to optimize the input weights and biases parameters of the ML-ELM, which improves the prediction accuracy. Finally, RUL prediction experiments are carried out for battery packs with different rated capacities and different discharge currents. The experimental results verify the effectiveness of the proposed method. The comparisons with other algorithms show that the proposed method has better prediction accuracy.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords view="extended" id="ks0005" class="keyword">
+               <ce:section-title id="st0005">Keywords</ce:section-title>
+               <ce:keyword id="kw0005">
+                  <ce:text id="tx0005">Lithium-ion battery</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0010">
+                  <ce:text id="tx0010">RUL prediction</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0015">
+                  <ce:text id="tx0015">ML-ELM</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0020">
+                  <ce:text id="tx0020">HKA</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </simple-head>
+         <simple-tail view="all">
+            <ce:bibliography id="bi0001" view="all">
+               <ce:section-title id="st0002">References</ce:section-title>
+               <ce:bibliography-sec id="bs0001" view="all">
+                  <ce:bib-reference id="bb0001">
+                     <ce:label>1.</ce:label>
+                     <sb:reference id="rf0001">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Taehoon</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.T.</ce:given-name>
+                                 <ce:surname>Song</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.Y.</ce:given-name>
+                                 <ce:surname>Son</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.O.</ce:given-name>
+                                 <ce:surname>Luis</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.B.</ce:given-name>
+                                 <ce:surname>Qi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Materials Chemistry A</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>7</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2942</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0001">K. Taehoon, W.T. Song, D.Y. Son, K.O. Luis And Y.B. Qi, Journal of Materials Chemistry A, 7 (2019) 2942.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0002">
+                     <ce:label>2.</ce:label>
+                     <sb:reference id="rf0002">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.D.</ce:given-name>
+                                 <ce:surname>Pei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.X.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.M.</ce:given-name>
+                                 <ce:surname>Yuan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Peng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.F.</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Control Science and Engineering</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>2018</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0002">Z.D. Pei, X.X. Zhao, H.M. Yuan, Z. Peng And L.F. Wu, Journal of Control Science and Engineering, 2018 (2019) 1.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0003">
+                     <ce:label>3.</ce:label>
+                     <sb:reference id="rf0003">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.W.</ce:given-name>
+                                 <ce:surname>Wei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.Z.</ce:given-name>
+                                 <ce:surname>Dong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.H.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Transactions on Industrial Electronics</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>65</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>5634</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0003">J.W. Wei, G.Z. Dong And Z.H. Chen, IEEE Transactions on Industrial Electronics, 65 (2018) 5634.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0004">
+                     <ce:label>4.</ce:label>
+                     <sb:reference id="rf0004">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.L.</ce:given-name>
+                                 <ce:surname>Tsui</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Q.</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.J.</ce:given-name>
+                                 <ce:surname>Bae</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Transactions on Instrumentation and Measurement</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>65</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1282</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0004">D. Wang, F. Yang, K.L. Tsui, Q. Zhou And S.J. Bae, IEEE Transactions on Instrumentation and Measurement, 65 (2016) 1282.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0005">
+                     <ce:label>5.</ce:label>
+                     <sb:reference id="rf0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.J.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.T.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.B.</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Peng</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energies</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>9</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>572</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0005">S.J. Wang, D.T. Liu, J.B. Zhou, B. Zhang And Y. Peng, Energies, 9 (2016) 572.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0006">
+                     <ce:label>6.</ce:label>
+                     <sb:reference id="rf0006">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.F.</ce:given-name>
+                                 <ce:surname>Zheng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.G.</ce:given-name>
+                                 <ce:surname>Zhu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.C.</ce:given-name>
+                                 <ce:surname>Lu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.X.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.T.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>150</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>759</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0006">L.F. Zheng, J.G. Zhu, D.C. Lu, G.X. Wang and T.T. He, Energy, 150 (2018) 759.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0007">
+                     <ce:label>7.</ce:label>
+                     <sb:reference id="rf0007">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.F.</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.H.</ce:given-name>
+                                 <ce:surname>Fu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Guan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Applied Science</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>6</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>166</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0007">L.F. Wu, X.H. Fu And Y. Guan, Applied Science, 6 (2016) 166.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0008">
+                     <ce:label>8.</ce:label>
+                     <sb:reference id="rf0008">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Guha</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Patra</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.V.</ce:given-name>
+                                 <ce:surname>Vaisakh</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE ICC</sb:maintitle>
+                                 </sb:title>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>33</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0008">A. Guha, A. Patra And K.V. Vaisakh, IEEE ICC, (2017) 33.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0009">
+                     <ce:label>9.</ce:label>
+                     <sb:reference id="rf0009">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.L.T.</ce:given-name>
+                                 <ce:surname>Duong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Raghavan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Microelectronics Reliability</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>81</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>232</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0009">P.L.T. Duong And N. Raghavan, Microelectronics Reliability, 81 (2018) 232.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0010">
+                     <ce:label>10.</ce:label>
+                     <sb:reference id="rf0010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Q.</ce:given-name>
+                                 <ce:surname>Miao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.W.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Microelectronics Reliability</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>81</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>288</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0010">H. Zhang, Q. Miao, X. Zhang And Z.W. Liu, Microelectronics Reliability, 81 (2018) 288.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0011">
+                     <ce:label>11.</ce:label>
+                     <sb:reference id="rf0011">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.J.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.Q.</ce:given-name>
+                                 <ce:surname>Mu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.Y.</ce:given-name>
+                                 <ce:surname>Sun</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Access</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>99</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0011">L.J. Zhang, Z.Q. Mu And C.Y. Sun, IEEE Access, 99 (2018) 1.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0012">
+                     <ce:label>12.</ce:label>
+                     <sb:reference id="rf0012">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.C.</ce:given-name>
+                                 <ce:surname>Song</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.T.</ce:given-name>
+                                 <ce:surname>LIU</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.D.</ce:given-name>
+                                 <ce:surname>HOU</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.X.</ce:given-name>
+                                 <ce:surname>YU</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Peng</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Chinese Journal of Aeronautics</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>31</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>31</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0012">Y.C. Song, D.T. LIU, Y.D. HOU, J.X. YU And Y. Peng, Chinese Journal of Aeronautics, 31 (2018) 31.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0013">
+                     <ce:label>13.</ce:label>
+                     <sb:reference id="rf0013">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.H.</ce:given-name>
+                                 <ce:surname>Su</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Michael</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.L.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Ye</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Microelectronics Reliability</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>70</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>59</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0013">X.H. Su, S. Wang, P. Michael, L.L. Zhao And Z. Ye, Microelectronics Reliability, 70 (2017) 59.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0014">
+                     <ce:label>14.</ce:label>
+                     <sb:reference id="rf0014">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Hu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Ye</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Gaurav</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Craig</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>375</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>118</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0014">C. Hu, H. Ye, J. Gaurav And S. Craig, Journal of Power Sources, 375 (2018) 118.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0015">
+                     <ce:label>15.</ce:label>
+                     <sb:reference id="rf0015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.Q.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.H.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.F.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE International Conference on Prognostics and Health Management</sb:maintitle>
+                                 </sb:title>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>7</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0015">G.Q. Zhao, G.H. Zhang, Y.F. Liu And B. Zhang, IEEE International Conference on Prognostics and Health Management, (2017) 7.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0016">
+                     <ce:label>16.</ce:label>
+                     <sb:reference id="rf0016">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Q.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.L.</ce:given-name>
+                                 <ce:surname>Qin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.B.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.Q.</ce:given-name>
+                                 <ce:surname>Feng</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Microelectronics Reliability</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>85</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>99</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0016">Q. Zhao, X.L. Qin, H.B. Zhao And W.Q. Feng, Microelectronics Reliability, 85 (2018) 99.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0017">
+                     <ce:label>17.</ce:label>
+                     <sb:reference id="rf0017">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.B.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.H.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Applied Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>173</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>134</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0017">J. Wu, C.B. Zhang And Z.H. Chen, Applied Energy, 173 (2016) 134.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0018">
+                     <ce:label>18.</ce:label>
+                     <sb:reference id="rf0018">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.F.</ce:given-name>
+                                 <ce:surname>Roozbeh</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.Z.</ce:given-name>
+                                 <ce:surname>Maryam</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Shiladitya</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Mehrdad</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE International Conference on Prognostics and Health Management</sb:maintitle>
+                                 </sb:title>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0018">R.F. Roozbeh, F.Z. Maryam, C. Shiladitya And S. Mehrdad, IEEE International Conference on Prognostics and Health Management, (2016) 1.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0019">
+                     <ce:label>19.</ce:label>
+                     <sb:reference id="rf0019">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.Z.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Xiong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.W.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Pecht</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Transactions on Vehicular Technology</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>99</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0019">Y.Z. Zhang, R. Xiong, H.W. He and M. Pecht, IEEE Transactions on Vehicular Technology, 99 (2018) 1.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0020">
+                     <ce:label>20.</ce:label>
+                     <sb:reference id="rf0020">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.B.</ce:given-name>
+                                 <ce:surname>Huang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Q.Y.</ce:given-name>
+                                 <ce:surname>Zhu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.K.</ce:given-name>
+                                 <ce:surname>Siew</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Neural Networks</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>2</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>985</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0020">G.B. Huang, Q.Y. Zhu and C.K. Siew, Neural Networks, 2 (2004) 985.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0021">
+                     <ce:label>21.</ce:label>
+                     <sb:reference id="rf0021">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.B.</ce:given-name>
+                                 <ce:surname>Huang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.K.</ce:given-name>
+                                 <ce:surname>Siew</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Neurocomputing</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>70</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>489</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0021">G.B. Huang, H. Zhou and C.K. Siew, Neurocomputing, 70 (2006) 489.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0022">
+                     <ce:label>22.</ce:label>
+                     <sb:reference id="rf0022">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.L.T.</ce:given-name>
+                                 <ce:surname>Duong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Raghavan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Microelectronics Reliability</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>81</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>232</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0022">P.L.T. Duong And N. Raghavan, Microelectronics Reliability, 81 (2018) 232.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0023">
+                     <ce:label>23.</ce:label>
+                     <sb:reference id="rf0023">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Peng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.D.</ce:given-name>
+                                 <ce:surname>Pei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Guan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.M.</ce:given-name>
+                                 <ce:surname>Yuan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.F.</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>International Journal of Electrochemical Science</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>13</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>9257</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0023">J. Yang, Z. Peng, Z.D. Pei, Y. Guan, H.M. Yuan and L.F. Wu, International Journal of Electrochemical Science, 13 (2018) 9257.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0024">
+                     <ce:label>24.</ce:label>
+                     <sb:reference id="rf0024">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.D.</ce:given-name>
+                                 <ce:surname>Zou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.Q.</ce:given-name>
+                                 <ce:surname>Xia</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.F.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Transactions on Cybernetics</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>12</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3403</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0024">W.D. Zou, Y.Q. Xia and H.F. Li, IEEE Transactions on Cybernetics, 12 (2018) 3403.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0025">
+                     <ce:label>25.</ce:label>
+                     <sb:reference id="rf0025">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.Q.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.B.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.J.</ce:given-name>
+                                 <ce:surname>Xu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.F.</ce:given-name>
+                                 <ce:surname>Song</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.W.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.Q.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Materials Processing Technology</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>260</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>9</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0025">X.Q. Zhang, H.B. Chen, J.J. Xu, X.F. Song, J.W. Wang and X.Q. Chen, Journal of Materials Processing Technology, 260 (2018) 9.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0026">
+                     <ce:label>26.</ce:label>
+                     <sb:reference id="rf0026">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.L.C.</ce:given-name>
+                                 <ce:surname>Kasun</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.M.</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.B.</ce:given-name>
+                                 <ce:surname>Huang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.M.</ce:given-name>
+                                 <ce:surname>Vong</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Intelligent Systems</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>28</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>31</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0026">L.L.C. Kasun, H.M. Zhou, G.B. Huang and C.M. Vong, IEEE Intelligent Systems, 28 (2013) 31.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0027">
+                     <ce:label>27.</ce:label>
+                     <sb:reference id="rf0027">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.J.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Luo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.P.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Internet of Things Journal</sb:maintitle>
+                                 </sb:title>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0027">M.J. Chen, Y. Li, X. Luo And W.P. Wang, IEEE Internet of Things Journal, (2018) 1.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0028">
+                     <ce:label>28.</ce:label>
+                     <sb:reference id="rf0028">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.R.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.M.</ce:given-name>
+                                 <ce:surname>Vong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.L.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.K.</ce:given-name>
+                                 <ce:surname>Wong</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Multidimensional Systems and Signal Processing</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>28</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>851</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0028">W.R. Wang, C.M. Vong, Y.L. Yang and P.K. Wong, Multidimensional Systems and Signal Processing, 28 (2017) 851.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0029">
+                     <ce:label>29.</ce:label>
+                     <sb:reference id="rf0029">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.M.</ce:given-name>
+                                 <ce:surname>Vong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.Q.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.K.</ce:given-name>
+                                 <ce:surname>Wong</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Neurocomputing</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>310</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>265</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0029">C.M. Vong, C.Q. Chen and P.K. Wong, Neurocomputing, 310 (2018) 265.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0030">
+                     <ce:label>30.</ce:label>
+                     <sb:reference id="rf0030">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.W.</ce:given-name>
+                                 <ce:surname>Deng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.G.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.B.</ce:given-name>
+                                 <ce:surname>Huang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Transactions on Systems, Man, and Cybernetics: Systems</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>99</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0030">C.W. Deng, S.G. Wang, Z. Li And G.B. Huang, IEEE Transactions on Systems, Man, and Cybernetics: Systems, 99 (2017) 1.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0031">
+                     <ce:label>31.</ce:label>
+                     <sb:reference id="rf0031">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.H.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.B.</ce:given-name>
+                                 <ce:surname>Huang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Transactions on Cybernetics</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>99</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0031">L. Zhang, X.H. Wang, G.B. Huang and T. Liu, IEEE Transactions on Cybernetics, 99 (2018) 1.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0032">
+                     <ce:label>32.</ce:label>
+                     <sb:reference id="rf0032">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.M.</ce:given-name>
+                                 <ce:surname>Wong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.M.</ce:given-name>
+                                 <ce:surname>Vong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.K.</ce:given-name>
+                                 <ce:surname>Wong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.W.</ce:given-name>
+                                 <ce:surname>Cao</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Transactions on Neural Networks and Learning Systems</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>29</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0032">C.M. Wong, C.M. Vong, P.K. Wong and J.W. Cao, IEEE Transactions on Neural Networks and Learning Systems, 29 (2017) 1.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0033">
+                     <ce:label>33.</ce:label>
+                     <sb:reference id="rf0033">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Pakrashi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>International Conference on Swarm</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>8947</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>445</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0033">A. Pakrashi, International Conference on Swarm, 8947 (2014) 445.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0034">
+                     <ce:label>34.</ce:label>
+                     <sb:reference id="rf0034">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Toscano</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Structured Controllers for Uncertain Systems</sb:maintitle>
+                                 </sb:title>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>107</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0034">R. Toscano. Structured Controllers for Uncertain Systems, (2013) 107.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0035">
+                     <ce:label>35.</ce:label>
+                     <sb:reference id="rf0035">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.Y.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.M.</ce:given-name>
+                                 <ce:surname>Zhong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Q.S.</ce:given-name>
+                                 <ce:surname>Zhong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.B.</ce:given-name>
+                                 <ce:surname>Shi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Access</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>99</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0035">Y.Y. Li, S.M. Zhong, Q.S. Zhong and K.B. Shi, IEEE Access, 99 (2019) 1.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0036">
+                     <ce:label>36.</ce:label>
+                     <sb:reference id="rf0036">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Tian</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Lu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Mathematical Problems in Engineering</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>3</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0036">Y. Tian, C. Lu and Z. Wang, Mathematical Problems in Engineering, 3 (2014) 1.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0037">
+                     <ce:label>37.</ce:label>
+                     <sb:reference id="rf0037">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.K.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Tadele</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>401</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>49</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0037">F. K. Wang and M. Tadele, Journal of Power Sources, 401 (2018) 49.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0038">
+                     <ce:label>38.</ce:label>
+                     <sb:reference id="rf0038">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.A.</ce:given-name>
+                                 <ce:surname>Patil</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Tagade</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.S.</ce:given-name>
+                                 <ce:surname>Hariharan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Applied Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>159</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>285</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0038">M.A. Patil, P. Tagade and K.S. Hariharan, Applied Energy, 159 (2015) 285.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0039">
+                     <ce:label>39.</ce:label>
+                     <sb:reference id="rf0039">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.P.</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.H.</ce:given-name>
+                                 <ce:surname>Huang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Microelectronics Reliability</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>65</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>265</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0039">Y.P. Zhou and M.H. Huang, Microelectronics Reliability, 65 (2016) 265.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0040">
+                     <ce:label>40.</ce:label>
+                     <sb:reference id="rf0040">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Gao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Huang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Electronics</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>5</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1288</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0040">D. Gao and M. Huang, Journal of Power Electronics, 5 (2017) 1288.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0041">
+                     <ce:label>41.</ce:label>
+                     <sb:reference id="rf0041">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.Y.</ce:given-name>
+                                 <ce:surname>Jiang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Luo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Electronic Measurement and Instrumentation</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>30</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>179</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0041">Y.Y. Jiang, Z. Liu, H. Luo and H. Wang, Journal of Electronic Measurement and Instrumentation, 30 (2016) 179.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0042">
+                     <ce:label>42.</ce:label>
+                     <sb:reference id="rf0042">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.L.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.F.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.L.</ce:given-name>
+                                 <ce:surname>Tseng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.F.</ce:given-name>
+                                 <ce:surname>Chiu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Applied Soft Computing Journal</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>74</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>110</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0042">L.L. Li, Z.F. Liu, M.L. Tseng and S.F. Chiu, Applied Soft Computing Journal, 74 (2019) 110</ce:source-text>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </simple-tail>
+      </simple-article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

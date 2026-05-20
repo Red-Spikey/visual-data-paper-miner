@@ -1,0 +1,1502 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S2212827118312678</prism:url><dc:identifier>doi:10.1016/j.procir.2018.09.073</dc:identifier><eid>1-s2.0-S2212827118312678</eid><prism:doi>10.1016/j.procir.2018.09.073</prism:doi><pii>S2212-8271(18)31267-8</pii><dc:title>Collision damage assessment in lithium-ion battery cells via sensor monitoring and ensemble learning </dc:title><prism:publicationName>Procedia CIRP</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>22128271</prism:issn><prism:volume>78</prism:volume><prism:startingPage>273</prism:startingPage><prism:endingPage>278</prism:endingPage><prism:pageRange>273-278</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2018-12-31</prism:coverDate><prism:coverDisplayDate>2018</prism:coverDisplayDate><prism:copyright>© 2018 The Author(s). Published by Elsevier B.V.</prism:copyright><prism:publisher>The Author(s). Published by Elsevier B.V.</prism:publisher><prism:issueName>6th CIRP Global Web Conference – Envisaging the future manufacturing, design, technologies and systems in innovation era (CIRPe 2018)</prism:issueName><dc:creator>Simeone, Alessandro</dc:creator><dc:creator>Lv, Dian</dc:creator><dc:creator>Liu, Xiang Yang</dc:creator><dc:creator>Zhang, Jian</dc:creator><dc:description>
+                  The safety of lithium ion batteries (LIBs) is an important issue in electric vehicle industry. Collision damage characterization is an essential aspect of the overall safety assessment of electric vehicle LIBs. Although immediate consequences may not appear evident, battery cells long-term safety and performance can be seriously affected by damages resulting from collisions, leading to dangerous failures. In this paper, a framework and associated methodology for battery cells collision damage assessment is proposed. An experimental rig was designed and built for the realization of a collision tests campaign. During such tests a number of sensor signals were collected and processed to extract significant features. The collision damages were then characterized in terms of physical inspection and electrical performances. An ensemble learning based pattern recognition decision making support system was setup by inputting environmental conditions parameters and sensor signal features to assess the collision damage class and the charge/discharge ability. Classification results are discussed and hints for future developments are proposed.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>ElsevierWaived</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>lithium-ion battery</dcterms:subject><dcterms:subject>collision safety</dcterms:subject><dcterms:subject>sensors</dcterms:subject><dcterms:subject>ensemble learning</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S2212827118312678" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S2212827118312678" rel="scidir"/></coredata><objects><object ref="am" category="standard" type="AAM-PDF" multimediatype="Acrobat PDF file" mimetype="application/pdf" size="773811">https://api.elsevier.com/content/object/eid/1-s2.0-S2212827118312678-am.pdf?httpAccept=%2A%2F%2A</object></objects><scopus-id>85059894736</scopus-id><scopus-eid>2-s2.0-85059894736</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85059894736" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>282173</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291885</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Procedia CIRP</xocs:srctitle>
+      <xocs:normalized-srctitle>PROCEDIACIRP</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20181124">2018-11-24</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20181124">2018-11-24</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20181124">2018-11-24</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20181124">2018-11-24</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2023-04-07T23:59:04</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S2212827118312678</xocs:eid>
+      <xocs:pii-formatted>S2212-8271(18)31267-8</xocs:pii-formatted>
+      <xocs:pii-unformatted>S2212827118312678</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.procir.2018.09.073</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.2</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S2212827118X00134</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20230407">2023-04-07T23:30:08.061049Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20180101</xocs:date-search-begin>
+      <xocs:date-search-end>20181231</xocs:date-search-end>
+      <xocs:year-nav>2018</xocs:year-nav>
+      <xocs:indexeddate epoch="1543079841">2018-11-24T17:17:21.036712Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids confeditor contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content oa subj suppl tomb vol volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authkeywords authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>2212-8271</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>22128271</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>78</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>78</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 78</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>48</xocs:sort-order>
+      <xocs:first-fp>273</xocs:first-fp>
+      <xocs:last-lp>278</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>273</xocs:first-page>
+         <xocs:last-page>278</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>2018</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>2018</xocs:cover-date-text>
+      <xocs:cover-date-start>2018-01-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2018-12-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2018</xocs:cover-date-year>
+      <xocs:title-editors-groups>
+         <xocs:title-editors-group>
+            <ce:title id="tt001">6th CIRP Global Web Conference – Envisaging the future manufacturing, design, technologies and systems in innovation era (CIRPe 2018)</ce:title>
+            <ce:editors>
+               <ce:author-group id="aa001">
+                  <ce:author author-id="S2212827118X00134-de115a07de66475008e0cbf3528c8cd2" id="aa002">
+                     <ce:given-name>Alessandro</ce:given-name>
+                     <ce:surname>Simeone</ce:surname>
+                  </ce:author>
+                  <ce:author author-id="S2212827118X00134-a530c7458788d52de8d6e96f13ac7c0e" id="aa003">
+                     <ce:given-name>Paolo</ce:given-name>
+                     <ce:surname>Claudio Priarone</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+            </ce:editors>
+         </xocs:title-editors-group>
+      </xocs:title-editors-groups>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>© 2018 The Author(s). Published by Elsevier B.V.</xocs:copyright-line>
+      <xocs:normalized-article-title>COLLISIONDAMAGEASSESSMENTINLITHIUMIONBATTERYCELLSVIASENSORMONITORINGENSEMBLELEARNING</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>SIMEONE</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>A</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="sbref0001">
+            <xocs:ref-normalized-surname>KUMAR</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1266</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1285</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0002">
+            <xocs:ref-normalized-surname>LIANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0003">
+            <xocs:ref-normalized-surname>ZUBI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>292</xocs:ref-first-fp>
+            <xocs:ref-last-lp>308</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0004">
+            <xocs:ref-normalized-surname>SHIQI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>597</xocs:ref-first-fp>
+            <xocs:ref-last-lp>610</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>O</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0005">
+            <xocs:ref-normalized-surname>ZHU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>251</xocs:ref-first-fp>
+            <xocs:ref-last-lp>266</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0006">
+            <xocs:ref-normalized-surname>FENG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>246</xocs:ref-first-fp>
+            <xocs:ref-last-lp>267</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0007">
+            <xocs:ref-normalized-surname>PILATOWICZ</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>365</xocs:ref-first-fp>
+            <xocs:ref-last-lp>376</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0008">
+            <xocs:ref-normalized-surname>BROUSSELY</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2005</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0009">
+            <xocs:ref-normalized-surname>GAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>103</xocs:ref-first-fp>
+            <xocs:ref-last-lp>114</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00010">
+            <xocs:ref-normalized-surname>HALL</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>109</xocs:ref-first-fp>
+            <xocs:ref-last-lp>117</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00011">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>937</xocs:ref-first-fp>
+            <xocs:ref-last-lp>948</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00012">
+            <xocs:ref-normalized-surname>FENG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>261</xocs:ref-first-fp>
+            <xocs:ref-last-lp>273</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00013">
+            <xocs:ref-normalized-surname>YUAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>682</xocs:ref-first-fp>
+            <xocs:ref-last-lp>688</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Q</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00014">
+            <xocs:ref-normalized-surname>REN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>328</xocs:ref-first-fp>
+            <xocs:ref-last-lp>340</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00015">
+            <xocs:ref-normalized-surname>SONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1165</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1174</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00016">
+            <xocs:ref-normalized-surname>RUIZ</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1427</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1452</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>V</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00017">
+            <xocs:ref-normalized-surname>LI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>638</xocs:ref-first-fp>
+            <xocs:ref-last-lp>648</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00018">
+            <xocs:ref-normalized-surname>AN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00019">
+            <xocs:ref-normalized-surname>XU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00020">
+            <xocs:ref-normalized-surname>SEGRETO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00021">
+            <xocs:ref-normalized-surname>HONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>159</xocs:ref-first-fp>
+            <xocs:ref-last-lp>166</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="oref00022"/>
+         <xocs:ref-info refid="oref00023"/>
+         <xocs:ref-info refid="sbref00024">
+            <xocs:ref-normalized-surname>SEGRETO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>202</xocs:ref-first-fp>
+            <xocs:ref-last-lp>209</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00025">
+            <xocs:ref-normalized-surname>LI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3120</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3131</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00026">
+            <xocs:ref-normalized-surname>SEIFFERT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>185</xocs:ref-first-fp>
+            <xocs:ref-last-lp>197</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00027">
+            <xocs:ref-normalized-surname>FREUND</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1997</xocs:ref-pub-year>
+            <xocs:ref-first-fp>119</xocs:ref-first-fp>
+            <xocs:ref-last-lp>139</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00028">
+            <xocs:ref-normalized-surname>JL</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>158</xocs:ref-first-fp>
+            <xocs:ref-last-lp>167</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00029">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>112</xocs:ref-first-fp>
+            <xocs:ref-last-lp>128</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>SIMEONEX2018X273</xocs:refkey3>
+         <xocs:refkey4lp>SIMEONEX2018X273X278</xocs:refkey4lp>
+         <xocs:refkey4ai>SIMEONEX2018X273XA</xocs:refkey4ai>
+         <xocs:refkey5>SIMEONEX2018X273X278XA</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2018-10-09T00:22:37Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>ElsevierWaived</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/PROC_UNBOUNDED_ESWaived">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY-NC-ND license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2018 The Author(s). Published by Elsevier B.V.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:funding-list has-funding-info="1">
+         <xocs:funding-addon-generated-timestamp>2021-05-29T02:51:50.164Z</xocs:funding-addon-generated-timestamp>
+         <xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined</xocs:funding-addon-type>
+      </xocs:funding-list>
+      <xocs:article-sharing-framework/>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S2212-8271(18)31267-8</xocs:pii-formatted>
+         <xocs:pii-unformatted>S2212827118312678</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S2212827118312678</xocs:eid>
+         <xocs:doi>10.1016/j.procir.2018.09.073</xocs:doi>
+         <xocs:cid>282173</xocs:cid>
+         <xocs:timestamp>2023-04-07T23:30:08.061049Z</xocs:timestamp>
+         <xocs:cover-date-start>2018-01-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2018-12-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S2212827118312678-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2212827118312678/MAIN/application/pdf/8a8c5ec20351cbd66148fd24124ec21b/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>1731416</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>6</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S2212827118312678-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2212827118312678/PREVIEW/image/png/a0506fd021b46017fb5ef017ce21c42f/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>61939</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2212827118312678-am.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10366BZB0LK/MAIN/application/pdf/77f0feb7cfc39edad6cfac437918abb2/am.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:10366BZB0LK/MAIN/application/pdf/77f0feb7cfc39edad6cfac437918abb2/am.pdf</xocs:ucs-locator>
+               <xocs:file-basename>am</xocs:file-basename>
+               <xocs:filename>am.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>false</xocs:pdf-optimized>
+               <xocs:filesize>773811</xocs:filesize>
+               <xocs:attachment-type>AAM-PDF</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">ScienceDirect Available online at www.sciencedirect.com www.elsevier.com/locate/procedia  Procedia CIRP 78 (2018) 273â€“278 2212-8271 Â© 2018 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0/) Selection and peer-review under responsibility of the scientific committee of the 6th CIRP Global Web Conference â€œEnvisaging the future manufacturing,  design, technologies and systems in innovation eraâ€�. 10.1016/j.procir.2018.09.073 Â© 2018 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license  (https://creativecommons.org/licenses/by-nc-nd/4.0/) Selection and peer-review under responsibility of the scientific committee of the 6th CIRP Global Web Conference â€œEnvisaging the future  manufacturing, design, technologies and systems in innovation eraâ€�. Keywords: lithium-ion battery; collision safety; sensors; ensemble learning 1. Introduction  During the last decade, the electric vehicle industry has  developed rapidly. The lithium-based batteries are widely used and as a kind of good storage way in electric vehicle battery  technology. The main advantages of these batteries are high  energy density, light weight, fast charge, and relatively low  cost [1]. Currently, research and development on lithium-ion  batteries (LIBs) is focusing on improvement of specific energy  and safety [2, 3]. With the increasing sales of electric vehicles, more  accidents related to power batteries occurred[1, 4]. The LIB failure under external factors may cause generation of smoke,  fire and even explosion [5]. Wide literature is available on  battery safety, concerning thermal runaway and mechanical  response, in which collision safety is an unavoidable problem  [2]. Xuning Feng et al. surveyed the occurrence and possible  cause of a number of electric vehicle accidents [6]. Literature  review highlighted how not all the batteries are short circuited or fail immediately when a collision accident occurs.  According to the damage extent in battery cells and the speed  of their internal chemical reactions, the harmful effect caused  by damages may not appear immediately, yielding to delayed  safety hazards. This phenomenon poses some challenges when dealing with such collision vehicles issue [6]. 6th CIRP Global Web Conference  â€œEnvisaging the future manufacturing, design, technologies and systems in innovation eraâ€� Collision damage assessment in lithium-ion battery cells via sensor  monitoring and ensemble learning  Alessandro Simeoneab, Dian Lva, XiangYang Liua, Jian Zhangab* a Intelligent Manufacturing Key Laboratory of Ministry of Education, Shantou University, Shantou, 515063,China b Shantou Institute for Light Industrial Equipment Research, Shantou University, Shantou, 515063,China * Corresponding author. Tel.: +8613502724586. E-mail address: jianzhang@stu.edu.cn Abstract The safety of lithium ion batteries (LIBs) is an important issue in electric vehicle industry. Collision damage characterization is an essential aspect of the overall safety assessment of electric vehicle LIBs. Although immediate consequences may not appear evident, battery cells long- term safety and performance can be seriously affected by damages resulting from collisions, leading to dangerous failures. In this paper, a  framework and associated methodology for battery cells collision damage assessment is proposed. An experimental rig was designed and built  for the realization of a collision tests campaign. During such tests a number of sensor signals were collected and processed to extract significant  features. The collision damages were then characterized in terms of physical inspection and electrical performances. An ensemble learning based  pattern recognition decision making support system was setup by inputting environmental conditions parameters and sensor signal features to  assess the collision damage class and the charge/discharge ability. Classification results are discussed and hints for future developments are  proposed. This is a resupply of March 2023 as the template used in the publication of the original article contained errors. The content of the article has remained unaffected. 274 Alessandro Simeone  et al. / Procedia CIRP 78 (2018) 273â€“278   Relatively small damages, in fact, may affect the battery cell  internal structure [5]. As the battery keeps working, the damage  can cause phenomena such as accelerated ageing, degradation  of the solid electrolyte interphase (SEI) and internal resistance  increase [7, 8].   These phenomena involve many complex mechanisms,  resulting in safety hazards such as battery overheat, energy loss,  capacity attenuation, power reduction and thermal runaway [9â€“ 14]. As regards the battery module or pack level, non- uniformity issues can arise [15]. Consequently, minor  collision-related damages which do not appear serious at the  time of the event, may lead to dangerous failures with the  prolonged use of the battery cell. This kind of cell can be  defined as latent-danger cell. Timely detection and replacement  of latent-danger cells can reduce the risk of safety-related  accidents.  Currently, the LIBs testing standards classify single cell test  results into two categories: qualified and unqualified [16]  leaving a gap for the identification of latent-danger in battery  cells.   To improve the safety aspect design, the following aspects  need to be investigatedï¼š  1) Qualitative analysis of batteries safety related external  factors.  2) Quantitative analysis of batteries safety factors   3) Design guidance for battery cells and modules based on  failure mechanisms quantitative analysis.  This research work aims at performing a qualitative battery  cells damage assessment after collision utilizing sensor signals  and ensemble learning based decision-making support system.  With reference to Fig. 1, the research framework proposed in  this work consists in four parts: experimental tests, data  acquisition and processing, damage characterization and  decision-making support system as introduced in the remainder  this section and detailed in the following sections.  â€¢ Experimental tests: an experimental programme of collision  tests was design and performed on battery cells following a  pre-treatment preparation procedure.  â€¢ Data acquisition and processing: force, voltage, current  signals were acquired using a number of sensing units and  subsequently processed to extract significant features for  further analysis.  â€¢ Damage characterization: collision damages were  investigated according to both physical and electrical  perspectives.  â€¢ Decision-making support system: signal features and  damage labelled data were inputted into an ensemble  learning pattern classifier for battery cells damage  assessment.   2. Experimental procedure  An experimental campaign of collision tests was carried out  on brand new LiCoO2-18650 battery cells in discharge state,  whose properties are reported in Table 1.   The new batteries need a pre-treatment to form a stable SEI  layer. The formation of SEI will affect the performance of the  battery [18]. In this respect, six standard charge-discharge  cycles procedure were applied to the batteries with 0.5 C- charge and 1C-discharge (charging in 1075mA  and  discharging in 2150 mA).   2.1. Experimental setup  An experimental rig was designed and realized to allow for  the cylinder-shaped stainless-steel mass to fall onto the battery  cell placed in the fixture. A 3D model of the experimental rig  is shown in Fig. 2. When the baffle (Fig. 2b) in the holder is  removed, the mass drops and collides with the battery cell.   The sensing units utilized in such experimental tests include  an impact force sensor (DYLF-102 DAYSENSOR) and a  voltage and current sensor (BTS 5V6A-08) for signal  acquisition and processing. The force signal instances were  logged by the single chip microcomputer (SCM) and sampled  at 538.4 Hz. The voltage and current signals were recorded at  1 Hz.  2.2. Collision tests  Table 1. 18650 LIB properties.  Terms Specification  Typical capacity 2150 mAh (0.2C discharge)  Minimum Capacity  2050 mAh (0.2C discharge)  Charging Current  Standard charge: 1075mA (0.5C)  Rapid charge: 2150mA (1C)  Nominal voltage 3.62 V   Charge voltage 4.2 V Â± 0.05 V  Cut-off voltage 2.75 V  Maximum charge current 2150 mA  Maximum discharge current 10A (Continuous)  Operating temperature  Charge : 0 to 45 â„ƒ  Discharge: -20 to 60   Fig. 1 Framework of Lithium-ion battery damage assessment   Author name / Procedia CIRP 00 (2018) 000â€“000  3  The collision tests were carried out by dropping down a  metal cylinder on the battery cell sample. In this respect, four  different mass values were used, namely 2 kg, 4 kg, 6 kg and  10 kg. The drop height was set to 1 m for all the tests.   Following severe collisions, the battery pack case may be  subject to serious geometrical deformations, which can modify  the collision interface between the case and the battery cell. In  order to investigate these different conditions, two collision  interfaces were utilized in this experimental campaign (see Fig.  2c), namely interface Type 1 and Type 2. These profiles are  characterized by two different equations, i.e. ð�‘¦ð�‘¦ = 0.03ð�‘¥ð�‘¥2 and  ð�‘¦ð�‘¦ = ð�‘¥ð�‘¥2, respectively, as shown in Fig. 3.   The experimental programme, obtained by varying interface  types and mass values, is reported in Table 2.   In order to improve the statistical reliability of the  experimental results, 6 repetitions were carried out for each  collision test.  Since the LIBs mechanical properties are affected by the  state of charge (SOC) [19], in order to reduce the problem  dimensionality, and therefore the experimental programme, the  collision tests were carried out exactly after 60 seconds of  discharge.  3. Signal processing and features extraction  3.1. Signal processing  Collision force signals were subject to a processing  procedure, aimed at extracting significant features for signal  characterization [20].   The signal processing procedure is described as follows and  an instance of raw signal along with its related processed signal  are shown in Fig. 4:  Table 2. Experimental programme  1. Performing a signal segmentation procedure to remove  signal head and tail which do not contain useful information  [20]. Segmented signal is shown in Fig. 4a.  2. The segmented signal is unbiased to minimize the sensor  drift phenomena  3. A signal fitting procedure is then applied to the unbiased  signal by using cubic spline interpolation [21] adopting  20000 query points (Fig. 4b).  3.2. Features extraction  The environmental condition features including collision  interface type and theoretical initial collision energy.   â€¢ Collision interface type ð�‘‡ð�‘‡ indicated with 0 and 1 for type 1  and type 2 respectively.  â€¢ Theoretical initial collision energy E defined in Eq. 1:  ð��¸ð��¸ = ð�‘šð�‘šð�‘šð�‘šâ„Ž (1)  Where m is the mass of dropping cylinder and h is the falling  height and g is the acceleration of gravity.  Statistical features were extracted from the collision force  signals: peak value (ð��¹ð��¹ð�‘šð�‘šð�‘šð�‘šð�‘šð�‘š ) mean value (ð��¹ð��¹ð�‘šð�‘šð�‘šð�‘šð�‘šð�‘šð�‘šð�‘š )ï¼Œ  variance  (ð��¹ð��¹ð�‘£ð�‘£ð�‘šð�‘šð�‘£ð�‘£)ï¼Œ skewness (ð��¹ð��¹ð�‘ ð�‘ ð�‘ ð�‘ ð�‘šð�‘šð�‘ ð�‘ ) and kurtosis (ð��¹ð��¹ð�‘ ð�‘ ð�‘˜ð�‘˜ð�‘£ð�‘£ð�‘˜ð�‘˜).  4. Battery cell damage characterization  The battery cells were divided into 3 classes according to  damage types and entity after the collision, namely class A, B  and C. [22, 23] as explained below:   â€¢ Class A - safe cells. After the collision test, cells are defined  safe whether they show enough maximum power and can  discharge efficiently to keep device working according to  specifications.      (a)  (b)   (c)  Fig. 2 Collision tests experimental rig 3D-model (a); cylinder setting (b);  battery positioning (c)   ID Interface type Mass (kg) Repetitions  1 Type 1 4 6  2 Type 1 6 6  3 Type 1 10 6  4 Type 2 2 6  5 Type 2 4 6  6 Type 2 6 6       (a) Interface type 1  (b) Interface type 2  Fig. 3. Interface profiles: ð�‘¦ð�‘¦ = 0.03ð�‘¥ð�‘¥2 (a)  ð�‘¦ð�‘¦ = ð�‘¥ð�‘¥2(b)  This is a resupply of March 2023 as the template used in the publication of the original article contained errors. The content of the article has remained unaffected.  Alessandro Simeone  et al. / Procedia CIRP 78 (2018) 273â€“278 275 2 Author name / Procedia CIRP 00 (2018) 000â€“000  Relatively small damages, in fact, may affect the battery cell  internal structure [5]. As the battery keeps working, the damage  can cause phenomena such as accelerated ageing, degradation  of the solid electrolyte interphase (SEI) and internal resistance  increase [7, 8].   These phenomena involve many complex mechanisms,  resulting in safety hazards such as battery overheat, energy loss,  capacity attenuation, power reduction and thermal runaway [9â€“ 14]. As regards the battery module or pack level, non- uniformity issues can arise [15]. Consequently, minor  collision-related damages which do not appear serious at the  time of the event, may lead to dangerous failures with the  prolonged use of the battery cell. This kind of cell can be  defined as latent-danger cell. Timely detection and replacement  of latent-danger cells can reduce the risk of safety-related  accidents.  Currently, the LIBs testing standards classify single cell test  results into two categories: qualified and unqualified [16]  leaving a gap for the identification of latent-danger in battery  cells.   To improve the safety aspect design, the following aspects  need to be investigatedï¼š  1) Qualitative analysis of batteries safety related external  factors.  2) Quantitative analysis of batteries safety factors   3) Design guidance for battery cells and modules based on  failure mechanisms quantitative analysis.  This research work aims at performing a qualitative battery  cells damage assessment after collision utilizing sensor signals  and ensemble learning based decision-making support system.  With reference to Fig. 1, the research framework proposed in  this work consists in four parts: experimental tests, data  acquisition and processing, damage characterization and  decision-making support system as introduced in the remainder  this section and detailed in the following sections.  â€¢ Experimental tests: an experimental programme of collision  tests was design and performed on battery cells following a  pre-treatment preparation procedure.  â€¢ Data acquisition and processing: force, voltage, current  signals were acquired using a number of sensing units and  subsequently processed to extract significant features for  further analysis.  â€¢ Damage characterization: collision damages were  investigated according to both physical and electrical  perspectives.  â€¢ Decision-making support system: signal features and  damage labelled data were inputted into an ensemble  learning pattern classifier for battery cells damage  assessment.   2. Experimental procedure  An experimental campaign of collision tests was carried out  on brand new LiCoO2-18650 battery cells in discharge state,  whose properties are reported in Table 1.   The new batteries need a pre-treatment to form a stable SEI  layer. The formation of SEI will affect the performance of the  battery [18]. In this respect, six standard charge-discharge  cycles procedure were applied to the batteries with 0.5 C- charge and 1C-discharge (charging in 1075mA  and  discharging in 2150 mA).   2.1. Experimental setup  An experimental rig was designed and realized to allow for  the cylinder-shaped stainless-steel mass to fall onto the battery  cell placed in the fixture. A 3D model of the experimental rig  is shown in Fig. 2. When the baffle (Fig. 2b) in the holder is  removed, the mass drops and collides with the battery cell.   The sensing units utilized in such experimental tests include  an impact force sensor (DYLF-102 DAYSENSOR) and a  voltage and current sensor (BTS 5V6A-08) for signal  acquisition and processing. The force signal instances were  logged by the single chip microcomputer (SCM) and sampled  at 538.4 Hz. The voltage and current signals were recorded at  1 Hz.  2.2. Collision tests  Table 1. 18650 LIB properties.  Terms Specification  Typical capacity 2150 mAh (0.2C discharge)  Minimum Capacity  2050 mAh (0.2C discharge)  Charging Current  Standard charge: 1075mA (0.5C)  Rapid charge: 2150mA (1C)  Nominal voltage 3.62 V   Charge voltage 4.2 V Â± 0.05 V  Cut-off voltage 2.75 V  Maximum charge current 2150 mA  Maximum discharge current 10A (Continuous)  Operating temperature  Charge : 0 to 45 â„ƒ  Discharge: -20 to 60   Fig. 1 Framework of Lithium-ion battery damage assessment      The collision tests were carried out by dropping down a  metal cylinder on the battery cell sample. In this respect, four  different mass values were used, namely 2 kg, 4 kg, 6 kg and  10 kg. The drop height was set to 1 m for all the tests.   Following severe collisions, the battery pack case may be  subject to serious geometrical deformations, which can modify  the collision interface between the case and the battery cell. In  order to investigate these different conditions, two collision  interfaces were utilized in this experimental campaign (see Fig.  2c), namely interface Type 1 and Type 2. These profiles are  characterized by two different equations, i.e. ð�‘¦ð�‘¦ = 0.03ð�‘¥ð�‘¥2 and  ð�‘¦ð�‘¦ = ð�‘¥ð�‘¥2, respectively, as shown in Fig. 3.   The experimental programme, obtained by varying interface  types and mass values, is reported in Table 2.   In order to improve the statistical reliability of the  experimental results, 6 repetitions were carried out for each  collision test.  Since the LIBs mechanical properties are affected by the  state of charge (SOC) [19], in order to reduce the problem  dimensionality, and therefore the experimental programme, the  collision tests were carried out exactly after 60 seconds of  discharge.  3. Signal processing and features extraction  3.1. Signal processing  Collision force signals were subject to a processing  procedure, aimed at extracting significant features for signal  characterization [20].   The signal processing procedure is described as follows and  an instance of raw signal along with its related processed signal  are shown in Fig. 4:  Table 2. Experimental programme  1. Performing a signal segmentation procedure to remove  signal head and tail which do not contain useful information  [20]. Segmented signal is shown in Fig. 4a.  2. The segmented signal is unbiased to minimize the sensor  drift phenomena  3. A signal fitting procedure is then applied to the unbiased  signal by using cubic spline interpolation [21] adopting  20000 query points (Fig. 4b).  3.2. Features extraction  The environmental condition features including collision  interface type and theoretical initial collision energy.   â€¢ Collision interface type ð�‘‡ð�‘‡ indicated with 0 and 1 for type 1  and type 2 respectively.  â€¢ Theoretical initial collision energy E defined in Eq. 1:  ð��¸ð��¸ = ð�‘šð�‘šð�‘šð�‘šâ„Ž (1)  Where m is the mass of dropping cylinder and h is the falling  height and g is the acceleration of gravity.  Statistical features were extracted from the collision force  signals: peak value (ð��¹ð��¹ð�‘šð�‘šð�‘šð�‘šð�‘šð�‘š ) mean value (ð��¹ð��¹ð�‘šð�‘šð�‘šð�‘šð�‘šð�‘šð�‘šð�‘š )ï¼Œ  variance  (ð��¹ð��¹ð�‘£ð�‘£ð�‘šð�‘šð�‘£ð�‘£)ï¼Œ skewness (ð��¹ð��¹ð�‘ ð�‘ ð�‘ ð�‘ ð�‘šð�‘šð�‘ ð�‘ ) and kurtosis (ð��¹ð��¹ð�‘ ð�‘ ð�‘˜ð�‘˜ð�‘£ð�‘£ð�‘˜ð�‘˜).  4. Battery cell damage characterization  The battery cells were divided into 3 classes according to  damage types and entity after the collision, namely class A, B  and C. [22, 23] as explained below:   â€¢ Class A - safe cells. After the collision test, cells are defined  safe whether they show enough maximum power and can  discharge efficiently to keep device working according to  specifications.      (a)  (b)   (c)  Fig. 2 Collision tests experimental rig 3D-model (a); cylinder setting (b);  battery positioning (c)   ID Interface type Mass (kg) Repetitions  1 Type 1 4 6  2 Type 1 6 6  3 Type 1 10 6  4 Type 2 2 6  5 Type 2 4 6  6 Type 2 6 6       (a) Interface type 1  (b) Interface type 2  Fig. 3. Interface profiles: ð�‘¦ð�‘¦ = 0.03ð�‘¥ð�‘¥2 (a)  ð�‘¦ð�‘¦ = ð�‘¥ð�‘¥2(b)  This is a resupply of March 2023 as the template used in the publication of the original article contained errors. The content of the article has remained unaffected. 276 Alessandro Simeone  et al. / Procedia CIRP 78 (2018) 273â€“278   (a)  (b)  Fig. 4. Raw signal (a) and processed signal (b)  â€¢ Class B - latent danger cells. Such cells are characterized by  a reduced performance, in terms of battery capacity, power  and useful life. Such batteries are more prone to failure than  normal ones, causing safety problems.  â€¢ Class C - unsafe cells. Cells are defined unsafe if they are  not able to charge and discharge anymore, including those  cells having presenting electrolyte leakage, burned or  exploded under collision tests.   The Three-class battery assessment method consists in 6  battery state evaluation characterizations and related class.   The battery state evaluation characterizations include  electrolyte leakage, breakage, external deformation, discharge  continuity, 3C-rated capacity and internal resistance level.   Electrolyte leakage, breakage, external deformation are 3  different types of physical damage form, of which instance  were reported in Fig. 5.  Discharge continuity indicates the ability of a battery cell to  discharge continuously. Such property was observed by letting  the battery fully discharge (1C rate) after collision. Battery cells  able to discharge until reaching the cut-off voltage were  considered to have passed the test.   Two examples of voltage and current discharge signal  instances are shown in Fig. 6.  Battery cells which passed the discharge continuity test are  then subject to a 3C-rated cycles test, with the aim of measuring  the 3C-rated discharge capacity. The 3C-rated cycles consist in  charging at 1C (2150 mA) and discharging at 3C (6450 mA)  for 8 times. The capacity of those batteries that failed the  discharge continuity test was recorded as 0.    The internal resistance of sample battery cells was measured  in full discharge state using a battery internal resistance meter  (YR1030).  The following variables are considered to formulate the  specific battery cells damage class evaluation rules:  â€¢ Electrolyte leakage levels: 0 for no liquid electrolyte leakage  and 1 for liquid electrolyte leakage existence;   â€¢ Breakage levels: 0 for no external breakage and 1 for  external breakage existence;  â€¢ Deformation levels: 0 for no deformations, 1 for  deformations;  â€¢ Discharge continuity levels: 0 or 1 respectively for passing  or failing the discharge continuity test;  â€¢ Internal resistance levels: 0 for internal resistance less than  35mÎ© and 1 for internal resistance more than 35mÎ©;  â€¢ 3C-rated discharge capacity levels:0 for 3C-rated discharge  capacity mean value more than 1860 mAh (&gt;86.51% of  Typical Capacity) and 1 for 3C-rated discharge capacity  mean value less than 1860 mAh (&lt;86.51% of Typical  Capacity).  A second classification problem is investigated in this paper  according to whether the battery cells can effectively complete  charge-discharge cycles after the collision. In this respect,  Class A and class B are merged into a new class â€œA+Bâ€�. In this  work, battery cells belonging to class A+B were able to charge- discharge for at least 8 cycles, while class C battery cells were  not. This classification reflects the ability of the battery to  discharge effectively for a period of time after the collision.   The assessment methods are summarized in Table 3 where  â€œ*â€� indicates that the related values do not affect the class  results.  5. Intelligent decision-making support system   Environmental condition and signal features were grouped  in 7-element feature vectors [24] and inputted to an Ensemble  Learning [25] decision making support system for damage  classification purpose. Two ensemble methods were adopted in  this work: RUSBoost and GentleBoost, respectively.  RUSBoost [26] is an algorithm to handle class imbalance  problem in data with discrete class labels. It uses a combination  of random under-sampling (RUS) and AdaBoost [27] to better  model the minority class by removing majority class samples.      (a)     (b)  (c)   Fig. 5. Battery cells physical damages: electrolyte lekage (a), breakage (b)  and external deformation (c)   Author name / Procedia CIRP 00 (2018) 000â€“000  5  GentleBoost is an improved AdaBoost algorithm, which  uses real valued features and it is faster than the convergence  of AdaBoost [28].  As a learner type, the decision tree technique was utilized.  A decision tree can efficiently infer a tree-like classifier model  from a labeled dataset, whose paths from root to leaf represent  classification rules [29].  The input feature vectors for classification problems include  environmental conditions parameters and force signal features:  â€¢ Environmental conditions parameters:ð�‘‡ð�‘‡, ð��¸ð��¸.  â€¢ Force signal features: ð��¹ð��¹ð�‘šð�‘šð�‘šð�‘šð�‘šð�‘š, ð��¹ð��¹ð�‘šð�‘šð�‘šð�‘šð�‘šð�‘šð�‘šð�‘š, ð��¹ð��¹ð�‘£ð�‘£ð�‘šð�‘šð�‘£ð�‘£, ð��¹ð��¹ð�‘ ð�‘ ð�‘ ð�‘ ð�‘šð�‘šð�‘ ð�‘ , ð��¹ð��¹ð�‘ ð�‘ ð�‘˜ð�‘˜ð�‘£ð�‘£ð�‘˜ð�‘˜.  The target vectors consist in a coded value associated to the  battery damage class according to the classification purpose as  follows:  â€¢ Three-class classification: A, B, C;  â€¢ Two-class classification, A+B, C.  6. Results and discussion  Fig. 7 shows the ensemble learning success rate (SR), i.e.  correct classifications rate, for battery cells collision damage  classification (Class A, B, C). The algorithm was configured  utilizing the following parameters:  â€¢ Ensemble learning method: RUSBoost  â€¢ Maximum number of splits:10  â€¢ Number of learners:10  â€¢ Learning rate :0.3  â€¢ Subspace dimension: 4  Table 3.Battery assessment method  The SR for this classification problem resulted equal to  86.1%, showing a very good classification performance for  class A and C. (87% and 93% respectively). The SR for class  B resulted sensibly lower (71%), mainly due to the small  number of class B samples resulted from the experiments.  Fig. 8 reports the ensemble learning success rate (SR) for  charge/discharge ability classification (Class A+B, C). The  algorithm was configured utilizing the following parameters:  â€¢ Ensemble learning method: GentleBoost  â€¢ Maximum number of splits:35  â€¢ Number of learners:30  â€¢ Learning rate :0.1  â€¢ Subspace dimension: 1  The overall SR resulted equal to 94.4% demonstrating a  great suitability of sensor signal features and ensemble learning  paradigm to perform pattern recognition tasks on battery cells  charge/discharge ability. Clearly, the two-class classification  problem is much simpler than the three-class one, for which  further investigation is needed, along with a wider  experimental dataset.  7. Conclusions and future work  An experimental campaign of collision tests was carried out  on LiCoO2 -18650 battery cells with the aim of collision  damage assessment.  Collision force signals were acquired, and a signal  processing procedure was applied to extract significant features.  Battery cells physical damages were verified and cells  performance was tested in order to verify the battery discharge  Fig. 6. Two voltage and current signal instances in discharge continuity  tests.  Instance 1 failed the test while instance 2 passed.   Fig. 7 Three-class classification confusion matrix  Fig. 8 Two-class classification confusion matrix   Case  State levels  Class Leakage Breakage Deformation Continuity Capacity internal  resistance  1 1 * * * * * C  2 * 1 * * * * C  3 0 0 * 1 * * C  4 0 0 * 0 1 1 C  5 0 0 1 0 0 1 B  6 0 0 1 0 1 0 B  7 0 0 1 0 0 0 A  8 0 0 0 0 0 1 B  9 0 0 0 0 1 0 B  This is a resupply of March 2023 as the template used in the publication of the original article contained errors. The content of the article has remained unaffected.  Alessandro Simeone  et al. / Procedia CIRP 78 (2018) 273â€“278 277 4 Author name / Procedia CIRP 00 (2018) 000â€“000  (a)  (b)  Fig. 4. Raw signal (a) and processed signal (b)  â€¢ Class B - latent danger cells. Such cells are characterized by  a reduced performance, in terms of battery capacity, power  and useful life. Such batteries are more prone to failure than  normal ones, causing safety problems.  â€¢ Class C - unsafe cells. Cells are defined unsafe if they are  not able to charge and discharge anymore, including those  cells having presenting electrolyte leakage, burned or  exploded under collision tests.   The Three-class battery assessment method consists in 6  battery state evaluation characterizations and related class.   The battery state evaluation characterizations include  electrolyte leakage, breakage, external deformation, discharge  continuity, 3C-rated capacity and internal resistance level.   Electrolyte leakage, breakage, external deformation are 3  different types of physical damage form, of which instance  were reported in Fig. 5.  Discharge continuity indicates the ability of a battery cell to  discharge continuously. Such property was observed by letting  the battery fully discharge (1C rate) after collision. Battery cells  able to discharge until reaching the cut-off voltage were  considered to have passed the test.   Two examples of voltage and current discharge signal  instances are shown in Fig. 6.  Battery cells which passed the discharge continuity test are  then subject to a 3C-rated cycles test, with the aim of measuring  the 3C-rated discharge capacity. The 3C-rated cycles consist in  charging at 1C (2150 mA) and discharging at 3C (6450 mA)  for 8 times. The capacity of those batteries that failed the  discharge continuity test was recorded as 0.    The internal resistance of sample battery cells was measured  in full discharge state using a battery internal resistance meter  (YR1030).  The following variables are considered to formulate the  specific battery cells damage class evaluation rules:  â€¢ Electrolyte leakage levels: 0 for no liquid electrolyte leakage  and 1 for liquid electrolyte leakage existence;   â€¢ Breakage levels: 0 for no external breakage and 1 for  external breakage existence;  â€¢ Deformation levels: 0 for no deformations, 1 for  deformations;  â€¢ Discharge continuity levels: 0 or 1 respectively for passing  or failing the discharge continuity test;  â€¢ Internal resistance levels: 0 for internal resistance less than  35mÎ© and 1 for internal resistance more than 35mÎ©;  â€¢ 3C-rated discharge capacity levels:0 for 3C-rated discharge  capacity mean value more than 1860 mAh (&gt;86.51% of  Typical Capacity) and 1 for 3C-rated discharge capacity  mean value less than 1860 mAh (&lt;86.51% of Typical  Capacity).  A second classification problem is investigated in this paper  according to whether the battery cells can effectively complete  charge-discharge cycles after the collision. In this respect,  Class A and class B are merged into a new class â€œA+Bâ€�. In this  work, battery cells belonging to class A+B were able to charge- discharge for at least 8 cycles, while class C battery cells were  not. This classification reflects the ability of the battery to  discharge effectively for a period of time after the collision.   The assessment methods are summarized in Table 3 where  â€œ*â€� indicates that the related values do not affect the class  results.  5. Intelligent decision-making support system   Environmental condition and signal features were grouped  in 7-element feature vectors [24] and inputted to an Ensemble  Learning [25] decision making support system for damage  classification purpose. Two ensemble methods were adopted in  this work: RUSBoost and GentleBoost, respectively.  RUSBoost [26] is an algorithm to handle class imbalance  problem in data with discrete class labels. It uses a combination  of random under-sampling (RUS) and AdaBoost [27] to better  model the minority class by removing majority class samples.      (a)     (b)  (c)   Fig. 5. Battery cells physical damages: electrolyte lekage (a), breakage (b)  and external deformation (c)      GentleBoost is an improved AdaBoost algorithm, which  uses real valued features and it is faster than the convergence  of AdaBoost [28].  As a learner type, the decision tree technique was utilized.  A decision tree can efficiently infer a tree-like classifier model  from a labeled dataset, whose paths from root to leaf represent  classification rules [29].  The input feature vectors for classification problems include  environmental conditions parameters and force signal features:  â€¢ Environmental conditions parameters:ð�‘‡ð�‘‡, ð��¸ð��¸.  â€¢ Force signal features: ð��¹ð��¹ð�‘šð�‘šð�‘šð�‘šð�‘šð�‘š, ð��¹ð��¹ð�‘šð�‘šð�‘šð�‘šð�‘šð�‘šð�‘šð�‘š, ð��¹ð��¹ð�‘£ð�‘£ð�‘šð�‘šð�‘£ð�‘£, ð��¹ð��¹ð�‘ ð�‘ ð�‘ ð�‘ ð�‘šð�‘šð�‘ ð�‘ , ð��¹ð��¹ð�‘ ð�‘ ð�‘˜ð�‘˜ð�‘£ð�‘£ð�‘˜ð�‘˜.  The target vectors consist in a coded value associated to the  battery damage class according to the classification purpose as  follows:  â€¢ Three-class classification: A, B, C;  â€¢ Two-class classification, A+B, C.  6. Results and discussion  Fig. 7 shows the ensemble learning success rate (SR), i.e.  correct classifications rate, for battery cells collision damage  classification (Class A, B, C). The algorithm was configured  utilizing the following parameters:  â€¢ Ensemble learning method: RUSBoost  â€¢ Maximum number of splits:10  â€¢ Number of learners:10  â€¢ Learning rate :0.3  â€¢ Subspace dimension: 4  Table 3.Battery assessment method  The SR for this classification problem resulted equal to  86.1%, showing a very good classification performance for  class A and C. (87% and 93% respectively). The SR for class  B resulted sensibly lower (71%), mainly due to the small  number of class B samples resulted from the experiments.  Fig. 8 reports the ensemble learning success rate (SR) for  charge/discharge ability classification (Class A+B, C). The  algorithm was configured utilizing the following parameters:  â€¢ Ensemble learning method: GentleBoost  â€¢ Maximum number of splits:35  â€¢ Number of learners:30  â€¢ Learning rate :0.1  â€¢ Subspace dimension: 1  The overall SR resulted equal to 94.4% demonstrating a  great suitability of sensor signal features and ensemble learning  paradigm to perform pattern recognition tasks on battery cells  charge/discharge ability. Clearly, the two-class classification  problem is much simpler than the three-class one, for which  further investigation is needed, along with a wider  experimental dataset.  7. Conclusions and future work  An experimental campaign of collision tests was carried out  on LiCoO2 -18650 battery cells with the aim of collision  damage assessment.  Collision force signals were acquired, and a signal  processing procedure was applied to extract significant features.  Battery cells physical damages were verified and cells  performance was tested in order to verify the battery discharge  Fig. 6. Two voltage and current signal instances in discharge continuity  tests.  Instance 1 failed the test while instance 2 passed.   Fig. 7 Three-class classification confusion matrix  Fig. 8 Two-class classification confusion matrix   Case  State levels  Class Leakage Breakage Deformation Continuity Capacity internal  resistance  1 1 * * * * * C  2 * 1 * * * * C  3 0 0 * 1 * * C  4 0 0 * 0 1 1 C  5 0 0 1 0 0 1 B  6 0 0 1 0 1 0 B  7 0 0 1 0 0 0 A  8 0 0 0 0 0 1 B  9 0 0 0 0 1 0 B  This is a resupply of March 2023 as the template used in the publication of the original article contained errors. The content of the article has remained unaffected. 278 Alessandro Simeone  et al. / Procedia CIRP 78 (2018) 273â€“278   continuity and to measure the battery capacity and internal  resistance after the collision.  Signal features were grouped to build input feature vectors.  The feature vectors included experimental condition features  (collision interface type, theoretical initial collision energy)  and signal features (maximum value, mean, variance, skewness,  kurtosis).  Two different classification problems were set up,  consisting in a three-class (collision damage classification) and  a two-class (charge/discharge ability classification). These  battery class assessment methods were proposed by evaluation  of physical damage and electrical performance.  An ensemble learning paradigm was used for pattern  recognition on battery damage assessment via the  environmental conditions and collision signals.  Future work will involve, battery deformation and internal  failure mechanisms. More experimental variables will be  considered to characterize the battery damage, such as collision  velocity, temperature and humidity.   Acknowledgements  The authors wish to acknowledge that this research has been  supported by National Natural Science Foundation of China  (No. 51505269), the Sailing Talent Project and Pearl River  Scholar Project of Guangdong Province, China, and the  Science and Technologies Program (No: 2017B090922008) of  Guangdong Province, China for providing financial supports to  this research.  References  [1] Kumar MS, Revankar ST. Development scheme and key technology of  an electric vehicle: An overview. Renew Sustain Energy Rev Elsevier Ltd  2017; 70(July 2016):1266â€“85.  [2] Liang J, Li F, Cheng H. High-capacity lithium ion batteriesâ€¯: Bridging  future and current. Energy Storage Mater Elsevier 2016; 4:A1â€“2.  [3] Zubi G, Dufo-LÃ³pez R, Carvalho M, et al. The lithium-ion battery: State  of the art and future perspectives. Renew Sustain Energy Rev 2018;  89(April 2017):292â€“308.  [4] Shiqi O, Zhenhong L, Qi L, et al. The dual-credit policyï¼šQuantifying  the policy impact on plug-in electric vehicle sales and industry profits in  China. Energy Policy 2018; 121:597â€“610.  [5] Zhu J, Zhang X, Luo H, et al. Investigation of the deformation  mechanisms of lithium-ion battery components using in-situ micro tests.  Appl Energy Elsevier 2018; 224(April):251â€“66.  [6] Feng X, Ouyang M, Liu X, et al. Thermal runaway mechanism of lithium  ion battery for electric vehicles: A review. Energy Storage Mater Elsevier  B.V. 2018; 10(May 2017):246â€“67.  [7] PiÅ‚atowicz G, Marongiu A, Drillkens J, et al. A critical overview of  definitions and determination techniques of the internal resistance using  lithium-ion, lead-acid, nickel metal-hydride batteries and electrochemical  double-layer capacitors as examples. J Power Sources 2015; 296:365â€“76.  [8] Broussely M, Biensan P, Bonhomme F, et al. Main aging mechanisms in  Li ion batteries. Journal of Power Sources 2005[Online] 2005.  [9] Gao Y, Jiang J, Zhang C, et al. Lithium-ion battery aging mechanisms and  life model under different charging stresses. J Power Sources Elsevier  B.V 2017; 356:103â€“14.  [10] Hall F, Touzri J, WuÃŸler S, et al. Experimental investigation of the  thermal and cycling behavior of a lithium titanate-based lithium-ion  pouch cell. J Energy Storage Elsevier Ltd 2018; 17:109â€“17.  [11] Wang J, Purewal J, Liu P, et al. Degradation of lithium ion batteries  employing graphite negatives and nickel e cobalt e manganese oxide Ã¾  spinel manganese oxide positivesâ€¯: Part 1 , aging mechanisms and life  estimation. J Power Sources Elsevier B.V 2014; 269:937â€“48.  [12] Feng X, Sun J, Ouyang M, et al. Characterization of penetration induced  thermal runaway propagation process within a large format lithium ion  battery module. J Power Sources Elsevier B.V 2015; 275:261â€“73.  [13] Yuan Q, Zhao F, Wang W, et al. Overcharge failure investigation of  lithium-ion batteries. Electrochim Acta Elsevier Ltd 2015; 178:682â€“88.  [14] Ren D, Feng X, Lu L, et al. An electrochemical-thermal coupled  overcharge-to-thermal-runaway model for lithium ion battery. J Power  Sources Elsevier B.V 2017; 364:328â€“40.  [15] Song W, Chen M, Bai F, et al. Non-uniform effect on the thermal/aging  performance of Lithium-ion pouch battery. Appl Therm Eng Elsevier Ltd  2018; 128:1165â€“74.  [16] Ruiz V, Pfrang A, Kriston A, et al. A review of international abuse testing  standards and regulations for lithium ion batteries in electric and hybrid  electric vehicles. Renew Sustain Energy Rev Elsevier Ltd 2018; 81(April  2017):1427â€“52.  [17] Li J, Wang L, Lyu C, et al. Discharge capacity estimation for Li-ion  batteries based on particle filter under multi-operating conditions. Energy  Elsevier Ltd 2015; 86:638â€“48.  [18] An SJ, Li J, Daniel C, et al. The state of understanding of the lithium-ion- battery graphite solid electrolyte interphase (SEI) and its relationship to  formation cycling. Carbon 2016[Online] 2016.  [19] Xu J, Liu B, Hu D. State of Charge Dependent Mechanical Integrity  Behavior of 18650 Lithium-ion Batteries. Sci Rep 2016; 6.  [20] Segreto T, Simeone A, Teti R. Multiple sensor monitoring in nickel alloy  turning for tool wear assessment via sensor fusion. Procedia CIRP  2013[Online] 2013.  [21] Hong SH, Wang L, Truong TK. Low-complexity direct computation  algorithm for cubic-spline interpolation scheme. J Vis Commun Image  Represent Elsevier 2018; 50(August 2017):159â€“66.  [22] GB/T 31467.3-2015 Lithium-ion traction battery pack and system for  electric vehiclesâ€”â€”Part 3ï¼š Safety requirements and test methods.  2015[Online] 2015.  [23] GB/T 31485-2015 Safety requirements and test methods for traction  battery of electric vehicle. 2015[Online] 2015.  [24] Segreto T, Simeone A, Teti R. Principal component analysis for feature  extraction and NN pattern recognition in sensor monitoring of chip form  during turning. CIRP J Manuf Sci Technol CIRP 2014; 7(3):202â€“09.  [25] Li L, Hu Q, Wu X, et al. Exploration of classification confidence in  ensemble learning. Pattern Recognit 2014; 47(9):3120â€“31.  [26] Seiffert C, Khoshgoftaar TM, Hulse J Van, et al. RUSBoost: A hybrid  approach to alleviating class imbalance. IEEE Trans Syst Man, Cybern  Part ASystems Humans 2010; 40(1):185â€“97.  [27] Freund Y, Schapire RE. A Decision-Theoretic Generalization of On-Line  Learning and an Application to Boosting. J Comput Syst Sci 1997;  55(1):119â€“39.  [28] - JL, - CL, - ZZ. Head Gesture Recognition Based on LK Algorithm and  GentleBoost. Int J Adv Inf Sci Serv Sci 2012; 4(5):158â€“67.  [29] Wang L, Li Q, Yu Y, et al. Region compatibility based stability  assessment for decision trees. Expert Syst Appl Elsevier Ltd 2018;  105:112â€“28.   This is a resupply of March 2023 as the template used in the publication of the original article contained errors. The content of the article has remained unaffected. 96:365â€“76.  [8] Broussely M, Biensan P, Bonhomme F, et al. Main aging mechanisms in  Li ion batteries. Journal of Power Sources 2005[Online] 2005.  [9] Gao Y, Jiang J, Zhang C, et al. Lithium-ion battery aging mechanisms and  life model under different charging stresses. J Power Sources Elsevier  B.V 2017; 356:103â€“14.  [10] Hall F, Touzri J, WuÃŸler S, et al. Experimental investigation of the  thermal and cycling behavior of a lithium titanate-based lithium-ion  pouch cell. J Energy Storage Elsevier Ltd 2018; 17:109â€“17.  [11] Wang J, Purewal J, Liu P, et al. Degradation of lithium ion batteries  employing graphite negatives and nickel e cobalt e manganese oxide Ã¾  spinel manganese oxide positivesâ€¯: Part 1 , aging mechanisms and life  estimation. J Power Sources Elsevier B.V 2014; 269:937â€“48.  [12] Feng X, Sun J, Ouyang M, et al. Characterization of penetration induced  thermal runaway propagation process within a large format lithium ion  battery module. J Power Sources Elsevier B.V 2015; 275:261â€“73.  [13] Yuan Q, Zhao F, Wang W, et al. Overcharge failure investigation of  lithium-ion batteries. Electrochim Acta Elsevier Ltd 2015; 178:682â€“88.  [14] Ren D, Feng X, Lu L, et al. An electrochemical-thermal coupled  overcharge-to-thermal-runaway model for lithium ion battery. J Power  Sources Elsevier B.V 2017; 364:328â€“40.  [15] Song W, Chen M, Bai F, et al. Non-uniform effect on the thermal/aging  performance of Lithium-ion pouch battery. Appl Therm Eng Elsevier Ltd  2018; 128:1165â€“74.  [16] Ruiz V, Pfrang A, Kriston A, et al. A review of international abuse testing  standards and regulations for lithium ion batteries in electric and hybrid  electric vehicles. Renew Sustain Energy Rev Elsevier Ltd 2018; 81(April  2017):1427â€“52.  [17] Li J, Wang L, Lyu C, et al. Discharge capacity estimation for Li-ion  batteries based on particle filter under multi-operating conditions. Energy  Elsevier Ltd 2015; 86:638â€“48.  [18] An SJ, Li J, Daniel C, et al. The state of understanding of </xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.5" xml:lang="en" docsubtype="fla">
+         <item-info>
+            <jid>PROCIR</jid>
+            <aid>395266</aid>
+            <ce:pii>S2212-8271(18)31267-8</ce:pii>
+            <ce:doi>10.1016/j.procir.2018.09.073</ce:doi>
+            <ce:copyright type="unknown" year="2018"/>
+         </item-info>
+         <head>
+            <ce:title id="tte0001">Collision damage assessment in lithium-ion battery cells via sensor monitoring and ensemble learning</ce:title>
+            <ce:author-group id="aug0001">
+               <ce:author id="au0514" author-id="S2212827118312678-de115a07de66475008e0cbf3528c8cd2">
+                  <ce:given-name>Alessandro</ce:given-name>
+                  <ce:surname>Simeone</ce:surname>
+                  <ce:cross-ref id="cecref0559" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="cecref0560" refid="aff0002">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0515" author-id="S2212827118312678-290288eb5d81866ba1b57824fa339c39">
+                  <ce:given-name>Dian</ce:given-name>
+                  <ce:surname>Lv</ce:surname>
+                  <ce:cross-ref id="cecref0561" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0516" author-id="S2212827118312678-db32064c56c0f43a1c2d7006c0bbad46">
+                  <ce:given-name>Xiang Yang</ce:given-name>
+                  <ce:surname>Liu</ce:surname>
+                  <ce:cross-ref id="cecref0562" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0517" author-id="S2212827118312678-62114f3fc3878a1659d44527f38ccf3b">
+                  <ce:given-name>Jian</ce:given-name>
+                  <ce:surname>Zhang</ce:surname>
+                  <ce:cross-ref id="cecref0563" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="cecref0564" refid="aff0002">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:affiliation id="aff0001" affiliation-id="S2212827118312678-775f64f04eed84ec00c359e2d5f7887e">
+                  <ce:label>a</ce:label>
+                  <ce:textfn id="cetextfn0001">Intelligent Manufacturing Key Laboratory of Ministry of Education, Shantou University, Shantou, 515063, China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Intelligent Manufacturing Key Laboratory of Ministry of Education</sa:organization>
+                     <sa:organization>Shantou University</sa:organization>
+                     <sa:city>Shantou</sa:city>
+                     <sa:postal-code>515063</sa:postal-code>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff0002" affiliation-id="S2212827118312678-64c1d7a01b97bdfc177da11fc3cd4a76">
+                  <ce:label>b</ce:label>
+                  <ce:textfn id="cetextfn0002">Shantou Institute for Light Industrial Equipment Research, Shantou University, Shantou, 515063, China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Shantou Institute for Light Industrial Equipment Research</sa:organization>
+                     <sa:organization>Shantou University</sa:organization>
+                     <sa:city>Shantou</sa:city>
+                     <sa:postal-code>515063</sa:postal-code>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+            </ce:author-group>
+            <ce:abstract id="abs0001" view="all" class="author"><ce:abstract-sec id="abss0001" view="all">
+                  <ce:simple-para id="spara0158" view="all">The safety of lithium ion batteries (LIBs) is an important issue in electric vehicle industry. Collision damage characterization is an essential aspect of the overall safety assessment of electric vehicle LIBs. Although immediate consequences may not appear evident, battery cells long-term safety and performance can be seriously affected by damages resulting from collisions, leading to dangerous failures. In this paper, a framework and associated methodology for battery cells collision damage assessment is proposed. An experimental rig was designed and built for the realization of a collision tests campaign. During such tests a number of sensor signals were collected and processed to extract significant features. The collision damages were then characterized in terms of physical inspection and electrical performances. An ensemble learning based pattern recognition decision making support system was setup by inputting environmental conditions parameters and sensor signal features to assess the collision damage class and the charge/discharge ability. Classification results are discussed and hints for future developments are proposed.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="keys0001" view="all" class="keyword">
+               <ce:section-title id="cesectitle0002">Keywords</ce:section-title>
+               <ce:keyword id="key0626">
+                  <ce:text id="cetext0626">lithium-ion battery</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0627">
+                  <ce:text id="cetext0627">collision safety</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0628">
+                  <ce:text id="cetext0628">sensors</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0629">
+                  <ce:text id="cetext0629">ensemble learning</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <tail view="all">
+            <ce:bibliography id="cebibsec1" view="all">
+               <ce:section-title id="cesectitle0003">Reference</ce:section-title>
+               <ce:bibliography-sec id="cebibsec2" view="all">
+                  <ce:bib-reference id="bib0001">
+                     <ce:label>1</ce:label>
+                     <sb:reference id="sbref0001">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Kumar</ce:surname>
+                                 <ce:given-name>MS</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Revankar</ce:surname>
+                                 <ce:given-name>ST</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Development scheme and key technology of an electric vehicle: An overview</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Renew Sustain Energy Rev Elsevier Ltd</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>70</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>July 2016</sb:issue-nr>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1266</sb:first-page>
+                              <sb:last-page>1285</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0002">
+                     <ce:label>2</ce:label>
+                     <sb:reference id="sbref0002">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Liang</ce:surname>
+                                 <ce:given-name>J</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Li</ce:surname>
+                                 <ce:given-name>F</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Cheng</ce:surname>
+                                 <ce:given-name>H</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>High-capacity lithium ion batteries : Bridging future and current</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy Storage Mater Elsevier</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>4</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                        <sb:comment>A1–2</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0003">
+                     <ce:label>3</ce:label>
+                     <sb:reference id="sbref0003">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Zubi</ce:surname>
+                                 <ce:given-name>G</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Dufo-López</ce:surname>
+                                 <ce:given-name>R</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Carvalho</ce:surname>
+                                 <ce:given-name>M</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The lithium-ion battery: State of the art and future perspectives</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Renew Sustain Energy Rev</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>89</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>April 2017</sb:issue-nr>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>292</sb:first-page>
+                              <sb:last-page>308</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0004">
+                     <ce:label>4</ce:label>
+                     <sb:reference id="sbref0004">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Shiqi</ce:surname>
+                                 <ce:given-name>O</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Zhenhong</ce:surname>
+                                 <ce:given-name>L</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Qi</ce:surname>
+                                 <ce:given-name>L</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The dual-credit policy：Quantifying the policy impact on plug-in electric vehicle sales and industry proﬁts in China</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy Policy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>121</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>597</sb:first-page>
+                              <sb:last-page>610</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0005">
+                     <ce:label>5</ce:label>
+                     <sb:reference id="sbref0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Zhu</ce:surname>
+                                 <ce:given-name>J</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Zhang</ce:surname>
+                                 <ce:given-name>X</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Luo</ce:surname>
+                                 <ce:given-name>H</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Investigation of the deformation mechanisms of lithium-ion battery components using in-situ micro tests</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl Energy Elsevier</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>224</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>April</sb:issue-nr>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>251</sb:first-page>
+                              <sb:last-page>266</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0006">
+                     <ce:label>6</ce:label>
+                     <sb:reference id="sbref0006">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Feng</ce:surname>
+                                 <ce:given-name>X</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Ouyang</ce:surname>
+                                 <ce:given-name>M</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Liu</ce:surname>
+                                 <ce:given-name>X</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Thermal runaway mechanism of lithium ion battery for electric vehicles: A review</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy Storage Mater Elsevier B.V.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>10</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>May 2017</sb:issue-nr>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>246</sb:first-page>
+                              <sb:last-page>267</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0007">
+                     <ce:label>7</ce:label>
+                     <sb:reference id="sbref0007">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G</ce:given-name>
+                                 <ce:surname>Piłatowicz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Marongiu</ce:surname>
+                                 <ce:given-name>A</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Drillkens</ce:surname>
+                                 <ce:given-name>J</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A critical overview of definitions and determination techniques of the internal resistance using lithium-ion</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>lead-acid, nickel metal-hydride batteries and electrochemical double-layer capacitors as examples. J Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>296</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>365</sb:first-page>
+                              <sb:last-page>376</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0008">
+                     <ce:label>8</ce:label>
+                     <sb:reference id="sbref0008">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Broussely</ce:surname>
+                                 <ce:given-name>M</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Biensan</ce:surname>
+                                 <ce:given-name>P</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Bonhomme</ce:surname>
+                                 <ce:given-name>F</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Main aging mechanisms in Li ion batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                              </sb:series>
+                              <sb:date>2005</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                        <sb:comment>[Online] 2005.</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0009">
+                     <ce:label>9</ce:label>
+                     <sb:reference id="sbref0009">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Gao</ce:surname>
+                                 <ce:given-name>Y</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Jiang</ce:surname>
+                                 <ce:given-name>J</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Zhang</ce:surname>
+                                 <ce:given-name>C</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Lithium-ion battery aging mechanisms and life model under different charging stresses</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Power Sources Elsevier B.V</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>356</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>103</sb:first-page>
+                              <sb:last-page>114</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00010">
+                     <ce:label>10</ce:label>
+                     <sb:reference id="sbref00010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Hall</ce:surname>
+                                 <ce:given-name>F</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Touzri</ce:surname>
+                                 <ce:given-name>J</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Wußler</ce:surname>
+                                 <ce:given-name>S</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Experimental investigation of the thermal and cycling behavior of a lithium titanate-based lithium-ion pouch cell</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Energy Storage Elsevier Ltd</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>17</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>109</sb:first-page>
+                              <sb:last-page>117</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00011">
+                     <ce:label>11</ce:label>
+                     <sb:reference id="sbref00011">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Wang</ce:surname>
+                                 <ce:given-name>J</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Purewal</ce:surname>
+                                 <ce:given-name>J</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Liu</ce:surname>
+                                 <ce:given-name>P</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Degradation of lithium ion batteries employing graphite negatives and nickel e cobalt e manganese oxide þ spinel manganese oxide positives : Part 1, aging mechanisms and life estimation</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Power Sources Elsevier B.V</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>269</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>937</sb:first-page>
+                              <sb:last-page>948</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00012">
+                     <ce:label>12</ce:label>
+                     <sb:reference id="sbref00012">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Feng</ce:surname>
+                                 <ce:given-name>X</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Sun</ce:surname>
+                                 <ce:given-name>J</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Ouyang</ce:surname>
+                                 <ce:given-name>M</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Characterization of penetration induced thermal runaway propagation process within a large format lithium ion battery module</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Power Sources Elsevier B.V</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>275</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>261</sb:first-page>
+                              <sb:last-page>273</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00013">
+                     <ce:label>13</ce:label>
+                     <sb:reference id="sbref00013">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Yuan</ce:surname>
+                                 <ce:given-name>Q</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Zhao</ce:surname>
+                                 <ce:given-name>F</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Wang</ce:surname>
+                                 <ce:given-name>W</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Overcharge failure investigation of lithium-ion batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochim Acta Elsevier Ltd</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>178</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>682</sb:first-page>
+                              <sb:last-page>688</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00014">
+                     <ce:label>14</ce:label>
+                     <sb:reference id="sbref00014">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Ren</ce:surname>
+                                 <ce:given-name>D</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Feng</ce:surname>
+                                 <ce:given-name>X</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Lu</ce:surname>
+                                 <ce:given-name>L</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>An electrochemical-thermal coupled overcharge-to-thermal-runaway model for lithium ion battery</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Power Sources Elsevier B.V</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>364</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>328</sb:first-page>
+                              <sb:last-page>340</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00015">
+                     <ce:label>15</ce:label>
+                     <sb:reference id="sbref00015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Song</ce:surname>
+                                 <ce:given-name>W</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Chen</ce:surname>
+                                 <ce:given-name>M</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Bai</ce:surname>
+                                 <ce:given-name>F</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Non-uniform effect on the thermal/aging performance of Lithium-ion pouch battery</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl Therm Eng Elsevier Ltd</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>128</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1165</sb:first-page>
+                              <sb:last-page>1174</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00016">
+                     <ce:label>16</ce:label>
+                     <sb:reference id="sbref00016">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Ruiz</ce:surname>
+                                 <ce:given-name>V</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Pfrang</ce:surname>
+                                 <ce:given-name>A</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Kriston</ce:surname>
+                                 <ce:given-name>A</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A review of international abuse testing standards and regulations for lithium ion batteries in electric and hybrid electric vehicles</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Renew Sustain Energy Rev Elsevier Ltd</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>81</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>April 2017</sb:issue-nr>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1427</sb:first-page>
+                              <sb:last-page>1452</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00017">
+                     <ce:label>17</ce:label>
+                     <sb:reference id="sbref00017">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Li</ce:surname>
+                                 <ce:given-name>J</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Wang</ce:surname>
+                                 <ce:given-name>L</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Lyu</ce:surname>
+                                 <ce:given-name>C</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Discharge capacity estimation for Li-ion batteries based on particle filter under multi-operating conditions</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy Elsevier Ltd</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>86</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>638</sb:first-page>
+                              <sb:last-page>648</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00018">
+                     <ce:label>18</ce:label>
+                     <sb:reference id="sbref00018">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>An</ce:surname>
+                                 <ce:given-name>SJ</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Li</ce:surname>
+                                 <ce:given-name>J</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Daniel</ce:surname>
+                                 <ce:given-name>C</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The state of understanding of the lithium-ion-battery graphite solid electrolyte interphase (SEI) and its relationship to formation cycling</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Carbon</sb:maintitle>
+                                 </sb:title>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                        <sb:comment>[Online] 2016.</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00019">
+                     <ce:label>19</ce:label>
+                     <sb:reference id="sbref00019">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Xu</ce:surname>
+                                 <ce:given-name>J</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Liu</ce:surname>
+                                 <ce:given-name>B</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Hu</ce:surname>
+                                 <ce:given-name>D</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>State of Charge Dependent Mechanical Integrity Behavior of 18650 Lithium-ion Batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Sci Rep</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>6</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00020">
+                     <ce:label>20</ce:label>
+                     <sb:reference id="sbref00020">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Segreto</ce:surname>
+                                 <ce:given-name>T</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Simeone</ce:surname>
+                                 <ce:given-name>A</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Teti</ce:surname>
+                                 <ce:given-name>R</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Multiple sensor monitoring in nickel alloy turning for tool wear assessment via sensor fusion</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Procedia CIRP</sb:maintitle>
+                                 </sb:title>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                        <sb:comment>[Online] 2013.</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00021">
+                     <ce:label>21</ce:label>
+                     <sb:reference id="sbref00021">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Hong</ce:surname>
+                                 <ce:given-name>SH</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Wang</ce:surname>
+                                 <ce:given-name>L</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Truong</ce:surname>
+                                 <ce:given-name>TK</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Low-complexity direct computation algorithm for cubic-spline interpolation scheme</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Vis Commun Image Represent Elsevier</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>50</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>August 2017</sb:issue-nr>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>159</sb:first-page>
+                              <sb:last-page>166</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00022">
+                     <ce:label>22</ce:label>
+                     <ce:other-ref id="oref00022">
+                        <ce:textref>GB/T 31467.3-2015 Lithium-ion traction battery pack and system for electric vehicles——Part 3：Safety requirements and test methods. 2015[Online] 2015.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00023">
+                     <ce:label>23</ce:label>
+                     <ce:other-ref id="oref00023">
+                        <ce:textref>GB/T 31485-2015 Safety requirements and test methods for traction battery of electric vehicle. 2015[Online] 2015.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00024">
+                     <ce:label>24</ce:label>
+                     <sb:reference id="sbref00024">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Segreto</ce:surname>
+                                 <ce:given-name>T</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Simeone</ce:surname>
+                                 <ce:given-name>A</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Teti</ce:surname>
+                                 <ce:given-name>R</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Principal component analysis for feature extraction and NN pattern recognition in sensor monitoring of chip form during turning</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>CIRP J Manuf Sci Technol CIRP</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>7</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>3</sb:issue-nr>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>202</sb:first-page>
+                              <sb:last-page>209</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00025">
+                     <ce:label>25</ce:label>
+                     <sb:reference id="sbref00025">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Li</ce:surname>
+                                 <ce:given-name>L</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Hu</ce:surname>
+                                 <ce:given-name>Q</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Wu</ce:surname>
+                                 <ce:given-name>X</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Exploration of classification confidence in ensemble learning</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Pattern Recognit</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>47</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>9</sb:issue-nr>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3120</sb:first-page>
+                              <sb:last-page>3131</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00026">
+                     <ce:label>26</ce:label>
+                     <sb:reference id="sbref00026">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Seiffert</ce:surname>
+                                 <ce:given-name>C</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Khoshgoftaar</ce:surname>
+                                 <ce:given-name>TM</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Van Hulse</ce:surname>
+                                 <ce:given-name>J</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>RUSBoost: A hybrid approach to alleviating class imbalance</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans Syst Man, Cybern Part ASystems Humans</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>40</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>1</sb:issue-nr>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>185</sb:first-page>
+                              <sb:last-page>197</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00027">
+                     <ce:label>27</ce:label>
+                     <sb:reference id="sbref00027">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Freund</ce:surname>
+                                 <ce:given-name>Y</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Schapire</ce:surname>
+                                 <ce:given-name>RE</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Comput Syst Sci</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>55</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>1</sb:issue-nr>
+                              <sb:date>1997</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>119</sb:first-page>
+                              <sb:last-page>139</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00028">
+                     <ce:label>28</ce:label>
+                     <sb:reference id="sbref00028">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>CL</ce:given-name>
+                                 <ce:surname>JL</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>ZZ</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Head Gesture Recognition Based on LK Algorithm and GentleBoost</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Int J Adv Inf Sci Serv Sci</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>4</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>5</sb:issue-nr>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>158</sb:first-page>
+                              <sb:last-page>167</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00029">
+                     <ce:label>29</ce:label>
+                     <sb:reference id="sbref00029">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Wang</ce:surname>
+                                 <ce:given-name>L</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Li</ce:surname>
+                                 <ce:given-name>Q</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Yu</ce:surname>
+                                 <ce:given-name>Y</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Region compatibility based stability assessment for decision trees</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Expert Syst Appl Elsevier Ltd</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>105</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>112</sb:first-page>
+                              <sb:last-page>128</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

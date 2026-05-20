@@ -1,0 +1,2014 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S145239812302655X</prism:url><dc:identifier>doi:10.20964/2022.11.07</dc:identifier><eid>1-s2.0-S145239812302655X</eid><prism:doi>10.20964/2022.11.07</prism:doi><pii>S1452-3981(23)02655-X</pii><dc:title>State of Health Estimation Based on GAN-LSTM-TL for Lithium-ion Batteries </dc:title><prism:publicationName>International Journal of Electrochemical Science</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>14523981</prism:issn><prism:volume>17</prism:volume><prism:issueIdentifier>11</prism:issueIdentifier><prism:startingPage>221128</prism:startingPage><prism:pageRange>221128</prism:pageRange><prism:number>11</prism:number><articleNumber>221128</articleNumber><dc:format>text/xml</dc:format><prism:coverDate>2022-11-30</prism:coverDate><prism:coverDisplayDate>November 2022</prism:coverDisplayDate><prism:copyright>Copyright © 2022 The Authors. Published by ESG. Published by Elsevier B.V.</prism:copyright><prism:publisher>The Authors. Published by ESG. Published by Elsevier B.V.</prism:publisher><dc:creator>Yang, Guangyi</dc:creator><dc:creator>Ma, Qianhui</dc:creator><dc:creator>Sun, Hao</dc:creator><dc:creator>Zhang, Xiaoyu</dc:creator><dc:description>
+                  The state of health (SOH) is a critical parameter for characterizing the current state of a lithium-ion battery. In recent years, SOH estimation methods that employ machine learning and deep learning have invariably been the research hotspots for researchers in recent years. In the previous work paper, a battery SOH online estimation method based on GAN-LSTM algorithm was proposed to overcome the defects such as a large amount of computation and long-time consumption for prediction and to find a prediction method suitable for the time series data characteristics of lithium-ion batteries. Among the work, generative adversarial networks (GAN) are used to process the corresponding feature data and 30% of the dataset is selected to generate the dataset used for training. A long short-term memory (LSTM) network is used to learn the mapping relations between features and SOH. Transfer learning (TL) is utilized to enhance the adaptability of the LSTM network and achieve accurate SOH estimation by solving training and test problems between datasets of various lithium-ion batteries. The NASA battery sample dataset and the battery cycle aging test experimental dataset of the Advanced Life Cycle Engineering Center of the University of Maryland are used for experimental verification. The analysis of experimental results demonstrates that the model boasts pinpoint accuracy and incredible adaptability across multiple datasets.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>Author</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>Lithium-ion battery</dcterms:subject><dcterms:subject>State-of-Health (SOH)</dcterms:subject><dcterms:subject>Long short-term memory (LSTM)</dcterms:subject><dcterms:subject>Generative adversarial networks (GAN)</dcterms:subject><dcterms:subject>Transfer learning (TL)</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S145239812302655X" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S145239812302655X" rel="scidir"/></coredata><scopus-id>85140641499</scopus-id><scopus-eid>2-s2.0-85140641499</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85140641499" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>783334</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291802</xocs:ssid>
+         <xocs:ssid type="subj">291865</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>International Journal of Electrochemical Science</xocs:srctitle>
+      <xocs:normalized-srctitle>INTERNATIONALJOURNALELECTROCHEMICALSCIENCE</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20230617">2023-06-17</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20230617">2023-06-17</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20230617">2023-06-17</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20230617">2023-06-17</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2023-06-17T13:34:47</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S145239812302655X</xocs:eid>
+      <xocs:pii-formatted>S1452-3981(23)02655-X</xocs:pii-formatted>
+      <xocs:pii-unformatted>S145239812302655X</xocs:pii-unformatted>
+      <xocs:doi>10.20964/2022.11.07</xocs:doi>
+      <xocs:item-stage>S350</xocs:item-stage>
+      <xocs:item-version-number>S350.1</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1452398122X89001</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20230617">2023-06-17T13:04:39.073506Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20221101</xocs:date-search-begin>
+      <xocs:date-search-end>20221130</xocs:date-search-end>
+      <xocs:year-nav>2022</xocs:year-nav>
+      <xocs:indexeddate epoch="1687010679">2023-06-17T14:04:39.073506Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issfirst issn issnnorm issuelist itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content oa subj tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authkeywords authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1452-3981</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>14523981</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>17</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>17</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>11</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>11</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 17, Issue 11</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>28</xocs:sort-order>
+      <xocs:first-fp>221128</xocs:first-fp>
+      <xocs:article-number>221128</xocs:article-number>
+      <xocs:pages>
+         <xocs:first-page>221128</xocs:first-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>202211</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>November 2022</xocs:cover-date-text>
+      <xocs:cover-date-start>2022-11-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2022-11-30</xocs:cover-date-end>
+      <xocs:cover-date-year>2022</xocs:cover-date-year>
+      <xocs:document-type>simple-article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 2022 The Authors. Published by ESG. Published by Elsevier B.V.</xocs:copyright-line>
+      <xocs:normalized-article-title>STATEHEALTHESTIMATIONBASEDGANLSTMTLFORLITHIUMIONBATTERIES</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>YANG</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>G</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="rf0005">
+            <xocs:ref-normalized-surname>CALIWAG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>59680</xocs:ref-first-fp>
+            <xocs:ref-last-lp>59689</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0010">
+            <xocs:ref-normalized-surname>SHU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0015">
+            <xocs:ref-normalized-surname>SI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1336</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1341</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>ISIE2020DELFT</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0020">
+            <xocs:ref-normalized-surname>HU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2645</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2656</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0025">
+            <xocs:ref-normalized-surname>GUHA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>135</xocs:ref-first-fp>
+            <xocs:ref-last-lp>146</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0030">
+            <xocs:ref-normalized-surname>KIM</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1971</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1976</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>ISIE2019VANCOUVER</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0035">
+            <xocs:ref-normalized-surname>PAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-last-lp>15</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0040">
+            <xocs:ref-normalized-surname>YANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-article-number>140241</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0045">
+            <xocs:ref-normalized-surname>A</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-article-number>100156</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0050">
+            <xocs:ref-normalized-surname>ROSSI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3404</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0055">
+            <xocs:ref-normalized-surname>XU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2534</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0060">
+            <xocs:ref-normalized-surname>SELVABHARATHI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-article-number>2250081</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0065">
+            <xocs:ref-normalized-surname>JO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-first-fp>7206</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0070">
+            <xocs:ref-normalized-surname>ZHOU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>IECON2021</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0075">
+            <xocs:ref-normalized-surname>LI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-article-number>693249</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0080">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>CCDC2020</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0085">
+            <xocs:ref-normalized-surname>LIU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>Q</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>ICPSASIA2020</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0090">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-first-fp>13</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0095">
+            <xocs:ref-normalized-surname>DAS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0100">
+            <xocs:ref-normalized-surname>JAVAID</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0105">
+            <xocs:ref-normalized-surname>LI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-article-number>119120</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0110">
+            <xocs:ref-normalized-surname>BAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4399</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0115">
+            <xocs:ref-normalized-surname>CADINI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>661</xocs:ref-first-fp>
+            <xocs:ref-last-lp>672</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0120">
+            <xocs:ref-normalized-surname>WEI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>10314</xocs:ref-first-fp>
+            <xocs:ref-last-lp>10321</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0125">
+            <xocs:ref-normalized-surname>XING</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>811</xocs:ref-first-fp>
+            <xocs:ref-last-lp>820</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0130">
+            <xocs:ref-normalized-surname>YU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-last-lp>20</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0135">
+            <xocs:ref-normalized-surname>RADFORD</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>ICLR2016</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0140">
+            <xocs:ref-normalized-surname>GERS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1999</xocs:ref-pub-year>
+            <xocs:ref-first-fp>850</xocs:ref-first-fp>
+            <xocs:ref-last-lp>855</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0145">
+            <xocs:ref-normalized-surname>KINGMA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>6980</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0150">
+            <xocs:ref-normalized-surname>GUO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>CVPR2019</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0155">
+            <xocs:ref-normalized-surname>FU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-last-lp>17</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0160">
+            <xocs:ref-normalized-surname>SHU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0165">
+            <xocs:ref-normalized-surname>SONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>IMCOM2021</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0170">
+            <xocs:ref-normalized-surname>YAYAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-last-lp>19</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>U</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0175">
+            <xocs:ref-normalized-surname>TAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>8723</xocs:ref-first-fp>
+            <xocs:ref-last-lp>8731</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>YANGX2022X221128</xocs:refkey3>
+         <xocs:refkey4ai>YANGX2022X221128XG</xocs:refkey4ai>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2023-06-15T09:31:04Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>Author</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/1452-3981_UNBOUNDED_Author">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:article-sharing-framework/>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1452-3981(23)02655-X</xocs:pii-formatted>
+         <xocs:pii-unformatted>S145239812302655X</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S145239812302655X</xocs:eid>
+         <xocs:doi>10.20964/2022.11.07</xocs:doi>
+         <xocs:cid>783334</xocs:cid>
+         <xocs:timestamp>2023-06-17T13:04:39.073506Z</xocs:timestamp>
+         <xocs:cover-date-start>2022-11-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2022-11-30</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S145239812302655X-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S145239812302655X/MAIN/application/pdf/2a5c75124460fb360a0e85b3f54ecef5/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>1763953</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>20</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S145239812302655X-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S145239812302655X/PREVIEW/image/png/e5b9cc5eed443bd3eea1b5559b73942b/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>61712</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">State of Health Estimation Based on GAN-LSTM-TL for Lithium-ion Batteries Guangyi Yang, 1 Qianhui Ma, 2 ma_qianhui0407@163.com Hao Sun, 3 Xiaoyu Zhang, 3 1 Engineering Research Center, Ministry of Education of Automotive Electronics Drive Control and System Integration, Harbin University of Science &amp; Technology, Harbin, China Engineering Research Center Ministry of Education of Automotive Electronics Drive Control and System Integration Harbin University of Science &amp; Technology Harbin China Engineering Research Center, Ministry of Education of Automotive Electronics Drive Control and System Integration, Harbin University of Science &amp; Technology, Harbin, China 2 School of Electrical and Electronic Engineering, Harbin University of Science &amp; Technology, Harbin, China School of Electrical and Electronic Engineering Harbin University of Science &amp; Technology Harbin China School of Electrical and Electronic Engineering, Harbin University of Science &amp; Technology, Harbin, China 3 The College of Artificial Intelligence, Nankai University, Tianjin, China The College of Artificial Intelligence Nankai University Tianjin China The College of Artificial Intelligence, Nankai University, Tianjin, China   The state of health (SOH) is a critical parameter for characterizing the current state of a lithium-ion battery. In recent years, SOH estimation methods that employ machine learning and deep learning have invariably been the research hotspots for researchers in recent years. In the previous work paper, a battery SOH online estimation method based on GAN-LSTM algorithm was proposed to overcome the defects such as a large amount of computation and long-time consumption for prediction and to find a prediction method suitable for the time series data characteristics of lithium-ion batteries. Among the work, generative adversarial networks (GAN) are used to process the corresponding feature data and 30% of the dataset is selected to generate the dataset used for training. A long short-term memory (LSTM) network is used to learn the mapping relations between features and SOH. Transfer learning (TL) is utilized to enhance the adaptability of the LSTM network and achieve accurate SOH estimation by solving training and test problems between datasets of various lithium-ion batteries. The NASA battery sample dataset and the battery cycle aging test experimental dataset of the Advanced Life Cycle Engineering Center of the University of Maryland are used for experimental verification. The analysis of experimental results demonstrates that the model boasts pinpoint accuracy and incredible adaptability across multiple datasets. Keywords Lithium-ion battery State-of-Health (SOH) Long short-term memory (LSTM) Generative adversarial networks (GAN) Transfer learning (TL)   References 1. A.C. Caliwag, W. Lim, IEEE Access 7: (2019) 59680-59689 https://doi.org/10.1109/ACCESS.2019.2914188 A.C. Caliwag and W. Lim, IEEE Access, 7(2019)59680-59689. https://doi.org/10.1109/ACCESS.2019.2914188 2. X. Shu, J. Shen, G. Li, Y. Zhang, Y. Liu, IEEE T Transp Electr 99: (2021) 1-https://doi.org/10.1016/j.isci.2021.103265 X. Shu, J. Shen, G. Li, Y. Zhang and Y. Liu, IEEE T Transp Electr, 99(2021)1. https://doi.org/10.1016/j.isci.2021.103265 3. J.K. Si, S.H. Kim, H.M. Lee, S.H. Lim, Y.J. Shin, ISIE 2020, Delft Netherlands (2020) 1336-1341 https://doi.org/10.1109/ISIE45063.2020.9152544 JK. Si, SH. Kim, HM. Lee, SH. Lim and YJ. Shin, ISIE 2020, Delft, Netherlands, 2020, 1336-1341. https://doi.org/10.1109/ISIE45063.2020.9152544 4. X. Hu, J. Jiang, D. Cao, E. Bo, IEEE T Ind Electron 63: (2016) 2645-2656 https://doi.org/10.1109/TIE.2015.2461523 X. Hu, J. Jiang, D. Cao, and E. Bo, IEEE T Ind Electron, 63(2016)2645-2656. https://doi.org/10.1109/TIE.2015.2461523 5. A. Guha, A. Patra, IEEE T Transp Electr 4: (2018) 135-146 https://doi.org/10.1109/TTE.2017.2776558 A. Guha and A. Patra, IEEE T Transp Electr, 4(2018)135-146. https://doi.org/10.1109/TTE.2017.2776558 6. S.H. Kim, H.M. Lee, G.Y. Kwon, I. Park, Y.J. Shin, ISIE 2019, Vancouver Bc, Canada (2019) 1971-1976 https://doi.org/10.1109/ISIE.2019.8781285 SH. Kim, HM. Lee, GY. Kwon, I. Park and YJ. Shin, ISIE 2019, Vancouver, Bc, Canada, 2019, 1971-1976. http://dx.doi.org/10.1109/ISIE.2019.8781285 7. H. Pan, C. Chen, M. Gu, ENERGIES 15: (2022) 1-15 https://doi.org/10.3390/en15155686 H. Pan, C. Chen, M. Gu, ENERGIES, 15(2022)1-15. https://doi.org/10.3390/en15155686 8. X. Yang, S. Wang, W. Xu, J. Qiao, C. Yu, P. Takyi-Aninakwa, S. Jin, Electrochim Acta 415: (2022) 140241 https://doi.org/10.1016/j.electacta.2022.140241 X. Yang, S. Wang, W. Xu, J. Qiao, C. Yu, P. Takyi-Aninakwa and S. Jin, Electrochim Acta, 415(2022)140241. https://doi.org/10.1016/j.electacta.2022.140241 9. X.L. A, C.Y. B, Z.W. C, J.H. D, S.Y. B, Etransportation 11: (2022) 100156 https://doi.org/10.1016/j.etran.2022.100156 XL. A, CY. B, ZW. C, JH. D,SY. B, Etransportation, 11(2022)100156. https://doi.org/10.1016/j.etran.2022.100156 10. C. Rossi, C. Falcomer, L. Biondani, D. Pontara, Energies 15: (2022) 3404-https://doi.org/10.3390/en15093404 C. Rossi, C. Falcomer, L. Biondani and D. Pontara, Energies, 15(2022)3404. https://doi.org/10.3390/en15093404 11. Y. Xu, H. Shu, H. Qin, X. Wu, J. Peng, C. Jiang, Z. Xia, Y. Wang, X. Li, Energies 15: (2022) 2534-https://doi.org/10.3390/en15072534 Y. Xu, H. Shu, H. Qin, X. Wu, J. Peng, C. Jiang, Z. Xia, Y. Wang and X. Li, Energies, 15(2022)2534. https://doi.org/10.3390/en15072534 12. D. Selvabharathi, N. Muruganantham, J Circuit Syst Comp 31: (2022) 2250081 https://doi.org/10.1142/S0218126622500815 D. Selvabharathi and N. Muruganantham, J Circuit Syst Comp, 31(2022)2250081. https://doi.org/10.1142/S0218126622500815 13. S. Jo, S. Jung, T. Roh, Energies 14: (2021) 7206-https://doi.org/10.3390/en14217206 S. Jo, S. Jung and T. Roh, Energies, 14(2021)7206. https://doi.org/10.3390/en14217206 14. K.Q. Zhou, Y. Qin, B.P.L. Lau, C. Yuen, S. Adams, IECON 2021 Toronto, CANADA (2021) https://doi.org/10.48550/arXiv.2109.13448 K. Q. Zhou, Y. Qin, B. P. L. Lau, C. Yuen and S. Adams, IECON 2021, Toronto, CANADA, 2021. https://doi.org/10.48550/arXiv.2109.13448 15. R. Li, W. Li, H. Zhang, Y. Zhou, W. Tian, Front Energy Res 9: (2021) 693249 https://doi.org/10.3389/fenrg.2021.693249 R. Li, W. Li, H. Zhang, Y. Zhou and W. Tian, Front Energy Res, 9(2021)693249. https://doi.org/10.3389/fenrg.2021.693249 16. J. Zhang, J. Hou, Z. Zhang, CCDC 2020 Hefei, CHINA (2020) https://doi.org/10.1109/ICPSAsia48933.2020.9208399 J. Zhang, J. Hou and Z. Zhang, CCDC 2020, Hefei, CHINA, 2020. http://dx.doi.org/10.1109/ICPSAsia48933.2020.9208399 17. Q. Liu, Y. Kang, S. Qu, B. Duan, C. Zhang, I&amp;CPS Asia 2020 Shandong, CHINA (2020) https://doi.org/10.1109/ICPSAsia48933.2020.9208399 Q. Liu, Y. Kang, S. Qu, B. Duan and C. Zhang, I&amp;CPS Asia 2020, Shandong, CHINA, 2020. http://dx.doi.org/10.1109/ICPSAsia48933.2020.9208399 18. Y. Wang, X. Dong, L. Wang, W. Chen, X. Zhang, Acm T Archit Code    OP19: (2022) 13-https://doi.org/10.1145/3500917 Y. Wang, X. Dong, L.Wang, W. Chen and X. Zhang, Acm T Archit Code OP, 19(2022)13. https://doi.org/10.1145/3500917 19. P. Das, S. Kumar, G. Panda, D.S. Roy, Sustainable Energy, Technological Advancements   , Springer(2022) https://doi.org/10.1007/978-981-16-9033-4_52 Singapore, Singapore. P. Das, S. Kumar, G. Panda and D. S. Roy, Sustainable Energy and Technological Advancements, Springer, (2022)Singapore, Singapore. https://doi.org/10.1007/978-981-16-9033-4_52 20. N. Javaid, H. Gul, S. Baig, F. Shehzad, T. Sultana, IEEE Acces 99: (2021) 1-https://doi.org/10.1109/ACCESS.2021.3092645 N. Javaid, H. Gul, S. Baig, F. Shehzad and T. Sultana, IEEE Acces, 99(2021)1-1. https://doi.org/10.1109/ACCESS.2021.3092645 21. S. Li, H. He, P. Zhao, S. Cheng, J. Yan, Appl Energ 316: (2022) 119120 https://doi.org/10.1016/j.apenergy.2022.119120 S. Li, H. He, P. Zhao, S. Cheng and J. Yan, Appl Energ, 316(2022)119120. https://doi.org/10.1016/j.apenergy.2022.119120 22. Z. Bao, J. Jiang, C. Zhu, M. Gao, Energies 15: (2022) 4399-https://doi.org/10.3390/en15124399 Z. Bao, J. Jiang, C. Zhu and M. Gao, Energies, 15(2022)4399. https://doi.org/10.3390/en15124399 23. F. Cadini, C. Sbarufatti, F. Cancelliere, M. Giglio, Appl Energ 235: (2019) 661-672 https://doi.org/10.1016/j.apenergy.2018.10.095 F. Cadini, C. Sbarufatti, F. Cancelliere and M. Giglio, Appl Energ, 235(2019)661-672. https://doi.org/10.1016/j.apenergy.2018.10.095 24. H. Wei, N. Williard, M. Osterman, M. Pecht, J Power Sources 196: (2011) 10314-10321 https://doi.org/10.1016/j.jpowsour.2011.08.040 H. Wei, N. Williard, M. Osterman and M. Pecht, J Power Sources, 196(2011)10314-10321. https://doi.org/10.1016/j.jpowsour.2011.08.040 25. Y. Xing, E. Ma, K.L. Tsui, M. Pecht, Microelectron Reliab 53: (2013) 811-820 https://doi.org/10.1016/j.microrel.2012.12.003 Y. Xing, E. Ma, K. L. Tsui and M. Pecht, Microelectron Reliab, 53(2013) 811-820. https://doi.org/10.1016/j.microrel.2012.12.003 26. Y. Yu, A. Srivastava, S. Canales, ACM T Multim Comput 17: (2021) 1-20 https://doi.org/10.1145/3424116 Y. Yu, A. Srivastava and S. Canales, ACM T Multim Comput, 17(2021)1-20. http://dx.doi.org/10.1145/3424116 27. A. Radford, L. Metz, S. Chintala, ICLR 2016 San Juan, Puerto Rico (2015) https://doi.org/10.48550/arXiv.1511.06434 A. Radford, L. Metz and S. Chintala, ICLR 2016, San Juan, Puerto Rico, 2015. https://doi.org/10.48550/arXiv.1511.06434 28. F.A. Gers, J. Schmidhuber, F. Cummins, Neural Comput 2: (1999) 850-855 https://doi.org/10.1162/089976600300015015 F. A. Gers, J. Schmidhuber, F. Cummins, Neural Comput, 2(1999)850-855. https://doi.org/10.1162/089976600300015015 29. D. Kingma, J. Ba, Comput Sci 9: (2017) 6980-https://doi.org/10.48550/arXiv.1412.6980 arXiv:1412 D. Kingma and J. Ba, Comput Sci, v9(2017)arXiv:1412.6980. https://doi.org/10.48550/arXiv.1412.6980 30. Y. Guo, H. Shi, A. Kumar, K. Grauman, T. Rosing, R. Feris, CVPR 2019 Long Beach, CA, USA (2019) https://doi.org/10.48550/arXiv.1811.08737 Y. Guo, H. Shi, A. Kumar, K. Grauman, T. Rosing and R. Feris, CVPR 2019, Long Beach, CA, USA, 2019. https://doi.org/10.48550/arXiv.1811.08737 31. T. Fu, T. Zhang, X. Song, Energies 15: (2022) 1-17 https://doi.org/10.3390/en15082907 T. Fu, T. Zhang and X. Song, Energies, 15(2022)1-17. https://doi.org/10.3390/en15082907 32. X. Shu, J. Shen, G. Li, Y. Zhang, Y. Liu, IEEE T Transp Electr 99: (2021) 1-https://doi.org/10.1109/TTE.2021.3074638 X. Shu, J. Shen, G. Li, Y Zhang and Y. Liu, IEEE T Transp Electr, 99(2021)1. http://dx.doi.org/10.1109/TTE.2021.3074638 33. C. Song, S. Lee, IMCOM 2021 Seoul, Korea (2021) https://doi.org/10.1109/IMCOM51814.2021.9377402 C. Song and S. Lee, IMCOM 2021, Seoul, Korea, 2021. http://dx.doi.org/10.1109/IMCOM51814.2021.9377402 34. U. Yayan, A.T. Arslan, H. Yucel, Appl Artif Intell 35: (2021) 1-19 https://doi.org/10.1080/08839514.2021.1901033 U. Yayan, A. T. Arslan and H. Yucel, Appl Artif Intell, 35(2021)1-19. http://dx.doi.org/10.1080/08839514.2021.1901033 35. Y. Tan, G. Zhao, IEEE T Ind Electron 67: (2019) 8723-8731 https://doi.org/10.1109/TIE.2019.2946551 Y. Tan and G. Zhao, IEEE T Ind Electron, 67(2019)8723-8731. http://dx.doi.org/10.1109/TIE.2019.2946551   022)13. https://doi.org/10.1145/3500917 19. P. Das, S. Kumar, G. Panda, D.S. Roy, Sustainable Energy, Technological Advancements   , Springer(2022) https://doi.org/10.1007/978-981-16-9033-4_52 Singapore, Singapore. P. Das, S. Kumar, G. Panda and D. S. Roy, Sustainable Energy and Technological Advancements, Springer, (2022)Singapore, Singapore. https://doi.org/10.1007/978-981-16-9033-4_52 20. N. Javaid, H. Gul, S. Baig, F. Shehzad, T. Sultana, IEEE Acces 99: (2021) 1-https://doi.org/10.1109/ACCESS.2021.3092645 N. Javaid, H. Gul, S. Baig, F. Shehzad and T. Sultana, IEEE Acces, 99(2021)1-1. https://doi.org/10.1109/ACCESS.2021.3092645 21. S. Li, H. He, P. Zhao, S. Cheng, J. Yan, Appl Energ 316: (2022) 119120 https://doi.org/10.1016/j.apenergy.2022.119120 S. Li, H. He, P. Zhao, S. Cheng and J. Yan, Appl Energ, 316(2022)119120. https://doi.org/10.1016/j.apenergy.2022.119120 22. Z. Bao, J. Jiang, C. Zhu, M. Gao, Energies 15: (2022) 4399-https://doi.org/10.3390/en15124399 Z. Bao, J. Jiang, C. Zhu and M. Gao, Energies, 15(2022)4399. https://doi.org/10.3390/en15124399 23. F. Cadini, C. Sbarufatti, F.</xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <simple-article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.6" docsubtype="fla" xml:lang="en">
+         <item-info>
+            <jid>IJOES</jid>
+            <aid>50102040</aid>
+            <ce:article-number>221128</ce:article-number>
+            <ce:pii>S1452-3981(23)02655-X</ce:pii>
+            <ce:doi>10.20964/2022.11.07</ce:doi>
+            <ce:copyright type="other" year="2022">The Authors. Published by ESG</ce:copyright>
+            <ce:copyright-line>© 2022 The Authors. Published by ESG</ce:copyright-line>
+         </item-info>
+         <simple-head>
+            <ce:title id="ti0005">State of Health Estimation Based on GAN-LSTM-TL for Lithium-ion Batteries</ce:title>
+            <ce:author-group id="ag0005">
+               <ce:author id="au0005" author-id="S145239812302655X-4d2c4ed816ef779d302cbf4d7d3cad67">
+                  <ce:given-name>Guangyi</ce:given-name>
+                  <ce:surname>Yang</ce:surname>
+                  <ce:cross-ref refid="af0005" id="cf0005">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0010" author-id="S145239812302655X-64d8cdae65e6a1fc9994234764b9c58d">
+                  <ce:given-name>Qianhui</ce:given-name>
+                  <ce:surname>Ma</ce:surname>
+                  <ce:cross-ref refid="af0010" id="cf0010">
+                     <ce:sup loc="post">2</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:author id="au0015" author-id="S145239812302655X-7c9de6f4d6816a1d322329d33079e2a8">
+                  <ce:given-name>Hao</ce:given-name>
+                  <ce:surname>Sun</ce:surname>
+                  <ce:cross-ref refid="af0015" id="cf0015">
+                     <ce:sup loc="post">3</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0020" author-id="S145239812302655X-a434957037beaab37eeb1b217e7d0eab">
+                  <ce:given-name>Xiaoyu</ce:given-name>
+                  <ce:surname>Zhang</ce:surname>
+                  <ce:cross-ref refid="af0015" id="cf0020">
+                     <ce:sup loc="post">3</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:affiliation id="af0005" affiliation-id="S145239812302655X-f15602b8703661232dbd21ff09659693">
+                  <ce:label>1</ce:label>
+                  <ce:textfn id="tn0005">Engineering Research Center, Ministry of Education of Automotive Electronics Drive Control and System Integration, Harbin University of Science &amp; Technology, Harbin, China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Engineering Research Center</sa:organization>
+                     <sa:organization>Ministry of Education of Automotive Electronics Drive Control and System Integration</sa:organization>
+                     <sa:organization>Harbin University of Science &amp; Technology</sa:organization>
+                     <sa:city>Harbin</sa:city>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="se0005">Engineering Research Center, Ministry of Education of Automotive Electronics Drive Control and System Integration, Harbin University of Science &amp; Technology, Harbin, China</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="af0010" affiliation-id="S145239812302655X-56ac2847414840ec6f754011710dcb39">
+                  <ce:label>2</ce:label>
+                  <ce:textfn id="tn0010">School of Electrical and Electronic Engineering, Harbin University of Science &amp; Technology, Harbin, China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>School of Electrical and Electronic Engineering</sa:organization>
+                     <sa:organization>Harbin University of Science &amp; Technology</sa:organization>
+                     <sa:city>Harbin</sa:city>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="se0010">School of Electrical and Electronic Engineering, Harbin University of Science &amp; Technology, Harbin, China</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="af0015" affiliation-id="S145239812302655X-9253a1c6888e0b8f25e3242a36fed4f6">
+                  <ce:label>3</ce:label>
+                  <ce:textfn id="tn0015">The College of Artificial Intelligence, Nankai University, Tianjin, China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>The College of Artificial Intelligence</sa:organization>
+                     <sa:organization>Nankai University</sa:organization>
+                     <sa:city>Tianjin</sa:city>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="se0015">The College of Artificial Intelligence, Nankai University, Tianjin, China</ce:source-text>
+               </ce:affiliation>
+            </ce:author-group>
+            <ce:date-received day="5" month="7" year="2022"/>
+            <ce:date-accepted day="30" month="8" year="2022" role="suppressed"/>
+            <ce:abstract id="ab0005" xml:lang="en" view="all" class="author"><ce:abstract-sec id="as0005" view="all">
+                  <ce:simple-para id="sp0005" view="all">The state of health (SOH) is a critical parameter for characterizing the current state of a lithium-ion battery. In recent years, SOH estimation methods that employ machine learning and deep learning have invariably been the research hotspots for researchers in recent years. In the previous work paper, a battery SOH online estimation method based on GAN-LSTM algorithm was proposed to overcome the defects such as a large amount of computation and long-time consumption for prediction and to find a prediction method suitable for the time series data characteristics of lithium-ion batteries. Among the work, generative adversarial networks (GAN) are used to process the corresponding feature data and 30% of the dataset is selected to generate the dataset used for training. A long short-term memory (LSTM) network is used to learn the mapping relations between features and SOH. Transfer learning (TL) is utilized to enhance the adaptability of the LSTM network and achieve accurate SOH estimation by solving training and test problems between datasets of various lithium-ion batteries. The NASA battery sample dataset and the battery cycle aging test experimental dataset of the Advanced Life Cycle Engineering Center of the University of Maryland are used for experimental verification. The analysis of experimental results demonstrates that the model boasts pinpoint accuracy and incredible adaptability across multiple datasets.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="ks0005" view="all" class="keyword">
+               <ce:section-title id="st0005">Keywords</ce:section-title>
+               <ce:keyword id="kw0005">
+                  <ce:text id="tx0005">Lithium-ion battery</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0010">
+                  <ce:text id="tx0010">State-of-Health (SOH)</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0015">
+                  <ce:text id="tx0015">Long short-term memory (LSTM)</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0020">
+                  <ce:text id="tx0020">Generative adversarial networks (GAN)</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0025">
+                  <ce:text id="tx0025">Transfer learning (TL)</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </simple-head>
+         <simple-tail view="all">
+            <ce:bibliography id="bi0005" view="all">
+               <ce:section-title id="st0010">References</ce:section-title>
+               <ce:bibliography-sec id="bs0005" view="all">
+                  <ce:bib-reference id="bb0005">
+                     <ce:label>1.</ce:label>
+                     <sb:reference id="rf0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.C.</ce:given-name>
+                                 <ce:surname>Caliwag</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Lim</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Access</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>7</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>59680</sb:first-page>
+                              <sb:last-page>59689</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0175" versionurl="https://doi.org/10.1109/ACCESS.2019.2914188" xlink:href="https://doi.org/10.1109/ACCESS.2019.2914188" xlink:type="simple">https://doi.org/10.1109/ACCESS.2019.2914188</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0020">A.C. Caliwag and W. Lim, IEEE Access, 7(2019)59680-59689. https://doi.org/10.1109/ACCESS.2019.2914188</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0010">
+                     <ce:label>2.</ce:label>
+                     <sb:reference id="rf0010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Shu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Shen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE T Transp Electr</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>99</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0005" versionurl="https://doi.org/10.1016/j.isci.2021.103265" xlink:href="https://doi.org/10.1016/j.isci.2021.103265" xlink:type="simple">https://doi.org/10.1016/j.isci.2021.103265</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0025">X. Shu, J. Shen, G. Li, Y. Zhang and Y. Liu, IEEE T Transp Electr, 99(2021)1. https://doi.org/10.1016/j.isci.2021.103265</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0015">
+                     <ce:label>3.</ce:label>
+                     <sb:reference id="rf0015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.K.</ce:given-name>
+                                 <ce:surname>Si</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.H.</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.M.</ce:given-name>
+                                 <ce:surname>Lee</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.H.</ce:given-name>
+                                 <ce:surname>Lim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.J.</ce:given-name>
+                                 <ce:surname>Shin</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>ISIE 2020, Delft</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:comment>
+                           <ce:italic>Netherlands</ce:italic>
+                        </sb:comment>
+                        <sb:host>
+                           <sb:book>
+                              <sb:date>2020</sb:date>
+                           </sb:book>
+                           <sb:pages>
+                              <sb:first-page>1336</sb:first-page>
+                              <sb:last-page>1341</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0010" versionurl="https://doi.org/10.1109/ISIE45063.2020.9152544" xlink:href="https://doi.org/10.1109/ISIE45063.2020.9152544" xlink:type="simple">https://doi.org/10.1109/ISIE45063.2020.9152544</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0030">JK. Si, SH. Kim, HM. Lee, SH. Lim and YJ. Shin, ISIE 2020, Delft, Netherlands, 2020, 1336-1341. https://doi.org/10.1109/ISIE45063.2020.9152544</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0020">
+                     <ce:label>4.</ce:label>
+                     <sb:reference id="rf0020">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Hu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Jiang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Cao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Bo</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE T Ind Electron</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>63</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2645</sb:first-page>
+                              <sb:last-page>2656</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0015" versionurl="https://doi.org/10.1109/TIE.2015.2461523" xlink:href="https://doi.org/10.1109/TIE.2015.2461523" xlink:type="simple">https://doi.org/10.1109/TIE.2015.2461523</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0035">X. Hu, J. Jiang, D. Cao, and E. Bo, IEEE T Ind Electron, 63(2016)2645-2656. https://doi.org/10.1109/TIE.2015.2461523</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0025">
+                     <ce:label>5.</ce:label>
+                     <sb:reference id="rf0025">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Guha</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Patra</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE T Transp Electr</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>4</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>135</sb:first-page>
+                              <sb:last-page>146</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0020" versionurl="https://doi.org/10.1109/TTE.2017.2776558" xlink:href="https://doi.org/10.1109/TTE.2017.2776558" xlink:type="simple">https://doi.org/10.1109/TTE.2017.2776558</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0040">A. Guha and A. Patra, IEEE T Transp Electr, 4(2018)135-146. https://doi.org/10.1109/TTE.2017.2776558</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0030">
+                     <ce:label>6.</ce:label>
+                     <sb:reference id="rf0030">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.H.</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.M.</ce:given-name>
+                                 <ce:surname>Lee</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.Y.</ce:given-name>
+                                 <ce:surname>Kwon</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>I.</ce:given-name>
+                                 <ce:surname>Park</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.J.</ce:given-name>
+                                 <ce:surname>Shin</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>ISIE 2019, Vancouver</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:comment>
+                           <ce:italic>Bc, Canada</ce:italic>
+                        </sb:comment>
+                        <sb:host>
+                           <sb:book>
+                              <sb:date>2019</sb:date>
+                           </sb:book>
+                           <sb:pages>
+                              <sb:first-page>1971</sb:first-page>
+                              <sb:last-page>1976</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0025" versionurl="https://doi.org/10.1109/ISIE.2019.8781285" xlink:href="https://doi.org/10.1109/ISIE.2019.8781285" xlink:type="simple">https://doi.org/10.1109/ISIE.2019.8781285</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0045">SH. Kim, HM. Lee, GY. Kwon, I. Park and YJ. Shin, ISIE 2019, Vancouver, Bc, Canada, 2019, 1971-1976. http://dx.doi.org/10.1109/ISIE.2019.8781285</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0035">
+                     <ce:label>7.</ce:label>
+                     <sb:reference id="rf0035">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Pan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Gu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>ENERGIES</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>15</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                              <sb:last-page>15</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0030" versionurl="https://doi.org/10.3390/en15155686" xlink:href="https://doi.org/10.3390/en15155686" xlink:type="simple">https://doi.org/10.3390/en15155686</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0050">H. Pan, C. Chen, M. Gu, ENERGIES, 15(2022)1-15. https://doi.org/10.3390/en15155686</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0040">
+                     <ce:label>8.</ce:label>
+                     <sb:reference id="rf0040">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Xu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Qiao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Yu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Takyi-Aninakwa</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Jin</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochim Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>415</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:article-number>140241</sb:article-number>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0035" versionurl="https://doi.org/10.1016/j.electacta.2022.140241" xlink:href="https://doi.org/10.1016/j.electacta.2022.140241" xlink:type="simple">https://doi.org/10.1016/j.electacta.2022.140241</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0055">X. Yang, S. Wang, W. Xu, J. Qiao, C. Yu, P. Takyi-Aninakwa and S. Jin, Electrochim Acta, 415(2022)140241. https://doi.org/10.1016/j.electacta.2022.140241</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0045">
+                     <ce:label>9.</ce:label>
+                     <sb:reference id="rf0045">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.L.</ce:given-name>
+                                 <ce:surname>A</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.Y.</ce:given-name>
+                                 <ce:surname>B</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.W.</ce:given-name>
+                                 <ce:surname>C</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.H.</ce:given-name>
+                                 <ce:surname>D</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.Y.</ce:given-name>
+                                 <ce:surname>B</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Etransportation</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>11</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:article-number>100156</sb:article-number>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0040" xlink:href="https://doi.org/10.1016/j.etran.2022.100156" xlink:type="simple">https://doi.org/10.1016/j.etran.2022.100156</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0060">XL. A, CY. B, ZW. C, JH. D,SY. B, Etransportation, 11(2022)100156. https://doi.org/10.1016/j.etran.2022.100156</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0050">
+                     <ce:label>10.</ce:label>
+                     <sb:reference id="rf0050">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Rossi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Falcomer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Biondani</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Pontara</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energies</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>15</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3404</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0045" versionurl="https://doi.org/10.3390/en15093404" xlink:href="https://doi.org/10.3390/en15093404" xlink:type="simple">https://doi.org/10.3390/en15093404</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0065">C. Rossi, C. Falcomer, L. Biondani and D. Pontara, Energies, 15(2022)3404. https://doi.org/10.3390/en15093404</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0055">
+                     <ce:label>11.</ce:label>
+                     <sb:reference id="rf0055">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Xu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Shu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Qin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Peng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Jiang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Xia</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energies</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>15</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2534</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0050" versionurl="https://doi.org/10.3390/en15072534" xlink:href="https://doi.org/10.3390/en15072534" xlink:type="simple">https://doi.org/10.3390/en15072534</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0070">Y. Xu, H. Shu, H. Qin, X. Wu, J. Peng, C. Jiang, Z. Xia, Y. Wang and X. Li, Energies, 15(2022)2534. https://doi.org/10.3390/en15072534</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0060">
+                     <ce:label>12.</ce:label>
+                     <sb:reference id="rf0060">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Selvabharathi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Muruganantham</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Circuit Syst Comp</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>31</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:article-number>2250081</sb:article-number>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0055" versionurl="https://doi.org/10.1142/S0218126622500815" xlink:href="https://doi.org/10.1142/S0218126622500815" xlink:type="simple">https://doi.org/10.1142/S0218126622500815</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0075">D. Selvabharathi and N. Muruganantham, J Circuit Syst Comp, 31(2022)2250081. https://doi.org/10.1142/S0218126622500815</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0065">
+                     <ce:label>13.</ce:label>
+                     <sb:reference id="rf0065">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Jo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Jung</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Roh</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energies</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>14</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>7206</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0060" xlink:href="https://doi.org/10.3390/en14217206" xlink:type="simple">https://doi.org/10.3390/en14217206</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0080">S. Jo, S. Jung and T. Roh, Energies, 14(2021)7206. https://doi.org/10.3390/en14217206</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0070">
+                     <ce:label>14.</ce:label>
+                     <sb:reference id="rf0070">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.Q.</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Qin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.P.L.</ce:given-name>
+                                 <ce:surname>Lau</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Yuen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Adams</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>IECON 2021</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:comment>Toronto, CANADA</sb:comment>
+                        <sb:host>
+                           <sb:book>
+                              <sb:date>2021</sb:date>
+                           </sb:book>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0065" xlink:href="https://doi.org/10.48550/arXiv.2109.13448" xlink:type="simple">https://doi.org/10.48550/arXiv.2109.13448</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0085">K. Q. Zhou, Y. Qin, B. P. L. Lau, C. Yuen and S. Adams, IECON 2021, Toronto, CANADA, 2021. https://doi.org/10.48550/arXiv.2109.13448</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0075">
+                     <ce:label>15.</ce:label>
+                     <sb:reference id="rf0075">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Tian</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Front Energy Res</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>9</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:article-number>693249</sb:article-number>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0070" xlink:href="https://doi.org/10.3389/fenrg.2021.693249" xlink:type="simple">https://doi.org/10.3389/fenrg.2021.693249</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0090">R. Li, W. Li, H. Zhang, Y. Zhou and W. Tian, Front Energy Res, 9(2021)693249. https://doi.org/10.3389/fenrg.2021.693249</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0080">
+                     <ce:label>16.</ce:label>
+                     <sb:reference id="rf0080">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Hou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>CCDC 2020</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:comment>Hefei, CHINA</sb:comment>
+                        <sb:host>
+                           <sb:book>
+                              <sb:date>2020</sb:date>
+                           </sb:book>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0075" versionurl="https://doi.org/10.1109/ICPSAsia48933.2020.9208399" xlink:href="https://doi.org/10.1109/ICPSAsia48933.2020.9208399" xlink:type="simple">https://doi.org/10.1109/ICPSAsia48933.2020.9208399</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0095">J. Zhang, J. Hou and Z. Zhang, CCDC 2020, Hefei, CHINA, 2020. http://dx.doi.org/10.1109/ICPSAsia48933.2020.9208399</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0085">
+                     <ce:label>17.</ce:label>
+                     <sb:reference id="rf0085">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Q.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Kang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Qu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Duan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>I&amp;CPS Asia 2020</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:comment>Shandong, CHINA</sb:comment>
+                        <sb:host>
+                           <sb:book>
+                              <sb:date>2020</sb:date>
+                           </sb:book>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0080" versionurl="https://doi.org/10.1109/ICPSAsia48933.2020.9208399" xlink:href="https://doi.org/10.1109/ICPSAsia48933.2020.9208399" xlink:type="simple">https://doi.org/10.1109/ICPSAsia48933.2020.9208399</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0100">Q. Liu, Y. Kang, S. Qu, B. Duan and C. Zhang, I&amp;CPS Asia 2020, Shandong, CHINA, 2020. http://dx.doi.org/10.1109/ICPSAsia48933.2020.9208399</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0090">
+                     <ce:label>18.</ce:label>
+                     <sb:reference id="rf0090">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Dong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>
+                                       <ce:italic>Acm T Archit Code</ce:italic> OP</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>19</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>13</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0085" versionurl="https://doi.org/10.1145/3500917" xlink:href="https://doi.org/10.1145/3500917" xlink:type="simple">https://doi.org/10.1145/3500917</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0105">Y. Wang, X. Dong, L.Wang, W. Chen and X. Zhang, Acm T Archit Code OP, 19(2022)13. https://doi.org/10.1145/3500917</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0095">
+                     <ce:label>19.</ce:label>
+                     <sb:reference id="rf0095">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Das</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Kumar</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Panda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.S.</ce:given-name>
+                                 <ce:surname>Roy</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Sustainable</ce:given-name>
+                                 <ce:surname>Energy</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>
+                                       <ce:italic>Technological Advancements</ce:italic>, Springer</sb:maintitle>
+                                 </sb:title>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0090" versionurl="https://doi.org/10.1007/978-981-16-9033-4_52" xlink:href="https://doi.org/10.1007/978-981-16-9033-4_52" xlink:type="simple">https://doi.org/10.1007/978-981-16-9033-4_52</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                        <sb:comment>Singapore, Singapore.</sb:comment>
+                     </sb:reference>
+                     <ce:source-text id="se0110">P. Das, S. Kumar, G. Panda and D. S. Roy, Sustainable Energy and Technological Advancements, Springer, (2022)Singapore, Singapore. https://doi.org/10.1007/978-981-16-9033-4_52</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0100">
+                     <ce:label>20.</ce:label>
+                     <sb:reference id="rf0100">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Javaid</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Gul</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Baig</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Shehzad</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Sultana</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Acces</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>99</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0095" versionurl="https://doi.org/10.1109/ACCESS.2021.3092645" xlink:href="https://doi.org/10.1109/ACCESS.2021.3092645" xlink:type="simple">https://doi.org/10.1109/ACCESS.2021.3092645</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0115">N. Javaid, H. Gul, S. Baig, F. Shehzad and T. Sultana, IEEE Acces, 99(2021)1-1. https://doi.org/10.1109/ACCESS.2021.3092645</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0105">
+                     <ce:label>21.</ce:label>
+                     <sb:reference id="rf0105">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Cheng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Yan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl Energ</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>316</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:article-number>119120</sb:article-number>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0100" versionurl="https://doi.org/10.1016/j.apenergy.2022.119120" xlink:href="https://doi.org/10.1016/j.apenergy.2022.119120" xlink:type="simple">https://doi.org/10.1016/j.apenergy.2022.119120</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0120">S. Li, H. He, P. Zhao, S. Cheng and J. Yan, Appl Energ, 316(2022)119120. https://doi.org/10.1016/j.apenergy.2022.119120</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0110">
+                     <ce:label>22.</ce:label>
+                     <sb:reference id="rf0110">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Bao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Jiang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Zhu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Gao</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energies</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>15</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4399</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0105" versionurl="https://doi.org/10.3390/en15124399" xlink:href="https://doi.org/10.3390/en15124399" xlink:type="simple">https://doi.org/10.3390/en15124399</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0125">Z. Bao, J. Jiang, C. Zhu and M. Gao, Energies, 15(2022)4399. https://doi.org/10.3390/en15124399</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0115">
+                     <ce:label>23.</ce:label>
+                     <sb:reference id="rf0115">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Cadini</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Sbarufatti</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Cancelliere</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Giglio</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl Energ</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>235</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>661</sb:first-page>
+                              <sb:last-page>672</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0110" versionurl="https://doi.org/10.1016/j.apenergy.2018.10.095" xlink:href="https://doi.org/10.1016/j.apenergy.2018.10.095" xlink:type="simple">https://doi.org/10.1016/j.apenergy.2018.10.095</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0130">F. Cadini, C. Sbarufatti, F. Cancelliere and M. Giglio, Appl Energ, 235(2019)661-672. https://doi.org/10.1016/j.apenergy.2018.10.095</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0120">
+                     <ce:label>24.</ce:label>
+                     <sb:reference id="rf0120">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Wei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Williard</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Osterman</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Pecht</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>196</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>10314</sb:first-page>
+                              <sb:last-page>10321</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0115" versionurl="https://doi.org/10.1016/j.jpowsour.2011.08.040" xlink:href="https://doi.org/10.1016/j.jpowsour.2011.08.040" xlink:type="simple">https://doi.org/10.1016/j.jpowsour.2011.08.040</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0135">H. Wei, N. Williard, M. Osterman and M. Pecht, J Power Sources, 196(2011)10314-10321. https://doi.org/10.1016/j.jpowsour.2011.08.040</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0125">
+                     <ce:label>25.</ce:label>
+                     <sb:reference id="rf0125">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Xing</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Ma</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.L.</ce:given-name>
+                                 <ce:surname>Tsui</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Pecht</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Microelectron Reliab</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>53</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>811</sb:first-page>
+                              <sb:last-page>820</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0120" versionurl="https://doi.org/10.1016/j.microrel.2012.12.003" xlink:href="https://doi.org/10.1016/j.microrel.2012.12.003" xlink:type="simple">https://doi.org/10.1016/j.microrel.2012.12.003</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0140">Y. Xing, E. Ma, K. L. Tsui and M. Pecht, Microelectron Reliab, 53(2013) 811-820. https://doi.org/10.1016/j.microrel.2012.12.003</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0130">
+                     <ce:label>26.</ce:label>
+                     <sb:reference id="rf0130">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Yu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Srivastava</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Canales</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>ACM T Multim Comput</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>17</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                              <sb:last-page>20</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0125" versionurl="https://doi.org/10.1145/3424116" xlink:href="https://doi.org/10.1145/3424116" xlink:type="simple">https://doi.org/10.1145/3424116</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0145">Y. Yu, A. Srivastava and S. Canales, ACM T Multim Comput, 17(2021)1-20. http://dx.doi.org/10.1145/3424116</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0135">
+                     <ce:label>27.</ce:label>
+                     <sb:reference id="rf0135">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Radford</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Metz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Chintala</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>ICLR 2016</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:comment>San Juan, Puerto Rico</sb:comment>
+                        <sb:host>
+                           <sb:book>
+                              <sb:date>2015</sb:date>
+                           </sb:book>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0130" xlink:href="https://doi.org/10.48550/arXiv.1511.06434" xlink:type="simple">https://doi.org/10.48550/arXiv.1511.06434</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0150">A. Radford, L. Metz and S. Chintala, ICLR 2016, San Juan, Puerto Rico, 2015. https://doi.org/10.48550/arXiv.1511.06434</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0140">
+                     <ce:label>28.</ce:label>
+                     <sb:reference id="rf0140">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.A.</ce:given-name>
+                                 <ce:surname>Gers</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Schmidhuber</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Cummins</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Neural Comput</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>2</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1999</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>850</sb:first-page>
+                              <sb:last-page>855</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0135" versionurl="https://doi.org/10.1162/089976600300015015" xlink:href="https://doi.org/10.1162/089976600300015015" xlink:type="simple">https://doi.org/10.1162/089976600300015015</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0155">F. A. Gers, J. Schmidhuber, F. Cummins, Neural Comput, 2(1999)850-855. https://doi.org/10.1162/089976600300015015</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0145">
+                     <ce:label>29.</ce:label>
+                     <sb:reference id="rf0145">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Kingma</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Ba</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Comput Sci</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>9</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>6980</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0140" xlink:href="https://doi.org/10.48550/arXiv.1412.6980" xlink:type="simple">https://doi.org/10.48550/arXiv.1412.6980</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                        <sb:comment>arXiv:1412</sb:comment>
+                     </sb:reference>
+                     <ce:source-text id="se0160">D. Kingma and J. Ba, Comput Sci, v9(2017)arXiv:1412.6980. https://doi.org/10.48550/arXiv.1412.6980</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0150">
+                     <ce:label>30.</ce:label>
+                     <sb:reference id="rf0150">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Guo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Shi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Kumar</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Grauman</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Rosing</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Feris</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>CVPR 2019</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:comment>Long Beach, CA, USA</sb:comment>
+                        <sb:host>
+                           <sb:book>
+                              <sb:date>2019</sb:date>
+                           </sb:book>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0145" xlink:href="https://doi.org/10.48550/arXiv.1811.08737" xlink:type="simple">https://doi.org/10.48550/arXiv.1811.08737</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0165">Y. Guo, H. Shi, A. Kumar, K. Grauman, T. Rosing and R. Feris, CVPR 2019, Long Beach, CA, USA, 2019. https://doi.org/10.48550/arXiv.1811.08737</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0155">
+                     <ce:label>31.</ce:label>
+                     <sb:reference id="rf0155">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Fu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Song</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energies</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>15</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                              <sb:last-page>17</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0150" versionurl="https://doi.org/10.3390/en15082907" xlink:href="https://doi.org/10.3390/en15082907" xlink:type="simple">https://doi.org/10.3390/en15082907</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0170">T. Fu, T. Zhang and X. Song, Energies, 15(2022)1-17. https://doi.org/10.3390/en15082907</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0160">
+                     <ce:label>32.</ce:label>
+                     <sb:reference id="rf0160">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Shu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Shen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE T Transp Electr</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>99</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0155" versionurl="https://doi.org/10.1109/TTE.2021.3074638" xlink:href="https://doi.org/10.1109/TTE.2021.3074638" xlink:type="simple">https://doi.org/10.1109/TTE.2021.3074638</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0175">X. Shu, J. Shen, G. Li, Y Zhang and Y. Liu, IEEE T Transp Electr, 99(2021)1. http://dx.doi.org/10.1109/TTE.2021.3074638</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0165">
+                     <ce:label>33.</ce:label>
+                     <sb:reference id="rf0165">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Song</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Lee</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>IMCOM 2021</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:comment>Seoul, Korea</sb:comment>
+                        <sb:host>
+                           <sb:book>
+                              <sb:date>2021</sb:date>
+                           </sb:book>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0160" versionurl="https://doi.org/10.1109/IMCOM51814.2021.9377402" xlink:href="https://doi.org/10.1109/IMCOM51814.2021.9377402" xlink:type="simple">https://doi.org/10.1109/IMCOM51814.2021.9377402</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0180">C. Song and S. Lee, IMCOM 2021, Seoul, Korea, 2021. http://dx.doi.org/10.1109/IMCOM51814.2021.9377402</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0170">
+                     <ce:label>34.</ce:label>
+                     <sb:reference id="rf0170">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>U.</ce:given-name>
+                                 <ce:surname>Yayan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.T.</ce:given-name>
+                                 <ce:surname>Arslan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Yucel</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl Artif Intell</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>35</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                              <sb:last-page>19</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0165" versionurl="https://doi.org/10.1080/08839514.2021.1901033" xlink:href="https://doi.org/10.1080/08839514.2021.1901033" xlink:type="simple">https://doi.org/10.1080/08839514.2021.1901033</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0185">U. Yayan, A. T. Arslan and H. Yucel, Appl Artif Intell, 35(2021)1-19. http://dx.doi.org/10.1080/08839514.2021.1901033</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0175">
+                     <ce:label>35.</ce:label>
+                     <sb:reference id="rf0175">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Tan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE T Ind Electron</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>67</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>8723</sb:first-page>
+                              <sb:last-page>8731</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:host>
+                           <sb:e-host>
+                              <ce:inter-ref id="ir0170" versionurl="https://doi.org/10.1109/TIE.2019.2946551" xlink:href="https://doi.org/10.1109/TIE.2019.2946551" xlink:type="simple">https://doi.org/10.1109/TIE.2019.2946551</ce:inter-ref>
+                           </sb:e-host>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0190">Y. Tan and G. Zhao, IEEE T Ind Electron, 67(2019)8723-8731. http://dx.doi.org/10.1109/TIE.2019.2946551</ce:source-text>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </simple-tail>
+      </simple-article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

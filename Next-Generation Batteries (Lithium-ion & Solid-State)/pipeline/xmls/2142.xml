@@ -1,0 +1,1745 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1452398123085747</prism:url><dc:identifier>doi:10.20964/2020.05.41</dc:identifier><eid>1-s2.0-S1452398123085747</eid><prism:doi>10.20964/2020.05.41</prism:doi><pii>S1452-3981(23)08574-7</pii><dc:title>State of Charge Estimation for Lithium-Ion Battery Models Based on a Thermoelectric Coupling Model </dc:title><prism:publicationName>International Journal of Electrochemical Science</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>14523981</prism:issn><prism:volume>15</prism:volume><prism:issueIdentifier>5</prism:issueIdentifier><prism:startingPage>3807</prism:startingPage><prism:endingPage>3824</prism:endingPage><prism:pageRange>3807-3824</prism:pageRange><prism:number>5</prism:number><dc:format>text/xml</dc:format><prism:coverDate>2020-05-31</prism:coverDate><prism:coverDisplayDate>May 2020</prism:coverDisplayDate><prism:copyright>Copyright © 2020 The Authors. Published by ESG. Published by Elsevier B.V.</prism:copyright><prism:publisher>The Authors. Published by ESG. Published by Elsevier B.V.</prism:publisher><dc:creator>Li, Huanhuan</dc:creator><dc:creator>Wang, Xiaoyu</dc:creator><dc:creator>Saini, Ashwani</dc:creator><dc:creator>Zhu, Yuqiang</dc:creator><dc:creator>Wang, Ya-Ping</dc:creator><dc:description>
+                  Conventional equivalent circuit models of lithium-ion batteries (LIBs) ignore the influence of temperature changes caused by heat generated inside the battery; unfortunately, the above leads to mismatched model parameters, which decreases the precision of the model. In this paper, a thermoelectric battery model based on thermoelectric coupling is proposed by coupling an equivalent circuit model with a thermal model, which considers the temperature increase in the battery. Performance tests for the hybrid pulse power characteristic (HPPC), charge-discharge capacity-voltage curve, time-temperature curve and direct current (DC) internal resistance were performed to calibrate 30 Ah ternary prismatic LIBs; furthermore, the model parameters were identified by a least squares method. The accuracy and effectiveness of the model were then validated by steady-state experiments and dynamic tests. In the steady state experiment, the maximum voltage error was 24.36 mV, and the maximum temperature simulation error was 0.93 °C at 1C, whereas the absolute voltage error was under 20 mV and the error of a high current pulse reached 60 mV in a dynamic test under the New European Driving Cycle (NEDC) condition. The above results confirm that the simulation can consistently and properly model the experimental results, which illustrates that the developed model has high accuracy and can reflect the characteristics of LIBs during a charge/discharge process in real time. Finally, an SOC estimation method for an LIB is developed by using an extended Kalman filter algorithm and is verified by experiments under the NEDC condition. The results show that the model has a high estimation accuracy, and the SOC error, maximum error and average error values are approximately 3%, 2.96% and 0.81%, respectively; additionally, an initial value dependence or a cumulative error in an ampere-time integration method is not generated, which demonstrates that the algorithm has a strong self-correcting ability with initial SOC errors and strong convergence.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>Author</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>Lithium-ion battery</dcterms:subject><dcterms:subject>Thermoelectric coupling model</dcterms:subject><dcterms:subject>Equivalent circuit</dcterms:subject><dcterms:subject>Parameter identification</dcterms:subject><dcterms:subject>SOC Estimation</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1452398123085747" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1452398123085747" rel="scidir"/></coredata><scopus-id>85087370235</scopus-id><scopus-eid>2-s2.0-85087370235</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85087370235" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>783334</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291802</xocs:ssid>
+         <xocs:ssid type="subj">291865</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>International Journal of Electrochemical Science</xocs:srctitle>
+      <xocs:normalized-srctitle>INTERNATIONALJOURNALELECTROCHEMICALSCIENCE</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20230626">2023-06-26</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20230626">2023-06-26</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20230626">2023-06-26</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20230626">2023-06-26</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2023-06-26T10:42:09</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1452398123085747</xocs:eid>
+      <xocs:pii-formatted>S1452-3981(23)08574-7</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1452398123085747</xocs:pii-unformatted>
+      <xocs:doi>10.20964/2020.05.41</xocs:doi>
+      <xocs:item-stage>S350</xocs:item-stage>
+      <xocs:item-version-number>S350.1</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1452398120X55003</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20230626">2023-06-26T10:38:59.542366Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20200501</xocs:date-search-begin>
+      <xocs:date-search-end>20200531</xocs:date-search-end>
+      <xocs:year-nav>2020</xocs:year-nav>
+      <xocs:indexeddate epoch="1687779539">2023-06-26T11:38:59.542366Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issfirst issn issnnorm issuelist itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content oa subj tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authkeywords authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1452-3981</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>14523981</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>15</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>15</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>5</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>5</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 15, Issue 5</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>15</xocs:sort-order>
+      <xocs:first-fp>3807</xocs:first-fp>
+      <xocs:last-lp>3824</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>3807</xocs:first-page>
+         <xocs:last-page>3824</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>202005</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>May 2020</xocs:cover-date-text>
+      <xocs:cover-date-start>2020-05-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2020-05-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2020</xocs:cover-date-year>
+      <xocs:document-type>simple-article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 2020 The Authors. Published by ESG. Published by Elsevier B.V.</xocs:copyright-line>
+      <xocs:normalized-article-title>STATECHARGEESTIMATIONFORLITHIUMIONBATTERYMODELSBASEDATHERMOELECTRICCOUPLINGMODEL</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>LI</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>H</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="rf0005">
+            <xocs:ref-normalized-surname>LU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>272</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0010">
+            <xocs:ref-normalized-surname>DAGGER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2023</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0015">
+            <xocs:ref-normalized-surname>RAMADESIGAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>V</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0020">
+            <xocs:ref-normalized-surname>CHEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1994</xocs:ref-pub-year>
+            <xocs:ref-first-fp>517</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0025">
+            <xocs:ref-normalized-surname>CHEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1994</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2947</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0030">
+            <xocs:ref-normalized-surname>LEE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>20</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0035">
+            <xocs:ref-normalized-surname>DOYLE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1995</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2191</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0040">
+            <xocs:ref-normalized-surname>FULLER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1994</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0045">
+            <xocs:ref-normalized-surname>DOYLE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1993</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1526</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0050">
+            <xocs:ref-normalized-surname>CHEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4124</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0055">
+            <xocs:ref-normalized-surname>LI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-article-number>134966</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0060">
+            <xocs:ref-normalized-surname>CHUN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1131</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0065">
+            <xocs:ref-normalized-surname>SATO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2001</xocs:ref-pub-year>
+            <xocs:ref-first-fp>70</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0070">
+            <xocs:ref-normalized-surname>YOON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>32</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0075">
+            <xocs:ref-normalized-surname>GIRTAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>446</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0080">
+            <xocs:ref-normalized-surname>ZHU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>155</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0085">
+            <xocs:ref-normalized-surname>EVANS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1989</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2145</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0090">
+            <xocs:ref-normalized-surname>LIU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>141</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0095">
+            <xocs:ref-normalized-surname>ANDRE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>20</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0100">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>219</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0105">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>21</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0110">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>19</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0115">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>125</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0120">
+            <xocs:ref-normalized-surname>MA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1119</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0125">
+            <xocs:ref-normalized-surname>XU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>A1429</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0130">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>367</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0135">
+            <xocs:ref-normalized-surname>MOTAPON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>998</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0140">
+            <xocs:ref-normalized-surname>LI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>220</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0145">
+            <xocs:ref-normalized-surname>PLETT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>262</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0150">
+            <xocs:ref-normalized-surname>GAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1057</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0155">
+            <xocs:ref-normalized-surname>HE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1461</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0160">
+            <xocs:ref-normalized-surname>CHARKHGARD</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4178</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0165">
+            <xocs:ref-normalized-surname>DANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>356</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>LIX2020X3807</xocs:refkey3>
+         <xocs:refkey4lp>LIX2020X3807X3824</xocs:refkey4lp>
+         <xocs:refkey4ai>LIX2020X3807XH</xocs:refkey4ai>
+         <xocs:refkey5>LIX2020X3807X3824XH</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2023-06-22T15:45:54Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>Author</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/1452-3981_UNBOUNDED_Author">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:article-sharing-framework/>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1452-3981(23)08574-7</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1452398123085747</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1452398123085747</xocs:eid>
+         <xocs:doi>10.20964/2020.05.41</xocs:doi>
+         <xocs:cid>783334</xocs:cid>
+         <xocs:timestamp>2023-06-26T10:38:59.542366Z</xocs:timestamp>
+         <xocs:cover-date-start>2020-05-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2020-05-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1452398123085747-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1452398123085747/MAIN/application/pdf/991ec87572f669db6c4d8045613059e5/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>1383960</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>18</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1452398123085747-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1452398123085747/PREVIEW/image/png/9138617254b060d78d1e216685b01b68/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>67606</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">State of Charge Estimation for Lithium-Ion Battery Models Based on a Thermoelectric Coupling Model Huanhuan Li, 1 3 Xiaoyu Wang, 1 Ashwani Saini, 1 Yuqiang Zhu, 1 Ya-Ping Wang, 2 3 wangyaping@ujs.edu.cn 1 Automotive Engineering Research Institute, Jiangsu University, 301 Xuefu Road, Zhenjiang 212013, P. R. China Automotive Engineering Research Institute Jiangsu University 301 Xuefu Road Zhenjiang 212013 P. R. China Automotive Engineering Research Institute, Jiangsu University, 301 Xuefu Road, Zhenjiang 212013, P. R. China 2 School of Materials Science &amp; Engineering, Jiangsu University, Zhenjiang 212013, P. R. China School of Materials Science &amp; Engineering Jiangsu University Zhenjiang 212013 P. R. China School of Materials Science &amp; Engineering, Jiangsu University, Zhenjiang 212013, P. R. China 3 Key Laboratory of Advanced Energy Materials Chemistry (Ministry of Education), College of Chemistry, Nankai University, 94 Weijing road, Tianjin, 300071, PR China Key Laboratory of Advanced Energy Materials Chemistry (Ministry of Education) College of Chemistry Nankai University 94 Weijing road Tianjin 300071 PR China Key Laboratory of Advanced Energy Materials Chemistry (Ministry of Education), College of Chemistry, Nankai University, 94 Weijing road, Tianjin, 300071, PR China   Conventional equivalent circuit models of lithium-ion batteries (LIBs) ignore the influence of temperature changes caused by heat generated inside the battery; unfortunately, the above leads to mismatched model parameters, which decreases the precision of the model. In this paper, a thermoelectric battery model based on thermoelectric coupling is proposed by coupling an equivalent circuit model with a thermal model, which considers the temperature increase in the battery. Performance tests for the hybrid pulse power characteristic (HPPC), charge-discharge capacity-voltage curve, time-temperature curve and direct current (DC) internal resistance were performed to calibrate 30 Ah ternary prismatic LIBs; furthermore, the model parameters were identified by a least squares method. The accuracy and effectiveness of the model were then validated by steady-state experiments and dynamic tests. In the steady state experiment, the maximum voltage error was 24.36 mV, and the maximum temperature simulation error was 0.93 Â°C at 1C, whereas the absolute voltage error was under 20 mV and the error of a high current pulse reached 60 mV in a dynamic test under the New European Driving Cycle (NEDC) condition. The above results confirm that the simulation can consistently and properly model the experimental results, which illustrates that the developed model has high accuracy and can reflect the characteristics of LIBs during a charge/discharge process in real time. Finally, an SOC estimation method for an LIB is developed by using an extended Kalman filter algorithm and is verified by experiments under the NEDC condition. The results show that the model has a high estimation accuracy, and the SOC error, maximum error and average error values are approximately 3%, 2.96% and 0.81%, respectively; additionally, an initial value dependence or a cumulative error in an ampere-time integration method is not generated, which demonstrates that the algorithm has a strong self-correcting ability with initial SOC errors and strong convergence. Keywords Lithium-ion battery Thermoelectric coupling model Equivalent circuit Parameter identification SOC Estimation   References 1. L. Lu, X. Han, J. Li, J. Hua, M. Ouyang, J. Power Sources 226: (2013) 272-L. Lu, X. Han, J. Li, J. Hua and M. Ouyang, J. Power Sources, 226 (2013) 272. 2. T. Dagger, P. Miehoff, C. Lurenbaum, F.M. Schappacher, M. Winter, Engergy Technology 6: (2018) 2023-T. Dagger, P. Miehoff, C. Lurenbaum, F. M. Schappacher and M. Winter, Engergy Technology, 6 (2018) 2023. 3. V. Ramadesigan, P.W.C. Northrop, S. De, S. Santhanagopalan, R.D. Braatz, V.R. Subramanian, Multi-scale Modeling and Simulation of Lithium-Ion Batteries from Systems Engineering Perspective (2011) 220th ECS Meeting, Boston, America. Abstract 747 V. Ramadesigan, P. W. C. Northrop, S. De, S. Santhanagopalan, R.D. Braatz and V. R. Subramanian, Multi-scale Modeling and Simulation of Lithium-Ion Batteries from Systems Engineering Perspective, 220th ECS Meeting, Boston, America, 2011, Abstract 747. 4. Y. Chen, J.W. Evans, Electrochimica Acta 39: (1994) 517-Y. Chen and J. W. Evans, Electrochimica Acta, 39 (1994) 517. 5. Y. Chen, J.W. Evans, J. Electrochem. Soc. 141: (1994) 2947-Y. Chen and J. W. Evans, J. Electrochem. Soc., 141 (1994) 2947. 6. K.J. Lee, K. Smith, A. Pesaran, G.H. Kim, J. Power Sources 241: (2013) 20-K. J. Lee, K. Smith, A. Pesaran and G. H. Kim, J. Power Sources, 241 (2013) 20. 7. M. Doyle, J. Newman, Electrochimica Acta 40: (1995) 2191-M. Doyle and J. Newman, Electrochimica Acta, 40 (1995) 2191. 8. T.F. Fuller, M. Doyle, J. Newman, J. Electrochem. Soc. 141: (1994) 1-T. F. Fuller, M. Doyle and J. Newman, J. Electrochem. Soc., 141 (1994) 1. 9. M. Doyle, T.F. Fuller, J. Newman, J. Electrochem. Soc. 140: (1993) 1526-M. Doyle, T. F. Fuller and J. Newman, J. Electrochem. Soc., 140 (1993) 1526. 10. L. Chen, R. Xu, W. Rao, H. Li, Y.-P. Wang, T. Yang, H.-B. Jiang, Int. J. Electrochem. Sci. 14: (2019) 4124-L. Chen, R. Xu, W. Rao, H. Li, Y.-P. Wang, T. Yang and H.-B. Jiang, Int. J. Electrochem. Sci., 14 (2019) 4124. 11. H. Li, W. Zhang, X. Yang, H. Jiang, Y. Wang, T. Yang, L. Chen, H. Shen, Electrochimical Acta 326: (2019) 134966 H. Li, W. Zhang, X. Yang, H. Jiang, Y. Wang, T. Yang, L. Chen and H. Shen, Electrochimical Acta, 326 (2019) 134966 12. Y. Chun, B. Wang, H. Zhang, L. Chen, H. Li, Int. J. Electrochem. Sci. 13: (2018) 1131-Y. Chun, B. Wang, H. Zhang, L. Chen and H. Li, Int. J. Electrochem. Sci., 13 (2018) 1131. 13. N. Sato, J. Power sources 99: (2001) 70-N. Sato, J. Power sources, 99 (2001) 70. 14. S. Yoon, I. Hwang, C.W. Lee, H.S. Ko, K.H. Han, J. Electroanal. Chem. 655: (2011) 32-S. Yoon, I. Hwang, C. W. Lee, H. S. Ko and K. H. Han, J. Electroanal. Chem., 655 (2011) 32. 15. M. Girtan, M. Rusu, Sol. Energ. Mat.Sol. C. 94: (2010) 446-M. Girtan and M. Rusu, Sol. Energ. Mat.Sol. C., 94 (2010) 446. 16. C. Zhu, X. Li, L. Song, Li. Xiang, J. Power Sources 223: (2013) 155-C. Zhu, X. Li, L. Song and Li. Xiang, J. Power Sources, 223 (2013)155. 17. T.I. Evans, R.E. White, J. Electrochem. Soc. 136: (1989) 2145-T. I. Evans and R. E. White, J. Electrochem. Soc., 136 (1989) 2145. 18. F. Liu, F. Lan, J. Chen, J. Mech. Eng. 52: (2016) 141-F. Liu, F. Lan and J. Chen, J. Mech. Eng., 52 (2016) 141. 19. D. Andre, C. Appel, T. Guth, J. Power Sources 224: (2013) 20-D. Andre, C. Appel and T. Guth, J. Power Sources, 224 (2013) 20. 20. X. Zhang, Y. Wang, D. Yang, Z. Chen, Energy 115: (2016) 219-X. Zhang, Y. Wang, D. Yang and Z. Chen, Energy, 115 (2016) 219. 21. X. Zhang, J. Lu, S. Yuan, X. Zhou, J. Power Sources 345: (2017) 21-X. Zhang, J. Lu, S. Yuan and X. Zhou, J. Power Sources, 345 (2017) 21. 22. Y. Zhang, Y. Shang, N. Cui, C. Zhang, Energies 11: (2018) 19-Y. Zhang, Y. Shang. N. Cui and C. Zhang, Energies, 11 (2018) 19. 23. S. Wang, C. Fernandez, X. Liu, J. Su, Y. Xie, Meas. Control-Uk 51: (2018) 125-S. Wang, C. Fernandez, X. Liu, J. Su and Y. Xie, Meas. Control-Uk, 51 (2018) 125. 24. Y. Ma, J. Ru, M. Yin, H. Chen, W. Zheng, J. Appl. Electrochem. 46: (2016) 1119-Y. Ma, J. Ru, M. Yin, H. Chen and W. Zheng, J. Appl. Electrochem., 46 (2016) 1119. 25. X. Xu, W. Wang, L. Chen, J. Electrochem. Soc. 163: (2016) A1429-X. Xu, W. Wang and L. Chen, J. Electrochem. Soc., 163 (2016) A1429. 26. L. Zhang, L. Wang, G. Hinds, C. Lyu, J. Zheng, J. Li, J. Power Sources 270: (2014) 367-L. Zhang, L. Wang, G. Hinds, C. Lyu, J. Zheng and J, Li, J. Power Sources, 270 (2014) 367. 27. S.N. Motapon, A. Lupien-Bedard, L.A. Dessaint, H. Fortin-Balanchette, K. Al-Haddad, IEEE T. Ind. Electron. 64: (2017) 998-S. N. Motapon, A. Lupien-Bedard, L. A. Dessaint, H. Fortin-Balanchette and K. Al-Haddad, IEEE T. Ind. Electron., 64 (2017) 998. 28. J. Li, L. Wang, C. Lyu, H. Wang, X. Liu, J. Power Sources 307: (2016) 220-J. Li, L. Wang, C. Lyu, H. Wang and X. Liu, J. Power Sources, 307 (2016) 220. 29. G.L. Plett, J. Power Sources 134: (2004) 262-G. L. Plett, J. Power Sources, 134 (2004) 262. 30. X. Gao, W. Zhao, Y. Zheng, Electrochimica Acta 295: (2019) 1057-X. Gao, W. Zhao and Y. Zheng, Electrochimica Acta, 295 (2019) 1057. 31. H. He, R. Xiong, X. Zhang, F. Sun, J. Fan, IEEE Trans. Veh. Technol   .60: (2011) 1461-H. He, R. Xiong, X. Zhang, F. Sun and J. Fan, IEEE Trans. Veh. Technol., 60 (2011) 1461. 32. M. Charkhgard, M. Farrokhi, IEEE Trans. Ind. Electron. 57: (2010) 4178-M. Charkhgard and M. Farrokhi, IEEE Trans. Ind. Electron., 57 (2010) 4178. 33. X. Dang, L. Yang, K. Xu, Electrochimica Acta 188: (2016) 356-X. Dang, L. Yang and K. Xu, Electrochimica Acta, 188 (2016) 356.    Electrochimica Acta 40: (1995) 2191-M. Doyle and J. Newman, Electrochimica Acta, 40 (1995) 2191. 8. T.F. Fuller, M. Doyle, J. Newman, J. Electrochem. Soc. 141: (1994) 1-T. F. Fuller, M. Doyle and J. Newman, J. Electrochem. Soc., 141 (1994) 1. 9. M. Doyle, T.F. Fuller, J. Newman, J. Electrochem. Soc. 140: (1993) 1526-M. Doyle, T. F. Fuller and J. Newman, J. Electrochem. Soc., 140 (1993) 1526. 10. L. Chen, R. Xu, W. Rao, H. Li, Y.-P. Wang, T. Yang, H.-B. Jiang, Int. J. Electrochem. Sci. 14: (2019) 4124-L. Chen, R. Xu, W. Rao, H. Li, Y.-P. Wang, T. Yang and H.-B. Jiang, Int. J. Electrochem. Sci., 14 (2019) 4124. 11. H. Li, W. Zhang, X. Yang, H. Jiang, Y. Wang, T. Yang, L. Chen, H. Shen, Electrochimical Acta 326: (2019) 134966 H. Li, W. Zhang, X. Yang, H. Jiang, Y. Wang, T. Yang, L. Chen and H. Shen, Electrochimical Acta, 326 (2019) 134966 12. Y. Chun, B. Wang, H. Zhang, L. Chen, H. Li, Int. J. Electrochem. Sci. 13: (2018) 1131-Y. Chun, B. Wang, H. Zhang, L. Chen and H. Li, Int. J. Electrochem. Sci., 13 (2018) 1131. 13. N. Sato, J. Power sources 99: (2001) 70-N. Sato, J. Power sources, 99 (2001) 70. 14. S. Yoon, I. Hwang, C.W. Lee, H.S. Ko, K.H. Han, J. Electroanal. Chem. 655: (2011) 32-S. Yoon, I. Hwang, C. W. Lee, H. S. Ko and K. H. Han, J. Electroanal. Chem., 655 (2011) 32. 15. M. Girtan, M. Rusu, Sol. Energ. Mat.Sol. C. 94: (2010) 446-M. Girtan and M. Rusu, Sol. Energ. Mat.Sol. C., 94 (2010) 446. 16. C. Zhu, X. Li, L. Song, Li. Xiang, J. Power Sources 223: (2013) 155-C. Zhu, X. Li, L. Song and Li. Xiang, J. Power Sources, 223 (2013)155. 17. T.I. Evans, R.E. White, J. Electrochem. Soc. 136: (1989) 2145-T. I. Evans and R. E. White, J. Electrochem. Soc., 136 (1989) 2145. 18. F. Liu, F. Lan, J. Chen, J. Mech. Eng. 52: (2016) 141-F. Liu, F. Lan and J. Chen, J. Mech. Eng., 52 (2016) 141. 19. D. Andre, C. Appel, T. Guth, J. Power Sources 224: (2013) 20-D. Andre, C. Appel and T. Guth, J. Power Sources, 224 (2013) 20. 20. X. Zhang, Y. Wang, D. Yang, Z. Chen, Energy 115: (2016) 219-X. Zhang, Y. Wang, D. Yang and Z. Chen, Energy, 115 (2016) 219. 21. X. Zhang, J. Lu, S. Yuan, X. Zhou, J. Power Sources 345: (2017) 21-X. Zhang, J. Lu, S. Yuan and X. Zhou, J. Power Sources, 345 (2017) 21. 22. Y. Zhang, Y. Shang, N. Cui, C. Zhang, Energies 11: (2018) 19-Y. Zhang, Y. Shang. N. Cui and C. Zhang, Energies, 11 (2018) 19. 23. S. Wang, C. Fernandez, X. Liu, J. Su, Y. Xie, Meas. Control-Uk 51: (2018) 125-S. Wang, C. Fernandez, X. Liu, J. Su and Y. Xie, Meas. Control-Uk, 51 (2018) 125. 24. Y. Ma, J. Ru, M. Yin, H. Chen, W. Zheng, J. Appl. Electrochem. 46: (2016) 1119-Y. Ma, J. Ru, M. Yin, H. Chen and W. Zheng, J. Appl. Electrochem., 46 (2016) 1119. 25. X. Xu, W. Wang, L. Chen, J. Electrochem. Soc. 163: (2016) A1429-X. Xu, W. Wang and L. Chen, J. Electrochem. Soc., 163 (2016) A1429. 26. L. Zhang, L. Wang, G. Hinds, C. Lyu, J. Zheng, J. Li, J. Power Sources 270: (2014) 367-L. Zhang, L. Wang, G. Hinds, C. Lyu, J. Zheng and J, Li, J. Power Sources, 270 (2014) 367. 27. S.N. Motapon, A. Lupien-Bedard, L.A. Dessaint, H. Fortin-Balanchette, K. Al-Haddad, IEEE T. Ind. Electron. 64: (2017) 998-S. N. Motapon, A. Lupien-Bedard, L. A. Dessaint, H. Fortin-Balanchette and K. Al-Haddad, IEEE T. Ind. Electron., 64 (2017) 998. 28. J. Li, L. Wang, C. Lyu, H. Wang, X. Liu, J. Power Sources 307: (2016) 220-J. Li, L. Wang, C. Lyu, H. Wang and X. Liu, J. Power Sources, 307 (2016) 220. 29. G.L. Plett, J. Power So</xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <simple-article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.6" docsubtype="fla" xml:lang="en">
+         <item-info>
+            <jid>IJOES</jid>
+            <aid>50107067</aid>
+            <ce:pii>S1452-3981(23)08574-7</ce:pii>
+            <ce:doi>10.20964/2020.05.41</ce:doi>
+            <ce:copyright type="other" year="2020">The Authors. Published by ESG</ce:copyright>
+            <ce:copyright-line>© 2020 The Authors. Published by ESG</ce:copyright-line>
+         </item-info>
+         <simple-head>
+            <ce:title id="ti0005">State of Charge Estimation for Lithium-Ion Battery Models Based on a Thermoelectric Coupling Model</ce:title>
+            <ce:author-group id="ag0005">
+               <ce:author id="au0005" author-id="S1452398123085747-fa93e44dbb5ac9760436746305cff2f1">
+                  <ce:given-name>Huanhuan</ce:given-name>
+                  <ce:surname>Li</ce:surname>
+                  <ce:cross-ref refid="af0005" id="cf0005">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="af0015" id="cf0010">
+                     <ce:sup loc="post">3</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0010" author-id="S1452398123085747-ce4a6b553e0ab4b5eb93359bec0fef37">
+                  <ce:given-name>Xiaoyu</ce:given-name>
+                  <ce:surname>Wang</ce:surname>
+                  <ce:cross-ref refid="af0005" id="cf0015">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0015" author-id="S1452398123085747-ccb955341d29bf2b658c7f749bb939eb">
+                  <ce:given-name>Ashwani</ce:given-name>
+                  <ce:surname>Saini</ce:surname>
+                  <ce:cross-ref refid="af0005" id="cf0020">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0020" author-id="S1452398123085747-c9255c24c4f5dd1d6291eefd807484a0">
+                  <ce:given-name>Yuqiang</ce:given-name>
+                  <ce:surname>Zhu</ce:surname>
+                  <ce:cross-ref refid="af0005" id="cf0025">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0025" author-id="S1452398123085747-cac73ea8ceecbcd9ee84ab96fa489f85">
+                  <ce:given-name>Ya-Ping</ce:given-name>
+                  <ce:surname>Wang</ce:surname>
+                  <ce:cross-ref refid="af0010" id="cf0030">
+                     <ce:sup loc="post">2</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="af0015" id="cf0035">
+                     <ce:sup loc="post">3</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:affiliation id="af0005" affiliation-id="S1452398123085747-e2fab86245458ef057220b2d8d1620d8">
+                  <ce:label>1</ce:label>
+                  <ce:textfn id="tn0005">Automotive Engineering Research Institute, Jiangsu University, 301 Xuefu Road, Zhenjiang 212013, P. R. China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Automotive Engineering Research Institute</sa:organization>
+                     <sa:organization>Jiangsu University</sa:organization>
+                     <sa:address-line>301 Xuefu Road</sa:address-line>
+                     <sa:city>Zhenjiang</sa:city>
+                     <sa:postal-code>212013</sa:postal-code>
+                     <sa:country>P. R. China</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="se0005">Automotive Engineering Research Institute, Jiangsu University, 301 Xuefu Road, Zhenjiang 212013, P. R. China</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="af0010" affiliation-id="S1452398123085747-1855c4e4013bfbcc17ea27d8a07150c9">
+                  <ce:label>2</ce:label>
+                  <ce:textfn id="tn0010">School of Materials Science &amp; Engineering, Jiangsu University, Zhenjiang 212013, P. R. China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>School of Materials Science &amp; Engineering</sa:organization>
+                     <sa:organization>Jiangsu University</sa:organization>
+                     <sa:city>Zhenjiang</sa:city>
+                     <sa:postal-code>212013</sa:postal-code>
+                     <sa:country>P. R. China</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="se0010">School of Materials Science &amp; Engineering, Jiangsu University, Zhenjiang 212013, P. R. China</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="af0015" affiliation-id="S1452398123085747-2e5595a19ee1b5cedbe232d69731a308">
+                  <ce:label>3</ce:label>
+                  <ce:textfn id="tn0015">Key Laboratory of Advanced Energy Materials Chemistry (Ministry of Education), College of Chemistry, Nankai University, 94 Weijing road, Tianjin, 300071, PR China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Key Laboratory of Advanced Energy Materials Chemistry (Ministry of Education)</sa:organization>
+                     <sa:organization>College of Chemistry</sa:organization>
+                     <sa:organization>Nankai University</sa:organization>
+                     <sa:address-line>94 Weijing road</sa:address-line>
+                     <sa:city>Tianjin</sa:city>
+                     <sa:postal-code>300071</sa:postal-code>
+                     <sa:country>PR China</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="se0015">Key Laboratory of Advanced Energy Materials Chemistry (Ministry of Education), College of Chemistry, Nankai University, 94 Weijing road, Tianjin, 300071, PR China</ce:source-text>
+               </ce:affiliation>
+            </ce:author-group>
+            <ce:date-received day="2" month="12" year="2019"/>
+            <ce:date-accepted day="8" month="2" year="2020"/>
+            <ce:abstract id="ab0005" xml:lang="en" view="extended" class="author"><ce:abstract-sec id="as0005" view="all">
+                  <ce:simple-para id="sp0005" view="all">Conventional equivalent circuit models of lithium-ion batteries (LIBs) ignore the influence of temperature changes caused by heat generated inside the battery; unfortunately, the above leads to mismatched model parameters, which decreases the precision of the model. In this paper, a thermoelectric battery model based on thermoelectric coupling is proposed by coupling an equivalent circuit model with a thermal model, which considers the temperature increase in the battery. Performance tests for the hybrid pulse power characteristic (HPPC), charge-discharge capacity-voltage curve, time-temperature curve and direct current (DC) internal resistance were performed to calibrate 30 Ah ternary prismatic LIBs; furthermore, the model parameters were identified by a least squares method. The accuracy and effectiveness of the model were then validated by steady-state experiments and dynamic tests. In the steady state experiment, the maximum voltage error was 24.36 mV, and the maximum temperature simulation error was 0.93 °C at 1C, whereas the absolute voltage error was under 20 mV and the error of a high current pulse reached 60 mV in a dynamic test under the New European Driving Cycle (NEDC) condition. The above results confirm that the simulation can consistently and properly model the experimental results, which illustrates that the developed model has high accuracy and can reflect the characteristics of LIBs during a charge/discharge process in real time. Finally, an SOC estimation method for an LIB is developed by using an extended Kalman filter algorithm and is verified by experiments under the NEDC condition. The results show that the model has a high estimation accuracy, and the SOC error, maximum error and average error values are approximately 3%, 2.96% and 0.81%, respectively; additionally, an initial value dependence or a cumulative error in an ampere-time integration method is not generated, which demonstrates that the algorithm has a strong self-correcting ability with initial SOC errors and strong convergence.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords view="extended" id="ks0005" class="keyword">
+               <ce:section-title id="st0005">Keywords</ce:section-title>
+               <ce:keyword id="kw0005">
+                  <ce:text id="tx0005">Lithium-ion battery</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0010">
+                  <ce:text id="tx0010">Thermoelectric coupling model</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0015">
+                  <ce:text id="tx0015">Equivalent circuit</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0020">
+                  <ce:text id="tx0020">Parameter identification</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0025">
+                  <ce:text id="tx0025">SOC Estimation</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </simple-head>
+         <simple-tail view="all">
+            <ce:bibliography id="bi0005" view="all">
+               <ce:section-title id="st0010">References</ce:section-title>
+               <ce:bibliography-sec id="bs0005" view="all">
+                  <ce:bib-reference id="bb0005">
+                     <ce:label>1.</ce:label>
+                     <sb:reference id="rf0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Lu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Han</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Hua</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Ouyang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>226</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>272</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0020">L. Lu, X. Han, J. Li, J. Hua and M. Ouyang, J. Power Sources, 226 (2013) 272.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0010">
+                     <ce:label>2.</ce:label>
+                     <sb:reference id="rf0010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Dagger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Miehoff</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Lurenbaum</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.M.</ce:given-name>
+                                 <ce:surname>Schappacher</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Winter</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Engergy Technology</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>6</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2023</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0025">T. Dagger, P. Miehoff, C. Lurenbaum, F. M. Schappacher and M. Winter, Engergy Technology, 6 (2018) 2023.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0015">
+                     <ce:label>3.</ce:label>
+                     <sb:reference id="rf0015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Ramadesigan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.W.C.</ce:given-name>
+                                 <ce:surname>Northrop</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>De</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Santhanagopalan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.D.</ce:given-name>
+                                 <ce:surname>Braatz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.R.</ce:given-name>
+                                 <ce:surname>Subramanian</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Multi-scale Modeling and Simulation of Lithium-Ion Batteries from Systems Engineering Perspective</sb:maintitle>
+                                 </sb:title>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                        <sb:comment>220th ECS Meeting, Boston, America. Abstract 747</sb:comment>
+                     </sb:reference>
+                     <ce:source-text id="se0030">V. Ramadesigan, P. W. C. Northrop, S. De, S. Santhanagopalan, R.D. Braatz and V. R. Subramanian, Multi-scale Modeling and Simulation of Lithium-Ion Batteries from Systems Engineering Perspective, 220th ECS Meeting, Boston, America, 2011, Abstract 747.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0020">
+                     <ce:label>4.</ce:label>
+                     <sb:reference id="rf0020">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.W.</ce:given-name>
+                                 <ce:surname>Evans</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochimica Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>39</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1994</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>517</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0035">Y. Chen and J. W. Evans, Electrochimica Acta, 39 (1994) 517.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0025">
+                     <ce:label>5.</ce:label>
+                     <sb:reference id="rf0025">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.W.</ce:given-name>
+                                 <ce:surname>Evans</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Electrochem. Soc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>141</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1994</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2947</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0040">Y. Chen and J. W. Evans, J. Electrochem. Soc., 141 (1994) 2947.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0030">
+                     <ce:label>6.</ce:label>
+                     <sb:reference id="rf0030">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.J.</ce:given-name>
+                                 <ce:surname>Lee</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Smith</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Pesaran</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.H.</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>241</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>20</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0045">K. J. Lee, K. Smith, A. Pesaran and G. H. Kim, J. Power Sources, 241 (2013) 20.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0035">
+                     <ce:label>7.</ce:label>
+                     <sb:reference id="rf0035">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Doyle</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Newman</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochimica Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>40</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1995</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2191</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0050">M. Doyle and J. Newman, Electrochimica Acta, 40 (1995) 2191.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0040">
+                     <ce:label>8.</ce:label>
+                     <sb:reference id="rf0040">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.F.</ce:given-name>
+                                 <ce:surname>Fuller</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Doyle</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Newman</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Electrochem. Soc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>141</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1994</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0055">T. F. Fuller, M. Doyle and J. Newman, J. Electrochem. Soc., 141 (1994) 1.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0045">
+                     <ce:label>9.</ce:label>
+                     <sb:reference id="rf0045">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Doyle</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.F.</ce:given-name>
+                                 <ce:surname>Fuller</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Newman</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Electrochem. Soc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>140</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1993</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1526</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0060">M. Doyle, T. F. Fuller and J. Newman, J. Electrochem. Soc., 140 (1993) 1526.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0050">
+                     <ce:label>10.</ce:label>
+                     <sb:reference id="rf0050">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Xu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Rao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.-P.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.-B.</ce:given-name>
+                                 <ce:surname>Jiang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Int. J. Electrochem. Sci.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>14</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4124</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0065">L. Chen, R. Xu, W. Rao, H. Li, Y.-P. Wang, T. Yang and H.-B. Jiang, Int. J. Electrochem. Sci., 14 (2019) 4124.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0055">
+                     <ce:label>11.</ce:label>
+                     <sb:reference id="rf0055">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Jiang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Shen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochimical Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>326</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:article-number>134966</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0070">H. Li, W. Zhang, X. Yang, H. Jiang, Y. Wang, T. Yang, L. Chen and H. Shen, Electrochimical Acta, 326 (2019) 134966</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0060">
+                     <ce:label>12.</ce:label>
+                     <sb:reference id="rf0060">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Chun</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Int. J. Electrochem. Sci.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>13</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1131</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0075">Y. Chun, B. Wang, H. Zhang, L. Chen and H. Li, Int. J. Electrochem. Sci., 13 (2018) 1131.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0065">
+                     <ce:label>13.</ce:label>
+                     <sb:reference id="rf0065">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Sato</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>99</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2001</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>70</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0080">N. Sato, J. Power sources, 99 (2001) 70.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0070">
+                     <ce:label>14.</ce:label>
+                     <sb:reference id="rf0070">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Yoon</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>I.</ce:given-name>
+                                 <ce:surname>Hwang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.W.</ce:given-name>
+                                 <ce:surname>Lee</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.S.</ce:given-name>
+                                 <ce:surname>Ko</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.H.</ce:given-name>
+                                 <ce:surname>Han</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Electroanal. Chem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>655</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>32</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0085">S. Yoon, I. Hwang, C. W. Lee, H. S. Ko and K. H. Han, J. Electroanal. Chem., 655 (2011) 32.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0075">
+                     <ce:label>15.</ce:label>
+                     <sb:reference id="rf0075">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Girtan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Rusu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Sol. Energ. Mat.Sol. C.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>94</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>446</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0090">M. Girtan and M. Rusu, Sol. Energ. Mat.Sol. C., 94 (2010) 446.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0080">
+                     <ce:label>16.</ce:label>
+                     <sb:reference id="rf0080">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Zhu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Song</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Li.</ce:given-name>
+                                 <ce:surname>Xiang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>223</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>155</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0095">C. Zhu, X. Li, L. Song and Li. Xiang, J. Power Sources, 223 (2013)155.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0085">
+                     <ce:label>17.</ce:label>
+                     <sb:reference id="rf0085">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.I.</ce:given-name>
+                                 <ce:surname>Evans</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.E.</ce:given-name>
+                                 <ce:surname>White</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Electrochem. Soc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>136</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1989</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2145</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0100">T. I. Evans and R. E. White, J. Electrochem. Soc., 136 (1989) 2145.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0090">
+                     <ce:label>18.</ce:label>
+                     <sb:reference id="rf0090">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Lan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Mech. Eng.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>52</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>141</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0105">F. Liu, F. Lan and J. Chen, J. Mech. Eng., 52 (2016) 141.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0095">
+                     <ce:label>19.</ce:label>
+                     <sb:reference id="rf0095">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Andre</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Appel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Guth</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>224</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>20</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0110">D. Andre, C. Appel and T. Guth, J. Power Sources, 224 (2013) 20.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0100">
+                     <ce:label>20.</ce:label>
+                     <sb:reference id="rf0100">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>115</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>219</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0115">X. Zhang, Y. Wang, D. Yang and Z. Chen, Energy, 115 (2016) 219.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0105">
+                     <ce:label>21.</ce:label>
+                     <sb:reference id="rf0105">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Lu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Yuan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>345</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>21</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0120">X. Zhang, J. Lu, S. Yuan and X. Zhou, J. Power Sources, 345 (2017) 21.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0110">
+                     <ce:label>22.</ce:label>
+                     <sb:reference id="rf0110">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Shang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Cui</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energies</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>11</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>19</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0125">Y. Zhang, Y. Shang. N. Cui and C. Zhang, Energies, 11 (2018) 19.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0115">
+                     <ce:label>23.</ce:label>
+                     <sb:reference id="rf0115">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Fernandez</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Su</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Xie</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Meas. Control-Uk</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>51</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>125</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0130">S. Wang, C. Fernandez, X. Liu, J. Su and Y. Xie, Meas. Control-Uk, 51 (2018) 125.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0120">
+                     <ce:label>24.</ce:label>
+                     <sb:reference id="rf0120">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Ma</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Ru</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Yin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Zheng</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Appl. Electrochem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>46</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1119</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0135">Y. Ma, J. Ru, M. Yin, H. Chen and W. Zheng, J. Appl. Electrochem., 46 (2016) 1119.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0125">
+                     <ce:label>25.</ce:label>
+                     <sb:reference id="rf0125">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Xu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Electrochem. Soc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>163</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>A1429</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0140">X. Xu, W. Wang and L. Chen, J. Electrochem. Soc., 163 (2016) A1429.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0130">
+                     <ce:label>26.</ce:label>
+                     <sb:reference id="rf0130">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Hinds</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Lyu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Zheng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>270</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>367</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0145">L. Zhang, L. Wang, G. Hinds, C. Lyu, J. Zheng and J, Li, J. Power Sources, 270 (2014) 367.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0135">
+                     <ce:label>27.</ce:label>
+                     <sb:reference id="rf0135">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.N.</ce:given-name>
+                                 <ce:surname>Motapon</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Lupien-Bedard</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.A.</ce:given-name>
+                                 <ce:surname>Dessaint</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Fortin-Balanchette</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Al-Haddad</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE T. Ind. Electron.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>64</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>998</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0150">S. N. Motapon, A. Lupien-Bedard, L. A. Dessaint, H. Fortin-Balanchette and K. Al-Haddad, IEEE T. Ind. Electron., 64 (2017) 998.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0140">
+                     <ce:label>28.</ce:label>
+                     <sb:reference id="rf0140">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Lyu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>307</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>220</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0155">J. Li, L. Wang, C. Lyu, H. Wang and X. Liu, J. Power Sources, 307 (2016) 220.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0145">
+                     <ce:label>29.</ce:label>
+                     <sb:reference id="rf0145">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.L.</ce:given-name>
+                                 <ce:surname>Plett</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>134</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>262</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0160">G. L. Plett, J. Power Sources, 134 (2004) 262.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0150">
+                     <ce:label>30.</ce:label>
+                     <sb:reference id="rf0150">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Gao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Zheng</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochimica Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>295</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1057</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0165">X. Gao, W. Zhao and Y. Zheng, Electrochimica Acta, 295 (2019) 1057.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0155">
+                     <ce:label>31.</ce:label>
+                     <sb:reference id="rf0155">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Xiong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Sun</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Fan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>
+                                       <ce:italic>IEEE Trans. Veh. Technol</ce:italic>.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>60</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1461</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0170">H. He, R. Xiong, X. Zhang, F. Sun and J. Fan, IEEE Trans. Veh. Technol., 60 (2011) 1461.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0160">
+                     <ce:label>32.</ce:label>
+                     <sb:reference id="rf0160">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Charkhgard</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Farrokhi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans. Ind. Electron.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>57</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4178</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0175">M. Charkhgard and M. Farrokhi, IEEE Trans. Ind. Electron., 57 (2010) 4178.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0165">
+                     <ce:label>33.</ce:label>
+                     <sb:reference id="rf0165">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Dang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Xu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochimica Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>188</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>356</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0180">X. Dang, L. Yang and K. Xu, Electrochimica Acta, 188 (2016) 356.</ce:source-text>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </simple-tail>
+      </simple-article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

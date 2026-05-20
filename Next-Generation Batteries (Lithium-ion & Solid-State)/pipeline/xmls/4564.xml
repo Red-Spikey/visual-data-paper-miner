@@ -1,0 +1,1471 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S2215016123002911</prism:url><dc:identifier>doi:10.1016/j.mex.2023.102294</dc:identifier><eid>1-s2.0-S2215016123002911</eid><prism:doi>10.1016/j.mex.2023.102294</prism:doi><pii>S2215-0161(23)00291-1</pii><dc:title>Development of bespoke hardware and software to enable testing of a novel method of managing the charge and discharge of series-connected battery packs </dc:title><prism:publicationName>MethodsX</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>mic</pubType><prism:issn>22150161</prism:issn><prism:volume>11</prism:volume><prism:startingPage>102294</prism:startingPage><prism:pageRange>102294</prism:pageRange><articleNumber>102294</articleNumber><dc:format>text/xml</dc:format><prism:coverDate>2023-12-31</prism:coverDate><prism:coverDisplayDate>December 2023</prism:coverDisplayDate><prism:copyright>© 2023 The Authors. Published by Elsevier B.V.</prism:copyright><prism:publisher>The Authors. Published by Elsevier B.V.</prism:publisher><dc:creator>Hardy, John</dc:creator><dc:creator>Steggall, John</dc:creator><dc:creator>Hardy, Peter</dc:creator><dc:description>
+                  The novel feature of the method of battery management under development and testing is that routine balancing of the cells is eliminated throughout the service life of the battery pack. This requires preparation of the battery cells and configuration of the rigs in such a way as to ensure that the cells are accurately balanced on assembly and that thereafter there is no cell-to-cell variation in charge current or load at any time, measured to a low microamp level. In addition, the method requires a special charge control algorithm which was devised in order to accommodate cell-to-cell variations in capacity and dynamic response.
+                  Comprehensive experimental testing of this method, which is fully described in the associated paper (Hardy et al., 2023), required the development of hardware and software which would combine the necessary functions of a battery test rig and a battery management system capable of carrying out the special method of charge control described below. These included:
+                        
+                           •
+                           The automated control of contactors, loads and chargers to perform multiple charge/discharge cycles to predetermined patterns of current and maximum and minimum cell voltages.
+                        
+                        
+                           •
+                           Monitoring of cell voltages, current and temperature and the provision of test and diagnostic data.
+                        
+                        
+                           •
+                           Performing the safety functions of a Battery Management System to ensure that no cell was permitted to exceed limitations of current, voltage or temperature.
+                        
+                     
+                  
+                  The hardware and software were developed through three phases of testing with the operational principles (but not all the hardware and software elements) carrying over from one phase to the next.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>Author</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by/4.0/</openaccessUserLicense><dcterms:subject>Lithium-ion battery</dcterms:subject><dcterms:subject>Testing</dcterms:subject><dcterms:subject>Cell balancing</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S2215016123002911" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S2215016123002911" rel="scidir"/></coredata><objects><object ref="gr7" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="282" height="211" size="34266">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr7.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="339" height="195" size="17471">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr2.jpg?httpAccept=%2A%2F%2A</object><object ref="gr10" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="284" height="214" size="29715">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr10.jpg?httpAccept=%2A%2F%2A</object><object ref="gr4" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="282" height="211" size="27813">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr4.jpg?httpAccept=%2A%2F%2A</object><object ref="gr9" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="284" height="214" size="42714">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr9.jpg?httpAccept=%2A%2F%2A</object><object ref="gr8" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="376" height="136" size="17063">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr8.jpg?httpAccept=%2A%2F%2A</object><object ref="gr11" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="282" height="211" size="15083">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr11.jpg?httpAccept=%2A%2F%2A</object><object ref="gr15" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="282" height="130" size="8550">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr15.jpg?httpAccept=%2A%2F%2A</object><object ref="gr12" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="284" height="214" size="38589">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr12.jpg?httpAccept=%2A%2F%2A</object><object ref="ga1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="356" height="200" size="29829">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-ga1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr6" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="282" height="212" size="37519">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr6.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="339" height="177" size="19211">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr14" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="339" height="185" size="18342">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr14.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="339" height="196" size="11471">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr3.jpg?httpAccept=%2A%2F%2A</object><object ref="gr13" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="659" height="372" size="128668">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr13.jpg?httpAccept=%2A%2F%2A</object><object ref="gr5" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="282" height="212" size="23653">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr5.jpg?httpAccept=%2A%2F%2A</object><object ref="gr7" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="164" size="28656">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr7.sml?httpAccept=%2A%2F%2A</object><object ref="gr2" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="126" size="6305">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr2.sml?httpAccept=%2A%2F%2A</object><object ref="gr10" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="218" height="164" size="26495">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr10.sml?httpAccept=%2A%2F%2A</object><object ref="gr4" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="164" size="25641">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr4.sml?httpAccept=%2A%2F%2A</object><object ref="gr9" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="218" height="164" size="32042">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr9.sml?httpAccept=%2A%2F%2A</object><object ref="gr8" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="79" size="5154">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr8.sml?httpAccept=%2A%2F%2A</object><object ref="gr11" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="164" size="5891">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr11.sml?httpAccept=%2A%2F%2A</object><object ref="gr15" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="101" size="4587">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr15.sml?httpAccept=%2A%2F%2A</object><object ref="gr12" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="218" height="164" size="33272">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr12.sml?httpAccept=%2A%2F%2A</object><object ref="ga1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="123" size="10172">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-ga1.sml?httpAccept=%2A%2F%2A</object><object ref="gr6" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="218" height="164" size="31059">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr6.sml?httpAccept=%2A%2F%2A</object><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="115" size="6817">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr1.sml?httpAccept=%2A%2F%2A</object><object ref="gr14" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="119" size="6226">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr14.sml?httpAccept=%2A%2F%2A</object><object ref="gr3" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="127" size="4546">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr3.sml?httpAccept=%2A%2F%2A</object><object ref="gr13" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="124" size="12942">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr13.sml?httpAccept=%2A%2F%2A</object><object ref="gr5" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="218" height="164" size="31097">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr5.sml?httpAccept=%2A%2F%2A</object><object ref="gr7" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1250" height="935" size="345222">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr7_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1500" height="863" size="112752">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr2_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr10" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1258" height="946" size="406051">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr10_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr4" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1250" height="937" size="373365">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr4_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr9" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1258" height="946" size="552494">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr9_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr8" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1667" height="605" size="119599">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr8_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr11" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1250" height="936" size="101616">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr11_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr15" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1250" height="575" size="67230">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr15_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr12" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1258" height="946" size="468668">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr12_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="ga1" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1576" height="886" size="226969">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-ga1_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr6" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1250" height="939" size="396644">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr6_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1500" height="785" size="145258">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr1_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr14" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1500" height="817" size="144436">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr14_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1500" height="868" size="74877">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr3_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr13" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2917" height="1645" size="1474338">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr13_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr5" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1250" height="941" size="298081">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-gr5_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="am" category="standard" type="AAM-PDF" multimediatype="Acrobat PDF file" mimetype="application/pdf" size="1433050">https://api.elsevier.com/content/object/eid/1-s2.0-S2215016123002911-am.pdf?httpAccept=%2A%2F%2A</object></objects><scopus-id>85165568893</scopus-id><scopus-eid>2-s2.0-85165568893</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85165568893" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>306208</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291682</xocs:ssid>
+         <xocs:ssid type="subj">291735</xocs:ssid>
+         <xocs:ssid type="subj">291848</xocs:ssid>
+         <xocs:ssid type="subj">291889</xocs:ssid>
+         <xocs:ssid type="subj">291929</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>MethodsX</xocs:srctitle>
+      <xocs:normalized-srctitle>METHODSX</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20230720">2023-07-20</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20230720">2023-07-20</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20230724">2023-07-24</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20230724">2023-07-24</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2023-12-27T16:02:46</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S2215016123002911</xocs:eid>
+      <xocs:pii-formatted>S2215-0161(23)00291-1</xocs:pii-formatted>
+      <xocs:pii-unformatted>S2215016123002911</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.mex.2023.102294</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.2</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S2215016123X00028</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20231227">2023-12-27T17:54:29.404114Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20231201</xocs:date-search-begin>
+      <xocs:date-search-end>20231231</xocs:date-search-end>
+      <xocs:year-nav>2023</xocs:year-nav>
+      <xocs:indexeddate epoch="1689819886">2023-07-20T02:24:46.743759Z</xocs:indexeddate>
+      <xocs:articleinfo>absattachment articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid fundingbodyid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder sponsoredaccesstype srctitle srctitlenorm srctype ssids alllist content oa subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body acknowledge affil articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid orcid otherkwds primabst ref specialabst</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>2215-0161</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>22150161</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:sponsored-access-type>UNLIMITED</xocs:sponsored-access-type>
+      <xocs:funding-body-id>NONE</xocs:funding-body-id>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>11</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>11</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 11</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>103</xocs:sort-order>
+      <xocs:first-fp>102294</xocs:first-fp>
+      <xocs:article-number>102294</xocs:article-number>
+      <xocs:pages>
+         <xocs:first-page>102294</xocs:first-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>202312</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>December 2023</xocs:cover-date-text>
+      <xocs:cover-date-start>2023-12-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2023-12-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2023</xocs:cover-date-year>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>Energy</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>mic</xocs:document-subtype>
+      <xocs:copyright-line>© 2023 The Authors. Published by Elsevier B.V.</xocs:copyright-line>
+      <xocs:normalized-article-title>DEVELOPMENTBESPOKEHARDWARESOFTWAREENABLETESTINGANOVELMETHODMANAGINGCHARGEDISCHARGESERIESCONNECTEDBATTERYPACKS</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>HARDY</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>J</xocs:normalized-first-auth-initial>
+      <xocs:refers-to>
+         <xocs:refers-to-doi>10.1016/j.est.2023.106931</xocs:refers-to-doi>
+         <xocs:refers-to-pii-unformatted>S2352152X23003286</xocs:refers-to-pii-unformatted>
+      </xocs:refers-to>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>Method details</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Background</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>Introduction</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Phase 1</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Phase 2</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Phase 3</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>Results</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Data validation</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Bottom balancing</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>Conclusion</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>Ethics statements</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>CRediT authorship contribution statement</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:acknowledgment">
+            <xocs:item-toc-section-title>Acknowledgments</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>Reference</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="sbref0001">
+            <xocs:ref-normalized-surname>HARDY</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2023</xocs:ref-pub-year>
+            <xocs:ref-article-number>106931</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>HARDYX2023X102294</xocs:refkey3>
+         <xocs:refkey4ai>HARDYX2023X102294XJ</xocs:refkey4ai>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2023-07-19T06:21:40Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>Author</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by/4.0/</xocs:oa-user-license>
+      </xocs:open-access>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2023 The Authors. Published by Elsevier B.V.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:funding-list has-funding-info="1">
+         <xocs:funding-addon-generated-timestamp>2023-07-28T02:59:15.450Z</xocs:funding-addon-generated-timestamp>
+         <xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined</xocs:funding-addon-type>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>UK's innovation agency</xocs:funding-agency-matched-string>
+            <xocs:funding-id>132250</xocs:funding-id>
+            <xocs:funding-id>133372</xocs:funding-id>
+            <xocs:funding-id>133860</xocs:funding-id>
+         </xocs:funding>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>Innovate UK</xocs:funding-agency-matched-string>
+            <xocs:funding-agency>Innovate UK</xocs:funding-agency>
+            <xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100006041</xocs:funding-agency-id>
+            <xocs:funding-agency-country>http://sws.geonames.org/2635167/</xocs:funding-agency-country>
+         </xocs:funding>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>European Regional Development Fund</xocs:funding-agency-matched-string>
+            <xocs:funding-id>3910976412</xocs:funding-id>
+            <xocs:funding-agency-acronym>ERDF</xocs:funding-agency-acronym>
+            <xocs:funding-agency>European Regional Development Fund</xocs:funding-agency>
+            <xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100008530</xocs:funding-agency-id>
+            <xocs:funding-agency-country>http://sws.geonames.org/6695072/</xocs:funding-agency-country>
+         </xocs:funding>
+         <xocs:funding-text>This work has been funded with support from Innovate UK, the UK's innovation agency, grant numbers 132250, 133372 and 133860, and from the Worcestershire Proof of Concept Programme, part-funded by the European Regional Development Fund 2014-2020, grant number 3910976412 .</xocs:funding-text>
+      </xocs:funding-list>
+      <xocs:article-sharing-framework/>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S2215-0161(23)00291-1</xocs:pii-formatted>
+         <xocs:pii-unformatted>S2215016123002911</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S2215016123002911</xocs:eid>
+         <xocs:doi>10.1016/j.mex.2023.102294</xocs:doi>
+         <xocs:cid>306208</xocs:cid>
+         <xocs:timestamp>2023-12-27T17:54:29.404114Z</xocs:timestamp>
+         <xocs:cover-date-start>2023-12-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2023-12-31</xocs:cover-date-end>
+         <xocs:sponsored-access-type>UNLIMITED</xocs:sponsored-access-type>
+         <xocs:funding-body-id>NONE</xocs:funding-body-id>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/MAIN/application/pdf/445fa886b9a846bd3bc412fc5952e056/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>3254297</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>9</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S2215016123002911-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/PREVIEW/image/png/8a06526a9bf7e1a02335e46516190fa5/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>44532</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr7.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr7/HIGHRES/image/jpeg/98e20f32f5f5d5edc74f0fa3754640c8/gr7.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr7</xocs:file-basename>
+               <xocs:filename>gr7.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>34266</xocs:filesize>
+               <xocs:pixel-height>211</xocs:pixel-height>
+               <xocs:pixel-width>282</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr2.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr2/MAIN/image/jpeg/99c6b388159695c5fc76c898ca5200f2/gr2.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>17471</xocs:filesize>
+               <xocs:pixel-height>195</xocs:pixel-height>
+               <xocs:pixel-width>339</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr10.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr10/DOWNSAMPLED/image/jpeg/5b39f00f2492a1b39eb95f84cb70489d/gr10.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr10</xocs:file-basename>
+               <xocs:filename>gr10.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>29715</xocs:filesize>
+               <xocs:pixel-height>214</xocs:pixel-height>
+               <xocs:pixel-width>284</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr4.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr4/DOWNSAMPLED/image/jpeg/400d5cbdb4cd5d51862a9510fb1840e2/gr4.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>27813</xocs:filesize>
+               <xocs:pixel-height>211</xocs:pixel-height>
+               <xocs:pixel-width>282</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr9.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr9/DOWNSAMPLED/image/jpeg/05eb9a4e88d57054b69a28a6b7fe950e/gr9.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr9</xocs:file-basename>
+               <xocs:filename>gr9.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>42714</xocs:filesize>
+               <xocs:pixel-height>214</xocs:pixel-height>
+               <xocs:pixel-width>284</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr8.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr8/DOWNSAMPLED/image/jpeg/e203c0c972b29f7cfbcd39c4b8c8170e/gr8.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr8</xocs:file-basename>
+               <xocs:filename>gr8.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>17063</xocs:filesize>
+               <xocs:pixel-height>136</xocs:pixel-height>
+               <xocs:pixel-width>376</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr11.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr11/DOWNSAMPLED/image/jpeg/53715001ea7804c6c89f2919cc48ce0e/gr11.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr11</xocs:file-basename>
+               <xocs:filename>gr11.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>15083</xocs:filesize>
+               <xocs:pixel-height>211</xocs:pixel-height>
+               <xocs:pixel-width>282</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr15.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr15/DOWNSAMPLED/image/jpeg/d6385b1a5fdd4baff5f60292ce7462f8/gr15.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr15</xocs:file-basename>
+               <xocs:filename>gr15.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>8550</xocs:filesize>
+               <xocs:pixel-height>130</xocs:pixel-height>
+               <xocs:pixel-width>282</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr12.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr12/DOWNSAMPLED/image/jpeg/6867510930761397475bf93334b7e880/gr12.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr12</xocs:file-basename>
+               <xocs:filename>gr12.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>38589</xocs:filesize>
+               <xocs:pixel-height>214</xocs:pixel-height>
+               <xocs:pixel-width>284</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-ga1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/ga1/DOWNSAMPLED/image/jpeg/16cd89f8b9ded6f07be7a72493e6d06e/ga1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>ga1</xocs:file-basename>
+               <xocs:abstract-attachment>true</xocs:abstract-attachment>
+               <xocs:filename>ga1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>29829</xocs:filesize>
+               <xocs:pixel-height>200</xocs:pixel-height>
+               <xocs:pixel-width>356</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr6.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr6/DOWNSAMPLED/image/jpeg/902ecb19708e82b1c3787bf9ebc1eb40/gr6.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr6</xocs:file-basename>
+               <xocs:filename>gr6.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>37519</xocs:filesize>
+               <xocs:pixel-height>212</xocs:pixel-height>
+               <xocs:pixel-width>282</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr1/DOWNSAMPLED/image/jpeg/1e88354bcb5ed2d658720f01b6d714f0/gr1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>19211</xocs:filesize>
+               <xocs:pixel-height>177</xocs:pixel-height>
+               <xocs:pixel-width>339</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr14.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr14/THUMBNAIL/image/jpeg/2505ca45395160a1af62b7024d96bc2f/gr14.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr14</xocs:file-basename>
+               <xocs:filename>gr14.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>18342</xocs:filesize>
+               <xocs:pixel-height>185</xocs:pixel-height>
+               <xocs:pixel-width>339</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr3.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr3/DOWNSAMPLED/image/jpeg/e23d9766316ce50647e7da2f502999a8/gr3.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>11471</xocs:filesize>
+               <xocs:pixel-height>196</xocs:pixel-height>
+               <xocs:pixel-width>339</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr13.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr13/DOWNSAMPLED/image/jpeg/19c7736d6c1c748902ae4dbb8bd89143/gr13.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr13</xocs:file-basename>
+               <xocs:filename>gr13.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>128668</xocs:filesize>
+               <xocs:pixel-height>372</xocs:pixel-height>
+               <xocs:pixel-width>659</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr5.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr5/DOWNSAMPLED/image/jpeg/5ce7aedcdceb253595997ef8ebe6b66c/gr5.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr5</xocs:file-basename>
+               <xocs:filename>gr5.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>23653</xocs:filesize>
+               <xocs:pixel-height>212</xocs:pixel-height>
+               <xocs:pixel-width>282</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr7.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr7/THUMBNAIL/image/gif/a4ef1d57e542c25d975c00f6573162dd/gr7.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr7</xocs:file-basename>
+               <xocs:filename>gr7.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>28656</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr2.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr2/DOWNSAMPLED/image/gif/bd87f9ee70923466e721cd6402c5d8d7/gr2.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>6305</xocs:filesize>
+               <xocs:pixel-height>126</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr10.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr10/THUMBNAIL/image/gif/4fc7711b0b8966d0f0c5aa50308a73d8/gr10.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr10</xocs:file-basename>
+               <xocs:filename>gr10.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>26495</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>218</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr4.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr4/DOWNSAMPLED/image/gif/bbbc691f6e442b329a1b121f929fcc19/gr4.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>25641</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr9.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr9/THUMBNAIL/image/gif/36c68a57de12a8d533beb849b8b999ca/gr9.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr9</xocs:file-basename>
+               <xocs:filename>gr9.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>32042</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>218</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr8.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr8/THUMBNAIL/image/gif/8e778ac17a6b46326a915f92ab28fe62/gr8.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr8</xocs:file-basename>
+               <xocs:filename>gr8.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>5154</xocs:filesize>
+               <xocs:pixel-height>79</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr11.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr11/DOWNSAMPLED/image/gif/e3907c78508aaa6e15f73da118d6575c/gr11.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr11</xocs:file-basename>
+               <xocs:filename>gr11.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>5891</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr15.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr15/THUMBNAIL/image/gif/48b9f65188ce211d68ec57247d4af7ef/gr15.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr15</xocs:file-basename>
+               <xocs:filename>gr15.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>4587</xocs:filesize>
+               <xocs:pixel-height>101</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr12.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr12/THUMBNAIL/image/gif/756ecd9659c8d61583e113d71e2deff8/gr12.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr12</xocs:file-basename>
+               <xocs:filename>gr12.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>33272</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>218</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-ga1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/ga1/THUMBNAIL/image/gif/2a59d53edf0384842ec178ec540f50de/ga1.sml</xocs:ucs-locator>
+               <xocs:file-basename>ga1</xocs:file-basename>
+               <xocs:abstract-attachment>true</xocs:abstract-attachment>
+               <xocs:filename>ga1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>10172</xocs:filesize>
+               <xocs:pixel-height>123</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr6.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr6/THUMBNAIL/image/gif/d4844f2e88a27163e8579ed207c9a943/gr6.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr6</xocs:file-basename>
+               <xocs:filename>gr6.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>31059</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>218</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr1/THUMBNAIL/image/gif/5fb0de62f2691aaf6616a2db547b1c00/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>6817</xocs:filesize>
+               <xocs:pixel-height>115</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr14.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr14/HIGHRES/image/gif/9cee6574c2de1efc38020eef4d079796/gr14.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr14</xocs:file-basename>
+               <xocs:filename>gr14.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>6226</xocs:filesize>
+               <xocs:pixel-height>119</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr3.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr3/THUMBNAIL/image/gif/dbee7108a1aca3b9869b756693aa9a7d/gr3.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>4546</xocs:filesize>
+               <xocs:pixel-height>127</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr13.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr13/HIGHRES/image/gif/38fb12398073bfae1f83f41a66838fab/gr13.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr13</xocs:file-basename>
+               <xocs:filename>gr13.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>12942</xocs:filesize>
+               <xocs:pixel-height>124</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr5.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/gr5/DOWNSAMPLED/image/gif/19d207df8dab8dcdab2c0d018dbbd72e/gr5.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr5</xocs:file-basename>
+               <xocs:filename>gr5.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>31097</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>218</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr7_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/HIGHRES/image/jpeg/d8d1ecac6aaa5bcca9e6d1bfdf52ad63/gr7_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr7</xocs:file-basename>
+               <xocs:filename>gr7_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>345222</xocs:filesize>
+               <xocs:pixel-height>935</xocs:pixel-height>
+               <xocs:pixel-width>1250</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr2_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/HIGHRES/image/jpeg/28a8de0ec4418a2a5d79d9499ae425b3/gr2_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>112752</xocs:filesize>
+               <xocs:pixel-height>863</xocs:pixel-height>
+               <xocs:pixel-width>1500</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr10_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/HIGHRES/image/jpeg/b48ed4e9beb8386492f6cbd5f9bada7b/gr10_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr10</xocs:file-basename>
+               <xocs:filename>gr10_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>406051</xocs:filesize>
+               <xocs:pixel-height>946</xocs:pixel-height>
+               <xocs:pixel-width>1258</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr4_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/HIGHRES/image/jpeg/229c57c4b99c568d28ed049eea243a39/gr4_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>373365</xocs:filesize>
+               <xocs:pixel-height>937</xocs:pixel-height>
+               <xocs:pixel-width>1250</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr9_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/HIGHRES/image/jpeg/78f638e666b727cca9004dff8038eb83/gr9_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr9</xocs:file-basename>
+               <xocs:filename>gr9_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>552494</xocs:filesize>
+               <xocs:pixel-height>946</xocs:pixel-height>
+               <xocs:pixel-width>1258</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr8_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/MAIN/image/jpeg/1be4b139172cf2cc38a6e8f59c0bd9f2/gr8_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr8</xocs:file-basename>
+               <xocs:filename>gr8_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>119599</xocs:filesize>
+               <xocs:pixel-height>605</xocs:pixel-height>
+               <xocs:pixel-width>1667</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr11_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/THUMBNAIL/image/jpeg/b289398550a5381025c65eb344f7c3d2/gr11_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr11</xocs:file-basename>
+               <xocs:filename>gr11_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>101616</xocs:filesize>
+               <xocs:pixel-height>936</xocs:pixel-height>
+               <xocs:pixel-width>1250</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr15_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/THUMBNAIL/image/jpeg/fdf0ee90c10e27850e40a6e16718880e/gr15_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr15</xocs:file-basename>
+               <xocs:filename>gr15_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>67230</xocs:filesize>
+               <xocs:pixel-height>575</xocs:pixel-height>
+               <xocs:pixel-width>1250</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr12_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/DOWNSAMPLED/image/jpeg/0e0eedf8aa58bb86391d069b67ed66a0/gr12_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr12</xocs:file-basename>
+               <xocs:filename>gr12_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>468668</xocs:filesize>
+               <xocs:pixel-height>946</xocs:pixel-height>
+               <xocs:pixel-width>1258</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-ga1_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/HIGHRES/image/jpeg/9928fd41423e80954752da213105e012/ga1_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>ga1</xocs:file-basename>
+               <xocs:abstract-attachment>true</xocs:abstract-attachment>
+               <xocs:filename>ga1_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>226969</xocs:filesize>
+               <xocs:pixel-height>886</xocs:pixel-height>
+               <xocs:pixel-width>1576</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr6_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/HIGHRES/image/jpeg/89ecd78c1d988359cfbbb8fc2c933e66/gr6_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr6</xocs:file-basename>
+               <xocs:filename>gr6_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>396644</xocs:filesize>
+               <xocs:pixel-height>939</xocs:pixel-height>
+               <xocs:pixel-width>1250</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr1_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/HIGHRES/image/jpeg/15c892bdefb379a68bba19ac5cbf6c08/gr1_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>145258</xocs:filesize>
+               <xocs:pixel-height>785</xocs:pixel-height>
+               <xocs:pixel-width>1500</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr14_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/HIGHRES/image/jpeg/c0d6bab25141fc25ac7b49e64c7175da/gr14_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr14</xocs:file-basename>
+               <xocs:filename>gr14_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>144436</xocs:filesize>
+               <xocs:pixel-height>817</xocs:pixel-height>
+               <xocs:pixel-width>1500</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr3_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/HIGHRES/image/jpeg/93b0c6ea462de2f29ecd2eae4a8b8aff/gr3_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>74877</xocs:filesize>
+               <xocs:pixel-height>868</xocs:pixel-height>
+               <xocs:pixel-width>1500</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr13_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/MAIN/image/jpeg/e034e77deb8ce287c3a2719aabbd39ac/gr13_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr13</xocs:file-basename>
+               <xocs:filename>gr13_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>1474338</xocs:filesize>
+               <xocs:pixel-height>1645</xocs:pixel-height>
+               <xocs:pixel-width>2917</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-gr5_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2215016123002911/HIGHRES/image/jpeg/bd657302b3ce11103b1b40a67371e545/gr5_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr5</xocs:file-basename>
+               <xocs:filename>gr5_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>298081</xocs:filesize>
+               <xocs:pixel-height>941</xocs:pixel-height>
+               <xocs:pixel-width>1250</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2215016123002911-am.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10K954NQGSN/MAIN/application/pdf/4cfd8a04a0e4c25c94b60b93ba05a973/am.pdf</xocs:ucs-locator>
+               <xocs:file-basename>am</xocs:file-basename>
+               <xocs:filename>am.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>false</xocs:pdf-optimized>
+               <xocs:filesize>1433050</xocs:filesize>
+               <xocs:attachment-type>AAM-PDF</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" docsubtype="mic" version="5.6" xml:lang="en">
+         <item-info>
+            <jid>MEX</jid>
+            <aid>102294</aid>
+            <ce:article-number>102294</ce:article-number>
+            <ce:pii>S2215-0161(23)00291-1</ce:pii>
+            <ce:doi>10.1016/j.mex.2023.102294</ce:doi>
+            <ce:document-thread>
+               <ce:refers-to-document id="ref0001">
+                  <ce:pii>S2352-152X(23)00328-6</ce:pii>
+                  <ce:doi>10.1016/j.est.2023.106931</ce:doi>
+               </ce:refers-to-document>
+            </ce:document-thread>
+            <ce:copyright type="other" year="2023">The Authors</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="fig0001">
+               <ce:label>Fig. 1</ce:label>
+               <ce:caption id="cap0001">
+                  <ce:simple-para id="spara001" view="all">Phase 1 experimental testing - circuit diagram.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alt0001" role="short">Fig 1</ce:alt-text>
+               <ce:link id="celink0001" locator="gr1" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S2215016123002911/gr1"/>
+            </ce:figure>
+            <ce:figure id="fig0002">
+               <ce:label>Fig. 2</ce:label>
+               <ce:caption id="cap0002">
+                  <ce:simple-para id="spara002" view="all">Unbalancing effect of cell voltage logger.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alt0002" role="short">Fig 2</ce:alt-text>
+               <ce:link id="celink0002" locator="gr2" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S2215016123002911/gr2"/>
+            </ce:figure>
+            <ce:figure id="fig0003">
+               <ce:label>Fig. 3</ce:label>
+               <ce:caption id="cap0003">
+                  <ce:simple-para id="spara003" view="all">Operational Amplifier wired as voltage follower.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alt0003" role="short">Fig 3</ce:alt-text>
+               <ce:link id="celink0003" locator="gr3" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S2215016123002911/gr3"/>
+            </ce:figure>
+            <ce:figure id="fig0004">
+               <ce:label>Fig. 4</ce:label>
+               <ce:caption id="cap0004">
+                  <ce:simple-para id="spara004" view="all">Phase 1 Resistive load.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alt0004" role="short">Fig 4</ce:alt-text>
+               <ce:link id="celink0004" locator="gr4" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S2215016123002911/gr4"/>
+            </ce:figure>
+            <ce:figure id="fig0005">
+               <ce:label>Fig. 5</ce:label>
+               <ce:caption id="cap0006">
+                  <ce:simple-para id="spara005" view="all">Phase 2 Thermistor used to monitor terminal temperatures.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alt0006" role="short">Fig 5</ce:alt-text>
+               <ce:link id="celink0005" locator="gr5" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S2215016123002911/gr5"/>
+            </ce:figure>
+            <ce:figure id="fig0006">
+               <ce:label>Fig. 6</ce:label>
+               <ce:caption id="cap0008">
+                  <ce:simple-para id="spara006" view="all">Cell boards in Prototype battery pack for a Quad bike.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alt0008" role="short">Fig 6</ce:alt-text>
+               <ce:link id="celink0006" locator="gr6" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S2215016123002911/gr6"/>
+            </ce:figure>
+            <ce:figure id="fig0007">
+               <ce:label>Fig. 7</ce:label>
+               <ce:caption id="cap0009">
+                  <ce:simple-para id="spara007" view="all">Smart Shunt (centre foreground), twin contactors (right foreground) and Nucleo Board (background) in the Quad bike pack.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alt0009" role="short">Fig 7</ce:alt-text>
+               <ce:link id="celink0007" locator="gr7" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S2215016123002911/gr7"/>
+            </ce:figure>
+            <ce:figure id="fig0008">
+               <ce:label>Fig. 8</ce:label>
+               <ce:caption id="cap0010">
+                  <ce:simple-para id="spara008" view="all">Schematic of cell board isolation.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alt0010" role="short">Fig 8</ce:alt-text>
+               <ce:link id="celink0008" locator="gr8" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S2215016123002911/gr8"/>
+            </ce:figure>
+            <ce:figure id="fig0009">
+               <ce:label>Fig. 9</ce:label>
+               <ce:caption id="cap0011">
+                  <ce:simple-para id="spara009" view="all">Cell Board installation in a test bed vehicle. The four-wire daisy-chain is power (positive and negative) and CAN (high and low).</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alt0011" role="short">Fig 9</ce:alt-text>
+               <ce:link id="celink0009" locator="gr9" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S2215016123002911/gr9"/>
+            </ce:figure>
+            <ce:figure id="fig0010">
+               <ce:label>Fig. 10</ce:label>
+               <ce:caption id="cap0012">
+                  <ce:simple-para id="spara010" view="all">The Master board used in Phase 3.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alt0012" role="short">Fig 10</ce:alt-text>
+               <ce:link id="celink0010" locator="gr10" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S2215016123002911/gr10"/>
+            </ce:figure>
+            <ce:figure id="fig0011">
+               <ce:label>Fig. 11</ce:label>
+               <ce:caption id="cap0013">
+                  <ce:simple-para id="spara011" view="all">Phase 3 Test rig wiring diagram (Fuses, plus control and data collection wiring, not shown).</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alt0013" role="short">Fig 11</ce:alt-text>
+               <ce:link id="celink0011" locator="gr11" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S2215016123002911/gr11"/>
+            </ce:figure>
+            <ce:figure id="fig0012">
+               <ce:label>Fig. 12</ce:label>
+               <ce:caption id="cap0014">
+                  <ce:simple-para id="spara012" view="all">The final Phase 3 test rig. The Pack A experimental BMS master is top right. The Pack B conventional BMS is the finned aluminium box bottom centre-right.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alt0014" role="short">Fig 12</ce:alt-text>
+               <ce:link id="celink0012" locator="gr12" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S2215016123002911/gr12"/>
+            </ce:figure>
+            <ce:figure id="fig0013">
+               <ce:label>Fig. 13</ce:label>
+               <ce:caption id="cap0016">
+                  <ce:simple-para id="spara013" view="all">Sample CSV data.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alt0016" role="short">Fig 13</ce:alt-text>
+               <ce:link id="celink0013" locator="gr13" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S2215016123002911/gr13"/>
+            </ce:figure>
+            <ce:figure id="fig0014">
+               <ce:label>Fig. 14</ce:label>
+               <ce:caption id="cap0017">
+                  <ce:simple-para id="spara014" view="all">Sample of data plotted and annotated in Excel.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alt0017" role="short">Fig 14</ce:alt-text>
+               <ce:source>Note that Figure 14 illustrates a test that had two battery packs – one fitted with a conventional balancing BMS and one with the prototype non-balancing BMS</ce:source>
+               <ce:link id="celink0014" locator="gr14" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S2215016123002911/gr14"/>
+            </ce:figure>
+            <ce:figure id="fig0015">
+               <ce:label>Fig. 15</ce:label>
+               <ce:caption id="cap0018">
+                  <ce:simple-para id="spara015" view="all">Bottom balancer schematic.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alt0018" role="short">Fig 15</ce:alt-text>
+               <ce:link id="celink0015" locator="gr15" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S2215016123002911/gr15"/>
+            </ce:figure>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="tbl0001" rowsep="0" colsep="0" frame="topbot">
+               <ce:label>Table 1</ce:label>
+               <ce:caption id="cap0005">
+                  <ce:simple-para id="spara016" view="all">Phase 1 Equipment summary.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alt0005" role="short">Table 1</ce:alt-text>
+               <tgroup cols="6">
+                  <colspec colnum="1" colname="col1" align="left"/>
+                  <colspec colnum="2" colname="col2" align="left"/>
+                  <colspec colnum="3" colname="col3" align="left"/>
+                  <colspec colnum="4" colname="col4" align="left"/>
+                  <colspec colnum="5" colname="col5" align="left"/>
+                  <colspec colnum="6" colname="col6" align="left"/>
+                  <thead valign="top">
+                     <row rowsep="1">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0011" colname="col1" valign="top">Controller</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0012" colname="col2" valign="top">Cell Voltage<br/> Monitoring</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0013" colname="col3" valign="top">Charger</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0014" colname="col4" valign="top">Current Measurement</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0015" colname="col5" valign="top">Load</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0016" colname="col6" valign="top">Temperature Monitoring</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0017" colname="col1" valign="top">
+                           <italic>Arduino Mega</italic> off-the-shelf microcontroller board + PC</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0018" colname="col2" valign="top">
+                           <italic>Junsi Cell</italic> Log <italic>8S</italic> plus bespoke operational amplifier board</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0019" colname="col3" valign="top">Unbranded LiFePO4 29.2 V smart charger</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0020" colname="col4" valign="top">
+                           <italic>LEM LTSR 15-NP</italic> Hall Effect Sensor</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0021" colname="col5" valign="top">Resistive</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0022" colname="col6" valign="top">
+                           <italic>Maxim DS18B20</italic>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </ce:table>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="tbl0002" rowsep="0" colsep="0" frame="topbot">
+               <ce:label>Table 2</ce:label>
+               <ce:caption id="cap0007">
+                  <ce:simple-para id="spara017" view="all">Phase 2 Equipment summary.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alt0007" role="short">Table 2</ce:alt-text>
+               <tgroup cols="7">
+                  <colspec colnum="1" colname="col1" align="left"/>
+                  <colspec colnum="2" colname="col2" align="left"/>
+                  <colspec colnum="3" colname="col3" align="left"/>
+                  <colspec colnum="4" colname="col4" align="left"/>
+                  <colspec colnum="5" colname="col5" align="left"/>
+                  <colspec colnum="6" colname="col6" align="left"/>
+                  <colspec colnum="7" colname="col7" align="left"/>
+                  <thead valign="top">
+                     <row rowsep="1">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0023" colname="col1" valign="top">Controller</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0024" colname="col2" valign="top">Cell Voltage<br/> Monitoring</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0025" colname="col3" valign="top">Charger</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0026" colname="col4" valign="top">Current<br/> Measurement</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0027" colname="col5" valign="top">Load</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0028" colname="col6" valign="top">Ambient Temperature</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0029" colname="col7" valign="top">Cell Temperatures</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0030" colname="col1" valign="top">
+                           <italic>Arduino Mega</italic> off-the-shelf microcontroller board + PC</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0031" colname="col2" valign="top">
+                           <italic>Junsi Cell</italic> Log <italic>8S</italic> plus bespoke operational amplifier board</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0032" colname="col3" valign="top">
+                           <italic>BK Precision 1687B</italic> Power Supply</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0033" colname="col4" valign="top">
+                           <italic>ACS712</italic> Hall Effect Sensor</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0034" colname="col5" valign="top">Resistive</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0035" colname="col6" valign="top">
+                           <italic>Maxim DS18B20</italic>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0036" colname="col7" valign="top">
+                           <italic>NTCALUG03A103HC</italic> or similar thermistors read by 12-bit TI <italic>ADS1015</italic> or 16-bit <italic>ADS1115</italic> ADCs with I2C interface</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </ce:table>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="tbl0003" rowsep="0" colsep="0" frame="topbot">
+               <ce:label>Table 3</ce:label>
+               <ce:caption id="cap0015">
+                  <ce:simple-para id="spara018" view="all">Test metadata.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alt0015" role="short">Table 3</ce:alt-text>
+               <tgroup cols="6">
+                  <colspec colnum="1" colname="col1" align="left"/>
+                  <colspec colnum="2" colname="col2" align="left"/>
+                  <colspec colnum="3" colname="col3" align="left"/>
+                  <colspec colnum="4" colname="col4" align="left"/>
+                  <colspec colnum="5" colname="col5" align="left"/>
+                  <colspec colnum="6" colname="col6" align="left"/>
+                  <thead>
+                     <row rowsep="1">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0037" colname="col1" valign="top">Phase</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0038" colname="col2" valign="top">Test Number</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0039" colname="col3" valign="top">Cell Type</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0040" colname="col4" valign="top">Cycles</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0041" colname="col5" valign="top">Total CSV files (Mb)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0042" colname="col6" valign="top">Sampling interval (seconds)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0043" colname="col1" valign="top">Phase1</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0044" colname="col2" valign="top">1</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0045" colname="col3" valign="top">Headway 38120S</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0046" colname="col4" valign="top">575<cross-ref id="crf0028" refid="tb3fn1">*</cross-ref>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0047" colname="col5" valign="top">11.3</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0048" colname="col6" valign="top">30</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0049" colname="col1" valign="top"/>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0050" colname="col2" valign="top">2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0051" colname="col3" valign="top">CALB CA40fi</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0052" colname="col4" valign="top">2008</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0053" colname="col5" valign="top">104</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0054" colname="col6" valign="top">30</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0055" colname="col1" valign="top">Phase 2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0056" colname="col2" valign="top">3</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0057" colname="col3" valign="top">GP1865L220</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0058" colname="col4" valign="top">159<cross-ref id="crf0029" refid="tb3fn1">*</cross-ref>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0059" colname="col5" valign="top">12</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0060" colname="col6" valign="top">30</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0061" colname="col1" valign="top"/>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0062" colname="col2" valign="top">4</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0063" colname="col3" valign="top">GP1865L220</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0064" colname="col4" valign="top">659</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0065" colname="col5" valign="top">28.2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0066" colname="col6" valign="top">30</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0067" colname="col1" valign="top"/>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0068" colname="col2" valign="top">5</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0069" colname="col3" valign="top">Panasonic NCR18650A</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0070" colname="col4" valign="top">319<cross-ref id="crf0030" refid="tb3fn1">*</cross-ref>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0071" colname="col5" valign="top">22.4</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0072" colname="col6" valign="top">30</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0073" colname="col1" valign="top"/>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0074" colname="col2" valign="top">6</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0075" colname="col3" valign="top">Samsung ICR18650–22P</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0076" colname="col4" valign="top">638</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0077" colname="col5" valign="top">482</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0078" colname="col6" valign="top">30</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0079" colname="col1" valign="top"/>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0080" colname="col2" valign="top">7</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0081" colname="col3" valign="top">Samsung ICR18650–22P</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0082" colname="col4" valign="top">719</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0083" colname="col5" valign="top">45.2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0084" colname="col6" valign="top">30</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0085" colname="col1" valign="top">Phase 3</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0086" colname="col2" valign="top">8</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0087" colname="col3" valign="top">Nissan Gen 4</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0088" colname="col4" valign="top">1004</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0089" colname="col5" valign="top">10,400</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0090" colname="col6" valign="top">1</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+               <ce:table-footnote id="tb3fn1">
+                  <ce:label>⁎</ce:label>
+                  <ce:note-para id="notep0003" view="all">A cell failure caused early termination of the test.</ce:note-para>
+               </ce:table-footnote>
+            </ce:table>
+         </ce:floats>
+         <head>
+            <ce:article-footnote>
+               <ce:note-para id="notep0001" view="all">Related research article:</ce:note-para>
+               <ce:note-para id="notep0002" view="all">Hardy, J., Steggall, J. and Hardy, P., 2023. Rethinking lithium-ion battery management: Eliminating routine cell balancing enhances hazardous fault detection. Journal of Energy Storage, 63, p.106931. Available at <ce:inter-ref id="interref0001" xlink:role="http://www.elsevier.com/xml/linking-roles/research-data" xlink:href="https://doi.org/10.1016/j.est.2023.106931" xlink:type="simple">https://doi.org/10.1016/j.est.2023.106931</ce:inter-ref>
+               </ce:note-para>
+            </ce:article-footnote>
+            <ce:title id="tte0002">Development of bespoke hardware and software to enable testing of a novel method of managing the charge and discharge of series-connected battery packs</ce:title>
+            <ce:author-group id="aut0001">
+               <ce:author id="au0001" author-id="S2215016123002911-426cf9ee941e0fd0f735d2b2294561e3" orcid="0000-0002-3080-6932">
+                  <ce:given-name>John</ce:given-name>
+                  <ce:surname>Hardy</ce:surname>
+                  <ce:contributor-role role="http://credit.niso.org/contributor-roles/conceptualization">Conceptualization</ce:contributor-role>
+                  <ce:contributor-role role="http://credit.niso.org/contributor-roles/methodology">Methodology</ce:contributor-role>
+                  <ce:contributor-role role="http://credit.niso.org/contributor-roles/validation">Validation</ce:contributor-role>
+                  <ce:contributor-role role="http://credit.niso.org/contributor-roles/formal-analysis">Formal analysis</ce:contributor-role>
+                  <ce:contributor-role role="http://credit.niso.org/contributor-roles/writing-original-draft">Writing – original draft</ce:contributor-role>
+                  <ce:contributor-role role="http://credit.niso.org/contributor-roles/visualization">Visualization</ce:contributor-role>
+                  <ce:cross-ref id="crf0001" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0002" refid="cor0001">
+                     <ce:sup loc="post">⁎</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:author id="au0002" author-id="S2215016123002911-a83da7bf68aede6e30c79a378e191678">
+                  <ce:given-name>John</ce:given-name>
+                  <ce:surname>Steggall</ce:surname>
+                  <ce:contributor-role role="http://credit.niso.org/contributor-roles/software">Software</ce:contributor-role>
+                  <ce:contributor-role role="http://credit.niso.org/contributor-roles/resources">Resources</ce:contributor-role>
+                  <ce:contributor-role role="http://credit.niso.org/contributor-roles/data-curation">Data curation</ce:contributor-role>
+                  <ce:cross-ref id="crf0003" refid="aff0002">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0003" author-id="S2215016123002911-10f0f57f4705598e919f4254b2ce7b8e">
+                  <ce:given-name>Peter</ce:given-name>
+                  <ce:surname>Hardy</ce:surname>
+                  <ce:contributor-role role="http://credit.niso.org/contributor-roles/writing-review-editing">Writing – review &amp; editing</ce:contributor-role>
+                  <ce:contributor-role role="http://credit.niso.org/contributor-roles/supervision">Supervision</ce:contributor-role>
+                  <ce:contributor-role role="http://credit.niso.org/contributor-roles/project-administration">Project administration</ce:contributor-role>
+                  <ce:contributor-role role="http://credit.niso.org/contributor-roles/funding-acquisition">Funding acquisition</ce:contributor-role>
+                  <ce:contributor-role role="http://credit.niso.org/contributor-roles/supervision">Supervision</ce:contributor-role>
+                  <ce:cross-ref id="crf0004" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:affiliation id="aff0001" affiliation-id="S2215016123002911-672d6419f84124ab2995e0a7e1fe788f">
+                  <ce:label>a</ce:label>
+                  <ce:textfn id="cetextfn0001">Intercal (UK) Ltd., 24 Hartlebury Close, Redditch B98 9LY, UK</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Intercal (UK) Ltd.</sa:organization>
+                     <sa:address-line>24 Hartlebury Close</sa:address-line>
+                     <sa:city>Redditch</sa:city>
+                     <sa:postal-code>B98 9LY</sa:postal-code>
+                     <sa:country>UK</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="staff0001">aIntercal (UK) Ltd., 24 Hartlebury Close, Redditch B98 9LY, UK</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="aff0002" affiliation-id="S2215016123002911-b19bffa37216c8a0a528c8b8c653a912">
+                  <ce:label>b</ce:label>
+                  <ce:textfn id="cetextfn0002">Indra Renewable Technology Ltd., Sparrowhawk Close, Malvern, Worcestershire WR14 1GL, UK</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Indra Renewable Technology Ltd.</sa:organization>
+                     <sa:address-line>Sparrowhawk Close</sa:address-line>
+                     <sa:city>Malvern</sa:city>
+                     <sa:state>Worcestershire</sa:state>
+                     <sa:postal-code>WR14 1GL</sa:postal-code>
+                     <sa:country>UK</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="staff0002">bIndra Renewable Technology Ltd., Sparrowhawk Close, Malvern, Worcestershire WR14 1GL, UK</ce:source-text>
+               </ce:affiliation>
+               <ce:correspondence id="cor0001">
+                  <ce:label>⁎</ce:label>
+                  <ce:text id="cetext0001">Corresponding author.</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:date-received day="31" month="3" year="2023"/>
+            <ce:date-accepted day="19" month="7" year="2023"/>
+            <ce:abstract id="abs0001" view="all" class="author"><ce:abstract-sec id="abss0001" view="all">
+                  <ce:simple-para id="spara019" view="all">The novel feature of the method of battery management under development and testing is that routine balancing of the cells is eliminated throughout the service life of the battery pack. This requires preparation of the battery cells and configuration of the rigs in such a way as to ensure that the cells are accurately balanced on assembly and that thereafter there is no cell-to-cell variation in charge current or load at any time, measured to a low microamp level. In addition, the method requires a special charge control algorithm which was devised in order to accommodate cell-to-cell variations in capacity and dynamic response.</ce:simple-para>
+                  <ce:simple-para id="spara020" view="all">Comprehensive experimental testing of this method, which is fully described in the associated paper (Hardy et al., 2023), required the development of hardware and software which would combine the necessary functions of a battery test rig and a battery management system capable of carrying out the special method of charge control described below. These included:<ce:list id="celist0001a">
+                        <ce:list-item id="celistitem0001c">
+                           <ce:label>•</ce:label>
+                           <ce:para id="para0001c" view="all">The automated control of contactors, loads and chargers to perform multiple charge/discharge cycles to predetermined patterns of current and maximum and minimum cell voltages.</ce:para>
+                        </ce:list-item>
+                        <ce:list-item id="celistitem0001a">
+                           <ce:label>•</ce:label>
+                           <ce:para id="para0001a" view="all">Monitoring of cell voltages, current and temperature and the provision of test and diagnostic data.</ce:para>
+                        </ce:list-item>
+                        <ce:list-item id="celistitem0001b">
+                           <ce:label>•</ce:label>
+                           <ce:para id="para0001b" view="all">Performing the safety functions of a Battery Management System to ensure that no cell was permitted to exceed limitations of current, voltage or temperature.</ce:para>
+                        </ce:list-item>
+                     </ce:list>
+                  </ce:simple-para>
+                  <ce:simple-para id="spara024" view="all">The hardware and software were developed through three phases of testing with the operational principles (but not all the hardware and software elements) carrying over from one phase to the next.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:abstract id="abs0002" class="graphical" view="all">
+               <ce:section-title id="cesectitle0002">Graphical abstract</ce:section-title>
+               <ce:abstract-sec id="abss0007" view="all">
+                  <ce:simple-para id="spara025" view="all">
+                     <ce:display>
+                        <ce:figure id="fig0016">
+                           <ce:alt-text id="alttx001" role="short">Image, graphical abstract</ce:alt-text>
+                           <ce:link id="celink0016" locator="ga1" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S2215016123002911/ga1"/>
+                        </ce:figure>
+                     </ce:display>
+                  </ce:simple-para>
+               </ce:abstract-sec>
+            </ce:abstract>
+            <ce:keywords id="keys0001" view="all" class="keyword">
+               <ce:section-title id="cesectitle0003">Keywords</ce:section-title>
+               <ce:keyword id="key0001">
+                  <ce:text id="cetext0002">Lithium-ion battery</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0002">
+                  <ce:text id="cetext0003">Testing</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0003">
+                  <ce:text id="cetext0004">Cell balancing</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+            <ce:keywords class="msc" id="keys0003" view="all">
+               <ce:section-title id="cesectitle0002a">Method name</ce:section-title>
+               <ce:keyword id="key01001a">
+                  <ce:text id="cetext00102a">Test rig design</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+            <ce:data-availability id="refdata001" view="all">
+               <ce:section-title id="cesectitle0004">Data availability</ce:section-title>
+               <ce:para id="para9001" view="all">
+                  <ce:list id="dacelist0001">
+                     <ce:list-item id="rdlistitem0001">
+                        <ce:para id="para9002" view="all">Data will be made available on request.</ce:para>
+                     </ce:list-item>
+                  </ce:list>
+               </ce:para>
+            </ce:data-availability>
+         </head>
+         <body view="all">
+            <ce:sections>
+               <ce:para id="para0004" view="all">Specifications table<ce:display>
+                     <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="utbl0001" rowsep="0" colsep="0" frame="topbot">
+                        <tgroup cols="2">
+                           <colspec colnum="1" colname="col1" align="left"/>
+                           <colspec colnum="2" colname="col2" align="left"/>
+                           <tbody>
+                              <row>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0001" colname="col1" valign="top" role="rowhead">Subject area:</entry>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0002" colname="col2" valign="top">Energy</entry>
+                              </row>
+                              <row>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0003" colname="col1" valign="top" role="rowhead">More specific subject area:</entry>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0004" colname="col2" valign="top">Lithium-ion Battery Management</entry>
+                              </row>
+                              <row>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0005" colname="col1" valign="top" role="rowhead">Name of your method:</entry>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0006" colname="col2" valign="top">Test rig design</entry>
+                              </row>
+                              <row>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0007" colname="col1" valign="top" role="rowhead">Name and reference of original method:</entry>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0008" colname="col2" valign="top">N/A</entry>
+                              </row>
+                              <row>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0009" colname="col1" valign="top" role="rowhead">Resource availability:</entry>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0010" colname="col2" valign="top">See Text</entry>
+                              </row>
+                           </tbody>
+                        </tgroup>
+                     </ce:table>
+                  </ce:display>
+               </ce:para>
+               <ce:section id="sec0001" role="methods" view="all">
+                  <ce:section-title id="cesectitle0006">Method details</ce:section-title>
+                  <ce:section id="sec0002" view="all">
+                     <ce:section-title id="cesectitle0007">Background</ce:section-title>
+                     <ce:para id="para0005" view="all">The current state of the art in Battery Management Systems (BMS) for multi-cell lithium-ion batteries presumes that individual cells will inevitably drift apart in state of charge over time, unbalancing the battery. This is problematic in series-connected battery packs since discharge must be terminated when any cell reaches full discharge, and charge must be terminated when the first cell reaches full charge. The effect of loss of balance is thus to reduce the effective battery capacity.</ce:para>
+                     <ce:para id="para0006" view="all">Accordingly, virtually all BMSs include functionality to provide routine cell voltage balancing. This involves providing a separate connection to every cell, together with additional electronic components for each cell and appropriate control software. The most common design of balancing circuit process produces heat leading to potential issues with heat dissipation. Since a typical battery in an electric vehicle might have 100 cells connected in series, the wiring and control systems add weight and additional points of failure as well as significant cost to the battery installation.</ce:para>
+                     <ce:para id="para0007" view="all">The most insidious drawback of balancing circuits, however, is that routine balancing masks the emergence of cell faults, notably internal short circuits (ISC), which after initiation can evolve into sudden thermal runaway and fire. If routine balancing can be eliminated then an ISC developing in one of the cells will stand out clearly as the cell will lose charge compared to the other cells in the battery. This loss of charge is readily detected at an early stage of ISC evolution as a small but increasing drop in voltage compared with the other cells.</ce:para>
+                     <ce:para id="para0008" view="all">Ref. <ce:cross-ref id="crf0005" refid="bib0001">[1]</ce:cross-ref> reviews evidence related to cell behaviour that might cause unbalancing of a battery, and goes on to describe a series of 8 experiments or tests that show that:<ce:list id="celist0001">
+                           <ce:list-item id="celistitem0001">
+                              <ce:label>•</ce:label>
+                              <ce:para id="para0009" view="all">Routine cell balancing circuits can be effectively eliminated provided that certain precautions are taken in battery and BMS design, cell preparation and charging method, and that</ce:para>
+                           </ce:list-item>
+                           <ce:list-item id="celistitem0002">
+                              <ce:label>•</ce:label>
+                              <ce:para id="para0010" view="all">Elimination of routine cell balancing enables sensitive detection of voltage changes of the type caused by early stage ISCs, thus enabling timely detection well before the ISC evolves towards failure or thermal runaway.</ce:para>
+                           </ce:list-item>
+                        </ce:list>
+                     </ce:para>
+                     <ce:para id="para0011" view="all">This paper describes the design and operation of the test environments used in the tests described in <ce:cross-ref id="crf0006" refid="bib0001">[1]</ce:cross-ref>. The reader is referred to that paper for further detail of methodology and findings.</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="sec0003" role="introduction" view="all">
+                  <ce:section-title id="cesectitle0008">Introduction</ce:section-title>
+                  <ce:para id="para0012" view="all">Hardware and software development continued through three phases of experimental testing as described in <ce:cross-ref id="crf0007" refid="bib0001">[1]</ce:cross-ref>. In summary this was:<ce:list id="celist0002">
+                        <ce:list-item id="celistitem0003">
+                           <ce:para id="para0013" view="all">Phase 1 – two tests using lithium iron phosphate cells, and off-the-shelf chargers applying a simple constant current/constant voltage (CC/CV) algorithm to the whole pack, under close supervision to prevent excess cell voltages.</ce:para>
+                        </ce:list-item>
+                        <ce:list-item id="celistitem0004">
+                           <ce:para id="para0014" view="all">Phase 2 – a five-test series using several other lithium-ion chemistries and introducing a novel approach to automated charging, “Constant Current/Constant Cell Voltage” (CC/CCeV), described below and in <ce:cross-ref id="crf0008" refid="bib0001">[1]</ce:cross-ref>). This is designed to optimize charge rates of the whole battery pack while preventing individual cell voltages from exceeding rated limits.</ce:para>
+                        </ce:list-item>
+                        <ce:list-item id="celistitem0005">
+                           <ce:para id="para0015" view="all">Phase 3 – a single test comparing the performance of a conventional Battery Management System (BMS) side-by-side with a reusable prototype BMS incorporating a more sophisticated embodiment of the CC/CCeV charging algorithm over 1000 charge-discharge cycles.</ce:para>
+                        </ce:list-item>
+                     </ce:list>
+                  </ce:para>
+                  <ce:para id="para0016" view="all">Accurate cell voltage balancing before assembly is a critical precondition for the method of battery management under investigation. The process used is described below.</ce:para>
+                  <ce:section id="sec0004" view="all">
+                     <ce:section-title id="cesectitle0009">Phase 1</ce:section-title>
+                     <ce:para id="para0017" view="all">This early experimental testing, which was aimed simply at assessing voltage drift in the absence of routine cell voltage balancing, used commercial off-the-shelf smart chargers which applied a modified Constant current/Constant voltage (CC/CV) charge profile to the whole pack. A generic Arduino microcontroller board working with a PC was used to supervise cycling and record cell voltage, pack current and ambient temperature data in <ce:italic>.csv</ce:italic> files (<ce:cross-ref id="crf0009" refid="fig0001">Fig. 1</ce:cross-ref>
+                        <ce:float-anchor refid="fig0001"/>). Although this simple charging method allowed some cells to peak above their target voltage, this was monitored to ensure individual cells voltage peaks were not excessively high. There may however have been some adverse effect on cycle life.</ce:para>
+                     <ce:para id="para0018" view="all">For the purposes of cell voltage monitoring, the initial intention had been to connect a low-cost “Junsi Cell-Log 8S” voltage logger unit, designed for transmitting cell voltages to a PC via USB. It was recognised, however, that this device would draw a current of approximately 35µA from the positive terminal of each cell. The unbalancing effect would have been cumulative (<ce:cross-ref id="crf0010" refid="fig0002">Fig. 2</ce:cross-ref>
+                        <ce:float-anchor refid="fig0002"/>) and over all eight cells in the experimental pack the variation in net current drain would have amounted to at least 280 µA. This would have unbalanced the pack by about 0.2 Ah per calendar month.</ce:para>
+                     <ce:para id="para0019" view="all">To overcome this, voltage followers based on operational amplifiers were placed between the logger and the cell terminals (<ce:cross-ref id="crf0011" refid="fig0003">Fig. 3</ce:cross-ref>
+                        <ce:float-anchor refid="fig0003"/>). An operational amplifier wired in this way uses external power to replicate the input voltage at the output without drawing any current from the input.</ce:para>
+                     <ce:para id="para0020" view="all">Cycling was managed by switching the charger using a solid-state relay (SSR) in the mains supply to the charger.</ce:para>
+                     <ce:para id="para0021" view="all">The load was resistive (<ce:cross-ref id="crf0012" refid="fig0004">Fig. 4</ce:cross-ref>
+                        <ce:float-anchor refid="fig0004"/>), switched using a simple 24 V automotive relay which was in turn switched using a MOSFET.</ce:para>
+                     <ce:para id="para0022" view="all">Current was measured using a Hall effect sensor. The Arduino microcontroller board was programmed using its own scripting language and communicated with the PC which was running code written in the Processing scripting language.</ce:para>
+                     <ce:para id="para0023" view="all">The equipment used for Phase 1 is summarised in <ce:cross-ref id="crf0013" refid="tbl0001">Table 1</ce:cross-ref>
+                        <ce:float-anchor refid="tbl0001"/>.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec0005" view="all">
+                     <ce:section-title id="cesectitle0010">Phase 2</ce:section-title>
+                     <ce:para id="para0024" view="all">The test rigs for Phase 2 were refined, principally in order to apply the experimental CC/CCeV charging protocol This method, described in more detail below, modulates whole pack charge current to the maximum which at any time can be accommodated without causing any cell to go over voltage. The rigs also provided for an additional parameter, cell terminal temperature, to be monitored. The same combination of Arduino and PC was used, the load was resistive as before and the current measured using a Hall effect sensor as in Phase 1. The refinements over Phase 1 were:<ce:list id="celist0003">
+                           <ce:list-item id="celistitem0006">
+                              <ce:label>•</ce:label>
+                              <ce:para id="para0025" view="all">A variable voltage laboratory power supply was used instead of a smart charger. This allowed for the fine control of charging current required to implement the experimental CC/CCeV charging protocol.</ce:para>
+                           </ce:list-item>
+                           <ce:list-item id="celistitem0007">
+                              <ce:label>•</ce:label>
+                              <ce:para id="para0026" view="all">The Arduino was programmed to control the Power Supply, setting current and voltage to implement the charging protocol.</ce:para>
+                           </ce:list-item>
+                           <ce:list-item id="celistitem0008">
+                              <ce:label>•</ce:label>
+                              <ce:para id="para0027" view="all">Cell positive and negative terminal temperatures were measured using thermistors (<ce:cross-ref id="crf0014" refid="fig0005">Fig. 5</ce:cross-ref>
+                                 <ce:float-anchor refid="fig0005"/>).</ce:para>
+                           </ce:list-item>
+                        </ce:list>
+                     </ce:para>
+                     <ce:para id="para0028" view="all">Use of a Kunkin KL284A load was considered but it was concluded that this offered little advantage over the simpler resistive load since it could only be set manually.</ce:para>
+                     <ce:para id="para0029" view="all">The equipment used for Phase 2 is summarised in <ce:cross-ref id="crf0015" refid="tbl0002">Table 2</ce:cross-ref>
+                        <ce:float-anchor refid="tbl0002"/>.</ce:para>
+                     <ce:para id="para0030" view="all">Designing most of the required software was reasonably straightforward. The CC/CCeV algorithm provides that on charge during each loop of the software the voltage of the cell is checked and if the highest cell voltage exceeds a given target value, the current is decremented by a fixed value, which was determined by experimentation. Although this worked well for this cycle testing where charging always started from a discharged pack, it was recognised that a real-world BMS would need a more sophisticated implementation of the algorithm. This was developed for the prototype BMS used in Phase 3, as described below.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec0006" view="all">
+                     <ce:section-title id="cesectitle0011">Phase 3</ce:section-title>
+                     <ce:para id="para0031" view="all">The Phase 3 experiment was conducted some time after Phases 1 and 2, during which period development had proceeded towards a reusable prototype BMS incorporating the operating principles developed and tested during Phases 1 and 2. An early embodiment of this was incorporated in a battery pack configured to simulate an airliner Auxiliary Power Unit battery. A more sophisticated version was used first in a converted electric Quad using Nissan cells. This latter version used cell boards to read cell voltages and terminal temperatures, and to broadcast them on CAN. A central master unit consisted of an STM32 Nucleo board with third party programming to control contactors, together with a Zivan SG3 charger, implementing the CC/CCeV protocol. Current and pack voltage was read using an Isabellenhutte CAN-enabled smart shunt (<ce:cross-ref id="crf0016a" refid="fig0006">Figs. 6</ce:cross-ref> and <ce:cross-ref id="crf0016" refid="fig0007">7</ce:cross-ref>
+                        <ce:float-anchor refid="fig0006"/>
+                        <ce:float-anchor refid="fig0007"/>).</ce:para>
+                     <ce:para id="para0032" view="all">The experience gained in this development work was used to specify a further design iteration providing a complete reusable prototype for use in the Phase 3 experiment. This was implemented in bespoke hardware and with software designed and programmed using STM32 microcontrollers. The overall architecture was the same as developed for the Quad bike, comprising a Master and Cell Boards connected via Controller Area Network (CAN) with a smart shunt to measure current. The function of the Cell Boards was to transmit cell voltage and terminal temperatures to the Master on a CAN bus. The electronics were isolated from cell voltage so that there were no high voltages outside the Cell Board (<ce:cross-ref id="crf0018" refid="fig0008">Fig. 8</ce:cross-ref>
+                        <ce:float-anchor refid="fig0008"/>).</ce:para>
+                     <ce:para id="para0033" view="all">The Cell Boards were powered externally, not by the cell itself, in order to eliminate any risk of unbalancing loads resulting from running the electronics.</ce:para>
+                     <ce:para id="para0034" view="all">The Cell Boards were connected to the Master using a simple four-wire daisy chain (12v+/12V- to power the board electronics plus CAN High and CAN low for cell voltage and terminal temperature data). In a high voltage pack this arrangement is much simpler than the wiring required for a conventional centralised BMS which incorporates a separate connection to each cell used for cell voltage monitoring and balancing.</ce:para>
+                     <ce:para id="para0035" view="all">Eliminating these connections not only reduces cost and complexity, it also improves safety during maintenance by reducing high voltage wiring in the BMS. Fire risk is also reduced by the absence of opportunities for chafing of high voltage wires (<ce:cross-ref id="crf0019" refid="fig0009">Fig. 9</ce:cross-ref>
+                        <ce:float-anchor refid="fig0009"/>).</ce:para>
+                     <ce:para id="para0036" view="all">The Cell Board CAN bus terminates at the Master which accumulates the cell voltages and terminal temperatures. The Master also takes current and total pack voltage data over CAN from the smart shunt, similar to the one in <ce:cross-ref id="crf0020" refid="fig0007">Fig. 7</ce:cross-ref>. It controls the pack contactor(s) and implements several fail-safe mechanisms to issue warnings, invoke limp mode or shut the pack down in the event of fault conditions such as a missing cell board, a mis-match between pack voltage and total cell board voltages, excessive current, low cell voltages or terminal temperatures outside limits.</ce:para>
+                     <ce:para id="para0037" view="all">The Master (<ce:cross-ref id="crf0021" refid="fig0010">Fig. 10</ce:cross-ref>
+                        <ce:float-anchor refid="fig0010"/>) also controls the charging process, using a more sophisticated implementation of the CC/CCEV algorithm than was applied in the Phase 2 experiments, and outputs data on an external CAN bus.</ce:para>
+                     <ce:para id="para0038" view="all">The development of this hardware and software provided high precision charge control and more accurate data logging at shorter intervals. It also demonstrated the practicality of producing a fully functioning BMS applying the operating principles described in <ce:cross-ref id="crf0022" refid="bib0001">[1]</ce:cross-ref>.</ce:para>
+                     <ce:para id="para0039" view="all">As described in detail at <ce:cross-ref id="crf0023" refid="bib0001">[1]</ce:cross-ref> the test rig for the Phase 3 experiment was designed to enable comparative performance monitoring of two separate battery packs, one managed with the equipment described above, and the other using a commercial “Orion 2″ balancing BMS manufactured by Ewert Energy Systems. A single electronic load and a single electronic power supply were used for both packs, with cycles interleaved so that one pack was charging whilst the other was discharging (<ce:cross-ref id="crf0024" refid="fig0011">Fig. 11</ce:cross-ref>
+                        <ce:float-anchor refid="fig0011"/>).</ce:para>
+                     <ce:para id="para0040" view="all">It was essential to avoid the risk of occasional shut down mid-cycle that may occur using Windows PC's, for example when installing an operating system update. For most of Phase 3, therefore, a mini-PC running Linux was used in “headless” mode, without screen or keyboard. This was accessed via a Virtual Network Computing (VNC) graphical desktop-sharing app from a remote PC. A small Uninterruptible Power Supply (UPS) was used to avoid the risk of power outages.</ce:para>
+                     <ce:para id="para0041" view="all">The complete rig included a 12 V power supply for the electronics, high current fuses, bus bars and contactors (<ce:cross-ref id="crf0025" refid="fig0012">Fig. 12</ce:cross-ref>
+                        <ce:float-anchor refid="fig0012"/>). As well as scheduling charge and discharge, the Linux mini-PC was programmed to swap changeover relays and write data output by both BMSs to file at 1 s intervals.</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="sec0007" role="results" view="all">
+                  <ce:section-title id="cesectitle0012">Results</ce:section-title>
+                  <ce:para id="para0042" view="all">
+                     <ce:cross-ref id="crf0026" refid="tbl0003">Table 3</ce:cross-ref>
+                     <ce:float-anchor refid="tbl0003"/> lists the cell types and other test metadata The results and analysis for all three phases are detailed in <ce:cross-ref id="crf0027" refid="bib0001">[1]</ce:cross-ref>, and are not therefore repeated here.</ce:para>
+                  <ce:para id="para0044" view="all">The raw data was collected in CSV (comma separated) files. Note that the file size depends on the sampling interval, the number of columns of data collected, the charge and discharge currents, length of rest periods, battery capacity and test duration. An example of the raw data collected forms <ce:cross-ref id="crf0031" refid="fig0013">Fig. 13</ce:cross-ref>.<ce:float-anchor refid="fig0013"/>
+                  </ce:para>
+                  <ce:para id="para0045" view="all">Data were plotted using Microsoft Excel charts and annotated as required (<ce:cross-ref id="crf0032" refid="fig0014">Fig. 14</ce:cross-ref>
+                     <ce:float-anchor refid="fig0014"/>).</ce:para>
+                  <ce:section id="sec0008" view="all">
+                     <ce:section-title id="cesectitle0013">Data validation</ce:section-title>
+                     <ce:para id="para0046" view="all">Cell voltages were cross checked with a Volt-Ohm metre and currents with an in-line or clamp ammeter.</ce:para>
+                     <ce:para id="para0047" view="all">In Test 8, a precision power supply and load were used, and both returned pack voltage and pack current. These values could be compared with the equivalent values returned by the two BMSs in order to verify that the latter were correct.</ce:para>
+                     <ce:para id="para0048" view="all">In addition, the prototype BMS measured pack voltage independently of cell voltages so the total of all cell voltages could be compared with the reported pack voltage.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec0009" view="all">
+                     <ce:section-title id="cesectitle0014">Bottom balancing</ce:section-title>
+                     <ce:para id="para0049" view="all">In the absence of routine cell voltage balancing (apart from the conventional “Pack B” BMS used in Phase 3) pack performance depended on accurate balancing prior to assembly. Cells were “bottom balanced” (i.e. near full discharge) since at this point the higher rate of change of voltage against state of charge allowed greater precision.</ce:para>
+                     <ce:para id="para0050" view="all">Since lithium-ion cells exhibit voltage recovery following cessation of current flow, with a voltage drop after charging ceases and voltage rise after discharge, balancing needs to be carried out with care. The approach used was to connect each cell to a balancing rig as shown schematically in <ce:cross-ref id="crf0033" refid="fig0015">Fig. 15</ce:cross-ref>
+                        <ce:float-anchor refid="fig0015"/>. A microcontroller was configured to allow discharge through a resistor until a pre-determined voltage was reached, at which point it would switch the MOSFET off and on (initially very rapidly) to maintain the selected voltage. A PC was used to record data for analysis and trouble-shooting.</ce:para>
+                     <ce:para id="para0051" view="all">Several considerations apply to this process:<ce:list id="celist0004">
+                           <ce:list-item id="celistitem0009">
+                              <ce:label>•</ce:label>
+                              <ce:para id="para0052" view="all">It is critical that the voltage sensing lines are independent of the main circuit: the effect otherwise would be to distort the voltage readings due to voltage drop in the main circuit.</ce:para>
+                           </ce:list-item>
+                           <ce:list-item id="celistitem0010">
+                              <ce:label>•</ce:label>
+                              <ce:para id="para0053" view="all">Assuming that the cells start out at a similar state of charge, it was found that a balancing period of 15 min at the selected voltage was normally sufficient.</ce:para>
+                           </ce:list-item>
+                           <ce:list-item id="celistitem0011">
+                              <ce:label>•</ce:label>
+                              <ce:para id="para0054" view="all">The charge history of the cells is important. If the cells in a pack had previously been held at significantly varying states of charge, the so-called “anode overhang” effect described in <ce:cross-ref id="crf0034" refid="bib0001">[1]</ce:cross-ref> could induce cell voltage drift, continuing over a prolonged period.</ce:para>
+                           </ce:list-item>
+                        </ce:list>
+                     </ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="sec0010" role="conclusion" view="all">
+                  <ce:section-title id="cesectitle0015">Conclusion</ce:section-title>
+                  <ce:para id="para0055" view="all">Testing during Phase 3 involved running two identical packs, one fitted with a conventional balancing BMS and one with the prototype non-balancing BMS, to around 1000 deep cycles over a range of conditions during which the rig described here functioned reliably and effectively, allowing precise control over charging together with precision data recording covering all the key parameters. The rig specification applied for Phase 3 thus appears suitable for further testing and as a basis for full prototype development.</ce:para>
+               </ce:section>
+               <ce:section id="sec0011" view="all">
+                  <ce:section-title id="cesectitle0016">Ethics statements</ce:section-title>
+                  <ce:para id="para0056" view="all">N/A</ce:para>
+               </ce:section>
+               <ce:section id="sec0011a" view="all">
+                  <ce:section-title id="cesectitle0016a">CRediT authorship contribution statement</ce:section-title>
+                  <ce:para id="para0056a" view="all">
+                     <ce:bold>John Hardy:</ce:bold> Conceptualization, Methodology, Validation, Formal analysis, Writing – original draft, Visualization. <ce:bold>John Steggall:</ce:bold> Software, Resources, Data curation. <ce:bold>Peter Hardy:</ce:bold> Writing – review &amp; editing, Supervision, Project administration, Funding acquisition, Supervision.</ce:para>
+               </ce:section>
+            </ce:sections>
+            <ce:conflict-of-interest id="coi0001" view="all">
+               <ce:section-title id="cesectitle0018">Declaration of Competing Interest</ce:section-title>
+               <ce:para id="para0058" view="all">The authors declare the following financial interests/personal relationships which may be considered as potential competing interests:</ce:para>
+               <ce:para id="para0059" view="all">John Hardy and Peter Hardy are directors of Intercal. Intercal holds patents in related areas.</ce:para>
+            </ce:conflict-of-interest>
+            <ce:acknowledgment id="ack0001" view="all">
+               <ce:section-title id="cesectitle0017">Acknowledgments</ce:section-title>
+               <ce:para id="para0057" view="all">This work has been funded with support from Innovate UK, the UK's innovation agency, grant numbers 132250, 133372 and 133860, and from the Worcestershire Proof of Concept Programme, part-funded by the <ce:grant-sponsor id="gs00001" sponsor-id="https://doi.org/10.13039/501100008530" xlink:type="simple" xlink:role="http://www.elsevier.com/xml/linking-roles/grant-sponsor">European Regional Development Fund</ce:grant-sponsor> 2014-2020, grant number <ce:grant-number refid="gs00001" id="gn0001">3910976412</ce:grant-number>.</ce:para>
+            </ce:acknowledgment>
+         </body>
+         <tail view="all">
+            <ce:bibliography id="cebibl1" view="all">
+               <ce:section-title id="cesectitle0019">Reference</ce:section-title>
+               <ce:bibliography-sec id="cebibsec1" view="all">
+                  <ce:bib-reference id="bib0001">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference id="sbref0001">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Hardy</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Steggall</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Hardy</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Rethinking lithium-ion battery management: eliminating routine cell balancing enhances hazardous fault detection</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Energy Storage</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>63</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2023</sb:date>
+                           </sb:issue>
+                           <sb:article-number>106931</sb:article-number>
+                           <ce:doi>10.1016/j.est.2023.106931</ce:doi>
+                        </sb:host>
+                        <sb:comment>Available at</sb:comment>
+                     </sb:reference>
+                     <ce:source-text id="srctxt0001">Hardy, J., Steggall, J. and Hardy, P., 2023. Rethinking lithium-ion battery management: eliminating routine cell balancing enhances hazardous fault detection. J. Energy Storage, 63, p. 106931. Available at 10.1016/j.est.2023.106931</ce:source-text>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

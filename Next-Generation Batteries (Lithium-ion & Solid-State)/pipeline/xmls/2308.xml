@@ -1,0 +1,650 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1876610217310913</prism:url><dc:identifier>doi:10.1016/j.egypro.2017.03.976</dc:identifier><eid>1-s2.0-S1876610217310913</eid><prism:doi>10.1016/j.egypro.2017.03.976</prism:doi><pii>S1876-6102(17)31091-3</pii><dc:title>An Online Model-based Battery Parameter and State Estimation Method Using Multi-scale Dual Adaptive Particle Filters </dc:title><prism:publicationName>Energy Procedia</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>18766102</prism:issn><prism:volume>105</prism:volume><prism:startingPage>4549</prism:startingPage><prism:endingPage>4554</prism:endingPage><prism:pageRange>4549-4554</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2017-05-31</prism:coverDate><prism:coverDisplayDate>May 2017</prism:coverDisplayDate><prism:copyright>© 2017 The Author(s). Published by Elsevier Ltd.</prism:copyright><prism:publisher>The Author(s). Published by Elsevier Ltd.</prism:publisher><prism:issueName>8th International Conference on Applied Energy, ICAE2016, 8-11 October 2016, Beijing, China</prism:issueName><dc:creator>Ye, Min</dc:creator><dc:creator>Guo, Hui</dc:creator><dc:creator>Xiong, Rui</dc:creator><dc:creator>Mu, Hao</dc:creator><dc:description>
+                  Accurate estimations of battery parameter and state are very important for battery management in electric vehicles. To improve estimation accuracy and robustness of battery parameter and state, and to reduce computational cost, an online model-based estimation approach is proposed, Firstly, the lithium-ion battery is modeled using the Thevenin model, Then, A multi-scale dual particle filters has been proposed and applied to the battery parameter and state estimation. Finally, to elevate the accuracy and the ability of convergence to initial states’ offset, a multi-scale dual adaptive particle filter was proposed and applied to the battery parameter and state estimation. Experimental results on various degradation states of lithium-ion battery cells further verified the feasibility of the proposed approach.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>ElsevierWaived</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>Battery management system</dcterms:subject><dcterms:subject>Lithium-ion battery</dcterms:subject><dcterms:subject>state estimation</dcterms:subject><dcterms:subject>dual PFs</dcterms:subject><dcterms:subject>dual APFs</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1876610217310913" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1876610217310913" rel="scidir"/></coredata><scopus-id>85020709876</scopus-id><scopus-eid>2-s2.0-85020709876</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85020709876" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>277910</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291711</xocs:ssid>
+         <xocs:ssid type="subj">291731</xocs:ssid>
+         <xocs:ssid type="subj">291877</xocs:ssid>
+         <xocs:ssid type="subj">291892</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Energy Procedia</xocs:srctitle>
+      <xocs:normalized-srctitle>ENERGYPROCEDIA</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20170601">2017-06-01</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20170601">2017-06-01</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20170601">2017-06-01</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20170601">2017-06-01</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2017-06-26T11:27:43</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1876610217310913</xocs:eid>
+      <xocs:pii-formatted>S1876-6102(17)31091-3</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1876610217310913</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.egypro.2017.03.976</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.2</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1876610217X00076</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20240102">2024-01-02T00:50:22.567939Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20170501</xocs:date-search-begin>
+      <xocs:date-search-end>20170531</xocs:date-search-end>
+      <xocs:year-nav>2017</xocs:year-nav>
+      <xocs:indexeddate epoch="1496325124">2017-06-01T13:52:04.899167Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids confeditor contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content oa subj suppl tomb vol volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authkeywords authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1876-6102</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>18766102</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>105</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>105</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 105</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>684</xocs:sort-order>
+      <xocs:first-fp>4549</xocs:first-fp>
+      <xocs:last-lp>4554</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>4549</xocs:first-page>
+         <xocs:last-page>4554</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201705</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>May 2017</xocs:cover-date-text>
+      <xocs:cover-date-start>2017-05-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2017-05-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2017</xocs:cover-date-year>
+      <xocs:title-editors-groups>
+         <xocs:title-editors-group>
+            <ce:title>8th International Conference on Applied Energy, ICAE2016, 8-11 October 2016, Beijing, China</ce:title>
+            <ce:editors>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00076-a63d3c9e8dff28446e4c34246043efb8">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>Jinyue</ce:given-name>
+                     <ce:surname>Yan</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00076-0e0d16642d17f69f0d9ca3e94e9889ce">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>Fengchun</ce:given-name>
+                     <ce:surname>Sun</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00076-1c114c0df2aa89ccd04e4c292d874493">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>SK</ce:given-name>
+                     <ce:surname>Chou</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00076-255c926ec6d74aeedab0c591748b4e15">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>Umberto</ce:given-name>
+                     <ce:surname>Desideri</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00076-3026189c4a9ab4eb895727edd4791cc1">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>Hailong</ce:given-name>
+                     <ce:surname>Li</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00076-1040664e072e46254ee964abc8eec31e">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>Pietro</ce:given-name>
+                     <ce:surname>Campana</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00076-3c70ceda1b544bd8d150712f7405e835">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>Rui</ce:given-name>
+                     <ce:surname>Xiong</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+            </ce:editors>
+         </xocs:title-editors-group>
+      </xocs:title-editors-groups>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>© 2017 The Author(s). Published by Elsevier Ltd.</xocs:copyright-line>
+      <xocs:normalized-article-title>ONLINEMODELBASEDBATTERYPARAMETERSTATEESTIMATIONMETHODUSINGMULTISCALEDUALADAPTIVEPARTICLEFILTERS</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>YE</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>M</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="sbref0005">
+            <xocs:ref-normalized-surname>XIONGRUI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>464</xocs:ref-first-fp>
+            <xocs:ref-last-lp>476</xocs:ref-last-lp>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0010">
+            <xocs:ref-normalized-surname>CHENGLIN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>76</xocs:ref-first-fp>
+            <xocs:ref-last-lp>83</xocs:ref-last-lp>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0015">
+            <xocs:ref-normalized-surname>YUJIEWANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>81</xocs:ref-first-fp>
+            <xocs:ref-last-lp>87</xocs:ref-last-lp>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0020">
+            <xocs:ref-normalized-surname>GUANGZHONGDONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>277</xocs:ref-first-fp>
+            <xocs:ref-last-lp>286</xocs:ref-last-lp>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0025">
+            <xocs:ref-normalized-surname>XIONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>699</xocs:ref-first-fp>
+            <xocs:ref-last-lp>713</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0030">
+            <xocs:ref-normalized-surname>WANGSHUPENGJIHONGBING</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>630</xocs:ref-first-fp>
+            <xocs:ref-last-lp>633</xocs:ref-last-lp>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0035">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1086</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1095</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0040">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4948</xocs:ref-first-fp>
+            <xocs:ref-last-lp>4957</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>YEX2017X4549</xocs:refkey3>
+         <xocs:refkey4lp>YEX2017X4549X4554</xocs:refkey4lp>
+         <xocs:refkey4ai>YEX2017X4549XM</xocs:refkey4ai>
+         <xocs:refkey5>YEX2017X4549X4554XM</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2017-03-19T01:17:22Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>ElsevierWaived</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/PROC_UNBOUNDED_ESWaived">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY-NC-ND license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2017 The Author(s). Published by Elsevier Ltd.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1876-6102(17)31091-3</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1876610217310913</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1876610217310913</xocs:eid>
+         <xocs:doi>10.1016/j.egypro.2017.03.976</xocs:doi>
+         <xocs:cid>277910</xocs:cid>
+         <xocs:timestamp>2024-01-02T00:50:22.567939Z</xocs:timestamp>
+         <xocs:cover-date-start>2017-05-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2017-05-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1876610217310913-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1876610217310913/MAIN/application/pdf/886b1f822b9ea409e94d8c9c94448c3e/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1876610217310913/MAIN/application/pdf/886b1f822b9ea409e94d8c9c94448c3e/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>355174</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>6</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1876610217310913-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1876610217310913/PREVIEW/image/png/950bebf91d86a31c55c5a51b67d87987/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1876610217310913/PREVIEW/image/png/950bebf91d86a31c55c5a51b67d87987/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>51657</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">1876-6102 Â© 2017 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license  (http://creativecommons.org/licenses/by-nc-nd/4.0/). Peer-review under responsibility of the scientific committee of the 8th International Conference on Applied Energy. doi: 10.1016/j.egypro.2017.03.976   Energy Procedia  105 ( 2017 )  4549 â€“ 4554  ScienceDirect The 8th International Conference on Applied Energy â€“ ICAE2016  An online model-based battery parameter and state  estimation method using multi-scale dual adaptive  particle filters  Min Yea, Hui Guoa, Rui Xiongb,*, Hao  Mub  a National Engineering Laboratory  for Highway Maintenance Equipment, Changâ€™an University, Xiâ€™an, 710064,  China; b National Engineering Laboratory for Electric Vehicles, School of Mechanical  Engineering,   Beijing Institute of Technology, Beijing 100081, China.    Abstract  Accurate estimations of battery parameter and state are very important  for battery management in  electric vehicles. To improve estimation accuracy and robustness of battery parameter and state, and  to reduce computational cost,  an online model-based estimation approach is proposed, Firstly , the  lithium-ion battery is modeled using the Thevenin model, Then, A multi-scale dual particle filters  has been proposed and applied to the battery parameter and state estimation. Finally, to elevate the  accuracy and the ability of convergence to initial statesâ€™ offset, a multi-scale dual adaptive particle  filter was proposed and applied to the battery parameter and state estimation. Experimental results  on various degradation states of lithium-ion battery cells further verified the feasibility of the  proposed approach.     Â© 2016 The Authors. Published by Elsevier Ltd.   Selection and/or peer-review under responsibility of ICAE    Keywords: Battery management system; Lithium-ion battery; state estimation; dual PFs; dual APFs.  1. Introduction   Nowadays, with the increasing car ownership, the amount of oil storage to the point of  an emergency, so, EVs have gained great attention as one of the promising solution for  energy shortage. Lithium-ion battery as a clean and efficient energy storage device has  been widely used in EVs, As a critical index for a lithium-ion battery, parameter and state- of-charge (SoC) estimation it is difficult to measure directly due to the complicated  electrochemical process when it working.      * Corresponding Author, Email: rxiong@bit.edu.cn  Available online at www.sciencedirect.com Â© 2017 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license  (http://creativecommons.org/licenses/by-nc-nd/4.0/). Peer-review under responsibility of the scientific committee of the 8th International Conference on Applied Energy. 4550   Min Ye et al. /  Energy Procedia  105 ( 2017 )  4549 â€“ 4554  A large number of of SoC estimation methods have been put forward to improve battery  SoC determination. For instance, Xiong et al.[1] proposed a multi-scale extended Kalman  filter method to estimate parameter and SoC of lithium-ion battery which cannot only  achieves more accurate and reliable system parameter estimates, but also largely reduces  the computational cost of the control system. Lin at al.[2] introduced a Multi-model  probabilities based state fusion estimation method to improve the accuracy and reliability  of the SOC estimation. Wang at al.[3] presented a particle filter based method to joint  estimate SoC and SoE.  In this paper, to determine parameter and sate of a battery, an online model-based  estimator using multi-scale dual adaptive particle filters is developed. The main  contributions are expressed as follows: 1) the thevenin model is adopted to develop model- based SoC estimation approach. 2) A multi-scale dual particle filters(D-PF) is proposed to  estimate parameter and state of a lithium-ion battery cell. 3) To improve the accuracy and  the speed of convergence for parameter and SoC estimation, a multi-scale dual adaptive  particle filters(D-APF) is presented. 4) NMC batteries are tested to verify the effectiveness  of these two algorithms. The results indicate that multi-scale dual particle filters method  has the potential to accurately estimate battery parameter and SoC .  The rest of this paper is organized as follows: Section 2 describes the thevenin model.  Section 3 illustrates the algorithm of multi-scale dual PFs and multi-scale dual APFs. In  section 4, NMC battery experiment data is adopt to verify the validity of the proposed  methods and the relative analysis of results are given in the final section.   2.Battery model  2.1 Definitions of SOC   The battery SoC is a relative quantity that describes the ratio of the remaining capacity  to the maximum available capacity, expressed as the following equation:   0 0 1 z t k c k rated z I dt C K   Â³  (1) Where zk is the SoC value at time k, z0 is the initial SoC value, Crated is the rated capacity of  a battery, Kc stands for the coulombic efficiency (Kc|1), Ik represents the current through  the battery.  2.2  Thevenin model   An accurate battery model that can simulate the dynamic characteristic of a battery is  essential to dynamic state estimation[4]. In this paper thevenin model is adopt to validate  the algorithms. The thevenin model is shown in Eqs.(2) and (3).            , 1 ,exp 1 expd k d k p kU t U R t IW W    '      '  (2)    , 0 ,- -t k ocv k k d kU U z I R U  (3) where t' is the sampling time and Ik is current, Ud and Ï„=RpC are the voltage and time  constant of the RC network respectively. Ut is the battery terminal voltage, R0 is the   Min Ye et al. /  Energy Procedia  105 ( 2017 )  4549 â€“ 4554 4551 internal ohmic resistance which depends on the current direction.so, the battery parameters  Î¸ include Rp, Ï„, and  R0Ç„  Through the discretization of Eqs. (1)â€“(3), the discrete-time state space equations can be  depicted as follows:  1, -1 -1 -1 1, -1 -1 2, -1 2, -1 -1 -1 -1  ( , , )     ( , , )      k k k l k l l l k k k l k x f x u w w y g x u v T T T T Â­   Â°   Â®Â°   Â¯  (4)  where x is the state variables which include SoC and Ud, Î¸ represent parameter variables  of battery model, y represent the observed variables, u represents the model input, w and  v   are the Gaussian system noise with covariance Qw and Gaussian observation noise with  covariance Qv.  3.Algorithm implementation  The PF methods have become a popular class of algorithms for solving the optimal  estimation problems of non-linear and non-Gaussian state space models[3]. Based on  dual PFs, the battery parameter can be estimated on line, regarding that battery parameter  vary slowly than battery SoC,  thus the battery parameter can be estimated with macro  scale to reduce the computation cost of the BMS, and the battery state can be estimate  with micro scale due to the fast-varying characteristic[1]. In order to improve the  accuracy and the ability of convergence to initial statesâ€™ offset, a multi-scale dual  adaptive particle filters is proposed in this paper. The algorithms of multi-scale dual  particle filters and multi-scale dual adaptive particle filters are described in Table 1 and  the flowchart of multi-scale dual adaptive particle filters is shown in Fig.1.  Importance  sampling Calculate and normalize importance weight Calculate and normalize importance weight Parameter estimation resampling Output Output  noise variance  update Yes No State estimation Parameter estimation k%L==0? l=l+1 1 2, Ë† M j j j l l lwT T  Â¦ State estimation Initialization 0 ( 1,2,... ) ix i N  Initialization 0 ( 1,2,... ) j j MT   More  observations? Stop  Importance  sampling k=k+1 No Yes 1,1 Ë† N i ik kikx w x  Â¦   Fig. 1. Flowchart of the proposed multi-scale dual adaptive particle filters estimator  Table 1. Summary of multi-scale D-PFs and multi-scale D-APFs.   4552   Min Ye et al. /  Energy Procedia  105 ( 2017 )  4549 â€“ 4554  1. Initialization: k, j = 0, l=0.  Randomly generate N initial particles 0 ( 1,2,... )ix i N for state and M initial particles 0 ( 1,2,... )j j MT   for  parameter, and initial weight for every particle. Set maximum and minimum noise variance of each state.  2. State estimation.   For k = 1, 2, ...     (a) Importance sampling: The particle weight is calculated according to the equation as below:  1, 11 1 12exp ( ) 22 i k k k iw y y RRS Â­ Â½    Â® Â¾Â¯ Â¿     (b) Normalize the importance weights as below: 1, 1, 1,1/ Ni i i k k ki w w w  Â¦     (c) state estimation: 1,1Ë† N i i k kik x w x  Â¦     (d) Evaluate the effective sample size:  21 1,1Neff 1/ ( ) N i ki w  Â¦ to judge the necessity of resampling  3. parameter estimation(if % 0k L   )    For 1l l   :     (a) Importance sampling: The particle weight is calculated according to the equation as below:  2, 22 1 12exp ( ) 22 j l k l jw y y RRS Â­ Â½    Â® Â¾Â¯ Â¿     (b) Normalize the importance weights as below:  2, 2, 2,1/ Mj j j l l lj w w w  Â¦     (c) parameter estimation: 2,1 Ë† M j j l l lj wT T  Â¦       (d) Evaluate the effective sample size:  22 2,1Neff 1/ ( ) M j lj w  Â¦ to judge the necessity of resampling  4. noise variance update for dual adaptive particle filter (this step is absent in D-PFs algorithm)    (a) Compute the demand value of noise variance:    , 1 1 1Ë† Ë†| , , |x k k i i ke x f x u T         ;   , -1Ë† Ë†| |l l leT T T       (b) noise variance update: a, , 1 ,max , , 1, ,min , , 1 min( , ) max( , )k a k a a k a ka k a a k a k e if e if eEV VVV V V      Â­Â° Â®Â°Â¯ ! d           , , , 1 , , 1 , , 1 ,max ,min min( , ) max( , ) b l b l b l b l b l b l b l b b e if e if e V VV EV V V       Â­ !Â° Â®Â° dÂ¯         (where Î² is attenuation factor, Ïƒ represent standard deviation of noise variance, { ,  ,  }a b x TÂ�   4. Verification and discussion   The nominal voltage of the NMC cell is 3.6 V and its nominal capacity is 2.5Ah, The  experiment data used for this study are acquired through the battery test bench set up in  [5], and it includes a series of characterization tests conducted at the same temperatures of  10Ä‡, in this paper the parameter and state estimation of NMC battery is based on UDD  test data. Here select the SoC in the range of 80% to 20%.  Figs. 2 and 3 present the comparison of the estimated performance of the mutil-scale D- PFs and mutil-scale D-APFs under UDD test, where the initial SoC is initialized to 60%  and with 20% offset.   Min Ye et al. /  Energy Procedia  105 ( 2017 )  4549 â€“ 4554 4553                  Fig.2. Results of estimated voltage error   with D-PF and D-APF    Fig.3. Results of estimated SoC error              with D-PF and D-APF       The statistical analysis list of estimation result with two methods are listed in Table 2.   As shown in Table 2, for dual PFs, the absolute value of stable voltage estimation error is  less than 0.0194 V, which is the 0.54% of its nominal voltage, and the absolute value of  stable SoC estimation error is less than 1%. The absolute value of stable voltage  estimation error for dual APFs is less than 0.018 V, which is the 0.5% of its nominal  voltage, and its absolute value of stable SoC estimation error is less than 0.6 %, for the  convergence rate, it need 298s to converge to the real values, which is far shorter than  950s of the dual PFs.   Based on the above analysis, we can conclude that multi-scale dual PFs can achieve  accurate and reliable parameter and state estimates against inaccurate initial parameter and  state, more importantly, the peak estimation error of stable voltage, and SoC with multi- scale is less than Â±1.25%.  For better practical application, we add the adaptive update of noises variance to the  parameter and state estimation process of the multi-scale dual PFs. Through the  comparison, it shows that the dual APFs can provide more accurate and robust estimation,  this is mainly because adaptive PF can generate appropriate noise variance to the  algorithm in the estimation process.  Table 2.  The statistical analysis list of voltage and SoC estimation error (after 16 min).   Method MVE c (V) SDVE (mV) MSE (%) SDSE (%)  convergence   time of SoC (s)  D-PF 0.0194 3.9 1.25 0.38 950  D-APF   0.018 3.5 0.66 0.18 298    c MVE=Maximum voltage error, SDVE=Standard deviation of voltage error, MSE= Maximum SoC error,  SDSE= Standard deviation of voltage error.  6. Conclusions  In considering that the system parameter change more slowly than state in the  estimation process, the multi-scale dual PFs is developed to reduces the computational  cost of the control system, and in order to improve accuracy and robustness for SoC  estimation, the multi-scale dual APFs is  presented.  To verify the two proposed estimation  approach, the test of the algorithms have been executed and the results show that (i) for  multi-scale dual PFs, the peak errors of stable voltage and SoC are less than Â±0.54%  and  50 100 150 200 -0.1 -0.08 -0.06 -0.04 -0.02 -0.01 0 0.01 Time(min) S O C  e st im at io n  er ro r( % )     D-PF D-APF 5 10 15 20 25 30 35 40 -0.02 -0.01 0 0.01     50 100 150 200 -0.02 -0.01 0 0.01 0.02 V ol ta ge  e st im at io n  er ro r  (V ) Time (min)     D-PF D-APF 4554   Min Ye et al. /  Energy Procedia  105 ( 2017 )  4549 â€“ 4554  Â±1.25%  respectively, the convergence time with the erroneous initial SoC is sbout 16  minutes. (ii) For multi-scale dual APFs, the peak errors of stable voltage and SoC are less  than Â±0.5% and Â±0.66% respectively, the convergence time with the erroneous initial SoC  is about 5 minutes. (iii) The multi-scale dual APFs method can provide more accurate and  robust estimation than the multi-scale dual PFs method.  Acknowledgement  This work was supported by the National Science Foundation of China (Grant No.  51507012). The experiments were performed at the National Engineering Laboratory for  Electric Vehicles, Beijing Institute of Technology. Any opinions expressed in this paper  are solely those of the authors and do not represent those of the sponsor.    References  [1] Xiong Rui, Sun Fengchun, Chen Zheng, He Hongwen. A data-driven multi-scale extended Kalman  filtering based parameter and state estimation approach of lithium-ion polymer battery in electric vehicles.  Applied Energy, 2014; 113:464-476.  [2]  Cheng Lin, Hao Mu, Rui Xiong, Weixiang Shen. A novel multi-model probability battery state of charge  estimation approach for electric vehicles using H-infinity algorithm. Applied Energy,2016; 166:76-83.  [3] Yujie Wang, Chenbin Zhang, Zonghai Chen. A method for joint estimation of state-of-charge and  available energy of LiFePO 4 batteries. Applied Energy 2014; 135:81-87.  [4] Guangzhong Dong, Zonghai Chen, Jingwen Wei, Chenbin Zhang, Peng Wang. An online model-based  method for state of energy estimation of lithium-ion batteries using dual filters. Journal of Power Sources 2016;  301:277-286.   [5] Xiong R, Sun F, Gong X, He H. Adaptive state of charge estimator for lithium-ion cells series battery  pack in electric vehicles. J. Power Sources 2013;242:699â€“713.        [6] Wang shu-peng Ji hong-bing. Adaptive Particle Filtering for Efficient Object Tracking .Journal of System  Simulation, china, 2010; Vol.22 No.3:630-633.  [7] Zhang F, Liu G, Fang L, Wang H. Estimation of battery state of charge with HÄžobserver: applied to a  robot for inspecting power transmission lines. IEEE Trans. Ind. Electron 2012; 59(2): 1086-95.  [8] Zhang C, Wang LY, Li X.et al. Robust and Adaptive Estimation of State of Charge for Lithium-Ion  Batteries. IEEE Trans. Ind. Electron 2015; 62(8): 4948-57.    Biography   Rui Xiong received the Ph.D. degree in mechanical Engineering from  Beijing Institute of Technology, China, in 2014. Since 2014, he has been  appointed an Associate Professor at the Department of Vehicle Engineering,  Beijing Institute of Technology, China. His research focuses mainly on  electrical/hybrid vehicles, energy storage system and battery   management.    is is mainly because adaptive PF can generate appropriate noise variance to the  algorithm in the estimation process.  Table 2.  The statistical analysis list of voltage and SoC estimation error (after 16 min).   Method MVE c (V) SDVE (mV) MSE (%) SDSE (%)  convergence   time of SoC (s)  D-PF 0.0194 3.9 1.25 0.38 950  D-APF   0.018 3.5 0.66 0.18 298    c MVE=Maximum voltage error, SDVE=Sta</xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.4" xml:lang="en" docsubtype="fla">
+         <item-info>
+            <jid>EGYPRO</jid>
+            <aid>29820</aid>
+            <ce:pii>S1876-6102(17)31091-3</ce:pii>
+            <ce:doi>10.1016/j.egypro.2017.03.976</ce:doi>
+            <ce:copyright type="other" year="2017">The Authors</ce:copyright>
+         </item-info>
+         <head>
+            <ce:article-footnote>
+               <ce:label>☆</ce:label>
+               <ce:note-para id="npar0005" view="all">Peer-review under responsibility of the scientific committee of the 8th International Conference on Applied Energy.</ce:note-para>
+            </ce:article-footnote>
+            <ce:title id="tit0005">An Online Model-based Battery Parameter and State Estimation Method Using Multi-scale Dual Adaptive Particle Filters</ce:title>
+            <ce:author-group id="aug0005">
+               <ce:author id="aut0005" author-id="S1876610217310913-80aa6b0703b8686971bbfd97e3e0442b">
+                  <ce:given-name>Min</ce:given-name>
+                  <ce:surname>Ye</ce:surname>
+                  <ce:cross-ref id="crf0005" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0010" author-id="S1876610217310913-c0d4f640c9c93da183cbeef26a6c0e4c">
+                  <ce:given-name>Hui</ce:given-name>
+                  <ce:surname>Guo</ce:surname>
+                  <ce:cross-ref id="crf0010" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0015" author-id="S1876610217310913-3c70ceda1b544bd8d150712f7405e835">
+                  <ce:given-name>Rui</ce:given-name>
+                  <ce:surname>Xiong</ce:surname>
+                  <ce:cross-ref id="crf0015" refid="aff0010">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0020" refid="cor0005">
+                     <ce:sup loc="post">⁎</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:author id="aut0020" author-id="S1876610217310913-7f8a935a74bf53832941109d8ea8d8d7">
+                  <ce:given-name>Hao</ce:given-name>
+                  <ce:surname>Mu</ce:surname>
+                  <ce:cross-ref id="crf0025" refid="aff0010">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:affiliation id="aff0005">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>National Engineering Laboratory for Highway Maintenance Equipment, Chang’an University, Xi’an, 710064, China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>National Engineering Laboratory for Highway Maintenance Equipment, Chang’an University, Xi’an, 710064</sa:organization>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff0010">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>National Engineering Laboratory for Electric Vehicles, School of Mechanical Engineering, Beijing Institute of Technology, Beijing 100081, China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>National Engineering Laboratory for Electric Vehicles, School of Mechanical Engineering, Beijing Institute of Technology, Beijing 100081</sa:organization>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:correspondence id="cor0005">
+                  <ce:label>⁎</ce:label>
+                  <ce:text>Corresponding author.</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:abstract id="abs0005" view="all" class="author"><ce:abstract-sec id="abst0005" view="all">
+                  <ce:simple-para id="spar0005" view="all">Accurate estimations of battery parameter and state are very important for battery management in electric vehicles. To improve estimation accuracy and robustness of battery parameter and state, and to reduce computational cost, an online model-based estimation approach is proposed, Firstly, the lithium-ion battery is modeled using the Thevenin model, Then, A multi-scale dual particle filters has been proposed and applied to the battery parameter and state estimation. Finally, to elevate the accuracy and the ability of convergence to initial states’ offset, a multi-scale dual adaptive particle filter was proposed and applied to the battery parameter and state estimation. Experimental results on various degradation states of lithium-ion battery cells further verified the feasibility of the proposed approach.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="kwd0005" class="keyword" view="all">
+               <ce:section-title id="sect0010">Keywords</ce:section-title>
+               <ce:keyword id="kw0005">
+                  <ce:text>Battery management system</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0010">
+                  <ce:text>Lithium-ion battery</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0015">
+                  <ce:text>state estimation</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0020">
+                  <ce:text>dual PFs</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0025">
+                  <ce:text>dual APFs</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <tail view="all">
+            <ce:bibliography id="bibl0005" view="all">
+               <ce:section-title id="sect0020">References</ce:section-title>
+               <ce:bibliography-sec id="bibs0005" view="all">
+                  <ce:bib-reference id="bib0005">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference id="sbref0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Xiong Rui</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Sun Fengchun</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Chen Zheng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>He Hongwen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A data-driven multi-scale extended Kalman filtering based parameter and state estimation approach of lithium-ion polymer battery in electric vehicles</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Applied Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>113</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>464</sb:first-page>
+                              <sb:last-page>476</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0010">
+                     <ce:label>[2]</ce:label>
+                     <sb:reference id="sbref0010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Cheng Lin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Hao Mu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Rui Xiong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Shen.</ce:given-name>
+                                 <ce:surname>Weixiang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A novel multi-model probability battery state of charge estimation approach for electric vehicles using H-infinity algorithm</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Applied Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>166</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>76</sb:first-page>
+                              <sb:last-page>83</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0015">
+                     <ce:label>[3]</ce:label>
+                     <sb:reference id="sbref0015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Yujie Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Chenbin Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Zonghai Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A method for joint estimation of state-of-charge and available energy of LiFePO 4 batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Applied Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>135</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>81</sb:first-page>
+                              <sb:last-page>87</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0020">
+                     <ce:label>[4]</ce:label>
+                     <sb:reference id="sbref0020">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Guangzhong Dong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Zonghai Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Jingwen Wei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Chenbin Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Peng Wang.</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>An online model-based method for state of energy estimation of lithium-ion batteries using dual filters</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>301</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>277</sb:first-page>
+                              <sb:last-page>286</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0025">
+                     <ce:label>[5]</ce:label>
+                     <sb:reference id="sbref0025">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Xiong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Sun</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Gong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Adaptive state of charge estimator for lithium-ion cells series battery pack in electric vehicles</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>242</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>699</sb:first-page>
+                              <sb:last-page>713</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0030">
+                     <ce:label>[6]</ce:label>
+                     <sb:reference id="sbref0030">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Wang shu-peng Ji hong-bing</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Adaptive Particle Filtering for Efficient Object Tracking</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of System Simulation, china</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>22</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>3</sb:issue-nr>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>630</sb:first-page>
+                              <sb:last-page>633</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0035">
+                     <ce:label>[7]</ce:label>
+                     <sb:reference id="sbref0035">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Fang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Estimation of battery state of charge with H∞observer: applied to a robot for inspecting power transmission lines</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans. Ind. Electron</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>59</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>2</sb:issue-nr>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1086</sb:first-page>
+                              <sb:last-page>1095</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0040">
+                     <ce:label>[8]</ce:label>
+                     <sb:reference id="sbref0040">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.Y.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Li X.et al. Robust and Adaptive Estimation of State of Charge for Lithium-Ion Batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans. Ind. Electron</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>62</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>8</sb:issue-nr>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4948</sb:first-page>
+                              <sb:last-page>4957</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

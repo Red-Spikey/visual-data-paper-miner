@@ -1,0 +1,2597 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S0378775319312789</prism:url><dc:identifier>doi:10.1016/j.jpowsour.2019.227285</dc:identifier><eid>1-s2.0-S0378775319312789</eid><prism:doi>10.1016/j.jpowsour.2019.227285</prism:doi><pii>S0378-7753(19)31278-9</pii><dc:title>Lithium ion battery electrodes predicted from manufacturing simulations: Assessing the impact of the carbon-binder spatial location on the electrochemical performance </dc:title><prism:publicationName>Journal of Power Sources</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>sco</pubType><prism:issn>03787753</prism:issn><prism:volume>444</prism:volume><prism:startingPage>227285</prism:startingPage><prism:pageRange>227285</prism:pageRange><articleNumber>227285</articleNumber><dc:format>text/xml</dc:format><prism:coverDate>2019-12-31</prism:coverDate><prism:coverDisplayDate>31 December 2019</prism:coverDisplayDate><prism:copyright>© 2019 The Authors. Published by Elsevier B.V.</prism:copyright><prism:publisher>The Authors. Published by Elsevier B.V.</prism:publisher><dc:creator>Chouchane, Mehdi</dc:creator><dc:creator>Rucci, Alexis</dc:creator><dc:creator>Lombardo, Teo</dc:creator><dc:creator>Ngandjong, Alain C.</dc:creator><dc:creator>Franco, Alejandro A.</dc:creator><dc:description>
+                  We report a novel computational simulation study of the performance of Lithium Ion Battery (LIB) NMC electrodes for different compositions. The novelty of this work relies on the explicit consideration with three-dimensional resolution of the Active Material (AM) and the Carbon-Binder Domains (CBD) resulting from simulations of the electrode manufacturing processes and considered as spatially separated phases. A multi-phase volumetric mesh is generated and imported into COMSOL Multiphysics using the INNOV meshing algorithm recently published by us. A 4D-resolved electrochemical model is then applied to simulate the electrochemical behavior of the electrode mesostructure upon LIB cell discharge. Several mesostructural parameters are extracted and the differences in the electrochemical response due to the variations of these parameters are investigated. Furthermore, the 4D-resolved electrochemical model allows assessing the impact of CBD spatial location and its transport properties towards Li+ on the overall electrochemical response, as well as identifying spatial operation heterogeneities inside the electrode. The model assesses then phenomena which are very difficult to investigate based only on experimental approaches, and it aims to become a useful complementary tool of them.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName>French Institutes</openaccessSponsorName><openaccessSponsorType>FundingBody</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>Lithium ion battery</dcterms:subject><dcterms:subject>Carbon binder domain</dcterms:subject><dcterms:subject>Electrochemistry</dcterms:subject><dcterms:subject>Spatial heterogeneities</dcterms:subject><dcterms:subject>4D-resolved computational modeling</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S0378775319312789" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S0378775319312789" rel="scidir"/></coredata><objects><object ref="sc1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="120" size="25816">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-sc1.sml?httpAccept=%2A%2F%2A</object><object ref="gr4" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="122" size="32008">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-gr4.sml?httpAccept=%2A%2F%2A</object><object ref="gr3" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="109" size="13769">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-gr3.sml?httpAccept=%2A%2F%2A</object><object ref="gr2" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="103" size="10623">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-gr2.sml?httpAccept=%2A%2F%2A</object><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="156" size="24519">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-gr1.sml?httpAccept=%2A%2F%2A</object><object ref="sc1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="535" height="294" size="114923">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-sc1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr4" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="669" height="372" size="181682">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-gr4.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="669" height="332" size="78878">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-gr3.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="669" height="315" size="53837">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-gr2.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="669" height="477" size="134087">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-gr1.jpg?httpAccept=%2A%2F%2A</object><object ref="sc1" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2370" height="1302" size="1687242">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-sc1_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr4" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2961" height="1648" size="1112662">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-gr4_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2961" height="1470" size="501784">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-gr3_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2961" height="1396" size="289748">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-gr2_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2961" height="2113" size="935937">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-gr1_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="mmc4" category="standard" type="VIDEO-FLASH" multimediatype="Flash Video file" mimetype="video/x-flv" size="651555">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-mmc4.flv?httpAccept=%2A%2F%2A</object><object ref="mmc5" category="standard" type="VIDEO-FLASH" multimediatype="Flash Video file" mimetype="video/x-flv" size="783149">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-mmc5.flv?httpAccept=%2A%2F%2A</object><object ref="mmc2" category="standard" type="VIDEO-FLASH" multimediatype="Flash Video file" mimetype="video/x-flv" size="703032">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-mmc2.flv?httpAccept=%2A%2F%2A</object><object ref="mmc3" category="standard" type="VIDEO-FLASH" multimediatype="Flash Video file" mimetype="video/x-flv" size="713143">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-mmc3.flv?httpAccept=%2A%2F%2A</object><object ref="mmc4" category="standard" type="VIDEO" multimediatype="MPEG-4 movie" mimetype="video/mp4" size="1324090">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-mmc4.mp4?httpAccept=%2A%2F%2A</object><object ref="mmc5" category="standard" type="VIDEO" multimediatype="MPEG-4 movie" mimetype="video/mp4" size="1746474">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-mmc5.mp4?httpAccept=%2A%2F%2A</object><object ref="mmc2" category="standard" type="VIDEO" multimediatype="MPEG-4 movie" mimetype="video/mp4" size="1352489">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-mmc2.mp4?httpAccept=%2A%2F%2A</object><object ref="mmc3" category="standard" type="VIDEO" multimediatype="MPEG-4 movie" mimetype="video/mp4" size="1095848">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-mmc3.mp4?httpAccept=%2A%2F%2A</object><object ref="mmc1" category="standard" type="APPLICATION" multimediatype="Microsoft Word file" mimetype="application/word" size="4258766">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-mmc1.docx?httpAccept=%2A%2F%2A</object><object ref="am" category="standard" type="AAM-PDF" multimediatype="Acrobat PDF file" mimetype="application/pdf" size="2385802">https://api.elsevier.com/content/object/eid/1-s2.0-S0378775319312789-am.pdf?httpAccept=%2A%2F%2A</object></objects><scopus-id>85073591813</scopus-id><scopus-eid>2-s2.0-85073591813</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85073591813" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>271367</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291689</xocs:ssid>
+         <xocs:ssid type="subj">291711</xocs:ssid>
+         <xocs:ssid type="subj">291865</xocs:ssid>
+         <xocs:ssid type="subj">291877</xocs:ssid>
+         <xocs:ssid type="subj">291878</xocs:ssid>
+         <xocs:ssid type="subj">291892</xocs:ssid>
+         <xocs:ssid type="subj">291940</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Journal of Power Sources</xocs:srctitle>
+      <xocs:normalized-srctitle>JOURNALPOWERSOURCES</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20191022">2019-10-22</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20191022">2019-10-22</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20191022">2019-10-22</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20191022">2019-10-22</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2019-11-25T14:57:00</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S0378775319312789</xocs:eid>
+      <xocs:pii-formatted>S0378-7753(19)31278-9</xocs:pii-formatted>
+      <xocs:pii-unformatted>S0378775319312789</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.jpowsour.2019.227285</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.1</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S0378775319X00312</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20220621">2022-06-21T05:48:08.692802Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20191231</xocs:date-search-begin>
+      <xocs:year-nav>2019</xocs:year-nav>
+      <xocs:indexeddate epoch="1571761898">2019-10-22T16:31:38.295495Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid fundingbodyid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder sponsoredaccesstype srctitle srctitlenorm srctype ssids alllist content oa subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure e-component body acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast footnotes grantnumber grantsponsor grantsponsorid highlightsabst orcid primabst pubtype ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>0378-7753</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>03787753</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:sponsored-access-type>UNLIMITED</xocs:sponsored-access-type>
+      <xocs:funding-body-id>FRENCH</xocs:funding-body-id>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>444</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>444</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 444</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>7</xocs:sort-order>
+      <xocs:first-fp>227285</xocs:first-fp>
+      <xocs:article-number>227285</xocs:article-number>
+      <xocs:pages>
+         <xocs:first-page>227285</xocs:first-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>20191231</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>31 December 2019</xocs:cover-date-text>
+      <xocs:cover-date-start>2019-12-31</xocs:cover-date-start>
+      <xocs:cover-date-year>2019</xocs:cover-date-year>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>Lithium and Sodium Batteries: SCITECH</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>sco</xocs:document-subtype>
+      <xocs:copyright-line>© 2019 The Authors. Published by Elsevier B.V.</xocs:copyright-line>
+      <xocs:normalized-article-title>LITHIUMIONBATTERYELECTRODESPREDICTEDMANUFACTURINGSIMULATIONSASSESSINGIMPACTCARBONBINDERSPATIALLOCATIONELECTROCHEMICALPERFORMANCE</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>CHOUCHANE</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>M</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>1</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Introduction</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>2</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Methodology</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>3</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Results and discussions</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>4</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Conclusions</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:acknowledgment">
+            <xocs:item-toc-section-title>Acknowledgment</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:appendices">
+            <xocs:item-toc-label>Appendix A</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Supplementary data</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="sref1">
+            <xocs:ref-normalized-surname>LARCHER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>19</xocs:ref-first-fp>
+            <xocs:ref-last-lp>29</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref2">
+            <xocs:ref-normalized-surname>NITTA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>252</xocs:ref-first-fp>
+            <xocs:ref-last-lp>264</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref3">
+            <xocs:ref-normalized-surname>RAMADESIGAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>R31</xocs:ref-first-fp>
+            <xocs:ref-last-lp>R45</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>V</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref4">
+            <xocs:ref-normalized-surname>FRANCO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4569</xocs:ref-first-fp>
+            <xocs:ref-last-lp>4627</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref5">
+            <xocs:ref-normalized-surname>RUCCI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>168</xocs:ref-first-fp>
+            <xocs:ref-last-lp>178</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref6">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1804204</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref7">
+            <xocs:ref-normalized-surname>CHEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>8936</xocs:ref-first-fp>
+            <xocs:ref-last-lp>8982</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref8">
+            <xocs:ref-normalized-surname>LEE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>658</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref9">
+            <xocs:ref-normalized-surname>YAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>A1604</xocs:ref-first-fp>
+            <xocs:ref-last-lp>A1614</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>B</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref10">
+            <xocs:ref-normalized-surname>FRANCO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>13027</xocs:ref-first-fp>
+            <xocs:ref-last-lp>13058</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref11">
+            <xocs:ref-normalized-surname>TREMBACKI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>E3613</xocs:ref-first-fp>
+            <xocs:ref-last-lp>E3626</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>B</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref12">
+            <xocs:ref-normalized-surname>MISTRY</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>6317</xocs:ref-first-fp>
+            <xocs:ref-last-lp>6326</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref13">
+            <xocs:ref-normalized-surname>MISTRY</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3805</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3813</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref14">
+            <xocs:ref-normalized-surname>HUTZENLAUB</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>131</xocs:ref-first-fp>
+            <xocs:ref-last-lp>139</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref15">
+            <xocs:ref-normalized-surname>DANNER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>191</xocs:ref-first-fp>
+            <xocs:ref-last-lp>201</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref16">
+            <xocs:ref-normalized-surname>TREMBACKI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>E725</xocs:ref-first-fp>
+            <xocs:ref-last-lp>E736</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>B</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref17">
+            <xocs:ref-normalized-surname>NGANDJONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>5966</xocs:ref-first-fp>
+            <xocs:ref-last-lp>5972</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref18">
+            <xocs:ref-normalized-surname>ZIELKE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1401612</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref19">
+            <xocs:ref-normalized-surname>CHOUCHANE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>11141</xocs:ref-first-fp>
+            <xocs:ref-last-lp>11144</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref20">
+            <xocs:ref-normalized-surname>EBNER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>845</xocs:ref-first-fp>
+            <xocs:ref-last-lp>850</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref21">
+            <xocs:ref-normalized-surname>TORAYEV</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>791</xocs:ref-first-fp>
+            <xocs:ref-last-lp>797</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref22">
+            <xocs:ref-normalized-surname>KONDO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>A1285</xocs:ref-first-fp>
+            <xocs:ref-last-lp>A1290</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref23">
+            <xocs:ref-normalized-surname>ZHENG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4875</xocs:ref-first-fp>
+            <xocs:ref-last-lp>4882</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref24">
+            <xocs:ref-normalized-surname>LIU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>A214</xocs:ref-first-fp>
+            <xocs:ref-last-lp>A221</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref25">
+            <xocs:ref-normalized-surname>CADIOU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>A1692</xocs:ref-first-fp>
+            <xocs:ref-last-lp>A1703</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref26">
+            <xocs:ref-normalized-surname>GUOPING</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2008</xocs:ref-pub-year>
+            <xocs:ref-first-fp>263</xocs:ref-first-fp>
+            <xocs:ref-last-lp>268</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref27">
+            <xocs:ref-normalized-surname>SPAHR</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3404</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3413</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref28">
+            <xocs:ref-normalized-surname>DOMINKO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2003</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3709</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3716</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref29">
+            <xocs:ref-normalized-surname>SCHNEIDER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>420</xocs:ref-first-fp>
+            <xocs:ref-last-lp>425</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref30">
+            <xocs:ref-normalized-surname>RAJENDRA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>19933</xocs:ref-first-fp>
+            <xocs:ref-last-lp>19942</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref31">
+            <xocs:ref-normalized-surname>SU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>429</xocs:ref-first-fp>
+            <xocs:ref-last-lp>439</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref32">
+            <xocs:ref-normalized-surname>SHI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>19</xocs:ref-first-fp>
+            <xocs:ref-last-lp>26</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>CHOUCHANEX2019X227285</xocs:refkey3>
+         <xocs:refkey4ai>CHOUCHANEX2019X227285XM</xocs:refkey4ai>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2019-10-10T07:02:04Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>FundingBody</xocs:oa-sponsor-type>
+            <xocs:oa-sponsor-name>French Institutes</xocs:oa-sponsor-name>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+      </xocs:open-access>
+      <xocs:open-research>
+         <xocs:or-embargo-opening-date>2020-10-22T00:00:00Z</xocs:or-embargo-opening-date>
+         <xocs:or-agreement-license>http://www.elsevier.com/open-access/userlicense/1.0/</xocs:or-agreement-license>
+         <xocs:or-agreements>
+            <xocs:or-agreement>
+               <xocs:or-agreement-id>https://vtw.elsevier.com/content/oragreement/10178</xocs:or-agreement-id>
+               <xocs:or-agreement-name>NR_HAL</xocs:or-agreement-name>
+               <xocs:or-agreement-terms>publishAcceptedManuscriptIndexable</xocs:or-agreement-terms>
+            </xocs:or-agreement>
+         </xocs:or-agreements>
+      </xocs:open-research>
+      <xocs:self-archiving>
+         <xocs:sa-start-date>2020-10-22T00:00:00Z</xocs:sa-start-date>
+         <xocs:sa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:sa-user-license>
+      </xocs:self-archiving>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY-NC-ND license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2019 The Authors. Published by Elsevier B.V.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:funding-list has-funding-info="1">
+         <xocs:funding-addon-generated-timestamp>2022-06-10T14:17:01.060Z</xocs:funding-addon-generated-timestamp>
+         <xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined</xocs:funding-addon-type>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>Universidad Nacional del Sur</xocs:funding-agency-matched-string>
+            <xocs:funding-agency-acronym>UNS</xocs:funding-agency-acronym>
+            <xocs:funding-agency>Universidad Nacional del Sur</xocs:funding-agency>
+            <xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100005740</xocs:funding-agency-id>
+            <xocs:funding-agency-country>http://sws.geonames.org/3865483/</xocs:funding-agency-country>
+         </xocs:funding>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>VARTA</xocs:funding-agency-matched-string>
+         </xocs:funding>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>European Union&amp;apos;s Horizon 2020 research and innovation program</xocs:funding-agency-matched-string>
+            <xocs:funding-agency>Horizon 2020</xocs:funding-agency>
+            <xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100007601</xocs:funding-agency-id>
+            <xocs:funding-agency-country>http://sws.geonames.org/6695072/</xocs:funding-agency-country>
+         </xocs:funding>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>European Research Council</xocs:funding-agency-matched-string>
+            <xocs:funding-id>686163</xocs:funding-id>
+            <xocs:funding-id>772873</xocs:funding-id>
+            <xocs:funding-agency-acronym>ERC</xocs:funding-agency-acronym>
+            <xocs:funding-agency>European Research Council</xocs:funding-agency>
+            <xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100000781</xocs:funding-agency-id>
+            <xocs:funding-agency-country>http://sws.geonames.org/6695072/</xocs:funding-agency-country>
+         </xocs:funding>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>Institut Universitaire de France</xocs:funding-agency-matched-string>
+            <xocs:funding-agency-acronym>IUF</xocs:funding-agency-acronym>
+            <xocs:funding-agency>Institut Universitaire de France</xocs:funding-agency>
+            <xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100004795</xocs:funding-agency-id>
+            <xocs:funding-agency-country>http://sws.geonames.org/3017382/</xocs:funding-agency-country>
+         </xocs:funding>
+         <xocs:funding-text>The authors acknowledge the European Union&amp;apos;s Horizon 2020 research and innovation program for the funding support through the European Research Council (grant agreement 772873, “ARTISTIC” project) and through the POROUS4APP project (grant agreement 686163). The authors acknowledge also Dr. Harald Kren from VARTA Micro Innovation GmbH for the support with the GITT measurements. A.R. acknowledges Universidad Nacional del Sur, Argentina, for the leave in his teaching position. A.A.F. acknowledges Institut Universitaire de France for its support.</xocs:funding-text>
+         <xocs:funding-text>The authors acknowledge the European Union&amp;apos;s Horizon 2020 research and innovation program for the funding support through the European Research Council (grant agreement 772873 , “ARTISTIC” project) and through the POROUS4APP project (grant agreement 686163 ). The authors acknowledge also Dr. Harald Kren from VARTA Micro Innovation GmbH for the support with the GITT measurements. A.R. acknowledges Universidad Nacional del Sur, Argentina , for the leave in his teaching position. A.A.F. acknowledges Institut Universitaire de France for its support. </xocs:funding-text>
+      </xocs:funding-list>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S0378-7753(19)31278-9</xocs:pii-formatted>
+         <xocs:pii-unformatted>S0378775319312789</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S0378775319312789</xocs:eid>
+         <xocs:doi>10.1016/j.jpowsour.2019.227285</xocs:doi>
+         <xocs:cid>271367</xocs:cid>
+         <xocs:timestamp>2020-03-11T10:06:49.386724Z</xocs:timestamp>
+         <xocs:cover-date-start>2019-12-31</xocs:cover-date-start>
+         <xocs:sponsored-access-type>UNLIMITED</xocs:sponsored-access-type>
+         <xocs:funding-body-id>FRENCH</xocs:funding-body-id>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/MAIN/application/pdf/54a3617bb85cc92066c2c6f74ba56b41/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>1804252</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>6</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S0378775319312789-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/PREVIEW/image/png/d649093f9deebb00fd9993b86703874b/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>45303</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-sc1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/sc1/THUMBNAIL/image/gif/6dda98ab6cd2e0b1327d284c64bdc0a5/sc1.sml</xocs:ucs-locator>
+               <xocs:file-basename>sc1</xocs:file-basename>
+               <xocs:filename>sc1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>25816</xocs:filesize>
+               <xocs:pixel-height>120</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-gr4.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/gr4/THUMBNAIL/image/gif/e67f3502434f4333b19ed3fa3fe16ffc/gr4.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>32008</xocs:filesize>
+               <xocs:pixel-height>122</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-gr3.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/gr3/THUMBNAIL/image/gif/c0c87643cfe2406013700469262339de/gr3.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>13769</xocs:filesize>
+               <xocs:pixel-height>109</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-gr2.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/gr2/THUMBNAIL/image/gif/47546a8815b77f6c6633435c78bde1cb/gr2.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>10623</xocs:filesize>
+               <xocs:pixel-height>103</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/gr1/THUMBNAIL/image/gif/7c24032c6444f2b2e0bcdf44541a7bd0/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>24519</xocs:filesize>
+               <xocs:pixel-height>156</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-sc1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/sc1/DOWNSAMPLED/image/jpeg/b62565e9f5876fb580222c341db7d554/sc1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>sc1</xocs:file-basename>
+               <xocs:filename>sc1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>114923</xocs:filesize>
+               <xocs:pixel-height>294</xocs:pixel-height>
+               <xocs:pixel-width>535</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-gr4.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/gr4/DOWNSAMPLED/image/jpeg/498cdf539ba3287db8bc4692c0e28c7f/gr4.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>181682</xocs:filesize>
+               <xocs:pixel-height>372</xocs:pixel-height>
+               <xocs:pixel-width>669</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-gr3.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/gr3/DOWNSAMPLED/image/jpeg/7f1ce4695d1b4958c61e949817b02f66/gr3.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>78878</xocs:filesize>
+               <xocs:pixel-height>332</xocs:pixel-height>
+               <xocs:pixel-width>669</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-gr2.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/gr2/DOWNSAMPLED/image/jpeg/7a538a5bad753396f8a12e9e4c2f175f/gr2.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>53837</xocs:filesize>
+               <xocs:pixel-height>315</xocs:pixel-height>
+               <xocs:pixel-width>669</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-gr1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/gr1/DOWNSAMPLED/image/jpeg/4c126ce4d25ac76c7ac5330345685fdc/gr1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>134087</xocs:filesize>
+               <xocs:pixel-height>477</xocs:pixel-height>
+               <xocs:pixel-width>669</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-sc1_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/sc1/HIGHRES/image/jpeg/eaa9c45fe5321b0a8295615f15a930f0/sc1_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>sc1</xocs:file-basename>
+               <xocs:filename>sc1_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>1687242</xocs:filesize>
+               <xocs:pixel-height>1302</xocs:pixel-height>
+               <xocs:pixel-width>2370</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-gr4_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/gr4/HIGHRES/image/jpeg/1e78f8984779cc2684d5c6945d83e803/gr4_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>1112662</xocs:filesize>
+               <xocs:pixel-height>1648</xocs:pixel-height>
+               <xocs:pixel-width>2961</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-gr3_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/gr3/HIGHRES/image/jpeg/93c117fe52c49457ac1e7ea1034d6a08/gr3_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>501784</xocs:filesize>
+               <xocs:pixel-height>1470</xocs:pixel-height>
+               <xocs:pixel-width>2961</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-gr2_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/gr2/HIGHRES/image/jpeg/73024546defc1e1065ea4703d597ca32/gr2_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>289748</xocs:filesize>
+               <xocs:pixel-height>1396</xocs:pixel-height>
+               <xocs:pixel-width>2961</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-gr1_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/gr1/HIGHRES/image/jpeg/cd7af564a4cf3fb9df47d3f639ab7735/gr1_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>935937</xocs:filesize>
+               <xocs:pixel-height>2113</xocs:pixel-height>
+               <xocs:pixel-width>2961</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-mmc4.flv</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/mmc4/OPT-STREAM/video/x-flv/bd3921ec0e400480058f9dc9cfd3ca85/mmc4.flv</xocs:ucs-locator>
+               <xocs:file-basename>mmc4</xocs:file-basename>
+               <xocs:filename>mmc4.flv</xocs:filename>
+               <xocs:extension>flv</xocs:extension>
+               <xocs:filesize>651555</xocs:filesize>
+               <xocs:attachment-type>VIDEO-FLASH</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-mmc5.flv</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/mmc5/OPT-STREAM/video/x-flv/ee769d92497d78756d3d7ec04e935245/mmc5.flv</xocs:ucs-locator>
+               <xocs:file-basename>mmc5</xocs:file-basename>
+               <xocs:filename>mmc5.flv</xocs:filename>
+               <xocs:extension>flv</xocs:extension>
+               <xocs:filesize>783149</xocs:filesize>
+               <xocs:attachment-type>VIDEO-FLASH</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-mmc2.flv</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/mmc2/OPT-STREAM/video/x-flv/f7b384508e29dd4e910b89e434d38e6e/mmc2.flv</xocs:ucs-locator>
+               <xocs:file-basename>mmc2</xocs:file-basename>
+               <xocs:filename>mmc2.flv</xocs:filename>
+               <xocs:extension>flv</xocs:extension>
+               <xocs:filesize>703032</xocs:filesize>
+               <xocs:attachment-type>VIDEO-FLASH</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-mmc3.flv</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/mmc3/OPT-STREAM/video/x-flv/aac4538bfed9ce54bec68a80d4c8f276/mmc3.flv</xocs:ucs-locator>
+               <xocs:file-basename>mmc3</xocs:file-basename>
+               <xocs:filename>mmc3.flv</xocs:filename>
+               <xocs:extension>flv</xocs:extension>
+               <xocs:filesize>713143</xocs:filesize>
+               <xocs:attachment-type>VIDEO-FLASH</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-mmc4.mp4</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/mmc4/MAIN/video/mp4/325ada6b3c2e5a4be5f0dd25e18f32d5/mmc4.mp4</xocs:ucs-locator>
+               <xocs:file-basename>mmc4</xocs:file-basename>
+               <xocs:filename>mmc4.mp4</xocs:filename>
+               <xocs:extension>mp4</xocs:extension>
+               <xocs:filesize>1324090</xocs:filesize>
+               <xocs:attachment-type>VIDEO</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-mmc5.mp4</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/mmc5/MAIN/video/mp4/2bdc284ee2d3df6668e93149eabc5196/mmc5.mp4</xocs:ucs-locator>
+               <xocs:file-basename>mmc5</xocs:file-basename>
+               <xocs:filename>mmc5.mp4</xocs:filename>
+               <xocs:extension>mp4</xocs:extension>
+               <xocs:filesize>1746474</xocs:filesize>
+               <xocs:attachment-type>VIDEO</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-mmc2.mp4</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/mmc2/MAIN/video/mp4/453a83456b6180271cd0357d3082bed5/mmc2.mp4</xocs:ucs-locator>
+               <xocs:file-basename>mmc2</xocs:file-basename>
+               <xocs:filename>mmc2.mp4</xocs:filename>
+               <xocs:extension>mp4</xocs:extension>
+               <xocs:filesize>1352489</xocs:filesize>
+               <xocs:attachment-type>VIDEO</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-mmc3.mp4</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/mmc3/MAIN/video/mp4/4ade3cfee30cc1a59e5460bb41d7c89f/mmc3.mp4</xocs:ucs-locator>
+               <xocs:file-basename>mmc3</xocs:file-basename>
+               <xocs:filename>mmc3.mp4</xocs:filename>
+               <xocs:extension>mp4</xocs:extension>
+               <xocs:filesize>1095848</xocs:filesize>
+               <xocs:attachment-type>VIDEO</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-mmc1.docx</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0378775319312789/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/0fdb8cf1f193370e71f713e3b16bf90e/mmc1.docx</xocs:ucs-locator>
+               <xocs:file-basename>mmc1</xocs:file-basename>
+               <xocs:filename>mmc1.docx</xocs:filename>
+               <xocs:extension>docx</xocs:extension>
+               <xocs:filesize>4258766</xocs:filesize>
+               <xocs:attachment-type>APPLICATION</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0378775319312789-am.pdf</xocs:attachment-eid>
+               <xocs:file-basename>am</xocs:file-basename>
+               <xocs:filename>am.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:filesize>2385802</xocs:filesize>
+               <xocs:attachment-type>AAM-PDF</xocs:attachment-type>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:108932JQ9JN/MAIN/application/pdf/ba30e1a151545f92aac2dd1abc29055a/am.pdf</xocs:ucs-locator>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" docsubtype="sco" version="5.6" xml:lang="en">
+         <item-info>
+            <jid>POWER</jid>
+            <aid>227285</aid>
+            <ce:article-number>227285</ce:article-number>
+            <ce:pii>S0378-7753(19)31278-9</ce:pii>
+            <ce:doi>10.1016/j.jpowsour.2019.227285</ce:doi>
+            <ce:copyright type="other" year="2019">The Authors</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="fig1">
+               <ce:label>Fig. 1</ce:label>
+               <ce:caption id="cap0010">
+                  <ce:simple-para id="fspara0010" view="all">Pore network of the CGMD structure and pore size distribution of the mesh and CGMD structures for (a) 94:6 and (b) 96:4 electrodes. On the image, the solid particles are represented in green, the throats of the percolation network in red and the cavities in blue. (For interpretation of the references to colour in this figure legend, the reader is referred to the Web version of this article.)</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alttext0035" role="short">Fig. 1</ce:alt-text>
+               <ce:link locator="gr1" xlink:href="pii:S0378775319312789/gr1" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:type="simple"/>
+            </ce:figure>
+            <ce:figure id="fig2">
+               <ce:label>Fig. 2</ce:label>
+               <ce:caption id="cap0015">
+                  <ce:simple-para id="fspara0015" view="all">For both electrodes with 96:4 and 94:6 compositions (a) observables from INNOV, discharge curves at 0.8 C with specific capacity per gram of (b) dry electrode and (c) AM. The simulated discharge curves are extrapolated from 3.4 V to 3.3 V.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alttext0040" role="short">Fig. 2</ce:alt-text>
+               <ce:link locator="gr2" xlink:href="pii:S0378775319312789/gr2" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:type="simple"/>
+            </ce:figure>
+            <ce:figure id="fig3">
+               <ce:label>Fig. 3</ce:label>
+               <ce:caption id="cap0020">
+                  <ce:simple-para id="fspara0020" view="all">Discharge curves of the 96:4 electrode along the blocking, partially open and fully open assumptions at (a) 0.8 C, (b) C/5, (c) C/10, (d) C/20 and (e) the histogram of the specific capacities at the end of discharge (3.3 V) for each C-rate. The simulated discharges curves that stopped at 3.4 V are extrapolated in order to reach 3.3 V.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alttext0045" role="short">Fig. 3</ce:alt-text>
+               <ce:link locator="gr3" xlink:href="pii:S0378775319312789/gr3" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:type="simple"/>
+            </ce:figure>
+            <ce:figure id="fig4">
+               <ce:label>Fig. 4</ce:label>
+               <ce:caption id="cap0025">
+                  <ce:simple-para id="fspara0025" view="all">Snapshots at different depths of discharge of the lithium concentration inside the solid phase for a 96:4 electrode for (a) blocking CBD, (b) partially open CBD and (c) fully open CBD hypothesis at 0.8 C.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alttext0050" role="short">Fig. 4</ce:alt-text>
+               <ce:link locator="gr4" xlink:href="pii:S0378775319312789/gr4" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:type="simple"/>
+            </ce:figure>
+            <ce:figure id="sch1">
+               <ce:label>Scheme 1</ce:label>
+               <ce:caption id="cap0030">
+                  <ce:simple-para id="fspara0030" view="all">INNOV rendering of the meshes of the AM (red) and CBD (yellow) for the compositions (a) 96:4 and (b) 94:6 (weight ratio AM:CBD).</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alttext0055" role="short">Scheme 1</ce:alt-text>
+               <ce:link locator="sc1" xlink:href="pii:S0378775319312789/sc1" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:type="simple"/>
+            </ce:figure>
+         </ce:floats>
+         <head>
+            <ce:dochead id="dhead0010">
+               <ce:textfn>Short communication</ce:textfn>
+            </ce:dochead>
+            <ce:title id="title0010">Lithium ion battery electrodes predicted from manufacturing simulations: Assessing the impact of the carbon-binder spatial location on the electrochemical performance</ce:title>
+            <ce:author-group id="augrp0010">
+               <ce:author author-id="S0378775319312789-7eaa6dfbdbd4e76d7cccb34eb1b178fb" id="au1">
+                  <ce:given-name>Mehdi</ce:given-name>
+                  <ce:surname>Chouchane</ce:surname>
+                  <ce:cross-ref id="crosref0010" refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crosref0015" refid="aff2">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crosref0020" refid="fn1">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author author-id="S0378775319312789-10058b4f22f50a1451c05e491ea35949" id="au2">
+                  <ce:given-name>Alexis</ce:given-name>
+                  <ce:surname>Rucci</ce:surname>
+                  <ce:cross-ref id="crosref0025" refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crosref0030" refid="aff2">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crosref0035" refid="fn1">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author author-id="S0378775319312789-cdf1a3ae72fbefddc3b9c7036d73979b" id="au3">
+                  <ce:given-name>Teo</ce:given-name>
+                  <ce:surname>Lombardo</ce:surname>
+                  <ce:cross-ref id="crosref0040" refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crosref0045" refid="aff2">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author author-id="S0378775319312789-47bee5375ff2a61ee1208469345a3b23" id="au4">
+                  <ce:given-name>Alain C.</ce:given-name>
+                  <ce:surname>Ngandjong</ce:surname>
+                  <ce:cross-ref id="crosref0050" refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crosref0055" refid="aff2">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author author-id="S0378775319312789-1d0174eb53241a8b8e61c6c9a944bec1" id="au5" orcid="0000-0001-7362-7849">
+                  <ce:given-name>Alejandro A.</ce:given-name>
+                  <ce:surname>Franco</ce:surname>
+                  <ce:cross-ref id="crosref0060" refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crosref0065" refid="aff2">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crosref0070" refid="aff3">
+                     <ce:sup loc="post">c</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crosref0075" refid="aff4">
+                     <ce:sup loc="post">d</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crosref0080" refid="cor1">
+                     <ce:sup loc="post">∗</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:affiliation affiliation-id="S0378775319312789-e3def5e57bc0061e41fbdc7a7f2993d5" id="aff1">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>Laboratoire de Réactivité et Chimie des Solides (LRCS), UMR CNRS 7314, Université de Picardie Jules Verne, HUB de l’Energie, 15 rue Baudelocque, 80039, Amiens Cedex, France</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Laboratoire de Réactivité et Chimie des Solides (LRCS)</sa:organization>
+                     <sa:organization>UMR CNRS 7314</sa:organization>
+                     <sa:organization>Université de Picardie Jules Verne</sa:organization>
+                     <sa:organization>HUB de l’Energie</sa:organization>
+                     <sa:address-line>15 rue Baudelocque</sa:address-line>
+                     <sa:city>Amiens Cedex</sa:city>
+                     <sa:postal-code>80039</sa:postal-code>
+                     <sa:country>France</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="srct0010">Laboratoire de Reactivite et Chimie des Solides (LRCS), UMR CNRS 7314, Universite de Picardie Jules Verne, HUB de l’Energie, 15 rue Baudelocque, 80039, Amiens Cedex, France</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation affiliation-id="S0378775319312789-f671341019e6b56c1185f6a312e77e57" id="aff2">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>Réseau sur le Stockage Electrochimique de l’Energie (RS2E), FR CNRS 3459, HUB de l’Energie, 15 rue Baudelocque, 80039, Amiens Cedex, France</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Réseau sur le Stockage Electrochimique de l’Energie (RS2E)</sa:organization>
+                     <sa:organization>FR CNRS 3459</sa:organization>
+                     <sa:organization>HUB de l’Energie</sa:organization>
+                     <sa:address-line>15 rue Baudelocque</sa:address-line>
+                     <sa:address-line>Amiens Cedex</sa:address-line>
+                     <sa:postal-code>80039</sa:postal-code>
+                     <sa:country>France</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="srct0015">Reseau sur le Stockage Electrochimique de l’Energie (RS2E), FR CNRS 3459, HUB de l’Energie, 15 rue Baudelocque, 80039, Amiens Cedex, France</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation affiliation-id="S0378775319312789-d7dec349acbd3bce034f4341f7ba9f4a" id="aff3">
+                  <ce:label>c</ce:label>
+                  <ce:textfn>ALISTORE-European Research Institute, FR CNRS 3104, HUB de l’Energie, 15 rue Baudelocque, 80039, Amiens Cedex, France</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>ALISTORE-European Research Institute</sa:organization>
+                     <sa:organization>FR CNRS 3104</sa:organization>
+                     <sa:organization>HUB de l’Energie</sa:organization>
+                     <sa:address-line>15 rue Baudelocque</sa:address-line>
+                     <sa:city>Amiens Cedex</sa:city>
+                     <sa:postal-code>80039</sa:postal-code>
+                     <sa:country>France</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="srct0020">ALISTORE-European Research Institute, FR CNRS 3104, HUB de l’Energie, 15 rue Baudelocque, 80039, Amiens Cedex, France</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation affiliation-id="S0378775319312789-fa61709810e2117845d46ed6ec5cec0f" id="aff4">
+                  <ce:label>d</ce:label>
+                  <ce:textfn>Institut Universitaire de France, 103 boulevard Saint Michel, 75005, Paris, France</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Institut Universitaire de France</sa:organization>
+                     <sa:address-line>103 boulevard Saint Michel</sa:address-line>
+                     <sa:city>Paris</sa:city>
+                     <sa:postal-code>75005</sa:postal-code>
+                     <sa:country>France</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="srct0025">Institut Universitaire de France, 103 boulevard Saint Michel, 75005, Paris, France</ce:source-text>
+               </ce:affiliation>
+               <ce:correspondence id="cor1">
+                  <ce:label>∗</ce:label>
+                  <ce:text>Corresponding author. Laboratoire de Réactivité et Chimie des Solides (LRCS), UMR CNRS 7314, Université de Picardie Jules Verne, HUB de l’Energie, 15 rue Baudelocque, 80039, Amiens Cedex, France.</ce:text>
+                  <sa:affiliation>
+                     <sa:organization>Laboratoire de Réactivité et Chimie des Solides (LRCS)</sa:organization>
+                     <sa:organization>UMR CNRS 7314</sa:organization>
+                     <sa:organization>Université de Picardie Jules Verne</sa:organization>
+                     <sa:organization>HUB de l’Energie</sa:organization>
+                     <sa:address-line>15 rue Baudelocque</sa:address-line>
+                     <sa:city>Amiens Cedex</sa:city>
+                     <sa:postal-code>80039</sa:postal-code>
+                     <sa:country>France</sa:country>
+                  </sa:affiliation>
+               </ce:correspondence>
+               <ce:footnote id="fn1">
+                  <ce:label>1</ce:label>
+                  <ce:note-para id="ntpara0010" view="all">These authors have equally contributed to this work.</ce:note-para>
+               </ce:footnote>
+            </ce:author-group>
+            <ce:date-received day="6" month="8" year="2019"/>
+            <ce:date-revised day="25" month="9" year="2019"/>
+            <ce:date-accepted day="9" month="10" year="2019"/>
+            <ce:abstract class="author" id="abs0010" xml:lang="en" view="all"><ce:abstract-sec id="abssec0010" view="all">
+                  <ce:simple-para id="abspara0010" view="all">We report a novel computational simulation study of the performance of Lithium Ion Battery (LIB) NMC electrodes for different compositions. The novelty of this work relies on the explicit consideration with three-dimensional resolution of the Active Material (AM) and the Carbon-Binder Domains (CBD) resulting from simulations of the electrode manufacturing processes and considered as spatially separated phases. A multi-phase volumetric mesh is generated and imported into COMSOL Multiphysics using the INNOV meshing algorithm recently published by us. A 4D-resolved electrochemical model is then applied to simulate the electrochemical behavior of the electrode mesostructure upon LIB cell discharge. Several mesostructural parameters are extracted and the differences in the electrochemical response due to the variations of these parameters are investigated. Furthermore, the 4D-resolved electrochemical model allows assessing the impact of CBD spatial location and its transport properties towards Li<ce:sup loc="post">+</ce:sup> on the overall electrochemical response, as well as identifying spatial operation heterogeneities inside the electrode. The model assesses then phenomena which are very difficult to investigate based only on experimental approaches, and it aims to become a useful complementary tool of them.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            
+            <ce:keywords class="keyword" id="kwrds0010" xml:lang="en" view="all">
+               <ce:section-title id="sectitle0020">Keywords</ce:section-title>
+               <ce:keyword id="kwrd0010">
+                  <ce:text>Lithium ion battery</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kwrd0015">
+                  <ce:text>Carbon binder domain</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kwrd0020">
+                  <ce:text>Electrochemistry</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kwrd0025">
+                  <ce:text>Spatial heterogeneities</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kwrd0030">
+                  <ce:text>4D-resolved computational modeling</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <body view="all">
+            <ce:sections>
+               <ce:section id="sec1" role="introduction" view="all">
+                  <ce:label>1</ce:label>
+                  <ce:section-title id="sectitle0025">Introduction</ce:section-title>
+                  <ce:para id="p0035" view="all">In the process of changing the paradigm on how human civilization uses and transforms the energy, lithium ion batteries (LIBs) play nowadays a predominant role, in part thanks to several decades of research and industrial development [<ce:cross-ref id="crosref0085" refid="bib1">1</ce:cross-ref>,<ce:cross-ref id="crosref0090" refid="bib2">2</ce:cross-ref>]. All the properties of these devices such as performance, cycle life and safety depend on the electrode mesostructure reached at the end of its manufacturing process. Because the electrode mesostructure plays a crucial role in the battery performance [<ce:cross-refs id="crosrefs0010" refid="bib3 bib4 bib5">3–5</ce:cross-refs>], many experimental studies have been carried out in order to unravel the link between the manufacturing parameters and the cell electrochemical response [<ce:cross-refs id="crosrefs0015" refid="bib6 bib7 bib8 bib9">6–9</ce:cross-refs>]. Nonetheless, despite very significant progresses in the development of advanced 3D electrode imaging techniques, there is still a lack of complete understanding of the electrode mesostructural features [<ce:cross-ref id="crosref0095" refid="bib4">4</ce:cross-ref>,<ce:cross-ref id="crosref0100" refid="bib10">10</ce:cross-ref>]. Their correlation with the electrochemical behavior remains, in part, unclear due to the complexity of the electrode texture and the disparate length scales involved (active material -AM- particles of ~1–10 μm size and carbon-binder domains -CBD- of ~50–100 nm size containing carbon additive particles and binder). Due to these challenges, the optimization of the LIB cell performance through its manufacturing process is mainly supported on a time-consuming trial-and-error approach.</ce:para>
+                  <ce:para id="p0040" view="all">Computational modeling gives the promise to overcome this flaw thanks to its predictive capabilities [<ce:cross-ref id="crosref0105" refid="bib4">4</ce:cross-ref>]. Based on physics, it has the potential to suggest ways to enhance the performance while reducing the R&amp;D cost and time. Several modeling works have been published in order to study the influence of the electrode mesostructure on the electrochemical performance [<ce:cross-refs id="crosrefs0020" refid="bib11 bib12 bib13">11–13</ce:cross-refs>]. Such models have been revealed at some extent useful at understanding the discharge/charge behavior of the LIB electrodes. Nevertheless, due to the technical difficulties related to the consideration of the AM and CBD in the electrodes as separated phases, some simplifications are common in the models reported in the literature. These models consider either an electrode mesostructure generated from a stochastic distribution of both phases based on average properties (<ce:italic>e.g.</ce:italic> weight ratio between AM and CBD), either a hybrid approach with AM reconstructed from imaging techniques and a stochastically-generated CBD [<ce:cross-ref id="crosref0110" refid="bib12">12</ce:cross-ref>,<ce:cross-refs id="crosrefs0025" refid="bib14 bib15 bib16">14–16</ce:cross-refs>]. Such electrode mesostructures are used either to extract effective parameters (such as porosity and tortuosity) injected them in 1D or pseudo-2D models, either in 3D models solving electrochemistry and transport by considering AM and CBD as a single solid phase. The physics related to an explicit representation of CBD, as charge balance and flux between its interfaces with AM and pores is not fully addressed in the literature. Additionally, the impact of CBD properties on the overall performance is not analyzed in depth and no one considers both AM and CBD as explicitly separated phases both originated from the simulation of the electrode manufacturing process. In our previous publications, we have reported a first version of a multiscale computational platform able to predict the influence of some manufacturing parameters on the final electrode performance. Such a platform combines Coarse Grained Molecular Dynamics (CGMD) for the simulation of the slurry, coating and drying, with a 4D-resolved (three spatial dimensions + time) performance model describing electrochemistry and transport mechanisms [<ce:cross-ref id="crosref0115" refid="bib5">5</ce:cross-ref>,<ce:cross-ref id="crosref0120" refid="bib17">17</ce:cross-ref>]. Despite the implicit consideration of CBD, the 4D-resolved model was able to capture its influence on the discharge performance through effective parameters (such as the electronic conductivity of an effective solid medium merging CBD with AM) [<ce:cross-ref id="crosref0125" refid="bib5">5</ce:cross-ref>,<ce:cross-ref id="crosref0130" refid="bib17">17</ce:cross-ref>].</ce:para>
+                  <ce:para id="p0045" view="all">This Short Communication presents a significant advance of our 4D-resolved performance model, where the three-dimensional spatial locations of both AM (LiNi<ce:inf loc="post">1/3</ce:inf>Mn<ce:inf loc="post">1/3</ce:inf>Co<ce:inf loc="post">1/3</ce:inf>O<ce:inf loc="post">2</ce:inf> - NMC -here) and CBD within the electrode, as predicted from CGMD simulations, are considered explicitly as separated phases. Such a new feature of the performance model permits the study of the impact of the CBD morphological properties on the overall electrode and cell performance, an aspect which is very difficult to assess based only on electrochemical experiments. The first approach studied here is to consider the CBD as a blocking media towards Li<ce:sup loc="post">+</ce:sup>, <ce:italic>i.e.</ce:italic> to avoid its transport inside CBD. Although it might seem extreme, the primary aim of the CBD is to provide an electronic conductive network, not to transport Li<ce:sup loc="post">+</ce:sup> [<ce:cross-ref id="crosref0135" refid="bib11">11</ce:cross-ref>,<ce:cross-ref id="crosref0140" refid="bib16">16</ce:cross-ref>,<ce:cross-ref id="crosref0145" refid="bib18">18</ce:cross-ref>]. However, such an assumption could result in underestimating the performance of the cell by increasing the tortuosity towards Li<ce:sup loc="post">+</ce:sup> transport in the electrolyte. The second approach consists in the representation of the CBD as a fully open medium for Li<ce:sup loc="post">+</ce:sup>, <ce:italic>i.e.</ce:italic> Li<ce:sup loc="post">+</ce:sup> is able to move in the CBD as freely as in the electrolyte. The Li<ce:sup loc="post">+</ce:sup> intercalation is assumed to occur at both AM/electrolyte and AM/CBD interfaces. This second approach might overestimate the performance of the cell by strongly favoring the Li<ce:sup loc="post">+</ce:sup> arrival to the AM. The last considered approach is an intermediate case between the first two, where Li<ce:sup loc="post">+</ce:sup> can diffuse through the CBD at a lower rate than in the fully open case, mimicking the influence of the CBD microporosity and/or of its swelling driven by the electrolyte. In this intermediate case, the Li<ce:sup loc="post">+</ce:sup> intercalation is assumed to occur only at the AM/electrolyte interface. The chosen value for the diffusion coefficient in the partially open case results from an effective consideration of the CBD micro-porosity (details provided in the Supporting Information) and allows a transition from thermodynamic to kinetic driven behavior as the C-rate increases.</ce:para>
+               </ce:section>
+               <ce:section id="sec2" role="materials-methods" view="all">
+                  <ce:label>2</ce:label>
+                  <ce:section-title id="sectitle0030">Methodology</ce:section-title>
+                  <ce:para id="p0050" view="all">In order to achieve this study, the use of a meshing technique constitutes the first step for the importation of the electrode mesostructures into the 4D-resolved electrochemistry simulator. The meshes have been generated with our <ce:italic>in house</ce:italic> algorithm INNOV, recently published by us [<ce:cross-ref id="crosref0150" refid="bib19">19</ce:cross-ref>], which relies on a voxelization technique to create multi-phase volumetric meshes. Meshed electrode mesostructures for compositions 96:4 and 94:6 (AM:CBD) weight ratios, are provided in <ce:cross-ref id="crosref0155" refid="sch1">Scheme 1</ce:cross-ref>
+                     <ce:float-anchor refid="sch1"/>. It is assumed that all the void space in the mesostructures is filled by the electrolyte. 96:4 and 94:6 compositions have been chosen for this study because they are close to the compositions typically used in the scientific community [<ce:cross-ref id="crosref0160" refid="bib18">18</ce:cross-ref>,<ce:cross-ref id="crosref0165" refid="bib20">20</ce:cross-ref>]. However, intrinsically, the applicability of the meshing algorithm has no limitation in terms of composition. INNOV algorithm is used in this work just as a tool to import the CGMD/tomography structures into our electrochemical simulator: the present communication novelty comes from the numerical simulation of the electrochemical behavior of these electrode mesostructures and the analysis of the CBD impact (with a spatial location explicitly considered for the first time).</ce:para>
+                  <ce:para id="p0055" view="all">The pore networks of the two compositions were extracted through an algorithm previously reported by us and applied to Li–O<ce:inf loc="post">2</ce:inf> batteries [<ce:cross-ref id="crosref0170" refid="bib21">21</ce:cross-ref>]. From a binary stack of images, the pore network extraction algorithm divides the pores into throats (cylinders) and cavities (spheres) that fill at best the void volume, while keeping the same porosity. The CGMD mesostructures as well as the associated throats and cavities networks are displayed in <ce:cross-ref id="crosref0175" refid="fig1">Fig. 1</ce:cross-ref>
+                     <ce:float-anchor refid="fig1"/>. It also provides an insight on the pore radius distribution (PRD), this time for both CGMD and meshed mesostructures. The PRD plots show that the meshing step retains the integrity of the pore network since the curve for the CGMD and mesh structures are almost superimposed.</ce:para>
+                  <ce:para id="p0060" view="all">Once the meshing is performed through INNOV, several geometrical features of the electrode can be rationalized (see <ce:cross-ref id="crosref0180" refid="fig2">Fig. 2</ce:cross-ref>
+                     <ce:float-anchor refid="fig2"/>a). Such features include the porosity, the active surface area (percentage of AM surface area in contact with the electrolyte) and the composition of the electrode to validate the retention of the amount of each phases in the mesh. It is noteworthy that the active surface area strongly depends on the mesh resolution. Indeed, variations in either input image resolution or meshing precision can tremendously change the value of the surface area between the AM and the electrolyte. Consequently, it will also impact the boundary conditions in the 4D-resolved performance model such as the lithium intercalation or electronic flux at the AM/electrolyte and AM/CBD interfaces respectively. Simulation with three different resolutions were carried out in order to study the influence of the mesh size in the electrochemical behavior (see <ce:cross-ref id="crosref0185" refid="appsec1">Fig. S5</ce:cross-ref> in the Supporting Information). A change in the resolution of the electrode can derive in an overestimation or underestimation of the AM mass and, in consequence, the specific capacity reached at the end of discharge can be different. Nonetheless, these differences are more significant at higher C-rate where the kinetic factors are dominant. In order to do not have a bias in the final performance, one should use roughly the same length resolution for all the meshes of the mesostructures [<ce:cross-ref id="crosref0190" refid="bib5">5</ce:cross-ref>].</ce:para>
+                  <ce:para id="p0065" view="all">We then use our 4D-resolved performance model of a Li-foil/separator/NMC electrode cell to first evaluate how the differences in the NMC electrode mesostructural parameters arise in differences in the electrochemical response. Equations, parameters and other computational details are provided in the Supporting Information.</ce:para>
+               </ce:section>
+               <ce:section id="sec3" role="results" view="all">
+                  <ce:label>3</ce:label>
+                  <ce:section-title id="sectitle0035">Results and discussions</ce:section-title>
+                  <ce:para id="p0070" view="all">What it follows from the geometrical features is that a lower content of CBD (4% <ce:italic>vs.</ce:italic> 6%) leads to a larger active surface area for the AM (74% <ce:italic>vs.</ce:italic> 70%). The slight differences of these two electrodes is emphasized by the simulated discharge curves at 0.8 C. Here CBD is considered blocking, <ce:italic>i.e.</ce:italic> Li<ce:sup loc="post">+</ce:sup> cannot diffuse through this phase. In fact, in <ce:cross-ref id="crosref0195" refid="fig2">Fig. 2</ce:cross-ref>b they show rather similar specific capacities with regard to the dry electrode mass (mass of AM plus CBD). Since the difference between the two compositions is small, a significant gap between capacities is not to be expected. However, <ce:cross-ref id="crosref0200" refid="fig2">Fig. 2</ce:cross-ref>c displays a slight difference in specific capacities in regards to the AM mass. Indeed, the higher AM content electrode has a poorer specific capacity compared to the 94:6 one because its electronic percolation network is less effective than the one of a higher CBD content electrode [<ce:cross-refs id="crosrefs0030" refid="bib22 bib23 bib24 bib25">22–25</ce:cross-refs>]. This evolution of the specific capacity per mass of AM with the CBD content is also reported at the experimental level. [<ce:cross-ref id="crosref0205" refid="bib5">5</ce:cross-ref>,<ce:cross-ref id="crosref0210" refid="bib23">23</ce:cross-ref>] This demonstrates that the meshing part can shed light on simple trends and that the 4D-resolved performance model is able to capture the expected behavior in regards to the cell performance.</ce:para>
+                  <ce:para id="p0075" view="all">From an experimental point of view, the importance of the carbon additives [<ce:cross-refs id="crosrefs0035" refid="bib26 bib27 bib28">26–28</ce:cross-refs>] and binder [<ce:cross-ref id="crosref0215" refid="bib29">29</ce:cross-ref>] mesostructures in rechargeable batteries has already been acknowledged at the experimental level. The small size of the conductive additive and binder, compared to the active material, provides microporosity where lithium can diffuse/migrate through and that can modify the effective electronic properties of the CBD [<ce:cross-ref id="crosref0220" refid="bib11">11</ce:cross-ref>]. Our model is not able yet to reflect explicitly microporosities, so effective transport coefficients are used to capture their impact on Li<ce:sup loc="post">+</ce:sup> diffusion/migration through the CBD (see <ce:cross-ref id="crosref0225" refid="appsec1">Table S1</ce:cross-ref> in the Supporting Information). On the other hand, changing the Li<ce:sup loc="post">+</ce:sup> diffusion coefficient values through CBD can mimic the use of different types of carbon additives and binders. Simulations at different C-rates were carried out for each of the assumptions reported in <ce:cross-ref id="crosref0230" refid="fig3">Fig. 3</ce:cross-ref>
+                     <ce:float-anchor refid="fig3"/>, namely blocking, partially open and fully open CBD. The C-rates do not exceed 0.8 C because of the current model limitation. The origin comes from the high current density at the current collector arising from low CBD surface area in contact with the solid. Considering that the CGMD simulation used to generated the electrode mesostructures does not take into account explicitly yet the calendering process, it is believed that the explicit consideration of this step would improve the contact between the current collector and the solid phases. Firstly, the loss of specific capacity while increasing C-rate is captured by the model, <ce:italic>i</ce:italic>.<ce:italic>e.</ce:italic> the capacity drops from <ce:italic>ca.</ce:italic> 201.5 mAh/g at C/20 to 144.1 mAh/g at 0.8 C for the blocking case. Furthermore, the decay of the discharge curves during the voltage drop in <ce:cross-ref id="crosref0235" refid="fig3">Fig. 3</ce:cross-ref>a is smoother than the one at lower C-rates which is in agreement with the experimental results [<ce:cross-ref id="crosref0240" refid="bib30">30</ce:cross-ref>]. Another trend arising from <ce:cross-ref id="crosref0245" refid="fig3">Fig. 3</ce:cross-ref> is that the specific capacity at a given C-rate is higher for the fully open hypothesis than for the partially open and blocking ones. Such behavior is expected because in the case of the fully open CBD, by assuming a diffusion coefficient higher than it should be, the limitations due to diffusion are underestimated, hence a better performance. On the contrary, in the case of the blocking CBD, avoiding the access of CBD to Li<ce:sup loc="post">+</ce:sup> leads to an increase of the tortuosity of its transport paths, which results in a decrease of the specific capacity, mostly at high C-rate [<ce:cross-ref id="crosref0250" refid="bib31">31</ce:cross-ref>,<ce:cross-ref id="crosref0255" refid="bib32">32</ce:cross-ref>]. Obviously, the partially open scenario is in between the previous two assumptions in terms of specific capacity. Interestingly, the difference of specific capacity between the assumptions tends to shrink by decreasing the C-rate. Especially, this is the case for the fully open and partially open cases where the discharges curves are almost similar at low C-rate (<ce:cross-ref id="crosref0260" refid="fig3">Fig. 3</ce:cross-ref>d). This emphasizes the shifting from a kinetics-regulated system at high C-rate to a thermodynamics driven one at lower C-rate.</ce:para>
+                  <ce:para id="p0080" view="all">The different approaches regarding CBD can also be characterized by quantifying the lithium (Li<ce:sup loc="post">+</ce:sup> and Li(s)) inside the CBD and the AM. <ce:cross-ref id="crosref0265" refid="fig4">Fig. 4</ce:cross-ref>
+                     <ce:float-anchor refid="fig4"/> illustrates how each assumption impacts the distribution of lithium in the system at 0.8 C. It is evident that in the case of blocking CBD the concentration inside the CBD will not change during the discharge because Li<ce:sup loc="post">+</ce:sup> cannot diffuse through it. Since CBD behaves like an insulating wall towards Li<ce:sup loc="post">+</ce:sup>, the latter tends to be accumulated in some regions in the active material leading to steeper concentration gradients, hence a higher polarization resulting in poorer specific capacities. Assuming fully open CBD facilitates the diffusion and the homogenization of Li(s) concentration in the AM. There are smoother concentration gradients thanks to these new diffusion pathways which implies a better cell performance. The partially open approach provides an intermediate scenario where features under both hypotheses can be observed. Indeed, Li<ce:sup loc="post">+</ce:sup> concentration in CBD is obviously higher than in the case of blocking CBD however there are also some sharp Li(s) concentration gradients, <ce:italic>e.g.</ce:italic>, in the lower edge of <ce:cross-ref id="crosref0270" refid="fig4">Fig. 4</ce:cross-ref>. Therefore, the model is able to capture the expected trends regarding the different hypotheses: it predicts heterogeneous intercalation of lithium in the AM when the CBD is blocking and the homogenization when the CBD is fully open.</ce:para>
+               </ce:section>
+               <ce:section id="sec4" role="conclusion" view="all">
+                  <ce:label>4</ce:label>
+                  <ce:section-title id="sectitle0040">Conclusions</ce:section-title>
+                  <ce:para id="p0085" view="all">In this work, the CBD morphology inside the NMC electrode was explicitly considered in a 4D-resolved LIB electrochemical model and its impact on the overall performance was investigated. This implementation of electrode mesostructures calculated by using the CGMD simulation of their manufacturing process was carried out using the meshing algorithm INNOV. An interesting number of data is obtained through the meshing step such as the pore size distribution, the porosity or the specific active surface area. It has been shown that the electrode mesostructure differences also lead to differences in the electrochemical performances upon discharge. The influence of the spatial location of CBD within the NMC electrode on the LIB cell performance was investigated under three different hypotheses: (i) blocking CBD, (ii) partially open CBD and (iii) fully open CBD. The expected trends were captured by the model, <ce:italic>i.e.</ce:italic> the first approach tends to decrease the capacity by hindering the diffusion through an increase of the tortuosity of Li<ce:sup loc="post">+</ce:sup> transport in the electrolyte. The fully open assumption tends to overestimate the capacity by facilitating Li<ce:sup loc="post">+</ce:sup> diffusion whereas the partially open scenario provides an intermediate behavior. This has been further confirmed by the calculated spatial distribution of lithium that sheds light on the heterogeneous intercalation in the AM when CBD is blocking Li<ce:sup loc="post">+</ce:sup> transport, creating steep gradients in the regions in contact with the CBD phase, leading to high polarization and poor specific capacity. When the CBD allows the transport of Li<ce:sup loc="post">+</ce:sup> under the partially open and fully open hypotheses, the Li(s) concentration in the AM is more homogeneous and a better electrode utilization is achieved. As far as we know, this is the first time that a 4D model predicting explicitly the CBD spatial location impact on the electrochemical response is reported. Further investigations are planned, including performing simulations with electrode mesostructures with other compositions ranges, using higher C-rates or with mesostructures from tomography imaging: for the latter, a proof-of-concept simulation result is presented and discussed in the Supporting Information. This model paves the way to more sophisticated studies, for instance considering the swelling of CBD depending on the electrolyte salt concentration using a dynamic mesh and focusing on the impact of solid/cathode electrolyte interphases on the cell aging.</ce:para>
+               </ce:section>
+            </ce:sections>
+            <ce:conflict-of-interest id="coi0010" view="all">
+               <ce:section-title id="sectitle0045">Declaration of competing interest</ce:section-title>
+               <ce:para id="p0090" view="all">The authors declare no competing financial interests.</ce:para>
+            </ce:conflict-of-interest>
+            <ce:acknowledgment id="ack0010" view="all">
+               <ce:section-title id="sectitle0050">Acknowledgment</ce:section-title>
+               <ce:para id="p0095" view="all">The authors acknowledge the <ce:grant-sponsor id="gs1" sponsor-id="https://doi.org/10.13039/501100007601" xlink:role="http://www.elsevier.com/xml/linking-roles/grant-sponsor" xlink:type="simple">European Union's Horizon 2020 research and innovation program</ce:grant-sponsor> for the funding support through the <ce:grant-sponsor id="gs2" sponsor-id="https://doi.org/10.13039/501100000781" xlink:role="http://www.elsevier.com/xml/linking-roles/grant-sponsor" xlink:type="simple">European Research Council</ce:grant-sponsor> (grant agreement <ce:grant-number refid="gs2">772873</ce:grant-number>, “ARTISTIC” project) and through the <ce:grant-sponsor id="gs5" xlink:role="http://www.elsevier.com/xml/linking-roles/grant-sponsor" xlink:type="simple">POROUS4APP</ce:grant-sponsor> project (grant agreement <ce:grant-number refid="gs5">686163</ce:grant-number>). The authors acknowledge also Dr. Harald Kren from VARTA Micro Innovation GmbH for the support with the GITT measurements. A.R. acknowledges <ce:grant-sponsor id="gs3" sponsor-id="https://doi.org/10.13039/501100005740" xlink:role="http://www.elsevier.com/xml/linking-roles/grant-sponsor" xlink:type="simple">Universidad Nacional del Sur, Argentina</ce:grant-sponsor>, for the leave in his teaching position. A.A.F. acknowledges <ce:grant-sponsor id="gs4" sponsor-id="https://doi.org/10.13039/501100004795" xlink:role="http://www.elsevier.com/xml/linking-roles/grant-sponsor" xlink:type="simple">Institut Universitaire de France</ce:grant-sponsor> for its support.</ce:para>
+            </ce:acknowledgment>
+            <ce:appendices view="all">
+               <ce:section id="appsec1" view="extended">
+                  <ce:label>Appendix A</ce:label>
+                  <ce:section-title id="sectitle0055">Supplementary data</ce:section-title>
+                  <ce:para id="p0100" view="all">Supporting Information. A Word document file which includes the mathematical equations implemented in the 4D-resolved performance model, the parameters and other computational details.</ce:para>
+                  <ce:para id="p0105" view="all">The following are the Supplementary data to this article:<ce:display>
+                        <ce:e-component id="mmc1">
+                           <ce:label>Multimedia component 1</ce:label>
+                           <ce:alt-text id="alttext0010" role="short">Multimedia component 1</ce:alt-text>
+                           <ce:link locator="mmc1" xlink:href="pii:S0378775319312789/mmc1" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/46.1" xlink:type="simple"/>
+                        </ce:e-component>
+                     </ce:display>
+                     <ce:display>
+                        <ce:e-component id="mmc2">
+                           <ce:label>Multimedia component 2</ce:label>
+                           <ce:alt-text id="alttext0015" role="short">Multimedia component 2</ce:alt-text>
+                           <ce:link locator="mmc2" xlink:href="pii:S0378775319312789/mmc2" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.2" xlink:type="simple"/>
+                        </ce:e-component>
+                     </ce:display>
+                     <ce:display>
+                        <ce:e-component id="mmc3">
+                           <ce:label>Multimedia component 3</ce:label>
+                           <ce:alt-text id="alttext0020" role="short">Multimedia component 3</ce:alt-text>
+                           <ce:link locator="mmc3" xlink:href="pii:S0378775319312789/mmc3" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.2" xlink:type="simple"/>
+                        </ce:e-component>
+                     </ce:display>
+                     <ce:display>
+                        <ce:e-component id="mmc4">
+                           <ce:label>Multimedia component 4</ce:label>
+                           <ce:alt-text id="alttext0025" role="short">Multimedia component 4</ce:alt-text>
+                           <ce:link locator="mmc4" xlink:href="pii:S0378775319312789/mmc4" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.2" xlink:type="simple"/>
+                        </ce:e-component>
+                     </ce:display>
+                     <ce:display>
+                        <ce:e-component id="mmc5">
+                           <ce:label>Multimedia component 5</ce:label>
+                           <ce:alt-text id="alttext0030" role="short">Multimedia component 5</ce:alt-text>
+                           <ce:link locator="mmc5" xlink:href="pii:S0378775319312789/mmc5" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.2" xlink:type="simple"/>
+                        </ce:e-component>
+                     </ce:display>
+                  </ce:para>
+               </ce:section>
+               <ce:section id="appsec2" view="compact-standard">
+                  <ce:label>Appendix A</ce:label>
+                  <ce:section-title id="sectitle0060">Supplementary data</ce:section-title>
+                  <ce:para id="p0110" view="all">Supplementary data to this article can be found online at <ce:inter-ref id="intref0010" xlink:href="https://doi.org/10.1016/j.jpowsour.2019.227285" xlink:type="simple">https://doi.org/10.1016/j.jpowsour.2019.227285</ce:inter-ref>.</ce:para>
+               </ce:section>
+            </ce:appendices>
+         </body>
+         <tail view="all">
+            <ce:bibliography id="cebib0010" view="all">
+               <ce:section-title id="sectitle0065">References</ce:section-title>
+               <ce:bibliography-sec id="cebibsec0010" view="all">
+                  <ce:bib-reference id="bib1">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference id="sref1">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Larcher</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.-M.</ce:given-name>
+                                 <ce:surname>Tarascon</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Towards greener and more sustainable batteries for electrical energy storage</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nat. Chem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>7</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>19</sb:first-page>
+                              <sb:last-page>29</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1038/nchem.2085</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0030">D. Larcher, J.-M. Tarascon, Towards greener and more sustainable batteries for electrical energy storage, Nature Chemistry. 7 (2015) 19-29. doi:10.1038/nchem.2085.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib2">
+                     <ce:label>[2]</ce:label>
+                     <sb:reference id="sref2">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Nitta</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.T.</ce:given-name>
+                                 <ce:surname>Lee</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Yushin</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Li-ion battery materials: present and future</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Mater. Today</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>18</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>252</sb:first-page>
+                              <sb:last-page>264</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.mattod.2014.10.040</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0035">N. Nitta, F. Wu, J.T. Lee, G. Yushin, Li-ion battery materials: present and future, Materials Today. 18 (2015) 252-264. doi:10.1016/j.mattod.2014.10.040.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib3">
+                     <ce:label>[3]</ce:label>
+                     <sb:reference id="sref3">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Ramadesigan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.W.C.</ce:given-name>
+                                 <ce:surname>Northrop</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>De</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Santhanagopalan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.D.</ce:given-name>
+                                 <ce:surname>Braatz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.R.</ce:given-name>
+                                 <ce:surname>Subramanian</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Modeling and simulation of lithium-ion batteries from a systems engineering perspective</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Electrochem. Soc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>159</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>R31</sb:first-page>
+                              <sb:last-page>R45</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1149/2.018203jes</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0040">V. Ramadesigan, P.W.C. Northrop, S. De, S. Santhanagopalan, R.D. Braatz, V.R. Subramanian, Modeling and Simulation of Lithium-Ion Batteries from a Systems Engineering Perspective, J. Electrochem. Soc. 159 (2012) R31-R45. doi:10.1149/2.018203jes.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib4">
+                     <ce:label>[4]</ce:label>
+                     <sb:reference id="sref4">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.A.</ce:given-name>
+                                 <ce:surname>Franco</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Rucci</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Brandell</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Frayret</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Gaberscek</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Jankowski</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Johansson</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Boosting rechargeable batteries R&amp;D by multiscale modeling: myth or reality?</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Chem. Rev.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>119</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4569</sb:first-page>
+                              <sb:last-page>4627</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1021/acs.chemrev.8b00239</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0045">A.A. Franco, A. Rucci, D. Brandell, C. Frayret, M. Gaberscek, P. Jankowski, P. Johansson, Boosting Rechargeable Batteries R&amp;D by Multiscale Modeling: Myth or Reality?, Chem. Rev. 119 (2019) 4569-4627. doi:10.1021/acs.chemrev.8b00239.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib5">
+                     <ce:label>[5]</ce:label>
+                     <sb:reference id="sref5">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Rucci</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.C.</ce:given-name>
+                                 <ce:surname>Ngandjong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.N.</ce:given-name>
+                                 <ce:surname>Primo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Maiza</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.A.</ce:given-name>
+                                 <ce:surname>Franco</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Tracking variabilities in the simulation of Lithium Ion Battery electrode fabrication and its impact on electrochemical performance</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochim. Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>312</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>168</sb:first-page>
+                              <sb:last-page>178</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.electacta.2019.04.110</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0050">A. Rucci, A.C. Ngandjong, E.N. Primo, M. Maiza, A.A. Franco, Tracking variabilities in the simulation of Lithium Ion Battery electrode fabrication and its impact on electrochemical performance, Electrochimica Acta. 312 (2019) 168-178. doi:10.1016/j.electacta.2019.04.110.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib6">
+                     <ce:label>[6]</ce:label>
+                     <sb:reference id="sref6">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Fu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Zheng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.-H.</ce:given-name>
+                                 <ce:surname>Zhong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Cao</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Strategies for building robust traffic networks in advanced energy storage devices: a focus on composite electrodes</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Adv. Mater.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>31</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1804204</sb:first-page>
+                           </sb:pages>
+                           <ce:doi>10.1002/adma.201804204</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0055">Y. Wang, X. Fu, M. Zheng, W.-H. Zhong, G. Cao, Strategies for Building Robust Traffic Networks in Advanced Energy Storage Devices: A Focus on Composite Electrodes, Advanced Materials. 31 (2019) 1804204. doi:10.1002/adma.201804204.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib7">
+                     <ce:label>[7]</ce:label>
+                     <sb:reference id="sref7">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Ling</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Hencz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.Y.</ce:given-name>
+                                 <ce:surname>Ling</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Lin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Exploring chemical, mechanical, and electrical functionalities of binders for advanced energy-storage devices</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Chem. Rev.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>118</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>8936</sb:first-page>
+                              <sb:last-page>8982</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1021/acs.chemrev.8b00241</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0060">H. Chen, M. Ling, L. Hencz, H.Y. Ling, G. Li, Z. Lin, G. Liu, S. Zhang, Exploring Chemical, Mechanical, and Electrical Functionalities of Binders for Advanced Energy-Storage Devices, Chem. Rev. 118 (2018) 8936-8982. doi:10.1021/acs.chemrev.8b00241.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib8">
+                     <ce:label>[8]</ce:label>
+                     <sb:reference id="sref8">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.K.</ce:given-name>
+                                 <ce:surname>Lee</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The effect of active material, conductive additives, and binder in a cathode composite electrode on battery performance</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energies</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>12</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>658</sb:first-page>
+                           </sb:pages>
+                           <ce:doi>10.3390/en12040658</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0065">Y.K. Lee, The Effect of Active Material, Conductive Additives, and Binder in a Cathode Composite Electrode on Battery Performance, Energies. 12 (2019) 658. doi:10.3390/en12040658.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib9">
+                     <ce:label>[9]</ce:label>
+                     <sb:reference id="sref9">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Yan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Lim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Yin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Zhu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Three dimensional simulation of galvanostatic discharge of LiCoO2 cathode based on X-ray nano-CT images</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Electrochem. Soc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>159</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>A1604</sb:first-page>
+                              <sb:last-page>A1614</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1149/2.024210jes</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0070">B. Yan, C. Lim, L. Yin, L. Zhu, Three Dimensional Simulation of Galvanostatic Discharge of LiCoO2 Cathode Based on X-ray Nano-CT Images, J. Electrochem. Soc. 159 (2012) A1604-A1614. doi:10.1149/2.024210jes.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib10">
+                     <ce:label>[10]</ce:label>
+                     <sb:reference id="sref10">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.A.</ce:given-name>
+                                 <ce:surname>Franco</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Multiscale modelling and numerical simulation of rechargeable lithium ion batteries: concepts, methods and challenges</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>RSC Adv.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>3</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>13027</sb:first-page>
+                              <sb:last-page>13058</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1039/C3RA23502E</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0075">A.A. Franco, Multiscale modelling and numerical simulation of rechargeable lithium ion batteries: concepts, methods and challenges, RSC Adv. 3 (2013) 13027-13058. doi:10.1039/C3RA23502E.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib11">
+                     <ce:label>[11]</ce:label>
+                     <sb:reference id="sref11">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>B.L.</ce:given-name>
+                                 <ce:surname>Trembacki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.R.</ce:given-name>
+                                 <ce:surname>Noble</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.E.</ce:given-name>
+                                 <ce:surname>Brunini</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.E.</ce:given-name>
+                                 <ce:surname>Ferraro</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.A.</ce:given-name>
+                                 <ce:surname>Roberts</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Mesoscale effective property simulations incorporating conductive binder</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Electrochem. Soc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>164</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>E3613</sb:first-page>
+                              <sb:last-page>E3626</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1149/2.0601711jes</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0080">B.L. Trembacki, D.R. Noble, V.E. Brunini, M.E. Ferraro, S.A. Roberts, Mesoscale Effective Property Simulations Incorporating Conductive Binder, J. Electrochem. Soc. 164 (2017) E3613-E3626. doi:10.1149/2.0601711jes.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib12">
+                     <ce:label>[12]</ce:label>
+                     <sb:reference id="sref12">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.N.</ce:given-name>
+                                 <ce:surname>Mistry</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Smith</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.P.</ce:given-name>
+                                 <ce:surname>Mukherjee</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Secondary-phase stochastics in lithium-ion battery electrodes</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>ACS Appl. Mater. Interfaces</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>10</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>6317</sb:first-page>
+                              <sb:last-page>6326</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1021/acsami.7b17771</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0085">A.N. Mistry, K. Smith, P.P. Mukherjee, Secondary-Phase Stochastics in Lithium-Ion Battery Electrodes, ACS Appl. Mater. Interfaces. 10 (2018) 6317-6326. doi:10.1021/acsami.7b17771.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib13">
+                     <ce:label>[13]</ce:label>
+                     <sb:reference id="sref13">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.N.</ce:given-name>
+                                 <ce:surname>Mistry</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.P.</ce:given-name>
+                                 <ce:surname>Mukherjee</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Probing spatial coupling of resistive modes in porous intercalation electrodes through impedance spectroscopy</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Phys. Chem. Chem. Phys.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>21</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3805</sb:first-page>
+                              <sb:last-page>3813</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1039/C8CP05109G</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0090">A.N. Mistry, P.P. Mukherjee, Probing spatial coupling of resistive modes in porous intercalation electrodes through impedance spectroscopy, Phys. Chem. Chem. Phys. 21 (2019) 3805-3813. doi:10.1039/C8CP05109G.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib14">
+                     <ce:label>[14]</ce:label>
+                     <sb:reference id="sref14">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Hutzenlaub</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Thiele</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Paust</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Spotnitz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Zengerle</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Walchshofer</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Three-dimensional electrochemical Li-ion battery modelling featuring a focused ion-beam/scanning electron microscopy based three-phase reconstruction of a LiCoO2 cathode</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochim. Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>115</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>131</sb:first-page>
+                              <sb:last-page>139</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.electacta.2013.10.103</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0095">T. Hutzenlaub, S. Thiele, N. Paust, R. Spotnitz, R. Zengerle, C. Walchshofer, Three-dimensional electrochemical Li-ion battery modelling featuring a focused ion-beam/scanning electron microscopy based three-phase reconstruction of a LiCoO2 cathode, Electrochim. Acta. 115 (2014) 131-139. doi:10.1016/j.electacta.2013.10.103.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib15">
+                     <ce:label>[15]</ce:label>
+                     <sb:reference id="sref15">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Danner</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Singh</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Hein</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Kaiser</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Hahn</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Latz</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Thick electrodes for Li-ion batteries: a model based analysis</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>334</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>191</sb:first-page>
+                              <sb:last-page>201</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.jpowsour.2016.09.143</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0100">T. Danner, M. Singh, S. Hein, J. Kaiser, H. Hahn, A. Latz, Thick electrodes for Li-ion batteries: A model based analysis, Journal of Power Sources. 334 (2016) 191-201. doi:10.1016/j.jpowsour.2016.09.143.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib16">
+                     <ce:label>[16]</ce:label>
+                     <sb:reference id="sref16">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>B.L.</ce:given-name>
+                                 <ce:surname>Trembacki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.N.</ce:given-name>
+                                 <ce:surname>Mistry</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.R.</ce:given-name>
+                                 <ce:surname>Noble</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.E.</ce:given-name>
+                                 <ce:surname>Ferraro</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.P.</ce:given-name>
+                                 <ce:surname>Mukherjee</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.A.</ce:given-name>
+                                 <ce:surname>Roberts</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Editors' choice—mesoscale Analysis of conductive binder domain morphology in lithium-ion battery electrodes</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Electrochem. Soc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>165</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>E725</sb:first-page>
+                              <sb:last-page>E736</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1149/2.0981813jes</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0105">B.L. Trembacki, A.N. Mistry, D.R. Noble, M.E. Ferraro, P.P. Mukherjee, S.A. Roberts, Editors’ Choice-Mesoscale Analysis of Conductive Binder Domain Morphology in Lithium-Ion Battery Electrodes, J. Electrochem. Soc. 165 (2018) E725-E736. doi:10.1149/2.0981813jes.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib17">
+                     <ce:label>[17]</ce:label>
+                     <sb:reference id="sref17">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.C.</ce:given-name>
+                                 <ce:surname>Ngandjong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Rucci</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Maiza</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Shukla</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Vazquez-Arenas</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.A.</ce:given-name>
+                                 <ce:surname>Franco</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Multiscale simulation platform linking lithium ion battery electrode fabrication process with performance at the cell level</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Phys. Chem. Lett.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>8</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>5966</sb:first-page>
+                              <sb:last-page>5972</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1021/acs.jpclett.7b02647</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0110">A.C. Ngandjong, A. Rucci, M. Maiza, G. Shukla, J. Vazquez-Arenas, A.A. Franco, Multiscale Simulation Platform Linking Lithium Ion Battery Electrode Fabrication Process with Performance at the Cell Level, J. Phys. Chem. Lett. 8 (2017) 5966-5972. doi:10.1021/acs.jpclett.7b02647.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib18">
+                     <ce:label>[18]</ce:label>
+                     <sb:reference id="sref18">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Zielke</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Hutzenlaub</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.R.</ce:given-name>
+                                 <ce:surname>Wheeler</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.-W.</ce:given-name>
+                                 <ce:surname>Chao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>I.</ce:given-name>
+                                 <ce:surname>Manke</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Hilger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Paust</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Zengerle</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Thiele</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Three-phase multiscale modeling of a LiCoO2 cathode: combining the advantages of FIB–sem imaging and X-ray tomography</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Advan. Energy Mater.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>5</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1401612</sb:first-page>
+                           </sb:pages>
+                           <ce:doi>10.1002/aenm.201401612</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0115">L. Zielke, T. Hutzenlaub, D.R. Wheeler, C.-W. Chao, I. Manke, A. Hilger, N. Paust, R. Zengerle, S. Thiele, Three-Phase Multiscale Modeling of a LiCoO2 Cathode: Combining the Advantages of FIB-SEM Imaging and X-Ray Tomography, Advanced Energy Materials. 5 (2015) 1401612. doi:10.1002/aenm.201401612.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib19">
+                     <ce:label>[19]</ce:label>
+                     <sb:reference id="sref19">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Chouchane</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Rucci</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.A.</ce:given-name>
+                                 <ce:surname>Franco</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A versatile and efficient voxelization-based meshing algorithm of multiple phases</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>ACS Omega</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>4</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>11141</sb:first-page>
+                              <sb:last-page>11144</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1021/acsomega.9b01279</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0120">M. Chouchane, A. Rucci, A.A. Franco, A Versatile and Efficient Voxelization-Based Meshing Algorithm of Multiple Phases, ACS Omega. 4 (2019) 11141-11144. doi:10.1021/acsomega.9b01279.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib20">
+                     <ce:label>[20]</ce:label>
+                     <sb:reference id="sref20">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Ebner</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Geldmacher</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Marone</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Stampanoni</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Wood</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>X-ray tomography of porous, transition metal oxide based lithium ion battery electrodes</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Advan. Energy Mater.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>3</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>845</sb:first-page>
+                              <sb:last-page>850</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1002/aenm.201200932</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0125">M. Ebner, F. Geldmacher, F. Marone, M. Stampanoni, V. Wood, X-Ray Tomography of Porous, Transition Metal Oxide Based Lithium Ion Battery Electrodes, Advanced Energy Materials. 3 (2013) 845-850. doi:10.1002/aenm.201200932.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib21">
+                     <ce:label>[21]</ce:label>
+                     <sb:reference id="sref21">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Torayev</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Rucci</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.C.M.M.</ce:given-name>
+                                 <ce:surname>Magusin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Demortière</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>De Andrade</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.P.</ce:given-name>
+                                 <ce:surname>Grey</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Merlet</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.A.</ce:given-name>
+                                 <ce:surname>Franco</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Stochasticity of pores interconnectivity in Li–O2 batteries and its impact on the variations in electrochemical performance</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Phys. Chem. Lett.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>9</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>791</sb:first-page>
+                              <sb:last-page>797</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1021/acs.jpclett.7b03315</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0130">A. Torayev, A. Rucci, P.C.M.M. Magusin, A. Demortiere, V. De Andrade, C.P. Grey, C. Merlet, A.A. Franco, Stochasticity of Pores Interconnectivity in Li-O2 Batteries and its Impact on the Variations in Electrochemical Performance, J. Phys. Chem. Lett. 9 (2018) 791-797. doi:10.1021/acs.jpclett.7b03315.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib22">
+                     <ce:label>[22]</ce:label>
+                     <sb:reference id="sref22">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Kondo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Sawada</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Okuda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Sasaki</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Influence of the active material on the electronic conductivity of the positive electrode in lithium-ion batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Electrochem. Soc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>166</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>A1285</sb:first-page>
+                              <sb:last-page>A1290</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1149/2.0051906jes</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0135">H. Kondo, H. Sawada, C. Okuda, T. Sasaki, Influence of the Active Material on the Electronic Conductivity of the Positive Electrode in Lithium-Ion Batteries, J. Electrochem. Soc. 166 (2019) A1285-A1290. doi:10.1149/2.0051906jes.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib23">
+                     <ce:label>[23]</ce:label>
+                     <sb:reference id="sref23">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Zheng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Song</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.S.</ce:given-name>
+                                 <ce:surname>Battaglia</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Cooperation between active material, polymeric binder and conductive carbon additive in lithium ion battery cathode</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Phys. Chem. C</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>116</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4875</sb:first-page>
+                              <sb:last-page>4882</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1021/jp208428w</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0140">H. Zheng, R. Yang, G. Liu, X. Song, V.S. Battaglia, Cooperation between Active Material, Polymeric Binder and Conductive Carbon Additive in Lithium Ion Battery Cathode, J. Phys. Chem. C. 116 (2012) 4875-4882. doi:10.1021/jp208428w.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib24">
+                     <ce:label>[24]</ce:label>
+                     <sb:reference id="sref24">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Zheng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Song</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.S.</ce:given-name>
+                                 <ce:surname>Battaglia</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Particles and polymer binder interaction: a controlling factor in lithium-ion electrode performance</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Electrochem. Soc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>159</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>A214</sb:first-page>
+                              <sb:last-page>A221</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1149/2.024203jes</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0145">G. Liu, H. Zheng, X. Song, V.S. Battaglia, Particles and Polymer Binder Interaction: A Controlling Factor in Lithium-Ion Electrode Performance, J. Electrochem. Soc. 159 (2012) A214-A221. doi:10.1149/2.024203jes.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib25">
+                     <ce:label>[25]</ce:label>
+                     <sb:reference id="sref25">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Cadiou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Etiemble</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Douillard</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Willot</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O.</ce:given-name>
+                                 <ce:surname>Valentin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.-C.</ce:given-name>
+                                 <ce:surname>Badot</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Lestriez</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Maire</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Numerical prediction of multiscale electronic conductivity of lithium-ion battery positive electrodes</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Electrochem. Soc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>166</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>A1692</sb:first-page>
+                              <sb:last-page>A1703</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1149/2.1221908jes</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0150">F. Cadiou, A. Etiemble, T. Douillard, F. Willot, O. Valentin, J.-C. Badot, B. Lestriez, E. Maire, Numerical Prediction of Multiscale Electronic Conductivity of Lithium-Ion Battery Positive Electrodes, J. Electrochem. Soc. 166 (2019) A1692-A1703. doi:10.1149/2.1221908jes.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib26">
+                     <ce:label>[26]</ce:label>
+                     <sb:reference id="sref26">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Guoping</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Qingtang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Zuolong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Q.</ce:given-name>
+                                 <ce:surname>MeiZheng</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The effect of different kinds of nano-carbon conductive additives in lithium ion batteries on the resistance and electrochemical behavior of the LiCoO2 composite cathodes</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Solid State Ion.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>179</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2008</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>263</sb:first-page>
+                              <sb:last-page>268</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.ssi.2008.01.015</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0155">W. Guoping, Z. Qingtang, Y. Zuolong, Q. MeiZheng, The effect of different kinds of nano-carbon conductive additives in lithium ion batteries on the resistance and electrochemical behavior of the LiCoO2 composite cathodes, Solid State Ionics. 179 (2008) 263-268. doi:10.1016/j.ssi.2008.01.015.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib27">
+                     <ce:label>[27]</ce:label>
+                     <sb:reference id="sref27">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.E.</ce:given-name>
+                                 <ce:surname>Spahr</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Goers</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Leone</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Stallone</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Grivei</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Development of carbon conductive additives for advanced lithium ion batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>196</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3404</sb:first-page>
+                              <sb:last-page>3413</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.jpowsour.2010.07.002</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0160">M.E. Spahr, D. Goers, A. Leone, S. Stallone, E. Grivei, Development of carbon conductive additives for advanced lithium ion batteries, Journal of Power Sources. 196 (2011) 3404-3413. doi:10.1016/j.jpowsour.2010.07.002.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib28">
+                     <ce:label>[28]</ce:label>
+                     <sb:reference id="sref28">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Dominko</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Gaberšček</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Drofenik</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Bele</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Jamnik</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Influence of carbon black distribution on performance of oxide cathodes for Li ion batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochim. Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>48</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2003</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3709</sb:first-page>
+                              <sb:last-page>3716</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/S0013-4686(03)00522-X</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0165">R. Dominko, M. Gaberscek, J. Drofenik, M. Bele, J. Jamnik, Influence of carbon black distribution on performance of oxide cathodes for Li ion batteries, Electrochimica Acta. 48 (2003) 3709-3716. doi:10.1016/S0013-4686(03)00522-X.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib29">
+                     <ce:label>[29]</ce:label>
+                     <sb:reference id="sref29">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Schneider</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Garsuch</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Panchenko</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O.</ce:given-name>
+                                 <ce:surname>Gronwald</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Janssen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Novák</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Influence of different electrode compositions and binder materials on the performance of lithium–sulfur batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>205</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>420</sb:first-page>
+                              <sb:last-page>425</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.jpowsour.2011.12.061</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0170">H. Schneider, A. Garsuch, A. Panchenko, O. Gronwald, N. Janssen, P. Novak, Influence of different electrode compositions and binder materials on the performance of lithium-sulfur batteries, Journal of Power Sources. 205 (2012) 420-425. doi:10.1016/j.jpowsour.2011.12.061.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib30">
+                     <ce:label>[30]</ce:label>
+                     <sb:reference id="sref30">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Rajendra</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.N.</ce:given-name>
+                                 <ce:surname>Mistry</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Patel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.J.</ce:given-name>
+                                 <ce:surname>Ausderau</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Xiao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.P.</ce:given-name>
+                                 <ce:surname>Mukherjee</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.J.</ce:given-name>
+                                 <ce:surname>Nelson</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Quantifying transport, geometrical, and morphological parameters in Li-ion cathode phases using X-ray microtomography</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>ACS Appl. Mater. Interfaces</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>11</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>19933</sb:first-page>
+                              <sb:last-page>19942</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1021/acsami.8b22758</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0175">T. Rajendra, A.N. Mistry, P. Patel, L.J. Ausderau, X. Xiao, P.P. Mukherjee, G.J. Nelson, Quantifying Transport, Geometrical, and Morphological Parameters in Li-Ion Cathode Phases Using X-ray Microtomography, ACS Appl. Mater. Interfaces. 11 (2019) 19933-19942. doi:10.1021/acsami.8b22758.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib31">
+                     <ce:label>[31]</ce:label>
+                     <sb:reference id="sref31">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.-Y.</ce:given-name>
+                                 <ce:surname>Su</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.-B.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.-C.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.-H.</ce:given-name>
+                                 <ce:surname>You</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Wei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Lv</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Q.-H.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Kang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Could graphene construct an effective conducting network in a high-power lithium ion battery?</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nano Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>1</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>429</sb:first-page>
+                              <sb:last-page>439</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.nanoen.2012.02.004</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0180">F.-Y. Su, Y.-B. He, B. Li, X.-C. Chen, C.-H. You, W. Wei, W. Lv, Q.-H. Yang, F. Kang, Could graphene construct an effective conducting network in a high-power lithium ion battery?, Nano Energy. 1 (2012) 429-439. doi:10.1016/j.nanoen.2012.02.004.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib32">
+                     <ce:label>[32]</ce:label>
+                     <sb:reference id="sref32">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Shi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Wen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Pei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Choice for graphene as conductive additive for cathode of lithium-ion batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Energy Chem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>30</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>19</sb:first-page>
+                              <sb:last-page>26</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.jechem.2018.03.009</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0185">Y. Shi, L. Wen, S. Pei, M. Wu, F. Li, Choice for graphene as conductive additive for cathode of lithium-ion batteries, Journal of Energy Chemistry. 30 (2019) 19-26. doi:10.1016/j.jechem.2018.03.009.</ce:source-text>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

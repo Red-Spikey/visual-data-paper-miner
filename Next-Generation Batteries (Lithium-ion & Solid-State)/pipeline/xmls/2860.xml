@@ -1,0 +1,1036 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1876610219303406</prism:url><dc:identifier>doi:10.1016/j.egypro.2019.01.320</dc:identifier><eid>1-s2.0-S1876610219303406</eid><prism:doi>10.1016/j.egypro.2019.01.320</prism:doi><pii>S1876-6102(19)30340-6</pii><dc:title>Predicting Battery Aging Trajectory via a Migrated Aging Model and Bayesian Monte Carlo Method </dc:title><prism:publicationName>Energy Procedia</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>18766102</prism:issn><prism:volume>158</prism:volume><prism:startingPage>2456</prism:startingPage><prism:endingPage>2461</prism:endingPage><prism:pageRange>2456-2461</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2019-02-28</prism:coverDate><prism:coverDisplayDate>February 2019</prism:coverDisplayDate><prism:copyright>© 2019 The Author(s). Published by Elsevier Ltd.</prism:copyright><prism:publisher>The Author(s). Published by Elsevier Ltd.</prism:publisher><prism:issueName>Innovative Solutions for Energy Transitions</prism:issueName><dc:creator>Tang, Xiaopeng</dc:creator><dc:creator>Yao, Ke</dc:creator><dc:creator>Zou, Changfu</dc:creator><dc:creator>Liu, Boyang</dc:creator><dc:creator>Gao, Furong</dc:creator><dc:description>
+                  Thanks to the fast development in battery technologies, the lifespan of the lithium-ion batteries increases to more than 3000 cycles. This brings new challenges to reliability related researches because the experimental time becomes overly long. In response, a migrated battery aging model is proposed to predict the battery aging trajectory. The normal-speed aging model is established based on the accelerate aging model through a migration process, whose migration factors are determined through the Bayesian Monte Carlo method and the stratified resampling technique. Experimental results show that the root-mean-square-error of the predicted aging trajectory is limited within 1% when using only 25% of the cyclic aging data for training. The proposed method is suitable for both offline prediction of battery lifespan and online prediction of the remaining useful life.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>ElsevierWaived</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>Lithium-ion batteries</dcterms:subject><dcterms:subject>Model migration</dcterms:subject><dcterms:subject>Bayesian Monte Carlo</dcterms:subject><dcterms:subject>Aging trajectory prediction</dcterms:subject><dcterms:subject>State-of-health</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1876610219303406" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1876610219303406" rel="scidir"/></coredata><objects><object ref="am" category="standard" type="AAM-PDF" multimediatype="Acrobat PDF file" mimetype="application/pdf" size="813150">https://api.elsevier.com/content/object/eid/1-s2.0-S1876610219303406-am.pdf?httpAccept=%2A%2F%2A</object></objects><scopus-id>85063901584</scopus-id><scopus-eid>2-s2.0-85063901584</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85063901584" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>277910</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291711</xocs:ssid>
+         <xocs:ssid type="subj">291731</xocs:ssid>
+         <xocs:ssid type="subj">291877</xocs:ssid>
+         <xocs:ssid type="subj">291892</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Energy Procedia</xocs:srctitle>
+      <xocs:normalized-srctitle>ENERGYPROCEDIA</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20190315">2019-03-15</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20190315">2019-03-15</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20190315">2019-03-15</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20190315">2019-03-15</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2019-06-03T23:57:06</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1876610219303406</xocs:eid>
+      <xocs:pii-formatted>S1876-6102(19)30340-6</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1876610219303406</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.egypro.2019.01.320</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.3</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1876610219X00041</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20240102">2024-01-02T00:54:10.318308Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20190201</xocs:date-search-begin>
+      <xocs:date-search-end>20190228</xocs:date-search-end>
+      <xocs:year-nav>2019</xocs:year-nav>
+      <xocs:indexeddate epoch="1552689595">2019-03-15T22:39:55.44107Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids confeditor contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content oa subj suppl tomb vol volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authkeywords authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1876-6102</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>18766102</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>158</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>158</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 158</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>385</xocs:sort-order>
+      <xocs:first-fp>2456</xocs:first-fp>
+      <xocs:last-lp>2461</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>2456</xocs:first-page>
+         <xocs:last-page>2461</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201902</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>February 2019</xocs:cover-date-text>
+      <xocs:cover-date-start>2019-02-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2019-02-28</xocs:cover-date-end>
+      <xocs:cover-date-year>2019</xocs:cover-date-year>
+      <xocs:title-editors-groups>
+         <xocs:title-editors-group>
+            <ce:title id="tt001">Innovative Solutions for Energy Transitions</ce:title>
+            <ce:editors>
+               <ce:author-group id="aa001">
+                  <ce:author author-id="S1876610219X00041-a63d3c9e8dff28446e4c34246043efb8" id="aa002">
+                     <ce:given-name>Jinyue</ce:given-name>
+                     <ce:surname>Yan</ce:surname>
+                  </ce:author>
+                  <ce:author author-id="S1876610219X00041-a9abfa559df138a45042fba24c270b57" id="aa003">
+                     <ce:given-name>Hong-xing</ce:given-name>
+                     <ce:surname>Yang</ce:surname>
+                  </ce:author>
+                  <ce:author author-id="S1876610219X00041-3026189c4a9ab4eb895727edd4791cc1" id="aa004">
+                     <ce:given-name>Hailong</ce:given-name>
+                     <ce:surname>Li</ce:surname>
+                  </ce:author>
+                  <ce:author author-id="S1876610219X00041-2ef79ac2fd2757577a2ef43970fccaf9" id="aa005">
+                     <ce:given-name>Xi</ce:given-name>
+                     <ce:surname>Chen</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+            </ce:editors>
+         </xocs:title-editors-group>
+      </xocs:title-editors-groups>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>Intelligent Energy System</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>© 2019 The Author(s). Published by Elsevier Ltd.</xocs:copyright-line>
+      <xocs:normalized-article-title>PREDICTINGBATTERYAGINGTRAJECTORYVIAAMIGRATEDAGINGMODELBAYESIANMONTECARLOMETHOD</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>TANG</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>X</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="sbref0001">
+            <xocs:ref-normalized-surname>ZOU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>121</xocs:ref-first-fp>
+            <xocs:ref-last-lp>130</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0002">
+            <xocs:ref-normalized-surname>JAGUEMONT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>99</xocs:ref-first-fp>
+            <xocs:ref-last-lp>114</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0003">
+            <xocs:ref-normalized-surname>TANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="othref0004"/>
+         <xocs:ref-info refid="sbref0005">
+            <xocs:ref-normalized-surname>BARRE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>680</xocs:ref-first-fp>
+            <xocs:ref-last-lp>689</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0006">
+            <xocs:ref-normalized-surname>WEI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1264</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1274</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0007">
+            <xocs:ref-normalized-surname>LIAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>191</xocs:ref-first-fp>
+            <xocs:ref-last-lp>207</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0008">
+            <xocs:ref-normalized-surname>SAHA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>293</xocs:ref-first-fp>
+            <xocs:ref-last-lp>308</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>B</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0009">
+            <xocs:ref-normalized-surname>WEI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>5634</xocs:ref-first-fp>
+            <xocs:ref-last-lp>5643</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="othref00010"/>
+         <xocs:ref-info refid="sbref00011">
+            <xocs:ref-normalized-surname>PINSON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>A243</xocs:ref-first-fp>
+            <xocs:ref-last-lp>A250</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00012">
+            <xocs:ref-normalized-surname>GUAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-last-lp>10</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00013">
+            <xocs:ref-normalized-surname>LU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2008</xocs:ref-pub-year>
+            <xocs:ref-first-fp>9508</xocs:ref-first-fp>
+            <xocs:ref-last-lp>9516</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00014">
+            <xocs:ref-normalized-surname>TANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>453</xocs:ref-first-fp>
+            <xocs:ref-last-lp>458</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00015">
+            <xocs:ref-normalized-surname>HE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>10314</xocs:ref-first-fp>
+            <xocs:ref-last-lp>10321</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00016">
+            <xocs:ref-normalized-surname>OLIVEIRA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1997</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1422</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1433</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>V</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="othref00017"/>
+         <xocs:ref-info refid="sbref00018">
+            <xocs:ref-normalized-surname>KOURITZIN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>TANGX2019X2456</xocs:refkey3>
+         <xocs:refkey4lp>TANGX2019X2456X2461</xocs:refkey4lp>
+         <xocs:refkey4ai>TANGX2019X2456XX</xocs:refkey4ai>
+         <xocs:refkey5>TANGX2019X2456X2461XX</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2019-01-19T00:31:10Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>ElsevierWaived</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/PROC_UNBOUNDED_ESWaived">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY-NC-ND license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2019 The Author(s). Published by Elsevier Ltd.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1876-6102(19)30340-6</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1876610219303406</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1876610219303406</xocs:eid>
+         <xocs:doi>10.1016/j.egypro.2019.01.320</xocs:doi>
+         <xocs:cid>277910</xocs:cid>
+         <xocs:timestamp>2024-01-02T00:54:10.318308Z</xocs:timestamp>
+         <xocs:cover-date-start>2019-02-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2019-02-28</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1876610219303406-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1876610219303406/MAIN/application/pdf/e03507657bfda31365ab13c67bff4721/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>1104355</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>6</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1876610219303406-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1876610219303406/PREVIEW/image/png/e50c697dc7f04768d2a1235a544ae5db/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>40039</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1876610219303406-am.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:104CD515R3Z/MAIN/application/pdf/29d43db26862affd06cd1d7821035c28/am.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:104CD515R3Z/MAIN/application/pdf/29d43db26862affd06cd1d7821035c28/am.pdf</xocs:ucs-locator>
+               <xocs:file-basename>am</xocs:file-basename>
+               <xocs:filename>am.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>false</xocs:pdf-optimized>
+               <xocs:filesize>813150</xocs:filesize>
+               <xocs:attachment-type>AAM-PDF</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">ScienceDirect Available online at www.sciencedirect.comAvailable online at w.sciencedirect.com ScienceDirect Energy Procedia 00 (2017) 000â€“000 www.elsevier.com/locate/procedia 1876-6102 Â© 2017 The Authors. Published by Elsevier Ltd. Peer-review under responsibility of the Scientific Committee of The 15th International Symposium on District Heating and Cooling. The 15th International Symposium on District Heating and Cooling Assessing the feasibility of using the heat demand-outdoor  temperature function for a long-term district heat demand forecast I. AndriÄ‡a,b,c*, A. Pinaa, P. FerrÃ£oa, J. Fournierb., B. LacarriÃ¨rec, O. Le Correc aIN+ Center for Innovation, Technology and Policy Research - Instituto Superior TÃ©cnico, Av. Rovisco Pais 1, 1049-001 Lisbon, Portugal bVeolia Recherche &amp; Innovation, 291 Avenue Dreyfous Daniel, 78520 Limay, France cDÃ©partement SystÃ¨mes Ã‰nergÃ©tiques et Environnement - IMT Atlantique, 4 rue Alfred Kastler, 44300 Nantes, France Abstract District heating networks are commonly addressed in the literature as one of the most effective solutions for decreasing the  greenhouse gas emissions from the building sector. These systems require high investments which are returned through the heat sales. Due to the changed climate conditions and building renovation policies, heat demand in the future could decrease,  prolonging the investment return period.  The main scope of this paper is to assess the feasibility of using the heat demand â€“ outdoor temperature function for heat demand  forecast. The district of Alvalade, located in Lisbon (Portugal), was used as a case study. The district is consisted of 665  buildings that vary in both construction period and typology. Three weather scenarios (low, medium, high) and three district  renovation scenarios were developed (shallow, intermediate, deep). To estimate the error, obtained heat demand values were  compared with results from a dynamic heat demand model, previously developed and validated by the authors. The results showed that when only weather change is considered, the margin of error could be acceptable for some applications (the error in annual demand was lower than 20% for all weather scenarios considered). However, after introducing renovation  scenarios, the error value increased up to 59.5% (depending on the weather and renovation scenarios combination considered).  The value of slope coefficient increased on average within the range of 3.8% up to 8% per decade, that corresponds to the  decrease in the number of heating hours of 22-139h during the heating season (depending on the combination of weather and  renovation scenarios considered). On the other hand, function intercept increased for 7.8-12.7% per decade (depending on the  coupled scenarios). The values suggested could be used to modify the function parameters for the scenarios considered, and  improve the accuracy of heat demand estimations. Â© 2017 The Authors. Published by Elsevier Ltd. Peer-review under responsibility of the Scientific Committee of The 15th International Symposium on District Heating and  Cooling. Keywords: Heat demand; Forecast; Climate change Energy Procedia 158 (2019) 2456 2461 1876-6102 Â© 2019 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/) Peer-review under responsibility of the scientific committee of ICAE2018 â€“ The 10th International Conference on Applied Energy. 10.1016/j.egypro.2019.01.320 10.1016/j.egypro.2019.01.320 Â© 2019 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/) Peer-review under responsibility of the scientific committee of ICAE2018 â€“ The 10th International Conference on Applied Energy. 1876-6102 Available online at www.sciencedirect.com  ScienceDirect  Energy Procedia 00 (2018) 000â€“000  www.elsevier.com/locate/procedia  1876-6102 Copyright Â© 2018 Elsevier Ltd. All rights reserved.  Selection and peer-review under responsibility of the scientific committee of the 10th International Conference on Applied Energy (ICAE2018).  10th International Conference on Applied Energy (ICAE2018), 22-25 August 2018, Hong Kong, China  Predicting Battery Aging Trajectory via a Migrated Aging Model  and Bayesian Monte Carlo Method  Xiaopeng TANGa, Ke YAOb, Changfu ZOUc, Boyang LIUa, Furong GAOa,b*  aDepartment of Chemical and Biological Enginnering, Hong Kong University of Science and Technology, Hong Kong SAR, 999077, PR China bGuangzhou HKUST Fok Ying Tung Research Institite, Guangzhou, 510000, PR China   cDepartment of Electrical Engineering, Chalmers University of Technology, Gothenburg 41296, Sweden  Abstract  Thanks to the fast development in battery technologies, the lifespan of the lithium-ion batteries increases to more than 3000  cycles. This brings new challenges to reliability related researches because the experimental time becomes overly long. In  response, a migrated battery aging model is proposed to predict the battery aging trajectory. The normal-speed aging model is  established based on the accelerate aging model through a migration process, whose migration factors are determined through the  Bayesian Monte Carlo method and the stratified resampling technique. Experimental results show that the root-mean-square-error  of the predicted aging trajectory is limited within 1% when using only 25% of the cyclic aging data for training. The proposed  method is suitable for both offline prediction of battery lifespan and online prediction of the remaining useful life.    Copyright Â© 2018 Elsevier Ltd. All rights reserved.  Selection and peer-review under responsibility of the scientific committee of the 10th International Conference on Applied  Energy (ICAE2018).  Keywords: Lithium-ion batteries; Model migration; Bayesian Monte Carlo; Aging trajectory prediction; State-of-health;       * Corresponding author. Tel.:+852-23587139.  E-mail address: kefgao@ust.hk  Available online at www.sciencedirect.com  ScienceDirect  Energy Procedia 00 (2018) 000â€“000  www.elsevier.com/locate/procedia  1876-6102 Co yright Â© 2018 Els vier Ltd. All rig ts reserved.  Selection and peer-review under responsibility of the scientific committee of the 10th International Conference on Applied Energy (ICAE2018).  10th International Conference on Applied Energy (ICAE2018), 22-25 August 2018, Hong Kong, China  Predicting Battery Ag ng Trajectory via a Migrated Agi  Model  and Bayesian Monte Carlo Method  Xiaopeng TANGa, Ke YAOb, Changfu ZOUc, Boyang LIUa, Furong GAOa,b*  aDepartment of Chemical and Biological Enginnering, Hong Kong University of Science and Technology, Hong Kong SAR, 999077, PR China bGuangzhou HKUST Fok Ying Tung Research In titite, Gua gzhou, 510000, PR China   cDepartment of Electrical Engineering, Chalmers University of Technology, Gothenburg 41296, Sweden  Abstract  Thanks to the fast development in battery technologies, th  lifespan of the lit ium-ion batteries increases to more than 3000  cycles. This brings new challenges to reliability r lated r searc s because the exp rimental time becomes overly long. In  respon e, a migrated battery aging model is proposed to predict the batt ry aging trajectory. The normal-speed aging model is  established bas d on the accelerate aging model through a migration process, whose migration factors ar  deter ined through the  Bayesian Monte Carlo method and the stratified resampling tech ique. Experimental results show that the root-mean-square-error  of t e predicted aging trajectory is limited within 1% wh n using only 25% of the cyclic aging data for training. The proposed  method is suitable for both offline prediction of battery lifespan and online prediction of the remaining useful life.    Copyright Â© 2018 Elsevier Ltd. All rights reserved.  Selection and peer-review under responsibility of the scientific committee of the 10th International Conference on Applied  Energy (ICAE2018).  Keywords: Lithium-ion batteries; Model migration; Bayesian Monte Carlo; Aging trajectory prediction; State-of-health;       * Corresponding author. Tel.:+852-23587139.  E-mail address: kefgao@ust.hk  2 Author name / Energy Procedia 00 (2018) 000â€“000  1. Introduction  1.1. Motivation and challenges  Thanks to the development of battery technologies, lithium-ion batteries become more and more reliable [1], with  their lifespan up to 3000 cycles [2]. The long cyclic aging time largely benefits consumers but is a nuisance to  researchers or engineers working on battery reliability. For a large variety of battery related products, such as  electric vehicles (EV) [3] or uninterruptable power supply (UPS) [4], a warranty for their reliable operation lasting  for certain years is compulsory. To do so, the battery lifespan under various load conditions must be ascertained.  However, this task is challenging for at least three reasons:  ï‚· Lack of effective aging models: Since SONY commercialized the first lithium-ion (Li-ion) battery in 1991, a  number of battery types have been commercially available, commonly different in their chemical components.  Their aging processes can be influenced by multiple factors such as temperature, current rate, cut-off voltage,  pulse current and storage time [5, 6]. Building up an effective physics-based aging model suitable for different  Li-ion batteries under various conditions is a significant but very tough task;  ï‚· Lack of experimental data: A powerful alternative is to model the aging process using data-driven approaches,  which, however, requires a large amount of experimental data;  ï‚· Long experimental time: Experiments to generate aging data, especially under normal operating conditions, are  costly and time-consuming.  1.2. Literature review  There are mainly two approaches to acquire the battery aging behavior quickly, i.e. prediction-based and  acceleration-based. Prediction-based approaches leverage partial experimental data to predict the whole aging  trajectory, where it is unnecessary to test the battery over its entire lifespan. The prediction can be realized by  algorithms [7], such as Extended Kalman filter (EKF) [8], Bayesian prediction [9] and neural network [10]. A  common assumption underpinning this kind of methods is that the battery aging process maintains the same over its  entire lifespan. Based on this assumption, the historic data is used to predict the future performance. However, the  aging trajectory of some Li-ion batteries may contain a turning point, the profiles before and after which are much  different (see Fig. 2). This phenomenon implies the underlying assumption of the prediction-based approaches are  not always valid.  Accelerate aging associated with stress factors is another approach to shorten the experimental time for battery  state of health (SOH) studies. Although aging mechanisms of the normal-speed aging and accelerate aging can be  different, attempts have been made to explore these differences on certain battery types, see Refs [11, 12]. However,  it should be highlighted that the SOH evolution characteristics apparated under normal conditions can be submerged  under accelerate aging tests. Then, prediction deviations are inevitable if evaluating a batteryâ€™s lifespan based on the  results of the accelerate aging test only.  1.3. Contributions  The contributions of this paper are twofold: a novel migrated normal-speed aging model is established on the  accelerate aging model. Then, the Bayesian Monte Carlo method is employed to predict the aging trajectory of the  normal-speed aging.  2. Migrated Aging Models  According to the model migration principle [13], if an old process, also known as the base process, has been  studied in detail resulting in a based model, then the obtained base model can be used to model a similar new  process with fewer data, compared with directly modelling the new process. As a result, a new model requiring a  few amounts of data is established. A general diagram of mode migration is shown in Fig. 1-(a).     Xiaopeng Tang et al. / Energy Procedia 158 (2019) 2456â€“2461 2457 Available online at www.sciencedirect.com  ScienceDirect  Energy Procedia 00 (2018) 000â€“000  www.elsevier.com/locate/procedia  1876-6102 Copyright Â© 2018 Elsevier Ltd. All rights reserved.  Selection and peer-review under responsibility of the scientific committee of the 10th International Conference on Applied Energy (ICAE2018).  10th International Conference on Applied Energy (ICAE2018), 22-25 August 2018, Hong Kong, China  Predicting Battery Aging Trajectory via a Migrated Aging Model  and Bayesian Monte Carlo Method  Xiaopeng TANGa, Ke YAOb, Changfu ZOUc, Boyang LIUa, Furong GAOa,b*  aDepartment of Chemical and Biological Enginnering, Hong Kong University of Science and Technology, Hong Kong SAR, 999077, PR China bGuangzhou HKUST Fok Ying Tung Research Institite, Guangzhou, 510000, PR China   cDepartment of Electrical Engineering, Chalmers University of Technology, Gothenburg 41296, Sweden  Abstract  Thanks to the fast development in battery technologies, the lifespan of the lithium-ion batteries increases to more than 3000  cycles. This brings new challenges to reliability related researches because the experimental time becomes overly long. In  response, a migrated battery aging model is proposed to predict the battery aging trajectory. The normal-speed aging model is  established based on the accelerate aging model through a migration process, whose migration factors are determined through the  Bayesian Monte Carlo method and the stratified resampling technique. Experimental results show that the root-mean-square-error  of the predicted aging trajectory is limited within 1% when using only 25% of the cyclic aging data for training. The proposed  method is suitable for both offline prediction of battery lifespan and online prediction of the remaining useful life.    Copyright Â© 2018 Elsevier Ltd. All rights reserved.  Selection and peer-review under responsibility of the scientific committee of the 10th International Conference on Applied  Energy (ICAE2018).  Keywords: Lithium-ion batteries; Model migration; Bayesian Monte Carlo; Aging trajectory prediction; State-of-health;       * Corresponding author. Tel.:+852-23587139.  E-mail address: kefgao@ust.hk  Available online at www.sciencedirect.com  ScienceDirect  Energy Procedia 00 (2018) 000â€“000  www.elsevier.com/locate/procedia  1876-6102 Co yright Â© 2018 Els vier Ltd. All rig ts reserved.  Selection and peer-review under responsibility of the scientific committee of the 10th International Conference on Applied Energy (ICAE2018).  10th International Conference on Applied Energy (ICAE2018), 22-25 August 2018, Hong Kong, China  Predicting Battery Aging Trajectory via a Migrated Aging Model  and Bayesian Monte Carlo Method  Xiaopeng TANGa, Ke YAOb, Changfu ZOUc, Boyang LIUa, Furong GAOa,b*  aDepartment of Chemical and Biological Enginnering, Hong Kong University of Science and Technology, Hong Kong SAR, 999077, PR China bGuangzhou HKUST Fok Ying Tung Research In titite, Gua gzhou, 510000, PR China   cDepartment of Electrical Engineering, Chalmers University of Technology, Gothenburg 41296, Sweden  Abstract  Thanks to the fast development in battery technologies, th  lifespan of the lit ium-ion batteries increases to more than 3000  cycles. This brings new challenges to reliability r lated r searc s because the exp rimental time becomes overly long. In  respon e, a migrated battery aging model is proposed to predict the batt ry aging trajectory. The normal-speed aging model is  established bas d on the accelerate aging model through a migration process, whose migration factors ar  deter ined through the  Bayesian Monte Carlo method and the stratified resampling tech ique. Experimental results show that the root-mean-square-error  of t e predicted aging trajectory is limited within 1% wh n using only 25% of the cyclic aging data for training. The proposed  method is suitable for both offline prediction of battery lifespan and online prediction of the remaining useful life.    Copyright Â© 2018 Elsevier Ltd. All rights reserved.  Selection and peer-review under responsibility of the scientific committee of the 10th International Conference on Applied  Energy (ICAE2018).  Keywords: Lithium-ion batteries; Model migration; Bayesian Monte Carlo; Aging trajectory prediction; State-of-health;       * Corresponding author. Tel.:+852-23587139.  E-mail address: kefgao@ust.hk  2 Author name / Energy Procedia 00 (2018) 000â€“000  1. Introduction  1.1. Motivation and challenges  Thanks to the development of battery technologies, lithium-ion batteries become more and more reliable [1], with  their lifespan up to 3000 cycles [2]. The long cyclic aging time largely benefits consumers but is a nuisance to  researchers or engineers working on battery reliability. For a large variety of battery related products, such as  electric vehicles (EV) [3] or uninterruptable power supply (UPS) [4], a warranty for their reliable operation lasting  for certain years is compulsory. To do so, the battery lifespan under various load conditions must be ascertained.  However, this task is challenging for at least three reasons:  ï‚· Lack of effective aging models: Since SONY commercialized the first lithium-ion (Li-ion) battery in 1991, a  number of battery types have been commercially available, commonly different in their chemical components.  Their aging processes can be influenced by multiple factors such as temperature, current rate, cut-off voltage,  pulse current and storage time [5, 6]. Building up an effective physics-based aging model suitable for different  Li-ion batteries under various conditions is a significant but very tough task;  ï‚· Lack of experimental data: A powerful alternative is to model the aging process using data-driven approaches,  which, however, requires a large amount of experimental data;  ï‚· Long experimental time: Experiments to generate aging data, especially under normal operating conditions, are  costly and time-consuming.  1.2. Literature review  There are mainly two approaches to acquire the battery aging behavior quickly, i.e. prediction-based and  acceleration-based. Prediction-based approaches leverage partial experimental data to predict the whole aging  trajectory, where it is unnecessary to test the battery over its entire lifespan. The prediction can be realized by  algorithms [7], such as Extended Kalman filter (EKF) [8], Bayesian prediction [9] and neural network [10]. A  common assumption underpinning this kind of methods is that the battery aging process maintains the same over its  entire lifespan. Based on this assumption, the historic data is used to predict the future performance. However, the  aging trajectory of some Li-ion batteries may contain a turning point, the profiles before and after which are much  different (see Fig. 2). This phenomenon implies the underlying assumption of the prediction-based approaches are  not always valid.  Accelerate aging associated with stress factors is another approach to shorten the experimental time for battery  state of health (SOH) studies. Although aging mechanisms of the normal-speed aging and accelerate aging can be  different, attempts have been made to explore these differences on certain battery types, see Refs [11, 12]. However,  it should be highlighted that the SOH evolution characteristics apparated under normal conditions can be submerged  under accelerate aging tests. Then, prediction deviations are inevitable if evaluating a batteryâ€™s lifespan based on the  results of the accelerate aging test only.  1.3. Contributions  The contributions of this paper are twofold: a novel migrated normal-speed aging model is established on the  accelerate aging model. Then, the Bayesian Monte Carlo method is employed to predict the aging trajectory of the  normal-speed aging.  2. Migrated Aging Models  According to the model migration principle [13], if an old process, also known as the base process, has been  studied in detail resulting in a based model, then the obtained base model can be used to model a similar new  process with fewer data, compared with directly modelling the new process. As a result, a new model requiring a  few amounts of data is established. A general diagram of mode migration is shown in Fig. 1-(a).    2458 Xiaopeng Tang et al. / Energy Procedia 158 (2019) 2456â€“2461 Author name / Energy Procedia 00 (2018) 000â€“000  3   (a) (b)  Fig. 1. (a): Illustration of model migration method; (b): Experimental platform.  Because obtaining aging data with stress factors is much faster, the accelerate aging process is selected for  building the base model, while the normal-speed aging process is regarded as the â€œnew processâ€�.   Before the development of both models, the SOH is defined to evaluate the degree of battery aging [14]:    0( ) ( ) /n nSOH k C k Cï€½   (1)  where ( )nC k  is the actual battery capacity at time k (usually represented in cycle) under the manufacturer specified temperature (usually 25â„ƒ), while 0nC is the fresh cell capacity under this temperature.  Then, the accelerate aging model describing the relationship between SOH and time can be formulated in the  following exponential form [15]:   ( ) ( ) b k d kacc accSOH k f k a e c eïƒ— ïƒ—ï€½ ï€½ ïƒ— ï€« ïƒ—   (2)  where the subscript acc means that the model is describing the accelerating aging process. a, b, c and d are model  parameters which can be estimated using nonlinear least-square method. Since the accelerate aging model is selected  as the base model, the above-mentioned factors are assumed to be offline determined accurately.  Based on the key idea of model migration, we can develop a migration between the normal-speed aging model  and accelerate aging model:   1 2 3 4( ) ( ) ( )ns ns accSOH k f k x f x k x xï€½ ï€½ ïƒ— ïƒ— ï€« ï€«   (3)  Where the subscript ns means that the model is describing the normal-speed aging process. 1 2 3 4[ , , , ]X x x x xï€½ ï�µï�µï�²  is the  factor for model migration between the accelerate aging model and normal-speed aging model. They represent the  re-arrangement of the amplitude, time scale, time shift and bias, respectively.  3. Bayesian Monte Carlo prediction for battery aging trajectory prediction  3.1. Bayesian Monte Carlo method  To open-loop predict the aging trajectory of the normal-speed aging, we need to accurately estimate the vector  X ï�µï�µï�² . In this paper, we assume that the vector Xï�µï�µï�²  and the error of the migrated model are subject to the Gaussian  distribution:    1 1 1 1 1 2 2 2 2 2 3 3 3 3 3 4 4 4 4 4 ( ) ( 1) ~ (0, ) ( ) ( 1) ~ (0, )( ) ( 1) ;    ( ) ( 1) ~ (0, ) ( ) ( 1) ~ (0, ) x k x k N x k x k N X k X k x k x k N x k x k N ï�· ï�· ï�³ ï�· ï�· ï�³ ï�· ï�· ï�³ ï�· ï�· ï�³ ï€­ïƒ© ïƒ¹ ïƒ© ïƒ¹ ïƒ© ïƒ¹ ïƒª ïƒº ïƒª ïƒº ïƒª ïƒºï€­ïƒª ïƒº ïƒª ïƒº ïƒª ïƒºï€½ ï€½ ï€« ï€½ ï€­ ï€« ï�—ïƒª ïƒº ïƒª ïƒº ïƒª ïƒºï€­ïƒª ïƒº ïƒª ïƒº ïƒª ïƒºï€­ïƒ« ïƒ» ïƒ« ïƒ» ïƒ« ïƒ» ï�µï�µï�µï�µï�µï�² ï�µï�µï�µï�µï�µï�µï�µï�µï�µï�² ï�µï�²   (4)   1 2 3 4 5( ) ( ) ( ) ( ( ) ( )) ( ) ;   (0, )ns ns accSOH k f k x k f x k k x k x k Nï�® ï�® ï�® ï�³ï€½ ï€« ï€½ ïƒ— ïƒ— ï€« ï€« ï€« ïƒŽ   (5)  The goal is to estimate the probability distribution: ( ( ) | (1: ))P X k SOH kï�µï�µï�µï�µï�µï�²  given the historical SOH measurements:  (1: ) [ (1), (2),..., ( )]SOH k SOH SOH SOH kï€½ . In the Bayesian framework [16], this can be implemented using two steps:  one-step prediction and state update. At cycle 1k ï€­ , we have ( ( 1) | (1: 1))P X k SOH kï€­ ï€­ï�µï�µï�µï�µï�µï�µï�µï�µï�µï�² , and a one-step prediction is  given by:  4 Author name / Energy Procedia 00 (2018) 000â€“000   ( ( ) | (1: 1)) ( ( ) | ( 1)) ( ( 1) | (1: 1)) ( 1)P X k SOH k P X k X k P X k SOH k d X kï€­ ï€½ ï€­ ïƒ— ï€­ ï€­ ïƒ— ï€­ïƒ²ï�µï�µï�µï�µï�µï�² ï�µï�µï�µï�µï�µï�² ï�µï�µï�µï�µï�µï�µï�µï�µï�µï�² ï�µï�µï�µï�µï�µï�µï�µï�µï�µï�² ï�µï�µï�µï�µï�µï�µï�µï�µï�µï�²   (6)  At cycle k, with a new observation ( )SOH k , the posterior distribution of ( )X kï�µï�µï�µï�µï�µï�²  can be calculated based on Bayesâ€™  rule:   ( ( ) | (1: 1)) ( ( ) | ( ))( ( ) | (1: )) ( ( ) | (1: 1)) ( ( ) | ( )) ( ) P X k SOH k P SOH k X kP X k SOH k P X k SOH k P SOH k X k d X k ï€­ ïƒ—ï€½ ï€­ ïƒ— ïƒ—ïƒ² ï�µï�µï�µï�µï�µï�² ï�µï�µï�µï�µï�µï�²ï�µï�µï�µï�µï�µï�² ï�µï�µï�µï�µï�µï�² ï�µï�µï�µï�µï�µï�² ï�µï�µï�µï�µï�µï�²   (7)  It should be pointed out that the high-dimensional integrals are very difficult to calculate, and Monte Carlo (MC)  method is introduced to represent the probability density function by a set of random samples:    1 ( ( ) | (1: )) ( ) ( ( ) ( )) Ns i i i P X k SOH k w k X k X kï�¤ ï€½ ï‚» ïƒ— ï€­ïƒ¥ ï�µï�µï�µï�µï�µï�µï�²ï�µï�µï�µï�µï�µï�² ï�µï�µï�µï�µï�µï�²   (8)  where ( )iX kï�µï�µï�µï�µï�µï�µï�²  is a set of random independent samples drawn from ( ( ) | (1: ))P X k SOH kï�µï�µï�µï�µï�µï�² , ( )iw k  is the Bayesian  importance weight associated with each ( )iX kï�µï�µï�µï�µï�µï�µï�² , ( )ï�¤ ïƒ—  is the Dirac delta function, and Ns is the size of the random  samples. In general cases, ( ( ) | (1: ))P X k SOH kï�µï�µï�µï�µï�µï�²  is usually unknown, and in response, one can sample ( )iX kï�µï�µï�µï�µï�µï�µï�²  from an  arbitrarily distribution (called the importance function). If this importance function is selected as ( ( ) | ( 1))i iP X k X k ï€­ï�µï�µï�µï�µï�µï�µï�² ï�µï�µï�µï�µï�µï�µï�µï�µï�µï�µï�² ,  we can have the following recursive updating law to update the weight [17]:   22 55 1 ( ( ) ( ))( ) ( 1) ( ( ) | ( )) ( 1) exp 22 i i i i i nsSOH k f kw k w k P SOH k X k w k ï�³ï�°ï�³ ïƒ¦ ïƒ¶ï€­ï€½ ï€­ ïƒ— ï€½ ï€­ ïƒ— ïƒ— ï€­ïƒ§ ïƒ·ïƒ¨ ïƒ¸ ï�µï�µï�µï�µï�µï�µï�²   (9)  where ( )insf k  is used to calculate the estimated SOH with migration factor ( )iX k ï�µï�µï�µï�µï�µï�µï�² , and the weight should be  normalized by:    -1 1 ( ) ( ) ( ) Ns i i j j w k w k w k ï€½ ïƒ© ïƒ¹ï€½ ïƒ— ïƒª ïƒºïƒ« ïƒ»ïƒ¥   (10)  When the number of samples Nsï‚®ï‚¥ , Eq. (8) converges to its true posterior density.  Now, the h-step ahead prediction of each trajectory can be calculated by ( )insf k hï€« , and the mathematical expectation can be calculated by:    1 [ ( )] ( ) ( ) Ns j j ns ns j SOH k h w k f k h ï€½ ï�… ï€« ï€½ ïƒ— ï€«ïƒ¥   (11)  3.2. Stratified Resampling  Particle degradation is a main problem of the BMC based methods, in other words, at the end of a BMC  simulation, only one or two particles can have a significant weight, while the weights of the other particles are close  to zero. Resampling is believed to be an important approach to solve the particle degradation problem and many  different forms of resampling method is proposed. The basic idea of resampling is to resample the particles with the  higher weight, while throw away those with lower weight. Amongst the different types of resampling methods [18],  stratified resampling method is a relative simple and efficient method with complexity O(Ns). There are two steps  for the stratified resampling:  1. Generate Ns random number: ï‚° , {1,2,..., }ku k NsïƒŽ     ï‚° ( 1) , [0,1);  1,2,...,kk kk uu u U k NsNs ï€­ ï€«ï€½ ïƒŽ ï€½   (12)  2. The sample ( )iX kï�µï�µï�µï�µï�µï�µï�²  and the corresponding weight ( )iw k  should be copied ni times, where   ï‚° 1 1 1 : ( ), ( ) i i i i i k j j n countif u w k w k ï€­ ï€½ ï€½ ïƒ¦ ïƒ¹ï€½ ïƒŽïƒ§ ïƒºïƒ¨ ïƒ»ïƒ¥ ïƒ¥   (13)  where â€œcountif: Mâ€� is a function that returns the number of elements that satisfy the condition M.   Xiaopeng Tang et al. / Energy Procedia 158 (2019) 2456â€“2461 2459 Author name / Energy Procedia 00 (2018) 000â€“000  3   (a) (b)  Fig. 1. (a): Illustration of model migration method; (b): Experimental platform.  Because obtaining aging data with stress factors is much faster, the accelerate aging process is selected for  building the base model, while the normal-speed aging process is regarded as the â€œnew processâ€�.   Before the development of both models, the SOH is defined to evaluate the degree of battery aging [14]:    0( ) ( ) /n nSOH k C k Cï€½   (1)  where ( )nC k  is the actual battery capacity at time k (usually represented in cycle) under the manufacturer specified temperature (usually 25â„ƒ), while 0nC is the fresh cell capacity under this temperature.  Then, the accelerate aging model describing the relationship between SOH and time can be formulated in the  following exponential form [15]:   ( ) ( ) b k d kacc accSOH k f k a e c eïƒ— ïƒ—ï€½ ï€½ ïƒ— ï€« ïƒ—   (2)  where the subscript acc means that the model is describing the accelerating aging process. a, b, c and d are model  parameters which can be estimated using nonlinear least-square method. Since the accelerate aging model is selected  as the base model, the above-mentioned factors are assumed to be offline determined accurately.  Based on the key idea of model migration, we can develop a migration between the normal-speed aging model  and accelerate aging model:   1 2 3 4( ) ( ) ( )ns ns accSOH k f k x f x k x xï€½ ï€½ ïƒ— ïƒ— ï€« ï€«   (3)  Where the subscript ns means that the model is describing the normal-speed aging process. 1 2 3 4[ , , , ]X x x x xï€½ ï�µï�µï�²  is the  factor for model migration between the accelerate aging model and normal-speed aging model. They represent the  re-arrangement of the amplitude, time scale, time shift and bias, respectively.  3. Bayesian Monte Carlo prediction for battery aging trajectory prediction  3.1. Bayesian Monte Carlo method  To open-loop predict the aging trajectory of the normal-speed aging, we need to accurately estimate the vector  X ï�µï�µï�² . In this paper, we assume that the vector Xï�µï�µï�²  and the error of the migrated model are subject to the Gaussian  distribution:    1 1 1 1 1 2 2 2 2 2 3 3 3 3 3 4 4 4 4 4 ( ) ( 1) ~ (0, ) ( ) ( 1) ~ (0, )( ) ( 1) ;    ( ) ( 1) ~ (0, ) ( ) ( 1) ~ (0, ) x k x k N x k x k N X k X k x k x k N x k x k N ï�· ï�· ï�³ ï�· ï�· ï�³ ï�· ï�· ï�³ ï�· ï�· ï�³ ï€­ïƒ© ïƒ¹ ïƒ© ïƒ¹ ïƒ© ïƒ¹ ïƒª ïƒº ïƒª ïƒº ïƒª ïƒºï€­ïƒª ïƒº ïƒª ïƒº ïƒª ïƒºï€½ ï€½ ï€« ï€½ ï€­ ï€« ï�—ïƒª ïƒº ïƒª ïƒº ïƒª ïƒºï€­ïƒª ïƒº ïƒª ïƒº ïƒª ïƒºï€­ïƒ« ïƒ» ïƒ« ïƒ» ïƒ« ïƒ» ï�µï�µï�µï�µï�µï�² ï�µï�µï�µï�µï�µï�µï�µï�µï�µï�² ï�µï�²   (4)   1 2 3 4 5( ) ( ) ( ) ( ( ) ( )) ( ) ;   (0, )ns ns accSOH k f k x k f x k k x k x k Nï�® ï�® ï�® ï�³ï€½ ï€« ï€½ ïƒ— ïƒ— ï€« ï€« ï€« ïƒŽ   (5)  The goal is to estimate the probability distribution: ( ( ) | (1: ))P X k SOH kï�µï�µï�µï�µï�µï�²  given the historical SOH measurements:  (1: ) [ (1), (2),..., ( )]SOH k SOH SOH SOH kï€½ . In the Bayesian framework [16], this can be implemented using two steps:  one-step prediction and state update. At cycle 1k ï€­ , we have ( ( 1) | (1: 1))P X k SOH kï€­ ï€­ï�µï�µï�µï�µï�µï�µï�µï�µï�µï�² , and a one-step prediction is  given by:  4 Author name / Energy Procedia 00 (2018) 000â€“000   ( ( ) | (1: 1)) ( ( ) | ( 1)) ( ( 1) | (1: 1)) ( 1)P X k SOH k P X k X k P X k SOH k d X kï€­ ï€½ ï€­ ïƒ— ï€­ ï€­ ïƒ— ï€­ïƒ²ï�µï�µï�µï�µï�µï�² ï�µï�µï�µï�µï�µï�² ï�µï�µï�µï�µï�µï�µï�µï�µï�µï�² ï�µï�µï�µï�µï�µï�µï�µï�µï�µï�² ï�µï�µï�µï�µï�µï�µï�µï�µï�µï�²   (6)  At cycle k, with a new observation ( )SOH k , the posterior distribution of ( )X kï�µï�µï�µï�µï�µï�²  can be calculated based on Bayesâ€™  rule:   ( ( ) | (1: 1)) ( ( ) | ( ))( ( ) | (1: )) ( ( ) | (1: 1)) ( ( ) | ( )) ( ) P X k SOH k P SOH k X kP X k SOH k P X k SOH k P SOH k X k d X k ï€­ ïƒ—ï€½ ï€­ ïƒ— ïƒ—ïƒ² ï�µï�µï�µï�µï�µï�² ï�µï�µï�µï�µï�µï�²ï�µï�µï�µï�µï�µï�² ï�µï�µï�µï�µï�µï�² ï�µï�µï�µï�µï�µï�² ï�µï�µï�µï�µï�µï�²   (7)  It should be pointed out that the high-dimensional integrals are very difficult to calculate, and Monte Carlo (MC)  method is introduced to represent the probability density function by a set of random samples:    1 ( ( ) | (1: )) ( ) ( ( ) ( )) Ns i i i P X k SOH k w k X k X kï�¤ ï€½ ï‚» ïƒ— ï€­ïƒ¥ ï�µï�µï�µï�µï�µï�µï�²ï�µï�µï�µï�µï�µï�² ï�µï�µï�µï�µï�µï�²   (8)  where ( )iX kï�µï�µï�µï�µï�µï�µï�²  is a set of random independent samples drawn from ( ( ) | (1: ))P X k SOH kï�µï�µï�µï�µï�µï�² , ( )iw k  is the Bayesian  importance weight associated with each ( )iX kï�µï�µï�µï�µï�µï�µï�² , ( )ï�¤ ïƒ—  is the Dirac delta function, and Ns is the size of the random  samples. In general cases, ( ( ) | (1: ))P X k SOH kï�µï�µï�µï�µï�µï�²  is usually unknown, and in response, one can sample ( )iX kï�µï�µï�µï�µï�µï�µï�²  from an  arbitrarily distribution (called the importance function). If this importance function is selected as ( ( ) | ( 1))i iP X k X k ï€­ï�µï�µï�µï�µï�µï�µï�² ï�µï�µï�µï�µï�µï�µï�µï�µï�µï�µï�² ,  we can have the following recursive updating law to update the weight [17]:   22 55 1 ( ( ) ( ))( ) ( 1) ( ( ) | ( )) ( 1) exp 22 i i i i i nsSOH k f kw k w k P SOH k X k w k ï�³ï�°ï�³ ïƒ¦ ïƒ¶ï€­ï€½ ï€­ ïƒ— ï€½ ï€­ ïƒ— ïƒ— ï€­ïƒ§ ïƒ·ïƒ¨ ïƒ¸ ï�µï�µï�µï�µï�µï�µï�²   (9)  where ( )insf k  is used to calculate the estimated SOH with migration factor ( )iX k ï�µï�µï�µï�µï�µï�µï�² , and the weight should be  normalized by:    -1 1 ( ) ( ) ( ) Ns i i j j w k w k w k ï€½ ïƒ© ïƒ¹ï€½ ïƒ— ïƒª ïƒºïƒ« ïƒ»ïƒ¥   (10)  When the number of samples Nsï‚®ï‚¥ , Eq. (8) converges to its true posterior density.  Now, the h-step ahead prediction of each trajectory can be calculated by ( )insf k hï€« , and the mathematical expectation can be calculated by:    1 [ ( )] ( ) ( ) Ns j j ns ns j SOH k h w k f k h ï€½ ï�… ï€« ï€½ ïƒ— ï€«ïƒ¥   (11)  3.2. Stratified Resampling  Particle degradation is a main problem of the BMC based methods, in other words, at the end of a BMC  simulation, only one or two particles can have a significant weight, while the weights of the other particles are close  to zero. Resampling is believed to be an important approach to solve the particle degradation problem and many  different forms of resampling method is proposed. The basic idea of resampling is to resample the particles with the  higher weight, while throw away those with lower weight. Amongst the different types of resampling methods [18],  stratified resampling method is a relative simple and efficient method with complexity O(Ns). There are two steps  for the stratified resampling:  1. Generate Ns random number: ï‚° , {1,2,..., }ku k NsïƒŽ     ï‚° ( 1) , [0,1);  1,2,...,kk kk uu u U k NsNs ï€­ ï€«ï€½ ïƒŽ ï€½   (12)  2. The sample ( )iX kï�µï�µï�µï�µï�µï�µï�²  and the corresponding weight ( )iw k  should be copied ni times, where   ï‚° 1 1 1 : ( ), ( ) i i i i i k j j n countif u w k w k ï€­ ï€½ ï€½ ïƒ¦ ïƒ¹ï€½ ïƒŽïƒ§ ïƒºïƒ¨ ïƒ»ïƒ¥ ïƒ¥   (13)  where â€œcountif: Mâ€� is a function that returns the number of elements that satisfy the condition M.  2460 Xiaopeng Tang et al. / Energy Procedia 158 (2019) 2456â€“2461  Author name / Energy Procedia 00 (2018) 000â€“000  5 4. Experimental results  In this paper, a set of experiments are carried out using the equipment listed in Table 1 and Fig. 2-(b).  Table 1. Experimental Platform.  Item Device/Method Specifications  Battery Testing System UPowerÂ® Battery Testing System 5â€° Accuracy, Room Temperature  Battery SONYÂ® US18650VTC6 Rated Capacity: 3Ah  Normal-Speed Aging CC-CCCV @ 1C Rate Cut-off Conditions: 4.2V, 2.75V, 0.05C  Accelerate Aging CC-CCCV @ 1C Rate Cut-off Conditions: 4.4V, 2.75V, 0.05C  Table 2. Experimental results.    Experiment Model Parameters Overall RMSE  1 fcon() a=0.02437 b=-0.1171 c=0.9803 d=-0.0009077 8.16%  fns() x1=0.9390 x2=0.6473 x3=0.3494 x4=0.0338 0.70%  2 fcon() a=0.1788 b=-0.00778 c=0.8147 d=9.105e-06 1.78%  fns() x1=0.9563 x2=0.8655 x3=0.4499 x4=0.0333 0.67%  The results are provided in Fig. 2 and Table 2, where fcon() represents the result of the conventional direct fitting  approach. It can be seen that compared with the direct fitting of the aging model in (2), the proposed migrated model  shows better accuracy. The accuracy of the predicted SOH trajectory is higher than 1% even if the training data is  only 25% of the entire lifespan. The proposed method basically extracts the information of â€œtime scaleâ€� from the  normal-speed aging process, and extracts the SOH changing tendency from the accelerate aging process. This  combination provides a better result than using only the data of normal-speed aging process, especially when the  experimental time is so limited that the SOH changing trend cannot be properly extracted from the normal-speed  experimental data. It can be observed from Fig. 2 â€“(b) that the direct fitting approach can also provide a good  prediction result when enough data is provided, however, this requires a longer experimental time. From the  deriving of the proposed method, it can be seen that the proposed method can also be directly used for online  remaining useful life (RUL) prediction. The similarity between the base model and the new process determines the  efficiency of the proposed method.  (a) (b) Fig. 2. Experimental results. (a): Experiment 1; (b): Experiment 2.  5. Conclusions  In this paper, a migrated model is proposed to predict the aging trajectory of lithium-ion batteries. The accelerate  aging is migrated for the normal-speed aging process through a linear transformation. The migration factors are  determined through the Bayesian Monte Carlo method and the stratified resampling technique. The RMSE of the  predicted aging trajectory limited to 1% with only 25% of the cyclic aging data. The proposed method is suitable for  predicting the remaining useful life in real time as well as offline predicting the battery lifespan before designing the  products such as EVs or UPSs as mentioned in the introduction.  6 Author name / Energy Procedia 00 (2018) 000â€“000  Future research interests exist in quantifying the similarity between the accelerate and normal-speed aging  processes, e.g., through incremental capacity analysis (ICA) method, and in comparing the effects of different  accelerate aging operations.  Acknowledgement  This work is supported, in part, by National Natural Science Foundation of China project (61227005) and  Guangdong scientific and technological project (2017B010120002).  References  [1] C. Zou, C. Manzie, D. NeÅ¡iÄ‡, A.G. Kallapur, Multi-time-scale observer design for state-of-charge and state-of- health of a lithium-ion battery, Journal of Power Sources, 335 (2016) 121-130.  [2] J. Jaguemont, L. Boulon, Y. DubÃ©, A comprehensive review of lithium-ion batteries used in hybrid and electric  vehicles at cold temperatures, Applied Energy, 164 (2016) 99-114.  [3] X.P. Tang, K. Yao, B.Y. Liu, W.G. Hu, F.R. Gao, Long-Term Battery Voltage, Power, and Surface Temperature  Prediction Using a Model-Based Extreme Learning Machine, Energies, 11 (2018).  [4] X. Tang, B. Liu, Z. Lv, F. Gao, Observer based battery SOC estimation: Using multi-gain-switching approach  â˜†, Applied Energy, (2017).  [5] A. BarrÃ©, B. Deguilhem, S. Grolleau, M. GÃ©rard, F. Suard, D. Riu, A review on lithium-ion battery ageing  mechanisms and estimations for automotive applications, Journal of Power Sources, 241 (2013) 680-689.  [6] Z. Wei, J. Zhao, D. Ji, K.J. Tseng, A multi-timescale estimator for battery state of charge and capacity dual  estimation based on an online identified model, Applied Energy, 204 (2017) 1264-1274.  [7] L. Liao, F. KÃ¶ttig, Review of Hybrid Prognostics Approaches for Remaining Useful Life Prediction of  Engineered Systems, and an Application to Battery Life Prediction, IEEE Transactions on Reliability, 63 (2014)  191-207.  [8] B. Saha, K. Goebel, J. Christophersen, Comparison of prognostic algorithms for estimating remaining useful  life of batteries, Transactions of the Institute of Measurement and Control, 31 (2009) 293-308.  [9] J. Wei, G. Dong, Z. Chen, Remaining Useful Life Prediction and State of Health Diagnosis for Lithium-Ion  Batteries Using Particle Filter and Support Vector Regression, IEEE Transactions on Industrial Electronics, 65 (2018)  5634-5643.  [10] J. Liu, A. Saxena, K. Goebel, B. Saha, W. Wang, An adaptive recurrent neural network for remaining useful  life prediction of lithium-ion batteries, in, NATIONAL AERONAUTICS AND SPACE ADMINISTRATION  MOFFETT FIELD CA AMES RESEARCH CENTER, 2010.  [11] M.B. Pinson, M.Z. Bazant, Theory of SEI Formation in Rechargeable Batteries: Capacity Fade, Accelerated  Aging and Lifetime Prediction, Journal of the Electrochemical Society, 160 (2012) A243-A250.  [12] T. Guan, S. Sun, Y. Gao, C. Du, P. Zuo, Y. Cui, L. Zhang, G. Yin, The effect of elevated temperature on the  accelerated aging of LiCoO 2 /mesocarbon microbeads batteries, Applied Energy, 177 (2016) 1-10.  [13] J. Lu, F. Gao, Model Migration with Inclusive Similarity for Development of a New Process Model,  Industrial &amp; Engineering Chemistry Research, 47 (2008) 9508-9516.  [14] X. Tang, C. Zou, K. Yao, G. Chen, B. Liu, Z. He, F. Gao, A fast estimation algorithm for lithium-ion battery  state of health, Journal of Power Sources, 396 (2018) 453-458.  [15] W. He, N. Williard, M. Osterman, M. Pecht, Prognostics of lithium-ion batteries based on Dempsterâ€“Shafer  theory and the Bayesian Monte Carlo method, Journal of Power Sources, 196 (2011) 10314-10321.  [16] V.D. Oliveira, B. Kedem, D.A. Short, Bayesian Prediction of Transformed Gaussian Random Fields,  Publications of the American Statistical Association, 92 (1997) 1422-1433.  [17] J. Carpenter, P. Clifford, P. Fearnhead, Improved particle filter for nonlinear problems, IEE Proceedings -  Radar, Sonar and Navigation, 146 (2002) 2-7.  [18] M.A. Kouritzin, S.P. Azen, Residual and stratified branching particle filters, Computational Statistics &amp; Data  Analysis, 111 (2017).     Xiaopeng Tang et al. / Energy Procedia 158 (2019) 2456â€“2461 2461  Author name / Energy Procedia 00 (2018) 000â€“000  5 4. Experimental results  In this paper, a set of experiments are carried out using the equipment listed in Table 1 and Fig. 2-(b).  Table 1. Experimental Platform.  Item Device/Method Specifications  Battery Testing System UPowerÂ® Battery Testing System 5â€° Accuracy, Room Temperature  Battery SONYÂ® US18650VTC6 Rated Capacity: 3Ah  Normal-Speed Aging CC-CCCV @ 1C Rate Cut-off Conditions: 4.2V, 2.75V, 0.05C  Accelerate Aging CC-CCCV @ 1C Rate Cut-off Conditions: 4.4V, 2.75V, 0.05C  Table 2. Experimental results.    Experiment Model Parameters Overall RMSE  1 fcon() a=0.02437 b=-0.1171 c=0.9803 d=-0.0009077 8.16%  fns() x1=0.9390 x2=0.6473 x3=0.3494 x4=0.0338 0.70%  2 fcon() a=0.1788 b=-0.00778 c=0.8147 d=9.105e-06 1.78%  fns() x1=0.9563 x2=0.8655 x3=0.4499 x4=0.0333 0.67%  The results are provided in Fig. 2 and Table 2, where fcon() represents the result of the conventional direct fitting  approach. It can be seen that compared with the direct fitting of the aging model in (2), the proposed migrated model  shows better accuracy. The accuracy of the predicted SOH trajectory is higher than 1% even if the training data is  only 25% of the entire lifespan. The proposed method basically extracts the information of â€œtime scaleâ€� from the  normal-speed aging process, and extracts the SOH changing tendency from the accelerate aging process. This  combination provides a better result than using only the data of normal-speed aging process, especially when the  experimental time is so limited that the SOH changing trend cannot be properly extracted from the normal-speed  experimental data. It can be observed from Fig. 2 â€“(b) that the direct fitting approach can also provide a good  prediction result when enough data is provided, however, this requires a longer experimental time. From the  deriving of the proposed method, it can be seen that the proposed method can also be directly used for online  remaining useful life (RUL) prediction. The similarity between the base model and the new process determines the  efficiency of the proposed method.  (a) (b) Fig. 2. Experimental results. (a): Experiment 1; (b): Experiment 2.  5. Conclusions  In this paper, a migrated model is proposed to predict the aging trajectory of lithium-ion batteries. The accelerate  aging is migrated for the normal-speed aging process through a linear transformation. The migration factors are  determined through the Bayesian Monte Carlo method and the stratified resampling technique. The RMSE of the  predicted aging trajectory limited to 1% with only 25% of the cyclic aging data. The proposed method is suitable for  predicting the remaining useful life in real time as well as offline predicting the battery lifespan before designing the  products such as EVs or UPSs as mentioned in the introduction.  6 Author name / Energy Procedia 00 (2018) 000â€“000  Future research interests exist in quantifying the similarity between the accelerate and normal-speed aging  processes, e.g., through incremental capacity analysis (ICA) method, and in comparing the effects of different  accelerate aging operations.  Acknowledgement  This work is supported, in part, by National Natural Science Foundation of China project (61227005) and  Guangdong scientific and technological project (2017B010120002).  References  [1] C. Zou, C. Manzie, D. NeÅ¡iÄ‡, A.G. Kallapur, Multi-time-scale observer design for state-of-charge and state-of- health of a lithium-ion battery, Journal of Power Sources, 335 (2016) 121-130.  [2] J. Jaguemont, L. Boulon, Y. DubÃ©, A comprehensive review of lithium-ion batteries used in hybrid and electric  vehicles at cold temperatures, Applied Energy, 164 (2016) 99-114.  [3] X.P. Tang, K. Yao, B.Y. Liu, W.G. Hu, F.R. Gao, Long-Term Battery Voltage, Power, and Surface Temperature  Prediction Using a Model-Based Extreme Learning Machine, Energies, 11 (2018).  [4] X. Tang, B. Liu, Z. Lv, F. Gao, Observer based battery SOC estimation: Using multi-gain-switching approach  â˜†, Applied Energy, (2017).  [5] A. BarrÃ©, B. Deguilhem, S. Grolleau, M. GÃ©rard, F. Suard, D. Riu, A review on lithium-ion battery ageing  mechanisms and estimations for automotive applications, Journal of Power Sources, 241 (2013) 680-689.  [6] Z. Wei, J. Zhao, D. Ji, K.J. Tseng, A multi-timescale estimator for battery state of charge and capacity dual  estimation based on an online identified model, Applied Energy, 204 (2017) 1264-1274.  [7] L. Liao, F. KÃ¶ttig, Review of Hybrid Prognostics Approaches for Remaining Useful Life Prediction of  Engineered Systems, and an Application to Battery Life Prediction, IEEE Transactions on Reliability, 63 (2014)  191-207.  [8] B. Saha, K. Goebel, J. Christophersen, Comparison of prognostic algorithms for estimating remaining useful  life of batteries, Transactions of the Institute of Measurement and Control, 31 (2009) 293-308.  [9] J. Wei, G. Dong, Z. Chen, Remaining Useful Life Prediction and State of Health Diagnosis for Lithium-Ion  Batteries Using Particle Filter and Support Vector Regression, IEEE Transactions on Industrial Electronics, 65 (2018)  5634-5643.  [10] J. Liu, A. Saxena, K. Goebel, B. Saha, W. Wang, An adaptive recurrent neural network for remaining useful  life prediction of lithium-ion batteries, in, NATIONAL AERONAUTICS AND SPACE ADMINISTRATION  MOFFETT FIELD CA AMES RESEARCH CENTER, 2010.  [11] M.B. Pinson, M.Z. Bazant, Theory of SEI Formation in Rechargeable Batteries: Capacity Fade, Accelerated  Aging and Lifetime Prediction, Journal of the Electrochemical Society, 160 (2012) A243-A250.  [12] T. Guan, S. Sun, Y. Gao, C. Du, P. Zuo, Y. Cui, L. Zhang, G. Yin, The effect of elevated temperature on the  accelerated aging of LiCoO 2 /mesocarbon microbeads batteries, Applied Energy, 177 (2016) 1-10.  [13] J. Lu, F. Gao, Model Migration with Inclusive Similarity for Development of a New Process Model,  Industrial &amp; Engineering Chemistry Research, 47 (2008) 9508-9516.  [14] X. Tang, C. Zou, K. Yao, G. Chen, B. Liu, Z. He, F. Gao, A fast estimation algorithm for lithium-ion battery  state of health, Journal of Power Sources, 396 (2018) 453-458.  [15] W. He, N. Williard, M. Osterman, M. Pecht, Prognostics of lithium-ion batteries based on Dempsterâ€“Shafer  theory and the Bayesian Monte Carlo method, Journal of Power Sources, 196 (2011) 10314-10321.  [16] V.D. Oliveira, B. Kedem, D.A. Short, Bayesian Prediction of Transformed Gaussian Random Fields,  Publications of the American Statistical Association, 92 (1997) 1422-1433.  [17] J. Carpenter, P. Clifford, P. Fearnhead, Improved particle filter for nonlinear problems, IEE Proceedings -  Radar, Sonar and Navigation, 146 (2002) 2-7.  [18] M.A. Kouritzin, S.P. Azen, Residual and stratified branching particle filters, Computational Statistics &amp; Data  Analysis, 111 (2017).    re designing the  products such as EVs or UPSs as mentioned in the introduction.  6 Author name / Energy Procedia 00 (2018) 000â€“000  Future research interests exist in quantifying the similarity between the accelerate and normal-speed aging  processes, e.g., through incremental capacity analysis (ICA) method, and in comparing the effects of different  accelerate aging operations.  Acknowledgement  This work is supported, in part, by National Natural Science Foundation of China project (61227005) and  Guangdong</xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.5" xml:lang="en" docsubtype="fla">
+         <item-info>
+            <jid>EGYPRO</jid>
+            <aid>35692</aid>
+            <ce:pii>S1876-6102(19)30340-6</ce:pii>
+            <ce:doi>10.1016/j.egypro.2019.01.320</ce:doi>
+            <ce:copyright type="other" year="2019">The Author(s)</ce:copyright>
+         </item-info>
+         <head>
+            <ce:title id="tte0001">Predicting Battery Aging Trajectory via a Migrated Aging Model and Bayesian Monte Carlo Method</ce:title>
+            <ce:author-group id="aug0001">
+               <ce:author id="au0142" author-id="S1876610219303406-3c5f52d0a542c30a7c0684862ef4a11f">
+                  <ce:given-name>Xiaopeng</ce:given-name>
+                  <ce:surname>Tang</ce:surname>
+                  <ce:cross-ref id="cecref0177" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0143" author-id="S1876610219303406-844930031a640a01f860ffa095636ac9">
+                  <ce:given-name>Ke</ce:given-name>
+                  <ce:surname>Yao</ce:surname>
+                  <ce:cross-ref id="cecref0178" refid="aff0002">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0144" author-id="S1876610219303406-cb3afe69c64da19a8613bd8079735c36">
+                  <ce:given-name>Changfu</ce:given-name>
+                  <ce:surname>Zou</ce:surname>
+                  <ce:cross-ref id="cecref0179" refid="aff0003">
+                     <ce:sup loc="post">c</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0145" author-id="S1876610219303406-ca176a7c71869dcd9db03ea69359643b">
+                  <ce:given-name>Boyang</ce:given-name>
+                  <ce:surname>Liu</ce:surname>
+                  <ce:cross-ref id="cecref0180" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0146" author-id="S1876610219303406-2577085ead6453fa34f9c6b01e1e9e84">
+                  <ce:given-name>Furong</ce:given-name>
+                  <ce:surname>Gao</ce:surname>
+                  <ce:cross-ref id="cecref0181" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="cecref0182" refid="aff0002">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:affiliation id="aff0001" affiliation-id="S1876610219303406-8926b95cc47c7f7984e23322046c35f2">
+                  <ce:label>a</ce:label>
+                  <ce:textfn id="cetextfn0001">Department of Chemical and Biological Enginnering, Hong Kong University of Science and Technology, Hong Kong SAR, 999077, PR China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Chemical and Biological Enginnering</sa:organization>
+                     <sa:organization>Hong Kong University of Science and Technology</sa:organization>
+                     <sa:city>Hong Kong</sa:city>
+                     <sa:state>SAR</sa:state>
+                     <sa:postal-code>999077</sa:postal-code>
+                     <sa:country>PR China</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff0002" affiliation-id="S1876610219303406-488bffb20c58bb4de43ff5df3930b7f7">
+                  <ce:label>b</ce:label>
+                  <ce:textfn id="cetextfn0002">Guangzhou HKUST Fok Ying Tung Research Institite, Guangzhou, 510000, PR China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Guangzhou HKUST Fok Ying Tung Research Institite</sa:organization>
+                     <sa:city>Guangzhou</sa:city>
+                     <sa:postal-code>510000</sa:postal-code>
+                     <sa:country>PR China</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff0003" affiliation-id="S1876610219303406-672f26621aefc159406fcf013b503aa9">
+                  <ce:label>c</ce:label>
+                  <ce:textfn id="cetextfn0003">Department of Electrical Engineering, Chalmers University of Technology, Gothenburg 41296, Sweden</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Electrical Engineering</sa:organization>
+                     <sa:organization>Chalmers University of Technology</sa:organization>
+                     <sa:city>Gothenburg</sa:city>
+                     <sa:postal-code>41296</sa:postal-code>
+                     <sa:country>Sweden</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+            </ce:author-group>
+            <ce:abstract id="abs0001" view="all" class="author"><ce:abstract-sec id="abss0001" view="all">
+                  <ce:simple-para id="spara0041" view="all">Thanks to the fast development in battery technologies, the lifespan of the lithium-ion batteries increases to more than 3000 cycles. This brings new challenges to reliability related researches because the experimental time becomes overly long. In response, a migrated battery aging model is proposed to predict the battery aging trajectory. The normal-speed aging model is established based on the accelerate aging model through a migration process, whose migration factors are determined through the Bayesian Monte Carlo method and the stratified resampling technique. Experimental results show that the root-mean-square-error of the predicted aging trajectory is limited within 1% when using only 25% of the cyclic aging data for training. The proposed method is suitable for both offline prediction of battery lifespan and online prediction of the remaining useful life.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="keys0001" view="all" class="keyword">
+               <ce:section-title id="cesectitle0002">Keywords</ce:section-title>
+               <ce:keyword id="key0163">
+                  <ce:text id="cetext0163">Lithium-ion batteries</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0164">
+                  <ce:text id="cetext0164">Model migration</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0165">
+                  <ce:text id="cetext0165">Bayesian Monte Carlo</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0166">
+                  <ce:text id="cetext0166">Aging trajectory prediction</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0167">
+                  <ce:text id="cetext0167">State-of-health</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <tail view="all">
+            <ce:bibliography id="cebibsec1" view="all">
+               <ce:section-title id="cesectitle0003">References</ce:section-title>
+               <ce:bibliography-sec id="cebibsec2" view="all">
+                  <ce:bib-reference id="bib0001">
+                     <ce:label>1</ce:label>
+                     <sb:reference id="sbref0001">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Zou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Manzie</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Nešić</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.G.</ce:given-name>
+                                 <ce:surname>Kallapur</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Multi-time-scale observer design for state-of-charge and state-of-health of a lithium-ion battery</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>335</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>121</sb:first-page>
+                              <sb:last-page>130</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0002">
+                     <ce:label>2</ce:label>
+                     <sb:reference id="sbref0002">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Jaguemont</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Boulon</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Dubé</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A comprehensive review of lithium-ion batteries used in hybrid and electric vehicles at cold temperatures</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Applied Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>164</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>99</sb:first-page>
+                              <sb:last-page>114</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0003">
+                     <ce:label>3</ce:label>
+                     <sb:reference id="sbref0003">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.P.</ce:given-name>
+                                 <ce:surname>Tang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Yao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.Y.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.G.</ce:given-name>
+                                 <ce:surname>Hu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.R.</ce:given-name>
+                                 <ce:surname>Gao</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Long-Term Battery Voltage, Power, and Surface Temperature Prediction Using a Model-Based Extreme Learning Machine</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energies</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>11</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0004">
+                     <ce:label>4</ce:label>
+                     <ce:other-ref id="othref0004">
+                        <ce:textref>X. Tang, B. Liu, Z. Lv, F. Gao, Observer based battery SOC estimation: Using multi-gain-switching approach ☆, Applied Energy, (2017).</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0005">
+                     <ce:label>5</ce:label>
+                     <sb:reference id="sbref0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Barré</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Deguilhem</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Grolleau</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Gérard</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Suard</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Riu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A review on lithium-ion battery ageing mechanisms and estimations for automotive applications</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>241</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>680</sb:first-page>
+                              <sb:last-page>689</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0006">
+                     <ce:label>6</ce:label>
+                     <sb:reference id="sbref0006">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Wei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Ji</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.J.</ce:given-name>
+                                 <ce:surname>Tseng</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A multi-timescale estimator for battery state of charge and capacity dual estimation based on an online identified model</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Applied Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>204</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1264</sb:first-page>
+                              <sb:last-page>1274</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0007">
+                     <ce:label>7</ce:label>
+                     <sb:reference id="sbref0007">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Liao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Köttig</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Review of Hybrid Prognostics Approaches for Remaining Useful Life Prediction of Engineered Systems, and an Application to Battery Life Prediction</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Transactions on Reliability</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>63</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>191</sb:first-page>
+                              <sb:last-page>207</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0008">
+                     <ce:label>8</ce:label>
+                     <sb:reference id="sbref0008">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Saha</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Goebel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Christophersen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Comparison of prognostic algorithms for estimating remaining useful life of batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Transactions of the Institute of Measurement and Control</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>31</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>293</sb:first-page>
+                              <sb:last-page>308</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0009">
+                     <ce:label>9</ce:label>
+                     <sb:reference id="sbref0009">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Wei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Dong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Remaining Useful Life Prediction and State of Health Diagnosis for Lithium-Ion Batteries Using Particle Filter and Support Vector Regression</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Transactions on Industrial Electronics</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>65</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>5634</sb:first-page>
+                              <sb:last-page>5643</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00010">
+                     <ce:label>10</ce:label>
+                     <ce:other-ref id="othref00010">
+                        <ce:textref>J. Liu, A. Saxena, K. Goebel, B. Saha, W. Wang, An adaptive recurrent neural network for remaining useful life prediction of lithium-ion batteries, in, NATIONAL AERONAUTICS AND SPACE ADMINISTRATION MOFFETT FIELD CA AMES RESEARCH CENTER, 2010.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00011">
+                     <ce:label>11</ce:label>
+                     <sb:reference id="sbref00011">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.B.</ce:given-name>
+                                 <ce:surname>Pinson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.Z.</ce:given-name>
+                                 <ce:surname>Bazant</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Theory of SEI Formation in Rechargeable Batteries: Capacity Fade</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Accelerated Aging and Lifetime Prediction, Journal of the Electrochemical Society</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>160</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>A243</sb:first-page>
+                              <sb:last-page>A250</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00012">
+                     <ce:label>12</ce:label>
+                     <sb:reference id="sbref00012">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Guan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Sun</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Gao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Du</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Zuo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Cui</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Yin</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The effect of elevated temperature on the accelerated aging of LiCoO 2 /mesocarbon microbeads batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Applied Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>177</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                              <sb:last-page>10</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00013">
+                     <ce:label>13</ce:label>
+                     <sb:reference id="sbref00013">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Lu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Gao</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Model Migration with Inclusive Similarity for Development of a New Process Model</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Industrial &amp; Engineering Chemistry Research</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>47</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2008</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>9508</sb:first-page>
+                              <sb:last-page>9516</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00014">
+                     <ce:label>14</ce:label>
+                     <sb:reference id="sbref00014">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Tang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Zou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Yao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Gao</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A fast estimation algorithm for lithium-ion battery state of health</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>396</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>453</sb:first-page>
+                              <sb:last-page>458</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00015">
+                     <ce:label>15</ce:label>
+                     <sb:reference id="sbref00015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Williard</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Osterman</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Pecht</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Prognostics of lithium-ion batteries based on Dempster–Shafer theory and the Bayesian Monte Carlo method</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>196</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>10314</sb:first-page>
+                              <sb:last-page>10321</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00016">
+                     <ce:label>16</ce:label>
+                     <sb:reference id="sbref00016">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>V.D.</ce:given-name>
+                                 <ce:surname>Oliveira</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Kedem</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.A.</ce:given-name>
+                                 <ce:surname>Short</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Bayesian Prediction of Transformed Gaussian Random Fields</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Publications of the American Statistical Association</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>92</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1997</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1422</sb:first-page>
+                              <sb:last-page>1433</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00017">
+                     <ce:label>17</ce:label>
+                     <ce:other-ref id="othref00017">
+                        <ce:textref>J. Carpenter, P. Clifford, P. Fearnhead, Improved particle filter for nonlinear problems, IEE Proceedings - Radar, Sonar and Navigation, 146 (2002) 2-7.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00018">
+                     <ce:label>18</ce:label>
+                     <sb:reference id="sbref00018">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.A.</ce:given-name>
+                                 <ce:surname>Kouritzin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.P.</ce:given-name>
+                                 <ce:surname>Azen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Residual and stratified branching particle filters</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Computational Statistics &amp; Data Analysis</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>111</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

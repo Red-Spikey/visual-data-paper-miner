@@ -1,0 +1,1362 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1452398123107668</prism:url><dc:identifier>doi:10.20964/2017.07.35</dc:identifier><eid>1-s2.0-S1452398123107668</eid><prism:doi>10.20964/2017.07.35</prism:doi><pii>S1452-3981(23)10766-8</pii><dc:title>State of Health Estimation Based on OS-ELM for Lithium-ion Batteries </dc:title><prism:publicationName>International Journal of Electrochemical Science</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>14523981</prism:issn><prism:volume>12</prism:volume><prism:issueIdentifier>7</prism:issueIdentifier><prism:startingPage>6895</prism:startingPage><prism:endingPage>6907</prism:endingPage><prism:pageRange>6895-6907</prism:pageRange><prism:number>7</prism:number><dc:format>text/xml</dc:format><prism:coverDate>2017-07-31</prism:coverDate><prism:coverDisplayDate>July 2017</prism:coverDisplayDate><prism:copyright>Copyright © 2017 The Authors. Published by ESG. Published by Elsevier B.V.</prism:copyright><prism:publisher>The Authors. Published by ESG. Published by Elsevier B.V.</prism:publisher><dc:creator>Zhu, Yiduo</dc:creator><dc:creator>Yan, Fuwu</dc:creator><dc:creator>Kang, Jianqiang</dc:creator><dc:creator>Du, Changqing</dc:creator><dc:description>
+                  An accurate state of health (SOH) estimation can facilitate the design of reliable battery systems and ensure reliability and safety during battery operation. An effective prediction algorithm is indispensable in performing an accurate SOH estimation. In this study, to solve the problem of obtaining battery capacity fading under the real vehicle state, the discharge time of equal voltage interval is used as the health indicator of the battery. The selection reason of the discharge voltage interval is explained from the aspects of battery mechanism and experimental data. To solve the problem of accuracy and large computation in SOH estimation, an online sequential extreme learning machine is used to predict SOH. The method demonstrates fast learning and generalization performance. The prediction error is less than 1.9%, which proves the accuracy of the method.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>Author</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>State of health</dcterms:subject><dcterms:subject>Extreme learning machine</dcterms:subject><dcterms:subject>Health indicator</dcterms:subject><dcterms:subject>Lithium-ion battery</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1452398123107668" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1452398123107668" rel="scidir"/></coredata><scopus-id>85023749251</scopus-id><scopus-eid>2-s2.0-85023749251</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85023749251" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>783334</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291802</xocs:ssid>
+         <xocs:ssid type="subj">291865</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>International Journal of Electrochemical Science</xocs:srctitle>
+      <xocs:normalized-srctitle>INTERNATIONALJOURNALELECTROCHEMICALSCIENCE</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20230626">2023-06-26</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20230626">2023-06-26</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20230626">2023-06-26</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20230626">2023-06-26</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2023-06-26T08:57:02</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1452398123107668</xocs:eid>
+      <xocs:pii-formatted>S1452-3981(23)10766-8</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1452398123107668</xocs:pii-unformatted>
+      <xocs:doi>10.20964/2017.07.35</xocs:doi>
+      <xocs:item-stage>S350</xocs:item-stage>
+      <xocs:item-version-number>S350.1</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1452398117X27004</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20230626">2023-06-26T08:32:59.3638Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20170701</xocs:date-search-begin>
+      <xocs:date-search-end>20170731</xocs:date-search-end>
+      <xocs:year-nav>2017</xocs:year-nav>
+      <xocs:indexeddate epoch="1687771979">2023-06-26T09:32:59.3638Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issfirst issn issnnorm issuelist itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content oa subj tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authkeywords authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1452-3981</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>14523981</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>12</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>12</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>7</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>7</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 12, Issue 7</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>87</xocs:sort-order>
+      <xocs:first-fp>6895</xocs:first-fp>
+      <xocs:last-lp>6907</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>6895</xocs:first-page>
+         <xocs:last-page>6907</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201707</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>July 2017</xocs:cover-date-text>
+      <xocs:cover-date-start>2017-07-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2017-07-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2017</xocs:cover-date-year>
+      <xocs:document-type>simple-article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 2017 The Authors. Published by ESG. Published by Elsevier B.V.</xocs:copyright-line>
+      <xocs:normalized-article-title>STATEHEALTHESTIMATIONBASEDOSELMFORLITHIUMIONBATTERIES</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>ZHU</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>Y</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="rf0005">
+            <xocs:ref-normalized-surname>BOLE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>B</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>ANNUALCONFERENCEPROGNOSTICSHEALTHMANAGEMENTSOCIETY</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0010">
+            <xocs:ref-normalized-surname>LIU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0015">
+            <xocs:ref-normalized-surname>ZHOU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2196</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0020">
+            <xocs:ref-normalized-surname>SAHA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>B</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0025">
+            <xocs:ref-normalized-surname>OLIVARES</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>364</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>B</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0030">
+            <xocs:ref-normalized-surname>PANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>28</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0035">
+            <xocs:ref-normalized-surname>JIANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>179</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0040">
+            <xocs:ref-normalized-surname>GERING</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>636</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0045">
+            <xocs:ref-normalized-surname>WEIJUN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>107</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0050">
+            <xocs:ref-normalized-surname>SANKARASUBRAMANIAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>248</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0055">
+            <xocs:ref-normalized-surname>WU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>108</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0060">
+            <xocs:ref-normalized-surname>ZHOU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0065">
+            <xocs:ref-normalized-surname>ZHOU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>265</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0070">
+            <xocs:ref-normalized-surname>LAISUO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>201</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0075">
+            <xocs:ref-normalized-surname>WU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>134</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0080">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1282</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0085">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>52</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0090">
+            <xocs:ref-normalized-surname>HUANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>32</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0095">
+            <xocs:ref-normalized-surname>LIANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1411</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0100">
+            <xocs:ref-normalized-surname>ZHAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>79</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="or0005"/>
+         <xocs:ref-info refid="rf0105">
+            <xocs:ref-normalized-surname>DUBARRY</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>10328</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0110">
+            <xocs:ref-normalized-surname>DUBARRY</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>10336</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0115">
+            <xocs:ref-normalized-surname>GAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>WEIQIANGMA</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0120">
+            <xocs:ref-normalized-surname>HONGJIE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>108</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0125">
+            <xocs:ref-normalized-surname>ZHU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>ZHUX2017X6895</xocs:refkey3>
+         <xocs:refkey4lp>ZHUX2017X6895X6907</xocs:refkey4lp>
+         <xocs:refkey4ai>ZHUX2017X6895XY</xocs:refkey4ai>
+         <xocs:refkey5>ZHUX2017X6895X6907XY</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2023-06-24T05:56:03Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>Author</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/1452-3981_UNBOUNDED_Author">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:article-sharing-framework/>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1452-3981(23)10766-8</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1452398123107668</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1452398123107668</xocs:eid>
+         <xocs:doi>10.20964/2017.07.35</xocs:doi>
+         <xocs:cid>783334</xocs:cid>
+         <xocs:timestamp>2023-06-26T08:32:59.3638Z</xocs:timestamp>
+         <xocs:cover-date-start>2017-07-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2017-07-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1452398123107668-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1452398123107668/MAIN/application/pdf/5e6565ef19d5b96bf7dfe03ee6526860/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>533641</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>13</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1452398123107668-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1452398123107668/PREVIEW/image/png/fa5b235be22ae9c61681146a1face9ca/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>55594</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">State of Health Estimation Based on OS-ELM for Lithium-ion Batteries Yiduo Zhu, 1 2 3 Fuwu Yan, 1 2 Jianqiang Kang, 1 2 Changqing Du, 1 2 cq_du@whut.edu.cn 1 Hubei Key Laboratory of Advanced Technology for Automotive Components, Wuhan University of Technology, Wuhan 430070, China Hubei Key Laboratory of Advanced Technology for Automotive Components Wuhan University of Technology Wuhan 430070 China Hubei Key Laboratory of Advanced Technology for Automotive Components, Wuhan University of Technology, Wuhan 430070, China 2 Hubei Collaborative Innovation Center for Automotive Components Technology, Wuhan University of Technology, Wuhan 430070, China Hubei Collaborative Innovation Center for Automotive Components Technology Wuhan University of Technology Wuhan 430070 China Hubei Collaborative Innovation Center for Automotive Components Technology, Wuhan University of Technology, Wuhan 430070, China 3 Wuhan Technical College of Communications, Wuhan 430065, China Wuhan Technical College of Communications Wuhan 430065 China Wuhan Technical College of Communications, Wuhan 430065, China   An accurate state of health (SOH) estimation can facilitate the design of reliable battery systems and ensure reliability and safety during battery operation. An effective prediction algorithm is indispensable in performing an accurate SOH estimation. In this study, to solve the problem of obtaining battery capacity fading under the real vehicle state, the discharge time of equal voltage interval is used as the health indicator of the battery. The selection reason of the discharge voltage interval is explained from the aspects of battery mechanism and experimental data. To solve the problem of accuracy and large computation in SOH estimation, an online sequential extreme learning machine is used to predict SOH. The method demonstrates fast learning and generalization performance. The prediction error is less than 1.9%, which proves the accuracy of the method. Keywords State of health Extreme learning machine Health indicator Lithium-ion battery   References 1. B. Bole, C. Kulkarni, M. Daigle, Annual Conference of the Prognostics and Health Management Society (2014) Bole B,Kulkarni C, Daigle M, Annual Conference of the Prognostics and Health Management Society, (2014). 2. D.T. Liu, J.Y. Pang, J.B. Zhou, Y. Peng, IEEE Prognostics &amp; System Health Management Conference (2012) 1-Liu DT, Pang JY, Zhou JB, Peng Y, IEEE Prognostics &amp; System Health Management Conference, (2012) 1. 3. J.B. Zhou, D.T. Liu, Y. Peng, X.Y. Peng, IEEE International Instrumentation and Measurement Technology Conference (2012) 2196-Zhou JB, Liu DT, Peng Y, Peng XY, IEEE International Instrumentation and Measurement Technology Conference, (2012) 2196. 4. B. Saha, K. Goebel, International Journal of Prognostics and Health Management 6: (2011) 1-Saha B, Goebel K, International Journal of Prognostics and Health Management, 6 (2011) 1. 5. B.E. Olivares, M.A.C. Munoz, M.E. Orchard, Marcos E. Orchard, Jorge F. Silva, IEEE Trans. on Instrumentation and Measurement 62: (2013) 364-Olivares BE, Munoz MAC, Orchard ME, Marcos E. Orchard, Jorge F. Silva, IEEE Trans. on Instrumentation and Measurement, 62 (2013) 364. 6. Jingyue Pang, Yuntong Ma, Datong Liu, Yu Peng, China Science Paper 1: (2014) 28-Jingyue Pang, Yuntong Ma, Datong Liu, Yu Peng, China Science Paper, 1 (2014) 28. 7. Yuanyuan Jiang, Zhu Liu, Hui Luo, Hui Wang, Journal of Electronic Measurement and Instrumentation 2: (2016) 179-Yuanyuan Jiang, Zhu Liu, Hui Luo, Hui Wang, Journal of Electronic Measurement and Instrumentation, 2 (2016) 179. 8. Kevin L. Gering, Electrochimica Acta 228: (2017) 636-Kevin L. Gering, Electrochimica Acta, 228 (2017) 636. 9. Gu Weijun, Zechang Sun, Xuezhe Wei, Haifeng Dai, Electrochimica Acta 133: (2014) 107-Weijun Gu, Zechang Sun, Xuezhe Wei, Haifeng Dai, Electrochimica Acta, 133 (2014) 107. 10. Shrihari Sankarasubramanian, Balaji Krishnamurthy, Electrochimica Acta 70: (2012) 248-Shrihari Sankarasubramanian, Balaji Krishnamurthy, Electrochimica Acta, 70 (2012) 248. 11. H. Wu, S. Yuan, X. Zhang, C. Yin, X. Ma, J Power Sources 287: (2015) 108-Wu H, Yuan S, Zhang X, Yin C, Ma X, J Power Sources, 287 (2015) 108. 12. Y. Zhou, M. Huang, Y. Chen, Y. Tao, J Power Sources 321: (2016) 1-Zhou Y, Huang M, Chen Y, Tao Y, J Power Sources, 321 (2016) 1. 13. Y. Zhou, M. Huang, Microelectron Reliability 65: (2016) 265-Zhou Y, Huang M, Microelectron Reliability, 65 (2016) 265. 14. S. Laisuo, J. Zhang, C. Wang, Y. Zhang, Z. Li, S. Yang, T. Jin, Z. Ma, Applied Energy 163: (2016) 201-Laisuo S, Zhang J, Wang C, Zhang Y, Li Z, Yang S, Jin T, Ma Z, Applied Energy, 163 (2016) 201. 15. J. Wu, C. Zhang, Z. Chen, Applied Energy 173: (2016) 134-Wu J, Zhang C, Chen Z, Applied Energy, 173 (2016) 134. 16. D. Wang, F. Yang, K.-L. Tsui, Q. Zhou, S.J. Bae, IEEE Trans Instrument Measurement 65: (2016) 1282-Wang D, Yang F, Tsui K-L, Zhou Q, Bae SJ, IEEE Trans Instrument Measurement, 65 (2016) 1282. 17. Yongshan Zhang, Wu Jia, Chuan Zhou, Zhihua Cai, Pattern Recognition 68: (2017) 52-Yongshan Zhang, Jia Wu, Chuan Zhou, Zhihua Cai, Pattern Recognition, 68(2017) 52. 18. Gao Huang, Guang-Bin Huang, Shiji Song, Keyou You, Neural Networks 61: (2015) 32-Gao Huang, Guang-Bin Huang, Shiji Song, Keyou You, Neural Networks, 61(2015) 32. 19. N.Y. Liang, G.B. Huang, P. Saratchandran, IEEE Transactions on Neural Networks 17: (2006) 1411-N.Y. Liang, G.B. Huang, P. Saratchandran, IEEE Transactions on Neural Networks, 17 (2006) 1411. 20. J.W. Zhao, Z.H. Wang, D.S. Park, Neurocomputing 87: (2012) 79-J.W. Zhao, Z.H. Wang, D.S. Park, Neurocomputing, 87 (2012) 79. 21. USABC electric vehicle Battery Test Procedures Manual, Revision 2, Office of Scientific &amp; Technical Information Technical Reports, (1996), USA. 22. Matthieu Dubarry, CyrilTruchot, MikaÃ«lCugnet, BorYannLiaw, KevinGering, SergiySazhin, David Jamison, Christopher Michelbacher J Power Sources 196: (2011) 10328-Matthieu Dubarry, CyrilTruchot, MikaÃ«lCugnet, BorYannLiaw, KevinGering, SergiySazhin, David Jamison, Christopher Michelbacher, J Power Sources, 196(2011) 10328. 23. Matthieu Dubarry, Cyril Truchot, BorYannLiaw, Kevin Gering, Sergiy Sazhin, David Jamison, Christopher Michelbacher J Power Sources 196: (2011) 10336-Matthieu Dubarry, Cyril Truchot, BorYannLiaw, Kevin Gering, Sergiy Sazhin, David Jamison, Christopher Michelbacher, J Power Sources, 196 (2011) 10336. 24. Yang Gao, Caiping Zhang, Qiujiang Liu, Yan Jiang, Weiqiang Ma (2014) IEEE Transportation Electrification Asia-Pacific Yong Mu 1-Yang Gao, Caiping Zhang, Qiujiang Liu, Yan Jiang, Weiqiang Ma, Yong Mu, IEEE Transportation Electrification Asia-Pacific, (2014) 1. 25. Wu Hongjie, Shifei Yuan, Xi Zhang, Chengliang Yin, Xuerui Ma, J Power Sources 287: (2015) 108-Hongjie Wu, Shifei Yuan, Xi Zhang, Chengliang Yin, Xuerui Ma, J Power Sources, 287 (2015) 108. 26. Yiduo Zhu, Fuwu Yan, Jianqiang Kang, Du Changqing, Ionics (2017) 10.1007/s11581-016-1968-7 Yiduo Zhu, Fuwu Yan, Jianqiang Kang, Changqing Du, Ionics (2017), doi:10.1007/s11581-016-1968-7.   Orchard, Marcos E. Orchard, Jorge F. Silva, IEEE Trans. on Instrumentation and Measurement 62: (2013) 364-Olivares BE, Munoz MAC, Orchard ME, Marcos E. Orchard, Jorge F. Silva, IEEE Trans. on Instrumentation and Measurement, 62 (2013) 364. 6. Jingyue Pang, Yuntong Ma, Datong Liu, Yu Peng, China Science Paper 1: (2014) 28-Jingyue Pang, Yuntong Ma, Datong Liu, Yu Peng, China Science Paper, 1 (2014) 28. 7. Yuanyuan Jiang, Zhu Liu, Hui Luo, Hui Wang, Journal of Electronic Measurement and Instrumentation 2: (2016) 179-Yuanyuan Jiang, Zhu Liu, Hui Luo, Hui Wang, Journal of Electronic Measurement and Instrumentation, 2 (2016) 179. 8. Kevin L. Gering, Electrochimica Acta 228: (2017) 636-Kevin L. Gering, Electrochimica Acta, 228 (2017) 636. 9. Gu Weijun, Zechang Sun, Xuezhe Wei, Haifeng Dai, Electrochimica Acta 133: (2014) 107-Weijun Gu, Zechang Sun, Xuezhe Wei, Haifeng Dai, Electrochimica Acta, 133 (2014) 107. 10. Shrihari Sankarasubramanian, Balaji Krishnamurthy, Electrochimica Acta 70: (2012) 248-Shrihari Sankarasubramanian, Balaji Krishnamurthy, Electrochimica Acta, 70 (2012) 248. 11. H. Wu, S. Yuan, X. Zhang, C. Yin, X</xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <simple-article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.6" docsubtype="fla" xml:lang="en">
+         <item-info>
+            <jid>IJOES</jid>
+            <aid>50109058</aid>
+            <ce:pii>S1452-3981(23)10766-8</ce:pii>
+            <ce:doi>10.20964/2017.07.35</ce:doi>
+            <ce:copyright type="other" year="2017">The Authors. Published by ESG</ce:copyright>
+            <ce:copyright-line>© 2017 The Authors. Published by ESG</ce:copyright-line>
+         </item-info>
+         <simple-head>
+            <ce:title id="ti0005">State of Health Estimation Based on OS-ELM for Lithium-ion Batteries</ce:title>
+            <ce:author-group id="ag0005">
+               <ce:author id="au0005" author-id="S1452398123107668-d65ac56a67ae17e3980eade0ab40624c">
+                  <ce:given-name>Yiduo</ce:given-name>
+                  <ce:surname>Zhu</ce:surname>
+                  <ce:cross-ref refid="af0005" id="cf0005">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="af0010" id="cf0010">
+                     <ce:sup loc="post">2</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="af0015" id="cf0015">
+                     <ce:sup loc="post">3</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0010" author-id="S1452398123107668-03fe30b47a2ca021f327162770f60182">
+                  <ce:given-name>Fuwu</ce:given-name>
+                  <ce:surname>Yan</ce:surname>
+                  <ce:cross-ref refid="af0005" id="cf0020">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="af0010" id="cf0025">
+                     <ce:sup loc="post">2</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0015" author-id="S1452398123107668-80a82547ee20a9883c2e31052b4ac4c7">
+                  <ce:given-name>Jianqiang</ce:given-name>
+                  <ce:surname>Kang</ce:surname>
+                  <ce:cross-ref refid="af0005" id="cf0030">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="af0010" id="cf0035">
+                     <ce:sup loc="post">2</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0020" author-id="S1452398123107668-df7524a68b6ed78a4cb32bebaeb4e5e0">
+                  <ce:given-name>Changqing</ce:given-name>
+                  <ce:surname>Du</ce:surname>
+                  <ce:cross-ref refid="af0005" id="cf0040">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="af0010" id="cf0045">
+                     <ce:sup loc="post">2</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:affiliation id="af0005" affiliation-id="S1452398123107668-be2d6d36ffb490faebba190853390f02">
+                  <ce:label>1</ce:label>
+                  <ce:textfn id="tn0005">Hubei Key Laboratory of Advanced Technology for Automotive Components, Wuhan University of Technology, Wuhan 430070, China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Hubei Key Laboratory of Advanced Technology for Automotive Components</sa:organization>
+                     <sa:organization>Wuhan University of Technology</sa:organization>
+                     <sa:city>Wuhan</sa:city>
+                     <sa:postal-code>430070</sa:postal-code>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="se0005">Hubei Key Laboratory of Advanced Technology for Automotive Components, Wuhan University of Technology, Wuhan 430070, China</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="af0010" affiliation-id="S1452398123107668-4c38d857ba6322a3731ef32353fc47b6">
+                  <ce:label>2</ce:label>
+                  <ce:textfn id="tn0010">Hubei Collaborative Innovation Center for Automotive Components Technology, Wuhan University of Technology, Wuhan 430070, China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Hubei Collaborative Innovation Center for Automotive Components Technology</sa:organization>
+                     <sa:organization>Wuhan University of Technology</sa:organization>
+                     <sa:city>Wuhan</sa:city>
+                     <sa:postal-code>430070</sa:postal-code>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="se0010">Hubei Collaborative Innovation Center for Automotive Components Technology, Wuhan University of Technology, Wuhan 430070, China</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="af0015" affiliation-id="S1452398123107668-32bfdcd5964f0b662dd6ceab419343cb">
+                  <ce:label>3</ce:label>
+                  <ce:textfn id="tn0015">Wuhan Technical College of Communications, Wuhan 430065, China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Wuhan Technical College of Communications</sa:organization>
+                     <sa:city>Wuhan</sa:city>
+                     <sa:postal-code>430065</sa:postal-code>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="se0015">Wuhan Technical College of Communications, Wuhan 430065, China</ce:source-text>
+               </ce:affiliation>
+            </ce:author-group>
+            <ce:date-received day="5" month="4" year="2017"/>
+            <ce:date-accepted day="29" month="4" year="2017"/>
+            <ce:abstract id="ab0005" xml:lang="en" view="all" class="author"><ce:abstract-sec id="as0005" view="all">
+                  <ce:simple-para id="sp0005" view="all">An accurate state of health (SOH) estimation can facilitate the design of reliable battery systems and ensure reliability and safety during battery operation. An effective prediction algorithm is indispensable in performing an accurate SOH estimation. In this study, to solve the problem of obtaining battery capacity fading under the real vehicle state, the discharge time of equal voltage interval is used as the health indicator of the battery. The selection reason of the discharge voltage interval is explained from the aspects of battery mechanism and experimental data. To solve the problem of accuracy and large computation in SOH estimation, an online sequential extreme learning machine is used to predict SOH. The method demonstrates fast learning and generalization performance. The prediction error is less than 1.9%, which proves the accuracy of the method.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="ks0005" view="all" class="keyword">
+               <ce:section-title id="st0005">Keywords</ce:section-title>
+               <ce:keyword id="kw0005">
+                  <ce:text id="tx0005">State of health</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0010">
+                  <ce:text id="tx0010">Extreme learning machine</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0015">
+                  <ce:text id="tx0015">Health indicator</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0020">
+                  <ce:text id="tx0020">Lithium-ion battery</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </simple-head>
+         <simple-tail view="all">
+            <ce:bibliography id="bi0005" view="all">
+               <ce:section-title id="st0010">References</ce:section-title>
+               <ce:bibliography-sec id="bs0005" view="all">
+                  <ce:bib-reference id="bb0005">
+                     <ce:label>1.</ce:label>
+                     <sb:reference id="rf0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Bole</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Kulkarni</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Daigle</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Annual Conference of the Prognostics and Health Management Society</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:date>2014</sb:date>
+                           </sb:book>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0020">Bole B,Kulkarni C, Daigle M, Annual Conference of the Prognostics and Health Management Society, (2014).</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0010">
+                     <ce:label>2.</ce:label>
+                     <sb:reference id="rf0010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.T.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.Y.</ce:given-name>
+                                 <ce:surname>Pang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.B.</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Peng</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Prognostics &amp; System Health Management Conference</sb:maintitle>
+                                 </sb:title>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0025">Liu DT, Pang JY, Zhou JB, Peng Y, IEEE Prognostics &amp; System Health Management Conference, (2012) 1.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0015">
+                     <ce:label>3.</ce:label>
+                     <sb:reference id="rf0015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.B.</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.T.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Peng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.Y.</ce:given-name>
+                                 <ce:surname>Peng</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE International Instrumentation and Measurement Technology Conference</sb:maintitle>
+                                 </sb:title>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2196</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0030">Zhou JB, Liu DT, Peng Y, Peng XY, IEEE International Instrumentation and Measurement Technology Conference, (2012) 2196.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0020">
+                     <ce:label>4.</ce:label>
+                     <sb:reference id="rf0020">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Saha</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Goebel</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>International Journal of Prognostics and Health Management</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>6</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0035">Saha B, Goebel K, International Journal of Prognostics and Health Management, 6 (2011) 1.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0025">
+                     <ce:label>5.</ce:label>
+                     <sb:reference id="rf0025">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>B.E.</ce:given-name>
+                                 <ce:surname>Olivares</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.A.C.</ce:given-name>
+                                 <ce:surname>Munoz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.E.</ce:given-name>
+                                 <ce:surname>Orchard</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Marcos E.</ce:given-name>
+                                 <ce:surname>Orchard</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Jorge F.</ce:given-name>
+                                 <ce:surname>Silva</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans. on Instrumentation and Measurement</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>62</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>364</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0040">Olivares BE, Munoz MAC, Orchard ME, Marcos E. Orchard, Jorge F. Silva, IEEE Trans. on Instrumentation and Measurement, 62 (2013) 364.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0030">
+                     <ce:label>6.</ce:label>
+                     <sb:reference id="rf0030">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Jingyue</ce:given-name>
+                                 <ce:surname>Pang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Yuntong</ce:given-name>
+                                 <ce:surname>Ma</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Datong</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Yu</ce:given-name>
+                                 <ce:surname>Peng</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>China Science Paper</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>1</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>28</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0045">Jingyue Pang, Yuntong Ma, Datong Liu, Yu Peng, China Science Paper, 1 (2014) 28.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0035">
+                     <ce:label>7.</ce:label>
+                     <sb:reference id="rf0035">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Yuanyuan</ce:given-name>
+                                 <ce:surname>Jiang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Zhu</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Hui</ce:given-name>
+                                 <ce:surname>Luo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Hui</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Electronic Measurement and Instrumentation</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>2</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>179</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0050">Yuanyuan Jiang, Zhu Liu, Hui Luo, Hui Wang, Journal of Electronic Measurement and Instrumentation, 2 (2016) 179.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0040">
+                     <ce:label>8.</ce:label>
+                     <sb:reference id="rf0040">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Kevin L.</ce:given-name>
+                                 <ce:surname>Gering</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochimica Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>228</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>636</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0055">Kevin L. Gering, Electrochimica Acta, 228 (2017) 636.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0045">
+                     <ce:label>9.</ce:label>
+                     <sb:reference id="rf0045">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Gu</ce:given-name>
+                                 <ce:surname>Weijun</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Zechang</ce:given-name>
+                                 <ce:surname>Sun</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Xuezhe</ce:given-name>
+                                 <ce:surname>Wei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Haifeng</ce:given-name>
+                                 <ce:surname>Dai</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochimica Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>133</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>107</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0060">Weijun Gu, Zechang Sun, Xuezhe Wei, Haifeng Dai, Electrochimica Acta, 133 (2014) 107.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0050">
+                     <ce:label>10.</ce:label>
+                     <sb:reference id="rf0050">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Shrihari</ce:given-name>
+                                 <ce:surname>Sankarasubramanian</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Balaji</ce:given-name>
+                                 <ce:surname>Krishnamurthy</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochimica Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>70</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>248</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0065">Shrihari Sankarasubramanian, Balaji Krishnamurthy, Electrochimica Acta, 70 (2012) 248.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0055">
+                     <ce:label>11.</ce:label>
+                     <sb:reference id="rf0055">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Yuan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Yin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Ma</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>287</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>108</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0070">Wu H, Yuan S, Zhang X, Yin C, Ma X, J Power Sources, 287 (2015) 108.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0060">
+                     <ce:label>12.</ce:label>
+                     <sb:reference id="rf0060">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Huang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Tao</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>321</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0075">Zhou Y, Huang M, Chen Y, Tao Y, J Power Sources, 321 (2016) 1.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0065">
+                     <ce:label>13.</ce:label>
+                     <sb:reference id="rf0065">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Huang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Microelectron Reliability</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>65</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>265</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0080">Zhou Y, Huang M, Microelectron Reliability, 65 (2016) 265.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0070">
+                     <ce:label>14.</ce:label>
+                     <sb:reference id="rf0070">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Laisuo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Jin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Ma</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Applied Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>163</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>201</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0085">Laisuo S, Zhang J, Wang C, Zhang Y, Li Z, Yang S, Jin T, Ma Z, Applied Energy, 163 (2016) 201.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0075">
+                     <ce:label>15.</ce:label>
+                     <sb:reference id="rf0075">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Applied Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>173</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>134</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0090">Wu J, Zhang C, Chen Z, Applied Energy, 173 (2016) 134.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0080">
+                     <ce:label>16.</ce:label>
+                     <sb:reference id="rf0080">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.-L.</ce:given-name>
+                                 <ce:surname>Tsui</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Q.</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.J.</ce:given-name>
+                                 <ce:surname>Bae</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans Instrument Measurement</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>65</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1282</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0095">Wang D, Yang F, Tsui K-L, Zhou Q, Bae SJ, IEEE Trans Instrument Measurement, 65 (2016) 1282.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0085">
+                     <ce:label>17.</ce:label>
+                     <sb:reference id="rf0085">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Yongshan</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Wu</ce:given-name>
+                                 <ce:surname>Jia</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Chuan</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Zhihua</ce:given-name>
+                                 <ce:surname>Cai</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Pattern Recognition</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>68</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>52</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0100">Yongshan Zhang, Jia Wu, Chuan Zhou, Zhihua Cai, Pattern Recognition, 68(2017) 52.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0090">
+                     <ce:label>18.</ce:label>
+                     <sb:reference id="rf0090">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Gao</ce:given-name>
+                                 <ce:surname>Huang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Guang-Bin</ce:given-name>
+                                 <ce:surname>Huang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Shiji</ce:given-name>
+                                 <ce:surname>Song</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Keyou</ce:given-name>
+                                 <ce:surname>You</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Neural Networks</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>61</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>32</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0105">Gao Huang, Guang-Bin Huang, Shiji Song, Keyou You, Neural Networks, 61(2015) 32.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0095">
+                     <ce:label>19.</ce:label>
+                     <sb:reference id="rf0095">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>N.Y.</ce:given-name>
+                                 <ce:surname>Liang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.B.</ce:given-name>
+                                 <ce:surname>Huang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Saratchandran</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Transactions on Neural Networks</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>17</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1411</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0110">N.Y. Liang, G.B. Huang, P. Saratchandran, IEEE Transactions on Neural Networks, 17 (2006) 1411.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0100">
+                     <ce:label>20.</ce:label>
+                     <sb:reference id="rf0100">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.W.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.H.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.S.</ce:given-name>
+                                 <ce:surname>Park</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Neurocomputing</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>87</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>79</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0115">J.W. Zhao, Z.H. Wang, D.S. Park, Neurocomputing, 87 (2012) 79.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0105">
+                     <ce:label>21.</ce:label>
+                     <ce:other-ref id="or0005">
+                        <ce:textref id="tr0005">USABC electric vehicle Battery Test Procedures Manual, Revision 2, Office of Scientific &amp; Technical Information Technical Reports, (1996), USA.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0110">
+                     <ce:label>22.</ce:label>
+                     <sb:reference id="rf0105">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Matthieu</ce:given-name>
+                                 <ce:surname>Dubarry</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>CyrilTruchot, MikaëlCugnet, BorYannLiaw, KevinGering, SergiySazhin, David Jamison, Christopher Michelbacher</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>196</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>10328</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0120">Matthieu Dubarry, CyrilTruchot, MikaëlCugnet, BorYannLiaw, KevinGering, SergiySazhin, David Jamison, Christopher Michelbacher, J Power Sources, 196(2011) 10328.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0115">
+                     <ce:label>23.</ce:label>
+                     <sb:reference id="rf0110">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Matthieu</ce:given-name>
+                                 <ce:surname>Dubarry</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Cyril</ce:given-name>
+                                 <ce:surname>Truchot</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>BorYannLiaw, Kevin Gering, Sergiy Sazhin, David Jamison, Christopher Michelbacher</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>196</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>10336</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0125">Matthieu Dubarry, Cyril Truchot, BorYannLiaw, Kevin Gering, Sergiy Sazhin, David Jamison, Christopher Michelbacher, J Power Sources, 196 (2011) 10336.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0120">
+                     <ce:label>24.</ce:label>
+                     <sb:reference id="rf0115">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Yang</ce:given-name>
+                                 <ce:surname>Gao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Caiping</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Qiujiang</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Yan</ce:given-name>
+                                 <ce:surname>Jiang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Weiqiang Ma</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:date>2014</sb:date>
+                              <sb:publisher>
+                                 <sb:name>
+                                    <ce:italic>IEEE Transportation Electrification Asia-Pacific</ce:italic>
+                                 </sb:name>
+                                 <sb:location>Yong Mu</sb:location>
+                              </sb:publisher>
+                           </sb:book>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0130">Yang Gao, Caiping Zhang, Qiujiang Liu, Yan Jiang, Weiqiang Ma, Yong Mu, IEEE Transportation Electrification Asia-Pacific, (2014) 1.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0125">
+                     <ce:label>25.</ce:label>
+                     <sb:reference id="rf0120">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Wu</ce:given-name>
+                                 <ce:surname>Hongjie</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Shifei</ce:given-name>
+                                 <ce:surname>Yuan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Xi</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Chengliang</ce:given-name>
+                                 <ce:surname>Yin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Xuerui</ce:given-name>
+                                 <ce:surname>Ma</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>287</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>108</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0135">Hongjie Wu, Shifei Yuan, Xi Zhang, Chengliang Yin, Xuerui Ma, J Power Sources, 287 (2015) 108.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0130">
+                     <ce:label>26.</ce:label>
+                     <sb:reference id="rf0125">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Yiduo</ce:given-name>
+                                 <ce:surname>Zhu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Fuwu</ce:given-name>
+                                 <ce:surname>Yan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Jianqiang</ce:given-name>
+                                 <ce:surname>Kang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Du</ce:given-name>
+                                 <ce:surname>Changqing</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Ionics</sb:maintitle>
+                                 </sb:title>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <ce:doi>10.1007/s11581-016-1968-7</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0140">Yiduo Zhu, Fuwu Yan, Jianqiang Kang, Changqing Du, Ionics (2017), doi:10.1007/s11581-016-1968-7.</ce:source-text>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </simple-tail>
+      </simple-article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

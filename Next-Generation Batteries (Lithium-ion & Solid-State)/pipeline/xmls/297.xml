@@ -1,0 +1,626 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1876610217306355</prism:url><dc:identifier>doi:10.1016/j.egypro.2017.03.583</dc:identifier><eid>1-s2.0-S1876610217306355</eid><prism:doi>10.1016/j.egypro.2017.03.583</prism:doi><pii>S1876-6102(17)30635-5</pii><dc:title>A Neural Network Based State-of-Health Estimation of Lithium-ion Battery in Electric Vehicles </dc:title><prism:publicationName>Energy Procedia</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>18766102</prism:issn><prism:volume>105</prism:volume><prism:startingPage>2059</prism:startingPage><prism:endingPage>2064</prism:endingPage><prism:pageRange>2059-2064</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2017-05-31</prism:coverDate><prism:coverDisplayDate>May 2017</prism:coverDisplayDate><prism:copyright>© 2017 The Author(s). Published by Elsevier Ltd.</prism:copyright><prism:publisher>The Author(s). Published by Elsevier Ltd.</prism:publisher><prism:issueName>8th International Conference on Applied Energy, ICAE2016, 8-11 October 2016, Beijing, China</prism:issueName><dc:creator>Yang, Duo</dc:creator><dc:creator>Wang, Yujie</dc:creator><dc:creator>Pan, Rui</dc:creator><dc:creator>Chen, Ruiyang</dc:creator><dc:creator>Chen, Zonghai</dc:creator><dc:description>
+                  As one of the main promising power sources in electric vehicles (EVs), lithium-ion battery plays an important role in EVs’ power system. Its state-of-health (SOH) estimation is a key technology in the battery management system (BMS). Many battery parameters can reflect the battery's health, like internal resistance, internal capacity, etc. In this paper, we use maximum available capacity to indicate the battery's SOH based on a back propagation (BP) neural network. The main contributions of this paper include: (1) a direct parameter extraction method by HPPC (Hybrid Pulse Power Characterization) test is employed to identify the battery parameters of the first-order equivalent circuit model. (2) The parameters can be used to train the three-layer BP neural network, therefore the structure and parameters including weights and thresholds of the network can be determined. This well-trained neural network is used to estimate the SOH. (3) The static and dynamic current profile tests are carried out to verify the accuracy of the training results of the proposed neural network. The experimental results indicate that the proposed neural network based estimation method can present accuracy and suitability for SOH estimation with low computation cost.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>ElsevierWaived</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>Lithium-ion Battery</dcterms:subject><dcterms:subject>State-of-health</dcterms:subject><dcterms:subject>Parameter Identification</dcterms:subject><dcterms:subject>Neural Networks</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1876610217306355" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1876610217306355" rel="scidir"/></coredata><scopus-id>85020697976</scopus-id><scopus-eid>2-s2.0-85020697976</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85020697976" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>277910</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291711</xocs:ssid>
+         <xocs:ssid type="subj">291731</xocs:ssid>
+         <xocs:ssid type="subj">291877</xocs:ssid>
+         <xocs:ssid type="subj">291892</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Energy Procedia</xocs:srctitle>
+      <xocs:normalized-srctitle>ENERGYPROCEDIA</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20170601">2017-06-01</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20170601">2017-06-01</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20170601">2017-06-01</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20170601">2017-06-01</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2017-06-26T11:27:43</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1876610217306355</xocs:eid>
+      <xocs:pii-formatted>S1876-6102(17)30635-5</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1876610217306355</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.egypro.2017.03.583</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.2</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1876610217X00076</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20240102">2024-01-02T00:49:47.025266Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20170501</xocs:date-search-begin>
+      <xocs:date-search-end>20170531</xocs:date-search-end>
+      <xocs:year-nav>2017</xocs:year-nav>
+      <xocs:indexeddate epoch="1496325104">2017-06-01T13:51:44.910005Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids confeditor contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content oa subj suppl tomb vol volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authkeywords authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1876-6102</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>18766102</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>105</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>105</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 105</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>312</xocs:sort-order>
+      <xocs:first-fp>2059</xocs:first-fp>
+      <xocs:last-lp>2064</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>2059</xocs:first-page>
+         <xocs:last-page>2064</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201705</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>May 2017</xocs:cover-date-text>
+      <xocs:cover-date-start>2017-05-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2017-05-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2017</xocs:cover-date-year>
+      <xocs:title-editors-groups>
+         <xocs:title-editors-group>
+            <ce:title>8th International Conference on Applied Energy, ICAE2016, 8-11 October 2016, Beijing, China</ce:title>
+            <ce:editors>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00076-a63d3c9e8dff28446e4c34246043efb8">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>Jinyue</ce:given-name>
+                     <ce:surname>Yan</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00076-0e0d16642d17f69f0d9ca3e94e9889ce">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>Fengchun</ce:given-name>
+                     <ce:surname>Sun</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00076-1c114c0df2aa89ccd04e4c292d874493">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>SK</ce:given-name>
+                     <ce:surname>Chou</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00076-255c926ec6d74aeedab0c591748b4e15">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>Umberto</ce:given-name>
+                     <ce:surname>Desideri</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00076-3026189c4a9ab4eb895727edd4791cc1">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>Hailong</ce:given-name>
+                     <ce:surname>Li</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00076-1040664e072e46254ee964abc8eec31e">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>Pietro</ce:given-name>
+                     <ce:surname>Campana</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00076-3c70ceda1b544bd8d150712f7405e835">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>Rui</ce:given-name>
+                     <ce:surname>Xiong</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+            </ce:editors>
+         </xocs:title-editors-group>
+      </xocs:title-editors-groups>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>© 2017 The Author(s). Published by Elsevier Ltd.</xocs:copyright-line>
+      <xocs:normalized-article-title>ANEURALNETWORKBASEDSTATEOFHEALTHESTIMATIONLITHIUMIONBATTERYINELECTRICVEHICLES</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>YANG</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>D</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="sbref0005">
+            <xocs:ref-normalized-surname>ARAI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2005</xocs:ref-pub-year>
+            <xocs:ref-first-fp>788</xocs:ref-first-fp>
+            <xocs:ref-last-lp>792</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="oref0010"/>
+         <xocs:ref-info refid="sbref0015">
+            <xocs:ref-normalized-surname>REMMLINGER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>5357</xocs:ref-first-fp>
+            <xocs:ref-last-lp>5363</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0020">
+            <xocs:ref-normalized-surname>TSANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>7</xocs:ref-first-fp>
+            <xocs:ref-last-lp>12</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="oref0025"/>
+         <xocs:ref-info refid="sbref0030">
+            <xocs:ref-normalized-surname>FENG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>209</xocs:ref-first-fp>
+            <xocs:ref-last-lp>218</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="oref0035"/>
+         <xocs:ref-info refid="oref0040"/>
+         <xocs:ref-info refid="sbref0045">
+            <xocs:ref-normalized-surname>BARRE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>680</xocs:ref-first-fp>
+            <xocs:ref-last-lp>689</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="oref0050"/>
+         <xocs:ref-info refid="oref0055"/>
+         <xocs:ref-info refid="oref0060"/>
+         <xocs:ref-info refid="sbref0065">
+            <xocs:ref-normalized-surname>HE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>113</xocs:ref-first-fp>
+            <xocs:ref-last-lp>121</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="oref0070"/>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>YANGX2017X2059</xocs:refkey3>
+         <xocs:refkey4lp>YANGX2017X2059X2064</xocs:refkey4lp>
+         <xocs:refkey4ai>YANGX2017X2059XD</xocs:refkey4ai>
+         <xocs:refkey5>YANGX2017X2059X2064XD</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2017-03-17T00:03:52Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>ElsevierWaived</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/PROC_UNBOUNDED_ESWaived">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY-NC-ND license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2017 The Author(s). Published by Elsevier Ltd.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1876-6102(17)30635-5</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1876610217306355</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1876610217306355</xocs:eid>
+         <xocs:doi>10.1016/j.egypro.2017.03.583</xocs:doi>
+         <xocs:cid>277910</xocs:cid>
+         <xocs:timestamp>2024-01-02T00:49:47.025266Z</xocs:timestamp>
+         <xocs:cover-date-start>2017-05-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2017-05-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1876610217306355-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1876610217306355/MAIN/application/pdf/b083a24c6a9d41a908c32eb99142c678/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1876610217306355/MAIN/application/pdf/b083a24c6a9d41a908c32eb99142c678/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>719369</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>6</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1876610217306355-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1876610217306355/PREVIEW/image/png/f5e55799e763a86a87d56face40dfbe9/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1876610217306355/PREVIEW/image/png/f5e55799e763a86a87d56face40dfbe9/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>64684</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">1876-6102 Â© 2017 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license  (http://creativecommons.org/licenses/by-nc-nd/4.0/). Peer-review under responsibility of the scientific committee of the 8th International Conference on Applied Energy. doi: 10.1016/j.egypro.2017.03.583   Energy Procedia  105 ( 2017 )  2059 â€“ 2064  ScienceDirect *Corresponding author. Tel.: +86 055163606104  Email address: chenzh@ustc.edu.cn.  The 8th International Conference on Applied Energy â€“ ICAE2016  A neural network based state-of-health estimation of  lithium-ion battery in electric vehicles  Duo Yanga, Yujie Wanga, Rui Pana, Ruiyang Chenb, Zonghai Chena*  aDepartment of Automation, University of Science and Technology of China, Hefei 230027, PR China  bSchool of the Gifted Young, University of Science and Technology of China, Hefei 230026, PR China  Abstract  As one of the main promising power sources in electric vehicles (EVs), lithium-ion battery plays an important  role in EVsâ€™ power system. Its state-of-health (SOH) estimation is a key technology in the battery management  system (BMS). Many battery parameters can reflect the batteryâ€™s health, like internal resistance, internal capacity, etc.  In this paper, we use maximum available capacity to indicate the batteryâ€™s SOH based on a back propagation (BP)  neural network. The main contributions of this paper include: (1) a direct parameter extraction method by HPPC  (Hybrid Pulse Power Characterization) test is employed to identify the battery parameters of the first-order equivalent  circuit model. (2) The parameters can be used to train the three-layer BP neural network, therefore the structure and  parameters including weights and thresholds of the network can be determined. This well-trained neural network is  used to estimate the SOH. (3) The static and dynamic current profile tests are carried out to verify the accuracy of the  training results of the proposed neural network. The experimental results indicate that the proposed neural network  based estimation method can present accuracy and suitability for SOH estimation with low computation cost.    Â© 2016 The Authors. Published by Elsevier Ltd.   Selection and/or peer-review under responsibility of ICAE    Keywords: Lithium-ion Battery; State-of-health; Parameter Identification; Neural Networks.  1. Introduction  Electric vehicles (EVs) have been developed rapidly in recent years. The lithium-ion batteries have  become one of the most promising power sources of EVs due to the advantages of high energy density,  environmental protection, long cycle life, etc [1]. As other batteries, issues like aging and fault occur in  lithium-ion batteries as time goes and the batteries are circularly used. In order to ensure efficient and safe  operation, prevent battery from over-charging and over-discharging and extend the lifespan of the  lithium-ion battery system, it is necessary and important to estimate the batteryâ€™s state-of-health (SOH).  However, various ambient temperature, different current profiles, complex driving condition and other  factors all have an influence on the SOH. The unknown weight and nonlinear behavior of each influence  factor make it quite difficult to estimate SOH accurately.  Available online at www.sciencedirect.com Â© 2017 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license  (http://creativecommons.org/licenses/by-nc-nd/4.0/). Peer-review under responsibility of the scientific committee of the 8th International Conference on Applied Energy. 2060   Duo Yang et al. /  Energy Procedia  105 ( 2017 )  2059 â€“ 2064    The variation of SOH is concretely reflected in the variation of internal resistance, capacity and also  some other indicators. Extensive studies have been carried out for the SOH estimation in recent years.  Battery internal resistance has been used to monitor the SOH in Refs.[2][3][4]. These papers analyzed the  relationship between the resistance and capacity, and showed low computational effort and good  robustness, but the disadvantage is that few influence factors are considered. SOH can be estimated by  probabilistic and statistic methods, which are shown in Refs.[5][6]. This type of methods combines  mathematical knowledge with empirical knowledge to construct an empirical or semi-empirical model, it  will cost much time to obtain plenty of experimental data. The neural network (NN) is an effective way to  estimate SOH. Ref.[7] presented a model based on EIS, and describes a method of SOH monitoring,  which uses recurrent neural network to predict the deterioration in battery performance. Ref.[8] used a  probabilistic neural network to estimate SOH, where the parameter identification was not considered,  while it is shown in this paper. The NN is a kind of statistical model which needs large numbers of  experimental data to train in order to acquire ideal results. It doesnâ€™t need to know the accurate  electrochemical reaction and is trained by a learning algorithm repeatedly till the estimation error is less  than the preset threshold.  In this paper, we propose a NN based method to estimate SOH. A direct parameter extraction method  is employed to identify the parameters of the first-order equivalent circuit model (ECM). Then a  three-layer back propagation (BP) neural network is proposed to estimate SOH, whose inputs are the  parameters of the first-order ECM and output is the current value of SOH. Final, experiment is designed  to verify the accuracy of the proposed neural network. The structure of the paper is listed as follows: the  definition of SOH and model introduction including battery model and NN model are given in section 2.  The identification algorithm is introduced in section 3. In section 4, we give the experiment procedure  and verification result of the proposed method. Lastly, the conclusions are discussed in section 5.  2. Model Description  2.1. Definition of SOH  SOH can be defined as the ratio of current maximum available capacity to the nominal capacity which  can be impressed as follows [9]:   100%now new Q SOH Q  u  (1)  where nowQ  represents the maximum available capacity, newQ  represents the nominal capacity. When  SOH drops below 80%, we consider the battery unserviceable because the capacity degradation data  exhibit a trend with exponential decay after crossing the 80% threshold [10].  2.2. Battery Model  The battery models can be generally classified as the electrochemical model [11], the equivalent circuit  model [13][14] and the neural network model [7][8][12].  2.2.1. First-order ECM  The first-order ECM is one of the most popular ECMs used in the batteryâ€™s state estimation. As is  shown in Fig.1 (a), ( )OCV t  represents the open-circuit voltage. ( )LU t  is the terminal voltage of the  battery. ( )pU t  is the voltage of the RC parallel network, ( )LI t  is the total current at time t, which is  positive when battery is charging and negative when discharging. And 0R  represents the ohmic  resistance. The parallel of pR  and pC  indicates the polarization effect.   Duo Yang et al. /  Energy Procedia  105 ( 2017 )  2059 â€“ 2064 2061 2.2.2. Neural Network Model  The NN model is shown in Fig.1 (b), and it consists of three layers: input layer, hidden layer and  output layer. In this model, the inputs are SOC, and the ECM parameters including ohmic resistance 0R ,  polarization resistance pR  and polarization capacity pC . i,jiw  is the matrix of connecting weight from  input layer to hidden layer. i, jlw  is the matrix of connecting weight from hidden layer to output layer.  1b , 2b  are the threshold matrix of hidden layer and output layer, respectively. In this paper, we choose  back propagation neural network (BPNN) to train the input data. The output of this model is expressed in  equation (2).   ( ) purelin( (logsig( )) )SOH t  Â˜ Â˜    1 2lw iw p b b  (2)  ...... SOC(t) R0(t) Rp(t) SOH(t) iw1,1 iw1,2 b1,1 b1,2 b1,j b2,1 f=logsig(iwÂ·p+b1) f1 f2 fj SOH(t)=purelin(lwÂ·f+b2) iw4,j lw1,1 lw2,1 lwj,1 P(1) P(2) P(3) Cp(t) P(4) iw1,3 iw4,2 iw4,1 ...... ...... OCV(t) R0 Rp Cp Up(t) UL(t) IL(t)+ âˆ’   + âˆ’   (a) (b)   Fig.1.(a) First-order ECM. (b) The NN model structure.  3. Parameter Identification  The HPPC test is usually used for model parameter identification and model accuracy verification. The  part graph of HPPC profile in a circle is shown in Fig.3. 0U  in Fig.2 (b) is the voltage of 0R . The ohmic  resistance 0R  can similarly be seen as the ratio of dropout voltage and dropout current when the current  is changed suddenly, which is expressed as equation (3). pR  and pC  can be reflected by the continuous  voltage change after the voltage leaps and they can be estimated by least squares fit. The formula that  needs to fit is shown as equation (4) [14], which only has pR  and pC  two variables:   00 L U R I ' '  (3)   ( 1) exp( ) ( ) ( ) (1 exp( ))p p p L p p p p t t U k U k R I k R C R C  '  '   Â˜   Â˜    (4)  where t'  means sampling time. ( 1)pU k   , ( )pU k  and ( )LI k  are the initial data processed by  discretization.    Fig.2. Part graph of HPPC profile. (a) Current profile. (b) Voltage profile.  2062   Duo Yang et al. /  Energy Procedia  105 ( 2017 )  2059 â€“ 2064  4. Experiment and Result Discussion  4.1 Test Bench and Experiment Design  The test bench is shown in Fig.3 (a). The host computer is used for online experiment control and data  record. The battery test equipment is responsible for charging and discharging the batteries according to  the required current profiles.  We experiment with 10 LiFePO4 batteries in different aging degrees, which type is IFP-1865140. All  batteriesâ€™ reference capacity is 10Ah. The SOH of each battery are shown in Table 1. All the tests were  operated at 25Ä‡. Static capacity tests are taken for getting the current maximum available capacity of the  batteries so that we can compute the value of SOH. The average capacity of the three tests is taken as the  maximum available capacity of the battery. After resting for an hour, a HPPC test is taken to identify  model parameters, whose current profile and SOC variation are shown in Fig.3 (b).  (a) C Host Computer Electronic  Load DC Power SourceLiFePO4 Battery Thermometer Short Circuit Protection (a) (b)   Fig.3. (a) Test bench. (b) Current profile of the HPPC test and the SOC changing curve in the HPPC test.  Table 1. SOH information about all test batteries.  Battery order #1 #2 #3 #4 #5 #6 #7 #8 #9 #10  SOH/% 103.30 99.71 95.90 93.10 74.00 102.90 99.49 95.61 94.30 81.68    4.2 SOH Estimation Analysis  The information of all batteriesâ€™ SOH can be looked up in Table 1. The relationship between model  parameters, SOC and SOH are shown in Fig.4. As we can see in Fig.4 (a), it is easy to conclude that the  ohmic resistance 0R  is increased when SOH is reduced. And when the SOC range is between 20% and  90%, 0R  roughly increases by SOC decreases. But the rules about pR  and pC  are not as clear as 0R .  pR  and pC  change with SOC and SOH in a nonlinear way which we canâ€™t acquire by simple  observation. Since the relationship is difficult to get, BP neural network shown in Fig.2 is needed here to  find the relationship between these inputs and SOH.  For SOH estimation, we use 5 batteries (#1 ~ #5) to train the NN, and other 5 batteries (#6 ~ #10) to  test the estimation accuracy of the NN. The test results are shown in Fig.5. It is noted that SOH is  considered identical in a cyclic. The errors in Fig.5 (b), (d), (f), (h) and (j) equal the amplitude of the  difference values between the estimated values and measures values. From these histograms, we can see  the maximum error is 7.2%, lower than 8%, and most errors are lower than 5%. The average value of  simulation outputs is considered as the current SOH of this battery. The results of SOH by averaged value  calculation are listed in Table 2. On the other hand, for a NN, a large data base and accurate parameter  identification results are needed in the beginning for training a NN. If more data is used to train the NN,  prediction error will be lower.   Duo Yang et al. /  Energy Procedia  105 ( 2017 )  2059 â€“ 2064 2063   Fig.4. (a) Relationship diagram of 0R , SOH and SOC. (b) Relationship diagram of pR , SOH and SOC. (c) Relationship  diagram of pC , SOH and SOC.    (j)   Fig.5. (a),(c),(e),(g),(i): the SOH estimation results of battery #6, #7, #8, #9,#10,respectively. (b),(d),(f),(h),(j): the histograms of  estimation error of battery #6, #7, #8, #9, #10, respectively.  Table 2 Estimation Results about Test Batteries.  Battery Order #6 #7 #8 #9 #10  Measured SOH/% 102.90 99.49 95.61 94.30 81.68  Estimated SOH/% 98.16 98.32 99.98 95.74 81.71  5. Conclusion  A simple method estimating batteryâ€™s SOH based on BP neural network is proposed in this paper. In  this method, with several parameters of the first-order ECM, we can estimate the value of SOH using a  three-layer BP neural network. The proposed method has 3 characteristics: (1) low computation cost (the  computation time of training the NN is 21ms). (2) Low memory requirement. (3) Easy to understand. The  accuracy of result is dependent on the accuracy of identification algorithm, the quantity of training data,  the precision of ECM model which is chosen, the test profiles and etc. The training rate depends on the  2064   Duo Yang et al. /  Energy Procedia  105 ( 2017 )  2059 â€“ 2064  learning algorithm, the numbers of layers and neurons, etc. The error during the work is inevitable  because of the error initial sampling data, algorithm error and the inaccuracy of the NN model. So the  outputs shall be filtered before being used to computing the final SOH value of a battery.  Copyright  Authors keep full copyright over papers published in Energy Procedia.  Acknowledgement  This work is supported by the National Natural Science Fund of China (Grant No. 61375079).  References  [1]. Arai J, Yamaki T, Yamauchi S, et al. Development of a high power lithium secondary battery for hybrid electric vehicles,  Journal of Power Sources, 2005, 146(1): 788-792.  [2]. Galeotti M, Giammanco C, CinÃ  L, et al. Synthetic methods for the evaluation of the State of Health (SOH) of nickel-metal  hydride (NiMH) batteries, Energy Conversion &amp; Management, 2015, 92(7):1â€“9.  [3]. Remmlinger J, Buchholz M, Meiler M, et al. State-of-health monitoring of lithium-ion batteries in electric vehicles by  on-board internal resistance estimation, Journal of Power Sources, 2011, 196(12): 5357-5363.  [4]. Tsang K M, Chan W L. State of health detection for Lithium ion batteries in photovoltaic system, Energy Conversion &amp;  Management, 2013, 65(6):7-12.  [5]. Cheng Y, Lu C, Li T, et al. Residual lifetime prediction for lithium-ion battery based on functional principal component  analysis and Bayesian approach, Energy, 2015, 90:1983-1993.  [6]. Feng X, Li J, Ouyang M, et al. Using probability density function to evaluate the state of health of lithium-ion batteries,  Journal of Power Sources, 2013, 232: 209-218.  [7]. Eddahech A, Briat O, Bertrand N, et al. Behavior and state-of-health monitoring of Li-ion batteries using impedance  spectroscopy and recurrent neural networks, International Journal of Electrical Power &amp; Energy Systems, 2012, 42(1):  487-494.  [8]. Lin H T, Liang T J, Chen S M. Estimation of Battery State of Health Using Probabilistic Neural Network, Industrial  Informatics IEEE Transactions on, 2013, 9(2):679-685.  [9]. BarrÃ© A, Deguilhem B, Grolleau S, et al. A review on lithium-ion battery ageing mechanisms and estimations for automotive  applications, Journal of Power Sources, 2013, 241: 680-689.  [10]. Dubarry M, Liaw B Y. Identify capacity fading mechanism in a commercial LiFePO 4 cell, Journal of Power Sources, 2009,  194(1): 541-549.  [11]. Prasad G K, Rahn C D. Model based identification of aging parameters in lithium ion batteries, Journal of Power Sources,  2013, 232: 79-85.  [12]. Wang Y, Yang D, Zhang X, et al. Probability based remaining capacity estimation using data-driven and neural network  model, Journal of Power Sources, 2016, 315: 199-208.  [13]. He H, Xiong R, Guo H, et al. Comparison study on the battery models used for the energy management of batteries in electric  vehicles, Energy Conversion and Management, 2012, 64: 113-121.  [14]. Liu Z, He H. Sensor fault detection and isolation for a lithium-ion battery pack in electric vehicles using adaptive extended  Kalman filter, Applied Energy, 2015.      Zonghai Chen is a professor and doctoral supervisor of the University of Science  and Technology of China. He has more than 300 refereed publications. His research is  focused on the modeling, simulation and control of complex systems, information  acquisition and control, robotics and intelligent systems.    nclusion  A simple method estimating batteryâ€™s SOH based on BP neural network is proposed in this paper. In  this method, with several parameters of the first-order ECM, we can estimate the value of SOH using a  three-layer BP neural network. The proposed method has 3 characteristics: (1) low computation cost (the  computation time of training the NN is 21ms). (2) Low memory requirement. (3) Easy to understand. The  accuracy of result is dependent on the accuracy of identification algorithm, the quantity of training data,  the precision of ECM model which is chosen, the test profiles and etc. The training rate depends on the  2064   Duo Yang et al. /  Energy Procedia  105 ( 2017 )  2059 â€“ 2064  learning algorithm, the numbers of layers and neurons, etc. The error during the work is inevitable  because of the error initial sampling data, algorithm error and the inaccuracy of the NN model. So the  outputs shall be filtered before being used to computing the final SOH value of a battery.  Copyright  Authors keep full copyright over papers published in Energy Procedia.  Acknowledgement  This work is supported by the National Natural Science Fund of China (Grant No. 61375079).  References  [1]. Arai J, Yamaki T, Yamauchi S, et al. Development of a high power lithium secondary battery for hybrid electric vehicles,  Journal of Power Sources, 2005, 146(1): 788-792.  [2]. Galeotti M, Giammanco C, CinÃ  L, et al. Synthetic methods for the evaluation of the State of Health (SOH) of nickel-metal  hydride (NiMH) batteries, Energy Conversion &amp; Management, 2015, 92(7):1â€“9.  [3]. Remmlinger J, Buchholz M, Meiler M, et al. State-of-health monitoring of lithium-ion batteries in electric vehicles by  on-board internal resistance estimation, Journal of Power Sources, 2011, 196(12): 5357-5363.  [4]. Tsang K M, Chan W L. State of health detection for Lithium ion batteries in photovoltaic system, Energy Conversion &amp;  Management, 2013, 65(6):7-12.  [5]. Cheng Y, Lu C, Li T, et al. Residual lifetime prediction for lithium-ion battery based on functional principal component  analysis and Bayesian approach, Energy, 2015, 90:1983-1993.  [6]. Feng X, Li J, Ouyang M, et al. Using probability density function to evaluate the state of health of lithium-ion batteries,  Journal of Power Sources, 2013, 232: 209-218.  [7]. Eddahech A, Briat O, Bertrand N, et al. Behavior and state-of-health monitoring of Li-ion batteries using impedance  spectroscopy and recurrent neural networks, International Journal of Electrical Power &amp; Energy Systems, 2012, 42(1):  487-494.  [8]. Lin H T, Liang T J, Chen S M. Estimation of Battery State of Health Using Probabilistic Neural Network, Industrial  Informatics IEEE Transactions on, 2013, 9(2):679-685.  [9]. BarrÃ© A, Deguilhem B, Grolleau S, et al. A review on lithium-ion battery ageing mechanisms and estimations for automotive  applications, Journal of Power Sources, 2013, 241: 680-689.  [10]. Dubarry M, Liaw B Y. Identify capacity fading mechanism in a commercial LiFePO 4 cell, Journal of Power Sources, 2009,  194(1): 541-549.  [11]. Prasad G K, Rahn C D. Model based identification of aging parameters in lithium ion batteries, Journal of Power Sources,  2013, 232: 79-85.  [12]. Wang Y, Yang D, Zhang X, et al. Probability based remaining capacity estimation using data-driven and neural network  model, Journal of Power Sources, 2016, 315: 199-208.  [13]. He H, Xiong R, Guo H, et al. Comparison study on the battery models used for the energy management of batteries in electric  vehicles, Ene</xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.4" xml:lang="en" docsubtype="fla">
+         <item-info>
+            <jid>EGYPRO</jid>
+            <aid>29445</aid>
+            <ce:pii>S1876-6102(17)30635-5</ce:pii>
+            <ce:doi>10.1016/j.egypro.2017.03.583</ce:doi>
+            <ce:copyright type="other" year="2017">The Authors</ce:copyright>
+         </item-info>
+         <head>
+            <ce:article-footnote>
+               <ce:label>☆</ce:label>
+               <ce:note-para id="npar0005" view="all">Peer-review under responsibility of the scientific committee of the 8th International Conference on Applied Energy.</ce:note-para>
+            </ce:article-footnote>
+            <ce:title id="tit0005">A Neural Network Based State-of-Health Estimation of Lithium-ion Battery in Electric Vehicles</ce:title>
+            <ce:author-group id="aug0005">
+               <ce:author id="aut0005" author-id="S1876610217306355-0602b92d5578550349d5fb7d0ddaaaee">
+                  <ce:given-name>Duo</ce:given-name>
+                  <ce:surname>Yang</ce:surname>
+                  <ce:cross-ref id="crf0005" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0010" author-id="S1876610217306355-0ef6d649b1ec00e55fdcddeeb9c9bc0e">
+                  <ce:given-name>Yujie</ce:given-name>
+                  <ce:surname>Wang</ce:surname>
+                  <ce:cross-ref id="crf0010" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0015" author-id="S1876610217306355-4217747fbd9def2e5027672be2fee0a2">
+                  <ce:given-name>Rui</ce:given-name>
+                  <ce:surname>Pan</ce:surname>
+                  <ce:cross-ref id="crf0015" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0020" author-id="S1876610217306355-5e6550b2fabfb18bdae0ef307d1b5b0b">
+                  <ce:given-name>Ruiyang</ce:given-name>
+                  <ce:surname>Chen</ce:surname>
+                  <ce:cross-ref id="crf0020" refid="aff0010">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0025" author-id="S1876610217306355-4cbda015b7642a44b92f9d3f465bf2b9">
+                  <ce:given-name>Zonghai</ce:given-name>
+                  <ce:surname>Chen</ce:surname>
+                  <ce:cross-ref id="crf0025" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0030" refid="cor0005">
+                     <ce:sup loc="post">⁎</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:affiliation id="aff0005">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>Department of Automation, University of Science and Technology of China, Hefei 230027, PR China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Automation, University of Science and Technology of China, Hefei 230027, PR China</sa:organization>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff0010">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>School of the Gifted Young, University of Science and Technology of China, Hefei 230026, PR China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>School of the Gifted Young, University of Science and Technology of China, Hefei 230026, PR China</sa:organization>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:correspondence id="cor0005">
+                  <ce:label>⁎</ce:label>
+                  <ce:text>Corresponding author. Tel.: +86 055163606104.</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:abstract id="abs0005" view="all" class="author"><ce:abstract-sec id="abst0005" view="all">
+                  <ce:simple-para id="spar0005" view="all">As one of the main promising power sources in electric vehicles (EVs), lithium-ion battery plays an important role in EVs’ power system. Its state-of-health (SOH) estimation is a key technology in the battery management system (BMS). Many battery parameters can reflect the battery's health, like internal resistance, internal capacity, etc. In this paper, we use maximum available capacity to indicate the battery's SOH based on a back propagation (BP) neural network. The main contributions of this paper include: (1) a direct parameter extraction method by HPPC (Hybrid Pulse Power Characterization) test is employed to identify the battery parameters of the first-order equivalent circuit model. (2) The parameters can be used to train the three-layer BP neural network, therefore the structure and parameters including weights and thresholds of the network can be determined. This well-trained neural network is used to estimate the SOH. (3) The static and dynamic current profile tests are carried out to verify the accuracy of the training results of the proposed neural network. The experimental results indicate that the proposed neural network based estimation method can present accuracy and suitability for SOH estimation with low computation cost.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="kwd0005" class="keyword" view="all">
+               <ce:section-title id="sect0010">Keywords</ce:section-title>
+               <ce:keyword id="kw0005">
+                  <ce:text>Lithium-ion Battery</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0010">
+                  <ce:text>State-of-health</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0015">
+                  <ce:text>Parameter Identification</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0020">
+                  <ce:text>Neural Networks</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <tail view="all">
+            <ce:bibliography id="bibl0005" view="all">
+               <ce:section-title id="sect0020">References</ce:section-title>
+               <ce:bibliography-sec id="bibs0005" view="all">
+                  <ce:bib-reference id="bib0005">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference id="sbref0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Arai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Yamaki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Yamauchi</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Development of a high power lithium secondary battery for hybrid electric vehicles</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>146</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>1</sb:issue-nr>
+                              <sb:date>2005</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>788</sb:first-page>
+                              <sb:last-page>792</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0010">
+                     <ce:label>[2]</ce:label>
+                     <ce:other-ref id="oref0010">
+                        <ce:textref>Galeotti M, Giammanco C, Cinà L, et al. Synthetic methods for the evaluation of the State of Health (SOH) of nickel-metal hydride (NiMH) batteries, <ce:italic>Energy Conversion &amp; Management</ce:italic>, 2015, <ce:bold>92</ce:bold>(7):1-9.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0015">
+                     <ce:label>[3]</ce:label>
+                     <sb:reference id="sbref0015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Remmlinger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Buchholz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Meiler</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>State-of-health monitoring of lithium-ion batteries in electric vehicles by on-board internal resistance estimation</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>196</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>12</sb:issue-nr>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>5357</sb:first-page>
+                              <sb:last-page>5363</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0020">
+                     <ce:label>[4]</ce:label>
+                     <sb:reference id="sbref0020">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.M.</ce:given-name>
+                                 <ce:surname>Tsang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.L.</ce:given-name>
+                                 <ce:surname>Chan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>State of health detection for Lithium ion batteries in photovoltaic system</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy Conversion &amp; Management</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>65</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>6</sb:issue-nr>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>7</sb:first-page>
+                              <sb:last-page>12</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0025">
+                     <ce:label>[5]</ce:label>
+                     <ce:other-ref id="oref0025">
+                        <ce:textref>Cheng Y, Lu C, Li T, et al. Residual lifetime prediction for lithium-ion battery based on functional principal component analysis and Bayesian approach, <ce:italic>Energy</ce:italic>, 2015, <ce:bold>90</ce:bold>:1983-1993.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0030">
+                     <ce:label>[6]</ce:label>
+                     <sb:reference id="sbref0030">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Feng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Ouyang</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Using probability density function to evaluate the state of health of lithium-ion batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>232</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>209</sb:first-page>
+                              <sb:last-page>218</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0035">
+                     <ce:label>[7]</ce:label>
+                     <ce:other-ref id="oref0035">
+                        <ce:textref>Eddahech A, Briat O, Bertrand N, et al. Behavior and state-of-health monitoring of Li-ion batteries using impedance spectroscopy and recurrent neural networks, <ce:italic>International Journal of Electrical Power &amp; Energy Systems</ce:italic>, 2012, <ce:bold>42</ce:bold>(1): 487-494.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0040">
+                     <ce:label>[8]</ce:label>
+                     <ce:other-ref id="oref0040">
+                        <ce:textref>Lin H T, Liang T J, Chen S M. Estimation of Battery State of Health Using Probabilistic Neural Network, <ce:italic>Industrial Informatics IEEE Transactions on</ce:italic>, 2013, <ce:bold>9</ce:bold>(2):679-685.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0045">
+                     <ce:label>[9]</ce:label>
+                     <sb:reference id="sbref0045">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Barré</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Deguilhem</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Grolleau</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A review on lithium-ion battery ageing mechanisms and estimations for automotive applications</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>241</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>680</sb:first-page>
+                              <sb:last-page>689</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0050">
+                     <ce:label>[10]</ce:label>
+                     <ce:other-ref id="oref0050">
+                        <ce:textref>Dubarry M, Liaw B Y. Identify capacity fading mechanism in a commercial LiFePO 4 cell, <ce:italic>Journal of Power Sources</ce:italic>, 2009, <ce:bold>194</ce:bold>(1): 541-549.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0055">
+                     <ce:label>[11]</ce:label>
+                     <ce:other-ref id="oref0055">
+                        <ce:textref>Prasad G K, Rahn C D. Model based identification of aging parameters in lithium ion batteries, <ce:italic>Journal of Power Sources</ce:italic>, 2013, <ce:bold>232</ce:bold>: 79-85.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0060">
+                     <ce:label>[12]</ce:label>
+                     <ce:other-ref id="oref0060">
+                        <ce:textref>Wang Y, Yang D, Zhang X, et al. Probability based remaining capacity estimation using data-driven and neural network model, <ce:italic>Journal of Power Sources</ce:italic>, 2016, <ce:bold>315</ce:bold>: 199-208.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0065">
+                     <ce:label>[13]</ce:label>
+                     <sb:reference id="sbref0065">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Xiong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Guo</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Comparison study on the battery models used for the energy management of batteries in electric vehicles</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy Conversion and Management</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>64</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>113</sb:first-page>
+                              <sb:last-page>121</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0070">
+                     <ce:label>[14]</ce:label>
+                     <ce:other-ref id="oref0070">
+                        <ce:textref>Liu Z, He H. Sensor fault detection and isolation for a lithium-ion battery pack in electric vehicles using adaptive extended Kalman filter, <ce:italic>Applied Energy</ce:italic>, 2015.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

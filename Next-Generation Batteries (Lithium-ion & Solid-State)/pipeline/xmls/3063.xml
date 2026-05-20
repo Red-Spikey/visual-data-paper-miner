@@ -1,0 +1,782 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1876610217307555</prism:url><dc:identifier>doi:10.1016/j.egypro.2017.03.692</dc:identifier><eid>1-s2.0-S1876610217307555</eid><prism:doi>10.1016/j.egypro.2017.03.692</prism:doi><pii>S1876-6102(17)30755-5</pii><dc:title>Online State of Charge and Capacity Dual Estimation with a Multi-timescale Estimator for Lithium-ion Battery </dc:title><prism:publicationName>Energy Procedia</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>18766102</prism:issn><prism:volume>105</prism:volume><prism:startingPage>2953</prism:startingPage><prism:endingPage>2958</prism:endingPage><prism:pageRange>2953-2958</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2017-05-31</prism:coverDate><prism:coverDisplayDate>May 2017</prism:coverDisplayDate><prism:copyright>© 2017 Published by Elsevier Ltd.</prism:copyright><prism:publisher>Published by Elsevier Ltd.</prism:publisher><prism:issueName>8th International Conference on Applied Energy, ICAE2016, 8-11 October 2016, Beijing, China</prism:issueName><dc:creator>Wei, Zhongbao</dc:creator><dc:creator>Xiong, Binyu</dc:creator><dc:creator>Ji, Dongxu</dc:creator><dc:creator>Tseng, King Jet</dc:creator><dc:description>
+                  Reliable online estimation of state of charge (SOC) and capacity is critically important for the battery management system. This paper presents a multi-timescale estimator to dually estimate the SOC and capacity for lithium-ion battery. The first-order RC model is used to simulate the dynamics of lithium-ion battery. Based on the battery model, the open circuit voltage (OCV) is timely updated with a simple OCV, the result of which is further corrected with the Kalman filter (KF). Then the SOC is inferred from the SOC-OCV look-up table. Meanwhile, a RLS-based capacity estimator is formulated to work simultaneously with the SOC estimation in the form of dual estimation. Different timescales are adopted for the dual estimator to improve accuracy and stability. Experimental results suggest that the proposed method estimates SOC and capacity in real time with fast convergence and high precision.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>ElsevierWaived</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>state of charge</dcterms:subject><dcterms:subject>capacity</dcterms:subject><dcterms:subject>dual estimation</dcterms:subject><dcterms:subject>multi-timescale</dcterms:subject><dcterms:subject>battery model</dcterms:subject><dcterms:subject>lithium-ion battery</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1876610217307555" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1876610217307555" rel="scidir"/></coredata><scopus-id>85020709193</scopus-id><scopus-eid>2-s2.0-85020709193</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85020709193" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>277910</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291711</xocs:ssid>
+         <xocs:ssid type="subj">291731</xocs:ssid>
+         <xocs:ssid type="subj">291877</xocs:ssid>
+         <xocs:ssid type="subj">291892</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Energy Procedia</xocs:srctitle>
+      <xocs:normalized-srctitle>ENERGYPROCEDIA</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20170601">2017-06-01</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20170601">2017-06-01</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20170601">2017-06-01</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20170601">2017-06-01</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2017-06-26T11:27:43</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1876610217307555</xocs:eid>
+      <xocs:pii-formatted>S1876-6102(17)30755-5</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1876610217307555</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.egypro.2017.03.692</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.2</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1876610217X00076</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20240102">2024-01-02T00:50:22.567939Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20170501</xocs:date-search-begin>
+      <xocs:date-search-end>20170531</xocs:date-search-end>
+      <xocs:year-nav>2017</xocs:year-nav>
+      <xocs:indexeddate epoch="1496325124">2017-06-01T13:52:04.872036Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids confeditor contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content oa subj suppl tomb vol volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authkeywords authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1876-6102</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>18766102</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>105</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>105</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 105</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>449</xocs:sort-order>
+      <xocs:first-fp>2953</xocs:first-fp>
+      <xocs:last-lp>2958</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>2953</xocs:first-page>
+         <xocs:last-page>2958</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201705</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>May 2017</xocs:cover-date-text>
+      <xocs:cover-date-start>2017-05-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2017-05-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2017</xocs:cover-date-year>
+      <xocs:title-editors-groups>
+         <xocs:title-editors-group>
+            <ce:title>8th International Conference on Applied Energy, ICAE2016, 8-11 October 2016, Beijing, China</ce:title>
+            <ce:editors>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00076-a63d3c9e8dff28446e4c34246043efb8">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>Jinyue</ce:given-name>
+                     <ce:surname>Yan</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00076-0e0d16642d17f69f0d9ca3e94e9889ce">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>Fengchun</ce:given-name>
+                     <ce:surname>Sun</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00076-1c114c0df2aa89ccd04e4c292d874493">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>SK</ce:given-name>
+                     <ce:surname>Chou</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00076-255c926ec6d74aeedab0c591748b4e15">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>Umberto</ce:given-name>
+                     <ce:surname>Desideri</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00076-3026189c4a9ab4eb895727edd4791cc1">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>Hailong</ce:given-name>
+                     <ce:surname>Li</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00076-1040664e072e46254ee964abc8eec31e">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>Pietro</ce:given-name>
+                     <ce:surname>Campana</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610217X00076-3c70ceda1b544bd8d150712f7405e835">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>Rui</ce:given-name>
+                     <ce:surname>Xiong</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+            </ce:editors>
+         </xocs:title-editors-group>
+      </xocs:title-editors-groups>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>© 2017 Published by Elsevier Ltd.</xocs:copyright-line>
+      <xocs:normalized-article-title>ONLINESTATECHARGECAPACITYDUALESTIMATIONAMULTITIMESCALEESTIMATORFORLITHIUMIONBATTERY</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>WEI</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>Z</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="sbref0005">
+            <xocs:ref-normalized-surname>PILLER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2001</xocs:ref-pub-year>
+            <xocs:ref-first-fp>113</xocs:ref-first-fp>
+            <xocs:ref-last-lp>120</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0010">
+            <xocs:ref-normalized-surname>PEREZ</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>834</xocs:ref-first-fp>
+            <xocs:ref-last-lp>845</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0015">
+            <xocs:ref-normalized-surname>WEI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>89</xocs:ref-first-fp>
+            <xocs:ref-last-lp>99</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0020">
+            <xocs:ref-normalized-surname>WEI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-last-lp>10</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0025">
+            <xocs:ref-normalized-surname>PLETT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>277</xocs:ref-first-fp>
+            <xocs:ref-last-lp>292</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0030">
+            <xocs:ref-normalized-surname>WEI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>169</xocs:ref-first-fp>
+            <xocs:ref-last-lp>179</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0035">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>306</xocs:ref-first-fp>
+            <xocs:ref-last-lp>311</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0040">
+            <xocs:ref-normalized-surname>WEI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>332</xocs:ref-first-fp>
+            <xocs:ref-last-lp>341</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0045">
+            <xocs:ref-normalized-surname>WAAG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>321</xocs:ref-first-fp>
+            <xocs:ref-last-lp>339</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0050">
+            <xocs:ref-normalized-surname>ZOU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>793</xocs:ref-first-fp>
+            <xocs:ref-last-lp>803</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="oref0055"/>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>WEIX2017X2953</xocs:refkey3>
+         <xocs:refkey4lp>WEIX2017X2953X2958</xocs:refkey4lp>
+         <xocs:refkey4ai>WEIX2017X2953XZ</xocs:refkey4ai>
+         <xocs:refkey5>WEIX2017X2953X2958XZ</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2017-03-17T00:03:52Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>ElsevierWaived</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/PROC_UNBOUNDED_ESWaived">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY-NC-ND license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2017 Published by Elsevier Ltd.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1876-6102(17)30755-5</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1876610217307555</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1876610217307555</xocs:eid>
+         <xocs:doi>10.1016/j.egypro.2017.03.692</xocs:doi>
+         <xocs:cid>277910</xocs:cid>
+         <xocs:timestamp>2024-01-02T00:50:22.567939Z</xocs:timestamp>
+         <xocs:cover-date-start>2017-05-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2017-05-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1876610217307555-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1876610217307555/MAIN/application/pdf/ed038d49c32df5c96e3cf40bef720f04/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1876610217307555/MAIN/application/pdf/ed038d49c32df5c96e3cf40bef720f04/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>530852</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>6</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1876610217307555-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1876610217307555/PREVIEW/image/png/ea4c0c5d6b3f52d7eb41353413fdb07c/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1876610217307555/PREVIEW/image/png/ea4c0c5d6b3f52d7eb41353413fdb07c/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>58426</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">1876-6102 Â© 2017 Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license  (http://creativecommons.org/licenses/by-nc-nd/4.0/). Peer-review under responsibility of the scientific committee of the 8th International Conference on Applied Energy. doi: 10.1016/j.egypro.2017.03.692   Energy Procedia  105 ( 2017 )  2953 â€“ 2958  ScienceDirect The 8th International Conference on Applied Energy â€“ ICAE2016  Online State of Charge and Capacity Dual Estimation with a  Multi-timescale Estimator for Lithium-ion Battery  Zhongbao Weia, Binyu Xiongb, Dongxu Jia, King Jet Tsenga,*  aSchool of Electrical &amp; Electronic Engineering, Nanyang Technological University, Singapore 639798, Singapore   bSchool of Automation, Wuhan University of Technology, Wuhan 430070, PR China  Abstract  Reliable online estimation of state of charge (SOC) and capacity is critically important for the battery management  system. This paper presents a multi-timescale estimator to dually estimate the SOC and capacity for lithium-ion  battery. The first-order RC model is used to simulate the dynamics of lithium-ion battery. Based on the battery model,  the open circuit voltage (OCV) is timely updated with a simple OCV, the result of which is further corrected with the  Kalman filter (KF). Then the SOC is inferred from the SOC-OCV look-up table. Meanwhile, a RLS-based capacity  estimator is formulated to work simultaneously with the SOC estimation in the form of dual estimation. Different  timescales are adopted for the dual estimator to improve accuracy and stability. Experimental results suggest that the  proposed method estimates SOC and capacity in real time with fast convergence and high precision.    Â© 2016 The Authors. Published by Elsevier Ltd.   Selection and/or peer-review under responsibility of ICAE    Keywords: state of charge, capacity, dual estimation; multi-timescale, battery model, lithium-ion battery;  1. Introduction  Rechargeable battery systems are experiencing rapid advancement due to their pivotal roles in the  modern energy structure. Among different battery technologies, the lithium-ion battery is drawing a vast  amount of attention considering its advantages of high power rating, high energy density, low discharge  rate, and long cycling life. Reliable monitor of state of charge (SOC) and instantaneous capacity is  critically important to achieve safe and efficient operation. Despite their importance, SOC and capacity  determination remains as a challenging task as they are both immeasurable internal states.  The coulomb counting (CC) method is known as an easy way to monitor SOC. However, as an open  loop method, it is quite vulnerable to the noise or drifting on the current sensor. It also depends on a    * Corresponding author. Tel.: +65 6790 4516;  E-mail address: K.J.Tseng@pmail.ntu.edu.sg.  Available online at www.sciencedirect.com Â© 2017 Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license  (http://creativecommons.org/licenses/by-nc-nd/4.0/). Peer-review under responsibility of the scientific committee of the 8th International Conference on Applied Energy. 2954   Zhongbao Wei et al. /  Energy Procedia  105 ( 2017 )  2953 â€“ 2958  precise guess of initial SOC which is not possible in real application [1]. The OCV measurement method  is straightforward from theoretical perspective. However, the OCV can only be measured long time after  current disruption, thus is not realistic in real application [1]. Amongst others, the equivalent circuit model  (ECM) based SOC observers [2-8] have been extensively studied. ECMs are applied to reproduce the  dynamic behavior of battery while adaptive filters are used for online SOC estimation. As a type of data- driven method, the ECM based SOC observer demands only onboard measured data of current and  voltage, thus is quite promising to be adopted in the battery management system (BMS). However, the  instantaneous capacity fades as the battery ages, which will largely degrade the SOC estimation accuracy.  As the capacity is involved in the state equation of most ECM based SOC observers, timely adaption of  capacity is the prerequisite of accurate SOC estimation. Additionally, the capacity is a crucial indicator in  BMS and is a figure of merit describing the state of health (SOH) of battery [9, 10]. Therefore, reliable  method for online capacity estimation is of great importance for battery monitor and state estimate.  In this paper, a multi-timescale estimator is proposed to dually estimate the SOC and capacity in real  time for lithium-ion battery. The OCV is estimated with a simple estimator, followed by the Kalman filter  (KF) based correction. Different timescales are used for the each estimator to improve the model precision  while maintain the numerical stability. The rest of the paper is organized as follows. The battery model  and dual estimation of SOC and capacity are presented in Section 2. The experimental details and result  discussion are described in Section 3. The conclusions are drawn in Section 4.  2. Dual Estimation of SOC and Capacity  2.1. Battery Modeling  The first-order RC model as shown in Fig. 1 is adopted. The voltage source represents the OCV. Rs is  the ohmic resistance. The polarization resistance (Rp) and capacitance (Cp) are used to capture the battery  transient dynamics. Considering the intrinsic nonlinearity, the OCV as a function of SOC is expressed as:  0 ( ) pn i oc i i V f z c z     Â¦                                                   (1)  where z is the SOC, np is the order of polynomial fitting, ci is the polynomial coefficient.      Fig. 1. Schematic of the experimental setup  The electrical behavior of the first-order ECM can be expressed by the following state equations  p p p L p dV V C I dt R                                                         (2)  t oc p L sV V V I R                                                       (3)  where IL is the load current (defined positive for discharge and negative for charge), Vp and Vt are the  polarization voltage and the cell terminal voltage, respectively.   Zhongbao Wei et al. /  Energy Procedia  105 ( 2017 )  2953 â€“ 2958 2955 2.2. SOC Estimation  A simple OCV estimator is firstly introduced. From Eq. (2), the following equation can be written:  ( 1) 1 ( ) ( ) (1 ) ( ) s s s p p p p p p nt t j t n R C R C R C p p s p L s j V t e V t nt e R e I t jt                  Â¦   (4)  where n denotes the onboard sampling interval for OCV estimate. Thus the timescale of SOC estimator is  nts. Substituting Eq. (3) into Eq. (4) yields:  &gt; @ ( 1) 1 ( ) ( ) ( ) ( )             (1 ) ( ) ( ) ( ) s s p p p p s s p p p p nt nt R C R C oc oc s t s L s s t j t n R C R C p L s t L s j V t e V t nt e V t nt I t nt R e R e I t jt V t I t R                                Â¦   (5)  Eq. (5) can be expressed as a linear form as:  ( ) ( ) ( ) ( )Ty t t u t tI H                                                 (6)  where  &gt; @ &gt; @ ( 1) 1 ( ) ( ), ( ) 1 , ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) (1 ) ( ) s s p p p p s s s p p p p p p nt nt R C R C oc oc oc s nt t j t n R C R C R C t L s t s L s s p L s j t V t u t e t e V t V t nt y t V t I t R e V t nt I t nt R e R e I t jt I H                                      Â¦   (7)  Voc(t) is treated as the time varying parameter to be identified. The error term Îµ(t) becomes ignorable as  OCV varies slowly within a short time interval. The simple OCV estimator boils down to solve Eq. (6).  Following that, the OCV output from the simple OCV estimator is corrected with KF. Considering a  constant current IL at time t, the SOC recurrent relationship is expressed as:  ( + ) ( ) ( ) / ( )s L sz t t z t I t t Q tK                                       (8)  where Q(t) denotes the cell capacity with the unit of ampere-seconds, Î· is the coulombic efficiency. By  incorporating Eq. (1) and (8), the OCV at the next time step can be expressed with the form of first-order  Taylor series approximation as:  1 1 ( ) ( ) ( ) ( ) ( ) ( ) pn iL s oc s oc i i I t t V t t V t ic z t w t Q t K           Â¦   (9)  where w(t) is the remainder term, Voc(t) is the state vector while IL(t) is system input. Then Eq. (9) forms  the state transition equation for KF implementation. The system measurement equation is formulated as:  Ë† ( ) ( ) ( )oc ocV t V t tQ                                                    (10)  where Ë† ( )ocV t is the OCV output from the simple OCV estimator, v(t) is the estimation error which is  treated as the measurement noise. With Eq. (9) and (10), the OCV is observable with the KF algorithm.  Following that, the SOC can be inferred directly from the SOC-OCV look-up table. It should be  mentioned that the timescale of SOC estimator should be small to improve the accuracy.  2.3. Capacity Estimation  The follows introduces the capacity estimator which runs in parallel with the SOC estimator. It is  evident from Coulombâ€™s law that:  &gt; @ 1 Ë† Ë†( ) ( ) ( ) ( ) ( ) m L s s q i I t i t t z t z t t Q t E tK   Âª Âº    Â˜     '  Â¬ Â¼Â¦   (11)  2956   Zhongbao Wei et al. /  Energy Procedia  105 ( 2017 )  2953 â€“ 2958  where âˆ†tq is the timescale of the capacity estimator, Ë†( )z t  is the estimated SOC, E(t) is the error term  caused by estimation error.  With the regression model of Eq. (11), Q(t) can be recursively updated with the RLS algorithm [11].  The dual estimator risks at losing stability at the initial stage. To this end, the capacity estimator is  triggered after a certain length of time when the estimated SOC is stable.   It should be noted the âˆ†tq largely determines the estimation performance. Too small âˆ†tq results in a  small regressor thus the capacity estimator is more sensitive to the disturbances brought by the  uncertainties of SOC estimation. In this regard, it is plausible to use different timescales for SOC  estimator and capacity estimator.   3. Experiment and Results  3.1. Test Bench  Experiments are conducted on a Samsung 18650 lithium-ion battery with the nominal capacity of 2200  mAh. The experimental setup is shown schematically in Fig. 2. The current profile is loaded on the test  battery with a battery cycler of NEWARE BTS-3000. The experimental data are collected by the data  acquisition system with a sampling time interval of 1 s and stored in the host computer.      Fig. 2. Schematic of the experimental setup    Fig. 3. Schematic of the experimental setup   Zhongbao Wei et al. /  Energy Procedia  105 ( 2017 )  2953 â€“ 2958 2957 3.2. Modeling Accuracy  The modeling result of terminal voltage is plotted in Fig. 3. As shown, the estimated terminal voltage  almost superimposes the measured data with the prediction error constrained within 10 mV for most of  the time. The maximum error is 28.9 mV which occurs at the end of discharge. The relatively large  prediction error is supposed to be the reason of dramatic change of OCV and resistances in the very low  SOC region. In real applications, however, the battery is seldom operated under such situations in order to  avoid over-discharge. Considering this, the battery model with the proposed parameterization method is  highly reliable for real time output voltage prediction.  3.3. Dual Estimation Result  The result of SOC and capacity dual estimation is shown in Fig. 4. It is shown the estimated SOC  tracks the reference trajectory with fast convergence, high precision, and good robustness to the uncertain  initialization. The estimated capacity also quickly converges to the true value reasonably after the  capacity estimator is triggered. The estimation errors of terminal voltage, OCV, SOC, and capacity are  summarized in Table 1. The statistical summary of the estimation errors are performed after the algorithm  stabilizes from the initial error correction. The results reveal that the multi-timescale dual estimator works  precisely and stably.      Fig. 4. Schematic of the experimental setup  Table 1. Estimation errors of terminal voltage, OCV, SOC, and capacity   Vt (mV) Voc (mV) SOC (%) Capacity (Ah)  RMSE 0.760 5.562 0.745 0.136  Maximum error 28.467 31.208 1.882 0.349  2958   Zhongbao Wei et al. /  Energy Procedia  105 ( 2017 )  2953 â€“ 2958  4. Conclusions  A multi-timescale estimator is proposed to dually estimate the SOC and capacity. A simple OCV  estimator with KF correction is introduced to online update the OCV and thus the SOC. Based on the  online estimated SOC, a RLS-based capacity estimator is designed to work in parallel with the SOC  estimator. Different timescales are used for the dual estimator to enhance accuracy and stability.  Experimental results verify that the proposed method is effective in estimating the SOC and capacity  precisely in real time.  Acknowledgements  This research is funded by National Research Foundation (NRF) from Republic of Singapore through  a grant to the Berkeley Education Alliance for Research in Singapore (BEARS) for the Singapore- Berkeley Building Efficiency and Sustainability in Tropics (SinBerBest) Program.  References  [1] Piller S, Perrin M, Jossen A. Methods for state-of-charge determination and their applications. J. Power Sources 2001; 96:  113-20.  [2] PÃ©rez G, Garmendia M, Reynaud JF, Crego J, Viscarret U. Enhanced closed loop State of Charge estimator for lithium-ion  batteries based on Extended Kalman Filter. Appl. Energy 2015; 155: 834-45.  [3] Wei Z, Zhao J, Skyllas-Kazacos M, Xiong B. Dynamic thermal-hydraulic modeling and stack flow pattern analysis for all- vanadium redox flow battery. J. Power Sources 2014; 260: 89-99.  [4] Wei Z, Zhao J, Xiong B. Dynamic electro-thermal modeling of all-vanadium redox flow battery with forced cooling  strategies. Appl. Energy 2014; 135: 1-10.  [5] Plett GL. Extended Kalman filtering for battery management systems of LiPB-based HEV battery packs: Part 3. State and  parameter estimation. J. Power Sources 2004; 134: 277-92.  [6] Wei Z, Lim TM, Skyllas-Kazacos M, Wai N, Tseng KJ. Online state of charge and model parameter co-estimation based on  a novel multi-timescale estimator for vanadium redox flow battery. Appl. Energy 2016; 172: 169-79.  [7] Wang YJ, Zhang CB, Chen ZH. A method for state-of-charge estimation of LiFePO4 batteries at dynamic currents and  temperatures using particle filter. J Power Sources 2015; 279: 306-11.  [8] Wei Z, Meng S, Xiong B, Ji D, Tseng KJ. Enhanced online model identification and state of charge estimation for lithium- ion battery with a FBCRLS based observer. Appl. Energy 2016; 181: 332-41.  [9] W. Waag, C. Fleischer, D.U. Sauer, Critical review of the methods for monitoring of lithium-ion batteries in electric and  hybrid vehicles, J. Power Sources 258 (2014) 321-339.  [10] Zou Y, Hu X, Ma H, Li SE. Combined State of Charge and State of Health estimation over lithium-ion battery cell cycle  lifespan for electric vehicles. J. Power Sources 2015; 273: 793-803.  [11] Ã…strÃ¶m KJ, Wittenmark B. Adaptive control: Courier Corporation; 2013.    King-Jet Tseng received the B.Eng. (Hons.) and M.Eng. degrees from the National  University of Singapore, and the Ph.D. degree from the University of Cambridge. He has  more than twenty years of academic, research, industrial, and professional experience in  electrical power and energy systems. He is currently an Associate Professor at Nanyang  Technological University.    apacity dual estimation is shown in Fig. 4. It is shown the estimated SOC  tracks the reference trajectory with fast convergence, high precision, and good robustness to the uncertain  initialization. The estimated capacity also quickly converges to the true value reasonably after the  capacity estimator is triggered. The estimation errors of terminal voltage, OCV, SOC, and capacity are  summarized in Table 1. The statistical summary of the estimation errors are performed after the algorithm  stabilizes from the initial error correction. The results reveal that the multi-timescale dual estimator works  precisely and stably.      Fig. 4. Schematic of the experimental setup  Table 1. Estimation errors of terminal voltage, OCV, SOC, and capacity   Vt (mV) Voc (mV) SOC (%) Capacity (Ah)  RMSE 0.760 5.562 0.745 0.136  Maximum error 28.467 31.208 1.882 0.349  2958   Zhongbao Wei et al. /  Energy Procedia  105 ( 2017 )  2953 â€“ 2958  4. Conclusions  A multi-timescale estimato</xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.4" xml:lang="en" docsubtype="fla">
+         <item-info>
+            <jid>EGYPRO</jid>
+            <aid>29582</aid>
+            <ce:pii>S1876-6102(17)30755-5</ce:pii>
+            <ce:doi>10.1016/j.egypro.2017.03.692</ce:doi>
+            <ce:copyright type="unknown" year="2017"/>
+         </item-info>
+         <head>
+            <ce:article-footnote>
+               <ce:label>☆</ce:label>
+               <ce:note-para id="npar0005" view="all">Peer-review under responsibility of the scientific committee of the 8th International Conference on Applied Energy.</ce:note-para>
+            </ce:article-footnote>
+            <ce:title id="tit0005">Online State of Charge and Capacity Dual Estimation with a Multi-timescale Estimator for Lithium-ion Battery</ce:title>
+            <ce:author-group id="aug0005">
+               <ce:author id="aut0005" author-id="S1876610217307555-0c1cbc446978bf27e93c096b9b2b5068">
+                  <ce:given-name>Zhongbao</ce:given-name>
+                  <ce:surname>Wei</ce:surname>
+                  <ce:cross-ref id="crf0005" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0010" author-id="S1876610217307555-525a4bff37a2da016e53ce1724e3cc85">
+                  <ce:given-name>Binyu</ce:given-name>
+                  <ce:surname>Xiong</ce:surname>
+                  <ce:cross-ref id="crf0010" refid="aff0010">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0015" author-id="S1876610217307555-2e9455c3daf311237e7c4ac9ee9e4ae2">
+                  <ce:given-name>Dongxu</ce:given-name>
+                  <ce:surname>Ji</ce:surname>
+                  <ce:cross-ref id="crf0015" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0020" author-id="S1876610217307555-0b46cc0bc5b5698a15355370e44fff41">
+                  <ce:given-name>King Jet</ce:given-name>
+                  <ce:surname>Tseng</ce:surname>
+                  <ce:cross-ref id="crf0020" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0025" refid="cor0005">
+                     <ce:sup loc="post">⁎</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:affiliation id="aff0005">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>School of Electrical &amp; Electronic Engineering, Nanyang Technological University, Singapore 639798, Singapore</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>School of Electrical &amp; Electronic Engineering, Nanyang Technological University, Singapore 639798</sa:organization>
+                     <sa:country>Singapore</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff0010">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>School of Automation, Wuhan University of Technology, Wuhan 430070, PR China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>School of Automation, Wuhan University of Technology, Wuhan 430070</sa:organization>
+                     <sa:country>PR China</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:correspondence id="cor0005">
+                  <ce:label>⁎</ce:label>
+                  <ce:text>Corresponding author. Tel.: +65 6790 4516.</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:abstract id="abs0005" view="all" class="author"><ce:abstract-sec id="abst0005" view="all">
+                  <ce:simple-para id="spar0005" view="all">Reliable online estimation of state of charge (SOC) and capacity is critically important for the battery management system. This paper presents a multi-timescale estimator to dually estimate the SOC and capacity for lithium-ion battery. The first-order RC model is used to simulate the dynamics of lithium-ion battery. Based on the battery model, the open circuit voltage (OCV) is timely updated with a simple OCV, the result of which is further corrected with the Kalman filter (KF). Then the SOC is inferred from the SOC-OCV look-up table. Meanwhile, a RLS-based capacity estimator is formulated to work simultaneously with the SOC estimation in the form of dual estimation. Different timescales are adopted for the dual estimator to improve accuracy and stability. Experimental results suggest that the proposed method estimates SOC and capacity in real time with fast convergence and high precision.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="kwd0005" class="keyword" view="all">
+               <ce:section-title id="sect0010">Keywords</ce:section-title>
+               <ce:keyword id="kw0005">
+                  <ce:text>state of charge</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0010">
+                  <ce:text>capacity</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0015">
+                  <ce:text>dual estimation</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0020">
+                  <ce:text>multi-timescale</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0025">
+                  <ce:text>battery model</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0030">
+                  <ce:text>lithium-ion battery</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <tail view="all">
+            <ce:bibliography id="bibl0005" view="all">
+               <ce:section-title id="sect0020">References</ce:section-title>
+               <ce:bibliography-sec id="bibs0005" view="all">
+                  <ce:bib-reference id="bib0005">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference id="sbref0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Piller</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Perrin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Jossen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Methods for state-of-charge determination and their applications</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>96</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2001</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>113</sb:first-page>
+                              <sb:last-page>120</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0010">
+                     <ce:label>[2]</ce:label>
+                     <sb:reference id="sbref0010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Pérez</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Garmendia</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.F.</ce:given-name>
+                                 <ce:surname>Reynaud</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Crego</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>U.</ce:given-name>
+                                 <ce:surname>Viscarret</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Enhanced closed loop State of Charge estimator for lithium-ion batteries based on Extended Kalman Filter</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>155</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>834</sb:first-page>
+                              <sb:last-page>845</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0015">
+                     <ce:label>[3]</ce:label>
+                     <sb:reference id="sbref0015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Wei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Skyllas-Kazacos</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Xiong</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Dynamic thermal-hydraulic modeling and stack flow pattern analysis for all-vanadium redox flow battery</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>260</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>89</sb:first-page>
+                              <sb:last-page>99</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0020">
+                     <ce:label>[4]</ce:label>
+                     <sb:reference id="sbref0020">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Wei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Xiong</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Dynamic electro-thermal modeling of all-vanadium redox flow battery with forced cooling strategies</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>135</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                              <sb:last-page>10</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0025">
+                     <ce:label>[5]</ce:label>
+                     <sb:reference id="sbref0025">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.L.</ce:given-name>
+                                 <ce:surname>Plett</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Extended Kalman filtering for battery management systems of LiPB-based HEV battery packs: Part 3. State and parameter estimation</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>134</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>277</sb:first-page>
+                              <sb:last-page>292</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0030">
+                     <ce:label>[6]</ce:label>
+                     <sb:reference id="sbref0030">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Wei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.M.</ce:given-name>
+                                 <ce:surname>Lim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Skyllas-Kazacos</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Wai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.J.</ce:given-name>
+                                 <ce:surname>Tseng</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Online state of charge and model parameter co-estimation based on a novel multi-timescale estimator for vanadium redox flow battery</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>172</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>169</sb:first-page>
+                              <sb:last-page>179</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0035">
+                     <ce:label>[7]</ce:label>
+                     <sb:reference id="sbref0035">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.J.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.B.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.H.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A method for state-of-charge estimation of LiFePO4 batteries at dynamic currents and temperatures using particle filter</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>279</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>306</sb:first-page>
+                              <sb:last-page>311</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0040">
+                     <ce:label>[8]</ce:label>
+                     <sb:reference id="sbref0040">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Wei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Meng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Xiong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Ji</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.J.</ce:given-name>
+                                 <ce:surname>Tseng</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Enhanced online model identification and state of charge estimation for lithium-ion battery with a FBCRLS based observer</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>181</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>332</sb:first-page>
+                              <sb:last-page>341</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0045">
+                     <ce:label>[9]</ce:label>
+                     <sb:reference id="sbref0045">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Waag</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Fleischer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.U.</ce:given-name>
+                                 <ce:surname>Sauer</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Critical review of the methods for monitoring of lithium-ion batteries in electric and hybrid vehicles</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>258</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>321</sb:first-page>
+                              <sb:last-page>339</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0050">
+                     <ce:label>[10]</ce:label>
+                     <sb:reference id="sbref0050">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Zou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Hu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Ma</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.E.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Combined State of Charge and State of Health estimation over lithium-ion battery cell cycle lifespan for electric vehicles</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>273</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>793</sb:first-page>
+                              <sb:last-page>803</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0055">
+                     <ce:label>[11]</ce:label>
+                     <ce:other-ref id="oref0055">
+                        <ce:textref>Åström KJ, Wittenmark B. Adaptive control: Courier Corporation; 2013.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

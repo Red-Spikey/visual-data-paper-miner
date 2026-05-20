@@ -1,0 +1,480 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1876610218313298</prism:url><dc:identifier>doi:10.1016/j.egypro.2018.12.034</dc:identifier><eid>1-s2.0-S1876610218313298</eid><prism:doi>10.1016/j.egypro.2018.12.034</prism:doi><pii>S1876-6102(18)31329-8</pii><dc:title>Online estimation for parameters and state-of-charge of LiMn2O2 batteries with a modified adaptive Kalman filter </dc:title><prism:publicationName>Energy Procedia</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>18766102</prism:issn><prism:volume>159</prism:volume><prism:startingPage>497</prism:startingPage><prism:endingPage>502</prism:endingPage><prism:pageRange>497-502</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2019-02-28</prism:coverDate><prism:coverDisplayDate>February 2019</prism:coverDisplayDate><prism:copyright>© 2018 Published by Elsevier Ltd.</prism:copyright><prism:publisher>Published by Elsevier Ltd.</prism:publisher><prism:issueName>Renewable Energy Integration with Mini/Microgrid</prism:issueName><dc:creator>Zhang, Zheng</dc:creator><dc:creator>Li, Shuangqi</dc:creator><dc:creator>Li, Jianwei</dc:creator><dc:creator>He, Hongwen</dc:creator><dc:description>
+                  The accurate estimation for parameters and state-of-charge (SOC) is very important for the state monitoring and optimization in battery management system. This paper introduces an online estimation method with modified Kalman filter, where two contributions are added comparing related battery-application literature: (1) In order to improve the robustness to systematic noise brought by varying current loads and condition, an adaptive law is introduced to calibrate the noise covariance recursively. (2) To enhance the numerical stability over covariance propagating, a modified square-root procedure is derived by using sequential measurement update and the Potter algorithm. Besides, a test bench with a series-connected battery pack of 10 LiMn2O2 cells is used to evaluate the algorithm. The experimental results indicate both a better precision comparing the offline result, and the maximum error for the overall SOC is less than 2%.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>ElsevierWaived</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>Lithium-ion battery</dcterms:subject><dcterms:subject>State-of-charge</dcterms:subject><dcterms:subject>Online estimation</dcterms:subject><dcterms:subject>square root</dcterms:subject><dcterms:subject>Adaptive extended Kalman filter</dcterms:subject><dcterms:subject>Experiments</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1876610218313298" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1876610218313298" rel="scidir"/></coredata><objects><object ref="am" category="standard" type="AAM-PDF" multimediatype="Acrobat PDF file" mimetype="application/pdf" size="542024">https://api.elsevier.com/content/object/eid/1-s2.0-S1876610218313298-am.pdf?httpAccept=%2A%2F%2A</object></objects><scopus-id>85063792031</scopus-id><scopus-eid>2-s2.0-85063792031</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85063792031" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>277910</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291711</xocs:ssid>
+         <xocs:ssid type="subj">291731</xocs:ssid>
+         <xocs:ssid type="subj">291877</xocs:ssid>
+         <xocs:ssid type="subj">291892</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Energy Procedia</xocs:srctitle>
+      <xocs:normalized-srctitle>ENERGYPROCEDIA</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20190315">2019-03-15</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20190315">2019-03-15</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20190315">2019-03-15</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20190315">2019-03-15</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2019-10-11T19:56:20</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1876610218313298</xocs:eid>
+      <xocs:pii-formatted>S1876-6102(18)31329-8</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1876610218313298</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.egypro.2018.12.034</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.3</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1876610219X00053</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20240102">2024-01-02T00:54:10.318308Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20190201</xocs:date-search-begin>
+      <xocs:date-search-end>20190228</xocs:date-search-end>
+      <xocs:year-nav>2019</xocs:year-nav>
+      <xocs:indexeddate epoch="1552671304">2019-03-15T17:35:04.891803Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids confeditor contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content oa subj suppl tomb vol volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authkeywords authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1876-6102</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>18766102</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>159</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>159</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 159</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>82</xocs:sort-order>
+      <xocs:first-fp>497</xocs:first-fp>
+      <xocs:last-lp>502</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>497</xocs:first-page>
+         <xocs:last-page>502</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201902</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>February 2019</xocs:cover-date-text>
+      <xocs:cover-date-start>2019-02-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2019-02-28</xocs:cover-date-end>
+      <xocs:cover-date-year>2019</xocs:cover-date-year>
+      <xocs:title-editors-groups>
+         <xocs:title-editors-group>
+            <ce:title id="tt001">Renewable Energy Integration with Mini/Microgrid</ce:title>
+            <ce:editors>
+               <ce:author-group id="aa001">
+                  <ce:author author-id="S1876610219X00053-a63d3c9e8dff28446e4c34246043efb8" id="aa002">
+                     <ce:given-name>Jinyue</ce:given-name>
+                     <ce:surname>Yan</ce:surname>
+                  </ce:author>
+                  <ce:author author-id="S1876610219X00053-b554f21bc6f94ebf1d61a71946e5b215" id="aa003">
+                     <ce:given-name>John K.</ce:given-name>
+                     <ce:surname>Kaldellis</ce:surname>
+                  </ce:author>
+                  <ce:author author-id="S1876610219X00053-44e671da831bfe2261ae4f800801fe72" id="aa004">
+                     <ce:given-name>Pietro Elia</ce:given-name>
+                     <ce:surname>Campana</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+            </ce:editors>
+         </xocs:title-editors-group>
+      </xocs:title-editors-groups>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>© 2018 Published by Elsevier Ltd.</xocs:copyright-line>
+      <xocs:normalized-article-title>ONLINEESTIMATIONFORPARAMETERSSTATEOFCHARGELIMN2O2BATTERIESAMODIFIEDADAPTIVEKALMANFILTER</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>ZHANG</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>Z</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="sbref0001">
+            <xocs:ref-normalized-surname>LIU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0002">
+            <xocs:ref-normalized-surname>HU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>359</xocs:ref-first-fp>
+            <xocs:ref-last-lp>367</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0003">
+            <xocs:ref-normalized-surname>DAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>OPTIMALSTATEESTIMATIONKALMANHNONLINEARAPPROACHES</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0004">
+            <xocs:ref-normalized-surname>DING</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2007</xocs:ref-pub-year>
+            <xocs:ref-first-fp>517</xocs:ref-first-fp>
+            <xocs:ref-last-lp>529</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0005">
+            <xocs:ref-normalized-surname>XIONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>159</xocs:ref-first-fp>
+            <xocs:ref-last-lp>169</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0006">
+            <xocs:ref-normalized-surname>HE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>413</xocs:ref-first-fp>
+            <xocs:ref-last-lp>420</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>ZHANGX2019X497</xocs:refkey3>
+         <xocs:refkey4lp>ZHANGX2019X497X502</xocs:refkey4lp>
+         <xocs:refkey4ai>ZHANGX2019X497XZ</xocs:refkey4ai>
+         <xocs:refkey5>ZHANGX2019X497X502XZ</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2018-12-29T00:32:56Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>ElsevierWaived</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/PROC_UNBOUNDED_ESWaived">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY-NC-ND license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2018 Published by Elsevier Ltd.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:funding-list has-funding-info="1">
+         <xocs:funding-addon-generated-timestamp>2019-04-08T21:24:37.736Z</xocs:funding-addon-generated-timestamp>
+         <xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type>
+      </xocs:funding-list>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1876-6102(18)31329-8</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1876610218313298</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1876610218313298</xocs:eid>
+         <xocs:doi>10.1016/j.egypro.2018.12.034</xocs:doi>
+         <xocs:cid>277910</xocs:cid>
+         <xocs:timestamp>2024-01-02T00:54:10.318308Z</xocs:timestamp>
+         <xocs:cover-date-start>2019-02-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2019-02-28</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1876610218313298-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1876610218313298/MAIN/application/pdf/6f02ef6ce1652ee30df28a5de89ffd1a/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>1325817</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>6</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1876610218313298-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1876610218313298/PREVIEW/image/png/10fb5e97d2acd79b3c860d6667d7a74a/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>45565</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1876610218313298-am.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10PQM0SKJM7/MAIN/application/pdf/102dd3f6317d1f1643a1f7331f5b4efa/am.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:10PQM0SKJM7/MAIN/application/pdf/102dd3f6317d1f1643a1f7331f5b4efa/am.pdf</xocs:ucs-locator>
+               <xocs:file-basename>am</xocs:file-basename>
+               <xocs:filename>am.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>false</xocs:pdf-optimized>
+               <xocs:filesize>542024</xocs:filesize>
+               <xocs:attachment-type>AAM-PDF</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">ScienceDirect Available online at www.sciencedirect.comAvailable online at w.sciencedirect.com ScienceDirect Energy Procedia 00 (2017) 000â€“000 www.elsevier.com/locate/procedia 1876-6102 Â© 2017 The Authors. Published by Elsevier Ltd. Peer-review under responsibility of the Scientific Committee of The 15th International Symposium on District Heating and Cooling. The 15th International Symposium on District Heating and Cooling Assessing the feasibility of using the heat demand-outdoor  temperature function for a long-term district heat demand forecast I. AndriÄ‡a,b,c*, A. Pinaa, P. FerrÃ£oa, J. Fournierb., B. LacarriÃ¨rec, O. Le Correc aIN+ Center for Innovation, Technology and Policy Research - Instituto Superior TÃ©cnico, Av. Rovisco Pais 1, 1049-001 Lisbon, Portugal bVeolia Recherche &amp; Innovation, 291 Avenue Dreyfous Daniel, 78520 Limay, France cDÃ©partement SystÃ¨mes Ã‰nergÃ©tiques et Environnement - IMT Atlantique, 4 rue Alfred Kastler, 44300 Nantes, France Abstract District heating networks are commonly addressed in the literature as one of the most effective solutions for decreasing the  greenhouse gas emissions from the building sector. These systems require high investments which are returned through the heat sales. Due to the changed climate conditions and building renovation policies, heat demand in the future could decrease,  prolonging the investment return period.  The main scope of this paper is to assess the feasibility of using the heat demand â€“ outdoor temperature function for heat demand  forecast. The district of Alvalade, located in Lisbon (Portugal), was used as a case study. The district is consisted of 665  buildings that vary in both construction period and typology. Three weather scenarios (low, medium, high) and three district  renovation scenarios were developed (shallow, intermediate, deep). To estimate the error, obtained heat demand values were  compared with results from a dynamic heat demand model, previously developed and validated by the authors. The results showed that when only weather change is considered, the margin of error could be acceptable for some applications (the error in annual demand was lower than 20% for all weather scenarios considered). However, after introducing renovation  scenarios, the error value increased up to 59.5% (depending on the weather and renovation scenarios combination considered).  The value of slope coefficient increased on average within the range of 3.8% up to 8% per decade, that corresponds to the  decrease in the number of heating hours of 22-139h during the heating season (depending on the combination of weather and  renovation scenarios considered). On the other hand, function intercept increased for 7.8-12.7% per decade (depending on the  coupled scenarios). The values suggested could be used to modify the function parameters for the scenarios considered, and  improve the accuracy of heat demand estimations. Â© 2017 The Authors. Published by Elsevier Ltd. Peer-review under responsibility of the Scientific Committee of The 15th International Symposium on District Heating and  Cooling. Keywords: Heat demand; Forecast; Climate change Energy Procedia 159 ( 9) 497 5 2 1876-6102 Â© 2019 The Authors. Published by Elsevier Ltd. This is an open access article under the CC-BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0/) Selection and peer-review under responsibility of the scientific committee of the Applied Energy Symposium and Forum, Renewable Energy  Integration with Mini/Microgrids, REM 2018. 10.1016/j.egypro.2018.12.034 10.1016/j.egypro.2018.12.034 Â© 2019 The Auth rs. Published by Els vier Ltd. This is an open access article under the CC-BY-NC-ND license (https://creativecommon .org/licenses/by-nc-nd/4.0/) Selection and peer-review under resp sibility of the scientific committee of the Applied Energy Symposium and Forum,  Renewable Energy Integration with Mini/Microgrids, REM 2018. 1876-6102 Available online at www.sciencedirect.com ScienceDirect Energy Procedia 00 (2018) 000â€“000 www.elsevier.com/locate/procedia 1876-6102 Copyright Â© 2018 Elsevier Ltd. All rights reserved. Selection and peer-review under responsibility of the scientific committee of the Applied Energy Symposium and Forum, Renewable Energy  Integration with Mini/Microgrids, REM 2018. Applied Energy Symposium and Forum, Renewable Energy Integration with Mini/Microgrids,  REM 2018, 29â€“30 September 2018, Rhodes, Greece Online estimation for parameters and state-of-charge f LiMn2O2 batteries with a modified adaptive Kalman filter Zheng Zhang, Shuangqi Li, Jianwei Li, Hongwen He* National Engineering Laboratory for Electric Vehicles, School of Mechanical Engineering, Beijing Institute of Technology, Beijing 100081,  China Abstract The accurate estimation for parameters and state-of-charge (SOC) is very important for the state monitoring and optimization in  battery management system. This paper introduces an online estimation method with modified Kalman filter, where two  contributions are added comparing related battery-application literature: (1) In order to improve the robustness to systematic noise  brought by varying current loads and condition, an adaptive law is introduced to calibrate the noise covariance recursively. (2) To  enhance the numerical stability over covariance propagating, a modified square-root procedure is derived by using sequential  measurement update and the Potter algorithm. Besides, a test bench with a series-connected battery pack of 10 LiMn2O2 cells is  used to evaluate the algorithm. The experimental results indicate both a better precision comparing the offline result, and the  maximum error for the overall SOC is less than 2%. Copyright Â© 2018 Elsevier Ltd. All rights reserved. Selection and peer-review under responsibility of the scientific committee of the Applied Energy Symposium and Forum,  Renewable Energy Integration with Mini/Microgrids, REM 2018. Keywords: Lithium-ion battery; State-of-charge; Online estimation; square root; Adaptive extended Kalman filter; Experiments; 1. Introduction To address the two urgent tasks nowadays of protecting the environment and achieving energy sustainability, the  lithium-ion battery is widely used in many fields due to its advantage of zero-emission, long cycle-life and high energy density. One of the typical applications is the scenery for electric vehicle. Usually hundreds of battery cells are  * Corresponding author. Tel.: +86-010-68914842; fax: +86-010-68914842.. E-mail address: hwhebit@bit.edu.cn il l li i i      . .      .   .              ,      ,  .      ,    ,    ,  ,                . .    ..  . . 498 Zheng Zhang et al. / Energy Procedia 159 (2019) 497â€“502 2 Author name / Energy Procedia 00 (2018) 000â€“000 parallely-/serially- connected and grouped into a pack, which relies on a powerful battery management system (BMS)  to balance the diversity of heat/energy. Where, some states/parameters, like state of charge/power/health (SOC/P/H),  open-circuit voltage (OCV) and equivalent internal resistance, could provide essential information to the  charge/discharge controlling and health monitoring. However, itâ€™s hard to measure them accurately considering the  strong nonlinearity and time-varying property of battery, especially under varying loads and environments. Thus, it  has to propose an online estimation scheme for states and parameters in the practical application. It has been proved that the Ohmic and polarization effects increase at the two-end of the energy expenditure, thus  fitting error would be enlarged due to the model parameters variation, and many offline optimizations are time-costing  and hard to take loads and environments into consideration [1]. On the other hand, during the Kalman filterâ€™s  application, the covariance is better to be estimated online, although some adaptive laws are presented, mostly the  robustness is not stable, the reason could be owing to the numerical stability and the degradation caused by the  modification. Consequently, an online adaptive estimation for state and parameters with high numerical stability is  very essential for the battery application. In this paper, a modified adaptive Kalman filter is proposed and implemented on the online estimation for the OCV,  equivalent resistance and the other model parameters of 41V/36.6Ah LiMn2O2 battery module. Several typical test  are carried out as load profiles on the battery test bench, by which the algorithm is verified through comparisons  between the online and offline error calculation. Besides, the SOC estimation is conducted according to the identified  OCV and OCV-SOC characteristic curve, and the error analysis turns out a good precision by experiments and  comparisons with the true values of SOC. 2. Modeling for the LiFeMnO4-battery module In Ref [2], seven different battery models are introduced and evaluated on the fitting effect. Here we select Thevenin  model due to its remarkable relaxation effect of the lithium-ion battery. Its schematic diagram is shown in Fig.1, and  the electrical behavior of the proposed model is expressed by Eq. (1). Fig. 1 The schematic diagram of the Thevenin model Fig. 2 The schematic of the battery test bench 0 1 1 t OCV P L p P L p p p U U U R I U U I R C C = âˆ’ âˆ’ï£± ï£´ ï£² = âˆ’ +ï£´ ï£³ ï€¦ (1) , , 0 , , , 1 , 1 (1 ) s s p p p p t i OCV p i L i T T R C R C p i p i p L i U U U R I U e U R I e âˆ’ âˆ’ âˆ’ âˆ’ = âˆ’ âˆ’ï£± ï£´ ï£² ï£´ = + âˆ’ï£³ (2) Where ð��¼ð��¼ð��¼ð��¼ð��¿ð��¿ð��¿ð��¿ is the load current with a positive value at discharge and a negative value at charge , ð�‘…ð�‘…ð�‘…ð�‘…0 is the batteryâ€™s  ohmic resistance, ð�‘…ð�‘…ð�‘…ð�‘…ð�‘�ð�‘�ð�‘�ð�‘�, ð��¶ð��¶ð��¶ð��¶ð�‘�ð�‘�ð�‘�ð�‘� are the equivalent polarization resistance and capacitance respectively. The batteryâ€™s OCV  is denoted by ð�‘ˆð�‘ˆð�‘ˆð�‘ˆð�‘œð�‘œð�‘œð�‘œð�‘œð�‘œð�‘œð�‘œð�‘œð�‘œð�‘œð�‘œ , ð�‘ˆð�‘ˆð�‘ˆð�‘ˆð�‘�ð�‘�ð�‘�ð�‘� is the voltage over the capacitance ð��¶ð��¶ð��¶ð��¶ð�‘�ð�‘�ð�‘�ð�‘�, ð�‘ˆð�‘ˆð�‘ˆð�‘ˆð�‘¡ð�‘¡ð�‘¡ð�‘¡ is the terminal voltage. 3. Development for the Modified adaptive Kalman filter 3.1. Conventional extended Kalman filter Considering a linear discrete system with additive noise inputs, the system and measurement equations are depicted  as Eq. (3), then the process of Kalman filter are shown in Eq. (5)-(9). The contribution of the EKF is to take the   Zheng Zhang et al. / Energy Procedia 159 (2019) 497â€“502 499 Author name / Energy Procedia 00 (2018) 000â€“000 3 derivatives of the dynamic equations regarding the state, then the propagation matrix, namely, 1kâˆ’Î¦ , 1kâˆ’Î“ and kH , would be derived to realize the time and measurement updating for the state and its covariance. Although this  approximation still has fitting error between the discrete points, it does provide a conductive way to a nonlinear system. 1 1 1 1 ,  ~ (0, ) ,  ~ (0, ) k k k k k k k k k k k k k k x x u w w Q z H x v v R âˆ’ âˆ’ âˆ’ âˆ’= Î¦ + Î“ +ï£± ï£² = +ï£³ (3) (5) (6) ( , ) , ~ (0, ) ( ) , ~ (0, ) k k k k k k x f x u w w Q z M x v v R = +ï£± ï£² = +ï£³ ï€¦ (7) (4) (8) 1 1 1 1 1 1 1 1 ( , ) ( , ) ( ) = , = , =k k k k kk k k k k k f x u f x u M x H x x x âˆ’ âˆ’ âˆ’ âˆ’ âˆ’ âˆ’ âˆ’ âˆ’ âˆ‚ âˆ‚ âˆ‚ Î¦ Î“ âˆ‚ âˆ‚ âˆ‚ (9) where Î¦ and Î“ are the system and control matrix within the transition equation, H is the observation matrix, x and z are, respectively, the state and measurement vector, their corresponding noise are denoted by kw and kv , which are uncorrelated zero-mean Gaussian white noise, as described in Eq. (3) , kQ is a non-negative definite matrix,  and kR is a positive one. The similar symbols in Eq. (4)-(9) have the same meaning, the sub-symbol + and âˆ’ denote  the priori and posterior estimation, P is the covariance of the state, and the kalman gain is represented by kK ; 3.2. Square root recursive: Potter measurement update In order to develop a modified algorithm with square root propagation, here we introduce the Potter measurement  update in [3], which is as follows,Assume the measurement noise kR is a one-element positive value and the posterior  covariance kË†P âˆ’ is able to be expressed as Ë† Ë†Ë† = T k k kP S S âˆ’ âˆ’ âˆ’ , then Eqs. (7) and (9) could be rewritten as, Ë† Ë† = Ë† Ë† T T T k k k k T k k k k k S S H K H S S H R âˆ’ âˆ’ âˆ’ âˆ’ + (10) Ë† Ë† Ë† Ë† Ë† Ë† Ë† Ë†Ë† =  =Ë† Ë† Ë† Ë† T T T T T T T T k k k k k k k k k k k k kT T k k k k k k k k k k S S H H S H H SP I S S S I S H S S H R H S S H R âˆ’ âˆ’ âˆ’ âˆ’ + âˆ’ âˆ’ âˆ’ âˆ’ âˆ’ âˆ’ âˆ’ âˆ’ ï£« ï£¶ ï£« ï£¶ âˆ’ âˆ’ï£¬ ï£· ï£¬ ï£·ï£¬ ï£· ï£¬ ï£·+ +ï£­ ï£¸ ï£­ ï£¸ (11) Let Ë†= Tk kS HÏ† âˆ’ , =1/( )T ka RÏ† Ï† + , then ( )Ë† Ë†Ë† = T T k k kP S I a SÏ†Ï† + âˆ’ âˆ’âˆ’ , furthermore, we assume ( )2=T TI a I aÏ†Ï† Î³Ï†Ï†âˆ’ âˆ’ , one can deduce =1/(1 )kaRÎ³ Â± , thus kË†P + can be reformed as ( )( )Ë† Ë†Ë† = T T Tk k kP S I a I a SÎ³Ï†Ï† Î³Ï†Ï†+ âˆ’ âˆ’âˆ’ âˆ’ , considering kË†P+ is  positive matrix and have Ë† Ë†Ë† = T k k kP S S + + + , the updating for state covariance can be conducted as Eq. (12). ( )Ë† Ë†= Tk kS I a SÎ³Ï†Ï†+ âˆ’âˆ’ (12) Particularly, in order to expand the applicability when kR doesnâ€™t satisfy the assumption, a sequential method for  the measurement updating is introduced if and only if kR is a diagonal matrix, the brief procedure is depicted as  follows, 3.3. Adaptive rule Due to the sensitivity to the working loads and environment noise, the model errors are hardly to omit in the  dynamic equation, thus followed by a problem that how to estimate the kQ and kR , which maybe time-varying during  the iterative process. Many adaptive laws have been investigated and applied to the derivatives of the Kalman filter,  here we introduce a covariance matching based process noise scaling algorithm for the online estimation of kQ [4]. Assuming the innovation sequence is ï€¤= kk k kz H xÎµ âˆ’ âˆ’ , and substituting Eq. (2) into it, then taking the variances on  both sides, one have ï€¤ ï€¤( )= =k kk k k k k kz H x H x x vÎµ âˆ’ âˆ’âˆ’ âˆ’ + (13) { } { }Ë† Ë†=T T T Tk k k k k k k k k k kE H P H E v v H P H RÎµ Îµ âˆ’ âˆ’+ +ï�€ (14) During the filter process, the innovation covariance { }Tk kE Îµ Îµ is available through using a limited number of  innovation samples, as shown in Eq. (14), and it also holds the relationship in Eq. (15) { } 1 0 1 mT T k k k i k i i E d d m Îµ Îµ âˆ’ âˆ’ âˆ’ = = âˆ‘ (15) 1 0 1 m T T k i k i k k k k i d d H P H R m âˆ’ âˆ’ âˆ’ âˆ’ = = +âˆ‘ ï€¥ (16) ï‚µ ( ) ï‚µk kk kP I K H P + âˆ’ = âˆ’ ï‚µ ï‚µ 11 1 1 T k kk k kP P Q âˆ’ + âˆ’âˆ’ âˆ’ âˆ’= Î¦ Î¦ + ï€¤ ï€¤ 11 1 1k kk k kx x u âˆ’ + âˆ’âˆ’ âˆ’ âˆ’= Î¦ +Î“ ï‚µ ï‚µ( ) 1T Tk kk k k k kK P H H P H R âˆ’âˆ’ âˆ’= + ï€¤ ï€¤ ï€¤( )k k kk k kx x K z H x+ âˆ’ âˆ’= + âˆ’ 500 Zheng Zhang et al. / Energy Procedia 159 (2019) 497â€“502 4 Author name / Energy Procedia 00 (2018) 000â€“000 Where, kP âˆ’ ï€¥ is the estimated value based on the innovation sequence. For the kQ estimation, the basic idea is find  a way to regulate the process noise according to the differences between the kP âˆ’ ï€¥ and the model-predicted one, kË†P âˆ’ . Hence, we assume kR is perfectly known for adaption, and a scaling factor is introduce as follows, ï‚µ( ) ï‚µ( ) { } ï‚µ{ } ï‚µ{ } 1 11 1 1 0 11 1 1 1 { }{ } Ë†{ } Ë†{ } m TT T T k i k i kkk k k k k k k k ik T T T T k k k kk k k k k k k k k trace d d Rtrace H P Q H trace H P Htrace Q m trace Q trace H P Q H trace H P H trace H P H Î± âˆ’ + âˆ’ âˆ’ âˆ’âˆ’âˆ’ âˆ’ âˆ’ = + âˆ’ âˆ’ âˆ’âˆ’ âˆ’ âˆ’ ï£± ï£¼ âˆ’ï£² ï£½Î¦ Î¦ + ï£³ ï£¾= â‰ˆ = = Î¦ Î¦ + âˆ‘ï€¥ ï€¥ ï€¥ (17) Thus the adaptive rule can be intuitively defined as, Ë† k kQ QÎ±=ï€¥ (18) Where the Î± is a value either larger than or smaller than 1, so this coefficients provide a considerably full varying  range for the updating on kQ , particularly, the square root here is used to smooth the evolution process. 3.4. Implementation of the modified Kalman filter on the battery model Here the implementation of the modified Kalman filter on the Thevenin model is presented. For the online  estimation of OCV, equivalent resistance and the polarization parameters, the system states and control inputs are  defined as follows, 0 1 1[ ,  ,  ,  ,  ] T t ocvx U U R R Ï„= Lu I= (19) 1 1 , , 1 , 1 , 1 , , 1 0, 0, 1 , , 1 1 , (1 ): , , , : s s i i T T p i p i p i L i OCV i OCV i i i p i p i i i k OCV i U e U R I ef U U R R R R M Z U Ï„ Ï„ Ï„ Ï„ âˆ’ âˆ’ âˆ’ âˆ’ âˆ’ âˆ’ âˆ’ âˆ’ âˆ’ âˆ’ âˆ’ ï£±ï£´ = + âˆ’ï£² ï£´ = = = =ï£³ = (20) Itâ€™s acknowledged that the batteryâ€™s dynamic response highly relies on the state parameters, like SOC, working  environment, especially the temperature, and the usage history. Hence the evolution of the model parameters can be  described by the function of  SOC  T hï¼Œ ï¼Œ , for example, we take the derivative of the ocvU with respect to time t : ( , , ) OCV OCV OCVOCV OCV U U USOC T hU U SOC T h SOC t T t h t âˆ‚ âˆ‚ âˆ‚âˆ‚ âˆ‚ âˆ‚ = = + + âˆ‚ âˆ‚ âˆ‚ âˆ‚ âˆ‚ âˆ‚ ï€¦ ï€¦ (21) â‡’ 0OCVU =ï€¦ (22) With the following assumptions: The / 0SOC tâˆ‚ âˆ‚ â‰ˆ holds for that small energy is consumed or charged comparing  to the totally usable capacity; The / 0T tâˆ‚ âˆ‚ â‰ˆ holds for that the temperature should be slow-varying with a proper  cooling system; The / 0h tâˆ‚ âˆ‚ â‰ˆ definitely holds since the lifetime for battery is considerably long, hence, Eq. (21) could be simplified as (22), and the considerations for the other parameters like 0R , pR , and Ï„ , are the same, here  time constant = P PR CÏ„ . Therefore, combining with the differentia equation (2), the differential equations for the filter  are organized as Eq. (20).  The flowchart of the application can be inferred from Fig. 3, Fig.3 the flowchart of the modified adaptive EKF with Potter algorithm  Zheng Zhang et al. / Energy Procedia 159 (2019) 497â€“502 501 Author name / Energy Procedia 00 (2018) 000â€“000 5 Where 0 ,Q RS Sï¼Œ are, respectively, the upper triangular matrix of Q and R after the Cholesky decomposition. As the  measurement used in Kalman filter could be pre-estimated, the adaptive law is only applied to estimation of the QS . 4. Online estimation for the parameters and State-of-charge under experimental validation 4.1. test bench and profile The schematic of the test bench is presented in Fig.2, which includes an Arbin battery test system BT2000, MITS  pro soft for programming, a thermal chamber and a host computer. he measurements consist of voltage, temperature,  Amp-hours (Ah) and Watt-hours (Wh) etc., which are transmitted to the host computer through TCP/IP ports. The  errors of the hall current and voltage sensors are less than 0.1%. Besides, 10 LiMn2O4 battery cells are serially  connected into a battery pack, and are kept in the thermal chamber with the temperature controlled within 30 5 CÎ¿Â± . The detailed information about the aforementioned test can be inferred in Ref. [5]. Fig.4 The OCV-SOC table and test profile: (a) the OCV vs. SOC profiles; (b) the current vs. time profiles under one cycle of HPPC test; (c) the  current vs. time profiles under one cycle of UDDS From Fig.4(a), due to the equilibrium potential during the forward and reverse reaction, the hysteresis could be  observed through the difference of the OCV regarding the same SOC, thus there will exist two SOC values if the  OCV-based SOC estimation is applied. However, considering the OCV difference is within 0.3, it is no more than 1% after taking the ratio of the difference to nominal voltage, thus we take the average as the OCV-SOC inference table. 4.2. the estimation result for parameters and SOC Fig.5 Online estimation results: (a) polarization voltage pU ; (b) OCV; (c) R ; (d) PR ; (e)Time constant Ï„ ; (f) the relative error profiles of  terminal voltage with estimated parameters. 502 Zheng Zhang et al. / Energy Procedia 159 (2019) 497â€“502 6 Author name / Energy Procedia 00 (2018) 000â€“000 Fig. 6 the verification of the modified algorithm under UDDS: (a) the estimation for R ; (b) the relative error profiles of terminal voltage with  estimated parameters; (c) the estimation for SOC and its error profiles Through a sequence of HPPC profiles, the online estimation is conducted for the modelâ€™s parameters and states, the  results are presented in Fig.5. In order to evaluate the performance of the proposed algorithm, we adopt genetic  algorithm to make an offline optimization as comparisons, some detailed information could be inferred in Ref. [6]. For the verification, 14 UDDS cycles are employed to test the online estimation approach, as shown in Fig.6. With  more dynamic process, the equivalent resistance R is selected in (a) to show the effect of the parameters estimation,  and the model fitting effect is depicted by the relative error of terminal voltage. Besides, we take the conventional  EKF into consideration for a better comparison, basing on the previous OCV-SOC table, the estimations for SOC and  their errors are also presented as shown in (c). Overall, the modified AEKF algorithm has a steadier and smaller error  in estimation. Particularly, the error of SOC estimated by the modified algorithm is no more than 0.01, and a  phenomenon can be observed that the error increases during the mid-term of the SOC expenditure, which are 0.3~0.7,  it's owing to the slow-changing part in the SOC-OCV table. Thus, the proposed algorithm can satisfy the SOC  estimation quite well. 5. Conclusions In this paper, a modified adaptive EKF algorithm is developed and employed for the online parameters and states  estimation of the LiMn2O2 battery module. With the prior knowledge of the measurement sensor noise, the Potter  algorithm enables the square root format for the information propagation, and it significantly improves the effect of  the estimation combing with the introduced adaptive law. The implementation with theses modification are elaborated.  And the OCV/HPPC/BJDC tests are organized for experimental testing and verification, the results indicate the  proposed algorithm is more accurate and preferable in the online application comparing to the offline and conventional  EKF, and the estimation error for SOC can guaranteed within 2% under UDDS test. References [1] Liu, Z. and H. He, Sensor fault detection and isolation for a lithium-ion battery pack in electric vehicles using adaptive extended Kalman filter  â˜†. Applied Energy, 2016. [2] Hu, X., S. Li, and H. Peng, A comparative study of equivalent circuit models for Li-ion batteries. Journal of Power Sources, 2012. 198(198): p.  359-367. [3] Dan, S., Optimal State Estimation: Kalman, Hâˆž, and Nonlinear Approaches. 2006: Wiley-Interscience. [4] Ding, W., et al., Improving Adaptive Kalman Estimation in GPS/INS Integration. Journal of Navigation, 2007. 60(3): p. 517-529. [5] Xiong, R., et al., Model-based state of charge and peak power capability joint estimation of lithium-ion battery in plug-in hybrid electric vehicles.  Journal of Power Sources, 2013. 229(9): p. 159-169. [6] He, H., R. Xiong, and H. Guo, Online estimation of model parameters and state-of-charge of LiFePO 4 batteries in electric vehicles. Applied  Energy, 2012. 89(1): p. 413-420. cycle of UDDS From Fig.4(a), due to the equilibrium potential during the forward and reverse reaction, the hysteresis could be  observed through the difference of the OCV regarding the same SOC, thus there will exist two SOC values if the  OCV-based SOC estimation is applied. However, considering the OCV difference is within 0.3, it is no more than 1% after taking the ratio of the difference to nominal voltage, thus we take the average as the OCV-SOC inference table. 4.2. the estimation result for parameters and SOC Fig.5 Online estimation results: (a) polarization voltage pU ; (b) OCV; (c) R ; (d) PR ; (e)Time constant Ï„ ; (f) the relative error profiles of  terminal voltage with estimated parameters. 502 Zheng Zhang et al. / Energy Procedia 159 (2019) 497â€“502 6 Author name / Energy Procedia 00 (2018) 000â€“000 Fig. 6 the verification of the modified algorithm under UDDS: (a) the estimation for R ; (b) the relative error profiles of terminal voltage with  estimated parameters; (c) the estimation for SOC and its error profiles Through a sequence of HPPC profiles, the online estimation is conducted for the modelâ€™s parameters and states, the  results are presented in Fig.5. In order to evaluate the performance of the proposed algorithm, we adopt genetic  algorithm to make an offline optimization as comparisons, some detailed information could be inferred in Ref. [6</xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.5" xml:lang="en" docsubtype="fla">
+         <item-info>
+            <jid>EGYPRO</jid>
+            <aid>35292</aid>
+            <ce:pii>S1876-6102(18)31329-8</ce:pii>
+            <ce:doi>10.1016/j.egypro.2018.12.034</ce:doi>
+            <ce:copyright type="unknown" year="2019"/>
+         </item-info>
+         <head>
+            <ce:title id="tte0001">Online estimation for parameters and state-of-charge of LiMn<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">2</ce:inf> batteries with a modified adaptive Kalman filter</ce:title>
+            <ce:author-group id="aug0001">
+               <ce:author id="au0020" author-id="S1876610218313298-cc236f30991c5cc3989fda57a6e9dcd1">
+                  <ce:given-name>Zheng</ce:given-name>
+                  <ce:surname>Zhang</ce:surname>
+               </ce:author>
+               <ce:author id="au0021" author-id="S1876610218313298-23a29688b46919d02f99c86979491484">
+                  <ce:given-name>Shuangqi</ce:given-name>
+                  <ce:surname>Li</ce:surname>
+               </ce:author>
+               <ce:author id="au0022" author-id="S1876610218313298-ff98b3d2454fb40b818644a61de60dbc">
+                  <ce:given-name>Jianwei</ce:given-name>
+                  <ce:surname>Li</ce:surname>
+               </ce:author>
+               <ce:author id="au0023" author-id="S1876610218313298-f282fc6c6cb7248d7685012fa1d94847">
+                  <ce:given-name>Hongwen</ce:given-name>
+                  <ce:surname>He</ce:surname>
+                  
+               </ce:author>
+               <ce:affiliation id="aff0001" affiliation-id="S1876610218313298-c7dd76531d562ce860b868250f5060a1">
+                  <ce:textfn id="cetextfn0011">National Engineering Laboratory for Electric Vehicles, School of Mechanical Engineering, Beijing Institute of Technology, Beijing 100081, China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>National Engineering Laboratory for Electric Vehicles</sa:organization>
+                     <sa:organization>School of Mechanical Engineering</sa:organization>
+                     <sa:organization>Beijing Institute of Technology</sa:organization>
+                     <sa:city>Beijing</sa:city>
+                     <sa:postal-code>100081</sa:postal-code>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+            </ce:author-group>
+            <ce:abstract id="abs0001" view="all" class="author"><ce:abstract-sec id="abss0001" view="all">
+                  <ce:simple-para id="spara0318" view="all">The accurate estimation for parameters and state-of-charge (SOC) is very important for the state monitoring and optimization in battery management system. This paper introduces an online estimation method with modified Kalman filter, where two contributions are added comparing related battery-application literature: (1) In order to improve the robustness to systematic noise brought by varying current loads and condition, an adaptive law is introduced to calibrate the noise covariance recursively. (2) To enhance the numerical stability over covariance propagating, a modified square-root procedure is derived by using sequential measurement update and the Potter algorithm. Besides, a test bench with a series-connected battery pack of 10 LiMn2O2 cells is used to evaluate the algorithm. The experimental results indicate both a better precision comparing the offline result, and the maximum error for the overall SOC is less than 2%.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="keys0001" view="all" class="keyword">
+               <ce:section-title id="cesectitle0002">Keywords</ce:section-title>
+               <ce:keyword id="key0023">
+                  <ce:text id="cetext0023">Lithium-ion battery</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0024">
+                  <ce:text id="cetext0024">State-of-charge</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0025">
+                  <ce:text id="cetext0025">Online estimation</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0026">
+                  <ce:text id="cetext0026">square root</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0027">
+                  <ce:text id="cetext0027">Adaptive extended Kalman filter</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0028">
+                  <ce:text id="cetext0028">Experiments</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <tail view="all">
+            <ce:bibliography id="cebibsec1" view="all">
+               <ce:section-title id="cesectitle0003">References</ce:section-title>
+               <ce:bibliography-sec id="cebibsec2" view="all">
+                  <ce:bib-reference id="bib0001">
+                     <ce:label>1</ce:label>
+                     <sb:reference id="sbref0001">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Liu</ce:surname>
+                                 <ce:given-name>Z.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Sensor fault detection and isolation for a lithium-ion battery pack in electric vehicles using adaptive extended Kalman filter ☆.</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Applied Energy</sb:maintitle>
+                                 </sb:title>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0002">
+                     <ce:label>2</ce:label>
+                     <sb:reference id="sbref0002">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Hu</ce:surname>
+                                 <ce:given-name>X.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Peng</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A comparative study of equivalent circuit models for Li-ion batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>198</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>198</sb:issue-nr>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>359</sb:first-page>
+                              <sb:last-page>367</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0003">
+                     <ce:label>3</ce:label>
+                     <sb:reference id="sbref0003">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Dan</ce:surname>
+                                 <ce:given-name>S.</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:edited-book>
+                              <sb:title>
+                                 <sb:maintitle>Optimal State Estimation: Kalman, H∞, and Nonlinear Approaches</sb:maintitle>
+                              </sb:title>
+                              <sb:date>2006</sb:date>
+                              <sb:publisher>
+                                 <sb:name>Wiley-Interscience</sb:name>
+                              </sb:publisher>
+                           </sb:edited-book>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0004">
+                     <ce:label>4</ce:label>
+                     <sb:reference id="sbref0004">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Ding</ce:surname>
+                                 <ce:given-name>W.</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Improving Adaptive Kalman Estimation in GPS/INS Integration</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Navigation</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>60</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>3</sb:issue-nr>
+                              <sb:date>2007</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>517</sb:first-page>
+                              <sb:last-page>529</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0005">
+                     <ce:label>5</ce:label>
+                     <sb:reference id="sbref0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Xiong</ce:surname>
+                                 <ce:given-name>R.</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Model-based state of charge and peak power capability joint estimation of lithium-ion battery in plug-in hybrid electric vehicles</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>229</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>9</sb:issue-nr>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>159</sb:first-page>
+                              <sb:last-page>169</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0006">
+                     <ce:label>6</ce:label>
+                     <sb:reference id="sbref0006">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>He</ce:surname>
+                                 <ce:given-name>H.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Xiong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Guo</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Online estimation of model parameters and state-of-charge of LiFePO 4 batteries in electric vehicles.</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Applied Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>89</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>1</sb:issue-nr>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>413</sb:first-page>
+                              <sb:last-page>420</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

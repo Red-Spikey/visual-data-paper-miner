@@ -1,0 +1,1659 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S2212827124008369</prism:url><dc:identifier>doi:10.1016/j.procir.2024.08.268</dc:identifier><eid>1-s2.0-S2212827124008369</eid><prism:doi>10.1016/j.procir.2024.08.268</prism:doi><pii>S2212-8271(24)00836-9</pii><dc:title>Holistic modeling of the electrolyte filling process to study the dosing and wetting behavior of lithium-ion batteries </dc:title><prism:publicationName>Procedia CIRP</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>22128271</prism:issn><prism:volume>126</prism:volume><prism:startingPage>841</prism:startingPage><prism:endingPage>846</prism:endingPage><prism:pageRange>841-846</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2024-12-31</prism:coverDate><prism:coverDisplayDate>2024</prism:coverDisplayDate><prism:copyright>© 2024 The Author(s). Published by Elsevier B.V.</prism:copyright><prism:publisher>The Author(s). Published by Elsevier B.V.</prism:publisher><prism:issueName>17th CIRP Conference on Intelligent Computation in Manufacturing Engineering (CIRP ICME ‘23)</prism:issueName><dc:creator>Hagemeister, Jan</dc:creator><dc:creator>Elkhoshet, Ahmed</dc:creator><dc:creator>Hu, Yiping</dc:creator><dc:creator>Daub, Rüdiger</dc:creator><dc:description>
+                  The electrolyte filling process of lithium-ion batteries is characterized by extensive wetting times and significant costs for experimental process design, which is becoming increasingly relevant in the current landscape of fast-evolving cell designs to optimize energy density. In this study, an approach for applying computational fluid dynamics to simulate the flow of liquid electrolyte through the battery void volume and porous cell stack is shown. Results of the simulation on pore scale are used to calculate the permeability of the cell stack, which provides an input parameter for the simulation on cell scale. On a cell scale, the calculated parameters act as a resistance value of the cell stack, enabling the modeling of the interaction between dosing and wetting. The detailed model setup including simulation parameters is provided, so that cell manufacturers and researchers will be able to set up individual simulation models to predict the filling behavior during cell development.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>ElsevierWaived</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>lithium-ion battery cells</dcterms:subject><dcterms:subject>battery production</dcterms:subject><dcterms:subject>electrolyte filling</dcterms:subject><dcterms:subject>computational fluid dynamics</dcterms:subject><dcterms:subject>CFD</dcterms:subject><dcterms:subject>simulation</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S2212827124008369" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S2212827124008369" rel="scidir"/></coredata><objects><object ref="am" category="standard" type="AAM-PDF" multimediatype="Acrobat PDF file" mimetype="application/pdf" size="1272933">https://api.elsevier.com/content/object/eid/1-s2.0-S2212827124008369-am.pdf?httpAccept=%2A%2F%2A</object></objects><scopus-id>85208548243</scopus-id><scopus-eid>2-s2.0-85208548243</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85208548243" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>282173</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291885</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Procedia CIRP</xocs:srctitle>
+      <xocs:normalized-srctitle>PROCEDIACIRP</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20241009">2024-10-09</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20241009">2024-10-09</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20241009">2024-10-09</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20241009">2024-10-09</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2024-11-12T08:01:30</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S2212827124008369</xocs:eid>
+      <xocs:pii-formatted>S2212-8271(24)00836-9</xocs:pii-formatted>
+      <xocs:pii-unformatted>S2212827124008369</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.procir.2024.08.268</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.4</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S2212827124X00074</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20241217">2024-12-17T23:40:28.047861Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20240101</xocs:date-search-begin>
+      <xocs:date-search-end>20241231</xocs:date-search-end>
+      <xocs:year-nav>2024</xocs:year-nav>
+      <xocs:indexeddate epoch="1728477847">2024-10-09T12:44:07.780611Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids confeditor contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content oa subj suppl tomb vol volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authkeywords authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>2212-8271</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>22128271</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>126</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>126</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 126</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>146</xocs:sort-order>
+      <xocs:first-fp>841</xocs:first-fp>
+      <xocs:last-lp>846</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>841</xocs:first-page>
+         <xocs:last-page>846</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>2024</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>2024</xocs:cover-date-text>
+      <xocs:cover-date-start>2024-01-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2024-12-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2024</xocs:cover-date-year>
+      <xocs:title-editors-groups>
+         <xocs:title-editors-group>
+            <ce:title id="tt001">17th CIRP Conference on Intelligent Computation in Manufacturing Engineering (CIRP ICME ‘23)</ce:title>
+            <ce:editors>
+               <ce:author-group id="aag001">
+                  <ce:author author-id="S2212827124X00074-f684b1f0bcc5b91a03877f284c9dd23d" id="aa002">
+                     <ce:given-name>Roberto</ce:given-name>
+                     <ce:surname>Teti</ce:surname>
+                     <ce:degrees>Prof.</ce:degrees>
+                  </ce:author>
+               </ce:author-group>
+            </ce:editors>
+         </xocs:title-editors-group>
+      </xocs:title-editors-groups>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>SESSION 11 - BATTERY PRODUCTION</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>© 2024 The Author(s). Published by Elsevier B.V.</xocs:copyright-line>
+      <xocs:normalized-article-title>HOLISTICMODELINGELECTROLYTEFILLINGPROCESSSTUDYDOSINGWETTINGBEHAVIORLITHIUMIONBATTERIES</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>HAGEMEISTER</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>J</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="sbref1">
+            <xocs:ref-normalized-surname>ROGELJ</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>357</xocs:ref-first-fp>
+            <xocs:ref-last-lp>363</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref2">
+            <xocs:ref-normalized-surname>ONEILL</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1074</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1084</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>B</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref3">
+            <xocs:ref-normalized-surname>CANO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>279</xocs:ref-first-fp>
+            <xocs:ref-last-lp>289</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref4">
+            <xocs:ref-normalized-surname>POSADA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1174</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1182</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref5">
+            <xocs:ref-normalized-surname>KWADE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>290</xocs:ref-first-fp>
+            <xocs:ref-last-lp>300</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref6">
+            <xocs:ref-normalized-surname>KORTHAUER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>HANDBUCHLITHIUMIONENBATTERIEN</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref7"/>
+         <xocs:ref-info refid="sbref8">
+            <xocs:ref-normalized-surname>WOOD</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>234</xocs:ref-first-fp>
+            <xocs:ref-last-lp>242</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref9">
+            <xocs:ref-normalized-surname>KNOCHE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>405</xocs:ref-first-fp>
+            <xocs:ref-last-lp>410</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref10">
+            <xocs:ref-normalized-surname>LUCAS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1918</xocs:ref-pub-year>
+            <xocs:ref-first-fp>15</xocs:ref-first-fp>
+            <xocs:ref-last-lp>22</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref11">
+            <xocs:ref-normalized-surname>WASHBURN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1921</xocs:ref-pub-year>
+            <xocs:ref-first-fp>273</xocs:ref-first-fp>
+            <xocs:ref-last-lp>283</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>E</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref12">
+            <xocs:ref-normalized-surname>GUNTER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-first-fp>230668</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref13">
+            <xocs:ref-normalized-surname>SAUTER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-first-fp>100546</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref14">
+            <xocs:ref-normalized-surname>LEE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>H258</xocs:ref-first-fp>
+            <xocs:ref-last-lp>H265</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref15">
+            <xocs:ref-normalized-surname>JEON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>139</xocs:ref-first-fp>
+            <xocs:ref-last-lp>147</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref16">
+            <xocs:ref-normalized-surname>PILLER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>12010</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref17">
+            <xocs:ref-normalized-surname>NEUMANN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>605</xocs:ref-first-fp>
+            <xocs:ref-last-lp>606</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref18">
+            <xocs:ref-normalized-surname>NEUMANN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>659</xocs:ref-first-fp>
+            <xocs:ref-last-lp>660</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref19">
+            <xocs:ref-normalized-surname>SHODIEV</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-first-fp>80</xocs:ref-first-fp>
+            <xocs:ref-last-lp>92</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref20">
+            <xocs:ref-normalized-surname>HAGEMEISTER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-first-fp>159</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref21">
+            <xocs:ref-normalized-surname>LU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2079</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref22"/>
+         <xocs:ref-info refid="sbref23">
+            <xocs:ref-normalized-surname>DAVOODABADI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>193</xocs:ref-first-fp>
+            <xocs:ref-last-lp>203</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref24"/>
+         <xocs:ref-info refid="sbref25"/>
+         <xocs:ref-info refid="sbref26">
+            <xocs:ref-normalized-surname>GUNTER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1801108</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref27">
+            <xocs:ref-normalized-surname>WEYDANZ</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>126</xocs:ref-first-fp>
+            <xocs:ref-last-lp>134</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref28">
+            <xocs:ref-normalized-surname>KNOCHE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>267</xocs:ref-first-fp>
+            <xocs:ref-last-lp>276</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>HAGEMEISTERX2024X841</xocs:refkey3>
+         <xocs:refkey4lp>HAGEMEISTERX2024X841X846</xocs:refkey4lp>
+         <xocs:refkey4ai>HAGEMEISTERX2024X841XJ</xocs:refkey4ai>
+         <xocs:refkey5>HAGEMEISTERX2024X841X846XJ</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2024-08-28T01:37:17Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>ElsevierWaived</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/PROC_UNBOUNDED_ESWaived">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY-NC-ND license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2024 The Author(s). Published by Elsevier B.V.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:funding-list has-funding-info="1">
+         <xocs:funding-addon-generated-timestamp>2024-11-14T04:22:17.241Z</xocs:funding-addon-generated-timestamp>
+         <xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined</xocs:funding-addon-type>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>German Federal Ministry of Education and Research</xocs:funding-agency-matched-string>
+            <xocs:funding-agency-acronym>BMBF</xocs:funding-agency-acronym>
+            <xocs:funding-agency>Bundesministerium für Bildung und Forschung</xocs:funding-agency>
+            <xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100002347</xocs:funding-agency-id>
+            <xocs:funding-agency-country>http://sws.geonames.org/2921044/</xocs:funding-agency-country>
+         </xocs:funding>
+         <xocs:funding>
+            <xocs:funding-agency-acronym>BMBWF</xocs:funding-agency-acronym>
+            <xocs:funding-agency>Bundesministerium fur Bildung und Forschung Dienststelle Berlin</xocs:funding-agency>
+            <xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100010571</xocs:funding-agency-id>
+            <xocs:funding-agency-country>http://sws.geonames.org/2921044</xocs:funding-agency-country>
+         </xocs:funding>
+         <xocs:funding-text>The authors gratefully acknowledge the support from the German Federal Ministry of Education and Research (BMBF) for their financial backing. This work stems from research performed within the scope of the projects Cell-Fill (Grant number 03XP0237B) and Sim4Pro (Grant number 03XP0242B).</xocs:funding-text>
+      </xocs:funding-list>
+      <xocs:article-sharing-framework/>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S2212-8271(24)00836-9</xocs:pii-formatted>
+         <xocs:pii-unformatted>S2212827124008369</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S2212827124008369</xocs:eid>
+         <xocs:doi>10.1016/j.procir.2024.08.268</xocs:doi>
+         <xocs:cid>282173</xocs:cid>
+         <xocs:timestamp>2024-12-17T23:40:28.047861Z</xocs:timestamp>
+         <xocs:cover-date-start>2024-01-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2024-12-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S2212827124008369-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2212827124008369/MAIN/application/pdf/82096cf78489bd0c685fc3ec35b499c7/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>1604313</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>6</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S2212827124008369-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2212827124008369/PREVIEW/image/png/458ff8aba1bc3ab910738d4d24aad22d/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>55137</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2212827124008369-am.pdf</xocs:attachment-eid>
+               <xocs:file-basename>am</xocs:file-basename>
+               <xocs:filename>am.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:filesize>1272933</xocs:filesize>
+               <xocs:attachment-type>AAM-PDF</xocs:attachment-type>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10HHRGLSWV7/MAIN/application/pdf/3a668da407f38f4e2dad15d47f678bb0/am.pdf</xocs:ucs-locator>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">ScienceDirect Available online at www.sciencedirect.com Procedia CIRP 126 (2024) 841â€“846 2212-8271 Â© 2024 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0) Peer-review under responsibility of the scientific committee of the 17th CIRP Conference on Intelligent Computation in Manufacturing Engineering  (CIRP ICMEâ€˜23) 10.1016/j.procir.2024.08.268 Keywords: Lithium-ion battery cells; Battery production; Electrolyte filling; Computational fluid dynamics; CFD; Simulation 1. Introduction The expanding use of fossil fuels to meet demands for industrial growth and digital transformation has led to  undeniable climate change and an increase in global average  temperature [1]. It is necessary to develop innovative solutions  in order to store renewable energy effectively to help counteract  climate change [2]. One solution is the use of electrochemical  energy storage systems such as lithium-ion batteries (LIB), which are being developed to power an ever-widening range of  applications, including the electrification of transportation [3] and grid-scale energy storage [4]. The production of LIB consists of a series of complex  process steps with interdepending parameters, each impacting  the final cell quality [5]. First, the electrodes are produced by  mixing and coating the slurry (electrode active material mixed  with polymer binders and additives) on substrate foils, which is  followed by the calendaring process to set the electrode  performance properties. Then, the electrodes are cut to size and assembled into a cell stack or jelly roll, before the current  collectors are welded together and onto the electrical terminals  of the cell. Next, the cell is packaged into the cell housing (pouch, prismatic or cylindrical) and a liquid electrolyte is dosed into the cell. the latter is required for the transfer of lithium ions as charge carriers between the electrodes during  cell operation. The three main components of the LIB are the anode, cathode and separator, the pores of which must be  completely wetted with electrolyte before charging the cell for  the first time [6] to avoid inducing safety issues such as lithium  plating [7]. The wetting process can take several days  depending on the cell format, making the filling and wetting  processes one of the bottlenecks of battery production [8]. With the trend towards decreasing void volumes and  porosities in order to improve energy densities, the filling  17th CIRP Conference on Intelligent Computation in Manufacturing Engineering Holistic modeling of the electrolyte filling process to study the dosing and  wetting behavior of lithium-ion batteries Jan Hagemeistera,*, Ahmed Elkhosheta, Yiping Hua, RÃ¼diger Dauba aTechnical University of Munich, TUM School of Engineering and Design, Institute for Machine Tools and Industrial Management (iwb), BoltzmannstraÃŸe 15, 85748 Garching, Germany  * Corresponding author. Tel.: +49 089 289 15469; fax: +49 089 289 15555. E-mail address: jan.hagemeister@iwb.tum.de  Abstract The electrolyte filling process of lithium-ion batteries is characterized by extensive wetting times and significant costs for experimental process  design, which is becoming increasingly relevant in the current landscape of fast-evolving cell designs to optimize energy density. In this study,  an approach for applying computational fluid dynamics to simulate the flow of liquid electrolyte through the battery void volume and porous cell stack is shown. Results of the simulation on pore scale are used to calculate the permeability of the cell stack, which provides an input parameter  for the simulation on cell scale. On a cell scale, the calculated parameters act as a resistance value of the cell stack, enabling the modeling of the  interaction between dosing and wetting. The detailed model setup including simulation parameters is provided, so that cell manufacturers and  researchers will be able to set up individual simulation models to predict the filling behavior during cell development.   Â© 2024 The Authors. Published by Elsevier B.V.  This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0) Peer-review under responsibility of the scientific committee of the 17th CIRP Conference on Intelligent Computation in Manufacturing Engineering  (CIRP ICMEâ€˜23) 842 Jan Hagemeister  et al. / Procedia CIRP 126 (2024) 841â€“846 process continues to become more challenging since more  dosing steps are required and the wetting times increase.  Additionally, in the fast-moving landscape of evolving cell  designs and material systems, the time and cost-intensive  procedure of experimental process design is a burden for cell  manufacturers. For this reason, the demand for modeling the  filling process to predict the wetting behavior is high, with  various approaches attempting to provide an adequate solution.  Knoche et al. proposed a process model to analyze cause-and- effect relationships between different materials and process  parameters of the electrolyte filling step [9]. Other approaches  suggest modeling the wetting analytically through the capillary  forces acting on the porous LIB components  [10,11]. This  method has even been used to model the effect of filling process  parameters [12] and gas entrapments in the separator [13]. Another approach to model the interaction of the liquid  electrolyte with the gas residues in the pores is by using  numerical methods such as computational fluid dynamics  (CFD). Lee et al. first described the application of the lattice  Boltzmann method (LBM) [14], which was later used to study  the impact of wetting on the electrochemical performance of the  cell [15]. Initial studies purely considered laminar flow through  a porous medium [16,17] before applying the model setup to a  battery application [18]. Most recently, Shodiev et al. applied  the LMB to offer direct insights into the effect of structural  parameters such as porosity and percentage of active material  on the wetting characteristics [19]. An approach to model the  filling process using commercially available CFD software was  first proposed to individually model the wetting and dosing  [20]. So far, no approach has been shown to holistically model  the wetting of an entire cell, while considering the interaction  between the dosing and wetting sub-processes. This work  proposes combining the simulations of the wetting on the pore  level and dosing on the cell level, to provide a meta-model of the entire electrolyte filling process. The goal is to completely  describe the model setup so that manufacturers and research  groups can model their individual material systems and cell  geometries to study the filling process with less time and cost- intensive experiments. 2. Approach to model the electrolyte filling process  2.1. Overview To holistically model the filling process, a series of eight  steps need to be performed as described in figure 1. First, a  three-dimensional (3D) structure of the electrode pores was generated using either an X-ray nano-computed tomography  (nano-CT) scan or a digital rendering. Then, a simulation of the  electrolyte flow on a pore scale was performed. Using results  for mass flow or pressure development, for example, the  permeability of the pore volume was calculated. This value is  then transferred to the model of the entire cell, representing the resistance of the pore volume. A resistance value was used to  model the pores of the cell, since modeling each pore  individually would require substantial computational power. Next, the simulation on a cell level was performed,  demonstrating the interaction between dosing and wetting.  Data for electrolyte in the pore and void volume is analyzed  and used to provide process recommendations. A detailed  description of each of the eight steps is provided in chapter 3.  2.2. Simulation parameters  All simulations were performed with ANSYS Fluent  version 2021R2 on a single workstation with 16 cores. In all  simulations, a transient, i.e. time-dependent flow, was examined. An overview of the simulation parameters used for  both the micro- and macrosimulations is provided in table A1  in the appendix. Specific parameters, such as time step size, are  discussed in the respective sub-sections, since the model setup  represents a key result of this work. Material parameters for the  liquid electrolyte and gaseous nitrogen initially in the pores are  based on literature and were chosen based on a temperature of  25 Â°C [20]. The boundary conditions for the individual models  have been previously shown by Hagemeister et al. [20].  Figure 1. Overall setup of the electrolyte filling model, with the arrows demonstrating the work flow to combine a pore simulation  with a large format prismatic cell scale simulation in order to model the entire filling process.   Jan Hagemeister  et al. / Procedia CIRP 126 (2024) 841â€“846 843 3. Results and Discussion 3.1. Geometry of the pore structure The cell stack of a LIB consists of the anode, the separator  and the cathode, with each component demonstrating a unique  microstructure. In the first step of the holistic model, a digital  twin of the porous structure must first be acquired. Ideally, a  nano-CT is performed of the cell stack components, so that  each component of the cell stack is considered. An example of  this is shown in the first frame of figure 1 according to Lu et al.  [21]. Another option is to use 3D-generated models of the cell  components that can be imported into a computer-aided design  (CAD) environment in order to prepare the geometry for CFD  modeling. The proposed approach applies a method for  modeling the cathode structure as published by Ventura Silva  et al. [22]. Since the anode and cathode show similar wetting  speeds [15,23] the cathode structure is used to represent the  porous structure, but the same method can be applied to model  multi-material systems.  First, the 3D structure was imported using the CAD software  SolidWorks. Since the geometry featured spherical particles on  the edges which would skew the flow results, the geometry was  segmented to overall dimensions of 21 Î¼m x 98 Î¼m x 11 Î¼m.  The dimension of the segmentation was chosen based on  studies to maximize the volume while maintaining reasonable  simulation times. Next, the inverse of the particle volume was  generated such that the geometry only contains the void pore  volume. The geometry was then imported into ANSYS  Workbench, where the meshing was performed. Before  beginning the simulation, the Reynolds number of the structure  was calculated manually to be far below one, meaning that the  viscous forces outweigh the inertial forces [18]. Therefore,  laminar flow is assumed, resulting in the capillary action as the  main physical effect during wetting. For the displacement  process of the nitrogen gas in the pores, approximately  incompressibility is assumed for both fluids [16]. 3.2. Microsimulation The simulation of the electrolyte flow through the  microstructure was performed using the simulation parameters  in table A1 of the appendix. The mesh contained approximately  600,000 elements, which was simulated with a time step size  of 8.2 x 10-7 seconds. Shown in figure 2 are the results of the  microsimulations, which show the electrolyte in red moving  through the pore volume. The electrolyte first moves through  the regions that are less densely packed, as shown in the  progression between figure 2 (a) and figure 2 (b). Over time,  the electrolyte continues to infiltrate the pores, beginning with  the larger void areas. In figure 2 (e), most of the structure has  already been filled, with regions in the middle still unwetted.  The electrolyte continues to infiltrate the pores, with the blue  regions showing the remaining gas in the pores leaving the  structure. The boundary conditions [20] are set accordingly so that the gas can escape through the outlet, modeling the wetting  behavior. Finally, figure 2 (h) shows the pore structure almost  entirely filled with electrolyte as the simulation reaches a  steady state. A small gas entrapment remains, as shown by the  blue region, which is not unusual for the wetting of a porous  structure.  3.3. Analysis of the microsimulation The goal of the microsimulation is to characterize the  resistance of the pore structure. To do so, the qualitative results  of the microsimulations such as the electrolyte velocity and  pressure development were analyzed as shown in figure 3. The  electrolyte flow velocity on the left axis shows a large initial  increase caused by the electrolyte filling the available pore  space. The flow speed decreases as the volume fills with  electrolyte, before reaching a steady state. The interior average  pressure is shown on the right axis, which demonstrates a  steady increase over time as expected in defined and limited  volume.  Figure 2. Visualization of the simulation results of electrolyte (red) flowing through the porous structure after (a) 0 seconds,  (b) 1.3 x 10-5 seconds, (c) 2.7 x 10-5 seconds, (d) 3.9 x 10-5 seconds, (e) 5.2 x 10-5 seconds, (f) 6.6 x 10-5 seconds,  (g) 7.9 x 10-5 seconds and (h) 9.4 x 10-5 seconds. 844 Jan Hagemeister  et al. / Procedia CIRP 126 (2024) 841â€“846 3.4. Calculation of permeability Using the data for flow velocity and interior pressure from  the microsimulations, the permeability of the pore structure, k,  under Darcyâ€™s Law was calculated according to equation (1) ð�‘˜ð�‘˜ = ð�‘„ð�‘„âˆ™Âµâˆ™ ð��¿ð��¿ ð��´ð��´ âˆ™ð�›¥ð�›¥ð�‘�ð�‘� (1) where Q is the electrolyte volume flow, Âµ the dynamic  viscosity of the electrolyte, L is the length, A is the cross- sectional area and ð�›¥ð�›¥ð�‘�ð�‘� is the pressure difference calculated by (ð�‘�ð�‘�ð�‘–ð�‘– âˆ’ ð�‘�ð�‘�ð�‘œð�‘œ). Values for Q and ð�›¥ð�›¥ð�‘�ð�‘� are taken from the simulation  results as shown in figure 3, while L and A are calculated based  on the geometrical dimensions (h and w) shown in figure 4. The  positions at which the pressure and flow are calculated are  defined within ANSYS fluent and provided in the output file of  the simulation. Shown in figure 4 is a detailed view of the  porous structure as well as the electrolyte flow lines of the CFD  simulation. The final value for the permeability as well as  calculations such as the porosity were then transferred to the  simulation on cell level.  3.5. Simulation setup on cell level Similar to the simulation of the pore structure, the  simulation of the wetting on the cell level begins by importing  the CAD geometry of the cell into ANSYS workbench. In this  study, a cell with the format nomination of PHEV1 was used  according to DIN91252 [24]. The modeled cell contains a flat  wound jelly roll, which means that electrolyte can only enter  the cell stack from the left and right side since the current  collector foils inhibit the flow from the top and bottom. Since  the porous cell internals and the cell void volume exhibit  different flow properties, the two regions are defined  separately. The void volume surrounding the cell stack acts as  a reservoir in which the electrolyte can flow freely. Modeling  each pore individually would require very high computational  power and thus limit the accessibility for end users, which is  why the resistance of the cell internals were defined with  parameters via the ANSYS porous media model [25]. The input  for the ANSYS porous media model was a porosity of 30 %  and the inverse of the absolute permeability, which was calculated from the microsimulation based on the cathode  volume element. The permeability value used for the simula- tion was 2 x 1014 1/m2. Fixed time steps were used with a time  step size of 0.02 seconds for a total of 360,000 time-steps.  3.6. Macrosimulation The results of the macrosimulation were processed using the  software CFD-post in ANSYS, as shown in figure 5. Similar to  the simulation of the pore structure, the red color shows the  volume fraction of the electrolyte in the various regions of the  cell during the dosing and wetting stages of the filling process.  The process begins with the dosing of electrolyte, as shown in  figure 5 (a). The electrolyte first fills the void volume surrounding the jelly roll positioned in the center, as shown in  frame (b). In frame (c), which is nine minutes after the first  dosing step, the electrolyte can be seen slowly entering the porous region in the center. This process continues as shown in  frame (d). Due to the limited void volume in the cell, two dosing steps are required to fill the entire electrolyte volume  into the cell. Figure 5 (e) shows the second dosing step, which  is evident by the electrolyte in the dosing inlet at the top of the  cell. The completion of the second dosing is shown in frame (f),  which is evident by the increase in electrolyte in the void  volume compared to the previous frame. The wetting  progresses as shown in frames (g) and (h), which is evident by  the electrolyte fill level in the void volume decreasing and  electrolyte volume fraction in the center of the cell increasing.  After a total wetting time of 120 minutes, a wetting degree of  95 % is reached. Small gas entrapments remain in the center of  the cell due to the balance of capillary and pressure-based  forces. This behavior is consistent with qualitative filling  experiments of the same cell format [26â€“28], showing the  mostly symmetrical wetting from the outside towards the  center of jelly roll inside the cell.  Figure 3. Progression of the electrolyte velocity the interior  pressure development as the electrolyte fills the porous  structure as calculated by the microsimulations. Figure 4. Streamlines of the simulated electrolyte flow,  including the parameters used to calculate the permeability.  Jan Hagemeister  et al. / Procedia CIRP 126 (2024) 841â€“846 845 3.7. Analysis of the macrosimulation In addition to a qualitative analysis of the wetting behavior, results from the output files are presented quantitatively.  Output files provide information regarding the electrolyte  volume fraction in the various regions of the cell, the pressure  development and the mass flow. Monitors for each of these  values must be set up before starting the simulation, as they  cannot be generated retrospectively. Shown in figure 6 is the  temporal course of the electrolyte volume fraction in the cellâ€™s pore volume and cell void volume. Shown on the left y-axis is  the wetting degree as a percentage of the total inner volume,  while the right y-axis shows the volumetric amount of  electrolyte in the void volume. The wetting progresses quicker  at first since the pressure force driving the wetting between the void volume and porous jelly roll is greatest. Additionally,  most of the pores are still empty, allowing for an easier penetration by the electrolyte. Over time, the wetting rate  decreases, before reaching a steady state. The cell is filled using  two dosing steps as described in section 3.6, which are labeled  in figure 6 and become evident by the rapid increase in  electrolyte in the void volume. Overall, the qualitative data  demonstrates the interaction between the dosing and wetting of the cell, as well as providing the overall wetting degree on the  cell level.  3.8. Validation and Analysis In the final step, the model was experimentally validated for  a single set of process parameters as shown by the dotted line  in figure 6. The data shows a qualitative agreement between  simulation and experiments [12] by the asymptotic behavior of  the wetting degree â€“ the gradient of the wetting degree decreases over time and converges against 95 %. Additionally,  the overall wetting times of the simulation and experiment are  nearly identical after 120 minutes, reaching a wetting degree of  over 95 %. Using the simulation, further studies can be  performed with various process and cell parameters to provide  recommendations for improving wetting times.  4. Conclusion Modeling the electrolyte filling process can help to  accelerate and improve both process and cell design, especially  as cell formats and material systems are evolving to improve  overall energy densities. The proposed method demonstrates  how the pore and cell scales can be combined to provide a  holistic model of the filling process. Beginning with the pore  structure, simulations are performed which are used to  calculate the permeability. The results of which are used as a  resistance value on the cell scale, enabling the simulation of  dosing and wetting in a single simulation method. The method  including details such as the simulation parameters is described  in detail so that the experiments can be recreated for any  material or cell system by other researchers or practitioners.  Figure 6. Results of the macrosimulation, showing the  progression of the simulated (Sim.) and experimental (Exp.)  electrolyte wetting degree (left y-axis) as well as the simulated electrolyte remaining in the void volume (right y- axis), demonstrating the two dosing steps.  1st dosing 2nd dosing Figure 5. Simulation of the electrolyte flow in red through the void volume and jelly roll of the cell over 120 minutes,  demonstrating the interaction between the dosing and wetting sub-processes. Frames are shown after (a) 0.1 seconds,  (b) 2.3 seconds, (c) 9 minutes, (d) 30 minutes, (e) 30 minutes and one second, (f) 32 minutes, (g) 65 minutes and (h) 160 minutes.  846 Jan Hagemeister  et al. / Procedia CIRP 126 (2024) 841â€“846 Acknowledgements The authors gratefully acknowledge the support from the  German Federal Ministry of Education and Research (BMBF)  for their financial backing. This work stems from research  performed within the scope of the projects Cell-Fill (Grant  number 03XP0237B) and Sim4Pro (Grant number  03XP0242B). Appendix Table A1. Simulation parameters for both the micro and macro simulations  Setup Parameter Setting Unit General Solver type Pressure-Based - Time Transient - Gravity -9.81 m/s2 Model type Homogeneous Model Volume of Fluid - Number of Phases 2 - Viscous Model Laminar - Velocity inlet Reference frame Absolute - Velocity magnitude 6 m/s Initial gauge pressure 30000 Pa X-component of Flow 0 - Y-component of Flow -1 - Z-component of Flow 0 - Solution Method Scheme PISO - Gradient Least Squares - Pressure solver PRESTO! - Density Second Order - Momentum Second Order - References [1] J. Rogelj, D. Huppmann, V. Krey, K. Riahi, L. Clarke, M. Gidden, Z.  Nicholls, M. Meinshausen, A new scenario logic for the Paris  Agreement long-term temperature goal, Nature 573 (2019) 357â€“363.  https://doi.org/10.1038/s41586-019-1541-4. [2] B.C. Oâ€™Neill, T.R. Carter, K. Ebi, P.A. Harrison, E. Kemp-Benedict,  K. Kok, E. Kriegler, B.L. Preston, K. Riahi, J. Sillmann, others,  Achievements and needs for the climate change scenario framework,  Nature Climate Change 10 (2020) 1074â€“1084.  https://doi.org/10.1038/s41558-020-00952-0. [3] Z.P. Cano, D. Banham, S. Ye, A. Hintennach, J. Lu, M. Fowler, Z.  Chen, Batteries and fuel cells for emerging electric vehicle markets,  Nature Energy 3 (2018) 279â€“289. https://doi.org/10.1038/s41560-018- 0108-1. [4] J.O.G. Posada, A. Rennie, S.P. Villar, V.L. Martins, J. Marinaccio, A.  Barnes, C.F. Glover, D.A. Worsley, P.J. Hall, Aqueous batteries as  grid scale energy storage solutions, Renewable and Sustainable  Energy Reviews 68 (2017) 1174â€“1182.  https://doi.org/10.1016/j.rser.2016.02.024. [5] A. Kwade, W. Haselrieder, R. Leithoff, A. Modlinger, F. Dietrich, K.  Droeder, Current status and challenges for automotive battery  production technologies, Nat Energy 3 (2018) 290â€“300.  https://doi.org/10.1038/s41560-018-0130-3. [6] R. Korthauer, Handbuch lithium-ionen-batterien, Springer, 2013. [7] J. Hagemeister, S. Stock, M. Linke, M. Fischer, R. Drees, M. Kurrat,  R. Daub, Lean Cell Finalization in Lithiumâ€�Ion Battery Production:  Determining the Required Electrolyte Wetting Degree to Begin the  Formation, Energy Tech (2022) 2200686.  https://doi.org/10.1002/ente.202200686. [8] D.L. Wood III, J. Li, C. Daniel, Prospects for reducing the processing  cost of lithium ion batteries, Journal of Power Sources 275 (2015)  234â€“242. https://doi.org/10.1016/j.jpowsour.2014.11.019. [9] T. Knoche, F. Surek, G. Reinhart, A Process Model for the Electrolyte  Filling of Lithium-ion Batteries, Procedia CIRP 41 (2016) 405â€“410.  https://doi.org/10.1016/j.procir.2015.12.044. [10] R. Lucas, Translated title: "The time law of the capillary rise of  liquids", Kolloid-Zeitschrift 23 (1918) 15â€“22.  https://doi.org/10.1007/BF01461107. [11] E.W. Washburn, The Dynamics of Capillary Flow, Phys. Rev. 17  (1921) 273â€“283. https://doi.org/10.1103/PhysRev.17.273. [12] F.J. GÃ¼nter, J. Keilhofer, C. Rauch, S. RÃ¶ssler, M. Schulz, W.  Braunwarth, R. Gilles, R. Daub, G. Reinhart, Influence of pressure and  temperature on the electrolyte filling of lithium-ion cells: Experiment,  model and method, Journal of Power Sources 517 (2022) 230668.  https://doi.org/10.1016/j.jpowsour.2021.230668. [13] C. Sauter, R. Zahn, V. Wood, Understanding Electrolyte Infilling of  Lithium Ion Batteries, J. Electrochem. Soc. 167 (2020) 100546.  https://doi.org/10.1149/1945-7111/ab9bfd. [14] S.G. Lee, D.H. Jeon, B.M. Kim, J.H. Kang, C.-J. Kim, Lattice  Boltzmann Simulation for Electrolyte Transport in Porous Electrode of  Lithium Ion Batteries, J. Electrochem. Soc. 160 (2013) H258-H265.  https://doi.org/10.1149/2.017306jes. [15] D.H. Jeon, Wettability in electrodes and its impact on the performance  of lithium-ion batteries, Energy Storage Materials 18 (2019) 139â€“147.  https://doi.org/10.1016/j.ensm.2019.01.002. [16] M. Piller, D. Casagrande, G. Schena, M. Santini, Pore-scale simulation  of laminar flow through porous media, J. Phys.: Conf. Ser. 501 (2014)  12010. https://doi.org/10.1088/1742-6596/501/1/012010. [17] T. Neumann, K. Boettcher, P. Ehrhard, Numerical investigation into a  liquid displacing a gas in thin porous layers, Proc. Appl. Math. Mech.  16 (2016) 605â€“606. https://doi.org/10.1002/pamm.201610291. [18] T. Neumann, K. Boettcher, P. Ehrhard, Modelling the filling process  of lithium-ion batteries, Proc. Appl. Math. Mech. 17 (2017) 659â€“660.  https://doi.org/10.1002/pamm.201710298. [19] A. Shodiev, E. Primo, O. Arcelus, M. Chouchane, M. Osenberg, A.  Hilger, I. Manke, J. Li, A.A. Franco, Insight on electrolyte infiltration  of lithium ion battery electrodes by means of a new three-dimensional- resolved lattice Boltzmann model, Energy Storage Materials 38 (2021)  80â€“92. https://doi.org/10.1016/j.ensm.2021.02.029. [20] J. Hagemeister, F.J. GÃ¼nter, T. Rinner, F. Zhu, A. Papst, R. Daub,  Numerical Models of the Electrolyte Filling Process of Lithium-Ion  Batteries to Accelerate and Improve the Process and Cell Design,  Batteries 8 (2022) 159. https://doi.org/10.3390/batteries8100159. [21] X. Lu, A. Bertei, D.P. Finegan, C. Tan, S.R. Daemi, J.S. Weaving,  K.B. O'Regan, T.M.M. Heenan, G. Hinds, E. Kendrick, D.J.L. Brett,  P.R. Shearing, 3D microstructure design of lithium-ion battery  electrodes assisted by X-ray nano-computed tomography and  modelling, Nature communications 11 (2020) 2079.  https://doi.org/10.1038/s41467-020-15811-x. [22] G. Ventura Silva, M. Thomitzek, M. Lippke, T. Heckmann, H. Karaki,  C. Lischka, F. MÃ¶hlen, D. Mayer, J. Hagemeister, R. Daub, J.  Fleischer, H. Nirschl, D. SchrÃ¶der, P. Scharfer, W. Schabel, A.  Kwade, C. Herrmann, Digitalization Platform for Sustainable Battery  Cell Production: Coupling of Process, Production, and Product  Models, Energy Tech (2022) 2200801.  https://doi.org/10.1002/ente.202200801. [23] A. Davoodabadi, J. Li, Y. Liang, D.L. Wood, T.J. Singler, C. Jin, Analysis of electrolyte imbibition through lithium-ion battery  electrodes, Journal of Power Sources 424 (2019) 193â€“203.  https://doi.org/10.1016/j.jpowsour.2019.03.115. [24] Deutsches Institut fÃ¼r Normung e. V., DIN 91252: Elektrische  StraÃŸenfahrzeuge -Batteriesysteme-Anforderungen an die Gestaltung  von Lithium-Ionen-Batteriezellen, Beuth Verlag GmbH, 10772 Berlin,  2016. [25] ANSYS, Inc., ANSYS Fluent User's Guide. Release 15.0, 2013. [26] F.J. GÃ¼nter, S. RÃ¶ssler, M. Schulz, W. Braunwarth, R. Gilles, G.  Reinhart, Influence of the Cell Format on the Electrolyte Filling  Process of Lithiumâ€�Ion Cells, Energy Technol. 8 (2019) 1801108.  https://doi.org/10.1002/ente.201801108. [27] W.J. Weydanz, H. Reisenweber, A. Gottschalk, M. Schulz, T. Knoche,  G. Reinhart, M. Masuch, J. Franke, R. Gilles, Visualization of  electrolyte filling process and influence of vacuum during filling for  hard case prismatic lithium ion cells by neutron imaging to optimize  the production process, Journal of Power Sources 380 (2018) 126â€“ 134. https://doi.org/10.1016/j.jpowsour.2018.01.081. [28] T. Knoche, V. Zinth, M. Schulz, J. Schnell, R. Gilles, G. Reinhart, In  situ visualization of the electrolyte solvent filling process by neutron  radiography, Journal of Power Sources 331 (2016) 267â€“276.  https://doi.org/10.1016/j.jpowsour.2016.09.037. er Sources 517 (2022) 230668.  https://doi.org/10.1016/j.jpowsour.2021.230668. [13] C. Sauter, R. Zahn, V. Wood, Understanding Electrolyte Infilling of  Lithium Ion Batteries, J. Electrochem. Soc. 167 (2020) 100546.  https://doi.org/10.1149/1945-7111/ab9bfd. [14] S.G. Lee, D.H. Jeon, B.M. Kim, J.H. Kang, C.-J. Kim, Lattice  Boltzmann Simulation for Electrolyte Transport in Porous Electrode of  Lithium Ion Batteries, J. Electrochem. Soc. 160 (2013) H258-H265.  https://doi.org/10.1149/2.017306jes. [15] D.H. Jeon, Wettability in electrodes and its impact on the performance  of lithium-ion batteries, Energy Storage Materials 18 (2019) 139â€“147.  https://doi.org/10.1016/j.ensm.2019.01.002. [16] M. Piller, D. Casagrande, G. Schena, M. Santini, Pore-scale simulation  of laminar flow through porous media, J. Phys.: Conf. Ser. 501 (2014)  12010. https://doi.org/10.1088/1742-6596/501/1/012010. [17] T. Neumann, K. Boettcher, P. Ehrhard, Numerical investigation into a  liquid displacing a gas in thin porous layers, Proc. Appl. Math. Mech.  16 (2016) 605â€“606. https://doi.org/10.1002/pamm.201610291. [18] T. Neumann, K. Boettcher, P. Ehrhard, Modelling the filling process  of lithium-ion batteries, Proc. Appl. Math. Mech. 17 (2017) 659â€“660.  https://doi.org/10.1002/pamm.201710298. [19] A. Shodiev, E. Primo, O. Arcelus, M. Chouchane, M. Osenberg, A.  Hilger, I. Manke, J. Li, A.A. Franco, Insight on electrolyte infiltration  of lithium ion battery electrodes by means of a new three-dimensional- resolved lattice Boltzmann model, Energy Storage Materials 38 (2021)  80â€“92. https://doi.org/10.1016/j.ensm.2021.02.029. [20] J. Hagemeister, F.J. GÃ¼nter, T. Rinner, F. Zhu, A. Papst, R. Daub,  Numerical Models of the Electrolyte Filling Process of Lithium-Ion  Batteries to Accelerate and Improve the Process and Cell Design,  Batteries 8 (2022) 159. https://doi.org/10.3390/batteries8100159. [21] X. Lu, A. Bertei, D.P. Finegan, C. Tan, S.R. Daemi, J.S. Weaving,  K.B. O'Regan, T.M.M. Heenan, G. Hinds, E. Kendrick, D.J.L. Brett,  P.R. Shearing, 3D microstructure design of lithium-ion battery  electrodes assisted by X-ray nano-computed tomography and  modelling, Nature communications 11 (2020) 2079.  https://doi.org/10.1038/s41467-020-15811-x. [22] G. Ventura Silva, M. Thomitzek, M. Lippke, T. Heckmann, H. Karaki,  C. Lischka, F. MÃ¶hlen, D. Mayer, J. Hagemeister, R. Daub, J.  Fleischer, H. Nirschl, D. SchrÃ¶der, P. Scharfer, W. Schabel, A.  Kwade, C. Herrmann, Digitalization Platform for Sustainable Battery  Cell Production: Coupling of Process, Production, and Product  Models, Energy Tech (2022) 2200801.  https://doi.org/10.1002/ente.202200801. [23] A. Davoodabadi, J. Li, Y. Liang, D.L. Wood, T.J. Singler, C. Jin, Analysis of electrolyte imbibition through lithium-ion battery  electrodes, Journal of Power Sources 424 (2019) 193â€“203.  https://doi.org/10.1016/j.jpowsour.2019.03.115. [24] Deutsches Institut fÃ¼r Normung e. V., DIN 91252: Elektrische  StraÃŸenfahrzeuge -Batteriesysteme-Anforderungen an die Gestaltung  von Lithium-Ionen-Batteriezellen, Beuth Verlag GmbH, 10772 Berlin,  2016. [25] ANSYS, Inc., ANSYS Fluent User's Guide. Release 15.0, 2013. [26] F.J. GÃ¼nter, S. RÃ¶ssler, M. Schulz, W. Braunwarth, R. Gilles, G.  Reinhart, Influence of the Cell Format on the Electrolyte Filling  Process of Lithiumâ€�Ion Cells, Energy Technol. 8 (2019) 1801108.  https://doi.org/10.1002/ente.201801108. [27] W.J. Weydanz, H. Reisenweber, A. G</xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" docsubtype="fla" version="5.6" xml:lang="en">
+         <item-info>
+            <jid>PROCIR</jid>
+            <aid>401726</aid>
+            <ce:pii>S2212-8271(24)00836-9</ce:pii>
+            <ce:doi>10.1016/j.procir.2024.08.268</ce:doi>
+            <ce:copyright type="unknown" year="2024"/>
+         </item-info>
+         <head>
+            <ce:title id="tte0002">Holistic modeling of the electrolyte filling process to study the dosing and wetting behavior of lithium-ion batteries</ce:title>
+            <ce:author-group id="aut0001">
+               <ce:author id="au1074" author-id="S2212827124008369-6eee6ab1005fe23d6b23ffe80a68b080">
+                  <ce:given-name>Jan</ce:given-name>
+                  <ce:surname>Hagemeister</ce:surname>
+                  <ce:cross-ref id="crf1090" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:author id="au1075" author-id="S2212827124008369-a184f8ba1d2c869b9f48ed1096dd6ced">
+                  <ce:given-name>Ahmed</ce:given-name>
+                  <ce:surname>Elkhoshet</ce:surname>
+                  <ce:cross-ref id="crf1091" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au1076" author-id="S2212827124008369-2871bc60b9dfdb0882f284605ce77e49">
+                  <ce:given-name>Yiping</ce:given-name>
+                  <ce:surname>Hu</ce:surname>
+                  <ce:cross-ref id="crf1092" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au1077" author-id="S2212827124008369-3d33d186c125bf83e383b7cb7586e4f3">
+                  <ce:given-name>Rüdiger</ce:given-name>
+                  <ce:surname>Daub</ce:surname>
+                  <ce:cross-ref id="crf1093" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:affiliation id="aff0001" affiliation-id="S2212827124008369-fca4723c2fc14768e7888f80b380a445">
+                  <ce:label>a</ce:label>
+                  <ce:textfn id="cetextfn0001">Technical University of Munich, TUM School of Engineering and Design, Institute for Machine Tools and Industrial Management (iwb), Boltzmannstraße 15, 85748 Garching, Germany</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Technical University of Munich</sa:organization>
+                     <sa:organization>TUM School of Engineering and Design</sa:organization>
+                     <sa:organization>Institute for Machine Tools and Industrial Management (iwb)</sa:organization>
+                     <sa:address-line>Boltzmannstraße 15</sa:address-line>
+                     <sa:city>Garching</sa:city>
+                     <sa:postal-code>85748</sa:postal-code>
+                     <sa:country>Germany</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="staff0001">aTechnical University of Munich, TUM School of Engineering and Design, Institute for Machine Tools and Industrial Management (iwb), Boltzmannstraße 15, 85748 Garching, Germany</ce:source-text>
+               </ce:affiliation>
+            </ce:author-group>
+            <ce:abstract id="abs0001" view="all" class="author"><ce:abstract-sec id="abss0001" view="all">
+                  <ce:simple-para id="spara1016" view="all">The electrolyte filling process of lithium-ion batteries is characterized by extensive wetting times and significant costs for experimental process design, which is becoming increasingly relevant in the current landscape of fast-evolving cell designs to optimize energy density. In this study, an approach for applying computational fluid dynamics to simulate the flow of liquid electrolyte through the battery void volume and porous cell stack is shown. Results of the simulation on pore scale are used to calculate the permeability of the cell stack, which provides an input parameter for the simulation on cell scale. On a cell scale, the calculated parameters act as a resistance value of the cell stack, enabling the modeling of the interaction between dosing and wetting. The detailed model setup including simulation parameters is provided, so that cell manufacturers and researchers will be able to set up individual simulation models to predict the filling behavior during cell development.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="keys0001" view="all" class="keyword">
+               <ce:section-title id="cesectitle0002">Keywords</ce:section-title>
+               <ce:keyword id="key1067">
+                  <ce:text id="cetext1067">lithium-ion battery cells</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key1068">
+                  <ce:text id="cetext1068">battery production</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key1069">
+                  <ce:text id="cetext1069">electrolyte filling</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key1070">
+                  <ce:text id="cetext1070">computational fluid dynamics</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key1071">
+                  <ce:text id="cetext1071">CFD</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key1072">
+                  <ce:text id="cetext1072">simulation</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <tail view="all">
+            <ce:bibliography id="bibl120" view="all">
+               <ce:section-title id="cestitle120">References</ce:section-title>
+               <ce:bibliography-sec id="cebibsec120" view="all">
+                  <ce:bib-reference id="bib1">
+                     <ce:label>1</ce:label>
+                     <sb:reference id="sbref1">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Rogelj</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Huppmann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Krey</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Riahi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Clarke</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Gidden</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Nicholls</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Meinshausen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A new scenario logic for the Paris Agreement long-term temperature goal</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nature</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>573</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>357</sb:first-page>
+                              <sb:last-page>363</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1038/s41586-019-1541-4</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1506">J. Rogelj, D. Huppmann, V. Krey, K. Riahi, L. Clarke, M. Gidden, Z. Nicholls, M. Meinshausen, A new scenario logic for the Paris Agreement long-term temperature goal, Nature 573 (2019) 357–363. https://doi.org/10.1038/s41586-019-1541-4.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib2">
+                     <ce:label>2</ce:label>
+                     <sb:reference id="sbref2">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>B.C.</ce:given-name>
+                                 <ce:surname>O’Neill</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.R.</ce:given-name>
+                                 <ce:surname>Carter</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Ebi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.A.</ce:given-name>
+                                 <ce:surname>Harrison</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Kemp-Benedict</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Kok</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Kriegler</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.L.</ce:given-name>
+                                 <ce:surname>Preston</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Riahi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Sillmann</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Achievements and needs for the climate change scenario framework</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nature Climate Change</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>10</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1074</sb:first-page>
+                              <sb:last-page>1084</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1038/s41558-020-00952-0</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1507">B.C. O’Neill, T.R. Carter, K. Ebi, P.A. Harrison, E. Kemp-Benedict, K. Kok, E. Kriegler, B.L. Preston, K. Riahi, J. Sillmann, others, Achievements and needs for the climate change scenario framework, Nature Climate Change 10 (2020) 1074–1084. https://doi.org/10.1038/s41558-020-00952-0.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib3">
+                     <ce:label>3</ce:label>
+                     <sb:reference id="sbref3">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.P.</ce:given-name>
+                                 <ce:surname>Cano</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Banham</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Ye</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Hintennach</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Lu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Fowler</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Batteries and fuel cells for emerging electric vehicle markets</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nature Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>3</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>279</sb:first-page>
+                              <sb:last-page>289</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1038/s41560-018-0108-1</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1508">Z.P. Cano, D. Banham, S. Ye, A. Hintennach, J. Lu, M. Fowler, Z. Chen, Batteries and fuel cells for emerging electric vehicle markets, Nature Energy 3 (2018) 279–289. https://doi.org/10.1038/s41560-018-0108-1.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib4">
+                     <ce:label>4</ce:label>
+                     <sb:reference id="sbref4">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.O.G.</ce:given-name>
+                                 <ce:surname>Posada</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Rennie</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.P.</ce:given-name>
+                                 <ce:surname>Villar</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.L.</ce:given-name>
+                                 <ce:surname>Martins</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Marinaccio</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Barnes</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.F.</ce:given-name>
+                                 <ce:surname>Glover</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.A.</ce:given-name>
+                                 <ce:surname>Worsley</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.J.</ce:given-name>
+                                 <ce:surname>Hall</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Aqueous batteries as grid scale energy storage solutions</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Renewable and Sustainable Energy Reviews</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>68</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1174</sb:first-page>
+                              <sb:last-page>1182</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.rser.2016.02.024</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1509">J.O.G. Posada, A. Rennie, S.P. Villar, V.L. Martins, J. Marinaccio, A. Barnes, C.F. Glover, D.A. Worsley, P.J. Hall, Aqueous batteries as grid scale energy storage solutions, Renewable and Sustainable Energy Reviews 68 (2017) 1174–1182. https://doi.org/10.1016/j.rser.2016.02.024.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib5">
+                     <ce:label>5</ce:label>
+                     <sb:reference id="sbref5">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Kwade</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Haselrieder</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Leithoff</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Modlinger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Dietrich</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Droeder</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Current status and challenges for automotive battery production technologies</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nat Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>3</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>290</sb:first-page>
+                              <sb:last-page>300</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1038/s41560-018-0130-3</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1510">A. Kwade, W. Haselrieder, R. Leithoff, A. Modlinger, F. Dietrich, K. Droeder, Current status and challenges for automotive battery production technologies, Nat Energy 3 (2018) 290–300. https://doi.org/10.1038/s41560-018-0130-3.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib6">
+                     <ce:label>6</ce:label>
+                     <sb:reference id="sbref6">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Korthauer</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:title>
+                                 <sb:maintitle>Handbuch lithium-ionen-batterien</sb:maintitle>
+                              </sb:title>
+                              <sb:date>2013</sb:date>
+                              <sb:publisher>
+                                 <sb:name>Springer</sb:name>
+                              </sb:publisher>
+                           </sb:book>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1511">R. Korthauer, Handbuch lithium-ionen-batterien, Springer, 2013.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib7">
+                     <ce:label>7</ce:label>
+                     <ce:other-ref id="sbref7">
+                        <ce:textref>J. Hagemeister, S. Stock, M. Linke, M. Fischer, R. Drees, M. Kurrat, R. Daub, Lean Cell Finalization in Lithium‐Ion Battery Production: Determining the Required Electrolyte Wetting Degree to Begin the Formation, Energy Tech (2022) 2200686. <ce:inter-ref id="interrefs237" xlink:href="https://doi.org/10.1002/ente.202200686" xlink:type="simple">https://doi.org/10.1002/ente.202200686</ce:inter-ref>.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib8">
+                     <ce:label>8</ce:label>
+                     <sb:reference id="sbref8">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.L.</ce:given-name>
+                                 <ce:surname>Wood</ce:surname>
+                                 <ce:suffix>III</ce:suffix>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Daniel</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Prospects for reducing the processing cost of lithium ion batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>275</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>234</sb:first-page>
+                              <sb:last-page>242</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.jpowsour.2014.11.019</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1513">D.L. Wood III, J. Li, C. Daniel, Prospects for reducing the processing cost of lithium ion batteries, Journal of Power Sources 275 (2015) 234–242. https://doi.org/10.1016/j.jpowsour.2014.11.019.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib9">
+                     <ce:label>9</ce:label>
+                     <sb:reference id="sbref9">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Knoche</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Surek</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Reinhart</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A Process Model for the Electrolyte Filling of Lithium-ion Batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Procedia CIRP</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>41</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>405</sb:first-page>
+                              <sb:last-page>410</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.procir.2015.12.044</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1514">T. Knoche, F. Surek, G. Reinhart, A Process Model for the Electrolyte Filling of Lithium-ion Batteries, Procedia CIRP 41 (2016) 405–410. https://doi.org/10.1016/j.procir.2015.12.044.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib10">
+                     <ce:label>10</ce:label>
+                     <sb:reference id="sbref10">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Lucas</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Translated title: "The time law of the capillary rise of liquids"</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Kolloid-Zeitschrift</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>23</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1918</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>15</sb:first-page>
+                              <sb:last-page>22</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1007/BF01461107</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1515">R. Lucas, Translated title: "The time law of the capillary rise of liquids", Kolloid-Zeitschrift 23 (1918) 15–22. https://doi.org/10.1007/BF01461107.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib11">
+                     <ce:label>11</ce:label>
+                     <sb:reference id="sbref11">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>E.W.</ce:given-name>
+                                 <ce:surname>Washburn</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The Dynamics of Capillary Flow, Phys</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Rev.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>17</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1921</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>273</sb:first-page>
+                              <sb:last-page>283</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1103/PhysRev.17.273</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1516">E.W. Washburn, The Dynamics of Capillary Flow, Phys. Rev. 17 (1921) 273–283. https://doi.org/10.1103/PhysRev.17.273.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib12">
+                     <ce:label>12</ce:label>
+                     <sb:reference id="sbref12">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.J.</ce:given-name>
+                                 <ce:surname>Günter</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Keilhofer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Rauch</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Rössler</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Schulz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Braunwarth</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Gilles</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Daub</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Reinhart</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Influence of pressure and temperature on the electrolyte filling of lithium-ion cells: Experiment</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>model and method, Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>517</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>230668</sb:first-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.jpowsour.2021.230668</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1517">F.J. Günter, J. Keilhofer, C. Rauch, S. Rössler, M. Schulz, W. Braunwarth, R. Gilles, R. Daub, G. Reinhart, Influence of pressure and temperature on the electrolyte filling of lithium-ion cells: Experiment, model and method, Journal of Power Sources 517 (2022) 230668. https://doi.org/10.1016/j.jpowsour.2021.230668.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib13">
+                     <ce:label>13</ce:label>
+                     <sb:reference id="sbref13">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Sauter</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Zahn</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Wood</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Understanding Electrolyte Infilling of Lithium Ion Batteries, J</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochem. Soc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>167</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>100546</sb:first-page>
+                           </sb:pages>
+                           <ce:doi>10.1149/1945-7111/ab9bfd</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1518">C. Sauter, R. Zahn, V. Wood, Understanding Electrolyte Infilling of Lithium Ion Batteries, J. Electrochem. Soc. 167 (2020) 100546. https://doi.org/10.1149/1945-7111/ab9bfd.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib14">
+                     <ce:label>14</ce:label>
+                     <sb:reference id="sbref14">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.G.</ce:given-name>
+                                 <ce:surname>Lee</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.H.</ce:given-name>
+                                 <ce:surname>Jeon</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.M.</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.H.</ce:given-name>
+                                 <ce:surname>Kang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.-J.</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Lattice Boltzmann Simulation for Electrolyte Transport in Porous Electrode of Lithium Ion Batteries, J</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochem. Soc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>160</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>H258</sb:first-page>
+                              <sb:last-page>H265</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1149/2.017306jes</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1519">S.G. Lee, D.H. Jeon, B.M. Kim, J.H. Kang, C.-J. Kim, Lattice Boltzmann Simulation for Electrolyte Transport in Porous Electrode of Lithium Ion Batteries, J. Electrochem. Soc. 160 (2013) H258-H265. https://doi.org/10.1149/2.017306jes.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib15">
+                     <ce:label>15</ce:label>
+                     <sb:reference id="sbref15">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.H.</ce:given-name>
+                                 <ce:surname>Jeon</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Wettability in electrodes and its impact on the performance of lithium-ion batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy Storage Materials</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>18</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>139</sb:first-page>
+                              <sb:last-page>147</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.ensm.2019.01.002</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1520">D.H. Jeon, Wettability in electrodes and its impact on the performance of lithium-ion batteries, Energy Storage Materials 18 (2019) 139–147. https://doi.org/10.1016/j.ensm.2019.01.002.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib16">
+                     <ce:label>16</ce:label>
+                     <sb:reference id="sbref16">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Piller</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Casagrande</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Schena</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Santini</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Pore-scale simulation of laminar flow through porous media, J</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Phys.: Conf. Ser.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>501</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>12010</sb:first-page>
+                           </sb:pages>
+                           <ce:doi>10.1088/1742-6596/501/1/012010</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1521">M. Piller, D. Casagrande, G. Schena, M. Santini, Pore-scale simulation of laminar flow through porous media, J. Phys.: Conf. Ser. 501 (2014) 12010. https://doi.org/10.1088/1742-6596/501/1/012010.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib17">
+                     <ce:label>17</ce:label>
+                     <sb:reference id="sbref17">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Neumann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Boettcher</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Ehrhard</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Numerical investigation into a liquid displacing a gas in thin porous layers, Proc</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Math. Mech.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>16</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>605</sb:first-page>
+                              <sb:last-page>606</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1002/pamm.201610291</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1522">T. Neumann, K. Boettcher, P. Ehrhard, Numerical investigation into a liquid displacing a gas in thin porous layers, Proc. Appl. Math. Mech. 16 (2016) 605–606. https://doi.org/10.1002/pamm.201610291.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib18">
+                     <ce:label>18</ce:label>
+                     <sb:reference id="sbref18">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Neumann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Boettcher</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Ehrhard</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Modelling the filling process of lithium-ion batteries, Proc</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Math. Mech.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>17</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>659</sb:first-page>
+                              <sb:last-page>660</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1002/pamm.201710298</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1523">T. Neumann, K. Boettcher, P. Ehrhard, Modelling the filling process of lithium-ion batteries, Proc. Appl. Math. Mech. 17 (2017) 659–660. https://doi.org/10.1002/pamm.201710298.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib19">
+                     <ce:label>19</ce:label>
+                     <sb:reference id="sbref19">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Shodiev</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Primo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O.</ce:given-name>
+                                 <ce:surname>Arcelus</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Chouchane</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Osenberg</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Hilger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>I.</ce:given-name>
+                                 <ce:surname>Manke</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.A.</ce:given-name>
+                                 <ce:surname>Franco</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Insight on electrolyte infiltration of lithium ion battery electrodes by means of a new three-dimensional-resolved lattice Boltzmann model</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy Storage Materials</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>38</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>80</sb:first-page>
+                              <sb:last-page>92</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.ensm.2021.02.029</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1524">A. Shodiev, E. Primo, O. Arcelus, M. Chouchane, M. Osenberg, A. Hilger, I. Manke, J. Li, A.A. Franco, Insight on electrolyte infiltration of lithium ion battery electrodes by means of a new three-dimensional-resolved lattice Boltzmann model, Energy Storage Materials 38 (2021) 80–92. https://doi.org/10.1016/j.ensm.2021.02.029.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib20">
+                     <ce:label>20</ce:label>
+                     <sb:reference id="sbref20">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Hagemeister</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.J.</ce:given-name>
+                                 <ce:surname>Günter</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Rinner</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Zhu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Papst</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Daub</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Numerical Models of the Electrolyte Filling Process of Lithium-Ion Batteries to Accelerate and Improve the Process and Cell Design</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Batteries</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>8</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>159</sb:first-page>
+                           </sb:pages>
+                           <ce:doi>10.3390/batteries8100159</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1525">J. Hagemeister, F.J. Günter, T. Rinner, F. Zhu, A. Papst, R. Daub, Numerical Models of the Electrolyte Filling Process of Lithium-Ion Batteries to Accelerate and Improve the Process and Cell Design, Batteries 8 (2022) 159. https://doi.org/10.3390/batteries8100159.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib21">
+                     <ce:label>21</ce:label>
+                     <sb:reference id="sbref21">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Lu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Bertei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.P.</ce:given-name>
+                                 <ce:surname>Finegan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Tan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.R.</ce:given-name>
+                                 <ce:surname>Daemi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.S.</ce:given-name>
+                                 <ce:surname>Weaving</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.B.</ce:given-name>
+                                 <ce:surname>O’Regan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.M.M.</ce:given-name>
+                                 <ce:surname>Heenan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Hinds</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Kendrick</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.J.L.</ce:given-name>
+                                 <ce:surname>Brett</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.R.</ce:given-name>
+                                 <ce:surname>Shearing</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>3D microstructure design of lithium-ion battery electrodes assisted by X-ray nano-computed tomography and modelling</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nature communications</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>11</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2079</sb:first-page>
+                           </sb:pages>
+                           <ce:doi>10.1038/s41467-020-15811-x</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1526">X. Lu, A. Bertei, D.P. Finegan, C. Tan, S.R. Daemi, J.S. Weaving, K.B. O’Regan, T.M.M. Heenan, G. Hinds, E. Kendrick, D.J.L. Brett, P.R. Shearing, 3D microstructure design of lithium-ion battery electrodes assisted by X-ray nano-computed tomography and modelling, Nature communications 11 (2020) 2079. https://doi.org/10.1038/s41467-020-15811-x.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib22">
+                     <ce:label>22</ce:label>
+                     <ce:other-ref id="sbref22">
+                        <ce:textref>G. Ventura Silva, M. Thomitzek, M. Lippke, T. Heckmann, H. Karaki, C. Lischka, F. Möhlen, D. Mayer, J. Hagemeister, R. Daub, J. Fleischer, H. Nirschl, D. Schröder, P. Scharfer, W. Schabel, A. Kwade, C. Herrmann, Digitalization Platform for Sustainable Battery Cell Production: Coupling of Process, Production, and Product Models, Energy Tech (2022) 2200801. <ce:inter-ref id="interrefs238" xlink:href="https://doi.org/10.1002/ente.202200801" xlink:type="simple">https://doi.org/10.1002/ente.202200801</ce:inter-ref>.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib23">
+                     <ce:label>23</ce:label>
+                     <sb:reference id="sbref23">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Davoodabadi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Liang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.L.</ce:given-name>
+                                 <ce:surname>Wood</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.J.</ce:given-name>
+                                 <ce:surname>Singler</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Jin</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Analysis of electrolyte imbibition through lithium-ion battery electrodes</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>424</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>193</sb:first-page>
+                              <sb:last-page>203</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.jpowsour.2019.03.115</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1528">A. Davoodabadi, J. Li, Y. Liang, D.L. Wood, T.J. Singler, C. Jin, Analysis of electrolyte imbibition through lithium-ion battery electrodes, Journal of Power Sources 424 (2019) 193–203. https://doi.org/10.1016/j.jpowsour.2019.03.115.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib24">
+                     <ce:label>24</ce:label>
+                     <ce:other-ref id="sbref24">
+                        <ce:textref>Deutsches Institut für Normung e. V., DIN 91252: Elektrische Straßenfahrzeuge -Batteriesysteme-Anforderungen an die Gestaltung von Lithium-Ionen-Batteriezellen, Beuth Verlag GmbH, 10772 Berlin, 2016.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib25">
+                     <ce:label>25</ce:label>
+                     <ce:other-ref id="sbref25">
+                        <ce:textref>ANSYS, Inc., ANSYS Fluent User’s Guide. Release 15.0, 2013.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib26">
+                     <ce:label>26</ce:label>
+                     <sb:reference id="sbref26">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.J.</ce:given-name>
+                                 <ce:surname>Günter</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Rössler</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Schulz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Braunwarth</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Gilles</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Reinhart</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Influence of the Cell Format on the Electrolyte Filling Process of Lithium‐Ion Cells</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy Technol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>8</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1801108</sb:first-page>
+                           </sb:pages>
+                           <ce:doi>10.1002/ente.201801108</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1531">F.J. Günter, S. Rössler, M. Schulz, W. Braunwarth, R. Gilles, G. Reinhart, Influence of the Cell Format on the Electrolyte Filling Process of Lithium‐Ion Cells, Energy Technol. 8 (2019) 1801108. https://doi.org/10.1002/ente.201801108.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib27">
+                     <ce:label>27</ce:label>
+                     <sb:reference id="sbref27">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.J.</ce:given-name>
+                                 <ce:surname>Weydanz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Reisenweber</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Gottschalk</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Schulz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Knoche</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Reinhart</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Masuch</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Franke</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Gilles</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Visualization of electrolyte filling process and influence of vacuum during filling for hard case prismatic lithium ion cells by neutron imaging to optimize the production process</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>380</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>126</sb:first-page>
+                              <sb:last-page>134</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.jpowsour.2018.01.081</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1532">W.J. Weydanz, H. Reisenweber, A. Gottschalk, M. Schulz, T. Knoche, G. Reinhart, M. Masuch, J. Franke, R. Gilles, Visualization of electrolyte filling process and influence of vacuum during filling for hard case prismatic lithium ion cells by neutron imaging to optimize the production process, Journal of Power Sources 380 (2018) 126–134. https://doi.org/10.1016/j.jpowsour.2018.01.081.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib28">
+                     <ce:label>28</ce:label>
+                     <sb:reference id="sbref28">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Knoche</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Zinth</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Schulz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Schnell</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Gilles</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Reinhart</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>In situ visualization of the electrolyte solvent filling process by neutron radiography</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>331</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>267</sb:first-page>
+                              <sb:last-page>276</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.jpowsour.2016.09.037</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt1533">T. Knoche, V. Zinth, M. Schulz, J. Schnell, R. Gilles, G. Reinhart, In situ visualization of the electrolyte solvent filling process by neutron radiography, Journal of Power Sources 331 (2016) 267–276. https://doi.org/10.1016/j.jpowsour.2016.09.037.</ce:source-text>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

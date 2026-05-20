@@ -1,0 +1,2857 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1452398123024367</prism:url><dc:identifier>doi:10.20964/2022.08.40</dc:identifier><eid>1-s2.0-S1452398123024367</eid><prism:doi>10.20964/2022.08.40</prism:doi><pii>S1452-3981(23)02436-7</pii><dc:title>Experimental Analysis of Thermal Behavior of a Lithium-Ion Battery using Constant Voltage under Different Cooling Conditions </dc:title><prism:publicationName>International Journal of Electrochemical Science</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>14523981</prism:issn><prism:volume>17</prism:volume><prism:issueIdentifier>8</prism:issueIdentifier><prism:startingPage>220810</prism:startingPage><prism:pageRange>220810</prism:pageRange><prism:number>8</prism:number><articleNumber>220810</articleNumber><dc:format>text/xml</dc:format><prism:coverDate>2022-08-31</prism:coverDate><prism:coverDisplayDate>August 2022</prism:coverDisplayDate><prism:copyright>Copyright © 2022 The Authors. Published by ESG. Published by Elsevier B.V.</prism:copyright><prism:publisher>The Authors. Published by ESG. Published by Elsevier B.V.</prism:publisher><dc:creator>Jayamohan, Dhanaselvam</dc:creator><dc:creator>Venkatasalam, Rukkumani</dc:creator><dc:creator>Thangam, Chinnadurai</dc:creator><dc:description>
+                  Lithium-Ion Battery (LiB) plays a vital role in the applications from smart phone to Electric Vehicles (EV). In general, LiB is used as the main resource for primary as well as secondary applications because they have advantages such as long cycle life, slow self-discharge, high capacity, and low maintenance. In spite of its advantages, few factors such as protection circuit, efficient thermal management systems, battery material, cost and safety, degrade the performance of the LiB. So, to analyze the thermal behavior of the Lithium-ion battery, it is tested under air, water and oil cooling methods. A LiFeO4 LiB with 3.2 V/ 6Ah capacity is used for the analysis. The nominal voltage and capacity are 24 V and 48mAh respectively. The temperature profile of the battery is tested under different temperature-cooling environments. The experimental results are validated using MATLAB and Minitab software. In MATLAB, the Simulink model is designed to operate a 5HP/240V/1750 RPM DC motor. In this analysis, charging / discharging characteristics, State of Charge (SOC) under different ambient temperatures and motor torque characteristics are obtained. The temperature influences under various cooling methods have to be analyzed using Minitab-2017 software. It is interpreted by Response Surface Methodology (RSM) and contour plot graphical analysis. It gives a very clear picture about the relationship between different factors such as charging / discharging voltage, various temperature points, temperature control with cooling and without cooling. Also, this analysis helps to identify thermal influence on the battery performance where the minimum temperature is very clearly visible. The safe operating temperature can easily be identified for various applications. This analysis aids in the prediction of extreme temperature conditions and provides solutions to protect the system. So, through this analysis, it is possible to identify the optimum operating temperature range of a Lithium-ion battery.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>Author</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>Lithium-ion Battery</dcterms:subject><dcterms:subject>Cooling mechanism</dcterms:subject><dcterms:subject>RSM Analysis</dcterms:subject><dcterms:subject>thermal behavior</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1452398123024367" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1452398123024367" rel="scidir"/></coredata><scopus-id>85134025480</scopus-id><scopus-eid>2-s2.0-85134025480</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85134025480" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>783334</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291802</xocs:ssid>
+         <xocs:ssid type="subj">291865</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>International Journal of Electrochemical Science</xocs:srctitle>
+      <xocs:normalized-srctitle>INTERNATIONALJOURNALELECTROCHEMICALSCIENCE</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20230617">2023-06-17</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20230617">2023-06-17</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20230617">2023-06-17</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20230617">2023-06-17</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2023-06-17T13:34:47</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1452398123024367</xocs:eid>
+      <xocs:pii-formatted>S1452-3981(23)02436-7</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1452398123024367</xocs:pii-unformatted>
+      <xocs:doi>10.20964/2022.08.40</xocs:doi>
+      <xocs:item-stage>S350</xocs:item-stage>
+      <xocs:item-version-number>S350.1</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1452398122X78000</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20230617">2023-06-17T13:10:32.135546Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20220801</xocs:date-search-begin>
+      <xocs:date-search-end>20220831</xocs:date-search-end>
+      <xocs:year-nav>2022</xocs:year-nav>
+      <xocs:indexeddate epoch="1687011032">2023-06-17T14:10:32.135546Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issfirst issn issnnorm issuelist itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content oa subj tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authkeywords authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1452-3981</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>14523981</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>17</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>17</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>8</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>8</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 17, Issue 8</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>9</xocs:sort-order>
+      <xocs:first-fp>220810</xocs:first-fp>
+      <xocs:article-number>220810</xocs:article-number>
+      <xocs:pages>
+         <xocs:first-page>220810</xocs:first-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>202208</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>August 2022</xocs:cover-date-text>
+      <xocs:cover-date-start>2022-08-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2022-08-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2022</xocs:cover-date-year>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 2022 The Authors. Published by ESG. Published by Elsevier B.V.</xocs:copyright-line>
+      <xocs:normalized-article-title>EXPERIMENTALANALYSISTHERMALBEHAVIORALITHIUMIONBATTERYUSINGCONSTANTVOLTAGEUNDERDIFFERENTCOOLINGCONDITIONS</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>JAYAMOHAN</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>D</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="rf0005">
+            <xocs:ref-normalized-surname>BIRKL</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>373</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0010">
+            <xocs:ref-normalized-surname>ZICHEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-article-number>110685</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0015">
+            <xocs:ref-normalized-surname>YE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>281</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0020">
+            <xocs:ref-normalized-surname>LIU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>304</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0025">
+            <xocs:ref-normalized-surname>YANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1177</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0030">
+            <xocs:ref-normalized-surname>MA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>653</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0035">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>279</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0040">
+            <xocs:ref-normalized-surname>GAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2008</xocs:ref-pub-year>
+            <xocs:ref-first-fp>5071</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0045">
+            <xocs:ref-normalized-surname>RUI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2109</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0050">
+            <xocs:ref-normalized-surname>GUNAWARDHANA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1116</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0055">
+            <xocs:ref-normalized-surname>FENG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>294</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0060">
+            <xocs:ref-normalized-surname>BANDHAUER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>R1</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0065">
+            <xocs:ref-normalized-surname>CHEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>846</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0070">
+            <xocs:ref-normalized-surname>SEFIDAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>44</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0075">
+            <xocs:ref-normalized-surname>JAGUEMONT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-article-number>101551</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0080">
+            <xocs:ref-normalized-surname>SABBAH</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2008</xocs:ref-pub-year>
+            <xocs:ref-first-fp>630</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0085">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-article-number>118417</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0090">
+            <xocs:ref-normalized-surname>ZHUANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-article-number>116767</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0095">
+            <xocs:ref-normalized-surname>YANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>55</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0100">
+            <xocs:ref-normalized-surname>MOHAMMADIAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>305</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0105">
+            <xocs:ref-normalized-surname>REN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-article-number>230314</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0110">
+            <xocs:ref-normalized-surname>OZTOP</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-article-number>104760</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0115">
+            <xocs:ref-normalized-surname>LI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-article-number>102034</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0120">
+            <xocs:ref-normalized-surname>ZHAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>33</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0125">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>229</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0130">
+            <xocs:ref-normalized-surname>LEE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-article-number>103684</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0135">
+            <xocs:ref-normalized-surname>ZHAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>182</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0140">
+            <xocs:ref-normalized-surname>DENG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>10</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0145">
+            <xocs:ref-normalized-surname>CHEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-first-fp>6198</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0150">
+            <xocs:ref-normalized-surname>XIN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-article-number>118230</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>Q</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0155">
+            <xocs:ref-normalized-surname>AKBARZADEH</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-article-number>113862</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0160">
+            <xocs:ref-normalized-surname>JANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-article-number>115001</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0165">
+            <xocs:ref-normalized-surname>RAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4554</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0170">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1172</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0175">
+            <xocs:ref-normalized-surname>CHEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>961</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0180">
+            <xocs:ref-normalized-surname>TETE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-article-number>102255</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0185">
+            <xocs:ref-normalized-surname>SHEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-article-number>111301</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0190">
+            <xocs:ref-normalized-surname>KUMAR</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-article-number>102003</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0195">
+            <xocs:ref-normalized-surname>JILTE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-article-number>119564</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0200">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-article-number>112319</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0205">
+            <xocs:ref-normalized-surname>LIU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3028</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0210">
+            <xocs:ref-normalized-surname>POONGAVANAM</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1532</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0215">
+            <xocs:ref-normalized-surname>TENG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2213</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0220">
+            <xocs:ref-normalized-surname>KUMAR</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-article-number>101371</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0225">
+            <xocs:ref-normalized-surname>FAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>96</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0230">
+            <xocs:ref-normalized-surname>CHEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1165</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0235">
+            <xocs:ref-normalized-surname>TSILINGIRIS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>50</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0240">
+            <xocs:ref-normalized-surname>KIM</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-first-fp>8</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0245">
+            <xocs:ref-normalized-surname>RAJCHAPANUPAT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-article-number>012014</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0250">
+            <xocs:ref-normalized-surname>BOUZAID</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0255">
+            <xocs:ref-normalized-surname>SOLOMON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-article-number>104007</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>O</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0260">
+            <xocs:ref-normalized-surname>LEE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0265">
+            <xocs:ref-normalized-surname>AFZAL</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-first-fp>406</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0270">
+            <xocs:ref-normalized-surname>SEO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-article-number>120301</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0275">
+            <xocs:ref-normalized-surname>YANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-article-number>117664</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0280">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-article-number>121652</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>JAYAMOHANX2022X220810</xocs:refkey3>
+         <xocs:refkey4ai>JAYAMOHANX2022X220810XD</xocs:refkey4ai>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2023-06-15T09:31:09Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>Author</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/1452-3981_UNBOUNDED_Author">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:article-sharing-framework/>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1452-3981(23)02436-7</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1452398123024367</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1452398123024367</xocs:eid>
+         <xocs:doi>10.20964/2022.08.40</xocs:doi>
+         <xocs:cid>783334</xocs:cid>
+         <xocs:timestamp>2023-06-17T13:10:32.135546Z</xocs:timestamp>
+         <xocs:cover-date-start>2022-08-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2022-08-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1452398123024367-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1452398123024367/MAIN/application/pdf/a3ff0a2ae787bb879a68e90d038eea3a/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>1398660</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>20</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1452398123024367-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1452398123024367/PREVIEW/image/png/4661dfe370525c70533230b5720c57f7/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>65815</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">Experimental Analysis of Thermal Behavior of a Lithium-Ion Battery using Constant Voltage under Different Cooling Conditions Dhanaselvam Jayamohan, 1 dhanzeeepcet@gmail.com Rukkumani Venkatasalam, 2 Chinnadurai Thangam, 3 1 Department of Instrumentation and Control Engineering, Sri Krishna College of Technology, Coimbatore, India. Department of Instrumentation and Control Engineering Sri Krishna College of Technology Coimbatore India Department of Instrumentation and Control Engineering, Sri Krishna College of Technology, Coimbatore, India. 2 Department of Electronics and Instrumentation Engineering, Sri Ramakrishna Engineering College, Coimbatore, India. Department of Electronics and Instrumentation Engineering Sri Ramakrishna Engineering College Coimbatore India Department of Electronics and Instrumentation Engineering, Sri Ramakrishna Engineering College, Coimbatore, India. 3 Department of Mechatronics, Sathyabama Institute of Science and Technology, Chennai, India. Department of Mechatronics Sathyabama Institute of Science and Technology Chennai India Department of Mechatronics, Sathyabama Institute of Science and Technology, Chennai, India.     Lithium-Ion Battery (LiB) plays a vital role in the applications from smart phone to Electric Vehicles (EV). In general, LiB is used as the main resource for primary as well as secondary applications because they have advantages such as long cycle life, slow self-discharge, high capacity, and low maintenance. In spite of its advantages, few factors such as protection circuit, efficient thermal management systems, battery material, cost and safety, degrade the performance of the LiB. So, to analyze the thermal behavior of the Lithium-ion battery, it is tested under air, water and oil cooling methods. A LiFeO4    LiB with 3.2 V/ 6Ah capacity is used for the analysis. The nominal voltage and capacity are 24 V and 48mAh respectively. The temperature profile of the battery is tested under different temperature-cooling environments. The experimental results are validated using MATLAB and Minitab software. In MATLAB, the Simulink model is designed to operate a 5HP/240V/1750 RPM DC motor. In this analysis, charging / discharging characteristics, State of Charge (SOC) under different ambient temperatures and motor torque characteristics are obtained. The temperature influences under various cooling methods have to be analyzed using Minitab-2017 software. It is interpreted by Response Surface Methodology (RSM) and contour plot graphical analysis. It gives a very clear picture about the relationship between different factors such as charging / discharging voltage, various temperature points, temperature control with cooling and without cooling. Also, this analysis helps to identify thermal influence on the battery performance where the minimum temperature is very clearly visible. The safe operating temperature can easily be identified for various applications. This analysis aids in the prediction of extreme temperature conditions and provides solutions to protect the system. So, through this analysis, it is possible to identify the optimum operating temperature range of a Lithium-ion battery.Keywords Lithium-ion Battery Cooling mechanism RSM Analysis thermal behavior   References 1. R. Birkl, R. Christoph, M.R. Roberts, E. McTurk, P.G. Bruce, A.H. David, J. Power Sources 341: (2017) 373-R. Birkl, R. Christoph, M.R. Roberts, E. McTurk, P. G. Bruce, and A.H. David, J. Power Sources, 341 (2017) 373. 2. W. Zichen, D. Changqing, Renewable Sustainable Energy Rev. 139: (2021) 110685 W. Zichen, and D. Changqing, Renewable Sustainable Energy Rev., 139 (2021) 110685. 3. Y. Ye, L.H. Saw, Y. Shi, A.A.O. Tay, Appl. Therm. Eng. 86: (2015) 281-Y. Ye, L.H. Saw, Y. Shi, and A.A.O. Tay, Appl. Therm. Eng., 86 (2015) 281. 4. H. Liu, Z. Wei, W. He, J. Zhao, Energy Convers. Manage. 150: (2017) 304-H Liu, Z Wei, W He, and J Zhao, Energy Convers. Manage., 150 (2017) 304. 5. K. Yang, J.J. An, S. Chen, Sci. China Chem. 53: 5 (2010) 1177-K. Yang, J. J. An, and S. Chen, Sci. China Chem., 53, no. 5 (2010) 1177. 6. S. Ma, M. Jiang, P. Tao, C. Song, J. Wu, J. Wang, T. Deng, W. Shang, Prog., Nat. Sci.: Mater. Int. 28: (2018) 653-S. Ma, M. Jiang, P. Tao, C. Song, J. Wu, J. Wang, T. Deng, and W. Shang, Prog., Nat. Sci.: Mater. Int., 28 (2018) 653. 7. H. Wang, H. Zhang, Y. Cheng, K. Feng, X. Li, H. Zhang, Electrochim. Acta. 278: (2018) 279-H. Wang, H. Zhang, Y. Cheng, K. Feng, X. Li, and H. Zhang, Electrochim. Acta., 278 (2018) 279. 8. F. Gao, Z. Tang, Electrochim. Acta. 53.15: (2008) 5071-F. Gao, and Z. Tang, Electrochim. Acta., 53.15 (2008) 5071. 9. XH. Rui, Y. Jin, XY. Feng, LC. Zhang, CH. Chen, J. Power Sources. 196.4: (2011) 2109-XH. Rui, Y. Jin, XY. Feng, LC. Zhang, and CH. Chen, J. Power Sources., 196.4 (2011) 2109. 10. N. Gunawardhana, N. Dimov, M. Sasidharan, Electrochem. Commun. 13.10: (2011) 1116-N Gunawardhana, N Dimov, and M Sasidharan, Electrochem. Commun., 13.10 (2011) 1116. 11. X. Feng, M. Fang, X. He, M. Ouyang, L. Lu, H. Wang, J. Power Sources 255: (2014) 294-X Feng, M Fang, X He, M Ouyang, L Lu, and H Wang, J. Power Sources, 255 (2014) 294. 12. T.M. Bandhauer, S. Garimella, T.F. Fuller, J. Electrochem. Soc. 158.3: (2011) R1-T.M. Bandhauer, S. Garimella and T.F. Fuller, J. Electrochem. Soc., 158.3 (2011) R1. 13. D. Chen, J. Jiang, G.H. Kim, C. Yang, A. Pesaran, Appl. Therm. Eng. 94: (2016) 846-D Chen, J Jiang, GH Kim, C Yang, A Pesaran, Appl. Therm. Eng., 94 (2016) 846. 14. A.M. Sefidan, A. Sojoudi, S.C. Saha, Int. J. Therm. Sci. 117: (2017) 44-A.M. Sefidan, and A. Sojoudi, S.C. Saha, Int. J. Therm. Sci., 117 (2017) 44. 15. J. Jaguemont, J.V. Mierlo, J. Energy Storage 31: (2020) 101551 J. Jaguemont, J. V. Mierlo, J. Energy Storage, 31 (2020) 101551. 16. R. Sabbah, R. Kizilel, J.R. Selman, S. Al-Hallaj, J. Power Sources 182.2: (2008) 630-R. Sabbah, R. Kizilel, J.R. Selman, S. Al-Hallaj, J. Power Sources, 182.2 (2008) 630. 17. Z. Zhang, L. Fu, L. Sheng, W. Ye, Y. Sun, Appl. Therm. Eng. (2022) 118417 Z. Zhang, L. Fu, L. Sheng, W. Ye, Y. Sun, Appl. Therm. Eng., (2022) 118417. 18. W. Zhuang, Z. Liu, H. Su, G. Chen, Appl. Therm. Eng. 189: (2021) 116767 W Zhuang, Z Liu, H Su, G Chen, Appl. Therm. Eng., 189 (2021) 116767. 19. N. Yang, X. Zhang, G. Li, D. Hua, Appl. Therm. Eng. 80: (2015) 55-N. Yang, X. Zhang, G. Li, D. Hua, Appl. Therm. Eng., 80 (2015) 55. 20. S.K. Mohammadian, S.M.R. Mousavi, Y. Zhang, J. Power Sources 296: (2015) 305-S.K. Mohammadian, S.M.R. Mousavi, Y. Zhang, J. Power Sources, 296 (2015) 305. 21. R. Ren, Y. Zhao, Y. Diao, L. Liang, H. Jing, J. Power Sources 507: (2021) 230314 R. Ren, Y. Zhao, Y. Diao, L. Liang, and H. Jing, J. Power Sources, 507 (2021) 230314. 22. M. Oztop, A. Åžahinaslan, J. Energy Storage 52: (2022) 104760 M. Oztop, and A. Åžahinaslan, J. Energy Storage, 52 (2022) 104760. 23. Y. Li, Z. Zhou, L. Hu, L. Gao, X. Liu, Y. Li, Y. Song, Case Stud. Therm. Eng. 34: (2022) 102034 Y. Li, Z. Zhou, L. Hu, L. Gao, X. Liu, Y. Li, and Y. Song, Case Stud. Therm. Eng., 34 (2022) 102034. 24. J. Zhao, Z. Rao, Y. Huo, X. Liu, Y. Li, Appl. Therm. Eng. 85: (2015) 33-J. Zhao, Z. Rao, Y. Huo, X. Liu, Y. Li, Appl. Therm. Eng., 85 (2015) 33. 25. T. Wang, K.J. Tseng, J. Zhao, Z. Wei, Appl. Energy 134: (2014) 229-T. Wang, K.J. Tseng, J. Zhao, Z. Wei, Appl. Energy, 134 (2014) 229. 26. J. Lee, A. Abidi, S.M. Sajadi, A.S. El-Shafay, M. Degani, M. Sharifpur, J. Energy Storage 45: (2022) 103684 J. Lee, A. Abidi, S.M. Sajadi, A.S. El-Shafay, M. Degani, and M. Sharifpur, J. Energy Storage, 45 (2022) 103684. 27. J. Zhao, P. Lv, Z. Rao, Exp. Therm Fluid Sci. 82: (2017) 182-J. Zhao, P. Lv, Z. Rao, Exp. Therm Fluid Sci., 82 (2017) 182. 28. Y. Deng, C. Feng, E. Jiaqiang, H. Zhu, J. Chen, M. Wen, H. Yin, Appl. Therm. Eng. 142: (2018) 10-Y. Deng, C. Feng, E. Jiaqiang, H. Zhu, J. Chen, M. Wen, and H. Yin, Appl. Therm. Eng., 142 (2018) 10. 29. S. Chen, A. Garg, L. Gao, X. Wei, Int. J. Energy Res. 45.4: (2021) 6198-S. Chen, A. Garg, L. Gao, and X. Wei, Int. J. Energy Res., 45.4 (2021) 6198. 30. Q. Xin, J. Xiao, T. Yang, H. Zhang, X. Long, Appl. Therm. Eng. 210: (2022) 118230 Q. Xin, J. Xiao, T. Yang, H. Zhang, and X. Long, Appl. Therm. Eng., 210 (2022) 118230. 31. M. Akbarzadeh, J. Jaguemont, J. Jaguemont, D. Karimi, J. He, L. Jin, P. Xie, J.V. Mierlo, M. Berecibar, Energy Convers. Manage. 231: (2021) 113862 M. Akbarzadeh, J. Jaguemont, J. Jaguemont, D. Karimi, J. He, L. Jin, P. Xie, J.V. Mierlo, and M. Berecibar, Energy Convers. Manage., 231 (2021) 113862. 32. D.S Jang, S. Yun, S.H. Hong, W. Cho, Y. Kim, Energy Convers. Manage. 251: (2022) 115001 D.S Jang, S. Yun, S. H. Hong, W. Cho, and Y. Kim, Energy Convers. Manage., 251 (2022) 115001. 33. Z. Rao, S. Wang, Renewable Sustainable Energy Rev. 15.9: (2011) 4554-Z Rao, and S Wang, Renewable Sustainable Energy Rev., 15.9 (2011) 4554. 34. C. Wang, G. Zhang, X. Li, J. Huang, Z. Wang, Y. Lv, L. Meng, W. Situ, M. Rao, Int. J. Energy Res. 42: 3 (2018) 1172-C. Wang, G. Zhang, X. Li, J. Huang, Z. Wang, Y. Lv, L. Meng, W. Situ, and M. Rao, Int. J. Energy Res., 42, no. 3 (2018) 1172. 35. K. Chen, X. Li, J. Power Sources 247: (2014) 961-K. Chen, X. Li, J. Power Sources, 247 (2014) 961. 36. P.R. Tete, M.M. Gupta, S.S. Joshi, J. Energy Storage 35: (2021) 102255 P.R. Tete, M.M. Gupta, and S. S. Joshi, J. Energy Storage, 35 (2021) 102255. 37. Z.G. Shen, S. Chen, X. Liu, B. Chen, Renewable Sustainable Energy Rev. 148: (2021) 111301 Z.G. Shen, S. Chen, X. Liu, and B. Chen, Renewable Sustainable Energy Rev., 148 (2021) 111301. 38. P. Kumar, D. Chaudhary, P. Varshney, U. Varshney, S.M. Yahya, Y. Rafat, J. Energy Storage 32: (2020) 102003 P. Kumar, D. Chaudhary, P. Varshney, U. Varshney, S.M. Yahya, and Y. Rafat, J. Energy Storage, 32 (2020) 102003. 39. R. Jilte, A. Afzal, S. Panchal, Energy 219: (2021) 119564 R. Jilte, and A. Afzal, S Panchal, Energy, 219 (2021) 119564. 40. J. Zhang, X. Li, G. Zhang, Y. Wang, J. Guo, Y. Wang, C. Xiao, Z. Zhong, Energy Convers. Manage. 204: (2020) 112319 J. Zhang, X. Li, G. Zhang, Y. Wang, J. Guo, Y. Wang, C. Xiao, and Z. Zhong, Energy Convers. Manage., 204 (2020): 112319. 41. M.S. Liu, M.C.C. Lin, C.Y. Tsai, C.C. Wang, Int. J. Heat Mass Transfer, Transfer 49.17-18: (2006) 3028-M.S. Liu, M.C.C. Lin, C.Y. Tsai, and C.C. Wang, Int. J. Heat Mass Transfer, Transfer, 49.17-18 (2006) 3028. 42. G.K. Poongavanam, S. Duraisamy, V.S. Vigneswaran, V. Ramalingam, Mater. Today:. Proc. 39: (2021) 1532-G.K. Poongavanam, S. Duraisamy, V.S. Vigneswaran, and V. Ramalingam, Mater. Today:. Proc., 39 (2021) 1532. 43. T.P. Teng, Y.H. Hung, T.C. Teng, H.E. Mo, H.G. Hsu, Appl. Therm. Eng. 30: (2010) 2213-T.P. Teng, Y. H. Hung, T. C. Teng, H. E. Mo, H. G. Hsu, Appl. Therm. Eng., 30 (2010) 2213. 44. P.G. Kumar, D. Sakthivadivel, N. Thangapandian, M. Salman, A.K. Thakur, R. Sathyamurthy, S.C. Kim, Sustainable Energy Technol. Assess. 47: (2021) 101371 P.G. Kumar, D. Sakthivadivel, N. Thangapandian, M. Salman, A. K. Thakur, R. Sathyamurthy, S. C. Kim, Sustainable Energy Technol. Assess., 47 (2021) 101371. 45. Y. Fan, Y. Bao, C. Ling, Y. Chu, X. Tan, S. Yang, Appl. Therm. Eng. 155: (2019) 96-Y. Fan, Y. Bao, C. Ling, Y. Chu, X. Tan, S. Yang, Appl. Therm. Eng., 155 (2019) 96. 46. S. Chen, N. Bao, A. Garg, X. Peng, L. Gao, Engineering 7: (2021) 1165-S. Chen, N. Bao, A. Garg, X. Peng, L. Gao, Engineering, 7 (2021) 1165. 47. P.T. Tsilingiris, Renewable Sustainable Energy Rev. 83: (2018) 50-P. T. Tsilingiris, Renewable Sustainable Energy Rev., 83 (2018) 50. 48. J. Kim, J. Kowal, Batteries 8.2: (2022) 8-J. Kim, and J. Kowal, Batteries, 8.2 (2022) 8. 49. N. Rajchapanupat, P. Poramapojana, IOP Conf. Ser.: Mater. Sci. Eng. 1137.1: (2021) 012014 N. Rajchapanupat, and P. Poramapojana, IOP Conf. Ser.: Mater. Sci. Eng., 1137.1 (2021) 012014. 50. S. Bouzaid, E.M. Laadissi, C. Ennawaoui, E.M. Loualid, M. Mossaddek, A.E. Ballouti, Mater. Today: Proc. (2022) S. Bouzaid, E. M. Laadissi, C. Ennawaoui, E. M. Loualid, M. Mossaddek, and A. E. Ballouti, Mater. Today: Proc., (2022). 51. O. Solomon, W. Zheng, J. Chen, Z. Qiao, J. Energy Storage 49: (2022) 104007 O. Solomon, W. Zheng, J. Chen, and Z. Qiao, J. Energy Storage, 49 (2022) 104007. 52. H. Su Lee, S.H. Hong, J.H. Lee, M.W. Park, J. Korean Soc. Saf 36.5: (2021) 1-Lee, H. Su, S. H. Hong, J. H. Lee, and M.W. Park, J. Korean Soc. Saf. 36.5 (2021) 1. 53. A. Afzal, I. Mokashi, S.A. Khan, N.A. Abdullah, M.H.B. Azami, Numer. Heat Transfer, Part A 79.5: (2020) 406-A. Afzal, I. Mokashi, S. A. Khan, N. A. Abdullah, and M. H. B. Azami, Numer. Heat Transfer, Part A, 79.5 (2020) 406. 54. M. Seo, Y. Song, J. Kim, S.W. Paek, G.H. Kim, S.W. Kim, Energy 226: (2021) 120301 M. Seo, Y. Song, J. Kim, S. W. Paek, G. H. Kim, and S. W. Kim, Energy, 226 (2021) 120301. 55. F. Yang, S. Zhang, W. Li, Q. Miao, Energy 201: (2020) 117664 F. Yang, S. Zhang, W. Li, and Q. Miao, Energy, 201 (2020) 117664. 56. X. Zhang, Z. Li, L. Luo, Y. Fan, Z. Du, Energy 238: (2022) 121652 X. Zhang, Z. Li, L. Luo, Y. Fan, and Z. Du, Energy, 238 (2022) 121652.   Int. J. Energy Res. 42: 3 (2018) 1172-C. Wang, G. Zhang, X. Li, J. Huang, Z. Wang, Y. Lv, L. Meng, W. Situ, and M. Rao, Int. J. Energy Res., 42, no. 3 (2018) 1172. 35. K. Chen, X. Li, J. Power Sources 247: (2014) 961-K. Chen, X. Li, J. Power Sources, 247 (2014) 961. 36. P.R. Tete, M.M. Gupta, S.S. Joshi, J. Energy Storage 35: (2021) 102255 P.R. Tete, M.M. Gupta, and S. S. Joshi, J. Energy Storage, 35 (2021) 102255. 37. Z.G. Shen, S. Chen, X. Liu, B. Chen, Renewable Sustainable Energy Rev. 148: (2021) 111301 Z.G. Shen, S. Chen, X. Liu, and B. Chen, Renewable Sustainable Energy Rev., 148 (2021) 111301. 38. P. Kumar, D. Chaudhary, P. Varshney, U. Varshney, S.M. Yahya, Y. Rafat, J. Energy Storage 32: (2020) 102003 P. Kumar, D. Chaudhary, P. Varshney, U. Varshney, S.M. Yahya, and Y. Rafat, J. Energy Storage, 32 (2020) 102003. 39. R. Jilte, A. Afzal, S. Panchal, Energy 219: (2021) 119564 R. Jilte, and A. Afzal, S Panchal, Energy, 219 (2021) 119564. 40. J. Zhang, X. Li, G. Zhang, Y. Wang, J. Guo, Y. Wang, C. Xiao, Z. Zhong, Energy Convers. Manage. 204: (2020) 112319 J. Zhang, X. Li, G. Zhang, Y. Wang, J. Guo, Y. Wang, C. Xiao, and Z. Zhong, Energy Convers. Manage., 204 (2020): 112319. 41. M.S. Liu, M.C.C. Lin, C.Y. Tsai, C.C. Wang, Int. J. Heat Mass Transfer, Transfer 49.17-18: (2006) 3028-M.S. Liu, M.C.C. Lin, C.Y. Tsai, and C.C. Wang, Int. J. Heat Mass Transfer, Transfer, 49.17-18 (2006) 3028. 42. G.K. Poongavanam, S. Duraisamy, V.S. Vigneswaran, V. Ramalingam, Mater. Today:. Proc. 39: (2021) 1532-G.K. Poongavanam, S. Duraisamy, V.S. Vigneswaran, and V. Ramalingam, Mater. Today:. Proc., 39 (2021) 1532. 43. T.P. Teng, Y.H. Hung, T.C. Teng, H.E. Mo, H.G. Hsu, Appl. Therm. Eng. 30: (2010) 2213-T.P. Teng, Y. H. Hung, T. C. Teng, H. E. Mo, H. G. Hsu, Appl. Therm. Eng., 30 (2010) 2213. 44. P.G. Kumar, D. Sakthivadivel, N. Thangapandian, M. Salman, A.K. Thakur, R. Sathyamurthy, S.C. Kim, Sustainable Energy Technol. Assess. 47: (2021) 101371 P.G. Kumar, D. Sakthivadivel, N. Thangapandian, M. Salman, A. K. Thakur, R. Sathyamurthy, S. C. Kim, Sustainable Energy Technol. Assess., 47 (2021) 101371. 45. Y. Fan, Y. Bao, C. Ling, Y. Chu, X. Tan, S. Yang, Appl. Therm. Eng. 155: (2019) 96-Y. Fan, Y. Bao, C. Ling, Y. Chu, X. Tan, S. Yang, Appl. Therm. Eng., 155 (2019) 96. 46. S. Chen, N. Bao, A. Garg, X. Peng, L. Gao, Engineering 7: (2021) 1165-S. Chen, N. Bao, A. Garg, X. Peng, L. Gao, Engineering, 7 (2021) 1165. 47. P.T. Tsilingiris, Renewable Sustainable Energy Rev. 83: (2018) 50-P. T. Tsilingiris, Renewable Sustainable Energy Rev., 83 (2018) 50. 48. J. Kim, J. Kowal, Batteries 8.2: (2022) 8-J. Kim, and J. Kowal, Batteries, 8.2 (2022) 8. 49. N. Rajchapanupat, P. Poramapojana, IOP Conf. Ser.: Mater. Sci. Eng. 1137.1: (2021) 012014 N. Rajchapanupat, and P. Poramapojana, IOP Conf. Ser.: Mater. Sci. Eng., 1137.1 (2021) 012014. 50. S. Bouzaid, E.M. Laadissi, C. Ennawaoui, E.M. Loualid, M. Mossaddek, A.E. Ballouti, Mater. Today: Proc. (2022) S. Bouzaid, E. M. Laadissi, C. Ennawaoui, E. M. Loualid, M. Mossaddek, and A. E. Ballouti, Mater. Today: Proc., (2022). 51. O. Solomon, W. Zheng, J. Chen, Z. Qiao, J. Energy Storage 49: (2022) 104007 O. Solomon, W. Zheng, J. Chen, and Z. Qiao, J. Energy Storage, 49 (2022) 104007. 52. H. Su Lee, S.H. Hong, J.H. Lee, M.W. Park, J. Korean Soc. Saf 36.5: (2021) 1-Lee, H. Su, S. H. Ho</xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.6" docsubtype="fla" xml:lang="en">
+         <item-info>
+            <jid>IJOES</jid>
+            <aid>50101821</aid>
+            <ce:article-number>220810</ce:article-number>
+            <ce:pii>S1452-3981(23)02436-7</ce:pii>
+            <ce:doi>10.20964/2022.08.40</ce:doi>
+            <ce:copyright type="other" year="2022">The Authors. Published by ESG</ce:copyright>
+            <ce:copyright-line>© 2022 The Authors. Published by ESG</ce:copyright-line>
+         </item-info>
+         <head>
+            <ce:title id="ti0005">Experimental Analysis of Thermal Behavior of a Lithium-Ion Battery using Constant Voltage under Different Cooling Conditions</ce:title>
+            <ce:author-group id="ag0005">
+               <ce:author id="au0005" author-id="S1452398123024367-598dc991978c647568e4e313e43fa5a2">
+                  <ce:given-name>Dhanaselvam</ce:given-name>
+                  <ce:surname>Jayamohan</ce:surname>
+                  <ce:cross-ref refid="af0005" id="cf0005">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:author id="au0010" author-id="S1452398123024367-a1693b2e13beae4b342f623564eccc56">
+                  <ce:given-name>Rukkumani</ce:given-name>
+                  <ce:surname>Venkatasalam</ce:surname>
+                  <ce:cross-ref refid="af0010" id="cf0010">
+                     <ce:sup loc="post">2</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0015" author-id="S1452398123024367-6c63f244a8884fe742ce77be6f016c54">
+                  <ce:given-name>Chinnadurai</ce:given-name>
+                  <ce:surname>Thangam</ce:surname>
+                  <ce:cross-ref refid="af0015" id="cf0015">
+                     <ce:sup loc="post">3</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:affiliation id="af0005" affiliation-id="S1452398123024367-c8428486a6505b1f8b006e34c56f0822">
+                  <ce:label>1</ce:label>
+                  <ce:textfn id="tn0005">Department of Instrumentation and Control Engineering, Sri Krishna College of Technology, Coimbatore, India.</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Instrumentation and Control Engineering</sa:organization>
+                     <sa:organization>Sri Krishna College of Technology</sa:organization>
+                     <sa:city>Coimbatore</sa:city>
+                     <sa:country>India</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="se0005">Department of Instrumentation and Control Engineering, Sri Krishna College of Technology, Coimbatore, India.</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="af0010" affiliation-id="S1452398123024367-0b48c45caba1fc209da6fbde8ac03735">
+                  <ce:label>2</ce:label>
+                  <ce:textfn id="tn0010">Department of Electronics and Instrumentation Engineering, Sri Ramakrishna Engineering College, Coimbatore, India.</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Electronics and Instrumentation Engineering</sa:organization>
+                     <sa:organization>Sri Ramakrishna Engineering College</sa:organization>
+                     <sa:city>Coimbatore</sa:city>
+                     <sa:country>India</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="se0010">Department of Electronics and Instrumentation Engineering, Sri Ramakrishna Engineering College, Coimbatore, India.</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="af0015" affiliation-id="S1452398123024367-d6363fd5e91459b6c7785eb8f80d778a">
+                  <ce:label>3</ce:label>
+                  <ce:textfn id="tn0015">Department of Mechatronics, Sathyabama Institute of Science and Technology, Chennai, India.</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Mechatronics</sa:organization>
+                     <sa:organization>Sathyabama Institute of Science and Technology</sa:organization>
+                     <sa:city>Chennai</sa:city>
+                     <sa:country>India</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="se0015">Department of Mechatronics, Sathyabama Institute of Science and Technology, Chennai, India.</ce:source-text>
+               </ce:affiliation>
+            </ce:author-group>
+            <ce:date-received day="4" month="4" year="2022"/>
+            <ce:date-accepted day="29" month="5" year="2022"/>
+            <ce:abstract id="ab0005" xml:lang="en" view="all" class="author"><ce:abstract-sec id="as0005" view="all">
+                  <ce:simple-para id="sp0005" view="all">Lithium-Ion Battery (LiB) plays a vital role in the applications from smart phone to Electric Vehicles (EV). In general, LiB is used as the main resource for primary as well as secondary applications because they have advantages such as long cycle life, slow self-discharge, high capacity, and low maintenance. In spite of its advantages, few factors such as protection circuit, efficient thermal management systems, battery material, cost and safety, degrade the performance of the LiB. So, to analyze the thermal behavior of the Lithium-ion battery, it is tested under air, water and oil cooling methods. A LiFeO<ce:inf loc="post">4</ce:inf> LiB with 3.2 V/ 6Ah capacity is used for the analysis. The nominal voltage and capacity are 24 V and 48mAh respectively. The temperature profile of the battery is tested under different temperature-cooling environments. The experimental results are validated using MATLAB and Minitab software. In MATLAB, the Simulink model is designed to operate a 5HP/240V/1750 RPM DC motor. In this analysis, charging / discharging characteristics, State of Charge (SOC) under different ambient temperatures and motor torque characteristics are obtained. The temperature influences under various cooling methods have to be analyzed using Minitab-2017 software. It is interpreted by Response Surface Methodology (RSM) and contour plot graphical analysis. It gives a very clear picture about the relationship between different factors such as charging / discharging voltage, various temperature points, temperature control with cooling and without cooling. Also, this analysis helps to identify thermal influence on the battery performance where the minimum temperature is very clearly visible. The safe operating temperature can easily be identified for various applications. This analysis aids in the prediction of extreme temperature conditions and provides solutions to protect the system. So, through this analysis, it is possible to identify the optimum operating temperature range of a Lithium-ion battery.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="ks0005" view="all" class="keyword">
+               <ce:section-title id="st0015">Keywords</ce:section-title>
+               <ce:keyword id="kw0005">
+                  <ce:text id="tx0005">Lithium-ion Battery</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0010">
+                  <ce:text id="tx0010">Cooling mechanism</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0015">
+                  <ce:text id="tx0015">RSM Analysis</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0020">
+                  <ce:text id="tx0020">thermal behavior</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <tail view="all">
+            <ce:bibliography id="bi0005" view="all">
+               <ce:section-title id="st0025">References</ce:section-title>
+               <ce:bibliography-sec id="bs0005" view="all">
+                  <ce:bib-reference id="bb0005">
+                     <ce:label>1.</ce:label>
+                     <sb:reference id="rf0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Birkl</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Christoph</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.R.</ce:given-name>
+                                 <ce:surname>Roberts</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>McTurk</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.G.</ce:given-name>
+                                 <ce:surname>Bruce</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.H.</ce:given-name>
+                                 <ce:surname>David</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>341</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>373</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0030">R. Birkl, R. Christoph, M.R. Roberts, E. McTurk, P. G. Bruce, and A.H. David, J. Power Sources, 341 (2017) 373.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0010">
+                     <ce:label>2.</ce:label>
+                     <sb:reference id="rf0010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Zichen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Changqing</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Renewable Sustainable Energy Rev.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>139</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:article-number>110685</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0035">W. Zichen, and D. Changqing, Renewable Sustainable Energy Rev., 139 (2021) 110685.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0015">
+                     <ce:label>3.</ce:label>
+                     <sb:reference id="rf0015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Ye</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.H.</ce:given-name>
+                                 <ce:surname>Saw</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Shi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.A.O.</ce:given-name>
+                                 <ce:surname>Tay</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Therm. Eng.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>86</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>281</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0040">Y. Ye, L.H. Saw, Y. Shi, and A.A.O. Tay, Appl. Therm. Eng., 86 (2015) 281.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0020">
+                     <ce:label>4.</ce:label>
+                     <sb:reference id="rf0020">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Wei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy Convers. Manage.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>150</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>304</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0045">H Liu, Z Wei, W He, and J Zhao, Energy Convers. Manage., 150 (2017) 304.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0025">
+                     <ce:label>5.</ce:label>
+                     <sb:reference id="rf0025">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.J.</ce:given-name>
+                                 <ce:surname>An</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Sci. China Chem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>53</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>5</sb:issue-nr>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1177</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0050">K. Yang, J. J. An, and S. Chen, Sci. China Chem., 53, no. 5 (2010) 1177.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0030">
+                     <ce:label>6.</ce:label>
+                     <sb:reference id="rf0030">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Ma</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Jiang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Tao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Song</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Deng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Shang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Prog., Nat. Sci.: Mater. Int.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>28</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>653</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0055">S. Ma, M. Jiang, P. Tao, C. Song, J. Wu, J. Wang, T. Deng, and W. Shang, Prog., Nat. Sci.: Mater. Int., 28 (2018) 653.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0035">
+                     <ce:label>7.</ce:label>
+                     <sb:reference id="rf0035">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Cheng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Feng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochim. Acta.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>278</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>279</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0060">H. Wang, H. Zhang, Y. Cheng, K. Feng, X. Li, and H. Zhang, Electrochim. Acta., 278 (2018) 279.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0040">
+                     <ce:label>8.</ce:label>
+                     <sb:reference id="rf0040">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Gao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Tang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochim. Acta.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>53.15</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2008</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>5071</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0065">F. Gao, and Z. Tang, Electrochim. Acta., 53.15 (2008) 5071.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0045">
+                     <ce:label>9.</ce:label>
+                     <sb:reference id="rf0045">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>XH.</ce:given-name>
+                                 <ce:surname>Rui</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Jin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>XY.</ce:given-name>
+                                 <ce:surname>Feng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>LC.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>CH.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>196.4</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2109</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0070">XH. Rui, Y. Jin, XY. Feng, LC. Zhang, and CH. Chen, J. Power Sources., 196.4 (2011) 2109.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0050">
+                     <ce:label>10.</ce:label>
+                     <sb:reference id="rf0050">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Gunawardhana</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Dimov</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Sasidharan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochem. Commun.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>13.10</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1116</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0075">N Gunawardhana, N Dimov, and M Sasidharan, Electrochem. Commun., 13.10 (2011) 1116.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0055">
+                     <ce:label>11.</ce:label>
+                     <sb:reference id="rf0055">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Feng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Fang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Ouyang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Lu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>255</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>294</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0080">X Feng, M Fang, X He, M Ouyang, L Lu, and H Wang, J. Power Sources, 255 (2014) 294.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0060">
+                     <ce:label>12.</ce:label>
+                     <sb:reference id="rf0060">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.M.</ce:given-name>
+                                 <ce:surname>Bandhauer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Garimella</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.F.</ce:given-name>
+                                 <ce:surname>Fuller</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Electrochem. Soc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>158.3</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>R1</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0085">T.M. Bandhauer, S. Garimella and T.F. Fuller, J. Electrochem. Soc., 158.3 (2011) R1.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0065">
+                     <ce:label>13.</ce:label>
+                     <sb:reference id="rf0065">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Jiang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.H.</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Pesaran</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Therm. Eng.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>94</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>846</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0090">D Chen, J Jiang, GH Kim, C Yang, A Pesaran, Appl. Therm. Eng., 94 (2016) 846.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0070">
+                     <ce:label>14.</ce:label>
+                     <sb:reference id="rf0070">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.M.</ce:given-name>
+                                 <ce:surname>Sefidan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Sojoudi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.C.</ce:given-name>
+                                 <ce:surname>Saha</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Int. J. Therm. Sci.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>117</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>44</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0095">A.M. Sefidan, and A. Sojoudi, S.C. Saha, Int. J. Therm. Sci., 117 (2017) 44.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0075">
+                     <ce:label>15.</ce:label>
+                     <sb:reference id="rf0075">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Jaguemont</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.V.</ce:given-name>
+                                 <ce:surname>Mierlo</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Energy Storage</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>31</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:article-number>101551</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0100">J. Jaguemont, J. V. Mierlo, J. Energy Storage, 31 (2020) 101551.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0080">
+                     <ce:label>16.</ce:label>
+                     <sb:reference id="rf0080">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Sabbah</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Kizilel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.R.</ce:given-name>
+                                 <ce:surname>Selman</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Al-Hallaj</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>182.2</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2008</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>630</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0105">R. Sabbah, R. Kizilel, J.R. Selman, S. Al-Hallaj, J. Power Sources, 182.2 (2008) 630.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0085">
+                     <ce:label>17.</ce:label>
+                     <sb:reference id="rf0085">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Fu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Sheng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Ye</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Sun</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Therm. Eng.</sb:maintitle>
+                                 </sb:title>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:article-number>118417</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0110">Z. Zhang, L. Fu, L. Sheng, W. Ye, Y. Sun, Appl. Therm. Eng., (2022) 118417.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0090">
+                     <ce:label>18.</ce:label>
+                     <sb:reference id="rf0090">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Zhuang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Su</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Therm. Eng.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>189</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:article-number>116767</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0115">W Zhuang, Z Liu, H Su, G Chen, Appl. Therm. Eng., 189 (2021) 116767.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0095">
+                     <ce:label>19.</ce:label>
+                     <sb:reference id="rf0095">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Hua</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Therm. Eng.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>80</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>55</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0120">N. Yang, X. Zhang, G. Li, D. Hua, Appl. Therm. Eng., 80 (2015) 55.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0100">
+                     <ce:label>20.</ce:label>
+                     <sb:reference id="rf0100">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.K.</ce:given-name>
+                                 <ce:surname>Mohammadian</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.M.R.</ce:given-name>
+                                 <ce:surname>Mousavi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>296</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>305</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0125">S.K. Mohammadian, S.M.R. Mousavi, Y. Zhang, J. Power Sources, 296 (2015) 305.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0105">
+                     <ce:label>21.</ce:label>
+                     <sb:reference id="rf0105">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Ren</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Diao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Liang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Jing</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>507</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:article-number>230314</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0130">R. Ren, Y. Zhao, Y. Diao, L. Liang, and H. Jing, J. Power Sources, 507 (2021) 230314.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0110">
+                     <ce:label>22.</ce:label>
+                     <sb:reference id="rf0110">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Oztop</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Şahinaslan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Energy Storage</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>52</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:article-number>104760</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0135">M. Oztop, and A. Şahinaslan, J. Energy Storage, 52 (2022) 104760.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0115">
+                     <ce:label>23.</ce:label>
+                     <sb:reference id="rf0115">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Hu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Gao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Song</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Case Stud. Therm. Eng.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>34</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:article-number>102034</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0140">Y. Li, Z. Zhou, L. Hu, L. Gao, X. Liu, Y. Li, and Y. Song, Case Stud. Therm. Eng., 34 (2022) 102034.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0120">
+                     <ce:label>24.</ce:label>
+                     <sb:reference id="rf0120">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Rao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Huo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Therm. Eng.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>85</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>33</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0145">J. Zhao, Z. Rao, Y. Huo, X. Liu, Y. Li, Appl. Therm. Eng., 85 (2015) 33.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0125">
+                     <ce:label>25.</ce:label>
+                     <sb:reference id="rf0125">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.J.</ce:given-name>
+                                 <ce:surname>Tseng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Wei</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>134</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>229</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0150">T. Wang, K.J. Tseng, J. Zhao, Z. Wei, Appl. Energy, 134 (2014) 229.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0130">
+                     <ce:label>26.</ce:label>
+                     <sb:reference id="rf0130">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Lee</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Abidi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.M.</ce:given-name>
+                                 <ce:surname>Sajadi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.S.</ce:given-name>
+                                 <ce:surname>El-Shafay</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Degani</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Sharifpur</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Energy Storage</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>45</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:article-number>103684</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0155">J. Lee, A. Abidi, S.M. Sajadi, A.S. El-Shafay, M. Degani, and M. Sharifpur, J. Energy Storage, 45 (2022) 103684.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0135">
+                     <ce:label>27.</ce:label>
+                     <sb:reference id="rf0135">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Lv</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Rao</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Exp. Therm Fluid Sci.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>82</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>182</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0160">J. Zhao, P. Lv, Z. Rao, Exp. Therm Fluid Sci., 82 (2017) 182.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0140">
+                     <ce:label>28.</ce:label>
+                     <sb:reference id="rf0140">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Deng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Feng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Jiaqiang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Zhu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Wen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Yin</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Therm. Eng.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>142</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>10</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0165">Y. Deng, C. Feng, E. Jiaqiang, H. Zhu, J. Chen, M. Wen, and H. Yin, Appl. Therm. Eng., 142 (2018) 10.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0145">
+                     <ce:label>29.</ce:label>
+                     <sb:reference id="rf0145">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Garg</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Gao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Wei</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Int. J. Energy Res.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>45.4</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>6198</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0170">S. Chen, A. Garg, L. Gao, and X. Wei, Int. J. Energy Res., 45.4 (2021) 6198.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0150">
+                     <ce:label>30.</ce:label>
+                     <sb:reference id="rf0150">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Q.</ce:given-name>
+                                 <ce:surname>Xin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Xiao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Long</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Therm. Eng.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>210</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:article-number>118230</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0175">Q. Xin, J. Xiao, T. Yang, H. Zhang, and X. Long, Appl. Therm. Eng., 210 (2022) 118230.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0155">
+                     <ce:label>31.</ce:label>
+                     <sb:reference id="rf0155">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Akbarzadeh</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Jaguemont</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Jaguemont</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Karimi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Jin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Xie</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.V.</ce:given-name>
+                                 <ce:surname>Mierlo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Berecibar</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy Convers. Manage.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>231</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:article-number>113862</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0180">M. Akbarzadeh, J. Jaguemont, J. Jaguemont, D. Karimi, J. He, L. Jin, P. Xie, J.V. Mierlo, and M. Berecibar, Energy Convers. Manage., 231 (2021) 113862.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0160">
+                     <ce:label>32.</ce:label>
+                     <sb:reference id="rf0160">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.S</ce:given-name>
+                                 <ce:surname>Jang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Yun</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.H.</ce:given-name>
+                                 <ce:surname>Hong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Cho</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy Convers. Manage.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>251</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:article-number>115001</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0185">D.S Jang, S. Yun, S. H. Hong, W. Cho, and Y. Kim, Energy Convers. Manage., 251 (2022) 115001.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0165">
+                     <ce:label>33.</ce:label>
+                     <sb:reference id="rf0165">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Rao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Renewable Sustainable Energy Rev.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>15.9</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4554</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0190">Z Rao, and S Wang, Renewable Sustainable Energy Rev., 15.9 (2011) 4554.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0170">
+                     <ce:label>34.</ce:label>
+                     <sb:reference id="rf0170">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Huang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Lv</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Meng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Situ</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Rao</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Int. J. Energy Res.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>42</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>3</sb:issue-nr>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1172</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0195">C. Wang, G. Zhang, X. Li, J. Huang, Z. Wang, Y. Lv, L. Meng, W. Situ, and M. Rao, Int. J. Energy Res., 42, no. 3 (2018) 1172.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0175">
+                     <ce:label>35.</ce:label>
+                     <sb:reference id="rf0175">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>247</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>961</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0200">K. Chen, X. Li, J. Power Sources, 247 (2014) 961.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0180">
+                     <ce:label>36.</ce:label>
+                     <sb:reference id="rf0180">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.R.</ce:given-name>
+                                 <ce:surname>Tete</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.M.</ce:given-name>
+                                 <ce:surname>Gupta</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.S.</ce:given-name>
+                                 <ce:surname>Joshi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Energy Storage</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>35</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:article-number>102255</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0205">P.R. Tete, M.M. Gupta, and S. S. Joshi, J. Energy Storage, 35 (2021) 102255.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0185">
+                     <ce:label>37.</ce:label>
+                     <sb:reference id="rf0185">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.G.</ce:given-name>
+                                 <ce:surname>Shen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Renewable Sustainable Energy Rev.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>148</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:article-number>111301</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0210">Z.G. Shen, S. Chen, X. Liu, and B. Chen, Renewable Sustainable Energy Rev., 148 (2021) 111301.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0190">
+                     <ce:label>38.</ce:label>
+                     <sb:reference id="rf0190">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Kumar</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Chaudhary</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Varshney</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>U.</ce:given-name>
+                                 <ce:surname>Varshney</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.M.</ce:given-name>
+                                 <ce:surname>Yahya</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Rafat</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Energy Storage</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>32</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:article-number>102003</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0215">P. Kumar, D. Chaudhary, P. Varshney, U. Varshney, S.M. Yahya, and Y. Rafat, J. Energy Storage, 32 (2020) 102003.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0195">
+                     <ce:label>39.</ce:label>
+                     <sb:reference id="rf0195">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Jilte</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Afzal</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Panchal</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>219</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:article-number>119564</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0220">R. Jilte, and A. Afzal, S Panchal, Energy, 219 (2021) 119564.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0200">
+                     <ce:label>40.</ce:label>
+                     <sb:reference id="rf0200">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Guo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Xiao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Zhong</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy Convers. Manage.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>204</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:article-number>112319</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0225">J. Zhang, X. Li, G. Zhang, Y. Wang, J. Guo, Y. Wang, C. Xiao, and Z. Zhong, Energy Convers. Manage., 204 (2020): 112319.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0205">
+                     <ce:label>41.</ce:label>
+                     <sb:reference id="rf0205">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.S.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.C.C.</ce:given-name>
+                                 <ce:surname>Lin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.Y.</ce:given-name>
+                                 <ce:surname>Tsai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.C.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Int. J. Heat Mass Transfer, Transfer</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>49.17-18</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3028</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0230">M.S. Liu, M.C.C. Lin, C.Y. Tsai, and C.C. Wang, Int. J. Heat Mass Transfer, Transfer, 49.17-18 (2006) 3028.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0210">
+                     <ce:label>42.</ce:label>
+                     <sb:reference id="rf0210">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.K.</ce:given-name>
+                                 <ce:surname>Poongavanam</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Duraisamy</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.S.</ce:given-name>
+                                 <ce:surname>Vigneswaran</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Ramalingam</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Mater. Today:. Proc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>39</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1532</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0235">G.K. Poongavanam, S. Duraisamy, V.S. Vigneswaran, and V. Ramalingam, Mater. Today:. Proc., 39 (2021) 1532.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0215">
+                     <ce:label>43.</ce:label>
+                     <sb:reference id="rf0215">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.P.</ce:given-name>
+                                 <ce:surname>Teng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.H.</ce:given-name>
+                                 <ce:surname>Hung</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.C.</ce:given-name>
+                                 <ce:surname>Teng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.E.</ce:given-name>
+                                 <ce:surname>Mo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.G.</ce:given-name>
+                                 <ce:surname>Hsu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Therm. Eng.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>30</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2213</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0240">T.P. Teng, Y. H. Hung, T. C. Teng, H. E. Mo, H. G. Hsu, Appl. Therm. Eng., 30 (2010) 2213.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0220">
+                     <ce:label>44.</ce:label>
+                     <sb:reference id="rf0220">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.G.</ce:given-name>
+                                 <ce:surname>Kumar</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Sakthivadivel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Thangapandian</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Salman</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.K.</ce:given-name>
+                                 <ce:surname>Thakur</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Sathyamurthy</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.C.</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Sustainable Energy Technol. Assess.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>47</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:article-number>101371</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0245">P.G. Kumar, D. Sakthivadivel, N. Thangapandian, M. Salman, A. K. Thakur, R. Sathyamurthy, S. C. Kim, Sustainable Energy Technol. Assess., 47 (2021) 101371.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0225">
+                     <ce:label>45.</ce:label>
+                     <sb:reference id="rf0225">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Fan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Bao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Ling</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Chu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Tan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Therm. Eng.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>155</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>96</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0250">Y. Fan, Y. Bao, C. Ling, Y. Chu, X. Tan, S. Yang, Appl. Therm. Eng., 155 (2019) 96.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0230">
+                     <ce:label>46.</ce:label>
+                     <sb:reference id="rf0230">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Bao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Garg</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Peng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Gao</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Engineering</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>7</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1165</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0255">S. Chen, N. Bao, A. Garg, X. Peng, L. Gao, Engineering, 7 (2021) 1165.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0235">
+                     <ce:label>47.</ce:label>
+                     <sb:reference id="rf0235">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.T.</ce:given-name>
+                                 <ce:surname>Tsilingiris</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Renewable Sustainable Energy Rev.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>83</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>50</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0260">P. T. Tsilingiris, Renewable Sustainable Energy Rev., 83 (2018) 50.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0240">
+                     <ce:label>48.</ce:label>
+                     <sb:reference id="rf0240">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Kowal</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Batteries</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>8.2</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>8</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0265">J. Kim, and J. Kowal, Batteries, 8.2 (2022) 8.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0245">
+                     <ce:label>49.</ce:label>
+                     <sb:reference id="rf0245">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Rajchapanupat</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Poramapojana</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IOP Conf. Ser.: Mater. Sci. Eng.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>1137.1</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:article-number>012014</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0270">N. Rajchapanupat, and P. Poramapojana, IOP Conf. Ser.: Mater. Sci. Eng., 1137.1 (2021) 012014.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0250">
+                     <ce:label>50.</ce:label>
+                     <sb:reference id="rf0250">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Bouzaid</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.M.</ce:given-name>
+                                 <ce:surname>Laadissi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Ennawaoui</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.M.</ce:given-name>
+                                 <ce:surname>Loualid</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Mossaddek</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.E.</ce:given-name>
+                                 <ce:surname>Ballouti</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Mater. Today: Proc.</sb:maintitle>
+                                 </sb:title>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0275">S. Bouzaid, E. M. Laadissi, C. Ennawaoui, E. M. Loualid, M. Mossaddek, and A. E. Ballouti, Mater. Today: Proc., (2022).</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0255">
+                     <ce:label>51.</ce:label>
+                     <sb:reference id="rf0255">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>O.</ce:given-name>
+                                 <ce:surname>Solomon</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Zheng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Qiao</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Energy Storage</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>49</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:article-number>104007</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0280">O. Solomon, W. Zheng, J. Chen, and Z. Qiao, J. Energy Storage, 49 (2022) 104007.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0260">
+                     <ce:label>52.</ce:label>
+                     <sb:reference id="rf0260">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H. Su</ce:given-name>
+                                 <ce:surname>Lee</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.H.</ce:given-name>
+                                 <ce:surname>Hong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.H.</ce:given-name>
+                                 <ce:surname>Lee</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.W.</ce:given-name>
+                                 <ce:surname>Park</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Korean Soc. Saf</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>36.5</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0285">Lee, H. Su, S. H. Hong, J. H. Lee, and M.W. Park, J. Korean Soc. Saf. 36.5 (2021) 1.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0265">
+                     <ce:label>53.</ce:label>
+                     <sb:reference id="rf0265">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Afzal</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>I.</ce:given-name>
+                                 <ce:surname>Mokashi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.A.</ce:given-name>
+                                 <ce:surname>Khan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.A.</ce:given-name>
+                                 <ce:surname>Abdullah</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.H.B.</ce:given-name>
+                                 <ce:surname>Azami</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Numer. Heat Transfer, Part A</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>79.5</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>406</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0290">A. Afzal, I. Mokashi, S. A. Khan, N. A. Abdullah, and M. H. B. Azami, Numer. Heat Transfer, Part A, 79.5 (2020) 406.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0270">
+                     <ce:label>54.</ce:label>
+                     <sb:reference id="rf0270">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Seo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Song</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.W.</ce:given-name>
+                                 <ce:surname>Paek</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.H.</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.W.</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>226</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:article-number>120301</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0295">M. Seo, Y. Song, J. Kim, S. W. Paek, G. H. Kim, and S. W. Kim, Energy, 226 (2021) 120301.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0275">
+                     <ce:label>55.</ce:label>
+                     <sb:reference id="rf0275">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Q.</ce:given-name>
+                                 <ce:surname>Miao</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>201</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:article-number>117664</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0300">F. Yang, S. Zhang, W. Li, and Q. Miao, Energy, 201 (2020) 117664.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0280">
+                     <ce:label>56.</ce:label>
+                     <sb:reference id="rf0280">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Luo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Fan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Du</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>238</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:article-number>121652</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="se0305">X. Zhang, Z. Li, L. Luo, Y. Fan, and Z. Du, Energy, 238 (2022) 121652.</ce:source-text>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

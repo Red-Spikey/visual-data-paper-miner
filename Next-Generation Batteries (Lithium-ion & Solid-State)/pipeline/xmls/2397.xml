@@ -1,0 +1,963 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1876610216315120</prism:url><dc:identifier>doi:10.1016/j.egypro.2016.11.302</dc:identifier><eid>1-s2.0-S1876610216315120</eid><prism:doi>10.1016/j.egypro.2016.11.302</prism:doi><pii>S1876-6102(16)31512-0</pii><dc:title>A Novel Dual H Infinity Filters Based Battery Parameter and State Estimation Approach for Electric Vehicles Application </dc:title><prism:publicationName>Energy Procedia</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>18766102</prism:issn><prism:volume>103</prism:volume><prism:startingPage>375</prism:startingPage><prism:endingPage>380</prism:endingPage><prism:pageRange>375-380</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2016-12-31</prism:coverDate><prism:coverDisplayDate>December 2016</prism:coverDisplayDate><prism:copyright>© 2016 The Author(s). Published by Elsevier Ltd.</prism:copyright><prism:publisher>The Author(s). Published by Elsevier Ltd.</prism:publisher><prism:issueName>Renewable Energy Integration with Mini/Microgrid – Proceedings of REM2016</prism:issueName><dc:creator>Chen, Cheng</dc:creator><dc:creator>Sun, Fengchun</dc:creator><dc:creator>Xiong, Rui</dc:creator><dc:creator>He, Hongwen</dc:creator><dc:description>
+                  An accurate battery parameter and state estimation method is one of the most significant and difficult techniques to promote the commercialization of electric vehicles. This paper tries to make three aspects of effort. First, to avoid the battery state-of-charge (SoC) estimation inaccuracy brought by the variation of the model parameter under different aging level and operation condition, a novel dual H infinity filters was proposed and employed to execute the online measured data based battery parameter and SoC estimation. Second, to overcome the drawback of the H infinity filters are sensitive to their initial noise information. An adaptive H infinity filter employing the covariance matching approach was proposed and applied to realize a robust SoC estimation. Last, the accurate estimate of battery parameter and SoC were obtained real-timely through model-based dual H infinity filters. A systematic evaluation on the different algorithms based SoC estimation was carried out. Experimental results on various degradation states of lithium-ion polymer battery cells further verified the feasibility of the proposed approach.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>ElsevierWaived</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>Battery management system</dcterms:subject><dcterms:subject>H infinity filter</dcterms:subject><dcterms:subject>the dual H infinity filters</dcterms:subject><dcterms:subject>Adaptive update</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1876610216315120" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1876610216315120" rel="scidir"/></coredata><scopus-id>85010908061</scopus-id><scopus-eid>2-s2.0-85010908061</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85010908061" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>277910</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291711</xocs:ssid>
+         <xocs:ssid type="subj">291731</xocs:ssid>
+         <xocs:ssid type="subj">291877</xocs:ssid>
+         <xocs:ssid type="subj">291892</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Energy Procedia</xocs:srctitle>
+      <xocs:normalized-srctitle>ENERGYPROCEDIA</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20161227">2016-12-27</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20161227">2016-12-27</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20161227">2016-12-27</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20161227">2016-12-27</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2016-12-26T21:48:41</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1876610216315120</xocs:eid>
+      <xocs:pii-formatted>S1876-6102(16)31512-0</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1876610216315120</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.egypro.2016.11.302</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.1</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1876610216X00203</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20240102">2024-01-02T00:49:47.025266Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20161201</xocs:date-search-begin>
+      <xocs:date-search-end>20161231</xocs:date-search-end>
+      <xocs:year-nav>2016</xocs:year-nav>
+      <xocs:indexeddate epoch="1482814236">2016-12-27T04:50:36.535625Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids confeditor contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content oa subj suppl tomb vol volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authkeywords authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1876-6102</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>18766102</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>103</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>103</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 103</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>64</xocs:sort-order>
+      <xocs:first-fp>375</xocs:first-fp>
+      <xocs:last-lp>380</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>375</xocs:first-page>
+         <xocs:last-page>380</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201612</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>December 2016</xocs:cover-date-text>
+      <xocs:cover-date-start>2016-12-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2016-12-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2016</xocs:cover-date-year>
+      <xocs:title-editors-groups>
+         <xocs:title-editors-group>
+            <ce:title>Renewable Energy Integration with Mini/Microgrid – Proceedings of REM2016</ce:title>
+            <ce:editors>
+               <ce:author-group>
+                  <ce:author author-id="S1876610216X00203-a63d3c9e8dff28446e4c34246043efb8">
+                     <ce:degrees>Prof.</ce:degrees>
+                     <ce:given-name>Jinyue</ce:given-name>
+                     <ce:surname>Yan</ce:surname>
+                     <ce:degrees>Editor-in-Chief</ce:degrees>
+                  </ce:author>
+                  <ce:affiliation>
+                     <ce:textfn>of Applied Energy, Royal Institute of Technology and Mälardalen University, Sweden</ce:textfn>
+                  </ce:affiliation>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610216X00203-75ed23a25a540d0b34d6bbf34d6a94de">
+                     <ce:degrees>Dr.</ce:degrees>
+                     <ce:given-name>Yongping</ce:given-name>
+                     <ce:surname>Zhai</ce:surname>
+                  </ce:author>
+                  <ce:affiliation>
+                     <ce:textfn>Asian Development Bank, Philippines</ce:textfn>
+                  </ce:affiliation>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610216X00203-6263f51e95a09e862598e0d3ded36ab7">
+                     <ce:degrees>Dr.</ce:degrees>
+                     <ce:given-name>Priyantha</ce:given-name>
+                     <ce:surname>Wijayatunga</ce:surname>
+                  </ce:author>
+                  <ce:affiliation>
+                     <ce:textfn>Asian Development Bank, Philippines</ce:textfn>
+                  </ce:affiliation>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610216X00203-c9a1ccf952808e492f17c2d358c17eca">
+                     <ce:degrees>Dr.</ce:degrees>
+                     <ce:given-name>Hon. Abdul Matheen</ce:given-name>
+                     <ce:surname>Mohamed</ce:surname>
+                  </ce:author>
+                  <ce:affiliation>
+                     <ce:textfn>Minister of State for Environment and Energy, Maldives</ce:textfn>
+                  </ce:affiliation>
+               </ce:author-group>
+               <ce:author-group>
+                  <ce:author author-id="S1876610216X00203-44e671da831bfe2261ae4f800801fe72">
+                     <ce:degrees>Dr.</ce:degrees>
+                     <ce:given-name>Pietro Elia</ce:given-name>
+                     <ce:surname>Campana</ce:surname>
+                  </ce:author>
+                  <ce:affiliation>
+                     <ce:textfn>Mälardalen University, Sweden</ce:textfn>
+                  </ce:affiliation>
+               </ce:author-group>
+            </ce:editors>
+         </xocs:title-editors-group>
+      </xocs:title-editors-groups>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>© 2016 The Author(s). Published by Elsevier Ltd.</xocs:copyright-line>
+      <xocs:normalized-article-title>ANOVELDUALHINFINITYFILTERSBASEDBATTERYPARAMETERSTATEESTIMATIONAPPROACHFORELECTRICVEHICLESAPPLICATION</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>CHEN</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>C</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="sbref0005">
+            <xocs:ref-normalized-surname>LIN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>76</xocs:ref-first-fp>
+            <xocs:ref-last-lp>83</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0010">
+            <xocs:ref-normalized-surname>EINHORN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>734</xocs:ref-first-fp>
+            <xocs:ref-last-lp>741</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0015">
+            <xocs:ref-normalized-surname>WAAG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>416</xocs:ref-first-fp>
+            <xocs:ref-last-lp>427</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0020">
+            <xocs:ref-normalized-surname>TH</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2000</xocs:ref-pub-year>
+            <xocs:ref-first-fp>211</xocs:ref-first-fp>
+            <xocs:ref-last-lp>216</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0025">
+            <xocs:ref-normalized-surname>CADICRI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>330</xocs:ref-first-fp>
+            <xocs:ref-last-lp>342</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0030">
+            <xocs:ref-normalized-surname>PLETT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>262</xocs:ref-first-fp>
+            <xocs:ref-last-lp>276</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0035">
+            <xocs:ref-normalized-surname>PLETT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1356</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1368</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0040">
+            <xocs:ref-normalized-surname>SUN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>582</xocs:ref-first-fp>
+            <xocs:ref-last-lp>594</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0045">
+            <xocs:ref-normalized-surname>WEIGERT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4061</xocs:ref-first-fp>
+            <xocs:ref-last-lp>4066</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0050">
+            <xocs:ref-normalized-surname>DAI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>350</xocs:ref-first-fp>
+            <xocs:ref-last-lp>360</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0055">
+            <xocs:ref-normalized-surname>SHENG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>131</xocs:ref-first-fp>
+            <xocs:ref-last-lp>137</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0060">
+            <xocs:ref-normalized-surname>SUN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1399</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1409</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0065">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1086</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1095</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0070">
+            <xocs:ref-normalized-surname>CHEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1995</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0075">
+            <xocs:ref-normalized-surname>XIONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>699</xocs:ref-first-fp>
+            <xocs:ref-last-lp>713</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>CHENX2016X375</xocs:refkey3>
+         <xocs:refkey4lp>CHENX2016X375X380</xocs:refkey4lp>
+         <xocs:refkey4ai>CHENX2016X375XC</xocs:refkey4ai>
+         <xocs:refkey5>CHENX2016X375X380XC</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2016-11-27T00:20:59Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>ElsevierWaived</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/PROC_UNBOUNDED_ESWaived">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY-NC-ND license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2016 The Author(s). Published by Elsevier Ltd.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1876-6102(16)31512-0</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1876610216315120</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1876610216315120</xocs:eid>
+         <xocs:doi>10.1016/j.egypro.2016.11.302</xocs:doi>
+         <xocs:cid>277910</xocs:cid>
+         <xocs:timestamp>2024-01-02T00:49:47.025266Z</xocs:timestamp>
+         <xocs:cover-date-start>2016-12-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2016-12-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1876610216315120-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1876610216315120/MAIN/application/pdf/70c3c4a7beed1f45410cd8e6974ac741/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1876610216315120/MAIN/application/pdf/70c3c4a7beed1f45410cd8e6974ac741/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>331929</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>6</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1876610216315120-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1876610216315120/PREVIEW/image/png/0d6db33f8e69030bc220aebd12607818/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1876610216315120/PREVIEW/image/png/0d6db33f8e69030bc220aebd12607818/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>60633</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">1876-6102 Â© 2016 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license  (http://creativecommons.org/licenses/by-nc-nd/4.0/). Peer-review under responsibility of the scientific committee of the Applied Energy Symposium and Forum, REM2016: Renewable Energy Integration  with Mini/Microgrid. doi: 10.1016/j.egypro.2016.11.302   Energy Procedia  103 ( 2016 )  375 â€“ 380  ScienceDirect Applied Energy Symposium and Forum, REM2016: Renewable Energy Integration with  Mini/Microgrid, 19-21 April 2016, Maldives  A novel dual H infinity filters based battery parameter and  state estimation approach for electric vehicles application  Cheng Chena,b, Fengchun Suna,b, Rui Xiong*,a,b, Hongwen Hea,b  a National Engineering Laboratory for Electric Vehicles, School of Mechanical Engineering, Beijing Institute of Technology, Beijing 100081, China.  b Beijing Co-innovation Center for Electric Vehicles, Beijing Institute of Technology, Beijing 100081, China  Abstract  An accurate battery parameter and state estimation method is one of the most significant and difficult techniques to  promote the commercialization of electric vehicles. This paper tries to make three aspects of effort. First, to avoid the  battery state-of-charge (SoC) estimation inaccuracy brought by the variation of the model parameter under different  aging level and operation condition, a novel dual H infinity filters was proposed and employed to execute the online  measured data based battery parameter and SoC estimation. Second, to overcome the drawback of the H infinity  filters are sensitive to their initial noise information. An adaptive H infinity filter employing the covariance matching  approach was proposed and applied to realize a robust SoC estimation. Last, the accurate estimate of battery  parameter and SoC were obtained real-timely through model-based dual H infinity filters. A systematic evaluation on  the different algorithms based SoC estimation was carried out. Experimental results on various degradation states of  lithium-ion polymer battery cells further verified the feasibility of the proposed approach.    Â© 2016 The Authors. Published by Elsevier Ltd.  Selection and/or peer-review under responsibility of REM2016    Keywords: Battery management system; H infinity filter; the dual H infinity filters; Adaptive update  1. Introduction  With the superiority of high specific energy and power, the lithium-ion battery promotes the  development of electric vehicles and stationary energy storage systems. For the safe and efficient  operation during the entire life-cycle of battery, an intelligent battery management system (BMS) is  indispensable to online estimate the battery states and monitor its condition. As one of the core functions  in BMS, SoC estimation is the basis of fault diagnosis, health management, thermal management.        * Corresponding author. Rui Xiong, Tel.: +86 10-68914070; fax: + 86 10-68914070.  E-mail address: rxiong@bit.edu.cn.  Available online at www.sciencedirect.com Â© 2016 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license  (http://creativecomm ns.org/licenses/ -nc-nd/4.0/). Peer-review under responsibility of the sci ntific committee of the Applied Energy Symposium and Forum,  REM2016: Renewable Energy Integration with Mini/Microgrid. 376   Cheng Chen et al. /  Energy Procedia  103 ( 2016 )  375 â€“ 380  To better practical application, there are a wide variety of SoC estimation methods proposed  continuously, which can be divided into four categories: look-up table methods, ampere-hour methods,  model-based methods and data-driven methods in [1]. Look-up table methods are simple, but these  methods require regular recalibration for offline parameter, which isnâ€™t suitable for the actual application  [2, 3]. The ampere-hour methods can achieve the online estimation of SoC with low computational cost  expediently and quickly [4, 5]. However, as the open-loop methods, it is easy to be greatly affected by a  small disruption, such as the change of working temperature. Different from the above-mentioned two  methods, the model-based methods are the close-loop methods, which provides the robust performance  for the SOC estimation by sustained revision of error, and are widely used, such as KF, EKF, SPKF,  AEKF, etc. [6â€“8]. Data-driven methods include the neural network method, the method of fuzzy  controller, support vector regression (SVR) and so on. Recent results from [9â€“11] showed that these  methods have their respective advantages and their estimation precision is very high for training data,  which isnâ€™t affected by nonlinear model, but relatively low when the data are new.  However, the uncertainty of model parameters influences the estimation performance significantly. For  the almost model, SoC is obtained with offline parameters and these parameter value will change greatly  with different degrees of aging, which will lead to inaccurate estimation value and even some more  serious results, such as over charge/discharge, thermal abuse, etc.. In order to overcome these drawbacks,  online parameter identification methods were proposed. Suns [12] researched the joint estimation of state  and parameters with recursive least square (RLS) and adaptive extended Kalman filter (AEKF). But RLS  and AEKF are independent modules in this method, which is hard to ensure its convergence performance.  So this paper proposes the dual estimation algorithm to obtain the state and parameters in steps.  Compared with the separate calculation of state and parameters in above joint estimation method, this  dual estimation method can realize cooperative convergence by the same correction equation. Meanwhile,  [13] proposed that H infinity filter can obtain the accurate results when model exists error and input is  uncertain, which exhibits a better robustness than series of KF. So the dual H infinity filters algorithm  was further put forward, and got successful application aiming at the uncertain SoC initial value and  parameters.  The purpose of this paper is to establish general battery parameter and state dual estimation method  using dual H infinity filters. The description of algorithms is presented in Section 2. Section 3 describes  their implementation flowchart in the battery system. To evaluate these approaches, the verification  experiments shown in Section 4 were done. The experiment, simulation results and evaluation of the  proposed methods are reported in Section 5 and the conclusions are drawn in Section 6.  2. Dual H infinity filters  The KF provides an efficient approach for estimation of the state of a discrete-time dynamical system.  It is assumed that the system model is accurate and the statistical characteristics of external input is  known, but in fact it is impossible to meet it. In order to achieve the accurate estimation of state when the  model exists error and the noise is uncertain, H infinity filter that has better robustness is put forward [14].  For better practice application, this paper has improved the above algorithm, which is shown in Table 1.  Furthermore, considering that H infinity filter can be used to identify parameters as well, this paper  proposes a novel dual H infinity filters to achieve dual estimation of battery parameter and state  estimation on line, and it is summarized in Table 2.  Finally, based on the above analysis, the adaptive update of noises in [8], which could change statistical  characteristics of the noises by the historical data, also can be used in these algorithms.  T T T T 1 +1 1 1,   ,    k k k i i k k k k k k i i i i i k N i k N M e e R M C C Q K e e K N N           |    6 |Â¦ Â¦  (1)       Cheng Chen et al. /  Energy Procedia  103 ( 2016 )  375 â€“ 380 377 Table 1. Algorithm of the H infinity filter  Table 2. Algorithm of the dual H infinity filters  Nonlinear system          1 1 1, , k k k k k k k k x f x u w y g x u v        Â­Â° Â®   Â°Â¯   1 1 1 1 1 Ë† Ë† d ( , ) d (Def , ): ,   d initi d on k k k k k k k k k k k kx x x x f x u g x u A C x x                    (2)             T0 0 0 0 0 0 0Ë† Ë† Ë†: E ,Initialization  Ex x P x x x xÂª Âº     Â¬ Â¼  (3)  For ^ `1,2, ,kÂ� f  ,calculation:  Step 1: Time-update equations      T1 1 1 1 1 1Ë† Ë† , ,k k k k k k k kx f x u P A P A Q                       (4)  Step 2: Measurement-update equations                 1T 1 T 1 + 1 1T 1 Ë† Ë† Ë† , k k k k k k k k k k k k k k k k k k k k k k k k K P I S P C R C P C R x x K y g x u P P I S P C R C P G G                             Â­     Â° Â°     Â® Â° Â°     Â¯  (5)    Nonlinear system          1 1 1 1 1 1 , , , , k k k k k k k k k k k k k x f x u w y g x u v T T T U T               Â­ Â°   Â® Â°   Â¯               1 1 1 Ë†Ë† Ë† Ë† Ë†d , , d Definit , , Ë†d , , : ,  ,   d i n d o d k kk k k k k k k k k kx k k k x x x x f x u g x u g x u A C C x x                T   T  T   T T T     T  (6)                       TT0 0 0 0 0 0 0 0 0 0 0 0 0 0Initializa Ë† Ë† Ë†Ë† Ë† Ë†: E ,  E , Ei , Et o  n xx x P x x x x PTT T T T T TÂª ÂºÂª Âº           Â« Â»Â¬ Â¼ Â¬ Â¼  (7)  For ^ `1,2, ,kÂ� f  ,calculation:  Step 1: Time-update equations for parameters  , , 1 1 1 Ë† Ë† ,  k k k k kP P Q T T TT T                 (8)  Step 2: Time-update equations for state      , , T1 1 1 1 1 1Ë†Ë† Ë† , , ,  x x xk k k k k k k k kx f x u P A P A QT                         (9)  Step 3: Measurement-update equations for state                                       1T 1 T 1, , , + 1T 1, , , , Ë†Ë† Ë† Ë† , , x x x x x x x x x x k k x k k k k k k k k x k k k k k k k x x x x x x x x k k x k k k k k k K P I S P C R C P C R x x K y g x u P P I S P C R C P G T G                           Â­     Â° Â°Â°     Â® Â° Â°     Â°Â¯   (10)  Step 4: Measurement-update equations for parameters                                       1T 1 T 1, , , 1T 1, , , , Ë† Ë† Ë†Ë† , , k k k k k k k k k k k k k k k k k k k k k k k k k K P I S P C R C P C R K y g x u P P I S P C R C P T T T T T T T T T T T T T T T T T T T T T G T T T G                             Â­     Â° Â°Â°     Â® Â° Â°     Â°Â¯   (11)    378   Cheng Chen et al. /  Energy Procedia  103 ( 2016 )  375 â€“ 380     1 1 , , T 1 1 1 1 (2)Time-update equations  Ë†Ë† Ë†   , ,   T                          k k k k x x x k k k k k x f x u P A P A Q , , 1 1 1 (1)Time-update equations  Ë† Ë† , T T TT T               k k k k kP P Q         + ,Ë†       3     Eq. 10 , , ,x x xk k k k Measur e K ement update equa x P tions     o 1 + , 1 1   Initial guess value at  Ë†states estimation ,Ã¼         k x k k t x P 1 + , 1 1      Initial guess value at  Ë†parameters estimation ,Ã¼ TT         k k k t P         + ,Ë†       Eq. 11 , , ,  4   k k k k Measurement update equations e K P     o T T TT ,Ë† , TT    k kP +Ë†kx TË†  k ,Ë† ,   xk kx P + , 1 1Ë† ,       x k kx P + , 1 1 Ë† , TT     k kP + )Tf+ )[f 1 ki ,,k t ki U 0 50 100 150 200 250 300 -80 -60 -40 -20 0 20 40 60 Time(min) C ur re nt (A ) ,,k t ki U ,,k t ki U   Fig. 1. Implementation flowchart of the dual H infinity filters  3. Application to battery system  In order to examine and compare performance of different filter algorithms, here, we choose the  Thevenin model with one-state hysteresis, which is a nonlinear model. Its terminal voltage is affected by  four parts: open circuit voltage, hysteresis voltage, polarization voltage and partial voltage on the ohm  internal resistance. Among them, the open circuit voltage can be described as a fitting equation from [6].             0 1 2 3 4/ ln ln 1ocU z z z z zD D D D D            (12)  On the other hand, the SoC can be expressed as an integral formula:             0 0= k L L k a i k i k dt z z C K   Â³  (13)  where kz  is SoC, Li  is the load current, K  is coulomb efficiency, aC  is cell maximum available capacity.  According to the dual H infinity filters shown in Table 2, we build the dual H infinity filters methods to  estimate the above state and parameter matrix and the implementation flowchart is shown in Fig. 1.  4. Battery experiment  The experiment data used for this study are acquired through the battery test bench set up in [15], and it  includes a series of characterization tests (which consist of a static capacity test using current rate Â½C, a  hybrid pulse test, loading profiles test) conducted at the same temperatures of 25 Cq . We can get the cell  maximum available capacity by means of the capacity test approximately. Then with the data of the  hybrid pulse test, we get the offline values parameters, which would be used to estimate the cell state with  the offline EKF and H infinity filter. The loading profiles test is used to simulate the typical urban driving  cycle of vehicle, which can reflect the change of SoC in the actual process  Here select the SoC in the  range of 100% to 20%.  5. Verification and discussion  Based on these experiment data, there are four methods proposed in order to estimate SoC: the H  infinity filter, the EKF, the dual H infinity filters and the adaptive dual H infinity filters. And these  methods will be evaluated from four sides: the estimation precision of SoC and terminal voltage, error  bound of SoC and the convergence rate. Their voltage and SoC estimation results with the erroneous  initial SoC (80%) are plotted in Fig. 2 and Fig. 3.  The H infinity filter was proposed to improve the robustness of estimation algorithms for an inaccurate   Cheng Chen et al. /  Energy Procedia  103 ( 2016 )  375 â€“ 380 379 system. The results show that the absolute value of voltage estimation error is slightly less than 0.1 V and  the absolute value of SoC estimation error is less than 1% after the system is stable. As a contrast, the  EKF has the extremely similar estimation precision, but for the convergence rate, it need 140s to converge  to the real values, which is far longer than 70s of the H infinity filter. This means the H infinity filter can  speed up the convergence rate of the erroneous initial SoC and have a better robustness to outside  interference.   From the above discussion, we found that the fitting errors of voltage are slightly high, which is caused  by inaccurate model. The dual H infinity filters proposed can provide more accurate parameters and  reduce the fitting errors of voltage, which is beneficial to estimate SoC. Form Fig. 2 and Fig. 3, it shows  that the absolute value of voltage estimation error is slightly less than 0.05 V and the absolute value of  SoC estimation error is less than 0.5% with the dual H infinity filters. Compared with the H infinity filter,  for the four evaluation indexes above, the dual H infinity filters is far superior to the offline H infinity  filter, which means that it can improve the previous algorithms in the great degree.  For better practical application, we add the adaptive update of noises to the state estimation process of  the dual H infinity filters. Through the comparison, it shows results of the adaptive dual H infinity filters  arenâ€™t superior to the dual H infinity filters, and even for some results, the former is inferior to the latter.  But as mentioned above, the adaptive update of noises is for better practical application and the data used  to estimation in this paper are simplex and one-case. So this phenomenon is reasonable and the adaptive  update of noises will be discussed with different data further in the next research.    Fig. 2. Results of estimated voltage error with four different  methods  Fig. 3. Results of estimated SoC error and bound with four  different methods  Finally, these numeric results are recorded in Table 3 for easy comparison.  Table 3. Comparison of the above four methods in the profiles test results estimating SoC (with the erroneous initial SoC_80%)   RMS error of  voltage (mV)  RMS error of  SoC (%)  Bounds error of  SoC (%)  convergence time of  SoC (s)  EKF 12.99 1.04 0.20 140  H infinity filter 12.23 0.96 0.20 70  Dual H infinity filters 5.59 0.35 0.02 30  Adaptive dual H infinity filters 5.60 0.55 0.02 30  6. Conclusions  By the comparison with the dual H infinity filters and other methods, the results show that (i) all the  peak errors of stable voltage and SoC are less than Â±1%; (ii) the convergence rate of H infinity filter with  the erroneous initial SoC has been improved by 50% compared with KF; (iii) the prediction precision of  voltage with the dual H infinity filters has been improved by 54% compared with the offline H infinity  filter, the prediction precision of SoC has been improved by 64% and its results of error bound and  380   Cheng Chen et al. /  Energy Procedia  103 ( 2016 )  375 â€“ 380  convergence rate are far superior to the offline method.  Acknowledgement  This work was supported by the National Natural Science Foundation of China (Grant No. 51507012).  The systemic experiments of the lithium-ion batteries were performed by the Advanced Energy Storage  and Application (AESA) Group of the National Engineering Laboratory for Electric Vehicles, Beijing  Institute of Technology. Any opinions expressed in this paper are solely those of the authors and do not  represent those of the sponsor.  References  [1] Lin C, Mu H, Xiong R, Shen. A novel multi-model probability battery state of charge estimation approach for electric vehicles  using H-infinity algorithm. Applied Energy 2016;166:76â€“83.  [2] Einhorn M, Conte F, Kral C, Fleig J. A method for online capacity estimation of lithium ion battery cells using the state of  charge and the transferred charge. IEEE Trans Ind. Appl. 2012;48:734Ã­41.  [3] Waag W, Sauer D. Adaptive estimation of the electromotive force of the lithium-ion battery after current interruption for an  accurate state-of-charge and capacity determination. Appl. Energy 2013;111:416Ã­27.  [4] TH L, Chen DF, Fang CC. Design and implementation of a battery charger with a state-of-charge estimator. International  Journal of Electronics 2000;87:211â€“16.  [5] Cadicri Y. Microcontroller-based on-line state-of-charge estimator for sealed lead-acid batteries. J. Power Sources  2004;129:330â€“42.  [6] Plett GL. Extended Kalman filtering for battery management systems of LiPB-based HEV battery packs. Part 2: Modelling  and identification. J. Power Sources 2004;134:262â€“76.  [7] Plett GL. Sigma-point Kalman filtering for battery management systems of LiPB-based HEV battery packs. Part 1:  Introduction and state estimation. J. Power Sources 2006;161:1356â€“68.  [8] Sun F, Xiong R. A novel dual-scale cell state-of-charge estimation approach for series-connected battery pack used in electric  vehicles. J Power Sources 2015;74:582â€“94.  [9] Weigert T, Tian Q, Lian K. State-of-charge prediction of batteries and battery-super capacitor hybrids using artificial neural  networks. J. Power Sources 2011;196(8):4061â€“66.  [10] Dai H, Guo P, Wei X, Sun Z, Wang J. ANFIS (adaptive neuro-fuzzy inference system) based online SoC (State of Charge)  correction considering cell divergence for the EV (electric vehicle) traction batteries. Energy 2015;80:350â€“60.    [11] Sheng H, Xiao J. Electric vehicle state of charge estimation: Nonlinear correlation and fuzzy support vector machine. J.  Power Sources 2015;281:131Ã­37.  [12] Sun F, Xiong R, He H. A systematic state-of-charge estimation framework for multi-cell battery pack in electric vehicles  using bias correction technique. Appl. Energy 2016;162:1399â€“409.  [13] Zhang F, Liu G, Fang L, Wang H. Estimation of battery state of charge with HÄž observer: applied to a robot for inspecting  power transmission lines. IEEE Trans. Ind. Electron. 2012;59(2):1086Ã­95.  [14] Chen X. Discrete HÎ» filter design with application to speech enhancement. Department of Electrical and Computer  Engineering 1995.  [15] Xiong R, Sun F, Gong X, He H. Adaptive state of charge estimator for lithium-ion cells series battery pack in electric  vehicles. J. Power Sources 2013;242:699â€“713.     Biography   Rui Xiong received the Ph.D. degree in mechanical Engineering from Beijing Institute of  Technology, China, in 2014. Since 2014, he has been appointed an Associate Professor at  the Department of Vehicle Engineering, Beijing Institute of Technology, China. His  research focuses mainly on electrical/hybrid vehicles, energy storage system and battery  management.     the convergence rate of H infinity filter with  the erroneous initial SoC has been improved by 50% compared with KF; (</xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.4" xml:lang="en" docsubtype="fla">
+         <item-info>
+            <jid>EGYPRO</jid>
+            <aid>28748</aid>
+            <ce:pii>S1876-6102(16)31512-0</ce:pii>
+            <ce:doi>10.1016/j.egypro.2016.11.302</ce:doi>
+            <ce:copyright type="other" year="2016">The Authors</ce:copyright>
+         </item-info>
+         <head>
+            <ce:article-footnote>
+               <ce:label>☆</ce:label>
+               <ce:note-para id="npar0005" view="all">Peer-review under responsibility of the scientific committee of the Applied Energy Symposium and Forum, REM2016: Renewable Energy Integration with Mini/Microgrid.</ce:note-para>
+            </ce:article-footnote>
+            <ce:title id="tit0005">A Novel Dual H Infinity Filters Based Battery Parameter and State Estimation Approach for Electric Vehicles Application</ce:title>
+            <ce:author-group id="aug0005">
+               <ce:author id="aut0005" author-id="S1876610216315120-5e184771bd2910af0f701d0ee43c0076">
+                  <ce:given-name>Cheng</ce:given-name>
+                  <ce:surname>Chen</ce:surname>
+                  <ce:cross-ref id="crf0005" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0010" refid="aff0010">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0010" author-id="S1876610216315120-0e0d16642d17f69f0d9ca3e94e9889ce">
+                  <ce:given-name>Fengchun</ce:given-name>
+                  <ce:surname>Sun</ce:surname>
+                  <ce:cross-ref id="crf0015" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0020" refid="aff0010">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0015" author-id="S1876610216315120-3c70ceda1b544bd8d150712f7405e835">
+                  <ce:given-name>Rui</ce:given-name>
+                  <ce:surname>Xiong</ce:surname>
+                  <ce:cross-ref id="crf0025" refid="cor0005">
+                     <ce:sup loc="post">⁎</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0030" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0035" refid="aff0010">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:author id="aut0020" author-id="S1876610216315120-f282fc6c6cb7248d7685012fa1d94847">
+                  <ce:given-name>Hongwen</ce:given-name>
+                  <ce:surname>He</ce:surname>
+                  <ce:cross-ref id="crf0040" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0045" refid="aff0010">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:affiliation id="aff0005">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>National Engineering Laboratory for Electric Vehicles, School of Mechanical Engineering, Beijing Institute of Technology, Beijing 100081, China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>National Engineering Laboratory for Electric Vehicles, School of Mechanical Engineering, Beijing Institute of Technology, Beijing 100081</sa:organization>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff0010">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>Beijing Co-innovation Center for Electric Vehicles, Beijing Institute of Technology, Beijing 100081, China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Beijing Co-innovation Center for Electric Vehicles, Beijing Institute of Technology, Beijing 100081</sa:organization>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:correspondence id="cor0005">
+                  <ce:label>⁎</ce:label>
+                  <ce:text>Corresponding author. Tel.: +86 10-68914070; fax: +86 10-68914070.</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:abstract id="abs0005" view="all" class="author"><ce:abstract-sec id="abst0005" view="all">
+                  <ce:simple-para id="spar0005" view="all">An accurate battery parameter and state estimation method is one of the most significant and difficult techniques to promote the commercialization of electric vehicles. This paper tries to make three aspects of effort. First, to avoid the battery state-of-charge (SoC) estimation inaccuracy brought by the variation of the model parameter under different aging level and operation condition, a novel dual H infinity filters was proposed and employed to execute the online measured data based battery parameter and SoC estimation. Second, to overcome the drawback of the H infinity filters are sensitive to their initial noise information. An adaptive H infinity filter employing the covariance matching approach was proposed and applied to realize a robust SoC estimation. Last, the accurate estimate of battery parameter and SoC were obtained real-timely through model-based dual H infinity filters. A systematic evaluation on the different algorithms based SoC estimation was carried out. Experimental results on various degradation states of lithium-ion polymer battery cells further verified the feasibility of the proposed approach.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="kwd0005" class="keyword" view="all">
+               <ce:section-title id="sect0010">Keywords</ce:section-title>
+               <ce:keyword id="kw0005">
+                  <ce:text>Battery management system</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0010">
+                  <ce:text>H infinity filter</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0015">
+                  <ce:text>the dual H infinity filters</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0020">
+                  <ce:text>Adaptive update</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <tail view="all">
+            <ce:bibliography id="bibl0005" view="all">
+               <ce:section-title id="sect0020">References</ce:section-title>
+               <ce:bibliography-sec id="bibs0005" view="all">
+                  <ce:bib-reference id="bib0005">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference id="sbref0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Lin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Mu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Xiong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Shen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A novel multi-model probability battery state of charge estimation approach for electric vehicles using H-infinity algorithm</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Applied Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>166</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>76</sb:first-page>
+                              <sb:last-page>83</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0010">
+                     <ce:label>[2]</ce:label>
+                     <sb:reference id="sbref0010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Einhorn</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Conte</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Kral</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Fleig</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A method for online capacity estimation of lithium ion battery cells using the state of charge and the transferred charge</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans Ind. Appl.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>48</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>734</sb:first-page>
+                              <sb:last-page>741</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0015">
+                     <ce:label>[3]</ce:label>
+                     <sb:reference id="sbref0015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Waag</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Sauer</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Adaptive estimation of the electromotive force of the lithium-ion battery after current interruption for an accurate state-of-charge and capacity determination</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>111</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>416</sb:first-page>
+                              <sb:last-page>427</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0020">
+                     <ce:label>[4]</ce:label>
+                     <sb:reference id="sbref0020">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>TH</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.F.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.C.</ce:given-name>
+                                 <ce:surname>Fang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Design and implementation of a battery charger with a state-of-charge estimator</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>International Journal of Electronics</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>87</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2000</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>211</sb:first-page>
+                              <sb:last-page>216</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0025">
+                     <ce:label>[5]</ce:label>
+                     <sb:reference id="sbref0025">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Cadicri</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Microcontroller-based on-line state-of-charge estimator for sealed lead-acid batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>129</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>330</sb:first-page>
+                              <sb:last-page>342</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0030">
+                     <ce:label>[6]</ce:label>
+                     <sb:reference id="sbref0030">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.L.</ce:given-name>
+                                 <ce:surname>Plett</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Extended Kalman filtering for battery management systems of LiPB-based HEV battery packs. Part 2: Modelling and identification</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>134</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>262</sb:first-page>
+                              <sb:last-page>276</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0035">
+                     <ce:label>[7]</ce:label>
+                     <sb:reference id="sbref0035">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.L.</ce:given-name>
+                                 <ce:surname>Plett</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Sigma-point Kalman filtering for battery management systems of LiPB-based HEV battery packs, Part 1: Introduction and state estimation</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>161</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1356</sb:first-page>
+                              <sb:last-page>1368</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0040">
+                     <ce:label>[8]</ce:label>
+                     <sb:reference id="sbref0040">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Sun</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Xiong</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A novel dual-scale cell state-of-charge estimation approach for series-connected battery pack used in electric vehicles</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>74</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>582</sb:first-page>
+                              <sb:last-page>594</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0045">
+                     <ce:label>[9]</ce:label>
+                     <sb:reference id="sbref0045">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Weigert</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Q.</ce:given-name>
+                                 <ce:surname>Tian</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Lian</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>State-of-charge prediction of batteries and battery-super capacitor hybrids using artificial neural networks</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>196</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>8</sb:issue-nr>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4061</sb:first-page>
+                              <sb:last-page>4066</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0050">
+                     <ce:label>[10]</ce:label>
+                     <sb:reference id="sbref0050">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Dai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Guo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Wei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Sun</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>ANFIS (adaptive neuro-fuzzy inference system) based online SoC (State of Charge) correction considering cell divergence for the EV (electric vehicle) traction batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>80</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>350</sb:first-page>
+                              <sb:last-page>360</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0055">
+                     <ce:label>[11]</ce:label>
+                     <sb:reference id="sbref0055">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Sheng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Xiao</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Electric vehicle state of charge estimation: Nonlinear correlation and fuzzy support vector machine</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>281</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>131</sb:first-page>
+                              <sb:last-page>137</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0060">
+                     <ce:label>[12]</ce:label>
+                     <sb:reference id="sbref0060">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Sun</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Xiong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A systematic state-of-charge estimation framework for multi-cell battery pack in electric vehicles using bias correction technique</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>162</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1399</sb:first-page>
+                              <sb:last-page>1409</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0065">
+                     <ce:label>[13]</ce:label>
+                     <sb:reference id="sbref0065">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Fang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Estimation of battery state of charge with H∞ observer: applied to a robot for inspecting power transmission lines</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans. Ind. Electron.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>59</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>2</sb:issue-nr>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1086</sb:first-page>
+                              <sb:last-page>1095</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0070">
+                     <ce:label>[14]</ce:label>
+                     <sb:reference id="sbref0070">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Discrete H∞ filter design with application to speech enhancement</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Department of Electrical and Computer Engineering</sb:maintitle>
+                                 </sb:title>
+                              </sb:series>
+                              <sb:date>1995</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0075">
+                     <ce:label>[15]</ce:label>
+                     <sb:reference id="sbref0075">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Xiong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Sun</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Gong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Adaptive state of charge estimator for lithium-ion cells series battery pack in electric vehicles</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>242</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>699</sb:first-page>
+                              <sb:last-page>713</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

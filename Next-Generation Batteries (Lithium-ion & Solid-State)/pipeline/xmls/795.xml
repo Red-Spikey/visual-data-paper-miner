@@ -1,0 +1,768 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1876610217361362</prism:url><dc:identifier>doi:10.1016/j.egypro.2017.12.388</dc:identifier><eid>1-s2.0-S1876610217361362</eid><prism:doi>10.1016/j.egypro.2017.12.388</prism:doi><pii>S1876-6102(17)36136-2</pii><dc:title>Open circuit voltage and state of charge online estimation for lithium ion batteries </dc:title><prism:publicationName>Energy Procedia</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>18766102</prism:issn><prism:volume>142</prism:volume><prism:startingPage>1902</prism:startingPage><prism:endingPage>1907</prism:endingPage><prism:pageRange>1902-1907</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2017-12-31</prism:coverDate><prism:coverDisplayDate>December 2017</prism:coverDisplayDate><prism:copyright>© 2017 The Author(s). Published by Elsevier Ltd.</prism:copyright><prism:publisher>The Author(s). Published by Elsevier Ltd.</prism:publisher><prism:issueName>Proceedings of the 9th International Conference on Applied Energy</prism:issueName><dc:creator>Xiong, Rui</dc:creator><dc:creator>Yu, Quanqing</dc:creator><dc:creator>Wang, Le Yi</dc:creator><dc:description>
+                  Open circuit voltage (OCV), as a nonlinear function of state of charge (SoC) of lithium ion battery, commonly obtained through offline OCV test at certain ambient temperatures and aging stages. The OCV-SoC relationship may be inaccurate in real application due to the difference in operation conditions. In this paper, the OCV is identified by H infinity filter (HIF) in real operation conditions. Due to the no need to derive the jacobian matrices with unscented Kalman filter (UKF), the identified discrete OCV points are propagated to state estimation process instead of the traditional OCV-SoC nonlinear function. Additionally, the polarization voltage across the polarization capacitor is also passed to state estimation in the form of discrete data points. The experimental results demonstrate that the HIF-UKF can obtain the OCV and SoC in real time.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>ElsevierWaived</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>Type your keywords here</dcterms:subject><dcterms:subject>separated by semicolons</dcterms:subject><dcterms:subject>Open circuit voltage</dcterms:subject><dcterms:subject>state of chage</dcterms:subject><dcterms:subject>Adaptive H infinity filter</dcterms:subject><dcterms:subject>Adaptive unscented kalman filter</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1876610217361362" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1876610217361362" rel="scidir"/></coredata><scopus-id>85041522229</scopus-id><scopus-eid>2-s2.0-85041522229</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85041522229" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>277910</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291711</xocs:ssid>
+         <xocs:ssid type="subj">291731</xocs:ssid>
+         <xocs:ssid type="subj">291877</xocs:ssid>
+         <xocs:ssid type="subj">291892</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Energy Procedia</xocs:srctitle>
+      <xocs:normalized-srctitle>ENERGYPROCEDIA</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20180131">2018-01-31</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20180131">2018-01-31</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20180131">2018-01-31</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20180131">2018-01-31</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2018-05-15T03:59:33</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1876610217361362</xocs:eid>
+      <xocs:pii-formatted>S1876-6102(17)36136-2</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1876610217361362</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.egypro.2017.12.388</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.4</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1876610217X00398</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20240102">2024-01-02T00:52:53.890117Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20171201</xocs:date-search-begin>
+      <xocs:date-search-end>20171231</xocs:date-search-end>
+      <xocs:year-nav>2017</xocs:year-nav>
+      <xocs:indexeddate epoch="1517411464">2018-01-31T15:11:04.988734Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids confeditor contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content oa subj suppl tomb vol volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authkeywords authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1876-6102</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>18766102</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>142</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>142</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 142</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>290</xocs:sort-order>
+      <xocs:first-fp>1902</xocs:first-fp>
+      <xocs:last-lp>1907</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>1902</xocs:first-page>
+         <xocs:last-page>1907</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201712</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>December 2017</xocs:cover-date-text>
+      <xocs:cover-date-start>2017-12-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2017-12-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2017</xocs:cover-date-year>
+      <xocs:title-editors-groups>
+         <xocs:title-editors-group>
+            <ce:title id="tt001">Proceedings of the 9th International Conference on Applied Energy</ce:title>
+            <ce:editors>
+               <ce:author-group id="aa001">
+                  <ce:author id="aa002" author-id="S1876610217X00398-40e31007ddb2fd281ec8e5931ab93250">
+                     <ce:given-name>J.</ce:given-name>
+                     <ce:surname>Yan</ce:surname>
+                  </ce:author>
+                  <ce:author id="aa003" author-id="S1876610217X00398-86c46854b2ae6b9c9fe143528b8874ef">
+                     <ce:given-name>Jianzhong</ce:given-name>
+                     <ce:surname>Wu</ce:surname>
+                  </ce:author>
+                  <ce:author id="aa004" author-id="S1876610217X00398-fd71de3f842ed445fb6967d2904df3af">
+                     <ce:given-name>H.</ce:given-name>
+                     <ce:surname>Li</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+            </ce:editors>
+         </xocs:title-editors-group>
+      </xocs:title-editors-groups>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>Intelligent Energy System</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>© 2017 The Author(s). Published by Elsevier Ltd.</xocs:copyright-line>
+      <xocs:normalized-article-title>OPENCIRCUITVOLTAGESTATECHARGEONLINEESTIMATIONFORLITHIUMIONBATTERIES</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>XIONG</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>R</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="sbref0001">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>44</xocs:ref-first-fp>
+            <xocs:ref-last-lp>58</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0002">
+            <xocs:ref-normalized-surname>XIA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>426</xocs:ref-first-fp>
+            <xocs:ref-last-lp>436</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>B</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0003">
+            <xocs:ref-normalized-surname>KLEEBARILLAS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>455</xocs:ref-first-fp>
+            <xocs:ref-last-lp>462</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0004">
+            <xocs:ref-normalized-surname>HU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>449</xocs:ref-first-fp>
+            <xocs:ref-last-lp>457</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0005">
+            <xocs:ref-normalized-surname>ZHAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>326</xocs:ref-first-fp>
+            <xocs:ref-last-lp>333</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0006">
+            <xocs:ref-normalized-surname>ZHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4948</xocs:ref-first-fp>
+            <xocs:ref-last-lp>4957</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0007">
+            <xocs:ref-normalized-surname>WENG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>228</xocs:ref-first-fp>
+            <xocs:ref-last-lp>237</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0008">
+            <xocs:ref-normalized-surname>CHEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>504</xocs:ref-first-fp>
+            <xocs:ref-last-lp>511</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0009">
+            <xocs:ref-normalized-surname>BARAI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>99</xocs:ref-first-fp>
+            <xocs:ref-last-lp>107</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00010">
+            <xocs:ref-normalized-surname>LAVIGNE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>694</xocs:ref-first-fp>
+            <xocs:ref-last-lp>703</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="oref00011"/>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>XIONGX2017X1902</xocs:refkey3>
+         <xocs:refkey4lp>XIONGX2017X1902X1907</xocs:refkey4lp>
+         <xocs:refkey4ai>XIONGX2017X1902XR</xocs:refkey4ai>
+         <xocs:refkey5>XIONGX2017X1902X1907XR</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2017-12-14T00:35:23Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>ElsevierWaived</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/PROC_UNBOUNDED_ESWaived">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY-NC-ND license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2017 The Author(s). Published by Elsevier Ltd.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1876-6102(17)36136-2</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1876610217361362</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1876610217361362</xocs:eid>
+         <xocs:doi>10.1016/j.egypro.2017.12.388</xocs:doi>
+         <xocs:cid>277910</xocs:cid>
+         <xocs:timestamp>2024-01-02T00:52:53.890117Z</xocs:timestamp>
+         <xocs:cover-date-start>2017-12-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2017-12-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1876610217361362-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1876610217361362/MAIN/application/pdf/80f04524f2cb57aedf601d00f6452264/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1876610217361362/MAIN/application/pdf/80f04524f2cb57aedf601d00f6452264/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>867244</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>6</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1876610217361362-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1876610217361362/PREVIEW/image/png/2b1c4244487ff6a683190a8107c819fd/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1876610217361362/PREVIEW/image/png/2b1c4244487ff6a683190a8107c819fd/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>39773</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">ScienceDirect Available online at www.sciencedirect.comAvailable online at w.sciencedirect.com ScienceDirect Energy Procedia 00 (2017) 000â€“000 www.elsevier.com/locate/procedia 1876-6102 Â© 2017 The Authors. Published by Elsevier Ltd. Peer-review under responsibility of the Scientific Committee of The 15th International Symposium on District Heating and Cooling. The 15th International Symposium on District Heating and Cooling Assessing the feasibility of using the heat demand-outdoor  temperature function for a long-term district heat demand forecast I. AndriÄ‡a,b,c*, A. Pinaa, P. FerrÃ£oa, J. Fournierb., B. LacarriÃ¨rec, O. Le Correc aIN+ Center for Innovation, Technology and Policy Research - Instituto Superior TÃ©cnico, Av. Rovisco Pais 1, 1049-001 Lisbon, Portugal bVeolia Recherche &amp; Innovation, 291 Avenue Dreyfous Daniel, 78520 Limay, France cDÃ©partement SystÃ¨mes Ã‰nergÃ©tiques et Environnement - IMT Atlantique, 4 rue Alfred Kastler, 44300 Nantes, France Abstract District heating networks are commonly addressed in the literature as one of the most effective solutions for decreasing the  greenhouse gas emissions from the building sector. These systems require high investments which are returned through the heat sales. Due to the changed climate conditions and building renovation policies, heat demand in the future could decrease,  prolonging the investment return period.  The main scope of this paper is to assess the feasibility of using the heat demand â€“ outdoor temperature function for heat demand  forecast. The district of Alvalade, located in Lisbon (Portugal), was used as a case study. The district is consisted of 665  buildings that vary in both construction period and typology. Three weather scenarios (low, medium, high) and three district  renovation scenarios were developed (shallow, intermediate, deep). To estimate the error, obtained heat demand values were  compared with results from a dynamic heat demand model, previously developed and validated by the authors. The results showed that when only weather change is considered, the margin of error could be acceptable for some applications (the error in annual demand was lower than 20% for all weather scenarios considered). However, after introducing renovation  scenarios, the error value increased up to 59.5% (depending on the weather and renovation scenarios combination considered).  The value of slope coefficient increased on average within the range of 3.8% up to 8% per decade, that corresponds to the  decrease in the number of heating hours of 22-139h during the heating season (depending on the combination of weather and  renovation scenarios considered). On the other hand, function intercept increased for 7.8-12.7% per decade (depending on the  coupled scenarios). The values suggested could be used to modify the function parameters for the scenarios considered, and  improve the accuracy of heat demand estimations. Â© 2017 The Authors. Published by Elsevier Ltd. Peer-review under responsibility of the Scientific Committee of The 15th International Symposium on District Heating and  Cooling. Keywords: Heat demand; Forecast; Climate change Energy Procedia 142 (2017) 19 2 19 7 1876-6102 Â© 2017 The Authors. Published by Elsevier Ltd. Peer-review under responsibility of the scientific committee of the 9th International Conference on Applied Energy. 10.1016/j.egypro.2017.12.388 10.1016/j.egypro.2017.12.388 1876-6102   Available online at www.sciencedirect.com  ScienceDirect  Energy Procedia 00 (2017) 000â€“000     www.elsevier.com/locate/procedia    1876-6102 Â© 2017 The Authors. Published by Elsevier Ltd.  Peer-review under responsibility of the scientific committee of the 9th International Conference on Applied Energy.   9th International Conference on Applied Energy, ICAE2017, 21-24 August 2017, Cardiff, UK  Open circuit voltage and state of charge online estimation for  lithium ion batteries  Rui Xionga,*, Quanqing Yua,b, Le Yi Wangb  aCollaborative Innovation Center of Electric Vehicles in Beijing, Beijing Institute of Technology, Beijing 100081, China   bDepartment of Electrical and Computer Engineering, Wayne State University, Detroit, Michigan 48202, USA  Abstract  Open circuit voltage (OCV), as a nonlinear function of state of charge (SoC) of lithium ion battery, commonly obtained through  offline OCV test at certain ambient temperatures and aging stages. The OCV-SoC relationship may be inaccurate in real application  due to the difference in operation conditions. In this paper, the OCV is identified by H infinity filter (HIF) in real operation  conditions. Due to the no need to derive the jacobian matrices with unscented Kalman filter (UKF), the identified discrete OCV  points are propagated to state estimation process instead of the traditional OCV-SoC nonlinear function. Additionally, the  polarization voltage across the polarization capacitor is also passed to state estimation in the form of discrete data points. The  experimental results demonstrate that the HIF-UKF can obtain the OCV and SoC in real time.    Â© 2017 The Authors. Published by Elsevier Ltd.  Peer-review under responsibility of the scientific committee of the 9th International Conference on Applied Energy.  Keywords: Type your keywords here, separated by semicolons ; Open circuit voltage, state of chage, Adaptive H infinity filter, Adaptive  unscented kalman filter;  1. Introduction  The electric vehicles (EVs) require a large number of advanced lithium ion batteries with high energy densities to  provide required power [1]. The battery management system (BMS) is indispensable to ensure the safe and reliable  operations of EVs. The state of charge (SoC) indicates the amount of battery available capacity and is considered as  the most important index of BMS. A number of techniques have been developed to estimate the battery SoC and the      * Corresponding author. Tel.: +86 (10) 6891 4070; fax: +86 (10) 6891 4070.  E-mail address: rxiong@bit.edu.cn  2 Author name / Energy Procedia 00 (2017) 000â€“000  most commonly used one is model based method [2,3]. The accurate OCV is essential for correcting SoC through a  nonlinear function of SoC in state estimation process. The parameters of OCV models are usually determined through  offline OCV tests such as incremental OCV test and low-current OCV test [4â€“8]. The offline OCV tests are time  costing and affected by ambient temperatures, aging stages, current rates and relaxation times [9,10]. In this paper, the  OCV is treated as a part of the parameters set and identified through H infinity filter (HIF) and propagated to state  estimation process in the form of discrete data points other than the nonlinear function. The unscented Kalman filter  (UKF) is employed to estimate the SoC in real time.  The remains of this paper are organized as follows: in Section 2, the experimental setup for data acquiring and  processing is described. Section 3 introduces the HIF for parameters identification, and UKF for state estimation. The  validity of the proposed HIF-UKF method for OCV and SoC estimation is verified in Section 4. Finally, conclusions  of the paper are given in Section 5.    2. Experimental configuration  The test bench is shown in Fig. 1, which consists of a battery test machine Arbin BT2000 for loading the battery,  a hosting computer with BMS software used for online experiment control and monitor, a number of high precision  sensors attached to the cells to measure the current, voltage and temperature. In this paper, we use the LiFePO4 (LFP)  lithium-ion cells, each cell has a nominal output voltage of 3.2V, the normal capacity is 20Ah, the upper and lower  cutoff voltage are 3.65V and 2V respectively. The typical urban dynamic driving schedule (UDDS) loading profile is  applied to verify and evaluate the performance of the OCV and SoC estimation method at 25ÂºC. The experimental  current and reference SoC profiles are shown in Fig. 2. It is noted that, in this paper, the reference SoC profile is  calculated through Coulomb counting on measured current data.   Hosting Computer Arbin MITS Pro Software Battery tester Arbin BT2000 LFP cell Sensors: Current,Voltage, Temperature,etc TCP/IP TCP/IP Power Signal Thermal chamber Shanghai Surui  RGD Matlab R2015b   Fig. 1. Schematic of the battery test bench   Rui Xiong  et al. / Energy Procedia 142 (2017) 1902â€“1907 1903   Available online at www.sciencedirect.com  ScienceDirect  Energy Procedia 00 (2017) 000â€“000     www.elsevier.com/locate/procedia    1876-6102 Â© 2017 The Authors. Published by Elsevier Ltd.  Peer-review under responsibility of the scientific committee of the 9th International Conference on Applied Energy.   9th International Conference on Applied Energy, ICAE2017, 21-24 August 2017, Cardiff, UK  Open circuit voltage and state of charge online estimation for  lithium ion batteries  Rui Xionga,*, Quanqing Yua,b, Le Yi Wangb  aCollaborative Innovation Center of Electric Vehicles in Beijing, Beijing Institute of Technology, Beijing 100081, China   bDepartment of Electrical and Computer Engineering, Wayne State University, Detroit, Michigan 48202, USA  Abstract  Open circuit voltage (OCV), as a nonlinear function of state of charge (SoC) of lithium ion battery, commonly obtained through  offline OCV test at certain ambient temperatures and aging stages. The OCV-SoC relationship may be inaccurate in real application  due to the difference in operation conditions. In this paper, the OCV is identified by H infinity filter (HIF) in real operation  conditions. Due to the no need to derive the jacobian matrices with unscented Kalman filter (UKF), the identified discrete OCV  points are propagated to state estimation process instead of the traditional OCV-SoC nonlinear function. Additionally, the  polarization voltage across the polarization capacitor is also passed to state estimation in the form of discrete data points. The  experimental results demonstrate that the HIF-UKF can obtain the OCV and SoC in real time.    Â© 2017 The Authors. Published by Elsevier Ltd.  Peer-review under responsibility of the scientific committee of the 9th International Conference on Applied Energy.  Keywords: Type your keywords here, separated by semicolons ; Open circuit voltage, state of chage, Adaptive H infinity filter, Adaptive  unscented kalman filter;  1. Introduction  The electric vehicles (EVs) require a large number of advanced lithium ion batteries with high energy densities to  provide required power [1]. The battery management system (BMS) is indispensable to ensure the safe and reliable  operations of EVs. The state of charge (SoC) indicates the amount of battery available capacity and is considered as  the most important index of BMS. A number of techniques have been developed to estimate the battery SoC and the      * Corresponding author. Tel.: +86 (10) 6891 4070; fax: +86 (10) 6891 4070.  E-mail address: rxiong@bit.edu.cn  2 Author name / Energy Procedia 00 (2017) 000â€“000  most commonly used one is model based method [2,3]. The accurate OCV is essential for correcting SoC through a  nonlinear function of SoC in state estimation process. The parameters of OCV models are usually determined through  offline OCV tests such as incremental OCV test and low-current OCV test [4â€“8]. The offline OCV tests are time  costing and affected by ambient temperatures, aging stages, current rates and relaxation times [9,10]. In this paper, the  OCV is treated as a part of the parameters set and identified through H infinity filter (HIF) and propagated to state  estimation process in the form of discrete data points other than the nonlinear function. The unscented Kalman filter  (UKF) is employed to estimate the SoC in real time.  The remains of this paper are organized as follows: in Section 2, the experimental setup for data acquiring and  processing is described. Section 3 introduces the HIF for parameters identification, and UKF for state estimation. The  validity of the proposed HIF-UKF method for OCV and SoC estimation is verified in Section 4. Finally, conclusions  of the paper are given in Section 5.    2. Experimental configuration  The test bench is shown in Fig. 1, which consists of a battery test machine Arbin BT2000 for loading the battery,  a hosting computer with BMS software used for online experiment control and monitor, a number of high precision  sensors attached to the cells to measure the current, voltage and temperature. In this paper, we use the LiFePO4 (LFP)  lithium-ion cells, each cell has a nominal output voltage of 3.2V, the normal capacity is 20Ah, the upper and lower  cutoff voltage are 3.65V and 2V respectively. The typical urban dynamic driving schedule (UDDS) loading profile is  applied to verify and evaluate the performance of the OCV and SoC estimation method at 25ÂºC. The experimental  current and reference SoC profiles are shown in Fig. 2. It is noted that, in this paper, the reference SoC profile is  calculated through Coulomb counting on measured current data.   Hosting Computer Arbin MITS Pro Software Battery tester Arbin BT2000 LFP cell Sensors: Current,Voltage, Temperature,etc TCP/IP TCP/IP Power Signal Thermal chamber Shanghai Surui  RGD Matlab R2015b   Fig. 1. Schematic of the battery test bench  1904 Rui Xiong  et al. / Energy Procedia 142 (2017) 1902â€“1907  Author name / Energy Procedia 00 (2017) 000â€“000   3    Fig. 2. UDDS profiles (a) Current (b) Reference SoC  3. OCV and SoC online estimation  The first order RC network battery model as shown in Fig. 3 is selected to represent the battery electrical behavior.  The model contains an ideal voltage source Uoc, a resistor Ro and a RC branch (i.e., the polarization resistor Rp and the  polarization capacitor Cp). Ut and Up denote the terminal voltage and the polarization voltage across Cp, respectively.  In addition, the io represents the load current. The electrical behavior can be described as Eq. (1), which can be  discretized into Eq. (2):  o p p t oc p o o pUiU C U U U i R t Ã¬ = -Ã¯ Ã­ Ã¯ = - -Ã®  (1)  p, 1 p, p o, t, oc, p, o, o, exp 1 expk k k k k k k k k k t tU U R i U U U i R t t+ Ã¬ Ã¦ Ã¶Ã¦ Ã¶ Ã¦ Ã¶D D = - + - -Ã¯ Ã§ Ã·Ã§ Ã· Ã§ Ã·Ã§ Ã·Ã­ Ã¨ Ã¸ Ã¨ Ã¸Ã¨ Ã¸ Ã¯ = - -Ã®  (2)  Where Ï„ denote the time constant of the RC branch, Ï„ = RpÃ—Cp. tD  is sampling time.  + _ Uoc Roio Rp Cp Up Ut + _   Fig. 3. The first-order RC model  0 50 100 150 200 250-50 0 50 100 150 Time(min) C ur re nt  (A ) 0 50 100 150 200 2500 20 40 60 80 100 Time(min) So C  (% ) a b 4 Author name / Energy Procedia 00 (2017) 000â€“000  3.1. OCV estimation  In our previous work [11], the HIF can be used to identify the parameters set {Uoc, Up, Cp, Rp, Ro}, and UKF can be  used to estimate the battery states {Up, SoC}. Note that the Up is estimated by both HIF and UKF, in addition, the  OCV-SoC function extracted from the traditional OCV test is still employed in the output of Eq. (2), the identified  OCV in parameter identification process failed to applied in state estimation process. Therefore, only the parameter  set {Cp, Rp, Ro} is propagated to state estimation process. In this study, the estimated parameters set {Uoc, Up, Cp, Rp,  Ro} is propagated to state estimation process, and the battery state {SoC} rather than {Up, SoC}is estimated by UKF.  The state space equations for HIF are shown as follows:  , 1 , , , o. , , , , o, , , h k h k h k h k k h k k h k h k h k k h k k k h k x A x B i w y C x D i v z L x + = + +Ã¬ Ã¯ = + +Ã­ Ã¯ =Ã®   (3)  ( )p, p o, p, o, o,2 2 p, p, p, p, , 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 k k k k k k k k k k k k h k t U R it U i i C R C R A q q q Ã© Ã¹ Ãª ÃºÃ¦ Ã¶D +Ãª ÃºD Ã§ Ã·- +Ãª ÃºÃ§ Ã·Ãª ÃºÃ¨ Ã¸= Ãª Ãº Ãª Ãº Ãª Ãº Ãª Ãº Ã« Ã»  (4)  where xh,k is the state and defined as [Uoc,k, Up,k, Cp,k, Rp,k, Ro,k]T; yk is the measurement and equals Ut, respectively; zk  is a linear combination of the state and defined as [Uoc,k], and Lk is defined as [1, 0, 0, 0, 0]; uk is the known input  vector and equals io,k; wh,k and vh,k are the system white noise and measurement white noise, respectively. The matrices  Bh,k , Ch,k and Dh,k are (1-Î¸k)Rp,k, [1, âˆ’1, 0, 0, âˆ’io,k] and Ro,k ,respectively. The general process of the HIF for parameters  identification can be referred to [11].  3.2. SoC estimation  Once the parameters set identified at time kth, the UKF can be used to estimate the battery SoC for their merits of  robustness, computational speed, converge speed, and high SoC estimation accuracy.   The state space equations can be formulated as:  , 1 , , , o. , , , , o, , u k u k u k u k k u k k u k u k u k k u k x A x B i w y C x D i v + = + +Ã¬Ã¯ Ã­ = - +Ã¯Ã®   (5)  where xu,k is state and equals [SoCk]T; yk is the measurement and defined as Ut,; uk is the known input and defined as  io,k; wu,k and vu,k are the system noise and measurement noise, respectively. The matrices in Eq. (6) are defined as:  , u, oc , SoC , o, 1 SoC k u k k i n h k h k k A B t C dU C d D R h - =Ã¬ Ã¯ = DÃ¯Ã¯ Ã­ =Ã¯ Ã¯ =Ã¯Ã®   (6)  Then the UKF can be employed to estimate the SoC with the Eq. (5) and (6), and the general process of UKF can  be referred to [12].   Rui Xiong  et al. / Energy Procedia 142 (2017) 1902â€“1907 1905  Author name / Energy Procedia 00 (2017) 000â€“000   3    Fig. 2. UDDS profiles (a) Current (b) Reference SoC  3. OCV and SoC online estimation  The first order RC network battery model as shown in Fig. 3 is selected to represent the battery electrical behavior.  The model contains an ideal voltage source Uoc, a resistor Ro and a RC branch (i.e., the polarization resistor Rp and the  polarization capacitor Cp). Ut and Up denote the terminal voltage and the polarization voltage across Cp, respectively.  In addition, the io represents the load current. The electrical behavior can be described as Eq. (1), which can be  discretized into Eq. (2):  o p p t oc p o o pUiU C U U U i R t Ã¬ = -Ã¯ Ã­ Ã¯ = - -Ã®  (1)  p, 1 p, p o, t, oc, p, o, o, exp 1 expk k k k k k k k k k t tU U R i U U U i R t t+ Ã¬ Ã¦ Ã¶Ã¦ Ã¶ Ã¦ Ã¶D D = - + - -Ã¯ Ã§ Ã·Ã§ Ã· Ã§ Ã·Ã§ Ã·Ã­ Ã¨ Ã¸ Ã¨ Ã¸Ã¨ Ã¸ Ã¯ = - -Ã®  (2)  Where Ï„ denote the time constant of the RC branch, Ï„ = RpÃ—Cp. tD  is sampling time.  + _ Uoc Roio Rp Cp Up Ut + _   Fig. 3. The first-order RC model  0 50 100 150 200 250-50 0 50 100 150 Time(min) C ur re nt  (A ) 0 50 100 150 200 2500 20 40 60 80 100 Time(min) So C  (% ) a b 4 Author name / Energy Procedia 00 (2017) 000â€“000  3.1. OCV estimation  In our previous work [11], the HIF can be used to identify the parameters set {Uoc, Up, Cp, Rp, Ro}, and UKF can be  used to estimate the battery states {Up, SoC}. Note that the Up is estimated by both HIF and UKF, in addition, the  OCV-SoC function extracted from the traditional OCV test is still employed in the output of Eq. (2), the identified  OCV in parameter identification process failed to applied in state estimation process. Therefore, only the parameter  set {Cp, Rp, Ro} is propagated to state estimation process. In this study, the estimated parameters set {Uoc, Up, Cp, Rp,  Ro} is propagated to state estimation process, and the battery state {SoC} rather than {Up, SoC}is estimated by UKF.  The state space equations for HIF are shown as follows:  , 1 , , , o. , , , , o, , , h k h k h k h k k h k k h k h k h k k h k k k h k x A x B i w y C x D i v z L x + = + +Ã¬ Ã¯ = + +Ã­ Ã¯ =Ã®   (3)  ( )p, p o, p, o, o,2 2 p, p, p, p, , 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 k k k k k k k k k k k k h k t U R it U i i C R C R A q q q Ã© Ã¹ Ãª ÃºÃ¦ Ã¶D +Ãª ÃºD Ã§ Ã·- +Ãª ÃºÃ§ Ã·Ãª ÃºÃ¨ Ã¸= Ãª Ãº Ãª Ãº Ãª Ãº Ãª Ãº Ã« Ã»  (4)  where xh,k is the state and defined as [Uoc,k, Up,k, Cp,k, Rp,k, Ro,k]T; yk is the measurement and equals Ut, respectively; zk  is a linear combination of the state and defined as [Uoc,k], and Lk is defined as [1, 0, 0, 0, 0]; uk is the known input  vector and equals io,k; wh,k and vh,k are the system white noise and measurement white noise, respectively. The matrices  Bh,k , Ch,k and Dh,k are (1-Î¸k)Rp,k, [1, âˆ’1, 0, 0, âˆ’io,k] and Ro,k ,respectively. The general process of the HIF for parameters  identification can be referred to [11].  3.2. SoC estimation  Once the parameters set identified at time kth, the UKF can be used to estimate the battery SoC for their merits of  robustness, computational speed, converge speed, and high SoC estimation accuracy.   The state space equations can be formulated as:  , 1 , , , o. , , , , o, , u k u k u k u k k u k k u k u k u k k u k x A x B i w y C x D i v + = + +Ã¬Ã¯ Ã­ = - +Ã¯Ã®   (5)  where xu,k is state and equals [SoCk]T; yk is the measurement and defined as Ut,; uk is the known input and defined as  io,k; wu,k and vu,k are the system noise and measurement noise, respectively. The matrices in Eq. (6) are defined as:  , u, oc , SoC , o, 1 SoC k u k k i n h k h k k A B t C dU C d D R h - =Ã¬ Ã¯ = DÃ¯Ã¯ Ã­ =Ã¯ Ã¯ =Ã¯Ã®   (6)  Then the UKF can be employed to estimate the SoC with the Eq. (5) and (6), and the general process of UKF can  be referred to [12].  1906 Rui Xiong  et al. / Energy Procedia 142 (2017) 1902â€“1907  Author name / Energy Procedia 00 (2017) 000â€“000   5  4. Results and discussions  Fig. 4 shows the OCVs extracted from the estimation and experiment. The blue curve is the estimated OCV while  the red curve is the experimental OCV. It can be seen that the estimated OCV is very close to the experimental OCV  in the middle SoC region, which is the widely used in EVs. Noted that the estimated is not so smooth as the  experimental OCV caused by the strongly dynamic current rate employed in the battery.  Fig. 5 shows the results of the state estimation through HIF-UKF. Fig. 5a depicts the estimated SoC and reference  SoC, and the SoC error is illustrated in Fig. 5b. The estimated SoC converge to the reference SoC very quickly, and  the maximum SoC error is below 2%. Which demonstrates that the HIF-UKF can be used to estimate the OCV and  SoC online.     Fig. 4. The estimated OCV from UDDS test     Fig. 5. The results of state estimation (a) SoC (b) SoC error  5. Conclusions  The battery OCV is of great importance for SoC estimation, which is commonly treated as the nonlinear function  of SoC through time costing offline OCV tests at certain aging stages. In this study, the OCV is regarded as part of  parameters set identified through HIF and propagated to state estimation process in the form of discrete OCV points  0 20 40 60 80 1002 2.5 3 3.5 4 SoC (%) O C V  (V )     OCV(estimated) OCV(experimental) 0 50 100 150 200 2500 20 40 60 80 100 Time(min) So C  (% ))     Reference SoC Estimated SoC 0 50 100 150 200 250-2 -1.5 -1 -0.5 0 Time(min) So C  e rr or (% ) a b 6 Author name / Energy Procedia 00 (2017) 000â€“000  other than the traditional function. In addition, the polarization voltage identified through HIF in parameters  identification process is also propagated to state estimation in the form of discrete data points other than estimated  again in state estimation process. The UDDS test is employed to evaluate the performance of the proposed method  and the SoC error can be controlled below 2%.   Due to the laboratory conditions and time constraints, there are a lot of work to be done in our future work, for  example, the effect of measurement noise to the OCV and SoC estimation should be considered.  Acknowledgements  This work was supported by the National Natural Science Foundation of China (Grant No. 51507012), Beijing  Nova Program (Grant No. Z171100001117063) and Joint Funds of the National Natural Science Foundation of China  (Grant No. U1564206). The systemic experiments of the lithium-ion batteries were performed at the Advanced Energy  Storage and Application (AESA) Group, Beijing Institute of Technology.  References  [1] Wang S, Shang L, Li Z, Deng H, Li J. Online dynamic equalization adjustment of high-power lithium-ion battery packs based on the  state of balance estimation. Appl Energy 2016;166:44â€“58.   [2] Xia B, Zhao X, de Callafon R, Garnier H, Nguyen T, Mi C. Accurate Lithium-ion battery parameter estimation with continuous-time  system identification methods. Appl Energy 2016;179:426â€“36.   [3] Klee Barillas J, Li J, GÃ¼nther C, Danzer MA. A comparative study and validation of state estimation algorithms for Li-ion batteries in  battery management systems. Appl Energy 2015;155:455â€“62.  [4] Hu Y, Yurkovich S, Guezennec Y, Yurkovich BJ. Electro-thermal battery model identification for automotive applications. J Power  Sources 2011;196:449â€“57.  [5] Zhao S, Duncan SR, Howey DA. Batteries in the Presence of Sensor Biases 2017;25:326â€“33.  [6] Zhang C, Wang LY, Li X, Chen W, Yin GG, Jiang J. Robust and Adaptive Estimation of State of Charge for Lithium-Ion Batteries. IEEE  Trans Ind Electron 2015;62:4948â€“57.  [7] Weng C, Sun J, Peng H. A unified open-circuit-voltage model of lithium-ion batteries for state-of-charge estimation and state-of-health  monitoring. J Power Sources 2014;258:228â€“37.   [8] Chen M, Member S, Rinc GA. Accurate Electrical Battery Model Capable of Predicting Runtime and I â€“ V Performance 2006;21:504â€“ 11.  [9] Barai A, Widanage WD, Marco J, Mcgordon A, Jennings P. A study of the open circuit voltage characterization technique and hysteresis  assessment of lithium-ion cells. J Power Sources 2015;295:99â€“107.   [10] Lavigne L, Sabatier J, Francisco JM, Guillemard F, Noury A. Lithium-ion Open Circuit Voltage (OCV) curve modelling and its ageing  adjustment. J Power Sources 2016;324:694â€“703.  [11]       Xiong R, Yu Q, Wang LY, Lin C. A novel method to obtain the open circuit voltage for the state of charge of lithium ion batteries in  electric vehicles by using H infinity filter. Appl Energy 2017. doi:10.1016/j.apenergy.2017.05.136       Rui Xiong  et al. / Energy Procedia 142 (2017) 1902â€“1907 1907  Author name / Energy Procedia 00 (2017) 000â€“000   5  4. Results and discussions  Fig. 4 shows the OCVs extracted from the estimation and experiment. The blue curve is the estimated OCV while  the red curve is the experimental OCV. It can be seen that the estimated OCV is very close to the experimental OCV  in the middle SoC region, which is the widely used in EVs. Noted that the estimated is not so smooth as the  experimental OCV caused by the strongly dynamic current rate employed in the battery.  Fig. 5 shows the results of the state estimation through HIF-UKF. Fig. 5a depicts the estimated SoC and reference  SoC, and the SoC error is illustrated in Fig. 5b. The estimated SoC converge to the reference SoC very quickly, and  the maximum SoC error is below 2%. Which demonstrates that the HIF-UKF can be used to estimate the OCV and  SoC online.     Fig. 4. The estimated OCV from UDDS test     Fig. 5. The results of state estimation (a) SoC (b) SoC error  5. Conclusions  The battery OCV is of great importance for SoC estimation, which is commonly treated as the nonlinear function  of SoC through time costing offline OCV tests at certain aging stages. In this study, the OCV is regarded as part of  parameters set identified through HIF and propagated to state estimation process in the form of discrete OCV points  0 20 40 60 80 1002 2.5 3 3.5 4 SoC (%) O C V  (V )     OCV(estimated) OCV(experimental) 0 50 100 150 200 2500 20 40 60 80 100 Time(min) So C  (% ))     Reference SoC Estimated SoC 0 50 100 150 200 250-2 -1.5 -1 -0.5 0 Time(min) So C  e rr or (% ) a b 6 Author name / Energy Procedia 00 (2017) 000â€“000  other than the traditional function. In addition, the polarization voltage identified through HIF in parameters  identification process is also propagated to state estimation in the form of discrete data points other than estimated  again in state estimation process. The UDDS test is employed to evaluate the performance of the proposed method  and the SoC error can be controlled below 2%.   Due to the laboratory conditions and time constraints, there are a lot of work to be done in our future work, for  example, the effect of measurement noise to the OCV and SoC estimation should be considered.  Acknowledgements  This work was supported by the National Natural Science Foundation of China (Grant No. 51507012), Beijing  Nova Program (Grant No. Z171100001117063) and Joint Funds of the National Natural Science Foundation of China  (Grant No. U1564206). The systemic experiments of the lithium-ion batteries were performed at the Advanced Energy  Storage and Application (AESA) Group, Beijing Institute of Technology.  References  [1] Wang S, Shang L, Li Z, Deng H, Li J. Online dynamic equalization adjustment of high-power lithium-ion battery packs based on the  state of balance estimation. Appl Energy 2016;166:44â€“58.   [2] Xia B, Zhao X, de Callafon R, Garnier H, Nguyen T, Mi C. Accurate Lithium-ion battery parameter estimation with continuous-time  system identification methods. Appl Energy 2016;179:426â€“36.   [3] Klee Barillas J, Li J, GÃ¼nther C, Danzer MA. A comparative study and validation of state estimation algorithms for Li-ion batteries in  battery management systems. Appl Energy 2015;155:455â€“62.  [4] Hu Y, Yurkovich S, Guezennec Y, Yurkovich BJ. Electro-thermal battery model identification for automotive applications. J Power  Sources 2011;196:449â€“57.  [5] Zhao S, Duncan SR, Howey DA. Batteries in the Presence of Sensor Biases 2017;25:326â€“33.  [6] Zhang C, Wang LY, Li X, Chen W, Yin GG, Jiang J. Robust and Adaptive Estimation of State of Charge for Lithium-Ion Batteries. IEEE  Trans Ind Electron 2015;62:4948â€“57.  [7] Weng C, Sun J, Peng H. A unified open-circuit-voltage model of lithium-ion batteries for state-of-charge estimation and state-of-health  monitoring. J Power Sources 2014;258:228â€“37.   [8] Chen M, Member S, Rinc GA. Accurate Electrical Battery Model Capable of Predicting Runtime and I â€“ V Performance 2006;21:504â€“ 11.  [9] Barai A, Widanage WD, Marco J, Mcgordon A, Jennings P. A study of the open circuit voltage characterization technique and hysteresis  assessment of lithium-ion cells. J Power Sources 2015;295:99â€“107.   [10] Lavigne L, Sabatier J, Francisco JM, Guillemard F, Noury A. Lithium-ion Open Circuit Voltage (OCV) curve modelling and its ageing  adjustment. J Power Sources 2016;324:694â€“703.  [11]       Xiong R, Yu Q, Wang LY, Lin C. A novel method to obtain the open circuit voltage for the state of charge of lithium ion batteries in  electric vehicles by using H infinity filter. Appl Energy 2017. doi:10.1016/j.apenergy.2017.05.136      g. 5a depicts the estimated SoC and reference  SoC, and the SoC error is illustrated in Fig. 5b. The estimated SoC converge to the reference SoC very quickly, and  the maximum SoC error is below 2%. Which demonstrates that the HIF-UKF can be used to estimate the OCV and  SoC online.     Fig. 4. The estimated OCV from UDDS test     Fig. 5. The results of state estimation (a) SoC (b) SoC error  5. Conclusions  The battery OCV is of great importance for SoC estimation, which is commonly treated as the nonlinear function  of SoC through time costing offline OCV tests at certain aging stages. In this study, the OCV is regarded as part of  parameters set identified through HIF and propagated to state estimation process in the form of discrete OCV points  0 20 40 60 80 1002 2.5 3 3.5 4 SoC (%) O C V  (V )     OCV(estimated) OCV(experimental) 0 50 100 150 200 2500 20 40 60 80 100 Time(min) So C  (% ))     Reference SoC Estimated SoC 0 50 100 150 200 250-2 -1.5 -1 -0.5 0 Time(min) So C  e rr or (% ) a b 6 Author name / Energy Procedia 00 (2017) 000â€“000  other than the traditional function. In addition, the polarization voltage identified through HIF in parameters  identification process is also propagated to state estimation in the form of discrete data points other than estimated  again in state estimation process. The UDDS test is employed to evaluate the performance of the proposed method  and the SoC error can be controlled below 2%.   Due to the laboratory conditions and time constraints, there are a lot of work to be done in our future work, for  example, the effect of measurement noise to the OCV and SoC estimation should be considered.  Acknowledgements  This work was supported by the National Natural Science Foundation of China (Grant No. 51507012), Beijing  Nova Program (Grant No. Z171100001117063) and Joint Funds of the National Natural Science Foundation of China  (Grant No. U1564206). The systemic experiments of the lithium-ion batteries were performed at the Advanced Energy  Storage and Application (AESA) Group, Beijing Institute of Technology.  References  [1] Wang S, Shang L, Li Z, Deng H, Li J. Online dynamic equalization adjustment of high-power lithium-ion battery pack</xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.5" xml:lang="en" docsubtype="fla">
+         <item-info>
+            <jid>EGYPRO</jid>
+            <aid>33969</aid>
+            <ce:pii>S1876-6102(17)36136-2</ce:pii>
+            <ce:doi>10.1016/j.egypro.2017.12.388</ce:doi>
+            <ce:copyright type="unknown" year="2018"/>
+         </item-info>
+         <head>
+            <ce:title id="tte0001">Open circuit voltage and state of charge online estimation for lithium ion batteries</ce:title>
+            <ce:author-group id="aug0001">
+               <ce:author id="au0184" author-id="S1876610217361362-3c70ceda1b544bd8d150712f7405e835">
+                  <ce:given-name>Rui</ce:given-name>
+                  <ce:surname>Xiong</ce:surname>
+                  <ce:cross-ref id="cecref0194" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:author id="au0185" author-id="S1876610217361362-e2c4cd0414cf1b94da4fcbacb298e689">
+                  <ce:given-name>Quanqing</ce:given-name>
+                  <ce:surname>Yu</ce:surname>
+                  <ce:cross-ref id="cecref0195" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="cecref0196" refid="aff0002">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0186" author-id="S1876610217361362-1e4892674c968d286b81d93ccf3fec9c">
+                  <ce:given-name>Le Yi</ce:given-name>
+                  <ce:surname>Wang</ce:surname>
+                  <ce:cross-ref id="cecref0197" refid="aff0002">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:affiliation id="aff0001" affiliation-id="S1876610217361362-779fefd42101bf2d5b273705294cb131">
+                  <ce:label>a</ce:label>
+                  <ce:textfn id="cetextfn0001">Collaborative Innovation Center of Electric Vehicles in Beijing, Beijing Institute of Technology, Beijing 100081, China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Collaborative Innovation Center of Electric Vehicles in Beijing</sa:organization>
+                     <sa:organization>Beijing Institute of Technology</sa:organization>
+                     <sa:city>Beijing</sa:city>
+                     <sa:postal-code>100081</sa:postal-code>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff0002" affiliation-id="S1876610217361362-3e14e3d6df62e3b48a47e3b09a257e69">
+                  <ce:label>b</ce:label>
+                  <ce:textfn id="cetextfn0002">Department of Electrical and Computer Engineering, Wayne State University, Detroit, Michigan 48202, USA</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Electrical and Computer Engineering</sa:organization>
+                     <sa:organization>Wayne State University</sa:organization>
+                     <sa:city>Detroit</sa:city>
+                     <sa:state>Michigan</sa:state>
+                     <sa:postal-code>48202</sa:postal-code>
+                     <sa:country>USA</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+            </ce:author-group>
+            <ce:abstract id="abs0001" view="all" class="author"><ce:abstract-sec id="abss0001" view="all">
+                  <ce:simple-para id="spara0049" view="all">Open circuit voltage (OCV), as a nonlinear function of state of charge (SoC) of lithium ion battery, commonly obtained through offline OCV test at certain ambient temperatures and aging stages. The OCV-SoC relationship may be inaccurate in real application due to the difference in operation conditions. In this paper, the OCV is identified by H infinity filter (HIF) in real operation conditions. Due to the no need to derive the jacobian matrices with unscented Kalman filter (UKF), the identified discrete OCV points are propagated to state estimation process instead of the traditional OCV-SoC nonlinear function. Additionally, the polarization voltage across the polarization capacitor is also passed to state estimation in the form of discrete data points. The experimental results demonstrate that the HIF-UKF can obtain the OCV and SoC in real time.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="keys0001" view="all" class="keyword">
+               <ce:section-title id="cesectitle0002">Keywords</ce:section-title>
+               <ce:keyword id="key0204">
+                  <ce:text id="cetext0204">Type your keywords here</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0205">
+                  <ce:text id="cetext0205">separated by semicolons</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0206">
+                  <ce:text id="cetext0206">Open circuit voltage</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0207">
+                  <ce:text id="cetext0207">state of chage</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0208">
+                  <ce:text id="cetext0208">Adaptive H infinity filter</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0209">
+                  <ce:text id="cetext0209">Adaptive unscented kalman filter</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <tail view="all">
+            <ce:bibliography id="cebibsec1" view="all">
+               <ce:section-title id="cesectitle0003">References</ce:section-title>
+               <ce:bibliography-sec id="cebibsec2" view="all">
+                  <ce:bib-reference id="bib0001">
+                     <ce:label>1</ce:label>
+                     <sb:reference id="sbref0001">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Shang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H</ce:given-name>
+                                 <ce:surname>Deng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Online dynamic equalization adjustment of high-power lithium-ion battery packs based on the state of balance estimation</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>166</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>44</sb:first-page>
+                              <sb:last-page>58</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0002">
+                     <ce:label>2</ce:label>
+                     <sb:reference id="sbref0002">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>B</ce:given-name>
+                                 <ce:surname>Xia</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R</ce:given-name>
+                                 <ce:surname>de Callafon</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H</ce:given-name>
+                                 <ce:surname>Garnier</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Nguyen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C</ce:given-name>
+                                 <ce:surname>Mi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Accurate Lithium-ion battery parameter estimation with continuous-time system identification methods</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>179</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>426</sb:first-page>
+                              <sb:last-page>436</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0003">
+                     <ce:label>3</ce:label>
+                     <sb:reference id="sbref0003">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Klee Barillas</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C</ce:given-name>
+                                 <ce:surname>Günther</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>MA</ce:given-name>
+                                 <ce:surname>Danzer</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A comparative study and validation of state estimation algorithms for Li-ion batteries in battery management systems</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>155</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>455</sb:first-page>
+                              <sb:last-page>462</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0004">
+                     <ce:label>4</ce:label>
+                     <sb:reference id="sbref0004">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Hu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Yurkovich</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Guezennec</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>BJ</ce:given-name>
+                                 <ce:surname>Yurkovich</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Electro-thermal battery model identification for automotive applications</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>196</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>449</sb:first-page>
+                              <sb:last-page>457</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0005">
+                     <ce:label>5</ce:label>
+                     <sb:reference id="sbref0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>SR</ce:given-name>
+                                 <ce:surname>Duncan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>DA</ce:given-name>
+                                 <ce:surname>Howey</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Batteries in the Presence of Sensor Biases</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>25</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>326</sb:first-page>
+                              <sb:last-page>333</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0006">
+                     <ce:label>6</ce:label>
+                     <sb:reference id="sbref0006">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>LY</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>GG</ce:given-name>
+                                 <ce:surname>Yin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Jiang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Robust and Adaptive Estimation of State of Charge for Lithium-Ion Batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Trans Ind Electron</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>62</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4948</sb:first-page>
+                              <sb:last-page>4957</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0007">
+                     <ce:label>7</ce:label>
+                     <sb:reference id="sbref0007">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C</ce:given-name>
+                                 <ce:surname>Weng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Sun</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H</ce:given-name>
+                                 <ce:surname>Peng</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A unified open-circuit-voltage model of lithium-ion batteries for state-of-charge estimation and state-of-health monitoring</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>258</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>228</sb:first-page>
+                              <sb:last-page>237</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0008">
+                     <ce:label>8</ce:label>
+                     <sb:reference id="sbref0008">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Member</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>GA</ce:given-name>
+                                 <ce:surname>Rinc</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Accurate Electrical Battery Model Capable of Predicting Runtime and I – V Performance</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>21</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>504</sb:first-page>
+                              <sb:last-page>511</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0009">
+                     <ce:label>9</ce:label>
+                     <sb:reference id="sbref0009">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Barai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>WD</ce:given-name>
+                                 <ce:surname>Widanage</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Marco</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Mcgordon</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P</ce:given-name>
+                                 <ce:surname>Jennings</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A study of the open circuit voltage characterization technique and hysteresis assessment of lithium-ion cells</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>295</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>99</sb:first-page>
+                              <sb:last-page>107</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00010">
+                     <ce:label>10</ce:label>
+                     <sb:reference id="sbref00010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Lavigne</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Sabatier</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JM</ce:given-name>
+                                 <ce:surname>Francisco</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F</ce:given-name>
+                                 <ce:surname>Guillemard</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Noury</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Lithium-ion Open Circuit Voltage (OCV) curve modelling and its ageing adjustment</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>324</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>694</sb:first-page>
+                              <sb:last-page>703</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00011">
+                     <ce:label>11</ce:label>
+                     <ce:other-ref id="oref00011">
+                        <ce:textref>Xiong R, Yu Q, Wang LY, Lin C. A novel method to obtain the open circuit voltage for the state of charge of lithium ion batteries in electric vehicles by using H infinity filter. Appl Energy 2017. doi:10.1016/j.apenergy.2017.05.136.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

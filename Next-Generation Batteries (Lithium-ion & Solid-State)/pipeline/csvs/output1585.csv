@@ -1,0 +1,306 @@
+UTD_EID,UCS_Locator,Filename,Caption,link,stage1_hit,stage1_keywords,stage2_ocr_status,stage2_ocr_text,stage2_keywords,stage2_hit
+1-s2.0-S2352484723014610-gr1.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/gr1/DOWNSAMPLED/image/jpeg/16d97b1cfe5d7396897d99d1e98bae02/gr1.jpg,gr1.jpg,"SDM concept and calibration. (a) A stable DC source is combined with a sensitive micro-ammeter measuring the current IMeas across the output resistor Rout. The LIB is represented by the cell internal series resistance Rser, the effective cell capacitance Ceff, and a parallel resistor RSD representing self-discharge. The cell open circuit voltage is denoted by Vcell and the internal self-discharge current by ISD. The wire resistance Rwire connecting the SDM setup to the LIB is effectively removed in a correction process. (b) Calibration and correction of Rwire. Comparison of raw (blue) and corrected (red) self-discharge currents measured with two cells (NMC8711, 21700) at 70% SoC and at 20 °C.",https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-gr1_lrg.jpg,1,"voltage, current, discharge",2.0,"Measurement plane
+
+Removed by
+wire (<5Q)
+
+calibration —*
+
+Accurate
+and stable
+DC source
+(matching
+
+Vee aS Close
+
+as possible)
+
+ 
+
+(b)
+
+Self-discharge current [yA]
+
+20
+
+15
+
+10
+
+ 
+
+ 
+
+R
+
+ 
+
+ 
+
+R wire 2
+
+   
+
+=1.190|
+
+ 
+
+—Cell 1 (raw)
+—Cell 2 (raw)
+
+ 
+
+(
+—Cell 1 (calibrated)
+—Cell 2 (caibrated) |
+
+ 
+
+ 
+
+8 10 12 14
+Time [hour]
+
+16
+
+ 
+
+18
+","current, discharge",1.0
+1-s2.0-S2352484723014610-gr4.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/gr4/DOWNSAMPLED/image/jpeg/9f780ae5dc0f95831dbd76866c25c0dd/gr4.jpg,gr4.jpg,"Combined electrochemical, temperature, and electric circuitry modelling of SDM. Left: The 1D Newman model describes the electrochemistry of the anode, cathode, and electrolyte/separator at the electrode interface, and the self-discharge Arrhenius kinetics at the anode. Middle: Self-discharge electrical circuit model (ECM) combined with the 1D Newman model. Right: Heat generated from electrochemical reactions in the 1D Newman model are coupled with a 3D FEM temperature model, including laminar flow cooling. The relations between the 1D Newman model, the self-discharge, and the 3D temperature model are illustrated by arrows with the physical parameters. Heat, voltage, and current are outputs of the 1D Newman model, and temperature and voltage are the inputs.",https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-gr4_lrg.jpg,1,"voltage, current, discharge",2.0,"(a)
+
+Temperature [°C]
+
+40
+
+3.7896
+
+ 
+
+ 
+
+ 
+
+ 
+
+80
+Time [Hours]
+
+ 
+
+120
+
+3.7892
+3.7888
+3.7884
+
+3.7880
+160
+
+Voltage [V]
+
+TCV [UV/K]
+
+ 
+
+20
+
+ 
+
+ 
+
+ 
+
+—— Model database
+
+ 
+
+40 60 80 100
+SoC %
+",voltage,1.0
+1-s2.0-S2352484723014610-gr5.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/gr5/DOWNSAMPLED/image/jpeg/a9b4b647c8ae062ca783e7cdd584d8c7/gr5.jpg,gr5.jpg,"SDM results of the 21 cells acquired in the 6 × 6 fixture. a) The SDM fixture for electrically contacting 6 × 6 LIB 21700-NMC cells, mounted in a temperature-controlled chamber. b) Measured current versus time for 21 cells (NMC811, 21700) installed in the 6 × 6 fixture. The cells are measured at 30% SoC and at a temperature of 23 °C with an experiment duration of 15 h. The data range used to estimate the self-discharge current ISD are indicated with a bar. c) Relation between SDM output resistance (Rout) and measured current. The reduction in the SDM time constant with lower Rout set values is indicated by an arrow. d) The root-mean-square (RMS) error of the current noise as a function of 1/Rout.",https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-gr5_lrg.jpg,1,"current, discharge",2.0,"Self-discharge current [UA]
+
+Self-discharge current [yA]
+
+0 4 8
+Time [Hour]
+
+—— SDM at 20°C
+
+70 = FEM at 20°C
+
+60
+
+SDM at 25°C
+FEM at 25°C
+—— SDM at 30°C
+
+50 +—— FEM at 30°C
+
+40
+
+-4---------7---F -@-- ----------
+
+Time [Hour]
+
+12
+
+ 
+
+(b)
+
+(d)
+
+150, — 40°C
+— 20°C
+
+120
+
+Self-discharge current [yA]
+
+ 
+
+Time [Hour]
+
+10°
+
+10°
+
+ 
+
+Rgp [Q]
+
+B Rg
+—— Arrhenius (aE,,, = 0.94 + 0.14 [eV])
+
+ 
+
+104
+3.20 3.30 3.40 3.50
+
+1000 K/ T
+","current, discharge",1.0
+1-s2.0-S2352484723014610-gr2.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/gr2/DOWNSAMPLED/image/jpeg/f82a820c57741421a32f50b2f1ce2562/gr2.jpg,gr2.jpg,"TCV as a function of SoC. a) The applied temperature profile (black) and the corresponding voltage response (red). Three temperature steps were considered with positive and negative polarities. b) Experimental TCV versus SoC (box plots, blue) compared to the database values used in the Comsol modelling package. The box plot shows the mean value, and the error bars represent the minimum and maximum values obtained from the three temperature steps.",https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-gr2_lrg.jpg,1,"voltage, plot",0.0,"eee Temperature =— ~~~ ---------5
+Positive electrodet Electrolyte/Separator Negative electrode+
+
+aes
+ot
+183 um 100 pm
+
+NMC811 Graphite
+
+{iz}
+
+ 
+
+Heat Transfer
+Laminar Flow
+3D Model
+
+Chemical Heat
+
+( Resistive Heat
+
+   
+
+‘3
+
+   
+
+Meas
+Phase 1?: OCs _ d%cs , 2acs i, =—oV-i
+[Electrodes] dt S}ar2 rérj’ + 2
+Arrhenius I = _—_Jire
+kinetics (Anode) SP.26 exp (ls) + Qseric
+
+ 
+
+ac ive FEM
+Phase 2*: es = V- (DVc) — + aj,(1 — th)
+
+[Electrolyte, d F
+
+ 
+
+ip = KV, +
+
+Separator] 2KRT (: + dln fz
+
+_ 40
+AInc ) (1 —t,)VInc
+
+  
+",,0.0
+1-s2.0-S2352484723014610-gr3.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/gr3/DOWNSAMPLED/image/jpeg/e91d349f2bc66e69a1112e83d407eb7c/gr3.jpg,gr3.jpg,"Temperature dependent SDM curves. a) Self-discharge current profiles of a single cell at 70% SoC measured at five temperatures. b) Self-discharge current of 12 cells at 70% SoC and at two temperatures, 20 °C and 40 °C. c) The measured self-discharge curves are shown for three temperatures (20 °C, 25 °C, and 30 °C) overlaid with the FEM simulation results. c) Arrhenius plot from the SDM data of 12 cells at 5 temperatures.",https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-gr3_lrg.jpg,1,"current, discharge, plot",2.0,"(a)
+
+ 
+
+Self-discharge current [yA]
+
+Time [hour]
+
+T, = 4 hour
+
+Tp = 6 hour
+
+T, = 11 hour
+
+ 
+
+Self-discharge current [yA]
+
+—_
+T
+
+0
+(d)
+<x
+3
+S
+©
+w”
+>
+ir
+
+ 
+
+Oo wo fF a OD
+
+ 
+
+Batch 1
+
+ 
+
+  
+
+ 
+
+ 
+
+0305 1 2
+1/Ro, [1/2]
+
+ 
+","current, discharge",1.0
+1-s2.0-S2352484723014610-gr1.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/gr1/THUMBNAIL/image/gif/0aad0f96c4b43406b4e5694d9cb0fff9/gr1.sml,gr1.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-gr1.sml,0,,,,,
+1-s2.0-S2352484723014610-gr4.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/gr4/THUMBNAIL/image/gif/38d7f2a4bb4d870e138484e4631eb338/gr4.sml,gr4.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-gr4.sml,0,,,,,
+1-s2.0-S2352484723014610-gr5.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/gr5/THUMBNAIL/image/gif/9770ab333c674719b6076beffdf86b86/gr5.sml,gr5.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-gr5.sml,0,,,,,
+1-s2.0-S2352484723014610-gr2.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/gr2/THUMBNAIL/image/gif/9739c097c35ecb7e0f93be264f672937/gr2.sml,gr2.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-gr2.sml,0,,,,,
+1-s2.0-S2352484723014610-gr3.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/gr3/THUMBNAIL/image/gif/51eb52a6496f0634ae352e01c8d7d2e3/gr3.sml,gr3.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-gr3.sml,0,,,,,
+1-s2.0-S2352484723014610-gr1_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/HIGHRES/image/jpeg/b63fde0aa55c210671497d4b9e55cc7f/gr1_lrg.jpg,gr1_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-gr1_lrg_lrg.jpg,0,,,,,
+1-s2.0-S2352484723014610-gr4_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/HIGHRES/image/jpeg/86cc1fc3cfc1f2007916ab814fd6fcba/gr4_lrg.jpg,gr4_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-gr4_lrg_lrg.jpg,0,,,,,
+1-s2.0-S2352484723014610-gr5_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/HIGHRES/image/jpeg/d761d7a1b2cca6a456e1adb669c26a00/gr5_lrg.jpg,gr5_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-gr5_lrg_lrg.jpg,0,,,,,
+1-s2.0-S2352484723014610-gr2_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/HIGHRES/image/jpeg/7bff19121ad299263cf5026647491f55/gr2_lrg.jpg,gr2_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-gr2_lrg_lrg.jpg,0,,,,,
+1-s2.0-S2352484723014610-gr3_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/HIGHRES/image/jpeg/93d2d9898797b43d622c84454744261c/gr3_lrg.jpg,gr3_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-gr3_lrg_lrg.jpg,0,,,,,
+1-s2.0-S2352484723014610-si0001.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/image/svg+xml/2582bd8af5e75a44d982bbb23fbdf83c/si0001.svg,si0001.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-si0001.svg,0,,,,,
+1-s2.0-S2352484723014610-si0002.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/image/svg+xml/697788fd759f390e2314d09b8e2ac91d/si0002.svg,si0002.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-si0002.svg,0,,,,,
+1-s2.0-S2352484723014610-si0003.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/image/svg+xml/aca7efc5b7930cd415270eb8d7e99302/si0003.svg,si0003.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-si0003.svg,0,,,,,
+1-s2.0-S2352484723014610-si0004.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/image/svg+xml/fba4b327d0a1407d8929db6f2438eadf/si0004.svg,si0004.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-si0004.svg,0,,,,,
+1-s2.0-S2352484723014610-si0005.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/image/svg+xml/075bf65543825831ac4fe744f2a9e588/si0005.svg,si0005.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-si0005.svg,0,,,,,
+1-s2.0-S2352484723014610-si0006.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/image/svg+xml/d569e5acf9e1db50d22e08037cb1e911/si0006.svg,si0006.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-si0006.svg,0,,,,,
+1-s2.0-S2352484723014610-si0007.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/image/svg+xml/b33fbc550e2a70118736f29b922ec12d/si0007.svg,si0007.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-si0007.svg,0,,,,,
+1-s2.0-S2352484723014610-si0008.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/image/svg+xml/14c15a6dab6fe359a4e87addb2002554/si0008.svg,si0008.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-si0008.svg,0,,,,,
+1-s2.0-S2352484723014610-si0009.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/image/svg+xml/6b82194a74acee4ad0c2136a5684b327/si0009.svg,si0009.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-si0009.svg,0,,,,,
+1-s2.0-S2352484723014610-si0010.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484723014610/image/svg+xml/1f0b6267f307534e7f6a84a34aa223b1/si0010.svg,si0010.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-si0010.svg,0,,,,,
+1-s2.0-S2352484723014610-am.pdf,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10SKNH3ST6W/MAIN/application/pdf/7df4c15d49bceb4c960b238fd668ea36/am.pdf,am.pdf,,https://ars.els-cdn.com/content/image/1-s2.0-S2352484723014610-am.pdf,0,,,,,

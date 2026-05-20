@@ -1,0 +1,1394 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S2212827122002645</prism:url><dc:identifier>doi:10.1016/j.procir.2022.04.048</dc:identifier><eid>1-s2.0-S2212827122002645</eid><prism:doi>10.1016/j.procir.2022.04.048</prism:doi><pii>S2212-8271(22)00264-5</pii><dc:title>In-line Sensor-based Process Control of the Calendering Process for Lithium-Ion Batteries </dc:title><prism:publicationName>Procedia CIRP</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>22128271</prism:issn><prism:volume>107</prism:volume><prism:startingPage>295</prism:startingPage><prism:endingPage>301</prism:endingPage><prism:pageRange>295-301</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2022-12-31</prism:coverDate><prism:coverDisplayDate>2022</prism:coverDisplayDate><prism:copyright>© 2022 The Author(s). Published by Elsevier B.V.</prism:copyright><prism:publisher>The Author(s). Published by Elsevier B.V.</prism:publisher><prism:issueName>Leading manufacturing systems transformation – Proceedings of the 55th CIRP Conference on Manufacturing Systems 2022</prism:issueName><dc:creator>Mayr, Andreas</dc:creator><dc:creator>Schreiner, David</dc:creator><dc:creator>Stumper, Benedikt</dc:creator><dc:creator>Daub, Rüdiger</dc:creator><dc:description>
+                  The calendering process is the final property-defining step in the manufacturing of electrodes for lithium-ion batteries. Calendering significantly affects mechanical properties by compacting the electrodes and increases the lithium-ion batteries’ volumetric energy density. The choice of calendering parameters is primarily based on empirical data, considering the final battery cell properties. The drive for increased energy densities and the corresponding high compaction rates results in an increased electrode defect and scrap occurrence. This leads to challenges in process control which are addressed in this paper by developing an agile and predictive sensor-based process control. Hereby an efficient determination of process parameters is enabled, resulting in a reduction of scrap and manufacturing costs. Applying in-line data acquisition for electrode thickness and surface topography allows real-time feedback of measurement data at the machine-product interface back into the calendering system control. Reliable data acquisition is established by integrating two sensor systems for coating thickness measurement (confocal sensors) and defect detection (laser triangulation sensor) in a cascaded arrangement, enabling real-time evaluation of the product properties achieved as a function of the process parameters. The associated potentials and challenges regarding a predictive analysis of machine and product behavior are addressed in this context. The experimental results demonstrate that the combination of both sensor systems offers the potential to establish an agile and innovative process control for the calendering process of lithium-ion batteries.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>ElsevierWaived</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>lithium-ion battery</dcterms:subject><dcterms:subject>electrode production</dcterms:subject><dcterms:subject>calendering</dcterms:subject><dcterms:subject>sensor integration</dcterms:subject><dcterms:subject>process control</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S2212827122002645" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S2212827122002645" rel="scidir"/></coredata><objects><object ref="am" category="standard" type="AAM-PDF" multimediatype="Acrobat PDF file" mimetype="application/pdf" size="10058521">https://api.elsevier.com/content/object/eid/1-s2.0-S2212827122002645-am.pdf?httpAccept=%2A%2F%2A</object></objects><scopus-id>85132294808</scopus-id><scopus-eid>2-s2.0-85132294808</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85132294808" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>282173</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291885</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Procedia CIRP</xocs:srctitle>
+      <xocs:normalized-srctitle>PROCEDIACIRP</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20220526">2022-05-26</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20220526">2022-05-26</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20220526">2022-05-26</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20220526">2022-05-26</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2024-09-02T07:58:48</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S2212827122002645</xocs:eid>
+      <xocs:pii-formatted>S2212-8271(22)00264-5</xocs:pii-formatted>
+      <xocs:pii-unformatted>S2212827122002645</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.procir.2022.04.048</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.9</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S2212827122X00048</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20240902">2024-09-02T07:54:19.891619Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20220101</xocs:date-search-begin>
+      <xocs:date-search-end>20221231</xocs:date-search-end>
+      <xocs:year-nav>2022</xocs:year-nav>
+      <xocs:indexeddate epoch="1653588027">2022-05-26T18:00:27.126657Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids confeditor contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content oa subj suppl tomb vol volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authkeywords authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>2212-8271</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>22128271</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>107</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>107</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 107</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>51</xocs:sort-order>
+      <xocs:first-fp>295</xocs:first-fp>
+      <xocs:last-lp>301</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>295</xocs:first-page>
+         <xocs:last-page>301</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>2022</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>2022</xocs:cover-date-text>
+      <xocs:cover-date-start>2022-01-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2022-12-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2022</xocs:cover-date-year>
+      <xocs:title-editors-groups>
+         <xocs:title-editors-group>
+            <ce:title id="tt001">Leading manufacturing systems transformation – Proceedings of the 55th CIRP Conference on Manufacturing Systems 2022</ce:title>
+            <ce:editors>
+               <ce:author-group id="aag001">
+                  <ce:author author-id="S2212827122X00048-d355eb5f6d052bb4a578e18a9766838f" id="aa002">
+                     <ce:given-name>Emanuele</ce:given-name>
+                     <ce:surname>Carpanzano</ce:surname>
+                     <ce:degrees>Dr.</ce:degrees>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group id="aag002">
+                  <ce:author author-id="S2212827122X00048-659d6ff4d44f8e6f4980307526b6f974" id="aa003">
+                     <ce:given-name>Claudio</ce:given-name>
+                     <ce:surname>Boër</ce:surname>
+                     <ce:degrees>Dr.</ce:degrees>
+                  </ce:author>
+               </ce:author-group>
+               <ce:author-group id="aag003">
+                  <ce:author author-id="S2212827122X00048-44bd7caf24294a7d9535c35e1391bc69" id="aa004">
+                     <ce:given-name>Anna</ce:given-name>
+                     <ce:surname>Valente</ce:surname>
+                     <ce:degrees>Dr.</ce:degrees>
+                  </ce:author>
+               </ce:author-group>
+            </ce:editors>
+         </xocs:title-editors-group>
+      </xocs:title-editors-groups>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>© 2022 The Author(s). Published by Elsevier B.V.</xocs:copyright-line>
+      <xocs:normalized-article-title>INLINESENSORBASEDPROCESSCONTROLCALENDERINGPROCESSFORLITHIUMIONBATTERIES</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>MAYR</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>A</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="oref0001"/>
+         <xocs:ref-info refid="sbref0002">
+            <xocs:ref-normalized-surname>DINCER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>I</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>CAUSESIMPACTSSOLUTIONSGLOBALWARMING</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0003">
+            <xocs:ref-normalized-surname>KWADE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>290</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0004">
+            <xocs:ref-normalized-surname>MEYER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>371</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0005">
+            <xocs:ref-normalized-surname>GUNTHER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>304</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0006">
+            <xocs:ref-normalized-surname>GUNTHER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0007">
+            <xocs:ref-normalized-surname>WESTERMEIER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>13</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0008">
+            <xocs:ref-normalized-surname>STEIN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>A1616</xocs:ref-first-fp>
+            <xocs:ref-last-lp>A1627</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0009">
+            <xocs:ref-normalized-surname>SCHREINER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00010">
+            <xocs:ref-normalized-surname>MEYER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>172</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="oref00011"/>
+         <xocs:ref-info refid="oref00012"/>
+         <xocs:ref-info refid="sbref00013">
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-normalized-srctitle>LITHIUMIONBATTERYMATERIALSENGINEERING</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="oref00014"/>
+         <xocs:ref-info refid="sbref00015">
+            <xocs:ref-normalized-surname>HASELRIEDER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>59</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00016">
+            <xocs:ref-normalized-surname>LENZE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>A314</xocs:ref-first-fp>
+            <xocs:ref-last-lp>A322</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00017">
+            <xocs:ref-normalized-surname>HABEDANK</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2769</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00018">
+            <xocs:ref-normalized-surname>BOLD</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>571</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>B</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00019">
+            <xocs:ref-normalized-surname>MAYER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2009</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00020">
+            <xocs:ref-normalized-surname>MEYER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="oref00021"/>
+         <xocs:ref-info refid="sbref00022">
+            <xocs:ref-normalized-surname>PRIMO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-first-fp>834</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>E</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00023">
+            <xocs:ref-normalized-surname>BILLOT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00024">
+            <xocs:ref-normalized-surname>NGANDJONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00025">
+            <xocs:ref-normalized-surname>SANGROSGIMENEZ</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00026">
+            <xocs:ref-normalized-surname>DUQUESNOY</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00027">
+            <xocs:ref-normalized-surname>SCHREINER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-first-fp>149</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00028">
+            <xocs:ref-normalized-surname>SCHREINER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-first-fp>91</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="oref00029"/>
+         <xocs:ref-info refid="oref00030"/>
+         <xocs:ref-info refid="oref00031"/>
+         <xocs:ref-info refid="sbref00032">
+            <xocs:ref-normalized-surname>SCHAFER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>111</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00033">
+            <xocs:ref-normalized-surname>TEUFL</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>A2718</xocs:ref-first-fp>
+            <xocs:ref-last-lp>A2731</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="oref00034"/>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>MAYRX2022X295</xocs:refkey3>
+         <xocs:refkey4lp>MAYRX2022X295X301</xocs:refkey4lp>
+         <xocs:refkey4ai>MAYRX2022X295XA</xocs:refkey4ai>
+         <xocs:refkey5>MAYRX2022X295X301XA</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2022-05-01T00:12:34Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>ElsevierWaived</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/PROC_UNBOUNDED_ESWaived">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY-NC-ND license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2022 The Author(s). Published by Elsevier B.V.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:funding-list has-funding-info="1">
+         <xocs:funding-addon-generated-timestamp>2022-06-25T02:52:23.871Z</xocs:funding-addon-generated-timestamp>
+         <xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined</xocs:funding-addon-type>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>German Federal Ministry of Education and Research BMBF</xocs:funding-agency-matched-string>
+            <xocs:funding-id>03XP0081</xocs:funding-id>
+            <xocs:funding-id>03XP0240C</xocs:funding-id>
+            <xocs:funding-id>03XP0348B</xocs:funding-id>
+            <xocs:funding-agency-acronym>BMBF</xocs:funding-agency-acronym>
+            <xocs:funding-agency>Bundesministerium für Bildung und Forschung</xocs:funding-agency>
+            <xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100002347</xocs:funding-agency-id>
+            <xocs:funding-agency-country>http://sws.geonames.org/2921044/</xocs:funding-agency-country>
+         </xocs:funding>
+         <xocs:funding-text>The authors gratefully acknowledge funding from the German Federal Ministry of Education and Research (BMBF) within the projects InteKal (grant number 03XP0348B), MiKal (grant number 03XP0240C), and ExZellTUM II (grant number 03XP0081). Many thanks to Michael Schüßler and Moritz Kupec for the support and fundamental work regarding sensor integration and data processing during experimental sessions. Special thanks to Fabian Konwitschny for the valuable discussion and proofreading of the manuscript.</xocs:funding-text>
+         <xocs:funding-text>The authors gratefully acknowledge funding from the German Federal Ministry of Education and Research BMBF within the projects InteKal grant number 03;P0348B , MiKal grant number 03;P0240C , and Ex=ellTUM II grant number 03;P0081 . Many thanks to Michael Schü‰ler and Moritz Kupec for the support and fundamental work regarding sensor integration and data processing during experimental sessions. Special thanks to Fabian Konwitschny for the valuable discussion and proofreading of the manuscript.</xocs:funding-text>
+      </xocs:funding-list>
+      <xocs:article-sharing-framework/>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S2212-8271(22)00264-5</xocs:pii-formatted>
+         <xocs:pii-unformatted>S2212827122002645</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S2212827122002645</xocs:eid>
+         <xocs:doi>10.1016/j.procir.2022.04.048</xocs:doi>
+         <xocs:cid>282173</xocs:cid>
+         <xocs:timestamp>2024-09-02T07:54:19.891619Z</xocs:timestamp>
+         <xocs:cover-date-start>2022-01-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2022-12-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S2212827122002645-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2212827122002645/MAIN/application/pdf/9d5eabb3a275fa5ae6d53c070658d336/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>2324807</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>7</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S2212827122002645-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2212827122002645/PREVIEW/image/png/81f062b799a569fef33708c027d59420/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>67574</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2212827122002645-am.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10Q7SD6NDF9/MAIN/application/pdf/28e8db277d48f64e0a9e1baae0ecbb37/am.pdf</xocs:ucs-locator>
+               <xocs:file-basename>am</xocs:file-basename>
+               <xocs:filename>am.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>false</xocs:pdf-optimized>
+               <xocs:filesize>10058521</xocs:filesize>
+               <xocs:attachment-type>AAM-PDF</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">ScienceDirect Available online at www.sciencedirect.com www.elsevier.com/locate/procedia  Procedia CIRP 107 (2022) 295â€“301 2212-8271 Â© 2022 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0) Peer-review under responsibility of the International Programme committee of the 55th CIRP Conference on Manufacturing Systems 10.1016/j.procir.2022.04.048 Â© 2022 The Authors. Published by Elsevier B.V.  This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0) Peer-review under responsibility of the International Programme committee of the 55th CIRP Conference on Manufacturing Systems Keywords: lithium-ion battery, electrode production, calendering, sensor integration, process control  1. Introduction   More than 80 % of the energy consumed worldwide is  generated from fossil fuels [1], which are one of the main  contributors to greenhouse gas emissions and thus lead to  global warming [2]. Lithium-ion battery (LIB) technology  enables off-grid storage of renewable energy in addition to  representing a central component for the successful transition  from fossil fuel-powered vehicles to electric-powered means of  transportation. The application of high-performance and cost- efficient LIBs in the automotive sector reduces CO2 and NOx emissions [3]. The resulting growing demand for LIBs (with  high requirements for energy and power density [3, 4]) results  in challenges regarding the manufacturing processes in battery  production.  The manufacturing process of LIBs consists of highly  interlinked production steps, divided into electrode  manufacturing and cell assembly [5]. To achieve a high market  penetration of electric vehicles, a decrease in manufacturing  costs â€“ primarily dominated by high rejection rates due to  scrap â€“ is essential [6, 7]. An in-depth analysis and optimization  of individual electrode manufacturing processes, in addition to the materials used, is one of the main levers for improving the electrochemical properties of LIBs, e.g., energy density, and  reducing manufacturing costs [3].  55th CIRP Conference on Manufacturing Systems  In-line Sensor-based Process Control of the Calendering Process for  Lithium-Ion Batteries   Andreas Mayra, *, David Schreinera, Benedikt Stumpera, and RÃ¼diger Dauba aInstitute for Machine Tools and Industrial Management, Technical University of Munich, Boltzmannstr. 15, 85748 Garching, Germany * Corresponding author. Tel.: +49-89-289-16584; fax: +49-89-289-15555. E-mail address: andreas.mayr@iwb.tum.de   Abstract  The calendering process is the final property-defining step in the manufacturing of electrodes for lithium-ion batteries. Calendering  significantly affects mechanical properties by compacting the electrodes and increases the lithium-ion batteries' volumetric energy  density. The choice of calendering parameters is primarily based on empirical data, considering the final battery cell properties.  The drive for increased energy densities and the corresponding high compaction rates results in an increased electrode defect and  scrap occurrence. This leads to challenges in process control which are addressed in this paper by developing an agile and predictive  sensor-based process control. Hereby an efficient determination of process parameters is enabled, resulting in a reduction of scrap  and manufacturing costs. Applying in-line data acquisition for electrode thickness and surface topography allows real-time  feedback of measurement data at the machine-product interface back into the calendering system control. Reliable data acquisition  is established by integrating two sensor systems for coating thickness measurement (confocal sensors) and defect detection (laser  triangulation sensor) in a cascaded arrangement, enabling real-time evaluation of the product properties achieved as a function of  the process parameters. The associated potentials and challenges regarding a predictive analysis of machine and product behavior  are addressed in this context. The experimental results demonstrate that the combination of both sensor systems offers the potential  to establish an agile and innovative process control for the calendering process of lithium-ion batteries.  This is a resupply of March 2023 as the template used in the publication of the original article contained errors. The content of the article has remained unaffected. 296 Andreas Mayr  et al. / Procedia CIRP 107 (2022) 295â€“301 Electrodes of LIBs consist of a composite of active material  particles, binders, and conductive additives coated as a  suspension on a metal foil serving as the current collector.  Evaporation of the solvent within the electrode suspension used in the coating process leads to a porous microstructure at the  end of the electrode drying process [8]. Calendering, the final property-defining production step in electrode manufacturing,  significantly affects the mechanical and electrochemical  properties of the electrodes. During calendering, the electrodes  of the LIBs are compacted between two rolls, thus reducing the  pore volume within the coating and increasing the volumetric  energy density of the LIBs [9, 10]. The drive for increased  energy densities and the corresponding requirement for high  compaction rates results in an increased occurrence of electrode  defects and scrap [6]. Due to substantial material costs [11], the  rejection rate resulting from scrap and calendering-induced  electrode defects significantly affects the quality-cost  correlation of the produced electrodes. The required reduction  in rejection rates leads to challenges in process control which are addressed in this paper by developing an agile and  predictive process control based on surface topography.  2. State-of-the-Art: Calendering Process  Electrochemical and mechanical properties of the  calendered electrodes depend on the electrode properties  obtained from preliminary processes and the choice of  calendering parameters [12]. After drying, the electrodes  possess a high initial porosity and are then compressed in the  calendering process to a lower porosity to increase the  volumetric energy density [9, 10]. The target porosity is  determined considering the trade-off between high ionic  conductivity (high porosity and low compaction rate) and high  electrical conductivity (low porosity and high compaction  rate) [13, 14]. The porosity reduction is equivalent to an  increase in electrode density and a decrease in electrode  thickness.  The compaction of electrodes is associated with the  homogenization of the mechanical electrode properties [15],  resulting in a lower deviation of the product quality in terms of  observed cycle performance and discharge capacity of the  LIBs [16]. Furthermore, the targeted adjustment of the porosity leads to an increase in cohesion within the coating (particle-to- particle contact) [14] and affects the process time and the  behavior in the subsequent wetting process [17].  The morphology of the active material used for the LIBs  significantly influences the calendering behavior and affects  the development of defect patterns [9]. Only few studies  describe the defect patterns induced during the calendering of  electrodes [6, 18, 19]. GÃ¼nther et al. [6] classified calendering- induced defect patterns into geometric, structural, and  mechanical defects and evaluated the influence of their  occurrence on subsequent process steps. Mayer et al. [19]  investigated the effects of the mechanical behavior of  electrodes after compaction on the electrochemical cell  performance and the singulation into sheets.  An increased roll temperature can partly compensate for the  appearance of defect patterns due to reduced line load and thus mechanical stresses applied throughout the process [3, 6, 9].  Raising the roll temperature enables a reduction in the  necessary line load [12] and the achievable porosity [20â€“22],  as well as an increase in adhesion strength [20, 23].  Modeling (analytical [4, 20] and simulation-based [24â€“28])  of the calendering process is increasingly used as an addition  to experimental analysis and opens up new opportunities to  determine properties and target parameters in advance.  Schreiner et al. [27] developed a discrete element method  (DEM) model to support the selection of suitable process  parameters to reduce the adjustment effort for calendering and  manufacturing costs simultaneously.  Machine parameters of the respective calendering system  play a decisive role in calendering behavior. Depending on the  calendering system used, different machine behavior, e.g.,  characteristic roll displacement curves during compaction, can  be observed [12]. Larger roll diameters lead to an elevated  adhesion strength of the calendered electrodes [12, 23] and  simultaneously increase the intervention zone between rolls  and electrode, thus reducing the shear forces exerted on the  electrode during calendering [3, 23].  To the best of our knowledge, the calendering process and  its agile control based on the required target properties and  product characteristics are only scarcely considered in the  state-of-the-art. Overall, no adequate process monitoring exists  in pilot production lines for LIBs, characterized by missing  sensor data and low data quality [29]. In this paper, two sensor  systems for defect detection and coating thickness  measurement are integrated into the calendering system at the  Institute for Machine Tools and Industrial Management (iwb)  at the Technical University of Munich (TUM) to enable in-line  data acquisition of the product properties as a function of the process parameters. With an agile and predictive process  control based on surface topography, the objective is to build  up a more profound process knowledge regarding the  parameter selection for calendering and reduce manufacturing  costs of LIBs at production ramp-up by reducing scrap due to  defect patterns.  3. Experimental   The experimental overview provides a description of the  calendering system used and the investigated electrodes.  Furthermore, the integrated measurement systems and data  processing methods are addressed.  Calendering system: In the pilot production line for LIBs at  the iwb, the EA 102 model from Coatema Coating Machinery  GmbH is used. The same machine was used for preceding  studies on electrode defects [6] and calendering behavior [9,  12]. The calendering system has two rolls with a width and  diameter of 400 mm both, and ensures a maximum line load of  1000 Nâˆ™mm-1 along an operating width of 300 mm. The  maximum achievable roll temperature is 150 Â°C. The web  speed range covers 0.1â€“3 mâˆ™min-1. The experiments for the  presented paper were performed with a web speed of  0.5 mâˆ™min-1.  Measurement systems: The correlation of process  parameters with quantifiable product properties was  established by integrating two sensor systems for coating  thickness measurement (confocal sensors) and defect detection  This is a resupply of March 2023 as the template used in the publication of the original article contained errors. The content of the article has remained unaffected. Andreas Mayr  et al. / Procedia CIRP 107 (2022) 295â€“301 297 (laser triangulation sensor) in a cascaded arrangement. The  focus of the sensor system for defect detection was on the two  defect patterns electrode corrugation and corrugations at the  coating edge, which have proven to be dominant defects based  on experience and previous studies [6, 9]. The laser  triangulation sensor (LJ-V7200, Keyence, Germany) [30] was  integrated directly after the roll gap, enabling quantification and evaluation of electrode defects in the form of three- dimensional (3D) height profiles and two-dimensional (2D)  corrugation measurements.  Sensors for confocal coating thickness  measurement (CL-L030, Keyence, Germany) [31] were  positioned after the roll gap and in front of the first deflection  roller following a support roller. The latter was subsequently  integrated after preliminary testing to improve the web  guidance between the confocal sensor heads and increase the  measuring accuracy. All measurements for coating thickness  and defect detection were conducted with frequencies of  1000 Hz and 500 Hz, respectively. To evaluate the accuracy of  the confocal coating thickness measurement, the electrodes  were additionally measured manually with a tactile dial gauge  (ID-C112AX, Mitutoyo, Germany). Fig. 1 shows an overview  of the calendering system at the iwb and the integrated in-line  measurement systems.  Fig. 1. Overview of the measurement systems and their integration in the  calendering system at the iwb.  Data processing: Data processing and analysis was  conducted on a Windows workstation after the data had  previously been processed in the associated process control  units. The internal control software of the confocal sensors  calculated the specific coating thickness out of the distance  values of the sensor heads relative to the electrode web. The  coating thickness was measured with a moving average of 1024  data points. The goal was to evaluate the suitability of the  confocal measurement system for applications within a closed- loop control system. For individual sections of the analyzed  electrode, the confocal mean value was compared to the mean  value of the tactile coating thickness measurement in terms of  consistency.   Processing of the laser triangulation measurement data  consisted primarily of two steps: (1) smoothing of the raw  signal by applying a Savitzky-Golay filter [32], a low-pass  filter which used a window with a length of 300 data points for smoothing, and (2) detrending, whereby the polynomial trend  of the smoothed measurement signal was removed. In the latter  step, the objective was to highlight the intensity of the detected  defect patterns, i.e., their amplitude span as an oscillation  around the zero-crossing. For comparative analysis among  electrodes and to determine the process capability, the defect  evaluation index (DEI) is introduced within the scope of this  work. The value for DEI was calculated from the difference in  magnitude between the lowest valley and the highest peak of  the detected corrugation signal of the defective electrode.  Continuous evaluation of the electrode profile and assessment  of the defect patterns for defined electrode areas using DEI  aims at facilitating process stability and agile control of the calendering process. The profile line of the laser triangulation  sensor allows monitoring of half of the electrode width, which  is 150 mm. As the defect patterns studied in the experimental  part of this paper are formed approximately symmetrically, this does not affect the evaluation of the defect patterns of interest.  Electrode materials and composition: Cathodes with  lithium- and manganese-rich nickel-cobalt-manganese  oxide (LMR-NCM) active material have proven susceptible to  defect patterns in previous experimental studies [9] and were  therefore used for the analysis of defect patterns in this paper.  The composition of the LMR-NCM cathodes is similar to that  presented by Schreiner et al. [9], i.e., 92.5 wt% LMR-NCM  (Li1.14[Ni0.26Co0.14Mn0.60]0.86O2 investigated by Teufl et al. [33], BASF, Germany), 4 wt% conductive carbon black (SuperC65,  Imerys, Switzerland) and 3.5 wt% polyvinylidene-fluoride  binder (PVdF) (Solef 5130, Solvay, Belgium) with an  uncalendered dry electrode thickness of â‰ˆ 150 Âµm  (corresponds to â‰ˆ 56 % porosity).  Proof of applicability and functionality of the coating  thickness measurement was evaluated on graphite anodes,  composed of 94 wt% graphite (SMG-A5, Showa Denko,  Germany), 3 wt% styrene-butadiene rubber (SBR) (BM-451B,  Zeon, Germany), 2 wt% carboxymethyl cellulose (CMC)  (MAC500LC, Inabata, Germany) and 1 wt% conductive  carbon black (SuperC65, Imerys, Switzerland) with an  uncalendered dry electrode thickness of â‰ˆ 215 Âµm (corresponds  to â‰ˆ 55 % porosity). Due to the available equipment setup and  the resulting defect patterns, preliminary tests have shown that  coating thickness measurement is only feasible for  uncalendered and slightly calendered cathodes. The high  precision requirement of the in-line sensor technology leads to a narrow precision measuring range of Â± 1.0 mm in z-direction  (point measurement, light spot diameter: 500 Î¼m), which is  exceeded when corrugations are present. Cathodes and anodes  were coated on both sides on 15 Î¼m thick aluminum foil (Type  1050 A, Korff, Switzerland) and 10 Âµm thick copper foil (Cu- PHC, SE-Cu58, Schlenk, Germany), respectively.  4. Results and Discussion  4.1. In-line Data Acquisition  Studies by Schreiner et al. [9] demonstrated that LMR-NCM  cathodes exhibit significant defect patterns at the investigated  porosities of 42 % and 32 %, making further processing of the  electrodes challenging [6]. This was attributed to the low  This is a resupply of March 2023 as the template used in the publication of the original article contained errors. The content of the article has remained unaffected. 298 Andreas Mayr  et al. / Procedia CIRP 107 (2022) 295â€“301 elastic deformability of LMR-NCM cathodes and was  associated with an additional internal porosity within the  secondary LMR-NCM agglomerates [9]. The integrated in-line  sensor technology uses laser triangulation to quantify these  defect patterns in a continuous roll-to-roll process. Fig. 2 shows  the 3D height profile of an LMR-NCM cathode with a coating  thickness of â‰ˆ 100 Âµm (corresponding to a porosity of â‰ˆ 30 %)  with a schematic illustration of the measuring area. The dashed lines in Fig. 2 correspond to the measurement location for the  defect patterns: a) corrugations at the coating edge and b)  electrode corrugation. The 3D electrode surface is color-coded  according to the height scale (limit range between Â± 5 mm).  Values outside the limit range are displayed according to the  color-coding with the respective maximum color value.  Fig. 2. 3D height profile of an LMR-NCM cathode with â‰ˆ 30 % porosity  (calendered at ambient temperature of â‰ˆ 23 Â°C) and the position of the  analyzed measurement signals: a) corrugations at the coating edge,  b) electrode corrugation.  Fig. 2 shows the visible formation of geometric defects  induced by the calendering process in the form of significant  corrugations. Accordingly, the electrode's corrugation intensity  is reflected in a clear distinction between the valley and the  peak of the defect patterns in terms of the corresponding color- coding. In the coating edge area (in the range of the detected  laser profile at â‰ˆ 35â€“45 mm), smaller corrugations are evident, which are superimposed with the electrode corrugation. The  formation of the smaller corrugations is locally limited to the immediate coating edge area. The curvature of the substrate foil  is influenced by the overall curvature of the electrode web. In the presented Fig. 2, a curvature of the substrate foil can be seen  in the positive z-direction, up to the limit of the color-coded height scale at + 5 mm, i.e., the entire LMR-NCM cathode has  a bowl-shaped curvature across the coating width.   The compaction of LMR-NCM cathodes, strongly affected  by the defect patterns described by Schreiner et al. [9], can be  confirmed and evaluated in the 3D height profile through laser  triangulation. Considering the height scale, an evaluation of the  intensity of the respective defect patterns is made possible. This  is supplemented by calculating the DEI values for the  measurement signals of the respective geometric defects  (represented by the dashed lines in Fig. 2), and the intensity of  the corrugations is quantified.  Fig. 3 shows the superposition of the measured signals of  the electrode corrugation and the corrugations at the coating  edge, respectively, for the LMR-NCM cathode with a porosity  of â‰ˆ 30 %, which correspond to the 3D height profile in Fig. 2. In addition, the range of peak-to-valley values and the  calculated DEI values are visualized.   Fig. 3. Quantification of the defect patterns for the LMR-NCM cathode with  â‰ˆ 30 % porosity (calendered at ambient temperature of â‰ˆ 23 Â°C) using the  DEI as an evaluation metric.  Characteristics of the 3D height profile are reflected in the  2D representation of both measurement signals. The DEI value  for the defect pattern of the electrode corrugation is quantified  with 3.22. For the formation of corrugations at the coating  edge, the DEI is lower, with a value of only 1.36. Superposition  of the two curves is also evident, according to which electrode corrugation leads to an increase (or respectively decrease) in  the position of the corrugations at the coating edge relative to  the zero-crossing.  In accompanying experiments, the impact of the roll  temperature (an increase from 23 Â°C to 90 Â°C) on the intensity  of the defect patterns of LMR-NCM cathodes with a constant  porosity level of â‰ˆ 30 % was evaluated by means of DEI. The  respective DEI values registered a reduction of 25.2 % for the  electrode corrugation and 9.6 % for the corrugations at the  coating edge. Prior to integrating the in-line sensor technology,  defect patterns were only evaluated qualitatively.  Quantification of the correlation between the intensity of  geometric defects and the degree of calendering supports the  introduction of a DEI as an evaluation metric regarding the  formation of defect patterns.   The confocal coating thickness measurement was evaluated  using graphite anodes with respect to its suitability for use in  agile process control. As previously stated, exceeding the  measuring range when calendering cathodes and the associated  corrugations pose a challenge. In Fig. 4, the sensitivity of the  confocal measurement system during calendering of graphite  anodes is evaluated. Starting from the uncalendered section (1),  the graphite anode was compacted with an applied calendering  pressure of 100 % (2). The initially set roll gap was in the order  of â‰ˆ 140 Âµm. The change in coating thickness was achieved by  reducing the calendering pressure to 85 % (3), 75 % (4),  50 % (5), and finally to 0 % (6) to return to the uncalendered  state. The pressure reduction results in an increase in the  effective roll gap. At the moment of the experimental  measurements, it was impossible to quantify the resulting roll  gap due to the lack of in-line gap measurement.  z  y x  z x This is a resupply of March 2023 as the template used in the publication of the original article contained errors. The content of the article has remained unaffected. Andreas Mayr  et al. / Procedia CIRP 107 (2022) 295â€“301 299 Fig. 4. Confocal coating thickness measurement of a graphite anode during  calendering and comparison of tactile and confocal mean values. Averaged over all electrode sections (1â€“6), a mean deviation  of 4.7 Âµm is achieved between the confocal and tactile coating  thickness measurements. In particular, the agreement reached  between the confocal coating thickness measurement and the  tactile measurement in electrode sections (3â€“5) should be  highlighted, as the difference in the mean values is only in a  range of 2.3â€“2.8 Âµm. One hypothesis for the increased  deviation in electrode section (2) is the transition from the  uncalendered to the calendered area, where the anode surface  of the latter is associated with a gloss effect that affects the light  reflected from the electrode surface and thus the accuracy of  the optical measurement technique. It has been shown that  compacted electrode surfaces, in contrast to uncalendered  ones, have a pronounced gloss effect [34]. The confocal  measurement system allows good repeatability and sufficiently  accurate measurement of the coating thickness of graphite  anodes (under the conditions that are optimizable in terms of  integration in the present measurement setup).   Based on the presented results and conclusions, a topology  for the implementation of an agile process control based on  in-line sensor technology in the form of a cascaded  arrangement was developed. Additionally, further practical  measures and requirements for the optimized integration of the  measuring systems into a calendering system were derived.  4.2. Conceptual Process Control  The schematic topology of a cascaded closed-loop control  system is demonstrated in Fig. 5. The arrows inside the  calender rolls indicate the direction of rotation.  Fig. 5. Conceptual design of an agile process control in a closed-loop via  defect detection and coating thickness measurement of the electrode web.  The laser triangulation sensor is cascaded upstream of the  confocal coating thickness measurement as an indicator  system. The quantification and comparability of defect patterns detected by laser triangulation are facilitated by applying the data processing and calculation of DEI values. Prior to the  calendering process, a target value for the coating thickness is  specified in an application software and compared with the  confocally measured coating thickness (defined as process  value). The roll gap is adjusted within an agile and closed  feedback loop based on the deviation via the intelligent process  control system. The latter refers to the implementation of data processing methods in the internal process control in the form  of algorithms and artificial intelligence. Simultaneously, the  electrode profile is monitored longitudinally and transversely  to the direction of web movement concerning defect patterns.  Based on this procedure, tolerance limits as well as lower and  upper warning and intervention thresholds regarding DEI are  defined. In application, a process warning is given as an  indicator for the potential formation of defect patterns. Based on the warning and intervention thresholds, it is possible to  automatically adjust the coating thickness in the closed-loop  process control for optimized mechanical electrode properties  and subsequent processing of the electrodes.   Accordingly, defect detection serves as a safeguarding  system, based on which the accuracy of the confocal coating  thickness measurement can be assessed. In the case of  corresponding corrugations, an influence on the measurement  accuracy with regard to the coating thickness of the electrode  can be assumed. Coupling the two sensor systems leads to a  broader understanding of the calendering process and agile  process control. It simultaneously ensures lean quality  assurance by correlating process parameters with product  properties, for instance, the relationship between quantified  defect patterns and the corresponding process parameters. The  evaluation through DEI facilitates counteracting defect patterns  by an agile adjustment of process parameters.  4.3. Requirements for Process Control via Thickness  Measurement and Surface Topography  Regarding mechanical integration of the confocal measuring  system, the vibration-decoupled mounting of the sensor heads,  e.g., in the form of a traversing C-shaped mounting, is of  particular importance. This also enables periodic calibration of  the process control software during operation using an  electrode sample with defined surface properties. Considering  the varying optical properties of the electrode surface, this is an  essential step for increasing the measurement accuracy. To  reduce the effect of defect patterns on the confocal  measurement signal, e.g., due to corrugations, especially during  the compaction of cathodes, adapted web guidance and  measurement position are necessary. This relates to introducing web tension isolation after the roll gap since an unevenly  distributed web tension is eliminated, representing a  disturbance variable. This allows the setting of a wide web  tension window and can reduce corrugations. Concerning  defect detection, several laser triangulation sensors are  necessary to characterize the complete electrode web along the  coating width regarding the classified defect patterns. In this z  x This is a resupply of March 2023 as the template used in the publication of the original article contained errors. The content of the article has remained unaffected. 300 Andreas Mayr  et al. / Procedia CIRP 107 (2022) 295â€“301 context, the use of sensors with different resolutions is intended  to detect even minor electrode corrugations (e.g., the  embossing of the substrate foil [6]).   5. Conclusion  As a property-determining process, calendering plays a  crucial role in optimizing the cellâ€™s energy density and thus  advancing LIB technology. A deeper process understanding via  experimental studies and the subsequent development of a  predictive and agile process control based on in-line sensor  technology are addressed in this paper.   Applying in-line data acquisition for electrode thickness and  surface topography allows real-time feedback of measurement  data at the machine-product interface back into the calendering system control. First experimental results demonstrated that the  combination of both sensor systems offers the potential to  establish an agile and innovative control of the calendering  process. A defect evaluation index (DEI) is introduced as a  metric to evaluate defect detection via laser triangulation  concerning defect patterns. The comparison of confocal with  tactile coating thickness measurement for graphite anodes  shows sufficient agreement between the two measurement  methods for the present experimental setup. For the coating  thickness measurement of cathodes, no sufficient results were  achieved due to the difficulties associated with corrugations  and the limiting measuring range of the confocal sensor  technology. Based on the findings of the experimental study,  further steps were derived for both measuring systems  concerning the integration into an intelligent calendering  system. This involves the planned integration of multiple laser triangulation sensors for a complete characterization of the  electrode surface.  Future studies intend to investigate the relationship between  compaction degree, roll temperature and intensity of defect  patterns on different materials and compare the results for  varying process parameters. The identification of defined  tolerance limits based on capability indices as well as lower and  upper warning and intervention thresholds for individual defect patterns and material systems will be implemented in future  work. This will be carried out within the framework of  extensive empirical studies based on the research conducted in  this paper.  Acknowledgements  The authors gratefully acknowledge funding from the  German Federal Ministry of Education and Research (BMBF)  within the projects InteKal (grant number 03XP0348B),  MiKal (grant number 03XP0240C), and ExZellTUM II (grant  number 03XP0081). Many thanks to Michael SchÃ¼ÃŸler and  Moritz Kupec for the support and fundamental work regarding  sensor integration and data processing during experimental  sessions. Special thanks to Fabian Konwitschny for the  valuable discussion and proofreading of the manuscript.  References  [1] BP p.l.c., 2021. bp Statistical Review of World Energy 2021, London.  [2] Dincer, I., Colpan, C.O., Kadioglu, F., Editors, 2013. Causes, Impacts  and Solutions to Global Warming. Springer New York.  [3] Kwade, A., Haselrieder, W., Leithoff, R., Modlinger, A. et al., 2018.  Current status and challenges for automotive battery production technologies 3, p. 290.  [4] Meyer, C., Kosfeld, M., Haselrieder, W., Kwade, A., 2018. Process  modeling of the electrode calendering of lithium-ion batteries  regarding variation of cathode active materials and mass loadings 18,  p. 371.  [5] GÃ¼nther, T., Billot, N., Schuster, J., Schnell, J. et al., 2016. The  Manufacturing of Electrodes: Key Process for the Future Success of  Lithium-Ion Batteries 1140, p. 304.  [6] GÃ¼nther, T., Schreiner, D., Metkar, A., Meyer, C. et al., 2020.  Classification of Calendering-Induced Electrode Defects and Their  Influence on Subsequent Processes of Lithium-Ion Battery Production  8.  [7] Westermeier, M., Reinhart, G., Steber, M., 2014. Complexity Management for the Start-up in Lithium-ion Cell Production 20, p. 13.  [8] Stein, M., Mistry, A., Mukherjee, P.P., 2017. Mechanistic  Understanding of the Role of Evaporation in Electrode Processing  164, A1616-A1627.  [9] Schreiner, D., ZÃ¼nd, T., GÃ¼nter, F.J., Kraft, L. et al., 2021.  Comparative Evaluation of LMR-NCM and NCA Cathode Active  Materials in Multilayer Lithium-Ion Pouch Cells: Part I. Production,  Electrode Characterization, and Formation 168.  [10] Meyer, C., Bockholt, H., Haselrieder, W., Kwade, A., 2017. Characterization of the calendering process for compaction of  electrodes for lithium-ion batteries 249, p. 172.  [11] Nelson, P.A., Ahmed, S., Gallagher, K.G., Dees, D.W., 2019.  Modeling the Performance and Cost of Lithium-Ion Batteries for  Electric-Drive Vehicles, Third Edition.  [12] Schreiner, D., Oguntke, M., GÃ¼nther, T., Reinhart, G., 2019.  Modelling of the Calendering Process of NMC-622 Cathodes in  Battery Production Analyzing Machine/Material-Process-Structure Correlations 7.  [13] Gulbinska, M.K., Editor, 2014. Lithium-ion Battery Materials and  Engineering. Springer London.  [14] Zheng, H., Tan, L., Liu, G., Song, X. et al., 2012. Calendering effects  on the physical and electrochemical properties of Li[Ni1/3Mn1/3Co1/3]O2 cathode 208.  [15] Haselrieder, W., Ivanov, S., Christen, D.K., Bockholt, H. et al., 2013.  Impact of the Calendering Process on the Interfacial Structure and the  Related Electrochemical Performance of Secondary Lithium-Ion  Batteries 50, p. 59.  [16] Lenze, G., Bockholt, H., Schilcher, C., FrobÃ¶se, L. et al., 2018.  Impacts of Variations in Manufacturing Parameters on Performance of  Lithium-Ion-Batteries 165, A314-A322.  [17] Habedank, J.B., GÃ¼nter, F.J., Billot, N., Gilles, R. et al., 2019. Rapid  electrolyte wetting of lithium-ion batteries containing laser structured  electrodes: in situ visualization by neutron radiography 102, p. 2769.  [18] Bold, B., Fleischer, J., 2018. Kalandrieren von Elektroden fÃ¼r Li- Ionen-Batterien 113, p. 571.  [19] Mayer, D., Wurba, A.-K., Bold, B., Bernecker, J. et al., 2021.  Investigation of the Mechanical Behavior of Electrodes after  Calendering and Its Influence on Singulation and Cell Performance 9,  p. 2009.  [20] Meyer, C., Weyhe, M., Haselrieder, W., Kwade, A., 2020. Heated  Calendering of Cathodes for Lithium-Ion Batteries with Varied  Carbon Black and Binder Contents 8.  [21] Primo, E.N., Chouchane, M., Touzin, M., Vazquez, P. et al., 2021.  Understanding the calendering processability of  Li(Ni0.33Mn0.33Co0.33)O2-based cathodes 488.  [22] Primo, E.N., Touzin, M., Franco, A.A., 2021. Calendering of  Li(Ni0.33Mn0.33Co0.33)O2-Based Cathodes: Analyzing the Link Between  Process Parameters and Electrode Properties by Advanced Statistics 4,  p. 834.  [23] Billot, N., GÃ¼nther, T., Schreiner, D., Stahl, R. et al., 2020.  Investigation of the Adhesion Strength along the Electrode  Manufacturing Process for Improved Lithium-Ion Anodes 8.  [24] Ngandjong, A.C., Lombardo, T., Primo, E.N., Chouchane, M. et al.,  2021. Investigating electrode calendering and its impact on  electrochemical performance by means of a new discrete element  method model: Towards a digital twin of Li-Ion battery manufacturing  485.  [25] SangrÃ³s GimÃ©nez, C., Schilde, C., FrobÃ¶se, L., Ivanov, S. et al., 2019.  Mechanical, Electrical, and Ionic Behavior of Lithium-Ion Battery  Electrodes via Discrete Element Method Simulations 8.  [26] Duquesnoy, M., Lombardo, T., Chouchane, M., Primo, E.N. et al.,  2020. Data-driven assessment of electrode calendering process by  combining experimental results, in silico mesostructures generation  This is a resupply of March 2023 as the template used in the publication of the original article contained errors. The content of the article has remained unaffected. Andreas Mayr  et al. / Procedia CIRP 107 (2022) 295â€“301 301 and machine learning 480.  [27] Schreiner, D., Klinger, A., Reinhart, G., 2020. Modeling of the  Calendering Process for Lithium-Ion Batteries with DEM Simulation  93, p. 149.  [28] Schreiner, D., Lindenblatt, J., GÃ¼nter, F.J., Reinhart, G., 2021. DEM  Simulations of the Calendering Process: Parameterization of the Electrode Material of Lithium-Ion Batteries 104, p. 91.  [29] Wanner, J., Weeber, M., Birke, K.P., Sauer, A., 2019. Quality  Modelling in Battery Cell Manufacturing Using Soft Sensoring and  Sensor Fusion - A Review, in 2019 9th International Electric Drives  Production Conference (EDPC), p. 1.  [30] Keyence DEUTSCHLAND GmbH. LJ-V7200.  https://www.keyence.de/products/measure/laser-2d/lj-v/models/lj- v7200/. Accessed 20 November 2021.  [31] Keyence DEUTSCHLAND GmbH. CL-L030.  https://www.keyence.de/products/measure/laser-1d/cl-3000/models/cl- l030/. Accessed 20 November 2021.  [32] Schafer, R., 2011. What Is a Savitzky-Golay Filter? [Lecture Notes]  28, p. 111.  [33] Teufl, T., Strehle, B., MÃ¼ller, P., Gasteiger, H.A. et al., 2018. Oxygen  Release and Surface Degradation of Li- and Mn-Rich Layered Oxides  in Variation of the Li2MnO3 Content 165, A2718-A2731.  [34] Meyer, C. Prozessmodellierung der Kalandrierung von Lithium- Ionen-Batterie-Elektroden, 1st edn.  This is a resupply of March 2023 as the template used in the publication of the original article contained errors. The content of the article has remained unaffected. /3Mn1/3Co1/3]O2 cathode 208.  [15] Haselrieder, W., Ivanov, S., Christen, D.K., Bockholt, H. et al., 2013.  Impact of the Calendering Process on the Interfacial Structure and the  Related Electrochemical Performance of Secondary Lithium-Ion  Batteries 50, p. 59.  [16] Lenze, G., Bockholt, H., Schilcher, C., FrobÃ¶se, L. et al., 2018.  Impacts of Variations in Manufacturing Parameters on Performance of  Lithium-Ion-Batteries 165, A314-A322.  [17] Habedank, J.B., GÃ¼nter, F.J., Billot, N., Gilles, R. et al., 2019. Rapid  electrolyte wetting of lithium-ion batteries containing laser structured  electrodes: in situ visualization by neutron radiography 102, p. 2769.  [18] Bold, B., Fleischer, J., 2018. Kalandrieren von Elektroden fÃ¼r Li- Ionen-Batterien 113, p. 571.  [19] Mayer, D., Wurba, A.-K., Bold, B., Bernecker, J. et al., 2021.  Investigation of the Mechanical Behavior of Electrodes after  Calendering and Its Influence on Singulation and Cell Performance 9,  p. 2009.  [20] Meyer, C., Weyhe, M., Haselrieder, W., Kwade, A., 2020. Heated  Calendering of Cathodes for Lithium-Ion Batteries with Varied  Carbon Black and Binder Contents 8.  [21] Primo, E.N., Chouchane, M., Touzin, M., Vazquez, P. et al., 2021.  Understanding the calendering processability of  Li(Ni0.33Mn0.33Co0.33)O2-based cathodes 488.  [22] Primo, E.N., Touzin, M., Franco, A.A., 2021. Calendering of  Li(Ni0.33Mn0.33Co0.33)O2-Based Cathodes: Analyzing the Link Between  Process Parameters and Electrode Properties by Advanced Statistics 4,  p. 834.  [23] Billot, N., GÃ¼nther, T., Schreiner, D., Stahl, R. et al., 2020.  Investigation of the Adhesion Strength along the Electrode  Manufacturing Process for Improved Lithium-Ion Anodes 8.  [24] Ngandjong, A.C., Lombardo, T., Primo, E.N., Chouchane, M. et al.,  2021. Investigating electrode calendering and its impact on  electrochemical performance by means of a new discrete element  method model: Towards a digital twin of Li-Ion battery manufacturing  485.  [25] SangrÃ³s GimÃ©nez, C., Schilde, C., FrobÃ¶se, L., Ivanov, S. et al., 2019.  Mechanical, Electrical, and Ionic Behavior of Lithium-Ion Battery  Electrodes via Discrete Element Method Simulations 8.  [26] Duquesnoy, M., Lombardo, T., Chouchane, M., Primo, E.N. et al.,  2020. Data-driven assessment of electrode calendering process by  combining experimental results, in silico mesostructures generation  This is a resupply of March 2023 as the template used in the publication of the original article contained errors. The content of the article has remained unaffected. Andreas Mayr  et al. / Procedia CIRP 107 (2022) 295â€“301 301 and machine learning 480.  [27] Schreiner, D., Klinger, A., Reinhart, G., 2020. Modeling of the  Calendering Process for Lithium-Ion Batteries with DEM Simulation  93, p. 149.  [28] Schreiner, D., Lindenblatt, J., GÃ¼nter, F.J., Reinhart, G., 2021. DEM  Simulations of the Calendering Process: Parameterization of the Electrode Material of Lithium-Ion Batteries 104, p. 91.  [29] Wanner, J., Weeber, M., Birke, K.P., Sauer, A., 2019. Quality  Modelling in Battery Cell Manufacturing Using Soft Sens</xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.5" xml:lang="en" docsubtype="fla">
+         <item-info>
+            <jid>PROCIR</jid>
+            <aid>398920</aid>
+            <ce:pii>S2212-8271(22)00264-5</ce:pii>
+            <ce:doi>10.1016/j.procir.2022.04.048</ce:doi>
+            <ce:copyright type="other" year="2022">The Author(s)</ce:copyright>
+         </item-info>
+         <head>
+            <ce:title id="tte0001">In-line Sensor-based Process Control of the Calendering Process for Lithium-Ion Batteries</ce:title>
+            <ce:author-group id="aug0001">
+               <ce:author id="au0193" author-id="S2212827122002645-550cf39864eb90334880926663a23f80">
+                  <ce:given-name>Andreas</ce:given-name>
+                  <ce:surname>Mayr</ce:surname>
+                  <ce:cross-ref id="cecref0222" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:author id="au0194" author-id="S2212827122002645-e5119856201cb22e873982ad79fdf321">
+                  <ce:given-name>David</ce:given-name>
+                  <ce:surname>Schreiner</ce:surname>
+                  <ce:cross-ref id="cecref0223" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0195" author-id="S2212827122002645-c82a8fe7be116ba27855609b91004808">
+                  <ce:given-name>Benedikt</ce:given-name>
+                  <ce:surname>Stumper</ce:surname>
+                  <ce:cross-ref id="cecref0224" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0196" author-id="S2212827122002645-3d33d186c125bf83e383b7cb7586e4f3">
+                  <ce:given-name>Rüdiger</ce:given-name>
+                  <ce:surname>Daub</ce:surname>
+                  <ce:cross-ref id="cecref0225" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:affiliation id="aff0001" affiliation-id="S2212827122002645-b298cc75931967fe8319ec95aac58295">
+                  <ce:label>a</ce:label>
+                  <ce:textfn id="cetextfn0001">Institute for Machine Tools and Industrial Management, Technical University of Munich, Boltzmannstr. 15, 85748 Garching, Germany</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Institute for Machine Tools and Industrial Management</sa:organization>
+                     <sa:organization>Technical University of Munich</sa:organization>
+                     <sa:address-line>Boltzmannstr. 15</sa:address-line>
+                     <sa:city>Garching</sa:city>
+                     <sa:postal-code>85748</sa:postal-code>
+                     <sa:country>Germany</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+            </ce:author-group>
+            <ce:abstract id="abs0001" view="all" class="author"><ce:abstract-sec id="abss0001" view="all">
+                  <ce:simple-para id="spara0060" view="all">The calendering process is the final property-defining step in the manufacturing of electrodes for lithium-ion batteries. Calendering significantly affects mechanical properties by compacting the electrodes and increases the lithium-ion batteries’ volumetric energy density. The choice of calendering parameters is primarily based on empirical data, considering the final battery cell properties. The drive for increased energy densities and the corresponding high compaction rates results in an increased electrode defect and scrap occurrence. This leads to challenges in process control which are addressed in this paper by developing an agile and predictive sensor-based process control. Hereby an efficient determination of process parameters is enabled, resulting in a reduction of scrap and manufacturing costs. Applying in-line data acquisition for electrode thickness and surface topography allows real-time feedback of measurement data at the machine-product interface back into the calendering system control. Reliable data acquisition is established by integrating two sensor systems for coating thickness measurement (confocal sensors) and defect detection (laser triangulation sensor) in a cascaded arrangement, enabling real-time evaluation of the product properties achieved as a function of the process parameters. The associated potentials and challenges regarding a predictive analysis of machine and product behavior are addressed in this context. The experimental results demonstrate that the combination of both sensor systems offers the potential to establish an agile and innovative process control for the calendering process of lithium-ion batteries.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="keys0001" view="all" class="keyword">
+               <ce:section-title id="cesectitle0002">Keywords</ce:section-title>
+               <ce:keyword id="key0241">
+                  <ce:text id="cetext0241">lithium-ion battery</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0242">
+                  <ce:text id="cetext0242">electrode production</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0243">
+                  <ce:text id="cetext0243">calendering</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0244">
+                  <ce:text id="cetext0244">sensor integration</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0245">
+                  <ce:text id="cetext0245">process control</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <tail view="all">
+            <ce:bibliography id="cebibsec1" view="all">
+               <ce:section-title id="cesectitle0003">References</ce:section-title>
+               <ce:bibliography-sec id="cebibsec2" view="all">
+                  <ce:bib-reference id="bib0001">
+                     <ce:label>1</ce:label>
+                     <ce:other-ref id="oref0001">
+                        <ce:textref>BP p.l.c., 2021. <ce:italic>bp Statistical Review of World Energy</ce:italic> 2021, London.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0002">
+                     <ce:label>2</ce:label>
+                     <sb:reference id="sbref0002">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>I.</ce:given-name>
+                                 <ce:surname>Dincer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.O.</ce:given-name>
+                                 <ce:surname>Colpan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Kadioglu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:title>
+                                 <sb:maintitle>Causes, Impacts and Solutions to Global Warming</sb:maintitle>
+                              </sb:title>
+                              <sb:date>2013</sb:date>
+                              <sb:publisher>
+                                 <sb:name>Springer</sb:name>
+                                 <sb:location>New York</sb:location>
+                              </sb:publisher>
+                           </sb:book>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0003">
+                     <ce:label>3</ce:label>
+                     <sb:reference id="sbref0003">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Kwade</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Haselrieder</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Leithoff</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Modlinger</ce:surname>
+                                 <ce:given-name>A.</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Current status and challenges for automotive battery production technologies</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>3</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>290</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0004">
+                     <ce:label>4</ce:label>
+                     <sb:reference id="sbref0004">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Meyer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Kosfeld</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Haselrieder</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Kwade</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Process modeling of the electrode calendering of lithium-ion batteries regarding variation of cathode active materials and mass loadings</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>18</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>371</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0005">
+                     <ce:label>5</ce:label>
+                     <sb:reference id="sbref0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Günther</ce:surname>
+                                 <ce:given-name>T.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Billot</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Schuster</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Schnell</ce:surname>
+                                 <ce:given-name>J.</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>The Manufacturing of Electrodes: Key Process for the Future Success of Lithium-Ion Batteries</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>1140</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>304</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0006">
+                     <ce:label>6</ce:label>
+                     <sb:reference id="sbref0006">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Günther</ce:surname>
+                                 <ce:given-name>T.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Schreiner</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Metkar</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Meyer</ce:surname>
+                                 <ce:given-name>C.</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Classification of Calendering-Induced Electrode Defects and Their Influence on Subsequent Processes of Lithium-Ion Battery Production</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>8</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0007">
+                     <ce:label>7</ce:label>
+                     <sb:reference id="sbref0007">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Westermeier</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Reinhart</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Steber</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Complexity Management for the Start-up in Lithium-ion Cell Production</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>20</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>13</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0008">
+                     <ce:label>8</ce:label>
+                     <sb:reference id="sbref0008">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Stein</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Mistry</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.P.</ce:given-name>
+                                 <ce:surname>Mukherjee</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Mechanistic Understanding of the Role of Evaporation in Electrode Processing</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>164</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>A1616</sb:first-page>
+                              <sb:last-page>A1627</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0009">
+                     <ce:label>9</ce:label>
+                     <sb:reference id="sbref0009">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Schreiner</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Zünd</ce:surname>
+                                 <ce:given-name>T.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Günter</ce:surname>
+                                 <ce:given-name>F.J.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Kraft</ce:surname>
+                                 <ce:given-name>L.</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Comparative Evaluation of LMR-NCM and NCA Cathode Active Materials in Multilayer Lithium-Ion Pouch Cells: Part I</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Production, Electrode Characterization, and Formation</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>168</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00010">
+                     <ce:label>10</ce:label>
+                     <sb:reference id="sbref00010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Meyer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Bockholt</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Haselrieder</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Kwade</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Characterization of the calendering process for compaction of electrodes for lithium-ion batteries</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>249</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>172</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00011">
+                     <ce:label>11</ce:label>
+                     <ce:other-ref id="oref00011">
+                        <ce:textref>Nelson, P.A., Ahmed, S., Gallagher, K.G., Dees, D.W., 2019. <ce:italic>Modeling the Performance and Cost of Lithium-Ion Batteries for Electric-Drive Vehicles, Third Edition</ce:italic>
+                        </ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00012">
+                     <ce:label>12</ce:label>
+                     <ce:other-ref id="oref00012">
+                        <ce:textref>Schreiner, D., Oguntke, M., Günther, T., Reinhart, G., 2019. Modelling of the Calendering Process of NMC-622 Cathodes in Battery Production Analyzing Machine/Material-Process-Structure Correlations 7.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00013">
+                     <ce:label>13</ce:label>
+                     <sb:reference id="sbref00013">
+                        <sb:host>
+                           <sb:edited-book>
+                              <sb:editors>
+                                 <sb:editor>
+                                    <ce:given-name>M.K.</ce:given-name>
+                                    <ce:surname>Gulbinska</ce:surname>
+                                 </sb:editor>
+                              </sb:editors>
+                              <sb:book-series>
+                                 <sb:series>
+                                    <sb:title>
+                                       <sb:maintitle>Lithium-ion Battery Materials and Engineering</sb:maintitle>
+                                    </sb:title>
+                                 </sb:series>
+                              </sb:book-series>
+                              <sb:date>2014</sb:date>
+                              <sb:publisher>
+                                 <sb:name>Springer</sb:name>
+                                 <sb:location>London</sb:location>
+                              </sb:publisher>
+                           </sb:edited-book>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00014">
+                     <ce:label>14</ce:label>
+                     <ce:other-ref id="oref00014">
+                        <ce:textref>Zheng, H., Tan, L., Liu, G., Song, X. et al., 2012. Calendering effects on the physical and electrochemical properties of Li[Ni1/3Mn1/3Co1/3]O2 cathode 208.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00015">
+                     <ce:label>15</ce:label>
+                     <sb:reference id="sbref00015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Haselrieder</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Ivanov</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.K.</ce:given-name>
+                                 <ce:surname>Christen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Bockholt</ce:surname>
+                                 <ce:given-name>H.</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Impact of the Calendering Process on the Interfacial Structure and the Related Electrochemical Performance of Secondary Lithium-Ion Batteries</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>50</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>59</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00016">
+                     <ce:label>16</ce:label>
+                     <sb:reference id="sbref00016">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Lenze</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Bockholt</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Schilcher</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Froböse</ce:surname>
+                                 <ce:given-name>L.</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Impacts of Variations in Manufacturing Parameters on Performance of Lithium-Ion-Batteries</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>165</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>A314</sb:first-page>
+                              <sb:last-page>A322</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00017">
+                     <ce:label>17</ce:label>
+                     <sb:reference id="sbref00017">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.B.</ce:given-name>
+                                 <ce:surname>Habedank</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Günter</ce:surname>
+                                 <ce:given-name>F.J.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Billot</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Gilles</ce:surname>
+                                 <ce:given-name>R.</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Rapid electrolyte wetting of lithium-ion batteries containing laser structured electrodes: in situ visualization by neutron radiography</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>102</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2769</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00018">
+                     <ce:label>18</ce:label>
+                     <sb:reference id="sbref00018">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Bold</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Fleischer</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Kalandrieren von Elektroden für Li-Ionen-Batterien</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>113</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>571</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00019">
+                     <ce:label>19</ce:label>
+                     <sb:reference id="sbref00019">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Mayer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.-K.</ce:given-name>
+                                 <ce:surname>Wurba</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Bold</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Bernecker</ce:surname>
+                                 <ce:given-name>J.</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Investigation of the Mechanical Behavior of Electrodes after Calendering and Its Influence on Singulation and Cell Performance</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>9</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2009</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00020">
+                     <ce:label>20</ce:label>
+                     <sb:reference id="sbref00020">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Meyer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Weyhe</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Haselrieder</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Kwade</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Heated Calendering of Cathodes for Lithium-Ion Batteries with Varied Carbon Black and Binder Contents</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>8</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00021">
+                     <ce:label>21</ce:label>
+                     <ce:other-ref id="oref00021">
+                        <ce:textref>Primo, E.N., Chouchane, M., Touzin, M., Vazquez, P. et al., 2021. Understanding the calendering processability of Li(Ni0.33Mn0.33Co0.33)O2-based cathodes 488.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00022">
+                     <ce:label>22</ce:label>
+                     <sb:reference id="sbref00022">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>E.N.</ce:given-name>
+                                 <ce:surname>Primo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Touzin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.A.</ce:given-name>
+                                 <ce:surname>Franco</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Calendering of Li(Ni<ce:inf loc="post">0.33</ce:inf>Mn<ce:inf loc="post">0.33</ce:inf>Co<ce:inf loc="post">0.33</ce:inf>)O<ce:inf loc="post">2</ce:inf>-Based Cathodes: Analyzing the Link Between Process Parameters and Electrode Properties by Advanced Statistics</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>4</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>834</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00023">
+                     <ce:label>23</ce:label>
+                     <sb:reference id="sbref00023">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Billot</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Günther</ce:surname>
+                                 <ce:given-name>T.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Schreiner</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Stahl</ce:surname>
+                                 <ce:given-name>R.</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Investigation of the Adhesion Strength along the Electrode Manufacturing Process for Improved Lithium-Ion Anodes</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>8</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00024">
+                     <ce:label>24</ce:label>
+                     <sb:reference id="sbref00024">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.C.</ce:given-name>
+                                 <ce:surname>Ngandjong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Lombardo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.N.</ce:given-name>
+                                 <ce:surname>Primo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Chouchane</ce:surname>
+                                 <ce:given-name>M.</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Investigating electrode calendering and its impact on electrochemical performance by means of a new discrete element method model: Towards a digital twin of Li-Ion battery manufacturing</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>485</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00025">
+                     <ce:label>25</ce:label>
+                     <sb:reference id="sbref00025">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Sangrós Giménez</ce:surname>
+                                 <ce:given-name>C.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Schilde</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Froböse</ce:surname>
+                                 <ce:given-name>L.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Ivanov</ce:surname>
+                                 <ce:given-name>S.</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Mechanical, Electrical, and Ionic Behavior of Lithium-Ion Battery Electrodes via Discrete Element Method Simulations</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>8</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00026">
+                     <ce:label>26</ce:label>
+                     <sb:reference id="sbref00026">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Duquesnoy</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Lombardo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Chouchane</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.N.</ce:given-name>
+                                 <ce:surname>Primo</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Data-driven assessment of electrode calendering process by combining experimental results, in silico mesostructures generation and machine learning</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>480</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00027">
+                     <ce:label>27</ce:label>
+                     <sb:reference id="sbref00027">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Schreiner</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Klinger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Reinhart</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Modeling of the Calendering Process for Lithium-Ion Batteries with DEM Simulation</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>93</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>149</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00028">
+                     <ce:label>28</ce:label>
+                     <sb:reference id="sbref00028">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Schreiner</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Lindenblatt</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Günter</ce:surname>
+                                 <ce:given-name>F.J.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Reinhart</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>DEM Simulations of the Calendering Process: Parameterization of the Electrode Material of Lithium-Ion Batteries</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>104</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>91</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00029">
+                     <ce:label>29</ce:label>
+                     <ce:other-ref id="oref00029">
+                        <ce:textref>Wanner, J., Weeber, M., Birke, K.P., Sauer, A., 2019. Quality Modelling in Battery Cell Manufacturing Using Soft Sensoring and Sensor Fusion - A Review, in <ce:italic>2019 9th International Electric Drives Production Conference (EDPC)</ce:italic>, p. 1.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00030">
+                     <ce:label>30</ce:label>
+                     <ce:other-ref id="oref00030">
+                        <ce:textref>Keyence DEUTSCHLAND GmbH. LJ-V7200. <ce:inter-ref id="interrefs1" xlink:href="https://www.keyence.de/products/measure/laser-2d/lj-v/models/lj-v7200/" xlink:type="simple">https://www.keyence.de/products/measure/laser-2d/lj-v/models/lj-v7200/</ce:inter-ref>. Accessed 20 November 2021.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00031">
+                     <ce:label>31</ce:label>
+                     <ce:other-ref id="oref00031">
+                        <ce:textref>Keyence DEUTSCHLAND GmbH. CL-L030. <ce:inter-ref id="interrefs2" xlink:href="https://www.keyence.de/products/measure/laser-1d/cl-3000/models/cl-l030/" xlink:type="simple">https://www.keyence.de/products/measure/laser-1d/cl-3000/models/cl-l030/</ce:inter-ref>. Accessed 20 November 2021.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00032">
+                     <ce:label>32</ce:label>
+                     <sb:reference id="sbref00032">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Schafer</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>What Is a Savitzky-Golay Filter? [Lecture Notes]</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>28</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>111</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00033">
+                     <ce:label>33</ce:label>
+                     <sb:reference id="sbref00033">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Teufl</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Strehle</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Müller</ce:surname>
+                                 <ce:given-name>P.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.A.</ce:given-name>
+                                 <ce:surname>Gasteiger</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Oxygen Release and Surface Degradation of Li- and Mn-Rich Layered Oxides in Variation of the Li2MnO3 Content</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>165</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>A2718</sb:first-page>
+                              <sb:last-page>A2731</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00034">
+                     <ce:label>34</ce:label>
+                     <ce:other-ref id="oref00034">
+                        <ce:textref>Meyer, C. <ce:italic>Prozessmodellierung der Kalandrierung von Lithium-Ionen-Batterie-Elektroden</ce:italic>, 1st edn.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

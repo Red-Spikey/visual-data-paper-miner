@@ -1,0 +1,1124 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1876610219311208</prism:url><dc:identifier>doi:10.1016/j.egypro.2019.02.042</dc:identifier><eid>1-s2.0-S1876610219311208</eid><prism:doi>10.1016/j.egypro.2019.02.042</prism:doi><pii>S1876-6102(19)31120-8</pii><dc:title>Model-based state of charge estimation algorithms under various current patterns </dc:title><prism:publicationName>Energy Procedia</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>18766102</prism:issn><prism:volume>158</prism:volume><prism:startingPage>2806</prism:startingPage><prism:endingPage>2811</prism:endingPage><prism:pageRange>2806-2811</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2019-02-28</prism:coverDate><prism:coverDisplayDate>February 2019</prism:coverDisplayDate><prism:copyright>© 2019 The Author(s). Published by Elsevier Ltd.</prism:copyright><prism:publisher>The Author(s). Published by Elsevier Ltd.</prism:publisher><prism:issueName>Innovative Solutions for Energy Transitions</prism:issueName><dc:creator>Li, Shi</dc:creator><dc:creator>Zou, Changfu</dc:creator><dc:creator>Küpper, Mirco</dc:creator><dc:creator>Pischinger, Stefan</dc:creator><dc:description>
+                  Numerous model-based techniques have been proposed to estimate the state of charge (SOC) of lithium-ion batteries. In automotive applications, the algorithms are subjected to changing load profiles, requiring investigations into their general performance under various working conditions. In this study, three different load patterns derived from a customized dynamic driving profile, a standard driving cycle, and a constant discharge are used for the experimental verification. Four selected algorithms including the Ampere-hour counting, the extended Kalman filter, the particle filter, and the recursive least square filter are implemented. Their performance in terms of accuracy and robustness are compared. In addition, the load profile is analyzed in the frequency domain. The results show that the filter performance is dependent on the current patterns and can be correlated to the frequency spectrum of the load profile.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>ElsevierWaived</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>Electric vehicles</dcterms:subject><dcterms:subject>State of charge</dcterms:subject><dcterms:subject>Load condition</dcterms:subject><dcterms:subject>Extended Kalman filter</dcterms:subject><dcterms:subject>Particle filter</dcterms:subject><dcterms:subject>Recursive least square</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1876610219311208" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1876610219311208" rel="scidir"/></coredata><objects><object ref="am" category="standard" type="AAM-PDF" multimediatype="Acrobat PDF file" mimetype="application/pdf" size="2192745">https://api.elsevier.com/content/object/eid/1-s2.0-S1876610219311208-am.pdf?httpAccept=%2A%2F%2A</object></objects><scopus-id>85063896299</scopus-id><scopus-eid>2-s2.0-85063896299</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85063896299" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>277910</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291711</xocs:ssid>
+         <xocs:ssid type="subj">291731</xocs:ssid>
+         <xocs:ssid type="subj">291877</xocs:ssid>
+         <xocs:ssid type="subj">291892</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Energy Procedia</xocs:srctitle>
+      <xocs:normalized-srctitle>ENERGYPROCEDIA</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20190315">2019-03-15</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20190315">2019-03-15</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20190315">2019-03-15</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20190315">2019-03-15</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2019-06-03T23:57:06</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1876610219311208</xocs:eid>
+      <xocs:pii-formatted>S1876-6102(19)31120-8</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1876610219311208</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.egypro.2019.02.042</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.3</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1876610219X00041</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20240102">2024-01-02T00:54:10.318308Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20190201</xocs:date-search-begin>
+      <xocs:date-search-end>20190228</xocs:date-search-end>
+      <xocs:year-nav>2019</xocs:year-nav>
+      <xocs:indexeddate epoch="1552689610">2019-03-15T22:40:10.464493Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids confeditor contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content oa subj suppl tomb vol volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authkeywords authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1876-6102</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>18766102</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>158</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>158</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 158</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>440</xocs:sort-order>
+      <xocs:first-fp>2806</xocs:first-fp>
+      <xocs:last-lp>2811</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>2806</xocs:first-page>
+         <xocs:last-page>2811</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201902</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>February 2019</xocs:cover-date-text>
+      <xocs:cover-date-start>2019-02-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2019-02-28</xocs:cover-date-end>
+      <xocs:cover-date-year>2019</xocs:cover-date-year>
+      <xocs:title-editors-groups>
+         <xocs:title-editors-group>
+            <ce:title id="tt001">Innovative Solutions for Energy Transitions</ce:title>
+            <ce:editors>
+               <ce:author-group id="aa001">
+                  <ce:author author-id="S1876610219X00041-a63d3c9e8dff28446e4c34246043efb8" id="aa002">
+                     <ce:given-name>Jinyue</ce:given-name>
+                     <ce:surname>Yan</ce:surname>
+                  </ce:author>
+                  <ce:author author-id="S1876610219X00041-a9abfa559df138a45042fba24c270b57" id="aa003">
+                     <ce:given-name>Hong-xing</ce:given-name>
+                     <ce:surname>Yang</ce:surname>
+                  </ce:author>
+                  <ce:author author-id="S1876610219X00041-3026189c4a9ab4eb895727edd4791cc1" id="aa004">
+                     <ce:given-name>Hailong</ce:given-name>
+                     <ce:surname>Li</ce:surname>
+                  </ce:author>
+                  <ce:author author-id="S1876610219X00041-2ef79ac2fd2757577a2ef43970fccaf9" id="aa005">
+                     <ce:given-name>Xi</ce:given-name>
+                     <ce:surname>Chen</ce:surname>
+                  </ce:author>
+               </ce:author-group>
+            </ce:editors>
+         </xocs:title-editors-group>
+      </xocs:title-editors-groups>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>Intelligent Energy System</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>© 2019 The Author(s). Published by Elsevier Ltd.</xocs:copyright-line>
+      <xocs:normalized-article-title>MODELBASEDSTATECHARGEESTIMATIONALGORITHMSUNDERVARIOUSCURRENTPATTERNS</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>LI</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>S</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="othref0001"/>
+         <xocs:ref-info refid="sbref0002">
+            <xocs:ref-normalized-surname>CHENG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>76</xocs:ref-first-fp>
+            <xocs:ref-last-lp>88</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0003">
+            <xocs:ref-normalized-surname>PLETT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>252</xocs:ref-first-fp>
+            <xocs:ref-last-lp>261</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0004">
+            <xocs:ref-normalized-surname>DAI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>227</xocs:ref-first-fp>
+            <xocs:ref-last-lp>237</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0005">
+            <xocs:ref-normalized-surname>HU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>209</xocs:ref-first-fp>
+            <xocs:ref-last-lp>219</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0006">
+            <xocs:ref-normalized-surname>HU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>694</xocs:ref-first-fp>
+            <xocs:ref-last-lp>704</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0007">
+            <xocs:ref-normalized-surname>KIM</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4249</xocs:ref-first-fp>
+            <xocs:ref-last-lp>4260</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0008">
+            <xocs:ref-normalized-surname>LEE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2007</xocs:ref-pub-year>
+            <xocs:ref-first-fp>9</xocs:ref-first-fp>
+            <xocs:ref-last-lp>15</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0009">
+            <xocs:ref-normalized-surname>ZOU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>121</xocs:ref-first-fp>
+            <xocs:ref-last-lp>130</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00010">
+            <xocs:ref-normalized-surname>PLETT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1356</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1368</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00011">
+            <xocs:ref-normalized-surname>LI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>244</xocs:ref-first-fp>
+            <xocs:ref-last-lp>250</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="othref00012"/>
+         <xocs:ref-info refid="othref00013"/>
+         <xocs:ref-info refid="othref00014"/>
+         <xocs:ref-info refid="sbref00015">
+            <xocs:ref-normalized-surname>XIONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>108</xocs:ref-first-fp>
+            <xocs:ref-last-lp>117</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="othref00016"/>
+         <xocs:ref-info refid="sbref00017">
+            <xocs:ref-normalized-surname>SCHWUNK</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>705</xocs:ref-first-fp>
+            <xocs:ref-last-lp>710</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="othref00018"/>
+         <xocs:ref-info refid="othref00019"/>
+         <xocs:ref-info refid="sbref00020">
+            <xocs:ref-normalized-surname>XIONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1455</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1469</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00021">
+            <xocs:ref-normalized-surname>HE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>310</xocs:ref-first-fp>
+            <xocs:ref-last-lp>318</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00022">
+            <xocs:ref-normalized-surname>CHEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>601</xocs:ref-first-fp>
+            <xocs:ref-last-lp>606</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00023">
+            <xocs:ref-normalized-surname>TANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1275</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1283</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref00024">
+            <xocs:ref-normalized-surname>LI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1522</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1536</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>LIX2019X2806</xocs:refkey3>
+         <xocs:refkey4lp>LIX2019X2806X2811</xocs:refkey4lp>
+         <xocs:refkey4ai>LIX2019X2806XS</xocs:refkey4ai>
+         <xocs:refkey5>LIX2019X2806X2811XS</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2019-02-07T00:32:20Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>ElsevierWaived</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/PROC_UNBOUNDED_ESWaived">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY-NC-ND license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2019 The Author(s). Published by Elsevier Ltd.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1876-6102(19)31120-8</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1876610219311208</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1876610219311208</xocs:eid>
+         <xocs:doi>10.1016/j.egypro.2019.02.042</xocs:doi>
+         <xocs:cid>277910</xocs:cid>
+         <xocs:timestamp>2024-01-02T00:54:10.318308Z</xocs:timestamp>
+         <xocs:cover-date-start>2019-02-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2019-02-28</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1876610219311208-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1876610219311208/MAIN/application/pdf/663cc3400e42afe6adfa0eae866b606d/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>952077</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>6</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1876610219311208-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1876610219311208/PREVIEW/image/png/cab82967d4b61ef53884650bf0746709/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>42138</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1876610219311208-am.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:109120N8872/MAIN/application/pdf/114de19b4edbe5a90e71674b59e4ae35/am.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:109120N8872/MAIN/application/pdf/114de19b4edbe5a90e71674b59e4ae35/am.pdf</xocs:ucs-locator>
+               <xocs:file-basename>am</xocs:file-basename>
+               <xocs:filename>am.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>false</xocs:pdf-optimized>
+               <xocs:filesize>2192745</xocs:filesize>
+               <xocs:attachment-type>AAM-PDF</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">ScienceDirect Available online at www.sciencedirect.comAvailable online at w.sciencedirect.com ScienceDirect Energy Procedia 00 (2017) 000â€“000 www.elsevier.com/locate/procedia 1876-6102 Â© 2017 The Authors. Published by Elsevier Ltd. Peer-review under responsibility of the Scientific Committee of The 15th International Symposium on District Heating and Cooling. The 15th International Symposium on District Heating and Cooling Assessing the feasibility of using the heat demand-outdoor  temperature function for a long-term district heat demand forecast I. AndriÄ‡a,b,c*, A. Pinaa, P. FerrÃ£oa, J. Fournierb., B. LacarriÃ¨rec, O. Le Correc aIN+ Center for Innovation, Technology and Policy Research - Instituto Superior TÃ©cnico, Av. Rovisco Pais 1, 1049-001 Lisbon, Portugal bVeolia Recherche &amp; Innovation, 291 Avenue Dreyfous Daniel, 78520 Limay, France cDÃ©partement SystÃ¨mes Ã‰nergÃ©tiques et Environnement - IMT Atlantique, 4 rue Alfred Kastler, 44300 Nantes, France Abstract District heating networks are commonly addressed in the literature as one of the most effective solutions for decreasing the  greenhouse gas emissions from the building sector. These systems require high investments which are returned through the heat sales. Due to the changed climate conditions and building renovation policies, heat demand in the future could decrease,  prolonging the investment return period.  The main scope of this paper is to assess the feasibility of using the heat demand â€“ outdoor temperature function for heat demand  forecast. The district of Alvalade, located in Lisbon (Portugal), was used as a case study. The district is consisted of 665  buildings that vary in both construction period and typology. Three weather scenarios (low, medium, high) and three district  renovation scenarios were developed (shallow, intermediate, deep). To estimate the error, obtained heat demand values were  compared with results from a dynamic heat demand model, previously developed and validated by the authors. The results showed that when only weather change is considered, the margin of error could be acceptable for some applications (the error in annual demand was lower than 20% for all weather scenarios considered). However, after introducing renovation  scenarios, the error value increased up to 59.5% (depending on the weather and renovation scenarios combination considered).  The value of slope coefficient increased on average within the range of 3.8% up to 8% per decade, that corresponds to the  decrease in the number of heating hours of 22-139h during the heating season (depending on the combination of weather and  renovation scenarios considered). On the other hand, function intercept increased for 7.8-12.7% per decade (depending on the  coupled scenarios). The values suggested could be used to modify the function parameters for the scenarios considered, and  improve the accuracy of heat demand estimations. Â© 2017 The Authors. Published by Elsevier Ltd. Peer-review under responsibility of the Scientific Committee of The 15th International Symposium on District Heating and  Cooling. Keywords: Heat demand; Forecast; Climate change Energy Procedia 158 (2019) 28 6 2811 1876-6102 Â© 2019 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/) Peer-review under responsibility of the scientific committee of ICAE2018 â€“ The 10th International Conference on Applied Energy. 10.1016/j.egypro.2019.02.042 10.1016/j.egypro.2019.02.042 Â© 2019 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/) Peer-review under responsibility of the scientific committee of ICAE2018 â€“ The 10th International Conference on Applied Energy. 1876-6102   Available online at www.sciencedirect.com  ScienceDirect  Energy Procedia 00 (2018) 000â€“000   www.elsevier.com/locate/procedia    1876-6102 Copyright Â© 2018 Elsevier Ltd. All rights reserved.  Selection and peer-review under responsibility of the scientific committee of the 10th International Conference on Applied Energy (ICAE2018).  10th International Conference on Applied Energy (ICAE2018), 22-25 August 2018, Hong Kong,  China  Model-based state of charge estimation algorithms under various  current patterns  Shi Lia *, Changfu Zoub, Mirco KÃ¼pperc, Stefan Pischingera  aInstitute for Combustion Engines, RWTH Aachen University, Forckenbeckstrasse 4, D-52074 Aachen, Germany  bDepartment of Electrical Engineering, Chalmers University of Technology, Gothenburg 41296, Sweden  cFEV Europe GmbH, Neuenhofstrasse 181, D-52078 Aachen, Germany   Abstract  Numerous model-based techniques have been proposed to estimate the state of charge (SOC) of lithium-ion batteries. In  automotive applications, the algorithms are subjected to changing load profiles, requiring investigations into their general  performance under various working conditions. In this study, three different load patterns derived from a customized dynamic  driving profile, a standard driving cycle, and a constant discharge are used for the experimental verification. Four selected  algorithms including the Ampere-hour counting, the extended Kalman filter, the particle filter, and the recursive least square  filter are implemented. Their performance in terms of accuracy and robustness are compared. In addition, the load profile is  analyzed in the frequency domain. The results show that the filter performance is dependent on the current patterns and can be  correlated to the frequency spectrum of the load profile.    Copyright Â© 2018 Elsevier Ltd. All rights reserved.  Selection and peer-review under responsibility of the scientific committee of the 10th International Conference on Applied  Energy (ICAE2018).  Keywords: Electric vehicles; State of charge; Load condition; Extended Kalman filter; Particle filter; Recursive least square  1. Introduction  The model-based algorithm is the most widely investigated technique for state of charge (SOC) estimation of  lithium-ion batteries. The main idea of the model-based SOC estimation is to establish the relationship between the      * Corresponding author. Tel.: +49-241-80 48244; fax: +49-241-80 92630.  E-mail address: Li_shi@vka.rwth-aachen.de    Available online at www.sciencedirect.com  ScienceDirect  Energy Procedia 00 (2018) 000â€“000   www.elsevier.com/locate/procedia    1876-6102 Co yright Â© 2018 Els vier Ltd. All rig ts reserved.  Selection and peer-review under responsibility of the scientific committee of the 10th International Conference on Applied Energy (ICAE2018).  10th International Conference on Applied Energy (ICAE2018), 22-25 August 2018, Hong Kong,  China  Model-based s ate of ch rge est mation algori hms under various  current patterns  Shi Lia *, Changfu Zoub, Mirco KÃ¼pperc, Stefan Pischingera  aInstitute for Combustion Engines, RWTH Aachen University, Forckenbeckstrasse 4, D-52074 Aachen, Germany  bDepartment of Electrical Engineering, Chalmers University of Technology, Gothenburg 41296, Sweden  cFEV Europe GmbH, Neuenhofstrasse 181, D-52078 Aachen, Germany   Abstract  Numerous model-based techniques ave b en proposed to estimate the state of charge (SOC) of lithium-ion batteri s. In  automotive applications, the algorithms are ubjected to changing load profiles, requiring investigations into their general  performance under various working conditions. In this stu y, t ree different load patterns derived from a customized dynamic  driving profile, a standard driving cycle, and a constant ischarge re used for the experimental verification. Four selected  algorithms includi g the Ampere-hour counting, the extended K lman filter, the particle filter, and the recursive least square  filter are impl mented. Their performance in terms of accuracy and r bustness are compared. In addition, the load profile is  analyzed in the frequency domain. The r sults sh w that the filter performance is dependent on the current patterns and can be  correlated to the frequency spectrum of the load profile.    Copyright Â© 2018 Elsevier Ltd. All rights reserved.  Selection and peer-review under responsibility of the scientific committee of the 10th International Conference on Applied  Energy (ICAE2018).  Keywords: Electric vehicles; State of charge; Load condition; Extended Kalman filter; Particle filter; Recursive least square  1. Introduction  The model-based algorithm is the most widely investigated technique for state of charge (SOC) estimation of  lithium-ion batteries. The main idea of the model-based SOC estimation is to establish the relationship between the      * Corresponding author. Tel.: +49-241-80 48244; fax: +49-241-80 92630.  E-mail address: Li_shi@vka.rwth-aachen.de  2 Author name / Energy Procedia 00 (2018) 000â€“000  measured signals (current, voltage, and temperature) and the SOC by using a battery model. The model can be  connected to the cell measurement by employing a filter algorithm from modern control theory to form a closed-loop  estimation system. In these systems, the residual between the modeled and measured battery output is used for the  correction of the estimated states. In this way, inaccuracy caused by battery models and measured signals can be  reduced. The most widely used filtering algorithm is Kalman filter (KF). The standard Kalman filter is only suitable  for linear systems. So it can be applied to simple models [1,2]. When the system is nonlinear (like battery models),  more advanced variants of Kalman filter should be used. Extended Kalman filter (EKF) is used for SOC estimation  in [3â€“9], and Sigma-point Kalman filter (SPKF) is applied in [10â€“12]. Kalman filter and its variants assume that all  uncertainties and noises have zero mean and Gaussian distribution. Adaptive Kalman filter (AKF) and its variations  [13â€“15] are applied to estimate the model and measurement noises online. To overcome the limit brought by the  Gaussian assumption, particle filter (PF) or Monte Carlo filter is employed in [16â€“18] for SOC estimation. KF, PF,  and their variations belong to Bayesian filters known in control theory. The recursive least squares (RLS) filters with  an optimal forgetting factor is used to estimate SOC in [19â€“21]. Furthermore, other observers and controllers are  also used for SOC estimation, for example, the sliding mode observer and the Luenberger observer [22,23].  Although a variety of methods are presented above, they are usually only validated with a single load pattern.  Few have tackled the difference of the algorithms in different working conditions. In this study, a second-order  equivalent circuit model is built for a Lithium-Nickel-Manganese-Cobalt-Oxide (LiNMC) high-energy pouch cell  with the parameters derived from the pulse test. Four representative algorithms including Ah counting, EKF, PF, and  RLS are implemented. And an evaluation and comparison among them are performed. Furthermore, Fourier  transformation is used to analyze the frequency characteristics of load profiles. Conclusions are drawn regarding the  filter performance and the correlation to load profiles.  The remainder of this paper is organized as follows: in Section 2, the implementation of algorithm and model are  briefly explained; in Section 3, the test conditions, i.e., applied current patterns and synthetic errors are described; in  Section 3, the performances of SOC estimation under respective working condition are compared and analyzed. The  conclusions are drawn in Section 4.  2. Model and algorithm implementations  The model structure is the equivalent circuit model with one voltage source for open circuit voltage (OCV), one  resistance for internal resistance, and two parallel connected resistance-capacitance (RC) networks. The  parameterization test is the ten-second pulse test according to the standard IEC 62660-1. More details regarding the  experiment can be found in [24]. The nonlinear least square method is used to fit the model response to the measured  curves. The objective function for fitting is:  ï�› ï�� 2 1 2 2 1 1 ( ) ( ) t sim meat e U t U t dt t t ï€½ ï€­ ï€­ ïƒ²     (1)  where meaU  is the measured voltage from the test, and simU  the simulated voltage from the model. The optimization  process is repeated to minimize the objective function. The voltage response of the 2-RC model in pulse and  relaxation periods can be calculated by:  2 2 1 1 ( ) (1 exp( )) (1 ) (exp( ))sim OCV o pulse i pulse i i ii i i i t tU t U Factor R I R I Factor U R C R Cï€½ ï€½ ïƒ© ïƒ¹ ïƒ© ïƒ¹ ï€½ ï€« ïƒ— ïƒ— ï€« ïƒ— ïƒ— ï€­ ï€­ ï€« ï€­ ïƒ— ïƒ— ï€­ïƒª ïƒº ïƒª ïƒº ïƒ— ïƒ—ïƒ« ïƒ» ïƒ« ïƒ» ïƒ¥ ïƒ¥   (2)  where the second term on the right side of (2) is the voltage during the pulse period, and the third term the voltage  during the relaxation period. Factor  is a variable to differentiate the pulse and relax periods, which is set to 1  during the pulse and 0 during relaxation. iU  represents the initial voltage of the ith RC for the relaxation period,  where i equals 1 or 2.   Shi Li et al. / Energy Procedia 158 (2019) 2806â€“2811 2807  Available online at www.sciencedirect.com  ScienceDirect  Energy Procedia 00 (2018) 000â€“000   www.elsevier.com/locate/procedia    1876-6102 Copyright Â© 2018 Elsevier Ltd. All rights reserved.  Selection and peer-review under responsibility of the scientific committee of the 10th International Conference on Applied Energy (ICAE2018).  10th International Conference on Applied Energy (ICAE2018), 22-25 August 2018, Hong Kong,  China  Model-based state of charge estimation algorithms under various  current patterns  Shi Lia *, Changfu Zoub, Mirco KÃ¼pperc, Stefan Pischingera  aInstitute for Combustion Engines, RWTH Aachen University, Forckenbeckstrasse 4, D-52074 Aachen, Germany  bDepartment of Electrical Engineering, Chalmers University of Technology, Gothenburg 41296, Sweden  cFEV Europe GmbH, Neuenhofstrasse 181, D-52078 Aachen, Germany   Abstract  Numerous model-based techniques have been proposed to estimate the state of charge (SOC) of lithium-ion batteries. In  automotive applications, the algorithms are subjected to changing load profiles, requiring investigations into their general  performance under various working conditions. In this study, three different load patterns derived from a customized dynamic  driving profile, a standard driving cycle, and a constant discharge are used for the experimental verification. Four selected  algorithms including the Ampere-hour counting, the extended Kalman filter, the particle filter, and the recursive least square  filter are implemented. Their performance in terms of accuracy and robustness are compared. In addition, the load profile is  analyzed in the frequency domain. The results show that the filter performance is dependent on the current patterns and can be  correlated to the frequency spectrum of the load profile.    Copyright Â© 2018 Elsevier Ltd. All rights reserved.  Selection and peer-review under responsibility of the scientific committee of the 10th International Conference on Applied  Energy (ICAE2018).  Keywords: Electric vehicles; State of charge; Load condition; Extended Kalman filter; Particle filter; Recursive least square  1. Introduction  The model-based algorithm is the most widely investigated technique for state of charge (SOC) estimation of  lithium-ion batteries. The main idea of the model-based SOC estimation is to establish the relationship between the      * Corresponding author. Tel.: +49-241-80 48244; fax: +49-241-80 92630.  E-mail address: Li_shi@vka.rwth-aachen.de    Available online at www.sciencedirect.com  ScienceDirect  Energy Procedia 00 (2018) 000â€“000   www.elsevier.com/locate/procedia    1876-6102 Co yright Â© 2018 Els vier Ltd. All rig ts reserved.  Selection and peer-review under responsibility of the scientific committee of the 10th International Conference on Applied Energy (ICAE2018).  10th International Conference on Applied Energy (ICAE2018), 22-25 August 2018, Hong Kong,  China  Model-based state of charge estimation algorithms under various  current patterns  Shi Lia *, Changfu Zoub, Mirco KÃ¼pperc, Stefan Pischingera  aInstitute for Combustion Engines, RWTH Aachen University, Forckenbeckstrasse 4, D-52074 Aachen, Germany  bDepartment of Electrical Engineering, Chalmers University of Technology, Gothenburg 41296, Sweden  cFEV Europe GmbH, Neuenhofstrasse 181, D-52078 Aachen, Germany   Abstract  Numerous model-based techniques ave b en proposed to estimate the state of charge (SOC) of lithium-ion batteri s. In  automotive applications, the algorithms are ubjected to changing load profiles, requiring investigations into their general  performance under various working conditions. In this stu y, t ree different load patterns derived from a customized dynamic  driving profile, a standard driving cycle, and a constant ischarge re used for the experimental verification. Four selected  algorithms includi g the Ampere-hour counting, the extended K lman filter, the particle filter, and the recursive least square  filter are impl mented. Their performance in terms of accuracy and r bustness are compared. In addition, the load profile is  analyzed in the frequency domain. The r sults sh w that the filter performance is dependent on the current patterns and can be  correlated to the frequency spectrum of the load profile.    Copyright Â© 2018 Elsevier Ltd. All rights reserved.  Selection and peer-review under responsibility of the scientific committee of the 10th International Conference on Applied  Energy (ICAE2018).  Keywords: Electric vehicles; State of charge; Load condition; Extended Kalman filter; Particle filter; Recursive least square  1. Introduction  The model-based algorithm is the most widely investigated technique for state of charge (SOC) estimation of  lithium-ion batteries. The main idea of the model-based SOC estimation is to establish the relationship between the      * Corresponding author. Tel.: +49-241-80 48244; fax: +49-241-80 92630.  E-mail address: Li_shi@vka.rwth-aachen.de  2 Author name / Energy Procedia 00 (2018) 000â€“000  measured signals (current, voltage, and temperature) and the SOC by using a battery model. The model can be  connected to the cell measurement by employing a filter algorithm from modern control theory to form a closed-loop  estimation system. In these systems, the residual between the modeled and measured battery output is used for the  correction of the estimated states. In this way, inaccuracy caused by battery models and measured signals can be  reduced. The most widely used filtering algorithm is Kalman filter (KF). The standard Kalman filter is only suitable  for linear systems. So it can be applied to simple models [1,2]. When the system is nonlinear (like battery models),  more advanced variants of Kalman filter should be used. Extended Kalman filter (EKF) is used for SOC estimation  in [3â€“9], and Sigma-point Kalman filter (SPKF) is applied in [10â€“12]. Kalman filter and its variants assume that all  uncertainties and noises have zero mean and Gaussian distribution. Adaptive Kalman filter (AKF) and its variations  [13â€“15] are applied to estimate the model and measurement noises online. To overcome the limit brought by the  Gaussian assumption, particle filter (PF) or Monte Carlo filter is employed in [16â€“18] for SOC estimation. KF, PF,  and their variations belong to Bayesian filters known in control theory. The recursive least squares (RLS) filters with  an optimal forgetting factor is used to estimate SOC in [19â€“21]. Furthermore, other observers and controllers are  also used for SOC estimation, for example, the sliding mode observer and the Luenberger observer [22,23].  Although a variety of methods are presented above, they are usually only validated with a single load pattern.  Few have tackled the difference of the algorithms in different working conditions. In this study, a second-order  equivalent circuit model is built for a Lithium-Nickel-Manganese-Cobalt-Oxide (LiNMC) high-energy pouch cell  with the parameters derived from the pulse test. Four representative algorithms including Ah counting, EKF, PF, and  RLS are implemented. And an evaluation and comparison among them are performed. Furthermore, Fourier  transformation is used to analyze the frequency characteristics of load profiles. Conclusions are drawn regarding the  filter performance and the correlation to load profiles.  The remainder of this paper is organized as follows: in Section 2, the implementation of algorithm and model are  briefly explained; in Section 3, the test conditions, i.e., applied current patterns and synthetic errors are described; in  Section 3, the performances of SOC estimation under respective working condition are compared and analyzed. The  conclusions are drawn in Section 4.  2. Model and algorithm implementations  The model structure is the equivalent circuit model with one voltage source for open circuit voltage (OCV), one  resistance for internal resistance, and two parallel connected resistance-capacitance (RC) networks. The  parameterization test is the ten-second pulse test according to the standard IEC 62660-1. More details regarding the  experiment can be found in [24]. The nonlinear least square method is used to fit the model response to the measured  curves. The objective function for fitting is:  ï�› ï�� 2 1 2 2 1 1 ( ) ( ) t sim meat e U t U t dt t t ï€½ ï€­ ï€­ ïƒ²     (1)  where meaU  is the measured voltage from the test, and simU  the simulated voltage from the model. The optimization  process is repeated to minimize the objective function. The voltage response of the 2-RC model in pulse and  relaxation periods can be calculated by:  2 2 1 1 ( ) (1 exp( )) (1 ) (exp( ))sim OCV o pulse i pulse i i ii i i i t tU t U Factor R I R I Factor U R C R Cï€½ ï€½ ïƒ© ïƒ¹ ïƒ© ïƒ¹ ï€½ ï€« ïƒ— ïƒ— ï€« ïƒ— ïƒ— ï€­ ï€­ ï€« ï€­ ïƒ— ïƒ— ï€­ïƒª ïƒº ïƒª ïƒº ïƒ— ïƒ—ïƒ« ïƒ» ïƒ« ïƒ» ïƒ¥ ïƒ¥   (2)  where the second term on the right side of (2) is the voltage during the pulse period, and the third term the voltage  during the relaxation period. Factor  is a variable to differentiate the pulse and relax periods, which is set to 1  during the pulse and 0 during relaxation. iU  represents the initial voltage of the ith RC for the relaxation period,  where i equals 1 or 2.  2808 Shi Li et al. / Energy Procedia 158 (2019) 2806â€“2811  Author name / Energy Procedia 00 (2018) 000â€“000  3  The tested algorithms are three popular model-based algorithms (EKF, PF, and RLS). The traditional Ampere- hour counting approach (Ah) is also used as a reference. For the detailed implementation procedures, the readers are  kindly referred to the papers mentioned in Section 1.  3. Verification conditions  The validation tests to gather data are carried out on the LiNMC cell. It is essential to know the general  performance of the algorithms instead of a specific working condition. Therefore, three different load profiles with  different durations and different current patterns are applied in the validation tests. The current profiles and their  voltage responses are shown in Fig. 1. The working condition (a) is derived from a customized dynamic profile used  for electric vehicle testing. The cell is fully charged and then discharged to around 70%. The working condition (b)  is derived from a standard driving cycle called Artemis Urban. The cell is initialized with 68% and discharged to  63%. The working condition (c) is to evaluate the performance under a static load. The cell is fully charged and then  discharged with 1/3 C for 5000s.   (a) (b) (c)          Fig. 1. Current profile and corresponding voltage response of the validation measurement (a), (b), and (c)  The sensor noises must be considered to simulate the vehicle application. Both Gaussian noise and non-Gaussian  noise need to be considered. The synthetic sensor noise is approximated according to state-of-the-art sensor  suppliers. For the current sensor, the offset is set to 25 mA, the gain error 0.3%, and the covariance of the white  noise 2 mA. For the voltage sensor, the offset is set to 6 mV, and the covariance of the white noise 10 mV.  4. Results and analysis  In the following, the estimation accuracy and convergence behavior are evaluated. The tested algorithms are the  traditional Ampere-hour counting approach (Ah) and three popular model-based algorithms (EKF, PF, and RLS).  The parameterizations of the filters have a direct impact on the performance. They are usually determined based on  the knowledge of model and sensor accuracy. In addition, some tuning for practical situations might be necessary.  For the sake of comparison, the tuning in this work is conducted in a way that the filters have very close accuracy in  the first validation test. Then the parameters are kept the same for the rest of verifications. The number of particles in  PF will also influence the accuracy and adaptability of this algorithm. But more particles used will increase the  computational burden of the filter. Therefore, the particle number has to be chosen considering these aspects. It is  fixed to 100 in this study.  To examine the accuracy of the four algorithms, they are initialized correctly. The SOC calculated using the  correct current is taking as the reference SOC. The simulation results of estimation error are plotted in Fig. 2. An  overview of results at different working conditions is listed in Table 1.  4 Author name / Energy Procedia 00 (2018) 000â€“000  Compared with three model-based algorithms, the estimation with Ah counting displays the best accuracy. This is  due to the fact that nowadays the commercially available sensors already have high accuracies. When the  initialization is correct, the estimation accuracy is mainly influenced by the sensor accuracy and time. The estimation  error of Ah displays an increasing trend owing to the nature of integration calculation. The error due to imperfect  measurements will accumulate and becomes critical for long-term performance.  The root-mean-square errors (RMSE) of three model-based algorithms are very close in working condition (a).  This is due to the fact that the filters are tuned based on this working condition. This is taken as an equal starting  point for the comparison. Although the RMSEs are close, PF and EKF display similar curves, which are distinctly  different from RLS.  The three filters behave differently in different working conditions. EKF has the smallest maximum error in (a),  RLS the smallest in (b), and PF the smallest in (c). Comparing the two Bayesian filters, PF is worse in (b) and better  in (c). Clearly, the filter performance is working condition dependent. The worst case is the (c) with the constant  current.  (a) (b) (c)      Fig. 2. Estimation results of algorithms for load conditions (a), (b), and (c), correct initialization (above) and incorrect initialization (below)  Table 1. Comparison of different algorithms.   Load condition (a) Load condition (b) Load condition (c)  Correct initialization   Ah EKF PF RLS Ah EKF PF RLS Ah EKF PF RLS  RMSE (%) 0.11 0.90 0.90 0.90 0.02 1.65 1.98 0.92 0.12 3.12 3.07 1.86  Maximum (%)  0.25 1.49 2.33 1.76 0.08 2.31 2.56 2.10 0.21 4.17 3.96 5.46  Incorrect initialization  RMSE (%) 20.09 1.80 1.62 4.62 20.01 5.71 3.19 11.99 20.10 4.03 3.67 6.41  Convergence  time (s) n/a 139 33 1282 n/a n/a 69 n/a n/a 330 56 2169  To examine the robustness of the four algorithms, they are initialized with SOCs which are 20% lower than their  correct values. The estimation results are plotted in Fig. 2. When the output of the algorithm reaches 3% error bound  of the SOC reference value, the estimation is considered converged. The time from the initialization until this stage,  called convergence time, is used to quantify the convergence speed. The RMSE and the convergence time are  summarized in Table 1.   Shi Li et al. / Energy Procedia 158 (2019) 2806â€“2811 2809  Author name / Energy Procedia 00 (2018) 000â€“000  3  The tested algorithms are three popular model-based algorithms (EKF, PF, and RLS). The traditional Ampere- hour counting approach (Ah) is also used as a reference. For the detailed implementation procedures, the readers are  kindly referred to the papers mentioned in Section 1.  3. Verification conditions  The validation tests to gather data are carried out on the LiNMC cell. It is essential to know the general  performance of the algorithms instead of a specific working condition. Therefore, three different load profiles with  different durations and different current patterns are applied in the validation tests. The current profiles and their  voltage responses are shown in Fig. 1. The working condition (a) is derived from a customized dynamic profile used  for electric vehicle testing. The cell is fully charged and then discharged to around 70%. The working condition (b)  is derived from a standard driving cycle called Artemis Urban. The cell is initialized with 68% and discharged to  63%. The working condition (c) is to evaluate the performance under a static load. The cell is fully charged and then  discharged with 1/3 C for 5000s.   (a) (b) (c)          Fig. 1. Current profile and corresponding voltage response of the validation measurement (a), (b), and (c)  The sensor noises must be considered to simulate the vehicle application. Both Gaussian noise and non-Gaussian  noise need to be considered. The synthetic sensor noise is approximated according to state-of-the-art sensor  suppliers. For the current sensor, the offset is set to 25 mA, the gain error 0.3%, and the covariance of the white  noise 2 mA. For the voltage sensor, the offset is set to 6 mV, and the covariance of the white noise 10 mV.  4. Results and analysis  In the following, the estimation accuracy and convergence behavior are evaluated. The tested algorithms are the  traditional Ampere-hour counting approach (Ah) and three popular model-based algorithms (EKF, PF, and RLS).  The parameterizations of the filters have a direct impact on the performance. They are usually determined based on  the knowledge of model and sensor accuracy. In addition, some tuning for practical situations might be necessary.  For the sake of comparison, the tuning in this work is conducted in a way that the filters have very close accuracy in  the first validation test. Then the parameters are kept the same for the rest of verifications. The number of particles in  PF will also influence the accuracy and adaptability of this algorithm. But more particles used will increase the  computational burden of the filter. Therefore, the particle number has to be chosen considering these aspects. It is  fixed to 100 in this study.  To examine the accuracy of the four algorithms, they are initialized correctly. The SOC calculated using the  correct current is taking as the reference SOC. The simulation results of estimation error are plotted in Fig. 2. An  overview of results at different working conditions is listed in Table 1.  4 Author name / Energy Procedia 00 (2018) 000â€“000  Compared with three model-based algorithms, the estimation with Ah counting displays the best accuracy. This is  due to the fact that nowadays the commercially available sensors already have high accuracies. When the  initialization is correct, the estimation accuracy is mainly influenced by the sensor accuracy and time. The estimation  error of Ah displays an increasing trend owing to the nature of integration calculation. The error due to imperfect  measurements will accumulate and becomes critical for long-term performance.  The root-mean-square errors (RMSE) of three model-based algorithms are very close in working condition (a).  This is due to the fact that the filters are tuned based on this working condition. This is taken as an equal starting  point for the comparison. Although the RMSEs are close, PF and EKF display similar curves, which are distinctly  different from RLS.  The three filters behave differently in different working conditions. EKF has the smallest maximum error in (a),  RLS the smallest in (b), and PF the smallest in (c). Comparing the two Bayesian filters, PF is worse in (b) and better  in (c). Clearly, the filter performance is working condition dependent. The worst case is the (c) with the constant  current.  (a) (b) (c)      Fig. 2. Estimation results of algorithms for load conditions (a), (b), and (c), correct initialization (above) and incorrect initialization (below)  Table 1. Comparison of different algorithms.   Load condition (a) Load condition (b) Load condition (c)  Correct initialization   Ah EKF PF RLS Ah EKF PF RLS Ah EKF PF RLS  RMSE (%) 0.11 0.90 0.90 0.90 0.02 1.65 1.98 0.92 0.12 3.12 3.07 1.86  Maximum (%)  0.25 1.49 2.33 1.76 0.08 2.31 2.56 2.10 0.21 4.17 3.96 5.46  Incorrect initialization  RMSE (%) 20.09 1.80 1.62 4.62 20.01 5.71 3.19 11.99 20.10 4.03 3.67 6.41  Convergence  time (s) n/a 139 33 1282 n/a n/a 69 n/a n/a 330 56 2169  To examine the robustness of the four algorithms, they are initialized with SOCs which are 20% lower than their  correct values. The estimation results are plotted in Fig. 2. When the output of the algorithm reaches 3% error bound  of the SOC reference value, the estimation is considered converged. The time from the initialization until this stage,  called convergence time, is used to quantify the convergence speed. The RMSE and the convergence time are  summarized in Table 1.  2810 Shi Li et al. / Energy Procedia 158 (2019) 2806â€“2811  Author name / Energy Procedia 00 (2018) 000â€“000  5  The Ah method is expected to have no robustness against erroneous initialization. Among the three model-based  algorithms, the difference in convergence speed is evident. As shown in the figures, PF is the fastest and RLS the  slowest. Due to the fastest convergence speed, PF always displays the best RMSE.   As next, the frequencies in the power signal of the validation profile are determined using discrete Fourier  transformation. The x-axis represents the different excitation frequencies. The y-axis is the relative power spectrum  density. Frequencies with higher power density will play a more critical role in the estimation results than those with  lower density. As the absolute power densities for the three spectra differ significantly in magnitude, they are  divided by their maximum value respectively for a better comparison.     Fig. 3. The frequency spectra of three load conditions  Fig. 3 shows the frequency spectrum of three investigated load profiles from Section 3. All three profiles are  measured at a sampling rate of 100Hz. According to Nyquist-Shannon sampling theorem, the highest possible  frequency that can be represented in this spectrum is 50Hz. However, all excitation frequencies in the driving  profiles are below 10Hz.  The second load condition is derived from Artemis Urban driving cycle. It aims to describe the typical driving  condition in the city. Therefore, it has lower dynamic load and less high-frequency content compared to load  condition (a). The third condition is the constant discharge. It has the extreme situation that only low frequency  exists. With more low-frequency portion in the load pattern, less excitation can be provided to the battery model.  This might explain the difference of accuracy for all three model-based algorithms in the previous comparison.  5. Conclusions  In this paper, four popular algorithms for SOC estimation are implemented and examined. Three different load  profiles are used. The gain and offset errors are considered. The validation tests have illustrated that the filter  performance and their superiority over each other are dependent on the working conditions. A general conclusion on  superiority among the three filter algorithms should thus not be drawn merely. Among the three load profiles, the  accuracy of the filters increases when the amplitude of the low-frequency in the spectra decreases. The working  condition of the constant current is the most difficult for all filter algorithms to predict. As electric vehicles are  applied under various dynamic conditions, the adaptability and generality of SOC algorithms should be handled  carefully. Further investigations are required to obtain a more accurate relationship between the load frequency and  filter performance.  Acknowledgements  This research is supported by research partnership â€˜â€˜ANFAHRTâ€™â€™ between the RWTH Aachen University and the  University of Applied Sciences FH Aachen. It is funded by Ministerium fÃ¼r Innovation, Wissenschaft und  Forschung des Landes Nordrhein-Westfalen (MIWFT NRW). FEV GmbH is the industrial partner.  References  [1] Yan J, Li C, Xu G, Xu Y. A novel on-line self-learning state-of-charge estimation of battery management system for hybrid electric  6 Author name / Energy Procedia 00 (2018) 000â€“000  vehicle. IEEE Intell Veh Symp Proc 2009:1161â€“6. doi:10.1109/IVS.2009.5164446.  [2] Cheng KWE, Divakar BP, Wu H, Ding K, Ho HF. Battery-management system (BMS) and SOC development for electrical vehicles.  IEEE Trans Veh Technol 2011;60:76â€“88. doi:10.1109/TVT.2010.2089647.  [3] Plett GL. Extended Kalman filtering for battery management systems of LiPB-based HEV battery packs Part 1. Background. J Power  Sources 2004;134:252â€“61. doi:10.1016/j.jpowsour.2004.02.031.  [4] Dai H, Wei X, Sun Z, Wang J, Gu W. Online cell SOC estimation of Li-ion battery packs using a dual time-scale Kalman filtering for  EV applications. Appl Energy 2012;95:227â€“37. doi:10.1016/j.apenergy.2012.02.044.  [5] Hu X, Li S, Peng H, Sun F. Robustness analysis of State-of-Charge estimation methods for two types of Li-ion batteries. J Power  Sources 2012;217:209â€“19. doi:10.1016/j.jpowsour.2012.06.005.  [6] Hu C, Youn BD, Chung J. A multiscale framework with extended Kalman filter for lithium-ion battery SOC and capacity estimation.  Appl Energy 2012;92:694â€“704. doi:10.1016/j.apenergy.2011.08.002.  [7] Kim J, Cho BH. State-of-charge estimation and state-of-health prediction of a Li-Ion degraded battery based on an EKF combined with  a per-unit system. IEEE Trans Veh Technol 2011;60:4249â€“60. doi:10.1109/TVT.2011.2168987.  [8] Lee J, Nam O, Cho BH. Li-ion battery SOC estimation method based on the reduced order extended Kalman filtering. J Power Sources  2007;174:9â€“15. doi:10.1016/j.jpowsour.2007.03.072.  [9] Zou C, Manzie C, Nesic D, Kallapur AG. Multi-time-scale observer design for state-of-charge and state-of-health of a lithium-ion  battery. J Power Sources 2016;335:121â€“30. doi:10.1016/j.jpowsour.2016.10.040.  [10] Plett GL. Sigma-point Kalman filtering for battery management systems of LiPB-based HEV battery packs Part 1: Introduction and  state estimation. J Power Sources 2006;161:1356â€“68. doi:10.1016/j.jpowsour.2006.06.003.  [11] Li J, Barillas JK, Guenther C, Danzer MA. A comparative study of state of charge estimation algorithms for LiFePO 4 batteries used in  electric vehicles. J Power Sources 2013;230:244â€“50. doi:10.1016/j.jpowsour.2012.12.057.  [12] Wang L, Wang L, Liao C, Liu J. Sigma-point Kalman filter application on estimating battery SOC. 5th IEEE Veh Power Propuls Conf  VPPC â€™09 2009:1592â€“5. doi:10.1109/VPPC.2009.5289604.  [13] Sepasi S, Ghorbani R, Liaw BY. SOC estimation for aged lithium-ion batteries using model adaptive extended Kalman filter. 2013  IEEE Transp Electrif Conf Expo 2013:1â€“6. doi:10.1109/ITEC.2013.6573479.  [14] Michel P-H, Heiries V. An Adaptive Sigma Point Kalman Filter Hybridized by Support Vector Machine Algorithm for Battery SoC  and SoH Estimation. 2015 IEEE 81st Veh. Technol. Conf. (VTC Spring), vol. 2015, IEEE; 2015, p. 1â€“7.  doi:10.1109/VTCSpring.2015.7145678.  [15] Xiong R, He H, Sun F, Zhao K. Evaluation on State of Charge Estimation of Batteries With Adaptive Extended Kalman Filter by  Experiment Approach. IEEE Trans Veh Technol 2013;62:108â€“17. doi:10.1109/TVT.2012.2222684.  [16] Zahid T, Xu G, Li W, Zhao L, Xu K. Performance Analysis of Particle Filter for SOC Estimation of LiFePO4 Battery Pack for Electric  Vehicles. Proc IEEE Int Conf Inf Autom 2014:1061â€“5.  [17] Schwunk S, Armbruster N, Straub S, Kehl J, Vetter M. Particle filter for state of charge and state of health estimation for lithium-iron  phosphate batteries. J Power Sources 2013;239:705â€“10. doi:10.1016/j.jpowsour.2012.10.058.  [18] Hao X, Wu J. Online State Estimation Using Particles Filters of Lithium-Ion Polymer Battery Packs for Electric Vehicle. 2015 IEEE  Int. Conf. Syst. Man, Cybern., IEEE; 2015, p. 783â€“8. doi:10.1109/SMC.2015.146.  [19] Hu X, Sun F, Zou Y, Peng H. Online estimation of an electric vehicle Lithium-Ion battery using recursive least squares with forgetting.  Proc 2011 Am Control Conf 2011:935â€“40. doi:10.1109/ACC.2011.5991260.  [20] Xiong R, He H, Sun F, Zhao K. Online estimation of peak power capability of Li-Ion batteries in electric vehicles by a hardware-in- loop approach. Energies 2012;5:1455â€“69. doi:10.3390/en5051455.  [21] He H, Zhang X, Xiong R, Xu Y, Guo H. Online model-based estimation of state-of-charge and open-circuit voltage of lithium-ion  batteries in electric vehicles. Energy 2012;39:310â€“8. doi:10.1016/j.energy.2012.01.009.  [22] Chen X, Shen W, Cao Z, Kapoor A. Sliding mode observer for state of charge estimation based on battery equivalent circuit in electric  vehicles. Aust J Electr Electron Eng 2012;9:601â€“6. doi:10.7158/E11-056.2012.9.3.  [23] Tang X, Liu B, Lv Z, Gao F. Observer based battery SOC estimation: Using multi-gain-switching approach. Appl Energy  2017;204:1275â€“83. doi:10.1016/j.apenergy.2017.03.079.  [24] Li S, Pischinger S, He C, Liang L, Stapelbroek M. A comparative study of model-based capacity estimation algorithms in dual  estimation frameworks for lithium-ion batteries under an accelerated aging test. Appl Energy 2018;212:1522â€“36.  doi:10.1016/j.apenergy.2018.01.008.       Shi Li et al. / Energy Procedia 158 (2019) 2806â€“2811 2811  Author name / Energy Procedia 00 (2018) 000â€“000  5  The Ah method is expected to have no robustness against erroneous initialization. Among the three model-based  algorithms, the difference in convergence speed is evident. As shown in the figures, PF is the fastest and RLS the  slowest. Due to the fastest convergence speed, PF always displays the best RMSE.   As next, the frequencies in the power signal of the validation profile are determined using discrete Fourier  transformation. The x-axis represents the different excitation frequencies. The y-axis is the relative power spectrum  density. Frequencies with higher power density will play a more critical role in the estimation results than those with  lower density. As the absolute power densities for the three spectra differ significantly in magnitude, they are  divided by their maximum value respectively for a better comparison.     Fig. 3. The frequency spectra of three load conditions  Fig. 3 shows the frequency spectrum of three investigated load profiles from Section 3. All three profiles are  measured at a sampling rate of 100Hz. According to Nyquist-Shannon sampling theorem, the highest possible  frequency that can be represented in this spectrum is 50Hz. However, all excitation frequencies in the driving  profiles are below 10Hz.  The second load condition is derived from Artemis Urban driving cycle. It aims to describe the typical driving  condition in the city. Therefore, it has lower dynamic load and less high-frequency content compared to load  condition (a). The third condition is the constant discharge. It has the extreme situation that only low frequency  exists. With more low-frequency portion in the load pattern, less excitation can be provided to the battery model.  This might explain the difference of accuracy for all three model-based algorithms in the previous comparison.  5. Conclusions  In this paper, four popular algorithms for SOC estimation are implemented and examined. Three different load  profiles are used. The gain and offset errors are considered. The validation tests have illustrated that the filter  performance and their superiority over each other are dependent on the working conditions. A general conclusion on  superiority among the three filter algorithms should thus not be drawn merely. Among the three load profiles, the  accuracy of the filters increases when the amplitude of the low-frequency in the spectra decreases. The working  condition of the constant current is the most difficult for all filter algorithms to predict. As electric vehicles are  applied under various dynamic conditions, the adaptability and generality of SOC algorithms should be handled  carefully. Further investigations are required to obtain a more accurate relationship between the load frequency and  filter performance.  Acknowledgements  This research is supported by research partnership â€˜â€˜ANFAHRTâ€™â€™ between the RWTH Aachen University and the  University of Applied Sciences FH Aachen. It is funded by Ministerium fÃ¼r Innovation, Wissenschaft und  Forschung des Landes Nordrhein-Westfalen (MIWFT NRW). FEV GmbH is the industrial partner.  References  [1] Yan J, Li C, Xu G, Xu Y. A novel on-line self-learning state-of-charge estimation of battery management system for hybrid electric  6 Author name / Energy Procedia 00 (2018) 000â€“000  vehicle. IEEE Intell Veh Symp Proc 2009:1161â€“6. doi:10.1109/IVS.2009.5164446.  [2] Cheng KWE, Divakar BP, Wu H, Ding K, Ho HF. Battery-management system (BMS) and SOC development for electrical vehicles.  IEEE Trans Veh Technol 2011;60:76â€“88. doi:10.1109/TVT.2010.2089647.  [3] Plett GL. Extended Kalman filtering for battery management systems of LiPB-based HEV battery packs Part 1. Background. J Power  Sources 2004;134:252â€“61. doi:10.1016/j.jpowsour.2004.02.031.  [4] Dai H, Wei X, Sun Z, Wang J, Gu W. Online cell SOC estimation of Li-ion battery packs using a dual time-scale Kalman filtering for  EV applications. Appl Energy 2012;95:227â€“37. doi:10.1016/j.apenergy.2012.02.044.  [5] Hu X, Li S, Peng H, Sun F. Robustness analysis of State-of-Charge estimation methods for two types of Li-ion batteries. J Power  Sources 2012;217:209â€“19. doi:10.1016/j.jpowsour.2012.06.005.  [6] Hu C, Youn BD, Chung J. A multiscale framework with extended Kalman filter for lithium-ion battery SOC and capacity estimation.  Appl Energy 2012;92:694â€“704. doi:10.1016/j.apenergy.2011.08.002.  [7] Kim J, Cho BH. State-of-charge estimation and state-of-health prediction of a Li-Ion degraded battery based on an EKF combined with  a per-unit system. IEEE Trans Veh Technol 2011;60:4249â€“60. doi:10.1109/TVT.2011.2168987.  [8] Lee J, Nam O, Cho BH. Li-ion battery SOC estimation method based on the reduced order extended Kalman filtering. J Power Sources  2007;174:9â€“15. doi:10.1016/j.jpowsour.2007.03.072.  [9] Zou C, Manzie C, Nesic D, Kallapur AG. Multi-time-scale observer design for state-of-charge and state-of-health of a lithium-ion  battery. J Power Sources 2016;335:121â€“30. doi:10.1016/j.jpowsour.2016.10.040.  [10] Plett GL. Sigma-point Kalman filtering for battery management systems of LiPB-based HEV battery packs Part 1: Introduction and  state estimation. J Power Sources 2006;161:1356â€“68. doi:10.1016/j.jpowsour.2006.06.003.  [11] Li J, Barillas JK, Guenther C, Danzer MA. A comparative study of state of charge estimation algorithms for LiFePO 4 batteries used in  electric vehicles. J Power Sources 2013;230:244â€“50. doi:10.1016/j.jpowsour.2012.12.057.  [12] Wang L, Wang L, Liao C, Liu J. Sigma-point Kalman filter application on estimating battery SOC. 5th IEEE Veh Power Propuls Conf  VPPC â€™09 2009:1592â€“5. doi:10.1109/VPPC.2009.5289604.  [13] Sepasi S, Ghorbani R, Liaw BY. SOC estimation for aged lithium-ion batteries using model adaptive extended Kalman filter. 2013  IEEE Transp Electrif Conf Expo 2013:1â€“6. doi:10.1109/ITEC.2013.6573479.  [14] Michel P-H, Heiries V. An Adaptive Sigma Point Kalman Filter Hybridized by Support Vector Machine Algorithm for Battery SoC  and SoH Estimation. 2015 IEEE 81st Veh. Technol. Conf. (VTC Spring), vol. 2015, IEEE; 2015, p. 1â€“7.  doi:10.1109/VTCSpring.2015.7145678.  [15] Xiong R, He H, Sun F, Zhao K. Evaluation on State of Charge Estimation of Batteries With Adaptive Extended Kalman Filter by  Experiment Approach. IEEE Trans Veh Technol 2013;62:108â€“17. doi:10.1109/TVT.2012.2222684.  [16] Zahid T, Xu G, Li W, Zhao L, Xu K. Performance Analysis of Particle Filter for SOC Estimation of LiFePO4 Battery Pack for Electric  Vehicles. Proc IEEE Int Conf Inf Autom 2014:1061â€“5.  [17] Schwunk S, Armbruster N, Straub S, Kehl J, Vetter M. Particle filter for state of charge and state of health estimation for lithium-iron  phosphate batteries. J Power Sources 2013;239:705â€“10. doi:10.1016/j.jpowsour.2012.10.058.  [18] Hao X, Wu J. Online State Estimation Using Particles Filters of Lithium-Ion Polymer Battery Packs for Electric Vehicle. 2015 IEEE  Int. Conf. Syst. Man, Cybern., IEEE; 2015, p. 783â€“8. doi:10.1109/SMC.2015.146.  [19] Hu X, Sun F, Zou Y, Peng H. Online estimation of an electric vehicle Lithium-Ion battery using recursive least squares with forgetting.  Proc 2011 Am Control Conf 2011:935â€“40. doi:10.1109/ACC.2011.5991260.  [20] Xiong R, He H, Sun F, Zhao K. Online estimation of peak power capability of Li-Ion batteries in electric vehicles by a hardware-in- loop approach. Energies 2012;5:1455â€“69. doi:10.3390/en5051455.  [21] He H, Zhang X, Xiong R, Xu Y, Guo H. Online model-based estimation of state-of-charge and open-circuit voltage of lithium-ion  batteries in electric vehicles. Energy 2012;39:310â€“8. doi:10.1016/j.energy.2012.01.009.  [22] Chen X, Shen W, Cao Z, Kapoor A. Sliding mode observer for state of charge estimation based on battery equivalent circuit in electric  vehicles. Aust J Electr Electron Eng 2012;9:601â€“6. doi:10.7158/E11-056.2012.9.3.  [23] Tang X, Liu B, Lv Z, Gao F. Observer based battery SOC estimation: Using multi-gain-switching approach. Appl Energy  2017;204:1275â€“83. doi:10.1016/j.apenergy.2017.03.079.  [24] Li S, Pischinger S, He C, Liang L, Stapelbroek M. A comparative study of model-based capacity estimation algorithms in dual  estimation frameworks for lithium-ion batteries under an accelerated aging test. Appl Energy 2018;212:1522â€“36.  doi:10.1016/j.apenergy.2018.01.008.      ended Kalman filter for lithium-ion battery SOC and capacity estimation.  Appl Energy 2012;92:694â€“704. doi:10.1016/j.apenergy.2011.08.002.  [7] Kim J, Cho BH. State-of-charge estimation and state-of-health prediction of a Li-Ion degraded battery based on an EKF combined with  a per-unit system. IEEE Trans Veh Technol 2011;60:4249â€“60. doi:10.1109/TVT.2011.2168987.  [8] Lee J, Nam O, Cho BH. Li-ion battery SOC estimation method based on the reduced order extended Kalman filtering. J Power Sources  2007;174:9â€“15. doi:10.1016/j.jpowsour.2007.03.072.  [9] Zou C, Manzie C, Nesic D, Kallapur AG. Multi-time-scale observer design for state-of-charge and state-of-health of a lithium-ion  battery. J Power Sources 2016;335:121â€“30. doi:10.1016/j.jpowsour.2016.10.040.  [10] Plett GL. Sigma-point Kalman filtering for battery management systems of LiPB-based HEV battery packs Part 1: Introduction and  state estimation. J Power Sources 2006;161:1356â€“68. doi:10.1016/j.jpowsour.2006.06.003.  [11] Li J, Barillas JK, Guenther C, Danzer MA. A comparative study of state of charge estimation algorithms for LiFePO 4 batteries used in  electric vehicles. J Power Sources 2013;230:244â€“50. doi:10.1016/j.jpowsour.2012.12.057.  [12] Wang L, Wang L, Liao C, Liu J. Sigma-point Kalman filter application on estimating battery SOC. 5th IEEE Veh Power Propuls Conf  VPPC â€™09 2009:1592â€“5. doi:10.1109/VPPC.2009.5289604.  [13] Sepasi S, Ghorbani R, Liaw BY. SOC estimation for aged lithium-ion batteries using model adaptive extended Kalman filter. 2013  IEEE Transp Electrif Conf Expo 2013:1â€“6. doi:10.1109/ITEC.2013.6573479.  [14] Michel P-H, Heiries V. An Adaptive Sigma Point Kalman Filter Hybridized by Support Vector Machine Algorithm for Battery SoC  and SoH Estimation. 2015 IEEE 81st Veh. Technol. Conf. (VTC Spring), vol. 2015, IEEE; 2015, p. 1â€“7.  doi:10.1109/VTCSpring.2015.7145678.  [15] Xiong R, He H, Sun F, Zhao K. Evaluation on State of Charge Estimation of Batteries With Adaptive Extended Kalman Filter by  Experiment Approach. IEEE Trans Veh Technol 2013;62:108â€“17. doi:10.1109/TVT.2012.2222684.  [16] Zahid T, Xu G, Li W, Zhao L, Xu K. Performance Analysis of Particle Filter for SOC Estimation of LiFePO4 Battery Pack for Electric  Vehicles. Proc IEEE Int Conf Inf Autom 2014:1061â€“5.  [17] Schwunk S, Armbruster N, Straub S, Kehl J, Vetter M. Particle filter for state of charge and state of health estimation for lithium-iron  phosphate batteries. J Power Sources 2013;239:705â€“10. doi:10.1016/j.jpowsour.2012.10.058.  [18] Hao X, Wu J. Online State Estimation Using Particles Filters of Lithium-Ion P</xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.5" xml:lang="en" docsubtype="fla">
+         <item-info>
+            <jid>EGYPRO</jid>
+            <aid>35747</aid>
+            <ce:pii>S1876-6102(19)31120-8</ce:pii>
+            <ce:doi>10.1016/j.egypro.2019.02.042</ce:doi>
+            <ce:copyright type="other" year="2019">The Author(s)</ce:copyright>
+         </item-info>
+         <head>
+            <ce:title id="tte0001">Model-based state of charge estimation algorithms under various current patterns</ce:title>
+            <ce:author-group id="aug0001">
+               <ce:author id="au0013" author-id="S1876610219311208-c6d42c10db4acd781d8638dd6edcfea1">
+                  <ce:given-name>Shi</ce:given-name>
+                  <ce:surname>Li</ce:surname>
+                  <ce:cross-ref id="cecref0013" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:author id="au0014" author-id="S1876610219311208-cb3afe69c64da19a8613bd8079735c36">
+                  <ce:given-name>Changfu</ce:given-name>
+                  <ce:surname>Zou</ce:surname>
+                  <ce:cross-ref id="cecref0014" refid="aff0002">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0015" author-id="S1876610219311208-3d62784a1b28ac4e7ea2b159c63ffaa1">
+                  <ce:given-name>Mirco</ce:given-name>
+                  <ce:surname>Küpper</ce:surname>
+                  <ce:cross-ref id="cecref0015" refid="aff0003">
+                     <ce:sup loc="post">c</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0016" author-id="S1876610219311208-2251e5baafe9eda9b22c60249ab24f2b">
+                  <ce:given-name>Stefan</ce:given-name>
+                  <ce:surname>Pischinger</ce:surname>
+                  <ce:cross-ref id="cecref0016" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:affiliation id="aff0001" affiliation-id="S1876610219311208-51059e4f47cd7c15c75aaecc07b8f20e">
+                  <ce:label>a</ce:label>
+                  <ce:textfn id="cetextfn0001">Institute for Combustion Engines, RWTH Aachen University, Forckenbeckstrasse 4, D-52074 Aachen, Germany</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Institute for Combustion Engines</sa:organization>
+                     <sa:organization>RWTH Aachen University</sa:organization>
+                     <sa:address-line>Forckenbeckstrasse 4</sa:address-line>
+                     <sa:city>Aachen</sa:city>
+                     <sa:postal-code>D-52074</sa:postal-code>
+                     <sa:country>Germany</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff0002" affiliation-id="S1876610219311208-672f26621aefc159406fcf013b503aa9">
+                  <ce:label>b</ce:label>
+                  <ce:textfn id="cetextfn0002">Department of Electrical Engineering, Chalmers University of Technology, Gothenburg 41296, Sweden</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Electrical Engineering</sa:organization>
+                     <sa:organization>Chalmers University of Technology</sa:organization>
+                     <sa:city>Gothenburg</sa:city>
+                     <sa:postal-code>41296</sa:postal-code>
+                     <sa:country>Sweden</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff0003" affiliation-id="S1876610219311208-5806855862e465eaa12bcd79e909fbca">
+                  <ce:label>c</ce:label>
+                  <ce:textfn id="cetextfn0003">FEV Europe GmbH, Neuenhofstrasse 181, D-52078 Aachen, Germany</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>FEV Europe GmbH</sa:organization>
+                     <sa:address-line>Neuenhofstrasse 181</sa:address-line>
+                     <sa:city>Aachen</sa:city>
+                     <sa:postal-code>D-52078</sa:postal-code>
+                     <sa:country>Germany</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+            </ce:author-group>
+            <ce:abstract id="abs0001" view="all" class="author"><ce:abstract-sec id="abss0001" view="all">
+                  <ce:simple-para id="spara0003" view="all">Numerous model-based techniques have been proposed to estimate the state of charge (SOC) of lithium-ion batteries. In automotive applications, the algorithms are subjected to changing load profiles, requiring investigations into their general performance under various working conditions. In this study, three different load patterns derived from a customized dynamic driving profile, a standard driving cycle, and a constant discharge are used for the experimental verification. Four selected algorithms including the Ampere-hour counting, the extended Kalman filter, the particle filter, and the recursive least square filter are implemented. Their performance in terms of accuracy and robustness are compared. In addition, the load profile is analyzed in the frequency domain. The results show that the filter performance is dependent on the current patterns and can be correlated to the frequency spectrum of the load profile.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="keys0001" view="all" class="keyword">
+               <ce:section-title id="cesectitle0002">Keywords</ce:section-title>
+               <ce:keyword id="key0006">
+                  <ce:text id="cetext0006">Electric vehicles</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0007">
+                  <ce:text id="cetext0007">State of charge</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0008">
+                  <ce:text id="cetext0008">Load condition</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0009">
+                  <ce:text id="cetext0009">Extended Kalman filter</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0010">
+                  <ce:text id="cetext0010">Particle filter</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0011">
+                  <ce:text id="cetext0011">Recursive least square</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <tail view="all">
+            <ce:bibliography id="cebibsec1" view="all">
+               <ce:section-title id="cesectitle0003">References</ce:section-title>
+               <ce:bibliography-sec id="cebibsec2" view="all">
+                  <ce:bib-reference id="bib0001">
+                     <ce:label>1</ce:label>
+                     <ce:other-ref id="othref0001">
+                        <ce:textref>Yan J, Li C, Xu G, Xu Y. A novel on-line self-learning state-of-charge estimation of battery management system for hybrid electric vehicle. IEEE Intell Veh Symp Proc 2009: 1161-6. doi:10.1109/IVS.2009.5164446.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0002">
+                     <ce:label>2</ce:label>
+                     <sb:reference id="sbref0002">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Cheng</ce:surname>
+                                 <ce:given-name>KWE</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Divakar</ce:surname>
+                                 <ce:given-name>BP</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Wu</ce:surname>
+                                 <ce:given-name>H</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Ding</ce:surname>
+                                 <ce:given-name>K</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Ho</ce:surname>
+                                 <ce:given-name>HF</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Battery-management system (BMS) and SOC development for electrical vehicles. IEEE Trans Veh Technol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>60</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>76</sb:first-page>
+                              <sb:last-page>88</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>doi:10.1109/TVT.2010.2089647.</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0003">
+                     <ce:label>3</ce:label>
+                     <sb:reference id="sbref0003">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Plett</ce:surname>
+                                 <ce:given-name>GL</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Extended Kalman filtering for battery management systems of LiPB-based HEV battery packs Part 1. Background. J Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>134</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>252</sb:first-page>
+                              <sb:last-page>261</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>doi:10.1016/j.jpowsour.2004.02.031.</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0004">
+                     <ce:label>4</ce:label>
+                     <sb:reference id="sbref0004">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Dai</ce:surname>
+                                 <ce:given-name>H</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Wei</ce:surname>
+                                 <ce:given-name>X</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Sun</ce:surname>
+                                 <ce:given-name>Z</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Wang</ce:surname>
+                                 <ce:given-name>J</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Gu</ce:surname>
+                                 <ce:given-name>W</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Online cell SOC estimation of Li-ion battery packs using a dual time-scale Kalman filtering for EV applications. Appl Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>95</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>227</sb:first-page>
+                              <sb:last-page>237</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>doi:10.1016/j.apenergy.2012.02.044.</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0005">
+                     <ce:label>5</ce:label>
+                     <sb:reference id="sbref0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Hu</ce:surname>
+                                 <ce:given-name>X</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Li</ce:surname>
+                                 <ce:given-name>S</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Peng</ce:surname>
+                                 <ce:given-name>H</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Sun</ce:surname>
+                                 <ce:given-name>F</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Robustness analysis of State-of-Charge estimation methods for two types of Li-ion batteries. J Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>217</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>209</sb:first-page>
+                              <sb:last-page>219</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>doi:10.1016/j.jpowsour.2012.06.005.</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0006">
+                     <ce:label>6</ce:label>
+                     <sb:reference id="sbref0006">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Hu</ce:surname>
+                                 <ce:given-name>C</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Youn</ce:surname>
+                                 <ce:given-name>BD</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Chung</ce:surname>
+                                 <ce:given-name>J</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>A multiscale framework with extended Kalman filter for lithium-ion battery SOC and capacity estimation. Appl Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>92</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>694</sb:first-page>
+                              <sb:last-page>704</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>doi:10.1016/j.apenergy.2011.08.002.</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0007">
+                     <ce:label>7</ce:label>
+                     <sb:reference id="sbref0007">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Kim</ce:surname>
+                                 <ce:given-name>J</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Cho</ce:surname>
+                                 <ce:given-name>BH</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>State-of-charge estimation and state-of-health prediction of a Li-Ion degraded battery based on an EKF combined with a per-unit system. IEEE Trans Veh Technol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>60</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4249</sb:first-page>
+                              <sb:last-page>4260</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>doi:10.1109/TVT.2011.2168987.</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0008">
+                     <ce:label>8</ce:label>
+                     <sb:reference id="sbref0008">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Lee</ce:surname>
+                                 <ce:given-name>J</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Nam</ce:surname>
+                                 <ce:given-name>O</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Cho</ce:surname>
+                                 <ce:given-name>BH</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Li-ion battery SOC estimation method based on the reduced order extended Kalman filtering. J Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>174</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2007</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>9</sb:first-page>
+                              <sb:last-page>15</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>doi:10.1016/j.jpowsour.2007.03.072.</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0009">
+                     <ce:label>9</ce:label>
+                     <sb:reference id="sbref0009">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Zou</ce:surname>
+                                 <ce:given-name>C</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Manzie</ce:surname>
+                                 <ce:given-name>C</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Nesic</ce:surname>
+                                 <ce:given-name>D</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Kallapur</ce:surname>
+                                 <ce:given-name>AG</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Multi-time-scale observer design for state-of-charge and state-of-health of a lithium-ion battery. J Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>335</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>121</sb:first-page>
+                              <sb:last-page>130</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>doi:10.1016/j.jpowsour.2016.10.040.</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00010">
+                     <ce:label>10</ce:label>
+                     <sb:reference id="sbref00010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Plett</ce:surname>
+                                 <ce:given-name>GL</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Sigma-point Kalman filtering for battery management systems of LiPB-based HEV battery packs Part 1: Introduction and state estimation. J Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>161</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1356</sb:first-page>
+                              <sb:last-page>1368</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>doi:10.1016/j.jpowsour.2006.06.003.</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00011">
+                     <ce:label>11</ce:label>
+                     <sb:reference id="sbref00011">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Li</ce:surname>
+                                 <ce:given-name>J</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Barillas</ce:surname>
+                                 <ce:given-name>JK</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Guenther</ce:surname>
+                                 <ce:given-name>C</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Danzer</ce:surname>
+                                 <ce:given-name>MA</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>A comparative study of state of charge estimation algorithms for LiFePO 4 batteries used in electric vehicles. J Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>230</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>244</sb:first-page>
+                              <sb:last-page>250</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>doi:10.1016/j.jpowsour.2012.12.057.</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00012">
+                     <ce:label>12</ce:label>
+                     <ce:other-ref id="othref00012">
+                        <ce:textref>Wang L, Wang L, Liao C, Liu J. Sigma-point Kalman filter application on estimating battery SOC. 5th IEEE Veh Power Propuls Conf VPPC ‘09 2009:1592–5. doi:10.1109/VPPC.2009.5289604.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00013">
+                     <ce:label>13</ce:label>
+                     <ce:other-ref id="othref00013">
+                        <ce:textref>Sepasi S, Ghorbani R, Liaw BY. SOC estimation for aged lithium-ion batteries using model adaptive extended Kalman filter. 2013 IEEE Transp Electrif Conf Expo 2013: 1-6. doi:10.1109/ITEC.2013.6573479.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00014">
+                     <ce:label>14</ce:label>
+                     <ce:other-ref id="othref00014">
+                        <ce:textref>Michel P-H, Heiries V. An Adaptive Sigma Point Kalman Filter Hybridized by Support Vector Machine Algorithm for Battery SoC and SoH Estimation. 2015 IEEE 81st Veh. Technol. Conf. (VTC Spring), vol. 2015, IEEE; 2015, p. 1–7. doi:10.1109/VTCSpring.2015.7145678.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00015">
+                     <ce:label>15</ce:label>
+                     <sb:reference id="sbref00015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Xiong</ce:surname>
+                                 <ce:given-name>R</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>He</ce:surname>
+                                 <ce:given-name>H</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Sun</ce:surname>
+                                 <ce:given-name>F</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Zhao</ce:surname>
+                                 <ce:given-name>K</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Evaluation on State of Charge Estimation of Batteries With Adaptive Extended Kalman Filter by Experiment Approach. IEEE Trans Veh Technol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>62</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>108</sb:first-page>
+                              <sb:last-page>117</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>doi:10.1109/TVT.2012.2222684.</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00016">
+                     <ce:label>16</ce:label>
+                     <ce:other-ref id="othref00016">
+                        <ce:textref>Zahid T, Xu G, Li W, Zhao L, Xu K. Performance Analysis of Particle Filter for SOC Estimation of LiFePO4 Battery Pack for Electric Vehicles. Proc IEEE Int Conf Inf Autom 2014: 1061-5.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00017">
+                     <ce:label>17</ce:label>
+                     <sb:reference id="sbref00017">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Schwunk</ce:surname>
+                                 <ce:given-name>S</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Armbruster</ce:surname>
+                                 <ce:given-name>N</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Straub</ce:surname>
+                                 <ce:given-name>S</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Kehl</ce:surname>
+                                 <ce:given-name>J</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Vetter</ce:surname>
+                                 <ce:given-name>M</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Particle filter for state of charge and state of health estimation for lithium-iron phosphate batteries. J Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>239</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>705</sb:first-page>
+                              <sb:last-page>710</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>doi:10.1016/j.jpowsour.2012.10.058.</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00018">
+                     <ce:label>18</ce:label>
+                     <ce:other-ref id="othref00018">
+                        <ce:textref>Hao X, Wu J. Online State Estimation Using Particles Filters of Lithium-Ion Polymer Battery Packs for Electric Vehicle. 2015 IEEE Int. Conf. Syst. Man, Cybern., IEEE; 2015, p. 783–8. doi:10.1109/SMC.2015.146.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00019">
+                     <ce:label>19</ce:label>
+                     <ce:other-ref id="othref00019">
+                        <ce:textref>Hu X, Sun F, Zou Y, Peng H. Online estimation of an electric vehicle Lithium-Ion battery using recursive least squares with forgetting. Proc 2011 Am Control Conf 2011:935–40. doi:10.1109/ACC.2011.5991260.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00020">
+                     <ce:label>20</ce:label>
+                     <sb:reference id="sbref00020">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Xiong</ce:surname>
+                                 <ce:given-name>R</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>He</ce:surname>
+                                 <ce:given-name>H</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Sun</ce:surname>
+                                 <ce:given-name>F</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Zhao</ce:surname>
+                                 <ce:given-name>K</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Online estimation of peak power capability of Li-Ion batteries in electric vehicles by a hardware-in-loop approach. Energies</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>5</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1455</sb:first-page>
+                              <sb:last-page>1469</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>doi:10.3390/en5051455.</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00021">
+                     <ce:label>21</ce:label>
+                     <sb:reference id="sbref00021">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>He</ce:surname>
+                                 <ce:given-name>H</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Zhang</ce:surname>
+                                 <ce:given-name>X</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Xiong</ce:surname>
+                                 <ce:given-name>R</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Xu</ce:surname>
+                                 <ce:given-name>Y</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Guo</ce:surname>
+                                 <ce:given-name>H</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Online model-based estimation of state-of-charge and open-circuit voltage of lithium-ion batteries in electric vehicles. Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>39</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>310</sb:first-page>
+                              <sb:last-page>318</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>doi:10.1016/j.energy.2012.01.009.</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00022">
+                     <ce:label>22</ce:label>
+                     <sb:reference id="sbref00022">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Chen</ce:surname>
+                                 <ce:given-name>X</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Shen</ce:surname>
+                                 <ce:given-name>W</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Cao</ce:surname>
+                                 <ce:given-name>Z</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Kapoor</ce:surname>
+                                 <ce:given-name>A</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Sliding mode observer for state of charge estimation based on battery equivalent circuit in electric vehicles. Aust J Electr Electron Eng</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>9</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>601</sb:first-page>
+                              <sb:last-page>606</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>doi:10.7158/E11-056.2012.9.3.</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00023">
+                     <ce:label>23</ce:label>
+                     <sb:reference id="sbref00023">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Tang</ce:surname>
+                                 <ce:given-name>X</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Liu</ce:surname>
+                                 <ce:given-name>B</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Lv</ce:surname>
+                                 <ce:given-name>Z</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Gao</ce:surname>
+                                 <ce:given-name>F</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Observer based battery SOC estimation: Using multi-gain-switching approach. Appl Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>204</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1275</sb:first-page>
+                              <sb:last-page>1283</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>doi:10.1016/j.apenergy.2017.03.079.</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib00024">
+                     <ce:label>24</ce:label>
+                     <sb:reference id="sbref00024">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Li</ce:surname>
+                                 <ce:given-name>S</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Pischinger</ce:surname>
+                                 <ce:given-name>S</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>He</ce:surname>
+                                 <ce:given-name>C</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Liang</ce:surname>
+                                 <ce:given-name>L</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Stapelbroek</ce:surname>
+                                 <ce:given-name>M</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>A comparative study of model-based capacity estimation algorithms in dual estimation frameworks for lithium-ion batteries under an accelerated aging test. Appl Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>212</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1522</sb:first-page>
+                              <sb:last-page>1536</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>doi:10.1016/j.apenergy.2018.01.008.</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

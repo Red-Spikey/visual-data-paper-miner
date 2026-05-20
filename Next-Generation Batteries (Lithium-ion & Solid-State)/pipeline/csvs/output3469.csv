@@ -1,0 +1,484 @@
+UTD_EID,UCS_Locator,Filename,Caption,link,stage1_hit,stage1_keywords,stage2_ocr_status,stage2_ocr_text,stage2_keywords,stage2_hit
+1-s2.0-S0038092X23003535-gr9.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/gr9/DOWNSAMPLED/image/jpeg/295037c4b7a5caaf05551aa5270ac154/gr9.jpg,gr9.jpg,"The present study demonstrates the integration of a commercial lithium-ion battery for e-bikes (b) into a commercial micro-PV system (a) that features an inverter with maximum power point tracker (MPPT). To this goal, two different coupling architectures are developed, called here passive hybridization (c) and active hybridization (d).",https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr9_lrg.jpg,0,,,,,
+1-s2.0-S0038092X23003535-gr10.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/gr10/DOWNSAMPLED/image/jpeg/f1256d75818b645fd8cd25e5e5e1187c/gr10.jpg,gr10.jpg,Schematic representation of the system model including the dynamic states of the subsystems.,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr10_lrg.jpg,0,,,,,
+1-s2.0-S0038092X23003535-gr11.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/gr11/DOWNSAMPLED/image/jpeg/28117553ecc122f5d6a8ad0df627c873/gr11.jpg,gr11.jpg,"System architectures and monitoring concepts of a) the reference system, b) the passive hybrid system, c) and the active hybrid system.",https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr11_lrg.jpg,0,,,,,
+1-s2.0-S0038092X23003535-gr1.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/gr1/DOWNSAMPLED/image/jpeg/09aa8412babbb8cd7245170f079e1a7b/gr1.jpg,gr1.jpg,"Flow charts for the battery controller. a) Battery charge with MPPT, b) battery charge under constant voltage, c) battery discharge under constant power, d) and power regulation I-V characteristics.",https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr1_lrg.jpg,1,"voltage, charge, discharge",0.0,"a) Commercial
+
+ 
+
+icro- ED
+5 stom SLL LZ ry
+y f/ / / ff / / 2
+Ma A 9 Household socket
+PV panel Inverter with MPPT
+b) Commercial
+e-bike battery =
+E-bike battery
+c) Passive hybridization d) Active hybridization
++ + + +
+PV Inverter PV Inverter
++ +
+
+Battery Battery Controller
+",,0.0
+1-s2.0-S0038092X23003535-gr2.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/gr2/DOWNSAMPLED/image/jpeg/3ce0f31a1848145bd140a55033520032/gr2.jpg,gr2.jpg,"Results of annual simulations of the micro-PV/battery system: key performance indicators as function of PV peak power and battery energy. The left panels show results for Scenario I (known load), the right panels for scenario II (100 W baseload coverage). a), b) Self-sufficiency (SS, equation (2), c), d) self-consumption (SC, equation (24), e), f) amortization time (AT, equation (23). Simulations were carried out for a PV inclination of 45°. The circles indicate system sizes investigated in the present study experimentally (two bottom left circles) and in more detailed simulations (top right circle).",https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr2_lrg.jpg,0,,,,,
+1-s2.0-S0038092X23003535-gr3.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/gr3/DOWNSAMPLED/image/jpeg/af242c3f0cd3c29833e26d4e02e43de1/gr3.jpg,gr3.jpg,Simulation results of Scenario I (known load) on the left and Scenario II (100 W base load coverage) on the right for a 600 Wp/1110 Wh micro-PV/battery system. Note that in panels a) and b) the power curves of the household (load) and the external grid were scaled for clarity.,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr3_lrg.jpg,0,,,,,
+1-s2.0-S0038092X23003535-gr4.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/gr4/DOWNSAMPLED/image/jpeg/d63ea84f30fdb90846733430050a1519/gr4.jpg,gr4.jpg,"Passive hybrid system behavior during three-day operation. a) Solar irradiation, b) voltage, c) current, d) DC power, e) AC power, f) and battery SOC. The results demonstrate the successful day-night PV energy shift by integrating a battery into the micro-PV system.",https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr4_lrg.jpg,1,"voltage, current",2.0,"Decrease voltage
+
+Measure | and V
+
+Calculate power, Pn
+
+ 
+
+ 
+    
+ 
+
+Measure | and V
+Calculate power, P
+
+P < Psetpoint ? oS 6 ' Increase duty cycle
+No
+
+P > Psetpoint ? a S ' Decrease duty cycle
+No
+Perform buck conversion
+
+ 
+  
+
+    
+   
+
+  
+
+ 
+   
+  
+
+Measure V
+
+V < Vsetpoint ? a Increase duty cycle
+No
+
+V > Vsetpoint ? a & | Decrease duty cycle
+No
+
+Perform buck/boost conversion
+
+    
+    
+
+  
+
+ 
+
+ 
+
+—P=10W
+—P=100W
+—P=150W
+8F —P=250W 4
+< gt 4
+c
+©
+G 4} |
+2r
+0
+0 10 20 30 40 50
+
+Voltage / V
+",voltage,1.0
+1-s2.0-S0038092X23003535-gr5.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/gr5/DOWNSAMPLED/image/jpeg/ae6f59216baeee10577683f270dfc7b8/gr5.jpg,gr5.jpg,"Active hybrid system behavior during three-day operation. a) Solar irradiation, b) voltage, c) current, d) DC power, e) AC power, f) and battery SOC. The results demonstrate the successful day-night PV energy shift by integrating a battery into the micro-PV system.",https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr5_lrg.jpg,1,"voltage, current",0.0,"% | AOUBIOWINS-1]aS % / UOdWNSUOd-4/ag
+
+wo oO WwW oO Ww o Ww Oo WwW
+o>) oD © cO ~ M © o Ww
+
+15
+0
+100
+
+ 
+
+ 
+
+ 
+
+ 
+
+—~
+O
+O
+OS
+®
+“)
+©
+2 a
+= =
+o
+S :
+— a
+— >
+—_ oO
+Oo
+os
+oO
+Cc
+®
+O
+Y)
+st N _ co co xt ~N + Pa — 20 co st A
+“~~ ou - o o o oS —™ or - o o ° o
+O UM» / ABuauy Aeyeg xe) UAAY / ABuaug Auayeg
+o% 7 AOUBIOINS-}|aS % {| UOIJAWNSUOD-}jaS
+uw Oo Oo Ww Oo “wo cm] uw
+‘ ~ oO o ~ Ke GC GO WW
+nm,
+O
+O
+©
+S oO
+2 s
+2 >
+oO
+~ =
+ma o
+Q >
+O
+Cc
+®
+O
+Y)
++ N - @© © TF A ~ N - © © FT A
+= “ ° © © ° -_~ — oO o Oo oO
+
+O UMA / ABuauy Aueyeg © UAAy / ABsaug Auayeg
+
+ 
+
+ 
+
+PV Power / Wp
+
+-_—
+—
+
+PV Power / Wp
+
+1.4
+
+sleek / OW UONeZIIOWY
+
+ 
+
+N - oO co st
+
+- oS o o
+UAAY / ABseuy Auayeg
+
+siee / aw) uolezmowy
+
+ 
+
+N — 0 © ~
+So So So
+
+UAAy / ABseuy Aueyeg
+
+600 800
+
+400
+PV Power / Wp
+
+PV Power / Wp
+",,0.0
+1-s2.0-S0038092X23003535-gr6.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/gr6/DOWNSAMPLED/image/jpeg/b7c488dad240ba65b6167e93e8bbfad5/gr6.jpg,gr6.jpg,"Reference system behavior during three-day operation. a) Solar irradiation, b) voltage, c) current, d) DC power, e) and AC power. The system does not include a battery and therefore no day-night PV energy shift is possible.",https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr6_lrg.jpg,1,"voltage, current",0.0," 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+     
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+1a) lj).
+0.5, 7
+S Ma Ne a Al a
+5 0 bl iF ial 1
+Ta Tne
+oO
+-0.5F7 7
+Photovoltaic
+Battery
+-1F External grid / 10 7
+Load /10
+Jul 22 Jul 23 Jul 24
+Time /d
+100 ) 1
+80
+xe 60
+O
+O
+” 40
+20
+0
+Jul 22 Jul 23 Jul 24
+Time /d
+100 - ) 1
+xe | |
+O
+oO |
+n | |
+aT
+0 50 100 150 200 250 300 350 400
+Time /d
+
+Power / kW
+
+SOC /%
+
+SOC / %
+
+0.5
+
+oO
+
+80
+
+60
+
+40
+
+20
+
+0
+Jul 22
+
+100
+
+80
+
+60
+
+40
+
+0 50
+
+ 
+
+'b) |
+
+AHL
+Paine aT
+
+ 
+
+Photovoltaic
+Battery
+r External grid / 10 71
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1
+
+Jul 23
+Time /d
+
+ 
+
+Jul 2.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Jul 23
+Time /d
+
+’
+
+Jul 2.
+
+ 
+
+ 
+
+f)
+
+150
+
+ 
+
+100
+
+200
+Time /d
+
+250 300 350 400
+",,0.0
+1-s2.0-S0038092X23003535-gr7.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/gr7/DOWNSAMPLED/image/jpeg/38d74d90397ef94ce7a3bf440114d5e3/gr7.jpg,gr7.jpg,"Comparison of the performance of the three investigated systems over the three-day measurement periods. a) Solar energy input and DC energy output, b) solar-to-electricity DC and AC efficiencies. The values are also given in Tables 4 and 5. AC efficiency was calculated as product of η s y s t e m and η i n v e r t e r .",https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr7_lrg.jpg,0,,,,,
+1-s2.0-S0038092X23003535-gr8.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/gr8/DOWNSAMPLED/image/jpeg/e82e4dfe57030e9d6763113394a9700f/gr8.jpg,gr8.jpg,"Comparison of inverter DC and AC power during three-day operation of the a) passive hybrid system, b) active hybrid system, c) and the reference system.",https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr8_lrg.jpg,0,,,,,
+1-s2.0-S0038092X23003535-gr9.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/gr9/THUMBNAIL/image/gif/435ae6c0f3df7967120b95cd398dc552/gr9.sml,gr9.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr9.sml,0,,,,,
+1-s2.0-S0038092X23003535-gr10.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/gr10/THUMBNAIL/image/gif/f511170006f2108688d9117a08b6f85a/gr10.sml,gr10.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr10.sml,0,,,,,
+1-s2.0-S0038092X23003535-gr11.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/gr11/THUMBNAIL/image/gif/715c6cea65a480a90a58d217229ef129/gr11.sml,gr11.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr11.sml,0,,,,,
+1-s2.0-S0038092X23003535-gr1.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/gr1/THUMBNAIL/image/gif/ffa6295089626fba5fd528403f27dffc/gr1.sml,gr1.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr1.sml,0,,,,,
+1-s2.0-S0038092X23003535-gr2.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/gr2/THUMBNAIL/image/gif/e2716b1efdc3fa8af30e8974de0a7b40/gr2.sml,gr2.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr2.sml,0,,,,,
+1-s2.0-S0038092X23003535-gr3.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/gr3/THUMBNAIL/image/gif/8dabf1e193c8fc9906a98de291ea940d/gr3.sml,gr3.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr3.sml,0,,,,,
+1-s2.0-S0038092X23003535-gr4.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/gr4/THUMBNAIL/image/gif/bd08feefb85d8536fcb1bc79e87a1f23/gr4.sml,gr4.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr4.sml,0,,,,,
+1-s2.0-S0038092X23003535-gr5.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/gr5/THUMBNAIL/image/gif/8113fef2a526bed34865e46c3c861a58/gr5.sml,gr5.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr5.sml,0,,,,,
+1-s2.0-S0038092X23003535-gr6.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/gr6/THUMBNAIL/image/gif/2ceab102becef3e4f103487dd0a71680/gr6.sml,gr6.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr6.sml,0,,,,,
+1-s2.0-S0038092X23003535-gr7.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/gr7/THUMBNAIL/image/gif/3df9b7e44d2c0f989280a26473644c40/gr7.sml,gr7.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr7.sml,0,,,,,
+1-s2.0-S0038092X23003535-gr8.sml,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/gr8/THUMBNAIL/image/gif/78331f66ada761874a6793f8943e4f4c/gr8.sml,gr8.sml,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr8.sml,0,,,,,
+1-s2.0-S0038092X23003535-gr9_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/HIGHRES/image/jpeg/565bc54ed60ef549a9522f8b3dd4ee98/gr9_lrg.jpg,gr9_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr9_lrg_lrg.jpg,0,,,,,
+1-s2.0-S0038092X23003535-gr10_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/HIGHRES/image/jpeg/afffbd0dc32eb8455574af03358870d1/gr10_lrg.jpg,gr10_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr10_lrg_lrg.jpg,0,,,,,
+1-s2.0-S0038092X23003535-gr11_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/HIGHRES/image/jpeg/580cc719128ff9eeaf68a73c2741372f/gr11_lrg.jpg,gr11_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr11_lrg_lrg.jpg,0,,,,,
+1-s2.0-S0038092X23003535-gr1_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/HIGHRES/image/jpeg/24218114d2b6c75235a48a3efa874eed/gr1_lrg.jpg,gr1_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr1_lrg_lrg.jpg,0,,,,,
+1-s2.0-S0038092X23003535-gr2_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/HIGHRES/image/jpeg/c026165a4611cad4f4c21a49c86961f1/gr2_lrg.jpg,gr2_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr2_lrg_lrg.jpg,0,,,,,
+1-s2.0-S0038092X23003535-gr3_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/HIGHRES/image/jpeg/936a762d1a98f3b3143ff94e56f8865f/gr3_lrg.jpg,gr3_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr3_lrg_lrg.jpg,0,,,,,
+1-s2.0-S0038092X23003535-gr4_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/HIGHRES/image/jpeg/78dcaf684f9e95f8972375975602382d/gr4_lrg.jpg,gr4_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr4_lrg_lrg.jpg,0,,,,,
+1-s2.0-S0038092X23003535-gr5_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/HIGHRES/image/jpeg/3ad02479e2a02891aa5be56d309fb0f5/gr5_lrg.jpg,gr5_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr5_lrg_lrg.jpg,0,,,,,
+1-s2.0-S0038092X23003535-gr6_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/HIGHRES/image/jpeg/7db31dedfb5801be0283414eec36ab15/gr6_lrg.jpg,gr6_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr6_lrg_lrg.jpg,0,,,,,
+1-s2.0-S0038092X23003535-gr7_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/HIGHRES/image/jpeg/43f311cf356557984b6bec758f226fcd/gr7_lrg.jpg,gr7_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr7_lrg_lrg.jpg,0,,,,,
+1-s2.0-S0038092X23003535-gr8_lrg.jpg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/HIGHRES/image/jpeg/c3fabb50faef849d0836d0c34fa88db5/gr8_lrg.jpg,gr8_lrg.jpg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-gr8_lrg_lrg.jpg,0,,,,,
+1-s2.0-S0038092X23003535-si1.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/63abe9759f44d28cdaaef6db00adc466/si1.svg,si1.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si1.svg,0,,,,,
+1-s2.0-S0038092X23003535-si10.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/500cf2d709cb260a1c4d2d528ff76a28/si10.svg,si10.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si10.svg,0,,,,,
+1-s2.0-S0038092X23003535-si11.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/d061cd865e2eec69fc0d5c48c675df58/si11.svg,si11.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si11.svg,0,,,,,
+1-s2.0-S0038092X23003535-si12.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/5cff7f9298881db33c1f3d3beda3f08a/si12.svg,si12.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si12.svg,0,,,,,
+1-s2.0-S0038092X23003535-si13.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/82ca4e7fa767b87ba742527e99323b9f/si13.svg,si13.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si13.svg,0,,,,,
+1-s2.0-S0038092X23003535-si14.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/02c98ab58c3105c63d85fd077058f551/si14.svg,si14.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si14.svg,0,,,,,
+1-s2.0-S0038092X23003535-si15.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/6d01d209079e9b203b7841915cbecbb6/si15.svg,si15.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si15.svg,0,,,,,
+1-s2.0-S0038092X23003535-si16.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/3aa791aab33f2990194814c765210593/si16.svg,si16.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si16.svg,0,,,,,
+1-s2.0-S0038092X23003535-si17.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/ccd14e3e5761a56a69a5cee6927cb4fd/si17.svg,si17.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si17.svg,0,,,,,
+1-s2.0-S0038092X23003535-si18.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/b4800b7112e8333c9acc90224aead2e1/si18.svg,si18.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si18.svg,0,,,,,
+1-s2.0-S0038092X23003535-si19.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/6f9284abe494dd8b14cb3c7a3dc58215/si19.svg,si19.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si19.svg,0,,,,,
+1-s2.0-S0038092X23003535-si2.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/39a52d030df1a41c4b64478b2f4ca924/si2.svg,si2.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si2.svg,0,,,,,
+1-s2.0-S0038092X23003535-si20.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/4ad9dfaa59f6b185c5ababe973f9f9e5/si20.svg,si20.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si20.svg,0,,,,,
+1-s2.0-S0038092X23003535-si21.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/ff493a7164fa8d35bd45830165336df6/si21.svg,si21.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si21.svg,0,,,,,
+1-s2.0-S0038092X23003535-si22.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/b8e3f3ef7391fb8f6cddd4404f8b3ddc/si22.svg,si22.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si22.svg,0,,,,,
+1-s2.0-S0038092X23003535-si23.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/faad27d29d77fc222a059c8ace41f595/si23.svg,si23.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si23.svg,0,,,,,
+1-s2.0-S0038092X23003535-si24.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/c9d9652185947b50a8bf1b7a70132548/si24.svg,si24.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si24.svg,0,,,,,
+1-s2.0-S0038092X23003535-si25.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/88a9999e06d12162826dd365131fd2e0/si25.svg,si25.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si25.svg,0,,,,,
+1-s2.0-S0038092X23003535-si26.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/5b6a70cc8318c66b0bd991764c5644b9/si26.svg,si26.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si26.svg,0,,,,,
+1-s2.0-S0038092X23003535-si27.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/162f6eb5ce33f5fdaeb1f1e9b4e98aff/si27.svg,si27.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si27.svg,0,,,,,
+1-s2.0-S0038092X23003535-si28.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/d4848b8ac87cccaf16e33992726320c0/si28.svg,si28.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si28.svg,0,,,,,
+1-s2.0-S0038092X23003535-si29.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/6832c5ff96832c0c148178d5cbc7bbd4/si29.svg,si29.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si29.svg,0,,,,,
+1-s2.0-S0038092X23003535-si3.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/53490c17414556c99a0b4d0d6f561f65/si3.svg,si3.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si3.svg,0,,,,,
+1-s2.0-S0038092X23003535-si30.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/9ec742b2969f527fd85520059e7c9c60/si30.svg,si30.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si30.svg,0,,,,,
+1-s2.0-S0038092X23003535-si31.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/4c5f370293704ba266ce9a17fe189c7c/si31.svg,si31.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si31.svg,0,,,,,
+1-s2.0-S0038092X23003535-si32.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/3443e4d47f29aa646401ee432cf3cd2a/si32.svg,si32.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si32.svg,0,,,,,
+1-s2.0-S0038092X23003535-si33.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/21739d72e276fd321a74629866aed84e/si33.svg,si33.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si33.svg,0,,,,,
+1-s2.0-S0038092X23003535-si34.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/6e437d48b5dcec8c2bbfab8a6c265bcb/si34.svg,si34.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si34.svg,0,,,,,
+1-s2.0-S0038092X23003535-si35.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/146668558ccc1a40d0ab5463f01718b0/si35.svg,si35.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si35.svg,0,,,,,
+1-s2.0-S0038092X23003535-si36.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/2a089eba21e4a9e9405d05aeae8892e7/si36.svg,si36.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si36.svg,0,,,,,
+1-s2.0-S0038092X23003535-si37.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/02df63e914efcc6807d46a5117f21d0d/si37.svg,si37.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si37.svg,0,,,,,
+1-s2.0-S0038092X23003535-si38.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/744b76dc5782713bff9082836f8bb988/si38.svg,si38.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si38.svg,0,,,,,
+1-s2.0-S0038092X23003535-si39.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/d99423796c4d7adf2dab26adecee395f/si39.svg,si39.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si39.svg,0,,,,,
+1-s2.0-S0038092X23003535-si4.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/f52ddcbbba4bbd31c5e3dae932d24e7e/si4.svg,si4.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si4.svg,0,,,,,
+1-s2.0-S0038092X23003535-si40.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/652b14b899af6ff889a0acb2c47a3bb4/si40.svg,si40.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si40.svg,0,,,,,
+1-s2.0-S0038092X23003535-si41.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/06fb86b2cc5fccaae5d27165006d5f10/si41.svg,si41.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si41.svg,0,,,,,
+1-s2.0-S0038092X23003535-si42.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/55832624b9bb294d7ff34af1553125c0/si42.svg,si42.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si42.svg,0,,,,,
+1-s2.0-S0038092X23003535-si43.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/9dd3d9d74434024e421513eb82741bd7/si43.svg,si43.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si43.svg,0,,,,,
+1-s2.0-S0038092X23003535-si44.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/417cd9aa82d66c996f370b0b04cc0a19/si44.svg,si44.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si44.svg,0,,,,,
+1-s2.0-S0038092X23003535-si45.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/a6c0e080754dca71a7d2c4cd16aa339f/si45.svg,si45.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si45.svg,0,,,,,
+1-s2.0-S0038092X23003535-si46.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/fa3ca3681abbed62fb14e84aedc6bf8c/si46.svg,si46.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si46.svg,0,,,,,
+1-s2.0-S0038092X23003535-si47.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/285043c7961a2acd7da34ec9e86ba92b/si47.svg,si47.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si47.svg,0,,,,,
+1-s2.0-S0038092X23003535-si48.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/a4bea442346201120a23e5ad562ce4bd/si48.svg,si48.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si48.svg,0,,,,,
+1-s2.0-S0038092X23003535-si49.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/3217f7d26dcc114a46f0d2d594ac4d58/si49.svg,si49.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si49.svg,0,,,,,
+1-s2.0-S0038092X23003535-si5.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/94ac847cb94a10c3af2a1a6d63b0fdc4/si5.svg,si5.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si5.svg,0,,,,,
+1-s2.0-S0038092X23003535-si50.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/0e76c9a75f773945ba617b6e3a67d4cb/si50.svg,si50.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si50.svg,0,,,,,
+1-s2.0-S0038092X23003535-si51.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/ea1d308743606b57d40fe7aa0a9f3784/si51.svg,si51.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si51.svg,0,,,,,
+1-s2.0-S0038092X23003535-si52.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/0a6f91dac698d72e12d3c48d2fc23ca2/si52.svg,si52.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si52.svg,0,,,,,
+1-s2.0-S0038092X23003535-si53.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/9d8f7cd2e68923d97fe553b4858e42c9/si53.svg,si53.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si53.svg,0,,,,,
+1-s2.0-S0038092X23003535-si54.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/fa7d2dc5c05c629e90bea957e27338cc/si54.svg,si54.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si54.svg,0,,,,,
+1-s2.0-S0038092X23003535-si55.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/dbeca67528aa4192c85f6c534a07eaf9/si55.svg,si55.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si55.svg,0,,,,,
+1-s2.0-S0038092X23003535-si56.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/de90f9a50e846ad49b939055610fe8c5/si56.svg,si56.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si56.svg,0,,,,,
+1-s2.0-S0038092X23003535-si57.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/46e9247274b51ad1f51d21fadd3b4379/si57.svg,si57.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si57.svg,0,,,,,
+1-s2.0-S0038092X23003535-si58.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/86d4345f60fe0cd4e3de1b7169ee0960/si58.svg,si58.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si58.svg,0,,,,,
+1-s2.0-S0038092X23003535-si59.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/54f228a0d1d7d66996c988278f6d396a/si59.svg,si59.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si59.svg,0,,,,,
+1-s2.0-S0038092X23003535-si6.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/a2ea06bc44a6fdcc3d67d5d808828b14/si6.svg,si6.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si6.svg,0,,,,,
+1-s2.0-S0038092X23003535-si60.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/e3042f401c62ec6d0872c9f6c5c3f46c/si60.svg,si60.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si60.svg,0,,,,,
+1-s2.0-S0038092X23003535-si61.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/27de1e551448356cc933e0fad497d54b/si61.svg,si61.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si61.svg,0,,,,,
+1-s2.0-S0038092X23003535-si62.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/4b23a81331c2f2b1e0a29e6a55616ad8/si62.svg,si62.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si62.svg,0,,,,,
+1-s2.0-S0038092X23003535-si63.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/806507e7a3a6f4c0a5083425e1250ef0/si63.svg,si63.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si63.svg,0,,,,,
+1-s2.0-S0038092X23003535-si64.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/dcfd684feaa3524c0ad42e92da66ca20/si64.svg,si64.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si64.svg,0,,,,,
+1-s2.0-S0038092X23003535-si65.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/d84fc6ad98853488a329609ceba29e80/si65.svg,si65.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si65.svg,0,,,,,
+1-s2.0-S0038092X23003535-si66.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/19b27e06b965fd1e5f22f2280c4251d9/si66.svg,si66.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si66.svg,0,,,,,
+1-s2.0-S0038092X23003535-si67.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/23cd0e6241a6e04bd50d5954ab385e15/si67.svg,si67.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si67.svg,0,,,,,
+1-s2.0-S0038092X23003535-si68.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/98b95546ef4ece3732a2fc6bc6e172e2/si68.svg,si68.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si68.svg,0,,,,,
+1-s2.0-S0038092X23003535-si69.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/0536aa43b04bfc8b6af488efafc16cee/si69.svg,si69.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si69.svg,0,,,,,
+1-s2.0-S0038092X23003535-si7.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/47bf281cfc6f2f71a6774ac058b39e9a/si7.svg,si7.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si7.svg,0,,,,,
+1-s2.0-S0038092X23003535-si70.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/bd8e205c4109e883e130e35913e69505/si70.svg,si70.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si70.svg,0,,,,,
+1-s2.0-S0038092X23003535-si71.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/c00d2e2791b33bf35582f756f987cb10/si71.svg,si71.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si71.svg,0,,,,,
+1-s2.0-S0038092X23003535-si72.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/587173efdf26ffc5244ab2d56b929f60/si72.svg,si72.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si72.svg,0,,,,,
+1-s2.0-S0038092X23003535-si73.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/63c6264b0a3bccee38577b257104e65c/si73.svg,si73.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si73.svg,0,,,,,
+1-s2.0-S0038092X23003535-si74.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/ce91fff7fcdeb77bfd1687aa2e65874d/si74.svg,si74.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si74.svg,0,,,,,
+1-s2.0-S0038092X23003535-si75.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/12dec1807a93ba5bbd1bc238537e04d5/si75.svg,si75.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si75.svg,0,,,,,
+1-s2.0-S0038092X23003535-si76.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/a63e9d5a3d62e76332f01c4a02dcccd8/si76.svg,si76.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si76.svg,0,,,,,
+1-s2.0-S0038092X23003535-si77.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/1974246e945ede65b0832836e45f37d4/si77.svg,si77.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si77.svg,0,,,,,
+1-s2.0-S0038092X23003535-si78.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/83d0139504a6dec41d983b547594b91c/si78.svg,si78.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si78.svg,0,,,,,
+1-s2.0-S0038092X23003535-si79.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/f1ff5a768b6e9cb0d9d00bc1546b17de/si79.svg,si79.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si79.svg,0,,,,,
+1-s2.0-S0038092X23003535-si8.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/50f0c1f8eaa1652d2ab799b5d44baaa6/si8.svg,si8.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si8.svg,0,,,,,
+1-s2.0-S0038092X23003535-si80.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/eef2fa9a0d054e40e5aa9a26df673f97/si80.svg,si80.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si80.svg,0,,,,,
+1-s2.0-S0038092X23003535-si81.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/80d97d744d770d343b46c28ca448e78a/si81.svg,si81.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si81.svg,0,,,,,
+1-s2.0-S0038092X23003535-si82.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/7d8be1b5cedb703dca769cd393e9c86a/si82.svg,si82.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si82.svg,0,,,,,
+1-s2.0-S0038092X23003535-si83.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/53797cdcb64a352d6a81925062df6bbd/si83.svg,si83.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si83.svg,0,,,,,
+1-s2.0-S0038092X23003535-si84.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/2c7103c3bb7eb60e657e78a862c7026b/si84.svg,si84.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si84.svg,0,,,,,
+1-s2.0-S0038092X23003535-si85.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/333b71e054d55ce0535f21f083ae8746/si85.svg,si85.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si85.svg,0,,,,,
+1-s2.0-S0038092X23003535-si86.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/a0c5190cb63a41de0b48bdfee3320965/si86.svg,si86.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si86.svg,0,,,,,
+1-s2.0-S0038092X23003535-si87.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/1f0005e88d26266ec3b2ad68ef58c774/si87.svg,si87.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si87.svg,0,,,,,
+1-s2.0-S0038092X23003535-si88.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/b5c378938ef1ea882654506a3f5e138b/si88.svg,si88.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si88.svg,0,,,,,
+1-s2.0-S0038092X23003535-si89.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/961a401fb6079f08fa8b4e2acd87b216/si89.svg,si89.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si89.svg,0,,,,,
+1-s2.0-S0038092X23003535-si9.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/aa24303e7da91774307aee8c5d021fc4/si9.svg,si9.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si9.svg,0,,,,,
+1-s2.0-S0038092X23003535-si90.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/1e64b25ded81eb331e8ba35b1f9e41db/si90.svg,si90.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si90.svg,0,,,,,
+1-s2.0-S0038092X23003535-si91.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/fd8f61165e8a3fac8f9917ca4b498ec3/si91.svg,si91.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si91.svg,0,,,,,
+1-s2.0-S0038092X23003535-si92.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/b621d80192c7f41bd5afad14ae8b50f7/si92.svg,si92.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si92.svg,0,,,,,
+1-s2.0-S0038092X23003535-si93.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/cccfd5e83b454439f8caffe7fa132b31/si93.svg,si93.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si93.svg,0,,,,,
+1-s2.0-S0038092X23003535-si94.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/41ad3920558720347ae28a23e29647d9/si94.svg,si94.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si94.svg,0,,,,,
+1-s2.0-S0038092X23003535-si95.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/ee148cd807a4a46c735dcbee22387d48/si95.svg,si95.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si95.svg,0,,,,,
+1-s2.0-S0038092X23003535-si96.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/ef0a9f053aabc3dc8723fe19b863c020/si96.svg,si96.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si96.svg,0,,,,,
+1-s2.0-S0038092X23003535-si97.svg,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0038092X23003535/image/svg+xml/5f4c6a50c39871c2b3308863e25eb85e/si97.svg,si97.svg,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-si97.svg,0,,,,,
+1-s2.0-S0038092X23003535-am.pdf,https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10DS6QP8402/MAIN/application/pdf/f9a7a5b98395e5af29ab9141580cf606/am.pdf,am.pdf,,https://ars.els-cdn.com/content/image/1-s2.0-S0038092X23003535-am.pdf,0,,,,,

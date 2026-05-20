@@ -1,0 +1,747 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S2352340922009039</prism:url><dc:identifier>doi:10.1016/j.dib.2022.108698</dc:identifier><eid>1-s2.0-S2352340922009039</eid><prism:doi>10.1016/j.dib.2022.108698</prism:doi><pii>S2352-3409(22)00903-9</pii><dc:title>Data on Machine Learning regenerated Lithium-ion battery impedance </dc:title><prism:publicationName>Data in Brief</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>dat</pubType><prism:issn>23523409</prism:issn><prism:volume>45</prism:volume><prism:startingPage>108698</prism:startingPage><prism:pageRange>108698</prism:pageRange><articleNumber>108698</articleNumber><dc:format>text/xml</dc:format><prism:coverDate>2022-12-31</prism:coverDate><prism:coverDisplayDate>December 2022</prism:coverDisplayDate><prism:copyright>© 2022 The Author(s). Published by Elsevier Inc.</prism:copyright><prism:publisher>The Author(s). Published by Elsevier Inc.</prism:publisher><dc:creator>Temiz, Selcuk</dc:creator><dc:creator>Kurban, Hasan</dc:creator><dc:creator>Erol, Salim</dc:creator><dc:creator>Dalkilic, Mehmet M.</dc:creator><dc:description>
+                  This paper describes and provides the data on the regenerated-impedance spectra that is computed from experimental results of electrochemical impedance spectroscopy measurements taken from a commercial Li-ion battery. The empirical impedance data of secondary coin type Li-ion batteries were collected in different states of charge ranging from empty to full state of charge configurations. This approach utilizes only a small seed (ex grano) experimental data set to first build an ensemble of weighted disparate models selected based on performance and non-correlative criteria (“co-modelling”) then second to generate what would be the remaining experimental data synthetically. The “Cooperative Model Framework” demonstrates the efficacy of this approach by assessing the synthetically generated data.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>Author</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by/4.0/</openaccessUserLicense><dcterms:subject>Machine Learning (ML) on Li-ion batteries</dcterms:subject><dcterms:subject>Co-modeling approach</dcterms:subject><dcterms:subject>Electrochemical Impedance Spectroscopy (EIS) for Li-ion batteries</dcterms:subject><dcterms:subject>Regeration of impedance for Li-ion batteries</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S2352340922009039" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S2352340922009039" rel="scidir"/></coredata><objects><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="565" height="437" size="67552">https://api.elsevier.com/content/object/eid/1-s2.0-S2352340922009039-gr1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="212" height="164" size="12926">https://api.elsevier.com/content/object/eid/1-s2.0-S2352340922009039-gr1.sml?httpAccept=%2A%2F%2A</object><object ref="gr1" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2500" height="1935" size="559438">https://api.elsevier.com/content/object/eid/1-s2.0-S2352340922009039-gr1_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="am" category="standard" type="AAM-PDF" multimediatype="Acrobat PDF file" mimetype="application/pdf" size="430168">https://api.elsevier.com/content/object/eid/1-s2.0-S2352340922009039-am.pdf?httpAccept=%2A%2F%2A</object></objects><scopus-id>85140961787</scopus-id><scopus-eid>2-s2.0-85140961787</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85140961787" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>311593</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291690</xocs:ssid>
+         <xocs:ssid type="subj">291786</xocs:ssid>
+         <xocs:ssid type="subj">291806</xocs:ssid>
+         <xocs:ssid type="subj">291848</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Data in Brief</xocs:srctitle>
+      <xocs:normalized-srctitle>DATAINBRIEF</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20221028">2022-10-28</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20221028">2022-10-28</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20221102">2022-11-02</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20221102">2022-11-02</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2022-12-04T08:01:30</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S2352340922009039</xocs:eid>
+      <xocs:pii-formatted>S2352-3409(22)00903-9</xocs:pii-formatted>
+      <xocs:pii-unformatted>S2352340922009039</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.dib.2022.108698</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.1</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S2352340922X00061</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20221204">2022-12-04T08:16:03.270929Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20221201</xocs:date-search-begin>
+      <xocs:date-search-end>20221231</xocs:date-search-end>
+      <xocs:year-nav>2022</xocs:year-nav>
+      <xocs:indexeddate epoch="1666940781">2022-10-28T07:06:21.28034Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articlenumber articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid fundingbodyid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder sponsoredaccesstype srctitle srctitlenorm srctype ssids alllist content oa subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body acknowledge affil articletitle auth authfirstini authfull authkeywords authlast primabst pubtype ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>2352-3409</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>23523409</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:sponsored-access-type>UNLIMITED</xocs:sponsored-access-type>
+      <xocs:funding-body-id>NONE</xocs:funding-body-id>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>45</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>45</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 45</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>100</xocs:sort-order>
+      <xocs:first-fp>108698</xocs:first-fp>
+      <xocs:article-number>108698</xocs:article-number>
+      <xocs:pages>
+         <xocs:first-page>108698</xocs:first-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>202212</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>December 2022</xocs:cover-date-text>
+      <xocs:cover-date-start>2022-12-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2022-12-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2022</xocs:cover-date-year>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>Data Science</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>dat</xocs:document-subtype>
+      <xocs:copyright-line>© 2022 The Author(s). Published by Elsevier Inc.</xocs:copyright-line>
+      <xocs:normalized-article-title>DATAMACHINELEARNINGREGENERATEDLITHIUMIONBATTERYIMPEDANCE</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>TEMIZ</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>S</xocs:normalized-first-auth-initial>
+      <xocs:refers-to>
+         <xocs:refers-to-doi>10.1016/j.est.2022.105022</xocs:refers-to-doi>
+         <xocs:refers-to-pii-unformatted>S2352152X22010246</xocs:refers-to-pii-unformatted>
+      </xocs:refers-to>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>Value of the Data</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>1</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Data Description</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>2</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Experimental Design, Materials and Methods</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>Ethics Statements</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>CRediT Author Statement</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:acknowledgment">
+            <xocs:item-toc-section-title>Acknowledgments</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>Reference</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="sbref0001">
+            <xocs:ref-normalized-surname>TEMIZ</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2022</xocs:ref-pub-year>
+            <xocs:ref-article-number>105022</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>TEMIZX2022X108698</xocs:refkey3>
+         <xocs:refkey4ai>TEMIZX2022X108698XS</xocs:refkey4ai>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2022-10-21T15:55:06Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>Author</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by/4.0/</xocs:oa-user-license>
+      </xocs:open-access>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2022 The Author(s). Published by Elsevier Inc.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:funding-list has-funding-info="1">
+         <xocs:funding-addon-generated-timestamp>2022-11-05T00:30:25.920Z</xocs:funding-addon-generated-timestamp>
+         <xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp-car</xocs:funding-addon-type>
+      </xocs:funding-list>
+      <xocs:article-sharing-framework/>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S2352-3409(22)00903-9</xocs:pii-formatted>
+         <xocs:pii-unformatted>S2352340922009039</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S2352340922009039</xocs:eid>
+         <xocs:doi>10.1016/j.dib.2022.108698</xocs:doi>
+         <xocs:cid>311593</xocs:cid>
+         <xocs:timestamp>2022-12-04T08:16:03.270929Z</xocs:timestamp>
+         <xocs:cover-date-start>2022-12-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2022-12-31</xocs:cover-date-end>
+         <xocs:sponsored-access-type>UNLIMITED</xocs:sponsored-access-type>
+         <xocs:funding-body-id>NONE</xocs:funding-body-id>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S2352340922009039-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352340922009039/MAIN/application/pdf/40173b6e7b00577622b1ffd1ec85827d/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>566218</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>5</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S2352340922009039-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352340922009039/PREVIEW/image/png/ed0a2989b69b3ff823b44a6d7475d46e/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>43820</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352340922009039-gr1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352340922009039/gr1/DOWNSAMPLED/image/jpeg/bbdb3db0bc29004ff672a4fb1a2fc503/gr1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>67552</xocs:filesize>
+               <xocs:pixel-height>437</xocs:pixel-height>
+               <xocs:pixel-width>565</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352340922009039-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352340922009039/gr1/THUMBNAIL/image/gif/5f22c0bc319b68bd7d77008c81a48ff9/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>12926</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>212</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352340922009039-gr1_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352340922009039/HIGHRES/image/jpeg/7cfc8c85751f38e403dd9226c2162cf9/gr1_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>559438</xocs:filesize>
+               <xocs:pixel-height>1935</xocs:pixel-height>
+               <xocs:pixel-width>2500</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352340922009039-am.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10FRN40TV42/MAIN/application/pdf/07cad4f21cf0732eed3b15dc99712ee2/am.pdf</xocs:ucs-locator>
+               <xocs:file-basename>am</xocs:file-basename>
+               <xocs:filename>am.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>false</xocs:pdf-optimized>
+               <xocs:filesize>430168</xocs:filesize>
+               <xocs:attachment-type>AAM-PDF</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" docsubtype="dat" version="5.6" xml:lang="en">
+         <item-info>
+            <jid>DIB</jid>
+            <aid>108698</aid>
+            <ce:article-number>108698</ce:article-number>
+            <ce:pii>S2352-3409(22)00903-9</ce:pii>
+            <ce:doi>10.1016/j.dib.2022.108698</ce:doi>
+            <ce:document-thread>
+               <ce:refers-to-document id="ref0001">
+                  <ce:pii>S2352-152X(22)01024-6</ce:pii>
+                  <ce:doi>10.1016/j.est.2022.105022</ce:doi>
+               </ce:refers-to-document>
+            </ce:document-thread>
+            <ce:copyright type="other" year="2022">The Author(s)</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="fig0001">
+               <ce:label>Fig. 1</ce:label>
+               <ce:caption id="cap0001">
+                  <ce:simple-para id="spara001" view="all">Procedure for battery impedance dataset.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alt0001" role="short">Fig 1</ce:alt-text>
+               <ce:link id="celink0001" locator="gr1" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S2352340922009039/gr1"/>
+            </ce:figure>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="tbl0001" rowsep="0" colsep="0" frame="topbot">
+               <ce:label>Table 1</ce:label>
+               <ce:caption id="cap0002">
+                  <ce:simple-para id="spara002" view="all">The contents of our trained I<ce:inf loc="post">dc</ce:inf> and Z<ce:inf loc="post">phz</ce:inf> cooperative models. e is the scientific e, i.e., 1.04e-04 = 1.04 <ce:italic>×</ce:italic> 10<ce:sup loc="post">−4</ce:sup>.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alt0002" role="short">Table 1</ce:alt-text>
+               <tgroup cols="4">
+                  <colspec colnum="1" colname="col1" align="left"/>
+                  <colspec colnum="2" colname="col2" align="left"/>
+                  <colspec colnum="3" colname="col3" align="left"/>
+                  <colspec colnum="4" colname="col4" align="left"/>
+                  <thead>
+                     <row rowsep="1">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0019" align="left" valign="top" role="colgroup" namest="col1" nameend="col4">I<inf loc="post">dc</inf> Cooperative Model</entry>
+                     </row>
+                     <row rowsep="1">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0020" colname="col1" valign="top">Method</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0021" colname="col2" valign="top">RMSE</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0022" colname="col3" valign="top">RMSESD</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0023" colname="col4" valign="top">Weight</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0024" colname="col1" valign="top">glm</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0025" colname="col2" valign="top">1.04e-04</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0026" colname="col3" valign="top">1.15e-05</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0027" colname="col4" valign="top">-0.102</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0028" colname="col1" valign="top">rf</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0029" colname="col2" valign="top">2.86e-05</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0030" colname="col3" valign="top">1.39e-05</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0031" colname="col4" valign="top">0.389</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0032" colname="col1" valign="top">xgbDART</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0033" colname="col2" valign="top">9.59e-05</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0034" colname="col3" valign="top">2.30e-05</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0035" colname="col4" valign="top">-0.063</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0036" colname="col1" valign="top">xgbLinear</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0037" colname="col2" valign="top">9.98e-05</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0038" colname="col3" valign="top">2.21e-05</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0039" colname="col4" valign="top">-0.080</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0040" colname="col1" valign="top">monmlp</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0041" colname="col2" valign="top">3.35e-05</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0042" colname="col3" valign="top">5.18e-06</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0043" colname="col4" valign="top">0.360</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0044" colname="col1" valign="top">gcvEarth</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0045" colname="col2" valign="top">5.44e-05</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0046" colname="col3" valign="top">1.06e-05</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0047" colname="col4" valign="top">-0.18</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0048" colname="col1" valign="top">ppr</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0049" colname="col2" valign="top">4.14e-05</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0050" colname="col3" valign="top">1.06e-05</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0051" colname="col4" valign="top">0.086</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0052" colname="col1" valign="top">svmRadial</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0053" colname="col2" valign="top">8.07e-05</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0054" colname="col3" valign="top">2.86e-05</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0055" colname="col4" valign="top">0.050</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0056" colname="col1" valign="top">knn</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0057" colname="col2" valign="top">2.99e-05</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0058" colname="col3" valign="top">8.25e-06</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0059" colname="col4" valign="top">0.433</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0060" colname="col1" valign="top">gaussprLinear</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0061" colname="col2" valign="top">1.09e-04</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0062" colname="col3" valign="top">9.75e-06</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0063" colname="col4" valign="top">0.166</entry>
+                     </row>
+                     <row rowsep="1">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0064" colname="col1" valign="top">rpart</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0065" colname="col2" valign="top">1.12e-04</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0066" colname="col3" valign="top">1.47e-05</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0067" colname="col4" valign="top">-0.072</entry>
+                     </row>
+                     <row rowsep="1">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0068" align="left" valign="top" role="colgroup" namest="col1" nameend="col4">Z<inf loc="post">phz</inf> Cooperative Model</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0073" colname="col1" valign="top">xgbLinear</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0074" colname="col2" valign="top">0.6253</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0075" colname="col3" valign="top">0.4062</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0076" colname="col4" valign="top">0.267</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0077" colname="col1" valign="top">xgbDART</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0078" colname="col2" valign="top">0.5301</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0079" colname="col3" valign="top">0.2101</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0080" colname="col4" valign="top">0.374</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0081" colname="col1" valign="top">xgbTree</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0082" colname="col2" valign="top">0.5462</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0083" colname="col3" valign="top">0.1675</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0084" colname="col4" valign="top">0.388</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </ce:table>
+         </ce:floats>
+         <head>
+            <ce:dochead id="dchd0001">
+               <ce:textfn id="dhtxt0001">Data Article</ce:textfn>
+            </ce:dochead>
+            <ce:title id="tte0002">Data on Machine Learning regenerated Lithium-ion battery impedance</ce:title>
+            <ce:author-group id="aut0001">
+               <ce:author id="au0001" author-id="S2352340922009039-dabb01960c47c4a74a6c2b08404ba042">
+                  <ce:given-name>Selcuk</ce:given-name>
+                  <ce:surname>Temiz</ce:surname>
+                  <ce:cross-ref id="crf0001" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0002" refid="cor0001">
+                     <ce:sup loc="post">⁎</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:author id="au0002" author-id="S2352340922009039-b47a6cf6b44afc9e56cccbcb28f3bad4">
+                  <ce:given-name>Hasan</ce:given-name>
+                  <ce:surname>Kurban</ce:surname>
+                  <ce:cross-ref id="crf0003" refid="aff0002">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0004" refid="aff0003">
+                     <ce:sup loc="post">c</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0003" author-id="S2352340922009039-9224e23ee8817e99ea97acc2dafbbe3e">
+                  <ce:given-name>Salim</ce:given-name>
+                  <ce:surname>Erol</ce:surname>
+                  <ce:cross-ref id="crf0005" refid="aff0004">
+                     <ce:sup loc="post">d</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0004" author-id="S2352340922009039-097d4991d4daaee2b4c3349df84eb3f9">
+                  <ce:given-name>Mehmet M.</ce:given-name>
+                  <ce:surname>Dalkilic</ce:surname>
+                  <ce:cross-ref id="crf0006" refid="aff0003">
+                     <ce:sup loc="post">c</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:affiliation id="aff0001" affiliation-id="S2352340922009039-9cd90d28dc63ee90bcc7e3faa433c740">
+                  <ce:label>a</ce:label>
+                  <ce:textfn id="cetextfn0001">Department of Physics, Eskisehir Osmangazi University, Eskisehir, 26040, Turkey</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Physics</sa:organization>
+                     <sa:organization>Eskisehir Osmangazi University</sa:organization>
+                     <sa:city>Eskisehir</sa:city>
+                     <sa:postal-code>26040</sa:postal-code>
+                     <sa:country>Turkey</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="staff0001">aDepartment of Physics, Eskisehir Osmangazi University, Eskisehir, 26040, Turkey</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="aff0002" affiliation-id="S2352340922009039-55d8b3ed9f7c7eb7e757ddfefdf41966">
+                  <ce:label>b</ce:label>
+                  <ce:textfn id="cetextfn0002">Applied Data Science Department, San Jose State University, San Jose, CA, 95192, US</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Applied Data Science Department</sa:organization>
+                     <sa:organization>San Jose State University</sa:organization>
+                     <sa:city>San Jose</sa:city>
+                     <sa:state>CA</sa:state>
+                     <sa:postal-code>95192</sa:postal-code>
+                     <sa:country>US</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="staff0002">bApplied Data Science Department, San Jose State University, San Jose, CA, 95192, US</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="aff0003" affiliation-id="S2352340922009039-94ad70d2d66c1dfcc581a692d6a90176">
+                  <ce:label>c</ce:label>
+                  <ce:textfn id="cetextfn0003">Computer Science Department, Indiana University, Bloomington, 47405, IN, US</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Computer Science Department</sa:organization>
+                     <sa:organization>Indiana University</sa:organization>
+                     <sa:city>Bloomington</sa:city>
+                     <sa:state>IN</sa:state>
+                     <sa:postal-code>47405</sa:postal-code>
+                     <sa:country>US</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="staff0003">cComputer Science Department, Indiana University, Bloomington, 47405, IN, US</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="aff0004" affiliation-id="S2352340922009039-07aef61e2d85bca330edd6487a5b7d3c">
+                  <ce:label>d</ce:label>
+                  <ce:textfn id="cetextfn0004">Department of Chemical Engineering, Eskisehir Osmangazi University, Eskisehir, 26040, Turkey</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Chemical Engineering</sa:organization>
+                     <sa:organization>Eskisehir Osmangazi University</sa:organization>
+                     <sa:city>Eskisehir</sa:city>
+                     <sa:postal-code>26040</sa:postal-code>
+                     <sa:country>Turkey</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="staff0004">dDepartment of Chemical Engineering, Eskisehir Osmangazi University, Eskisehir, 26040, Turkey</ce:source-text>
+               </ce:affiliation>
+               <ce:correspondence id="cor0001">
+                  <ce:label>⁎</ce:label>
+                  <ce:text id="cetext0001">Corresponding author.</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:date-received day="6" month="6" year="2022"/>
+            <ce:date-revised day="11" month="10" year="2022"/>
+            <ce:date-accepted day="20" month="10" year="2022"/>
+            <ce:abstract id="abs0001" view="all" class="author"><ce:abstract-sec id="abss0001" view="all">
+                  <ce:simple-para id="spara003" view="all">This paper describes and provides the data on the regenerated-impedance spectra that is computed from experimental results of electrochemical impedance spectroscopy measurements taken from a commercial Li-ion battery. The empirical impedance data of secondary coin type Li-ion batteries were collected in different states of charge ranging from empty to full state of charge configurations. This approach utilizes only a small seed (<ce:italic>ex grano</ce:italic>) experimental data set to first build an ensemble of weighted disparate models selected based on performance and non-correlative criteria (“co-modelling”) then second to generate what would be the remaining experimental data synthetically. The “Cooperative Model Framework” demonstrates the efficacy of this approach by assessing the synthetically generated data.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="keys0001" view="all" class="keyword">
+               <ce:section-title id="cesectitle0002">Keywords</ce:section-title>
+               <ce:keyword id="key0001">
+                  <ce:text id="cetext0002">Machine Learning (ML) on Li-ion batteries</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0002">
+                  <ce:text id="cetext0003">Co-modeling approach</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0003">
+                  <ce:text id="cetext0004">Electrochemical Impedance Spectroscopy (EIS) for Li-ion batteries</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0004">
+                  <ce:text id="cetext0005">Regeration of impedance for Li-ion batteries</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <body view="all">
+            <ce:sections>
+               <ce:para id="para9001" view="all">
+                  <ce:def-list id="defl0001">
+                     <ce:section-title id="cesectitle0004">NOMENCLATURE</ce:section-title>
+                     <ce:def-term id="dt0001">EIS</ce:def-term>
+                     <ce:def-description id="dd0001">
+                        <ce:para id="para0001" view="all">Electrochemical impedance spectroscopy</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0002">V<ce:inf loc="post">dc</ce:inf>
+                     </ce:def-term>
+                     <ce:def-description id="dd0002">
+                        <ce:para id="para0002" view="all">Potential measured at direct current</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0003">I<ce:inf loc="post">dc</ce:inf>
+                     </ce:def-term>
+                     <ce:def-description id="dd0003">
+                        <ce:para id="para0003" view="all">Current measured at direct current</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0004">f</ce:def-term>
+                     <ce:def-description id="dd0004">
+                        <ce:para id="para0004" view="all">frequency</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0005">Z<ce:inf loc="post">phz</ce:inf>
+                     </ce:def-term>
+                     <ce:def-description id="dd0005">
+                        <ce:para id="para0005" view="all">Phase angle of impedance</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0006">ML</ce:def-term>
+                     <ce:def-description id="dd0006">
+                        <ce:para id="para0006" view="all">Machine learning</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0007">SoC</ce:def-term>
+                     <ce:def-description id="dd0007">
+                        <ce:para id="para0007" view="all">State of charge</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0008">LIR</ce:def-term>
+                     <ce:def-description id="dd0008">
+                        <ce:para id="para0008" view="all">Lithium-ion rechargeable</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0009">knn</ce:def-term>
+                     <ce:def-description id="dd0009">
+                        <ce:para id="para0009" view="all">K-nearest neighbor</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0010">monmlp</ce:def-term>
+                     <ce:def-description id="dd0010">
+                        <ce:para id="para0010" view="all">Monotone multi-layer perceptron</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0011">svmRadial</ce:def-term>
+                     <ce:def-description id="dd0011">
+                        <ce:para id="para0011" view="all">Radial support vector machine</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0012">gcvEarth</ce:def-term>
+                     <ce:def-description id="dd0012">
+                        <ce:para id="para0012" view="all">Multivariate adaptive regression splines with generalized cross validation</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0013">glm</ce:def-term>
+                     <ce:def-description id="dd0013">
+                        <ce:para id="para0013" view="all">Generalized linear model</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0014">ppr</ce:def-term>
+                     <ce:def-description id="dd0014">
+                        <ce:para id="para0014" view="all">Projection pursuit regression</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0015">rpart</ce:def-term>
+                     <ce:def-description id="dd0015">
+                        <ce:para id="para0015" view="all">Recursive partitioning and regression tree</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0016">rf</ce:def-term>
+                     <ce:def-description id="dd0016">
+                        <ce:para id="para0016" view="all">Random forest</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0017">xgb</ce:def-term>
+                     <ce:def-description id="dd0017">
+                        <ce:para id="para0017" view="all">Extreme gradient boosting</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0018">Dart</ce:def-term>
+                     <ce:def-description id="dd0018">
+                        <ce:para id="para0018" view="all">Dropouts meet multiple additive regression tree</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0019">gausspr</ce:def-term>
+                     <ce:def-description id="dd0019">
+                        <ce:para id="para0019" view="all">Gauss process</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0020">RMSE</ce:def-term>
+                     <ce:def-description id="dd0020">
+                        <ce:para id="para0020" view="all">Root mean square error</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0021">RMSESD</ce:def-term>
+                     <ce:def-description id="dd0021">
+                        <ce:para id="para0021" view="all">Root mean square error standard deviation</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0022">Z<ce:inf loc="post">r</ce:inf>
+                     </ce:def-term>
+                     <ce:def-description id="dd0022">
+                        <ce:para id="para0022" view="all">Real part of complex impedance</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0023">Z<ce:inf loc="post">j</ce:inf>
+                     </ce:def-term>
+                     <ce:def-description id="dd0023">
+                        <ce:para id="para0023" view="all">Imaginary part of complex impedance</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0024">dc</ce:def-term>
+                     <ce:def-description id="dd0024">
+                        <ce:para id="para0024" view="all">Direct current</ce:para>
+                     </ce:def-description>
+                     <ce:def-term id="dt0025">ac</ce:def-term>
+                     <ce:def-description id="dd0025">
+                        <ce:para id="para0025" view="all">Alternating current</ce:para>
+                     </ce:def-description>
+                  </ce:def-list>
+               </ce:para>
+               <ce:para id="para0026" view="all">
+                  <ce:bold>Specifications Table</ce:bold>
+                  <ce:display>
+                     <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="utbl0001" rowsep="0" colsep="0" frame="topbot">
+                        <tgroup cols="2">
+                           <colspec colnum="1" colname="col1" align="left"/>
+                           <colspec colnum="2" colname="col2" align="left"/>
+                           <tbody>
+                              <row>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0001" colname="col1" valign="top" role="rowhead">Subject</entry>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0002" colname="col2" valign="top">Electrochemical Engineering, Applied Machine Learning, Co-modeling</entry>
+                              </row>
+                              <row>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0003" colname="col1" valign="top" role="rowhead">Specific subject area</entry>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0004" colname="col2" valign="top">Regenerating the impedance spectra of Li-ion batteries by using novel Machine Learning Methods on the results of empirical impedance measurements.</entry>
+                              </row>
+                              <row>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0005" colname="col1" valign="top" role="rowhead">Type of data</entry>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0006" colname="col2" valign="top">Table<br/>Image<br/>Graph<br/>Figure</entry>
+                              </row>
+                              <row>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0007" colname="col1" valign="top" role="rowhead">How the data were acquired</entry>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0008" colname="col2" valign="top">Empirical Impedance data were obtained by using Electrochemical Impedance Spectroscopy set up (Gamry REF3000AE Potentiostat and Echem Analyst)<br/>Machine Learning processed data were synthesized by using novel computational techniques on experimental results.</entry>
+                              </row>
+                              <row>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0009" colname="col1" valign="top" role="rowhead">Data format</entry>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0010" colname="col2" valign="top">Raw<br/>Analyzed</entry>
+                              </row>
+                              <row>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0011" colname="col1" valign="top" role="rowhead">Description of data collection</entry>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0012" colname="col2" valign="top">The experimental impedance data were collected in cell potentials as 3.2V, 3.4V, 3.6V, 3.8V, 4.0V, and 4.2V (corresponding state of charge values: 0%, 3%, 8%, 40%, 78%, 100%).</entry>
+                              </row>
+                              <row>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0013" colname="col1" valign="top" role="rowhead">Data source location</entry>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0014" colname="col2" valign="top">Experimental impedance data:<br/>Institution: Eskisehir Osmangazi University<br/>City: Eskisehir<br/>Country: Turkey<br/>Machine Learning generated impedance data:<br/>Institution: Indiana University<br/>City/State: Bloomington, Indiana<br/>Country: United States of America</entry>
+                              </row>
+                              <row>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0015" colname="col1" valign="top" role="rowhead">Data accessibility</entry>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0016" colname="col2" valign="top">Repository name: Mendeley Data<br/>Direct URL to data: <inter-ref id="interref0001" xlink:href="https://data.mendeley.com/datasets/hr2ftv6gcn/1" xlink:type="simple">https://data.mendeley.com/datasets/hr2ftv6gcn/1</inter-ref>
+                                    <br/>DOI: <inter-ref id="interref0002a" xlink:href="https://doi.org/10.17632/hr2ftv6gcn.1" xlink:type="simple">10.17632/hr2ftv6gcn.1</inter-ref>
+                                    <br/>Machine Learning Code: <inter-ref id="interref0002" xlink:href="https://github.com/hasankurban/Machine-Learning-Based-Regeneration-of-Li-ion-Battery-Impedance" xlink:type="simple">https://github.com/hasankurban/Machine-Learning-Based-Regeneration-of-Li-ion-Battery-Impedance</inter-ref>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0017" colname="col1" valign="top" role="rowhead">Related research article</entry>
+                                 <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0018" colname="col2" valign="top">S. Temiz, H. Kurban, S. Erol, M. M. Dalkilic, Regeneration of Lithium-ion Battery Impedance using a Novel Machine Learning Framework and Minimal Empirical Data, Journal of Energy Storage, 52 (2022) 105022.</entry>
+                              </row>
+                           </tbody>
+                        </tgroup>
+                     </ce:table>
+                  </ce:display>
+               </ce:para>
+               <ce:section id="sec0002" view="all">
+                  <ce:section-title id="cesectitle0006">Value of the Data</ce:section-title>
+                  <ce:para id="para9002" view="all">
+                     <ce:list id="celist0001">
+                        <ce:list-item id="celistitem0001">
+                           <ce:label>•</ce:label>
+                           <ce:para id="para0027" view="all">Experimental impedance data taken in particular state of charge (SoC) conditions were used to build a weighted ensemble of disparate models selected from performance and non-correlative criteria.</ce:para>
+                        </ce:list-item>
+                        <ce:list-item id="celistitem0002">
+                           <ce:label>•</ce:label>
+                           <ce:para id="para0028" view="all">The approach is called “The Cooperative Model Framework” (or co-modeling) produce synthetic impedance data from minimal experimental data training.</ce:para>
+                        </ce:list-item>
+                        <ce:list-item id="celistitem0003">
+                           <ce:label>•</ce:label>
+                           <ce:para id="para0029" view="all">The synthetic data can be used on battery management systems in order to monitor the performance of Li-ion batteries.</ce:para>
+                        </ce:list-item>
+                        <ce:list-item id="celistitem0004">
+                           <ce:label>•</ce:label>
+                           <ce:para id="para0030" view="all">The synthetic data can be used to study on the analysis of new battery designs.</ce:para>
+                        </ce:list-item>
+                     </ce:list>
+                  </ce:para>
+               </ce:section>
+               <ce:section id="sec0003" view="all">
+                  <ce:label>1</ce:label>
+                  <ce:section-title id="cesectitle0007">Data Description</ce:section-title>
+                  <ce:para id="para0031" view="all">The data described in this article were the results of the combination of experimental and machine learning (ML) methods. The experimental impedance data on Li-ion batteries were collected by using electrochemical impedance spectroscopy under different charging conditions. The computational data were obtained by using a novel data-centric machine learning approach to build an ensemble of models to effectively complete the experimental results. The amount of experimental data were intentionally fixed in small volume in order to observe the productiveness of the co-modeling approach with the minimum amount of input.</ce:para>
+                  <ce:para id="para0032" view="all">The impedance data is useful for analyzing and monitoring the characteristics and performance of rechargeable Li-ion batteries. Battery impedance can be represented either by Nyquist or Bode Format according to the purpose of analysis. The empirical data in this article consist of the parameters and results of the offline potentiostatic impedance measurements taken from commercial secondary LIR2032 Li-ion battery cells under different cell potentials from 3.2V to 4.2V. The datasets (3.2, 3.4, 3.6, 3.8, 4, 4.2 .txt files on <ce:inter-ref id="interref0003" xlink:href="https://data.mendeley.com/drafts/hr2ftv6gcn" xlink:type="simple">Mendeley Data</ce:inter-ref>) include the excitation potential (V<ce:inf loc="post">dc</ce:inf>) and frequency (f) as inputs, and corresponding current (I<ce:inf loc="post">dc</ce:inf>) and phase angle of impedance (Z<ce:inf loc="post">phz</ce:inf>) as outputs along with the resulting real (Z<ce:inf loc="post">r</ce:inf>) and imaginary (Z<ce:inf loc="post">j</ce:inf>) components of battery impedance, and these components can be used in Nyquist plotting.</ce:para>
+                  <ce:para id="para0033" view="all">Phase angle of impedance as a function of applied frequency is one of the representations of impedance response of an electrochemical system; and it is designated as the Bode plotting. An equivalent electrical circuit is a useful illustration of an electrochemical system with electrical components in a circuit that provides information about charge and mass transport occurring in the system. The phase angle of impedance for any component in the equivalent electrical circuit corresponding to the electrochemical system is the phase shift between the applied excitation potential and current passing through that component. A novel ML approach (co-modelling approach) is used to process the empirical impedance data in order to regenerate the phase angle of impedance <ce:cross-ref id="crf0009a" refid="bib0001">[1]</ce:cross-ref>. ML regenerated impedance data for I<ce:inf loc="post">dc</ce:inf> and Z<ce:inf loc="post">phz</ce:inf> (ML-regenerated-impedance-data.txt) is included in the same data repository.</ce:para>
+               </ce:section>
+               <ce:section id="sec0004" role="materials-methods" view="all">
+                  <ce:label>2</ce:label>
+                  <ce:section-title id="cesectitle0008">Experimental Design, Materials and Methods</ce:section-title>
+                  <ce:para id="para0034" view="all">Electrochemical Impedance Spectroscopy (EIS) experiments were performed on commercial coin type Li-ion batteries (LIR2032) using Gamry REF3000AE potentiostat. EIS measurements were taken at different SoC by applying 10 mV perturbation potential between the frequency range of 100 kHz and 10 mHz. SoC is a function of open circuit cell potential of the batteries such that it can be varied by changing the potential of the batteries. A potentiostat can both supply direct or alternating current to the system that is analyzed. The potentiostat provided direct current (dc) to change the cell potential; on the other hand, an alternating current (ac) is applied to measure the impedance at a specific SoC for the batteries. The results of EIS measurements were used to build the co-model. <ce:cross-ref id="crf0007" refid="fig0001">Fig. 1</ce:cross-ref>
+                     <ce:float-anchor refid="fig0001"/> illustrates the step-by-step procedure for battery impedance dataset; (1) a proper test station for a commercial Li-ion coin cell battery is prepared. The battery is then initially run for one fully charge/discharge cycle prior to impedance measurement; (2) impedance is measured while the battery cell potentials are 3.2V, 3.4V, 3.6V, 3.8V, 4.0V, 4.2V; (3) stored data is analyzed for quality; (4) the co-model is trained and tested then generates remaining impedance; (5) the impedance spectra (consisting of the phase angle as a function of logarithmic frequency) are assessed for goodness of fit.</ce:para>
+                  <ce:para id="para0035" view="all">The details of our Z<ce:inf loc="post">phz</ce:inf> and I<ce:inf loc="post">dc</ce:inf> cooperative models are given in <ce:cross-ref id="crf0008" refid="tbl0001">Table 1</ce:cross-ref>
+                     <ce:float-anchor refid="tbl0001"/>. Each of these two ensemble models is a weighted ensemble of disparate ML models. The fit of each individual ML model to each cooperative model is demonstrated using RMSE (Root Mean Square Error) and RMSESD (Root Mean Square Error Standard Deviation) values. The last column shows the importance of each model in the co-models.</ce:para>
+                  <ce:para id="para0036" view="all">The datasets are available on <ce:inter-ref id="interref0004" xlink:href="https://data.mendeley.com/datasets/hr2ftv6gcn/1" xlink:type="simple">Mendeley Data</ce:inter-ref>.</ce:para>
+                  <ce:para id="para0037" view="all">Code, ML models and ML regenerated impedance are accessible at: <ce:inter-ref id="interref0005" xlink:href="https://github.com/hasankurban/Machine-Learning-Based-Regeneration-of-Li-ion-Battery-Impedance" xlink:type="simple">https://github.com/hasankurban/Machine-Learning-Based-Regeneration-of-Li-ion-Battery-Impedance</ce:inter-ref>.</ce:para>
+               </ce:section>
+               <ce:section id="sec0005" view="all">
+                  <ce:section-title id="cesectitle0009">Ethics Statements</ce:section-title>
+                  <ce:para id="para0038" view="all">This work does not contain any human studies or animal experiments. The data were not collected using social media platforms. The authors declare that they have followed the general ethics rules for scientific research and publishing.</ce:para>
+               </ce:section>
+               <ce:section id="sec0006" view="all">
+                  <ce:section-title id="cesectitle0010">CRediT Author Statement</ce:section-title>
+                  <ce:para id="para0039" view="all">
+                     <ce:bold>Selcuk Temiz:</ce:bold> Conceptualization, Methodology, Writing – original draft preparation, Investigation; <ce:bold>Hasan Kurban:</ce:bold> Conceptualization, Methodology, Writing – original draft preparation, Data curation, Applying Machine Learning algorithms; <ce:bold>Salim Erol:</ce:bold> Conceptualization, Methodology, Writing – original draft preparation, Visualization, Investigation; <ce:bold>Mehmet M. Dalkilic:</ce:bold> Conceptualization, Methodology, Applying Machine Learning algorithms, Writing – review &amp; editing, Supervision.</ce:para>
+               </ce:section>
+            </ce:sections>
+            <ce:conflict-of-interest id="coi0001" view="all">
+               <ce:section-title id="cesectitle0013">Declaration of Competing Interest</ce:section-title>
+               <ce:para id="para0042" view="all">The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</ce:para>
+            </ce:conflict-of-interest>
+            <ce:acknowledgment id="ack0001" view="all">
+               <ce:section-title id="cesectitle0012">Acknowledgments</ce:section-title>
+               <ce:para id="para0041" view="all">N/A<ce:italic>.</ce:italic>
+               </ce:para>
+            </ce:acknowledgment>
+         </body>
+         <tail view="all">
+            <ce:bibliography id="cebibl1" view="all">
+               <ce:section-title id="cesectitle0014">Reference</ce:section-title>
+               <ce:bibliography-sec id="cebibsec1" view="all">
+                  <ce:bib-reference id="bib0001">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference id="sbref0001">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Temiz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Kurban</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Erol</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.M.</ce:given-name>
+                                 <ce:surname>Dalkilic</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Regeneration of Lithium-ion Battery Impedance using a Novel Machine Learning Framework and Minimal Empirical Data</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Energy Storage</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>52</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2022</sb:date>
+                           </sb:issue>
+                           <sb:article-number>105022</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt0001">S. Temiz, H. Kurban, S. Erol, M. M. Dalkilic, Regeneration of Lithium-ion Battery Impedance using a Novel Machine Learning Framework and Minimal Empirical Data, Journal of Energy Storage, 52 (2022) 105022.</ce:source-text>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

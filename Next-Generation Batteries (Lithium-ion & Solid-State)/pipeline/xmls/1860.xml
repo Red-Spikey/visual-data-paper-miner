@@ -1,0 +1,2524 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S2352484722009994</prism:url><dc:identifier>doi:10.1016/j.egyr.2022.05.154</dc:identifier><eid>1-s2.0-S2352484722009994</eid><prism:doi>10.1016/j.egyr.2022.05.154</prism:doi><pii>S2352-4847(22)00999-4</pii><dc:title>Voltage equalization circuit for retired batteries for energy storage applications </dc:title><prism:publicationName>Energy Reports</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>sco</pubType><prism:issn>23524847</prism:issn><prism:volume>8</prism:volume><prism:startingPage>367</prism:startingPage><prism:endingPage>374</prism:endingPage><prism:pageRange>367-374</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2022-11-30</prism:coverDate><prism:coverDisplayDate>November 2022</prism:coverDisplayDate><prism:copyright>© 2022 The Authors. Published by Elsevier Ltd.</prism:copyright><prism:publisher>The Authors. Published by Elsevier Ltd.</prism:publisher><prism:issueName>2022 The 4th International Conference on Clean Energy and Electrical Systems</prism:issueName><dc:creator>Habib, A.K.M. Ahasan</dc:creator><dc:creator>Hasan, Mohammad Kamrul</dc:creator><dc:creator>Islam, Shayla</dc:creator><dc:creator>Ahmed, Musse Mohamed</dc:creator><dc:creator>Aman, Azana Hafizah Mohd</dc:creator><dc:creator>Bagwari, Ashish</dc:creator><dc:creator>Khan, Sheroz</dc:creator><dc:description>
+                  In this paper, an active equalization circuit based on resonant converter is presented. This equalization circuit has been proposed to equalize the direct cell-to-cell voltage in a string. All electrochemical energy storage devices are connected in series. Using this equalization circuit energy transfer from higher energy and charge capacitive cell to lower energy and charge cell in the string. All MOSFET switches are operated by complementary Pulse-Width Modulation (PWM) signal. The working principle of this equalization circuit like that of a switches-capacitor equalization circuit. In this circuit, a single Inductor (L) capacitor (C) energy carrier and bidirectional low voltage MOSFET switches are used so that it can recover maximum energy, reduce conduction loss, and improve the switching loss drawback, reduce the equalization time duration between two cells and achieved zero voltage gap. This equalization circuit is bidirectional and operates under the three modes, namely, charging, discharging, and relaxation mode. The proposed circuit details, the working principle, and the mathematical analyzes are presented. The simulation results are validated by the demonstration of an experimental prototype hardware testbed. The experimental results based on lithium-ion, lead–acid, and super-capacitor are presented. This equalization circuit is low cost and occupies little space with efficiencies of 96%, 94.2%, and 84.43% for Li-ion, lead–acid and super-capacitor respectively.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName>Third-Party Sponsor</openaccessSponsorName><openaccessSponsorType>ElsevierWaived</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>Energy storage device</dcterms:subject><dcterms:subject>Cell equalization</dcterms:subject><dcterms:subject>Active equalization</dcterms:subject><dcterms:subject>Resonant converter</dcterms:subject><dcterms:subject>Electric vehicles</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S2352484722009994" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S2352484722009994" rel="scidir"/></coredata><objects><object ref="gr3" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="698" height="218" size="38338">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-gr3.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="340" height="282" size="20261">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-gr1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr4" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="698" height="223" size="37729">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-gr4.jpg?httpAccept=%2A%2F%2A</object><object ref="gr5" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="564" height="247" size="44008">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-gr5.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="386" height="254" size="48940">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-gr2.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="68" size="3973">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-gr3.sml?httpAccept=%2A%2F%2A</object><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="198" height="164" size="7313">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-gr1.sml?httpAccept=%2A%2F%2A</object><object ref="gr4" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="70" size="4298">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-gr4.sml?httpAccept=%2A%2F%2A</object><object ref="gr5" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="96" size="8970">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-gr5.sml?httpAccept=%2A%2F%2A</object><object ref="gr2" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="144" size="22638">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-gr2.sml?httpAccept=%2A%2F%2A</object><object ref="gr3" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="3089" height="963" size="293395">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-gr3_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1507" height="1250" size="136916">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-gr1_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr4" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="3089" height="985" size="260438">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-gr4_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr5" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2499" height="1094" size="391193">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-gr5_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1709" height="1124" size="444964">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-gr2_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="si7" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="2180">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-si7.svg?httpAccept=%2A%2F%2A</object><object ref="si11" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="18864">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-si11.svg?httpAccept=%2A%2F%2A</object><object ref="si5" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="6050">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-si5.svg?httpAccept=%2A%2F%2A</object><object ref="si9" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="12731">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-si9.svg?httpAccept=%2A%2F%2A</object><object ref="si10" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="5530">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-si10.svg?httpAccept=%2A%2F%2A</object><object ref="si12" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="2182">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-si12.svg?httpAccept=%2A%2F%2A</object><object ref="si8" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="15020">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-si8.svg?httpAccept=%2A%2F%2A</object><object ref="si16" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="4995">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-si16.svg?httpAccept=%2A%2F%2A</object><object ref="si20" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="13873">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-si20.svg?httpAccept=%2A%2F%2A</object><object ref="si6" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="12647">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-si6.svg?httpAccept=%2A%2F%2A</object><object ref="si21" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="1298">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-si21.svg?httpAccept=%2A%2F%2A</object><object ref="si19" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="21345">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-si19.svg?httpAccept=%2A%2F%2A</object><object ref="si18" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="5532">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-si18.svg?httpAccept=%2A%2F%2A</object><object ref="si14" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="27278">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-si14.svg?httpAccept=%2A%2F%2A</object><object ref="si15" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="31400">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-si15.svg?httpAccept=%2A%2F%2A</object><object ref="si4" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="2533">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-si4.svg?httpAccept=%2A%2F%2A</object><object ref="si17" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="8794">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-si17.svg?httpAccept=%2A%2F%2A</object><object ref="si3" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="3172">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-si3.svg?httpAccept=%2A%2F%2A</object><object ref="si22" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="2360">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-si22.svg?httpAccept=%2A%2F%2A</object><object ref="si23" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="235">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-si23.svg?httpAccept=%2A%2F%2A</object><object ref="si13" category="thumbnail" type="ALTIMG" multimediatype="Scalable Vector Graphics file" mimetype="image/svg+xml" size="16967">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-si13.svg?httpAccept=%2A%2F%2A</object><object ref="am" category="standard" type="AAM-PDF" multimediatype="Acrobat PDF file" mimetype="application/pdf" size="515503">https://api.elsevier.com/content/object/eid/1-s2.0-S2352484722009994-am.pdf?httpAccept=%2A%2F%2A</object></objects><scopus-id>85132384557</scopus-id><scopus-eid>2-s2.0-85132384557</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85132384557" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>311225</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291731</xocs:ssid>
+         <xocs:ssid type="subj">291877</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Energy Reports</xocs:srctitle>
+      <xocs:normalized-srctitle>ENERGYREPORTS</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20220601">2022-06-01</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20220601">2022-06-01</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20220601">2022-06-01</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20220601">2022-06-01</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2023-01-19T08:02:26</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S2352484722009994</xocs:eid>
+      <xocs:pii-formatted>S2352-4847(22)00999-4</xocs:pii-formatted>
+      <xocs:pii-unformatted>S2352484722009994</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.egyr.2022.05.154</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.1</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S2352484722X00085</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20240621">2024-06-21T17:44:51.61396Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20221101</xocs:date-search-begin>
+      <xocs:date-search-end>20221130</xocs:date-search-end>
+      <xocs:year-nav>2022</xocs:year-nav>
+      <xocs:indexeddate epoch="1654108338">2022-06-01T18:32:18.338753Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids confeditor contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid fundingbodyid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder sponsoredaccesstype srctitle srctitlenorm srctype ssids alllist content oa subj subheadings suppl tomb vol volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body mmlmath acknowledge affil articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor orcid primabst pubtype ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>2352-4847</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>23524847</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:sponsored-access-type>UNLIMITED</xocs:sponsored-access-type>
+      <xocs:funding-body-id>SPONSOR</xocs:funding-body-id>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>8</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>8</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>S10</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 8, Supplement 10</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>44</xocs:sort-order>
+      <xocs:first-fp>367</xocs:first-fp>
+      <xocs:last-lp>374</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>367</xocs:first-page>
+         <xocs:last-page>374</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>202211</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>November 2022</xocs:cover-date-text>
+      <xocs:cover-date-start>2022-11-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2022-11-30</xocs:cover-date-end>
+      <xocs:cover-date-year>2022</xocs:cover-date-year>
+      <xocs:title-editors-groups>
+         <xocs:title-editors-group>
+            <ce:title>2022 The 4th International Conference on Clean Energy and Electrical Systems</ce:title>
+            <ce:editors>
+               <ce:author-group>
+                  <ce:author author-id="S2352484722X00085-f67583484868d3553b19f8a448d1e71c" id="au000001">
+                     <ce:given-name>Hossam</ce:given-name>
+                     <ce:surname>Gaber</ce:surname>
+                  </ce:author>
+                  <ce:affiliation affiliation-id="S2352484722X00085-bb82b37c15c0bc9c3f8802919411988e" id="aff000001">
+                     <ce:textfn>Hossam.gabbar@ontariotechu.ca</ce:textfn>
+                     <ce:source-text id="afs000001">Hossam.gabbar@ontariotechu.ca</ce:source-text>
+                  </ce:affiliation>
+               </ce:author-group>
+            </ce:editors>
+         </xocs:title-editors-group>
+      </xocs:title-editors-groups>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>sco</xocs:document-subtype>
+      <xocs:copyright-line>© 2022 The Authors. Published by Elsevier Ltd.</xocs:copyright-line>
+      <xocs:normalized-article-title>VOLTAGEEQUALIZATIONCIRCUITFORRETIREDBATTERIESFORENERGYSTORAGEAPPLICATIONS</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>HABIB</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>A</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>1</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Introduction</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>2</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Proposed circuit and working principle</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>3</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Two cell voltage equalization process analysis</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>4</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Result and discussion</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>5</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Conclusion</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:acknowledgment">
+            <xocs:item-toc-section-title>Acknowledgment</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="sb1">
+            <xocs:ref-normalized-surname>LAI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-article-number>111162</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sb2">
+            <xocs:ref-normalized-surname>YANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-first-fp>832</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sb3"/>
+         <xocs:ref-info refid="sb4">
+            <xocs:ref-normalized-surname>HASAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-article-number>102940</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sb5">
+            <xocs:ref-normalized-surname>HOQUE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1363</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1385</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sb6">
+            <xocs:ref-normalized-surname>HABIB</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-last-lp>13</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sb7"/>
+         <xocs:ref-info refid="sb8">
+            <xocs:ref-normalized-surname>JONATHAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-article-number>227489</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sb9"/>
+         <xocs:ref-info refid="sb10"/>
+         <xocs:ref-info refid="sb11"/>
+         <xocs:ref-info refid="rg11a">
+            <xocs:ref-normalized-surname>ZELTSER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>802-809</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>I</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>2016IEEEAPPLIEDPOWERELECTRONICSCONFERENCEEXPOSITION</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sb12">
+            <xocs:ref-normalized-surname>HASAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2166</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sb13"/>
+         <xocs:ref-info refid="sb14">
+            <xocs:ref-normalized-surname>HABIB</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1036</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1039</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sb15"/>
+         <xocs:ref-info refid="sb16">
+            <xocs:ref-normalized-surname>YU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3151</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3161</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sb17">
+            <xocs:ref-normalized-surname>LUO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-first-fp>293</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sb18">
+            <xocs:ref-normalized-surname>YUANMAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>183356</xocs:ref-first-fp>
+            <xocs:ref-last-lp>183364</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sb19"/>
+         <xocs:ref-info refid="sb20"/>
+         <xocs:ref-info refid="sb21">
+            <xocs:ref-normalized-surname>MAHAMMAD</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1390</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sb22"/>
+         <xocs:ref-info refid="sb23">
+            <xocs:ref-normalized-surname>SONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-article-number>012087</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>HABIBX2022X367</xocs:refkey3>
+         <xocs:refkey4lp>HABIBX2022X367X374</xocs:refkey4lp>
+         <xocs:refkey4ai>HABIBX2022X367XA</xocs:refkey4ai>
+         <xocs:refkey5>HABIBX2022X367X374XA</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2022-05-18T03:51:38Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>ElsevierWaived</xocs:oa-sponsor-type>
+            <xocs:oa-sponsor-name>Third-Party Sponsor</xocs:oa-sponsor-name>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+      </xocs:open-access>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY-NC-ND license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2022 The Authors. Published by Elsevier Ltd.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:funding-list has-funding-info="1">
+         <xocs:funding-addon-generated-timestamp>2022-06-26T05:06:57.163Z</xocs:funding-addon-generated-timestamp>
+         <xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined</xocs:funding-addon-type>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>Universiti Kebangsaan Malaysia</xocs:funding-agency-matched-string>
+            <xocs:funding-id>GGPM 2020-028</xocs:funding-id>
+            <xocs:funding-id>GP-2021-K023208</xocs:funding-id>
+            <xocs:funding-agency-acronym>UKM</xocs:funding-agency-acronym>
+            <xocs:funding-agency>Universiti Kebangsaan Malaysia</xocs:funding-agency>
+            <xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100004515</xocs:funding-agency-id>
+            <xocs:funding-agency-country>http://sws.geonames.org/1733045/</xocs:funding-agency-country>
+         </xocs:funding>
+         <xocs:funding-text>This work was supported by the Universiti Kebangsaan Malaysia (UKM) under the GGPM 2020-028 , and GP-2021-K023208 .</xocs:funding-text>
+      </xocs:funding-list>
+      <xocs:article-sharing-framework/>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S2352-4847(22)00999-4</xocs:pii-formatted>
+         <xocs:pii-unformatted>S2352484722009994</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S2352484722009994</xocs:eid>
+         <xocs:doi>10.1016/j.egyr.2022.05.154</xocs:doi>
+         <xocs:cid>311225</xocs:cid>
+         <xocs:timestamp>2023-10-09T15:39:40.602575Z</xocs:timestamp>
+         <xocs:cover-date-start>2022-11-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2022-11-30</xocs:cover-date-end>
+         <xocs:sponsored-access-type>UNLIMITED</xocs:sponsored-access-type>
+         <xocs:funding-body-id>SPONSOR</xocs:funding-body-id>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/MAIN/application/pdf/12f0e7fcb643025a4a501367b79cd214/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>1097678</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>8</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S2352484722009994-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/PREVIEW/image/png/03efaf7c40cc02e866528ddda14792fb/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>71257</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-gr3.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/gr3/DOWNSAMPLED/image/jpeg/cbfe0736d10f6e4c08d7ada569c66632/gr3.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>38338</xocs:filesize>
+               <xocs:pixel-height>218</xocs:pixel-height>
+               <xocs:pixel-width>698</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-gr1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/gr1/DOWNSAMPLED/image/jpeg/5fa48f5a94a211220b5a388e77e18059/gr1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>20261</xocs:filesize>
+               <xocs:pixel-height>282</xocs:pixel-height>
+               <xocs:pixel-width>340</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-gr4.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/gr4/DOWNSAMPLED/image/jpeg/ab380413beafd025f53a5d52e402a834/gr4.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>37729</xocs:filesize>
+               <xocs:pixel-height>223</xocs:pixel-height>
+               <xocs:pixel-width>698</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-gr5.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/gr5/DOWNSAMPLED/image/jpeg/103b9c9ac4b600494878c93ea8b6bd7d/gr5.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr5</xocs:file-basename>
+               <xocs:filename>gr5.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>44008</xocs:filesize>
+               <xocs:pixel-height>247</xocs:pixel-height>
+               <xocs:pixel-width>564</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-gr2.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/gr2/DOWNSAMPLED/image/jpeg/4652a57cb1b030ab803a27600b35a912/gr2.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>48940</xocs:filesize>
+               <xocs:pixel-height>254</xocs:pixel-height>
+               <xocs:pixel-width>386</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-gr3.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/gr3/THUMBNAIL/image/gif/7cb16cb8ccd4e0b9170292b522496147/gr3.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>3973</xocs:filesize>
+               <xocs:pixel-height>68</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/gr1/THUMBNAIL/image/gif/e071c5b29a2b2a3e2c6bc38d5911d9d0/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>7313</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>198</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-gr4.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/gr4/THUMBNAIL/image/gif/741c02a4fbf7f204969176b97467eefe/gr4.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>4298</xocs:filesize>
+               <xocs:pixel-height>70</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-gr5.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/gr5/THUMBNAIL/image/gif/8c9738407ba1db588c5af4ee4efb4aad/gr5.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr5</xocs:file-basename>
+               <xocs:filename>gr5.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>8970</xocs:filesize>
+               <xocs:pixel-height>96</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-gr2.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/gr2/DOWNSAMPLED/image/gif/ea335b02d5fdf807177aed5abc9239ef/gr2.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>22638</xocs:filesize>
+               <xocs:pixel-height>144</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-gr3_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/HIGHRES/image/jpeg/5253713118b879e9b9c92029f029161b/gr3_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>293395</xocs:filesize>
+               <xocs:pixel-height>963</xocs:pixel-height>
+               <xocs:pixel-width>3089</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-gr1_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/HIGHRES/image/jpeg/1ce66ba2db9bffd1b0f8c4efb6429468/gr1_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>136916</xocs:filesize>
+               <xocs:pixel-height>1250</xocs:pixel-height>
+               <xocs:pixel-width>1507</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-gr4_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/HIGHRES/image/jpeg/d3e59d7ac842e6db0a7c52a8ddf9a263/gr4_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>260438</xocs:filesize>
+               <xocs:pixel-height>985</xocs:pixel-height>
+               <xocs:pixel-width>3089</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-gr5_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/HIGHRES/image/jpeg/52a19b6d824aa49336ad7cb15f6d8bfb/gr5_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr5</xocs:file-basename>
+               <xocs:filename>gr5_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>391193</xocs:filesize>
+               <xocs:pixel-height>1094</xocs:pixel-height>
+               <xocs:pixel-width>2499</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-gr2_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/HIGHRES/image/jpeg/98bf25e2fed54e7bb8a07670d495af4e/gr2_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>444964</xocs:filesize>
+               <xocs:pixel-height>1124</xocs:pixel-height>
+               <xocs:pixel-width>1709</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-si7.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/STRIPIN/image/svg+xml/c646e6dd2f69e6fe619c172c217d2691/si7.svg</xocs:ucs-locator>
+               <xocs:file-basename>si7</xocs:file-basename>
+               <xocs:filename>si7.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>2180</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-si11.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/STRIPIN/image/svg+xml/5614b13dbae16ca67fe5f2bea9549703/si11.svg</xocs:ucs-locator>
+               <xocs:file-basename>si11</xocs:file-basename>
+               <xocs:filename>si11.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>18864</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-si5.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/STRIPIN/image/svg+xml/b8bec10bffd65c891f4ec23ed0fc37ef/si5.svg</xocs:ucs-locator>
+               <xocs:file-basename>si5</xocs:file-basename>
+               <xocs:filename>si5.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>6050</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-si9.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/STRIPIN/image/svg+xml/88c35bb8612b07aca948f8a90651d816/si9.svg</xocs:ucs-locator>
+               <xocs:file-basename>si9</xocs:file-basename>
+               <xocs:filename>si9.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>12731</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-si10.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/STRIPIN/image/svg+xml/c1682f547e4ddd7276dbbd04dbe1c727/si10.svg</xocs:ucs-locator>
+               <xocs:file-basename>si10</xocs:file-basename>
+               <xocs:filename>si10.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>5530</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-si12.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/STRIPIN/image/svg+xml/9711bda44abf83c334b53f06100e09a2/si12.svg</xocs:ucs-locator>
+               <xocs:file-basename>si12</xocs:file-basename>
+               <xocs:filename>si12.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>2182</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-si8.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/STRIPIN/image/svg+xml/bebce01a30b87fbd7529ec914ce84725/si8.svg</xocs:ucs-locator>
+               <xocs:file-basename>si8</xocs:file-basename>
+               <xocs:filename>si8.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>15020</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-si16.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/STRIPIN/image/svg+xml/e537f869e478a05ce56e216ea139fc9d/si16.svg</xocs:ucs-locator>
+               <xocs:file-basename>si16</xocs:file-basename>
+               <xocs:filename>si16.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>4995</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-si20.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/STRIPIN/image/svg+xml/62be06ec11bc26d3691e1405ca5e0856/si20.svg</xocs:ucs-locator>
+               <xocs:file-basename>si20</xocs:file-basename>
+               <xocs:filename>si20.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>13873</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-si6.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/STRIPIN/image/svg+xml/09d8dfe87e21214943fe956648efbd85/si6.svg</xocs:ucs-locator>
+               <xocs:file-basename>si6</xocs:file-basename>
+               <xocs:filename>si6.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>12647</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-si21.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/STRIPIN/image/svg+xml/0fa56a9d38ed9349c4295daa185b72c6/si21.svg</xocs:ucs-locator>
+               <xocs:file-basename>si21</xocs:file-basename>
+               <xocs:filename>si21.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>1298</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-si19.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/STRIPIN/image/svg+xml/aee48aca098af542c1689d8df5ce909e/si19.svg</xocs:ucs-locator>
+               <xocs:file-basename>si19</xocs:file-basename>
+               <xocs:filename>si19.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>21345</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-si18.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/STRIPIN/image/svg+xml/0f6f647596a47574f63eee7ce4a4d07f/si18.svg</xocs:ucs-locator>
+               <xocs:file-basename>si18</xocs:file-basename>
+               <xocs:filename>si18.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>5532</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-si14.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/STRIPIN/image/svg+xml/86a78446e56968a32639a0d8571a1b90/si14.svg</xocs:ucs-locator>
+               <xocs:file-basename>si14</xocs:file-basename>
+               <xocs:filename>si14.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>27278</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-si15.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/STRIPIN/image/svg+xml/719bc5f2c32ced857ac2121347af138f/si15.svg</xocs:ucs-locator>
+               <xocs:file-basename>si15</xocs:file-basename>
+               <xocs:filename>si15.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>31400</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-si4.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/STRIPIN/image/svg+xml/f222e63d0ec6ace7e5a9c26359ebbcd6/si4.svg</xocs:ucs-locator>
+               <xocs:file-basename>si4</xocs:file-basename>
+               <xocs:filename>si4.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>2533</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-si17.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/STRIPIN/image/svg+xml/d36e0a1185e3a462521efd4d6f770608/si17.svg</xocs:ucs-locator>
+               <xocs:file-basename>si17</xocs:file-basename>
+               <xocs:filename>si17.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>8794</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-si3.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/STRIPIN/image/svg+xml/01a4ec4c491d651e45ea1c7756337e1c/si3.svg</xocs:ucs-locator>
+               <xocs:file-basename>si3</xocs:file-basename>
+               <xocs:filename>si3.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>3172</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-si22.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/STRIPIN/image/svg+xml/864090c0d7aadcae0c189be8211e6362/si22.svg</xocs:ucs-locator>
+               <xocs:file-basename>si22</xocs:file-basename>
+               <xocs:filename>si22.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>2360</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-si23.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/STRIPIN/image/svg+xml/abcce3ece92df49cefdad788ed954fa5/si23.svg</xocs:ucs-locator>
+               <xocs:file-basename>si23</xocs:file-basename>
+               <xocs:filename>si23.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>235</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-si13.svg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2352484722009994/STRIPIN/image/svg+xml/90b04fdcf0410c77ac555696675c5613/si13.svg</xocs:ucs-locator>
+               <xocs:file-basename>si13</xocs:file-basename>
+               <xocs:filename>si13.svg</xocs:filename>
+               <xocs:extension>svg</xocs:extension>
+               <xocs:filesize>16967</xocs:filesize>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2352484722009994-am.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10J91Q4H3LR/MAIN/application/pdf/d85fecc06f4c83ccb0df078dfa023029/am.pdf</xocs:ucs-locator>
+               <xocs:file-basename>am</xocs:file-basename>
+               <xocs:filename>am.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>false</xocs:pdf-optimized>
+               <xocs:filesize>515503</xocs:filesize>
+               <xocs:attachment-type>AAM-PDF</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" docsubtype="sco" version="5.6" xml:lang="en">
+         <item-info>
+            <jid>EGYR</jid>
+            <aid>3876</aid>
+            <ce:pii>S2352-4847(22)00999-4</ce:pii>
+            <ce:doi>10.1016/j.egyr.2022.05.154</ce:doi>
+            <ce:copyright type="other" year="2022">The Authors</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="fig1">
+               <ce:label>Fig. 1</ce:label>
+               <ce:caption id="d1e21">
+                  <ce:simple-para view="all" id="d1e22">Proposed equalization circuit schematic diagram.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr1" xlink:type="simple" xlink:href="pii:S2352484722009994/gr1" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" id="d1e24"/>
+            </ce:figure>
+            <ce:figure id="fig2">
+               <ce:label>Fig. 2</ce:label>
+               <ce:caption id="d1e29">
+                  <ce:simple-para view="all" id="d1e30">Proposed equalization circuit prototype development in the laboratory for four ESD cells.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr2" xlink:type="simple" xlink:href="pii:S2352484722009994/gr2" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" id="d1e32"/>
+            </ce:figure>
+            <ce:figure id="fig3">
+               <ce:label>Fig. 3</ce:label>
+               <ce:caption id="d1e37">
+                  <ce:simple-para view="all" id="d1e38">Proposed equalization circuit result (a) Two Li-ion battery (b) equalization test during discharging and charging period.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr3" xlink:type="simple" xlink:href="pii:S2352484722009994/gr3" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" id="d1e40"/>
+            </ce:figure>
+            <ce:figure id="fig4">
+               <ce:label>Fig. 4</ce:label>
+               <ce:caption id="d1e45">
+                  <ce:simple-para view="all" id="d1e46">Proposed equalization circuit result (a) four lead–acid battery. (b) two-100F SC.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr4" xlink:type="simple" xlink:href="pii:S2352484722009994/gr4" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" id="d1e48"/>
+            </ce:figure>
+            <ce:figure id="fig5">
+               <ce:label>Fig. 5</ce:label>
+               <ce:caption id="d1e53">
+                  <ce:simple-para view="all" id="d1e54">Cell equalization result comparison between conventional and proposed circuit.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr5" xlink:type="simple" xlink:href="pii:S2352484722009994/gr5" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" id="d1e56"/>
+            </ce:figure>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="tbl1" frame="topbot" colsep="0" rowsep="0">
+               <ce:label>Table 1</ce:label>
+               <ce:caption id="d1e60">
+                  <ce:simple-para view="all" id="d1e61">List of the component.</ce:simple-para>
+               </ce:caption>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="col1" align="left"/>
+                  <colspec colnum="2" colname="col2" align="left"/>
+                  <thead>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Components</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Value and parts</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Switches</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">nMOSFET (IRF450A for ESD<inf loc="post">1</inf> and ESD<mml:math display="inline" id="d1e82" altimg="si21.svg">
+                              <mml:msub>
+                                 <mml:mrow/>
+                                 <mml:mrow>
+                                    <mml:mi mathvariant="normal">N</mml:mi>
+                                 </mml:mrow>
+                              </mml:msub>
+                           </mml:math>) <br/>nMOSFET (2N7000 for ESD<inf loc="post">2</inf> to ESD<mml:math display="inline" id="d1e96" altimg="si22.svg">
+                              <mml:msub>
+                                 <mml:mrow/>
+                                 <mml:mrow>
+                                    <mml:mi mathvariant="normal">N−1</mml:mi>
+                                 </mml:mrow>
+                              </mml:msub>
+                           </mml:math>)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Resonant tank</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Inductor (100 <mml:math display="inline" id="d1e109" altimg="si23.svg">
+                              <mml:mi mathvariant="normal">μ</mml:mi>
+                           </mml:math>H) <br/>Capacitor (200 <mml:math display="inline" id="d1e116" altimg="si23.svg">
+                              <mml:mi mathvariant="normal">μ</mml:mi>
+                           </mml:math>C)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Gate driver</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Optocoupler (817c) <br/>Logic gate (SN7404)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Monitoring IC</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Different amplifier (LM 350 Op-amp)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Microcontroller</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Arduino Uno (atmega328p)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">ESD</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Li-ion battery (3.6 V, 4200 mAh, retired) <br/>Lead-acid battery (12 V, 1.5 Ah, retired) <br/>Super-capacitor (100 F, 2.7 V)</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </ce:table>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="tbl2" frame="topbot" colsep="0" rowsep="0">
+               <ce:label>Table 2</ce:label>
+               <ce:caption id="d1e161">
+                  <ce:simple-para view="all" id="d1e162">Comparison between conventional and proposed equalization circuit for n-cells in the string.</ce:simple-para>
+               </ce:caption>
+               <tgroup cols="5">
+                  <colspec colnum="1" colname="col1" align="left"/>
+                  <colspec colnum="2" colname="col2" align="left"/>
+                  <colspec colnum="3" colname="col3" align="left"/>
+                  <colspec colnum="4" colname="col4" align="left"/>
+                  <colspec colnum="5" colname="col5" align="left"/>
+                  <thead>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Parameter</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Resonant converter <br/>Topology <cross-ref refid="b12" id="d1e179">[12]</cross-ref>, Benchmark 1</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Inductor based balancing circuit <cross-ref refid="b2" id="d1e185">[2]</cross-ref>, Benchmark 2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Single resonant converter <cross-ref refid="b17" id="d1e191">[17]</cross-ref>, Benchmark 3</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Proposed circuit</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">ET</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Medium ET, voltage gap between two cells.</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Medium ET, voltage gap between the cells</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Fast ET, voltage gap between two cells.</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Fast ET, achieved 0 V gap.</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">CS</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Complex</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Vary Complex</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Complex</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Complex</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">No. of components</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">4N MS, 1 LC tank, 1 transformer, 1 capacitor</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">4N + 4 MS, 1 L for two cell</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">4N MS, 1 LC tank <br/>3 diodes</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">4N - 4 MS, 1 LC tank <br/>1 capacitor</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">V/C S</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">L/L</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">L/L</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">L/L</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">L/L</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">PL</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">VL</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">VL</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">VL</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">VL</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">E</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">High</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">High</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">High</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">High</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">S</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Large</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Small</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Small</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Small</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Ct</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Costly</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Medium</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Medium</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Medium</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+               <ce:legend>
+                  <ce:simple-para view="all" id="d1e290">C = Capacitor, L = Inductor, CS = Control System, ET = Equalization Time, MS = MOSFET switches, V/C S = Voltage/Current Stress, PL = Power Loss, VL = Vary low E = Efficiency, L = low, S = Size, Ct = Cost.</ce:simple-para>
+               </ce:legend>
+            </ce:table>
+         </ce:floats>
+         <head>
+            <ce:dochead id="d1e293">
+               <ce:textfn>2022 The 4th International Conference on Clean Energy and Electrical Systems (CEES 2022), 2–4 April 2022, Tokyo, Japan</ce:textfn>
+            </ce:dochead>
+            <ce:title id="d1e296">Voltage equalization circuit for retired batteries for energy storage applications</ce:title>
+            <ce:author-group id="d1e298">
+               <ce:author id="au000001" author-id="S2352484722009994-9b1a37701d6c8a4e9afa7c321bdcfdfb">
+                  <ce:given-name>A.K.M. Ahasan</ce:given-name>
+                  <ce:surname>Habib</ce:surname>
+                  <ce:cross-ref refid="aff1" id="d1e304">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="aff2" id="d1e307">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="cor1" id="d1e310">
+                     <ce:sup loc="post">⁎</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:author id="au000002" author-id="S2352484722009994-0d782492eb91a4a4e4640bae0053d7a3" orcid="0000-0001-5511-0205">
+                  <ce:given-name>Mohammad Kamrul</ce:given-name>
+                  <ce:surname>Hasan</ce:surname>
+                  <ce:cross-ref refid="aff1" id="d1e320">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="cor1" id="d1e323">
+                     <ce:sup loc="post">⁎</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:author id="au000003" author-id="S2352484722009994-d522978c72fee2148c4b5cc3284660ff">
+                  <ce:given-name>Shayla</ce:given-name>
+                  <ce:surname>Islam</ce:surname>
+                  <ce:cross-ref refid="aff3" id="d1e333">
+                     <ce:sup loc="post">c</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="cor1" id="d1e336">
+                     <ce:sup loc="post">⁎</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:author id="au000004" author-id="S2352484722009994-f84ca30fec986ff2fb67e666b90b967b">
+                  <ce:given-name>Musse Mohamed</ce:given-name>
+                  <ce:surname>Ahmed</ce:surname>
+                  <ce:cross-ref refid="aff4" id="d1e346">
+                     <ce:sup loc="post">d</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au000005" author-id="S2352484722009994-0a9bf3823491e5b51d7728bc5e4113a1">
+                  <ce:given-name>Azana Hafizah Mohd</ce:given-name>
+                  <ce:surname>Aman</ce:surname>
+                  <ce:cross-ref refid="aff1" id="d1e354">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au000006" author-id="S2352484722009994-d7fc39a47841a30733d4b9bca14bf7d6">
+                  <ce:given-name>Ashish</ce:given-name>
+                  <ce:surname>Bagwari</ce:surname>
+                  <ce:cross-ref refid="aff5" id="d1e362">
+                     <ce:sup loc="post">e</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au000007" author-id="S2352484722009994-91a972d0ed5929b7c5074cd9a3461bf7">
+                  <ce:given-name>Sheroz</ce:given-name>
+                  <ce:surname>Khan</ce:surname>
+                  <ce:cross-ref refid="aff6" id="d1e370">
+                     <ce:sup loc="post">f</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:affiliation affiliation-id="S2352484722009994-e67fb67184188c3bb28ea26a6355ad56" id="aff1">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>Faculty of Information Science and Technology, Universiti Kebangsaan Malaysia (UKM), 43600 Bangi, Selangor, Malaysia</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Faculty of Information Science and Technology, Universiti Kebangsaan Malaysia (UKM)</sa:organization>
+                     <sa:city>Bangi</sa:city>
+                     <sa:state>Selangor</sa:state>
+                     <sa:postal-code>43600</sa:postal-code>
+                     <sa:country>Malaysia</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="afs24">Faculty of Information Science and Technology, Universiti Kebangsaan Malaysia (UKM), 43600 UKM, Bangi, Selangor, Malaysia.</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation affiliation-id="S2352484722009994-fe23c2bd47245a645783f1cbde7e4696" id="aff2">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>North Garth Institute of Technology, Bangladesh</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>North Garth Institute of Technology</sa:organization>
+                     <sa:country>Bangladesh</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="afs25">North Garth Institute of Technology, Bangladesh</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation affiliation-id="S2352484722009994-386b33be9a9816e058000e8430a769c3" id="aff3">
+                  <ce:label>c</ce:label>
+                  <ce:textfn>Institute of Computer Science and Digital Innovation, UCSI University Malaysia, 56000 Kuala Lumpur, Malaysia</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Institute of Computer Science and Digital Innovation, UCSI University Malaysia</sa:organization>
+                     <sa:city>Kuala Lumpur</sa:city>
+                     <sa:postal-code>56000</sa:postal-code>
+                     <sa:country>Malaysia</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="afs26">Institute of Computer Science and Digital Innovation, UCSI University Malaysia, 56000 Kuala Lumpur, Malaysia.</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation affiliation-id="S2352484722009994-d01e28a4310387ea29f839f35620a3a7" id="aff4">
+                  <ce:label>d</ce:label>
+                  <ce:textfn>Department of Electrical and Electronics Engineering, Universiti Malaysia Sarwak (UNIMAS), 94600 Kota Samarahan, Sarawak, Malaysia</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Electrical and Electronics Engineering, Universiti Malaysia Sarwak (UNIMAS)</sa:organization>
+                     <sa:city>Kota Samarahan</sa:city>
+                     <sa:state>Sarawak</sa:state>
+                     <sa:postal-code>94600</sa:postal-code>
+                     <sa:country>Malaysia</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="afs27">Department of Electrical and Electronics Engineering, Universiti Malaysia Sarwak (UNIMAS), 53000 Kuala Lumpur, Malaysia.</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation affiliation-id="S2352484722009994-8c6dc5da65f95156b2cd10fd64b6075d" id="aff5">
+                  <ce:label>e</ce:label>
+                  <ce:textfn>Departmental of Electronics and Communication Engineering, Women Institute of Technology (State Govt, Engineering Institution) Uttarakhand Technical University, Dehradun, Uttarakhand, India</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Departmental of Electronics and Communication Engineering, Women Institute of Technology (State Govt, Engineering Institution) Uttarakhand Technical University</sa:organization>
+                     <sa:city>Dehradun</sa:city>
+                     <sa:state>Uttarakhand</sa:state>
+                     <sa:country>India</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="afs28">Departmental of Electronics and Communication Engineering,</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation affiliation-id="S2352484722009994-6a32db883bbd729d05c0096760dd89b6" id="aff6">
+                  <ce:label>f</ce:label>
+                  <ce:textfn>Onizah Engineering College, Saudi Arabia</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Onizah Engineering College</sa:organization>
+                     <sa:country>Saudi Arabia</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="afs29">Women Institute of Technology (State Govt, Engineering institution) Uttarakhand Technical University, Dehradun, Uttarakhand, India</ce:source-text>
+               </ce:affiliation>
+               <ce:correspondence id="cor1">
+                  <ce:label>⁎</ce:label>
+                  <ce:text>Corresponding authors.</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:date-received day="9" month="5" year="2022"/>
+            <ce:date-accepted day="17" month="5" year="2022"/>
+            <ce:abstract class="author" view="all" id="d1e474"><ce:abstract-sec view="all" id="d1e477">
+                  <ce:simple-para view="all" id="d1e478">In this paper, an active equalization circuit based on resonant converter is presented. This equalization circuit has been proposed to equalize the direct cell-to-cell voltage in a string. All electrochemical energy storage devices are connected in series. Using this equalization circuit energy transfer from higher energy and charge capacitive cell to lower energy and charge cell in the string. All MOSFET switches are operated by complementary Pulse-Width Modulation (PWM) signal. The working principle of this equalization circuit like that of a switches-capacitor equalization circuit. In this circuit, a single Inductor (L) capacitor (C) energy carrier and bidirectional low voltage MOSFET switches are used so that it can recover maximum energy, reduce conduction loss, and improve the switching loss drawback, reduce the equalization time duration between two cells and achieved zero voltage gap. This equalization circuit is bidirectional and operates under the three modes, namely, charging, discharging, and relaxation mode. The proposed circuit details, the working principle, and the mathematical analyzes are presented. The simulation results are validated by the demonstration of an experimental prototype hardware testbed. The experimental results based on lithium-ion, lead–acid, and super-capacitor are presented. This equalization circuit is low cost and occupies little space with efficiencies of 96%, 94.2%, and 84.43% for Li-ion, lead–acid and super-capacitor respectively.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords class="keyword" view="all" id="d1e487">
+               <ce:section-title id="d1e488">Keywords</ce:section-title>
+               <ce:keyword id="d1e490">
+                  <ce:text>Energy storage device</ce:text>
+               </ce:keyword>
+               <ce:keyword id="d1e493">
+                  <ce:text>Cell equalization</ce:text>
+               </ce:keyword>
+               <ce:keyword id="d1e496">
+                  <ce:text>Active equalization</ce:text>
+               </ce:keyword>
+               <ce:keyword id="d1e499">
+                  <ce:text>Resonant converter</ce:text>
+               </ce:keyword>
+               <ce:keyword id="d1e502">
+                  <ce:text>Electric vehicles</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <body view="all">
+            <ce:sections>
+               <ce:section id="sec1" role="introduction" view="all">
+                  <ce:label>1</ce:label>
+                  <ce:section-title id="d1e510">Introduction</ce:section-title>
+                  <ce:para view="all" id="d1e512">The demand for Electric Vehicles (EV) and renewable energy have conspicuously increased over the years around the world due to fossil fuel depletion and concerns of global warming as well as environmental greenery foliage decline, offering plenty of emerging new fields of applications, such as electric vehicles (EVs), solar, and wind power systems. The energy storage device (ESD) cell, be they are electrochemical batteries or super-capacitors (SC), is the main source of power in portable electronic devices in consumers’ electronics. Such cells as strings form a battery package for applications in EV, industries, and play a critical role for energy storage applications in the domains of renewable energy (like as off-grid islanded micro-grid system, grid-connected micro-grids, satellite applications, etc.). Nowadays, EVs retired lithium-ion batteries deposits and recycling are becoming great challenges because of long life-span, which still have good storage capacity and safe operation. However, these retired batteries have lost 70%–80% of initial capacity and this storage/certain-residual capacity can used as ESD in renewable energy storage systems and off-grid islanded micro-grid systems. Though, currently retired battery application field is small but it will cover major renewable energy storage systems for safety, lower cost, high storage capacity, small size <ce:cross-refs refid="b1 b2 b3" id="d1e515">[1–3]</ce:cross-refs>. The limitation of manufacturing and that of the electrochemical digression of individual ESD cell voltage is varied due to which imbalance occurs during charge and discharge time in the string of cells of a battery package. Due to the imbalance, higher and lower capacitive ESD is not fully charged (or discharged) during the charging (or discharging period). If the charging or discharging procedure is continued in the string then ESD cells are prone to explosion causing safety concerns or get damaged affecting life span because of overcharge or under discharge <ce:cross-ref refid="b4" id="d1e519">[4]</ce:cross-ref>.</ce:para>
+                  <ce:para view="all" id="d1e522">To save the ESD cells from explosion or damage and to increase the lifetime, several equalization methods are presented. There are two groups of equalization circuits, namely: energy-consuming called passive equalization and energy recovery referred to as active equalization. In passive equalization, using the resistor for consuming the excess energy from the higher cell in the string to balance the lower cell. In active equalization, using capacitor, inductor and transformer to recover the energy from higher cell for passing it onto lower cell in the set of processes consisting of cell-to-cell (C2C), cell-to-pack (C2P), pack-to-cell (P2C), pack-to-pack (P2P) and cell-to-pack-to-cell (C2P2C) energy transitions <ce:cross-refs refid="b5 b6 b7" id="d1e525">[5–7]</ce:cross-refs>.</ce:para>
+                  <ce:para view="all" id="d1e528">Passive equalization circuits: In this equalization, the extra energy of the higher capacitive cells is not distributed. The extra energy from higher state of charge energy storage cell is diminished by the shunt resistor as heat aiming to match it to those with lower state of charge energy-storage cell on the string. Fixed shunt, switch shunt and analog shunt equalization are in this group. This equalization system is simple, easy to implement, low cost, less complex and efficient, cheap, and miniature size <ce:cross-refs refid="b5 b8" id="d1e531">[5,8]</ce:cross-refs>. However, the passive methods of cell equalization cause a reduction in the available battery-pack capacity, requiring thus extra-heat management provisions.</ce:para>
+                  <ce:para view="all" id="d1e534">C2C equalization: In the active C2C equalization methods is to actively transfer energy in between the cells through non-dissipative topologies. Here, the excess energy (and so charge) from the cells with higher energy is transferred to the cells with the lower one, balancing all to the same level. There active equalization circuits make use of the switches, capacitors, inductors, and transformer. This equalization system required smart voltage or charge sensing, many switches, a complex control system, good efficiency and suitable for low voltage application. Based on the energy transfer system on the cell string, this equalization system is divided into two groups: adjacent C2C equalization and direct C2C equalization <ce:cross-refs refid="b5 b6 b9" id="d1e537">[5,6,9]</ce:cross-refs>.</ce:para>
+                  <ce:para view="all" id="d1e540">Adjacent C2C equalization: In this equalization system, excessive energy is transferred between two adjacent cells on the string through inductor, capacitor, transformer, and converter. These equalization circuits are bidirectional and work on charging and discharge conditions. These topologies are switch capacitor <ce:cross-ref refid="b6" id="d1e543">[6]</ce:cross-ref>, cuk converter <ce:cross-refs refid="b5 b10" id="d1e547">[5,10]</ce:cross-refs>, ramp converter <ce:cross-ref refid="b5" id="d1e551">[5]</ce:cross-ref> buck-boost converter <ce:cross-ref refid="b11" id="d1e556">[11]</ce:cross-ref>, resonant converter <ce:cross-refs refid="b9 b12 b13" id="d1e560">[9,12,13]</ce:cross-refs>, and full-bridge converter <ce:cross-refs refid="b5 b9" id="d1e564">[5,9]</ce:cross-refs>. Among this converter, the ramp converter is unidirectional.</ce:para>
+                  <ce:para view="all" id="d1e567">Direct C2C equalization: In this equalization system, excessive energy is transferred direct cell-to-cell on the string using inductor, capacitor, transformer, and converter. These equalization circuits use single capacitors <ce:cross-refs refid="b14 b15" id="d1e570">[14,15]</ce:cross-refs>, single inductors <ce:cross-refs refid="b5 b9" id="d1e574">[5,9]</ce:cross-refs>, single winding transformer <ce:cross-refs refid="b6 b16" id="d1e578">[6,16]</ce:cross-refs>, single resonant converter <ce:cross-refs refid="b17 b18" id="d1e583">[17,18]</ce:cross-refs>, double-tiered switched capacitors <ce:cross-refs refid="b5 b19" id="d1e587">[5,19]</ce:cross-refs>, and multi-inductors <ce:cross-ref refid="b9" id="d1e591">[9]</ce:cross-ref>. This equalization system requires accurate cell voltage sensing, complex control system.</ce:para>
+                  <ce:para view="all" id="d1e594">C2P equalization: In C2P equalization system, excessive energy of from a single cell is transferred to the pack using inductor, transfer and converter. In this equalization system, a monitoring IC is continuously checking the cell status. When a cell voltage is higher than rest of the cell on the pack then it transfers its excessive energy. This equalization system, when transformer is used as an energy carrier then the excessive energy cell is connected in the primary side of the transformer. The C2P equalization system is using multi-winding transformer <ce:cross-ref refid="b20" id="d1e597">[20]</ce:cross-ref>, multiple winding transformer <ce:cross-refs refid="b5 b21" id="d1e601">[5,21]</ce:cross-refs>, fly-back converter <ce:cross-ref refid="b22" id="d1e605">[22]</ce:cross-ref>. In this equalization, the control system requires the average nominal voltage of every cell in the pack and overall medium efficiency.</ce:para>
+                  <ce:para view="all" id="d1e608">P2C equalization: In the P2C equalization system, when a cell faces low energy capacity and goes to under the minimum nominal voltage on the pack then energy transfer to the cell through of inductor, transformer, and converter. A monitoring IC continuously monitors the cell status. When a transformer is used as an energy carrier then all cell on the pack is individually connected on the primary side and lower cell connected on the secondary side. This topology is good efficient, fast equalization speed, and bidirectional. The equalization circuits are multiple winding transformer, a fly-back converter, multi winding transformer, single winding transformer <ce:cross-ref refid="b6" id="d1e611">[6]</ce:cross-ref>.</ce:para>
+                  <ce:para view="all" id="d1e614">C2P2C equalization: The C2P2C is the most complex equalization system. Here, energy transfer from C2C, C2P, P2C, and P2P through capacitor, inductor, transformer, and converter. These equalization topologies are single switch capacitor, single inductor, single winding transformer, switch capacitor, multi inductor, multi winding transformer, and flyback converter. In this equalization system double layer and coaxial multi winding, the transformer is used to transfer the energy <ce:cross-refs refid="b6 b23" id="d1e628">[6,23]</ce:cross-refs>. The cell equalization time depends on the C2C, C2P, P2C, and P2P. However, the manufacturing and implementation of C2P2C are very complicated.</ce:para>
+                  <ce:para view="all" id="d1e632">This paper presents a single direct cell-to-cell (C2C) LC energy carrier-based circuit used to balance a battery package of serially-connected ESD cells. The aim of the study is to reduce the equalization time between two cells in order to increase the efficiency of the equalization by reducing the number of associate components such as MOSFET switches, diode, etc. In the ESD cell string, when the storage energy variation occurs between two cells then the equalization process is activated to reinstate the variation. This circuit can be viable for P2P process and can be scaled up to any number of ESD cells in the direct C2C equalization process. This paper is structured so that Section <ce:cross-ref refid="sec2" id="d1e636">2</ce:cross-ref> introduces the proposed circuit and working principle of the voltage equalization. The analysis of the two-cell voltage equalization process is detailed in Section <ce:cross-ref refid="sec3" id="d1e641">3</ce:cross-ref>, the Results and discussion are given in Section <ce:cross-ref refid="sec4" id="d1e647">4</ce:cross-ref>, and Section <ce:cross-ref refid="sec5" id="d1e652">5</ce:cross-ref> has highlighted the quantitative conclusions.</ce:para>
+               </ce:section>
+               <ce:section id="sec2" view="all">
+                  <ce:label>2</ce:label>
+                  <ce:section-title id="d1e658">Proposed circuit and working principle</ce:section-title>
+                  <ce:para view="all" id="d1e660">
+                     <ce:cross-ref refid="fig1" id="d1e662">Fig. 1</ce:cross-ref> show the schematic diagram of the proposed circuit. This circuit compost part by part. Firstly, all MOSFET switches are connected with the ESD and single series LC energy carrier. Secondly, a monitoring IC connected with ESD and micro-controller to check the cell status. Thirdly, a master controller is connected with MOSFET switches (MS) through of MOSFET driver and monitor circuit. In these circuits, ESD<ce:inf loc="post">1</ce:inf> and ESD<mml:math display="inline" id="d1e669" altimg="si21.svg">
+                        <mml:msub>
+                           <mml:mrow/>
+                           <mml:mrow>
+                              <mml:mi mathvariant="normal">N</mml:mi>
+                           </mml:mrow>
+                        </mml:msub>
+                     </mml:math> are coupled with two MS and</ce:para>
+                  <ce:para view="all" id="d1e676">
+                     <ce:float-anchor refid="fig1"/>ESD<ce:inf loc="post">2</ce:inf> to ESD<mml:math display="inline" id="d1e684" altimg="si22.svg">
+                        <mml:msub>
+                           <mml:mrow/>
+                           <mml:mrow>
+                              <mml:mi mathvariant="normal">N−1</mml:mi>
+                           </mml:mrow>
+                        </mml:msub>
+                     </mml:math> are coupled with bidirectional low voltage MS, to protect the negative voltage. Because of the single low voltage MOSFET, the intrinsic body diode cannot protect the negative voltage.</ce:para>
+                  <ce:para view="all" id="d1e691">In this equalization circuit, the switching frequency was chosen as equal to LC resonant frequency so that soft switching can be achieved. All switches are operated the same gate plus near with ZCS (zero current switching) with 50% of the duty cycle. For this kind of switching LC energy carrier minimized the current impedance and minimized the equalization time by flowing the maximum current. When EDS cell voltage imbalanced arise in the string then controller detects the higher and lower cell and turn on the associate switches of the higher cell in positive half duty cycle to store the energy in LC energy carrier. After the negative half, the duty cycle associate switches of the lower cell is on and the LC energy carrier realized the energy to store in the lower cell. This process will continuously be repeated until the cell voltage is balance.</ce:para>
+               </ce:section>
+               <ce:section id="sec3" view="all">
+                  <ce:label>3</ce:label>
+                  <ce:section-title id="d1e696">Two cell voltage equalization process analysis</ce:section-title>
+                  <ce:para view="all" id="d1e698">The resonant circuit analysis between two cells is given below. Here, all MOSFET switches ate consider as resistance (<mml:math display="inline" id="d1e702" altimg="si3.svg">
+                        <mml:msub>
+                           <mml:mrow>
+                              <mml:mi mathvariant="normal">R</mml:mi>
+                           </mml:mrow>
+                           <mml:mrow>
+                              <mml:mi mathvariant="normal">S</mml:mi>
+                           </mml:mrow>
+                        </mml:msub>
+                     </mml:math>), inductor (L) is <mml:math display="inline" id="d1e712" altimg="si4.svg">
+                        <mml:msub>
+                           <mml:mrow>
+                              <mml:mi mathvariant="normal">R</mml:mi>
+                           </mml:mrow>
+                           <mml:mrow>
+                              <mml:mi mathvariant="normal">L</mml:mi>
+                           </mml:mrow>
+                        </mml:msub>
+                     </mml:math>, and capacitor internal resistance is RC. The capacitor voltage of the LC branch is VC. When the associate switches of higher ESD cell (<mml:math display="inline" id="d1e723" altimg="si5.svg">
+                        <mml:msub>
+                           <mml:mrow>
+                              <mml:mi mathvariant="normal">V</mml:mi>
+                           </mml:mrow>
+                           <mml:mrow>
+                              <mml:mi mathvariant="normal">h</mml:mi>
+                              <mml:mtext>_</mml:mtext>
+                              <mml:mi mathvariant="normal">ESD</mml:mi>
+                           </mml:mrow>
+                        </mml:msub>
+                     </mml:math>) are turned on then the energy starts to flow across the L is presented in Eq. <ce:cross-ref refid="fd1" id="d1e739">(1)</ce:cross-ref>, <ce:display>
+                        <ce:formula id="fd1">
+                           <ce:label>(1)</ce:label>
+                           <mml:math display="block" id="d1e749" altimg="si6.svg">
+                              <mml:mrow>
+                                 <mml:mi>L</mml:mi>
+                                 <mml:mfrac>
+                                    <mml:mrow>
+                                       <mml:mi>d</mml:mi>
+                                       <mml:mi>i</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mi>d</mml:mi>
+                                       <mml:mi>t</mml:mi>
+                                    </mml:mrow>
+                                 </mml:mfrac>
+                                 <mml:mo linebreak="goodbreak">=</mml:mo>
+                                 <mml:msub>
+                                    <mml:mrow>
+                                       <mml:mi>V</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mi mathvariant="normal">h</mml:mi>
+                                       <mml:mtext>_</mml:mtext>
+                                       <mml:mi mathvariant="normal">ESD</mml:mi>
+                                    </mml:mrow>
+                                 </mml:msub>
+                                 <mml:mo linebreak="goodbreak">−</mml:mo>
+                                 <mml:msub>
+                                    <mml:mrow>
+                                       <mml:mi mathvariant="normal">V</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mi>C</mml:mi>
+                                    </mml:mrow>
+                                 </mml:msub>
+                              </mml:mrow>
+                           </mml:math>
+                        </ce:formula>
+                     </ce:display>
+                  </ce:para>
+                  <ce:para view="all" id="d1e786">
+                     <mml:math display="inline" id="d1e788" altimg="si7.svg">
+                        <mml:msub>
+                           <mml:mrow>
+                              <mml:mi>V</mml:mi>
+                           </mml:mrow>
+                           <mml:mrow>
+                              <mml:mi mathvariant="normal">C</mml:mi>
+                           </mml:mrow>
+                        </mml:msub>
+                     </mml:math> start to charge and the resonant current amplitude is <ce:display>
+                        <ce:formula id="fd2">
+                           <ce:label>(2)</ce:label>
+                           <mml:math display="block" id="d1e804" altimg="si8.svg">
+                              <mml:mrow>
+                                 <mml:msub>
+                                    <mml:mrow>
+                                       <mml:mi>I</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mi>m</mml:mi>
+                                    </mml:mrow>
+                                 </mml:msub>
+                                 <mml:mo linebreak="goodbreak">=</mml:mo>
+                                 <mml:mfrac>
+                                    <mml:mrow>
+                                       <mml:msub>
+                                          <mml:mrow>
+                                             <mml:mi>V</mml:mi>
+                                          </mml:mrow>
+                                          <mml:mrow>
+                                             <mml:mi>h</mml:mi>
+                                             <mml:mtext>_</mml:mtext>
+                                             <mml:mi>E</mml:mi>
+                                             <mml:mi>S</mml:mi>
+                                             <mml:mi>D</mml:mi>
+                                          </mml:mrow>
+                                       </mml:msub>
+                                       <mml:mo linebreak="badbreak">−</mml:mo>
+                                       <mml:msub>
+                                          <mml:mrow>
+                                             <mml:mi>V</mml:mi>
+                                          </mml:mrow>
+                                          <mml:mrow>
+                                             <mml:mi>C</mml:mi>
+                                          </mml:mrow>
+                                       </mml:msub>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mi>ω</mml:mi>
+                                       <mml:mi>L</mml:mi>
+                                    </mml:mrow>
+                                 </mml:mfrac>
+                                 <mml:mo linebreak="goodbreak">=</mml:mo>
+                                 <mml:msub>
+                                    <mml:mrow>
+                                       <mml:mi>V</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mi>h</mml:mi>
+                                       <mml:mtext>_</mml:mtext>
+                                       <mml:mi>E</mml:mi>
+                                       <mml:mi>S</mml:mi>
+                                       <mml:mi>D</mml:mi>
+                                    </mml:mrow>
+                                 </mml:msub>
+                                 <mml:mo linebreak="goodbreak">−</mml:mo>
+                                 <mml:msub>
+                                    <mml:mrow>
+                                       <mml:mi>V</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mi>C</mml:mi>
+                                    </mml:mrow>
+                                 </mml:msub>
+                                 <mml:msqrt>
+                                    <mml:mrow>
+                                       <mml:mfrac>
+                                          <mml:mrow>
+                                             <mml:mi>C</mml:mi>
+                                          </mml:mrow>
+                                          <mml:mrow>
+                                             <mml:mi>L</mml:mi>
+                                          </mml:mrow>
+                                       </mml:mfrac>
+                                    </mml:mrow>
+                                 </mml:msqrt>
+                              </mml:mrow>
+                           </mml:math>
+                        </ce:formula>
+                     </ce:display>
+                  </ce:para>
+                  <ce:para view="all" id="d1e881">After the 1st half gate pulse, VC reaches the maximum voltage in Eq. <ce:cross-ref refid="fd3" id="d1e885">(3)</ce:cross-ref>. <ce:display>
+                        <ce:formula id="fd3">
+                           <ce:label>(3)</ce:label>
+                           <mml:math display="block" id="d1e895" altimg="si9.svg">
+                              <mml:mrow>
+                                 <mml:msub>
+                                    <mml:mrow>
+                                       <mml:mi>V</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mi>C</mml:mi>
+                                       <mml:mtext>_</mml:mtext>
+                                       <mml:mi>M</mml:mi>
+                                       <mml:mi>a</mml:mi>
+                                       <mml:mi>x</mml:mi>
+                                    </mml:mrow>
+                                 </mml:msub>
+                                 <mml:mo linebreak="goodbreak">=</mml:mo>
+                                 <mml:msub>
+                                    <mml:mrow>
+                                       <mml:mi>V</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mi mathvariant="normal">h</mml:mi>
+                                       <mml:mtext>_</mml:mtext>
+                                       <mml:mi mathvariant="normal">ESD</mml:mi>
+                                    </mml:mrow>
+                                 </mml:msub>
+                                 <mml:mo linebreak="goodbreak">−</mml:mo>
+                                 <mml:msub>
+                                    <mml:mrow>
+                                       <mml:mi mathvariant="normal">V</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mi>C</mml:mi>
+                                    </mml:mrow>
+                                 </mml:msub>
+                              </mml:mrow>
+                           </mml:math>
+                        </ce:formula>
+                     </ce:display>
+                  </ce:para>
+                  <ce:para view="all" id="d1e934">In the discharging time, the associate switched of lesser ESD cell (voltage is <mml:math display="inline" id="d1e937" altimg="si10.svg">
+                        <mml:msub>
+                           <mml:mrow>
+                              <mml:mi>V</mml:mi>
+                           </mml:mrow>
+                           <mml:mrow>
+                              <mml:mi mathvariant="normal">L</mml:mi>
+                              <mml:mtext>_</mml:mtext>
+                              <mml:mi mathvariant="normal">ESD</mml:mi>
+                           </mml:mrow>
+                        </mml:msub>
+                     </mml:math>) are turn on and the resonant current amplitude presented in Eq. <ce:cross-ref refid="fd4" id="d1e952">(4)</ce:cross-ref>. <ce:display>
+                        <ce:formula id="fd4">
+                           <ce:label>(4)</ce:label>
+                           <mml:math display="block" id="d1e962" altimg="si11.svg">
+                              <mml:mrow>
+                                 <mml:msub>
+                                    <mml:mrow>
+                                       <mml:mi>I</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mi>m</mml:mi>
+                                    </mml:mrow>
+                                 </mml:msub>
+                                 <mml:mo linebreak="goodbreak">=</mml:mo>
+                                 <mml:mfrac>
+                                    <mml:mrow>
+                                       <mml:msub>
+                                          <mml:mrow>
+                                             <mml:mi>V</mml:mi>
+                                          </mml:mrow>
+                                          <mml:mrow>
+                                             <mml:mi>C</mml:mi>
+                                          </mml:mrow>
+                                       </mml:msub>
+                                       <mml:mo linebreak="badbreak">−</mml:mo>
+                                       <mml:msub>
+                                          <mml:mrow>
+                                             <mml:mi>V</mml:mi>
+                                          </mml:mrow>
+                                          <mml:mrow>
+                                             <mml:mi>L</mml:mi>
+                                             <mml:mtext>_</mml:mtext>
+                                             <mml:mi>E</mml:mi>
+                                             <mml:mi>S</mml:mi>
+                                             <mml:mi>D</mml:mi>
+                                          </mml:mrow>
+                                       </mml:msub>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mi>ω</mml:mi>
+                                       <mml:mi>L</mml:mi>
+                                    </mml:mrow>
+                                 </mml:mfrac>
+                                 <mml:mo linebreak="goodbreak">=</mml:mo>
+                                 <mml:msub>
+                                    <mml:mrow>
+                                       <mml:mi>V</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mi>C</mml:mi>
+                                       <mml:mtext>_</mml:mtext>
+                                       <mml:mi>M</mml:mi>
+                                       <mml:mi>a</mml:mi>
+                                       <mml:mi>x</mml:mi>
+                                    </mml:mrow>
+                                 </mml:msub>
+                                 <mml:mo linebreak="goodbreak">−</mml:mo>
+                                 <mml:msub>
+                                    <mml:mrow>
+                                       <mml:mi>V</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mi>L</mml:mi>
+                                       <mml:mtext>_</mml:mtext>
+                                       <mml:mi>E</mml:mi>
+                                       <mml:mi>S</mml:mi>
+                                       <mml:mi>D</mml:mi>
+                                    </mml:mrow>
+                                 </mml:msub>
+                                 <mml:msqrt>
+                                    <mml:mrow>
+                                       <mml:mfrac>
+                                          <mml:mrow>
+                                             <mml:mi>C</mml:mi>
+                                          </mml:mrow>
+                                          <mml:mrow>
+                                             <mml:mi>L</mml:mi>
+                                          </mml:mrow>
+                                       </mml:mfrac>
+                                    </mml:mrow>
+                                 </mml:msqrt>
+                              </mml:mrow>
+                           </mml:math>
+                        </ce:formula>
+                     </ce:display>
+                  </ce:para>
+                  <ce:para view="all" id="d1e1047">In the 2nd half gate pulse, <mml:math display="inline" id="d1e1050" altimg="si12.svg">
+                        <mml:msub>
+                           <mml:mrow>
+                              <mml:mi mathvariant="normal">V</mml:mi>
+                           </mml:mrow>
+                           <mml:mrow>
+                              <mml:mi mathvariant="normal">C</mml:mi>
+                           </mml:mrow>
+                        </mml:msub>
+                     </mml:math> turn in the minimum voltage using Eq. <ce:cross-ref refid="fd5" id="d1e1061">(5)</ce:cross-ref>. <ce:display>
+                        <ce:formula id="fd5">
+                           <ce:label>(5)</ce:label>
+                           <mml:math display="block" id="d1e1071" altimg="si13.svg">
+                              <mml:mrow>
+                                 <mml:msub>
+                                    <mml:mrow>
+                                       <mml:mi>V</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mi>C</mml:mi>
+                                       <mml:mtext>_</mml:mtext>
+                                       <mml:mi>M</mml:mi>
+                                       <mml:mi>i</mml:mi>
+                                       <mml:mi>n</mml:mi>
+                                    </mml:mrow>
+                                 </mml:msub>
+                                 <mml:mo linebreak="goodbreak">=</mml:mo>
+                                 <mml:msub>
+                                    <mml:mrow>
+                                       <mml:mi>V</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mi mathvariant="normal">C</mml:mi>
+                                       <mml:mtext>_</mml:mtext>
+                                       <mml:mi mathvariant="normal">Max</mml:mi>
+                                    </mml:mrow>
+                                 </mml:msub>
+                                 <mml:mo linebreak="goodbreak">−</mml:mo>
+                                 <mml:msub>
+                                    <mml:mrow>
+                                       <mml:mi mathvariant="normal">V</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mi>L</mml:mi>
+                                       <mml:mtext>_</mml:mtext>
+                                       <mml:mi>E</mml:mi>
+                                       <mml:mi>S</mml:mi>
+                                       <mml:mi>D</mml:mi>
+                                       <mml:mi>t</mml:mi>
+                                    </mml:mrow>
+                                 </mml:msub>
+                              </mml:mrow>
+                           </mml:math>
+                        </ce:formula>
+                     </ce:display>
+                  </ce:para>
+                  <ce:para view="all" id="d1e1120">On the equalization time, series LC energy carrier charge and discharge current using Eqs. <ce:cross-refs refid="fd6 fd7" id="d1e1124">(6) and (7)</ce:cross-refs>. <ce:display>
+                        <ce:formula id="d1e1131">
+                           <ce:formula id="fd6">
+                              <ce:label>(6)</ce:label>
+                              <mml:math display="block" id="d1e1135" altimg="si14.svg">
+                                 <mml:mrow>
+                                    <mml:msub id="mmlalignd1e1136">
+                                       <mml:mrow>
+                                          <mml:mi>i</mml:mi>
+                                       </mml:mrow>
+                                       <mml:mrow>
+                                          <mml:mi>c</mml:mi>
+                                          <mml:mi>h</mml:mi>
+                                          <mml:mi>a</mml:mi>
+                                          <mml:mi>r</mml:mi>
+                                          <mml:mi>g</mml:mi>
+                                          <mml:mi>e</mml:mi>
+                                       </mml:mrow>
+                                    </mml:msub>
+                                    <mml:mo linebreak="goodbreak">=</mml:mo>
+                                    <mml:mfrac>
+                                       <mml:mrow>
+                                          <mml:msub>
+                                             <mml:mrow>
+                                                <mml:mi>V</mml:mi>
+                                             </mml:mrow>
+                                             <mml:mrow>
+                                                <mml:mi>h</mml:mi>
+                                                <mml:mtext>_</mml:mtext>
+                                                <mml:mi>E</mml:mi>
+                                                <mml:mi>S</mml:mi>
+                                                <mml:mi>D</mml:mi>
+                                             </mml:mrow>
+                                          </mml:msub>
+                                          <mml:mo linebreak="badbreak">−</mml:mo>
+                                          <mml:mrow>
+                                             <mml:mo>(</mml:mo>
+                                             <mml:msub>
+                                                <mml:mrow>
+                                                   <mml:mi>V</mml:mi>
+                                                </mml:mrow>
+                                                <mml:mrow>
+                                                   <mml:mi>D</mml:mi>
+                                                   <mml:mtext>_</mml:mtext>
+                                                   <mml:mi>M</mml:mi>
+                                                   <mml:mi>S</mml:mi>
+                                                </mml:mrow>
+                                             </mml:msub>
+                                             <mml:mo linebreak="badbreak">+</mml:mo>
+                                             <mml:msub>
+                                                <mml:mrow>
+                                                   <mml:mi>V</mml:mi>
+                                                </mml:mrow>
+                                                <mml:mrow>
+                                                   <mml:mi>C</mml:mi>
+                                                </mml:mrow>
+                                             </mml:msub>
+                                             <mml:mo>)</mml:mo>
+                                          </mml:mrow>
+                                       </mml:mrow>
+                                       <mml:mrow>
+                                          <mml:mi>ω</mml:mi>
+                                          <mml:mi>L</mml:mi>
+                                       </mml:mrow>
+                                    </mml:mfrac>
+                                    <mml:msup>
+                                       <mml:mrow>
+                                          <mml:mi>e</mml:mi>
+                                       </mml:mrow>
+                                       <mml:mrow>
+                                          <mml:mo linebreak="badbreak">−</mml:mo>
+                                          <mml:mi>σ</mml:mi>
+                                          <mml:mi>t</mml:mi>
+                                       </mml:mrow>
+                                    </mml:msup>
+                                    <mml:mo class="qopname">sin</mml:mo>
+                                    <mml:mi>ω</mml:mi>
+                                    <mml:mi>t</mml:mi>
+                                 </mml:mrow>
+                              </mml:math>
+                           </ce:formula>
+                           <ce:formula id="fd7">
+                              <ce:label>(7)</ce:label>
+                              <mml:math display="block" id="d1e1228" altimg="si15.svg">
+                                 <mml:mrow>
+                                    <mml:msub id="mmlalignd1e1229">
+                                       <mml:mrow>
+                                          <mml:mi>i</mml:mi>
+                                       </mml:mrow>
+                                       <mml:mrow>
+                                          <mml:mi>d</mml:mi>
+                                          <mml:mi>i</mml:mi>
+                                          <mml:mi>s</mml:mi>
+                                          <mml:mi>c</mml:mi>
+                                          <mml:mi>h</mml:mi>
+                                          <mml:mi>a</mml:mi>
+                                          <mml:mi>r</mml:mi>
+                                          <mml:mi>g</mml:mi>
+                                          <mml:mi>e</mml:mi>
+                                       </mml:mrow>
+                                    </mml:msub>
+                                    <mml:mo linebreak="goodbreak">=</mml:mo>
+                                    <mml:mfrac>
+                                       <mml:mrow>
+                                          <mml:msub>
+                                             <mml:mrow>
+                                                <mml:mi>V</mml:mi>
+                                             </mml:mrow>
+                                             <mml:mrow>
+                                                <mml:mi>C</mml:mi>
+                                             </mml:mrow>
+                                          </mml:msub>
+                                          <mml:mo linebreak="badbreak">−</mml:mo>
+                                          <mml:mrow>
+                                             <mml:mo>(</mml:mo>
+                                             <mml:msub>
+                                                <mml:mrow>
+                                                   <mml:mi>V</mml:mi>
+                                                </mml:mrow>
+                                                <mml:mrow>
+                                                   <mml:mi>D</mml:mi>
+                                                   <mml:mtext>_</mml:mtext>
+                                                   <mml:mi>M</mml:mi>
+                                                   <mml:mi>S</mml:mi>
+                                                </mml:mrow>
+                                             </mml:msub>
+                                             <mml:mo linebreak="badbreak">+</mml:mo>
+                                             <mml:msub>
+                                                <mml:mrow>
+                                                   <mml:mi>V</mml:mi>
+                                                </mml:mrow>
+                                                <mml:mrow>
+                                                   <mml:mi>L</mml:mi>
+                                                   <mml:mtext>_</mml:mtext>
+                                                   <mml:mi>E</mml:mi>
+                                                   <mml:mi>S</mml:mi>
+                                                   <mml:mi>D</mml:mi>
+                                                </mml:mrow>
+                                             </mml:msub>
+                                             <mml:mo>)</mml:mo>
+                                          </mml:mrow>
+                                       </mml:mrow>
+                                       <mml:mrow>
+                                          <mml:mi>ω</mml:mi>
+                                          <mml:mi>L</mml:mi>
+                                       </mml:mrow>
+                                    </mml:mfrac>
+                                    <mml:msup>
+                                       <mml:mrow>
+                                          <mml:mi>e</mml:mi>
+                                       </mml:mrow>
+                                       <mml:mrow>
+                                          <mml:mo linebreak="badbreak">−</mml:mo>
+                                          <mml:mi>σ</mml:mi>
+                                          <mml:mi>t</mml:mi>
+                                       </mml:mrow>
+                                    </mml:msup>
+                                    <mml:mo class="qopname">sin</mml:mo>
+                                    <mml:mi>ω</mml:mi>
+                                    <mml:mi>t</mml:mi>
+                                 </mml:mrow>
+                              </mml:math>
+                           </ce:formula>
+                        </ce:formula>
+                     </ce:display>
+                  </ce:para>
+                  <ce:para view="all" id="d1e1324">Where, <mml:math display="inline" id="d1e1327" altimg="si16.svg">
+                        <mml:msub>
+                           <mml:mrow>
+                              <mml:mi mathvariant="normal">V</mml:mi>
+                           </mml:mrow>
+                           <mml:mrow>
+                              <mml:mi mathvariant="normal">D</mml:mi>
+                              <mml:mtext>_</mml:mtext>
+                              <mml:mi mathvariant="normal">MS</mml:mi>
+                           </mml:mrow>
+                        </mml:msub>
+                     </mml:math> is voltage drop on MOSFET switches, <mml:math display="inline" id="d1e1341" altimg="si17.svg">
+                        <mml:mrow>
+                           <mml:mi>σ</mml:mi>
+                           <mml:mo linebreak="goodbreak" linebreakstyle="after">=</mml:mo>
+                           <mml:mfrac>
+                              <mml:mrow>
+                                 <mml:msub>
+                                    <mml:mrow>
+                                       <mml:mi>R</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mi>S</mml:mi>
+                                    </mml:mrow>
+                                 </mml:msub>
+                                 <mml:mo>+</mml:mo>
+                                 <mml:msub>
+                                    <mml:mrow>
+                                       <mml:mi>R</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mi>L</mml:mi>
+                                    </mml:mrow>
+                                 </mml:msub>
+                                 <mml:mo>+</mml:mo>
+                                 <mml:msub>
+                                    <mml:mrow>
+                                       <mml:mi>R</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mi>C</mml:mi>
+                                    </mml:mrow>
+                                 </mml:msub>
+                              </mml:mrow>
+                              <mml:mrow>
+                                 <mml:mi>L</mml:mi>
+                              </mml:mrow>
+                           </mml:mfrac>
+                        </mml:mrow>
+                     </mml:math> is damped oscillation and <mml:math display="inline" id="d1e1379" altimg="si18.svg">
+                        <mml:mrow>
+                           <mml:mi>ω</mml:mi>
+                           <mml:mo linebreak="goodbreak" linebreakstyle="after">=</mml:mo>
+                           <mml:msqrt>
+                              <mml:mrow>
+                                 <mml:mfrac>
+                                    <mml:mrow>
+                                       <mml:mn>1</mml:mn>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mi>L</mml:mi>
+                                       <mml:mi>C</mml:mi>
+                                    </mml:mrow>
+                                 </mml:mfrac>
+                              </mml:mrow>
+                           </mml:msqrt>
+                        </mml:mrow>
+                     </mml:math> is angular frequency. The equalization current obtained by Eq. <ce:cross-ref refid="fd8" id="d1e1400">(8)</ce:cross-ref> 
+                     <ce:display>
+                        <ce:formula id="fd8">
+                           <ce:label>(8)</ce:label>
+                           <mml:math display="block" id="d1e1410" altimg="si19.svg">
+                              <mml:mrow>
+                                 <mml:mi>i</mml:mi>
+                                 <mml:mo linebreak="goodbreak">=</mml:mo>
+                                 <mml:mfrac>
+                                    <mml:mrow>
+                                       <mml:msub>
+                                          <mml:mrow>
+                                             <mml:mi>V</mml:mi>
+                                          </mml:mrow>
+                                          <mml:mrow>
+                                             <mml:mi>h</mml:mi>
+                                             <mml:mtext>_</mml:mtext>
+                                             <mml:mi>E</mml:mi>
+                                             <mml:mi>S</mml:mi>
+                                             <mml:mi>D</mml:mi>
+                                          </mml:mrow>
+                                       </mml:msub>
+                                       <mml:mo linebreak="badbreak">−</mml:mo>
+                                       <mml:mn>2</mml:mn>
+                                       <mml:msub>
+                                          <mml:mrow>
+                                             <mml:mi>V</mml:mi>
+                                          </mml:mrow>
+                                          <mml:mrow>
+                                             <mml:mi>D</mml:mi>
+                                             <mml:mtext>_</mml:mtext>
+                                             <mml:mi>M</mml:mi>
+                                             <mml:mi>S</mml:mi>
+                                          </mml:mrow>
+                                       </mml:msub>
+                                       <mml:mo linebreak="badbreak">−</mml:mo>
+                                       <mml:msub>
+                                          <mml:mrow>
+                                             <mml:mi>V</mml:mi>
+                                          </mml:mrow>
+                                          <mml:mrow>
+                                             <mml:mi>L</mml:mi>
+                                             <mml:mtext>_</mml:mtext>
+                                             <mml:mi>E</mml:mi>
+                                             <mml:mi>S</mml:mi>
+                                             <mml:mi>D</mml:mi>
+                                          </mml:mrow>
+                                       </mml:msub>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mi>ω</mml:mi>
+                                       <mml:mi>L</mml:mi>
+                                    </mml:mrow>
+                                 </mml:mfrac>
+                                 <mml:msup>
+                                    <mml:mrow>
+                                       <mml:mi>e</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:mo linebreak="badbreak">−</mml:mo>
+                                       <mml:mi>σ</mml:mi>
+                                       <mml:mi>t</mml:mi>
+                                    </mml:mrow>
+                                 </mml:msup>
+                                 <mml:mo class="qopname">sin</mml:mo>
+                                 <mml:mi>ω</mml:mi>
+                                 <mml:mi>t</mml:mi>
+                              </mml:mrow>
+                           </mml:math>
+                        </ce:formula>
+                     </ce:display>
+                  </ce:para>
+                  <ce:para view="all" id="d1e1489">The equalization efficiency of this circuit is estimated by Eq. <ce:cross-ref refid="fd9" id="d1e1493">(9)</ce:cross-ref>. <ce:display>
+                        <ce:formula id="fd9">
+                           <ce:label>(9)</ce:label>
+                           <mml:math display="block" id="d1e1503" altimg="si20.svg">
+                              <mml:mrow>
+                                 <mml:mi>η</mml:mi>
+                                 <mml:mo linebreak="goodbreak">=</mml:mo>
+                                 <mml:mfrac>
+                                    <mml:mrow>
+                                       <mml:msub>
+                                          <mml:mrow>
+                                             <mml:mi>V</mml:mi>
+                                          </mml:mrow>
+                                          <mml:mrow>
+                                             <mml:mi>L</mml:mi>
+                                             <mml:mtext>_</mml:mtext>
+                                             <mml:mi>E</mml:mi>
+                                             <mml:mi>S</mml:mi>
+                                             <mml:mi>D</mml:mi>
+                                          </mml:mrow>
+                                       </mml:msub>
+                                       <mml:mo linebreak="badbreak">×</mml:mo>
+                                       <mml:mi>i</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                       <mml:msub>
+                                          <mml:mrow>
+                                             <mml:mi>V</mml:mi>
+                                          </mml:mrow>
+                                          <mml:mrow>
+                                             <mml:mi>h</mml:mi>
+                                             <mml:mtext>_</mml:mtext>
+                                             <mml:mi>E</mml:mi>
+                                             <mml:mi>S</mml:mi>
+                                             <mml:mi>D</mml:mi>
+                                          </mml:mrow>
+                                       </mml:msub>
+                                       <mml:mo linebreak="badbreak">×</mml:mo>
+                                       <mml:mi>i</mml:mi>
+                                    </mml:mrow>
+                                 </mml:mfrac>
+                                 <mml:mo linebreak="goodbreak">×</mml:mo>
+                                 <mml:mn>100</mml:mn>
+                                 <mml:mtext>%</mml:mtext>
+                              </mml:mrow>
+                           </mml:math>
+                        </ce:formula>
+                     </ce:display>
+                  </ce:para>
+                  <ce:para view="all" id="d1e1556">The parasitic resistance of this circuit tries to keep low so that the maximum efficiency can achieve. The working principle of the equalization circuit as like the damped oscillation circuit and equalization time depends on the amplitude oscillation.</ce:para>
+               </ce:section>
+               <ce:section id="sec4" view="all">
+                  <ce:label>4</ce:label>
+                  <ce:section-title id="d1e1561">Result and discussion</ce:section-title>
+                  <ce:para view="all" id="d1e1563">Using the PSIM simulation tool is conducted for verifying the proposed circuit. To validate the simulation, a prototype was developed in the laboratory (<ce:cross-ref refid="fig2" id="d1e1567">Fig. 2</ce:cross-ref>). LM301 Op-amp based differential amplifier (here, all resistance remains the same) is used for monitoring the cell status. All MOSFET switches gate is derived by photo-coupler, where complimentary PWM single used that generated from micro-controller. Two Li-ion battery based equalization results shown in <ce:cross-ref refid="fig3" id="d1e1571">Fig. 3</ce:cross-ref>(a) on the relaxation mode. Initially, each cell has 3.958 V and 3.712 V, where the voltage difference is 246 mV. To execute the equalization process, theoretically, cell balance will in 3.835 V but the equalization circuit achieved 0 mV after 83 min. The cell voltage becomes equal in 3.821 mV and using Eq. <ce:cross-ref refid="fd9" id="d1e1576">(9)</ce:cross-ref> equalization efficiency estimated near 96%. As the proposed equalization, the circuit is bidirectional and it works on charge and discharge mode so that a cyclic test conduct show in <ce:cross-ref refid="fig3" id="d1e1581">Fig. 3</ce:cross-ref>(b). Using no-load ET-PGM22A-24500, Eton DC motor for discharge, and 1 A current for the charge. Initially, the voltage difference was 89 mV, after 160 min voltage difference becomes 0 mV, and the next 40 min discharge together. Subsequently, the next 220 min cells are charged together and reached near a high voltage limit. <ce:cross-ref refid="fig4" id="d1e1585">Fig. 4</ce:cross-ref>(a) shows the four lead-acid-based equalization results in the series string in relaxation mode. In the beginning, individual cells voltage is 11.563 V, 11.457 V, 11.258 V, and 11.15 V. Initially, the voltage difference was 413 mV and after 207 min, cell voltage becomes 0 mV, and equalization efficiency is near 94.2%. Also, two 100F SC based on the experiment was conducted. Where the initial voltage was 2.674 V and 2.324 V. After 278 s, the voltage variation becomes 0 mV and achieves near 82.43% efficiency (shown in <ce:cross-ref refid="fig4" id="d1e1600">Fig. 4</ce:cross-ref>(b)). The significant inducement of this proposed circuit is to meet the 0 V gap, reduce the direct C2C equalization time, cost, and control complexity. This circuit single series LC is used for an energy carrier. Based on several key points, a comparison between the existing circuit and the proposed circuit is illustrated in <ce:cross-ref refid="tbl1" id="d1e1604">Table 1</ce:cross-ref>.</ce:para>
+                  <ce:para view="all" id="d1e1610">
+                     <ce:float-anchor refid="fig2"/> 
+                     <ce:float-anchor refid="fig3"/>The proposed circuit has allowed direct C2C equalization on the string, high equalization speed; minimize the power loss, highly efficient, miniature size, and low cost. Also, the result from the based comparison is illustrated in <ce:cross-ref refid="fig5" id="d1e1617">Fig. 5</ce:cross-ref> and <ce:cross-ref refid="tbl2" id="d1e1621">Table 2</ce:cross-ref> so that the improvement of the proposed circuit is easily found out. For this comparison, we choose some research articles from 2016 to 2021. In our result section, we show the li-ion battery, lead acid battery and SC-based equalization result so that we chose similar types of research articles for comparison.</ce:para>
+                  <ce:para view="all" id="d1e1634">
+                     <ce:float-anchor refid="tbl1"/> 
+                     <ce:float-anchor refid="fig4"/>Yang et al. <ce:cross-ref refid="b2" id="d1e1641">[2]</ce:cross-ref> proposed multi-inductor-based equalization circuit for retired batteries. They used 12 li-ion cell and that takes 103 min for cell voltage equalization but have voltage gaps (we used OCV carve for measure SOC to voltage). This circuit has some resistive loss in the power MOSFET. Compare with our circuit, we used a 4200 mAh li-ion cell and that takes 82 min for cell voltage equalization. Theoretically, our circuit equalizes the cell voltage in 3.85 V but it was equalized in 3.83 V.</ce:para>
+                  <ce:para view="all" id="d1e1644">Zeltser et al. <ce:cross-ref refid="b12" id="d1e1647">[12]</ce:cross-ref> proposed resonant converter based equalization circuit. They used 12 V, 6.2Ah lead–acid battery. The initial voltage of these batteries are 12.48 V and 12.25 V. After 660 min this equalization does not equalize the battery voltage. Theoretically, this circuit equalizes the cell voltage in 12.36 V but it has 300 m V gaps. Compare with our circuit, we used four 12 V, 1.5 Ah lead acid batteries and it takes 210 min for cell voltage equalization. Theoretically, our circuit equalizes the cell voltage in 11.357 V but it was equalizing in 11.35 V.</ce:para>
+                  <ce:para view="all" id="d1e1670">Yu et al. <ce:cross-ref refid="b17" id="d1e1673">[17]</ce:cross-ref> proposed single resonant converter based equalization circuit. They used 300F SC. The initial voltage of these SC are 2.5 V, 2.3 V and 2.0 V. After 15 min this equalization does not​ equalize the SC voltage. Theoretically, this circuit equalizes the cell voltage in 2.267 V but it has 10 mV gaps. Compare with our circuit, we used 100F SC and it takes 4.64 min for SC voltage equalization and achieved 0 V gaps.</ce:para>
+                  <ce:para view="all" id="d1e1684">
+                     <ce:float-anchor refid="tbl2"/> 
+                     <ce:float-anchor refid="fig5"/>
+                  </ce:para>
+               </ce:section>
+               <ce:section id="sec5" role="conclusion" view="all">
+                  <ce:label>5</ce:label>
+                  <ce:section-title id="d1e1692">Conclusion</ce:section-title>
+                  <ce:para view="all" id="d1e1694">This paper proposed a single resonant converter based equalization circuit over the existing circuits. This equalization circuit is bidirectional and performs on charging, discharging, and relaxation mode. This presented circuit, any number of ESD cells, can be scaled up to balance the cell voltage. This circuit also applicable to the P2P equalization system. Additionally, this circuit has reduced the equalization time (for two 4200 mAh, 3.7 V Li-ion cells, it takes 76 min, 207 min for four 12 V, 1.5 Ah lead acid batteries and 4.64 min for 100 F SC), high efficiency (96% for Li-ion battery, 94.2 for lead–acid battery and 83.6 for SC respectively), zero voltage gap, minimum cost, and miniature size. This is because the number of switches and diodes have reduced, Op-amp based cell monitoring circuit, and other associate components. All bi-directional switches are consisting of very low resistance MOSFET for this equalization time is reduced, and efficiency increased. In studies, temperature variation did not consider that will be consider and present in future.</ce:para>
+               </ce:section>
+            </ce:sections>
+            <ce:conflict-of-interest id="coi1" view="all">
+               <ce:section-title id="d1e1697">Declaration of Competing Interest</ce:section-title>
+               <ce:para view="all" id="d1e1699">The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</ce:para>
+            </ce:conflict-of-interest>
+            <ce:acknowledgment view="all" id="d1e1701">
+               <ce:section-title id="d1e1702">Acknowledgment</ce:section-title>
+               <ce:para view="all" id="d1e1704">This work was supported by the <ce:grant-sponsor id="GS1" xlink:type="simple" xlink:role="http://www.elsevier.com/xml/linking-roles/grant-sponsor">Universiti Kebangsaan Malaysia (UKM)</ce:grant-sponsor>
+ under the <ce:grant-number refid="GS1" id="d1e1713">GGPM 2020-028</ce:grant-number>, and <ce:grant-number refid="GS1" id="d1e1716">GP-2021-K023208</ce:grant-number>.</ce:para>
+            </ce:acknowledgment>
+         </body>
+         <tail view="all">
+            <ce:bibliography id="bib1" view="all">
+               <ce:section-title id="d1e1721">References</ce:section-title>
+               <ce:bibliography-sec view="all" id="d1e1723">
+                  <ce:bib-reference id="b1">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference id="sb1">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Lai</ce:surname>
+                                 <ce:given-name>Xin</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Huang</ce:surname>
+                                 <ce:given-name>Yunfeng</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Deng</ce:surname>
+                                 <ce:given-name>Cong</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Gu</ce:surname>
+                                 <ce:given-name>Huanghui</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Han</ce:surname>
+                                 <ce:given-name>Xuebing</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Zheng</ce:surname>
+                                 <ce:given-name>Yuejiu</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Sorting, regrouping, and echelon utilization of the large-scale retired lithium batteries: A critical review</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Renew Sustain Energy Rev</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>146</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:article-number>111162</sb:article-number>
+                        </sb:host>
+                        <sb:comment>2021</sb:comment>
+                     </sb:reference>
+                     <ce:source-text id="afs1">Lai, Xin, Yunfeng Huang, Cong Deng, Huanghui Gu, Xuebing Han, Yuejiu Zheng, and Minggao Ouyang. (2021) Sorting, regrouping, and echelon utilization of the large-scale retired lithium batteries: A critical review. Renewable and Sustainable Energy Reviews 146 (2021) 111162.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b2">
+                     <ce:label>[2]</ce:label>
+                     <sb:reference id="sb2">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Yang</ce:surname>
+                                 <ce:given-name>Yang</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Zhu</ce:surname>
+                                 <ce:given-name>Wenchao</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Xie</ce:surname>
+                                 <ce:given-name>Changjun</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Shi</ce:surname>
+                                 <ce:given-name>Ying</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Liu</ce:surname>
+                                 <ce:given-name>Furong</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Li</ce:surname>
+                                 <ce:given-name>Weibo</ce:given-name>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A layered bidirectional active equalization method for retired power lithium-ion batteries for energy storage applications</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energies</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>13</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>4</sb:issue-nr>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>832</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>2020</sb:comment>
+                     </sb:reference>
+                     <ce:source-text id="afs2">Yang, Yang, Wenchao Zhu, Changjun Xie, Ying Shi, Furong Liu, Weibo Li, and Zebo Tang. (2020) A layered bidirectional active equalization method for retired power lithium-ion batteries for energy storage applications. Energies 13(4) (2020) 832.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b3">
+                     <ce:label>[3]</ce:label>
+                     <ce:other-ref id="sb3">
+                        <ce:textref>Ahasan A.K.M. Habib, S.M.A. Motakabber, Muhammad I. Ibrahimy, A comparative study of electrochemical battery for electric vehicles applications, in: 2019 IEEE international conference on power, electrical, and electronics and industrial applications, 2019, pp. 43–47, 2019.</ce:textref>
+                     </ce:other-ref>
+                     <ce:source-text id="afs3">Habib, AKM Ahasan, S. M. A. Motakabber, and Muhammad I. Ibrahimy. (2019) A comparative study of electrochemical battery for electric vehicles applications. In 2019 IEEE International Conference on Power, Electrical, and Electronics and Industrial Applications (PEEIACON), (2019): 43-47.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b4">
+                     <ce:label>[4]</ce:label>
+                     <sb:reference id="sb4">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Hasan</ce:surname>
+                                 <ce:given-name>Kamrul Mohammad</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Mahmud</ce:surname>
+                                 <ce:given-name>Md</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Habib</ce:surname>
+                                 <ce:given-name>AKM Ahasan</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Motakabber</ce:surname>
+                                 <ce:given-name>S.M.A.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Islam</ce:surname>
+                                 <ce:given-name>Shayla</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Review of electric vehicle energy storage and management system: Standards, issues, and challenges</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Energy Storage</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>41</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:article-number>102940</sb:article-number>
+                        </sb:host>
+                        <sb:comment>2021</sb:comment>
+                     </sb:reference>
+                     <ce:source-text id="afs4">Hasan, Mohammad Kamrul, Md Mahmud, AKM Ahasan Habib, S. M. A. Motakabber, and Shayla Islam. (2021) Review of electric vehicle energy storage and management system: Standards, issues, and challenges. Journal of Energy Storage 41 (2021) 102940.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b5">
+                     <ce:label>[5]</ce:label>
+                     <sb:reference id="sb5">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Hoque</ce:surname>
+                                 <ce:given-name>M.M.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Hannan</ce:surname>
+                                 <ce:given-name>M.A.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Mohamed</ce:surname>
+                                 <ce:given-name>A.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Ayob</ce:surname>
+                                 <ce:given-name>A.</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Battery charge equalization controller in electric vehicle applications: A review</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Renew Sustain Energy Rev</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>75</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1363</sb:first-page>
+                              <sb:last-page>1385</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>2017</sb:comment>
+                     </sb:reference>
+                     <ce:source-text id="afs5">Hoque, M. M., M. A. Hannan, A. Mohamed, and A. Ayob. (2017) Battery charge equalization controller in electric vehicle applications: A review. Renewable and Sustainable Energy Reviews 75 (2017) 1363-1385.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b6">
+                     <ce:label>[6]</ce:label>
+                     <sb:reference id="sb6">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Habib</ce:surname>
+                                 <ce:given-name>Ahasan A.K.M.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Hasan</ce:surname>
+                                 <ce:given-name>Mohammad Kamrul</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Mahmud</ce:surname>
+                                 <ce:given-name>Md</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Motakabber</ce:surname>
+                                 <ce:given-name>S.M.A.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Ibrahimya</ce:surname>
+                                 <ce:given-name>Muhammad I.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Islam</ce:surname>
+                                 <ce:given-name>Shayla</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A review: Energy storage system and balancing circuits for electric vehicle application</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IET Power Electron</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>14</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>1</sb:issue-nr>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                              <sb:last-page>13</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>2021</sb:comment>
+                     </sb:reference>
+                     <ce:source-text id="afs6">Habib, AKM Ahasan, Mohammad Kamrul Hasan, Md Mahmud, S. M. A. Motakabber, Muhammad I. Ibrahimya, and Shayla Islam. (2021) A review: Energy storage system and balancing circuits for electric vehicle application. IET Power Electronics 14(1) (2021) 1-13.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b7">
+                     <ce:label>[7]</ce:label>
+                     <ce:other-ref id="sb7">
+                        <ce:textref>Andrei Lucian Perişoară, Ionuţ Constantin Guran, Dumitrel Cătălin Costache, A passive battery management system for fast balancing of four LiFePO4 cells, in: 2018 IEEE 24th international symposium for design and technology in electronic packaging, 2018, pp. 390–393, 2018.</ce:textref>
+                     </ce:other-ref>
+                     <ce:source-text id="afs7">Perişoară, Lucian Andrei, Ionuţ Constantin Guran, and Dumitrel Cătălin Costache. (2018) A passive battery management system for fast balancing of four LiFePO4 cells. In 2018 IEEE 24th International Symposium for Design and Technology in Electronic Packaging (SIITME), (2018): 390-393.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b8">
+                     <ce:label>[8]</ce:label>
+                     <sb:reference id="sb8">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Jonathan</ce:surname>
+                                 <ce:given-name>Carter</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Fan</ce:surname>
+                                 <ce:given-name>Zhong</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Cao</ce:surname>
+                                 <ce:given-name>Jun</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Cell equalisation circuits: A review</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>448</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:article-number>227489</sb:article-number>
+                        </sb:host>
+                        <sb:comment>2020</sb:comment>
+                     </sb:reference>
+                     <ce:source-text id="afs8">Carter, Jonathan, Zhong Fan, and Jun Cao. (2020) Cell equalisation circuits: A review. Journal of Power Sources, 448 (2020) 227489.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b9">
+                     <ce:label>[9]</ce:label>
+                     <ce:other-ref id="sb9">
+                        <ce:textref>Farzan Ali Moghaddam, Alex Van den Bossche, A battery equalization technique based on Ćuk converter balancing for lithium ion batteries, in: 2019 8th International conference on modern circuits and systems technologies, 2019, pp. 1–4, 2019.</ce:textref>
+                     </ce:other-ref>
+                     <ce:source-text id="afs9">Moghaddam, Ali Farzan, and Alex Van den Bossche. (2019) A battery equalization technique based on Ćuk converter balancing for lithium ion batteries. In 2019 8th International Conference on Modern Circuits and Systems Technologies (MOCAST), (2019): 1-4.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b10">
+                     <ce:label>[10]</ce:label>
+                     <ce:other-ref id="sb10">
+                        <ce:textref>Jiahui Ding, Mingyu Gao, Feng Chen, Jian Lv, Jun Yuan, Cheng Li, Design of active battery equalization scheme based on buck-boost, in: 2019 14th IEEE conference on industrial electronics and applications, 2019, pp. 1654–1658, 2019.</ce:textref>
+                     </ce:other-ref>
+                     <ce:source-text id="afs10">Ding, Jiahui, Mingyu Gao, Feng Chen, Jian Lv, Jun Yuan, and Cheng Li. (2019) Design of active battery equalization scheme based on buck-boost. In 2019 14th IEEE Conference on Industrial Electronics and Applications (ICIEA), (2019): 1654-1658.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b11">
+                     <ce:label>[11]</ce:label>
+                     <ce:other-ref id="sb11">
+                        <ce:textref>Ilya Zeltser, Michael Evzelman, Alon Kuperman, Mor Mordechai Peretz, Zero current switching resonant converter based parallel balancing of serially connected batteries string, IEEE Trans Ind Appl 55 (6) 7452–7460, 2019.</ce:textref>
+                     </ce:other-ref>
+                     <sb:reference id="rg11a">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Zeltser</ce:surname>
+                                 <ce:given-name>Ilya</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Kirshenboim</ce:surname>
+                                 <ce:given-name>Or</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Dahan</ce:surname>
+                                 <ce:given-name>Nadav</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Peretz</ce:surname>
+                                 <ce:given-name>Mor Mordechai</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:edited-book>
+                              <sb:title>
+                                 <sb:maintitle>2016 IEEE Applied Power Electronics Conference and Exposition</sb:maintitle>
+                              </sb:title>
+                              <sb:date>2016</sb:date>
+                           </sb:edited-book>
+                           <sb:pages>
+                              <sb:first-page>802-809</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>2016</sb:comment>
+                     </sb:reference>
+                     <ce:source-text id="afs11">(a) Zeltser, Ilya, Michael Evzelman, Alon Kuperman, and Mor Mordechai Peretz. Zero current switching resonant converter based parallel balancing of serially connected batteries string. IEEE Transactions on Industry Applications 55, (6) (2019): 7452-7460. (b) Zeltser, Ilya, Or Kirshenboim, Nadav Dahan, and Mor Mordechai Peretz. (2016) ZCS resonant converter based parallel balancing of serially connected batteries string. In 2016 IEEE Applied Power Electronics Conference and Exposition (APEC), (2016): 802-809.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b12">
+                     <ce:label>[12]</ce:label>
+                     <sb:reference id="sb12">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Hasan</ce:surname>
+                                 <ce:given-name>Kamrul Mohammad</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Habib</ce:surname>
+                                 <ce:given-name>A.K.M.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Islam</ce:surname>
+                                 <ce:given-name>Shayla</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Ghani</ce:surname>
+                                 <ce:given-name>Ahmad Tarmizi Abdul</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Hossain</ce:surname>
+                                 <ce:given-name>Eklas</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Resonant energy carrier base active charge-balancing algorithm</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electronics</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>9</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>12</sb:issue-nr>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2166</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>2020</sb:comment>
+                     </sb:reference>
+                     <ce:source-text id="afs12">Hasan, Mohammad Kamrul, A. K. M. Habib, Shayla Islam, Ahmad Tarmizi Abdul Ghani, and Eklas Hossain. (2020) Resonant energy carrier base active charge-balancing algorithm. Electronics, 9(12) (2020) 2166.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b13">
+                     <ce:label>[13]</ce:label>
+                     <ce:other-ref id="sb13">
+                        <ce:textref>Moon-Young Kim, Chol-Ho Kim, Jun-Ho Kim, Duk-You Kim, Gun-Woo Moon, Switched capacitor with chain structure for cell-balancing of lithium-ion batteries, in: IECON 2012-38th annual conference on IEEE industrial electronics society, 2012, pp. 2994–2999, 2012.</ce:textref>
+                     </ce:other-ref>
+                     <ce:source-text id="afs13">Kim, Moon-Young, Chol-Ho Kim, Jun-Ho Kim, Duk-You Kim, and Gun-Woo Moon. (2012) Switched capacitor with chain structure for cell-balancing of lithium-ion batteries. In IECON 2012-38th Annual Conference on IEEE Industrial Electronics Society, (2012): 2994-2999.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b14">
+                     <ce:label>[14]</ce:label>
+                     <sb:reference id="sb14">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Habib</ce:surname>
+                                 <ce:given-name>Ahasan A.K.M.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Motakabber</ce:surname>
+                                 <ce:given-name>S.M.A.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Ibrahimy</ce:surname>
+                                 <ce:given-name>Muhammad I.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Hasan</ce:surname>
+                                 <ce:given-name>Mohammad Kamrul</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Active voltage balancing circuit using single switched-capacitor and series LC resonant energy carrier</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electron Lett</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>56</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>20</sb:issue-nr>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1036</sb:first-page>
+                              <sb:last-page>1039</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>2020</sb:comment>
+                     </sb:reference>
+                     <ce:source-text id="afs14">Habib, AKM Ahasan, S. M. A. Motakabber, Muhammad I. Ibrahimy, and Mohammad Kamrul Hasan. (2020) Active voltage balancing circuit using single switched-capacitor and series LC resonant energy carrier. Electronics Letters, 56(20) (2020) 1036-1039.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b15">
+                     <ce:label>[15]</ce:label>
+                     <ce:other-ref id="sb15">
+                        <ce:textref>M. Imtiaz Abusaleh, Faisal H. Khan, Haresh Kamath, A low-cost time shared cell balancing technique for future lithium-ion battery storage system featuring regenerative energy distribution, in: 2011 Twenty-sixth annual IEEE applied power electronics conference and exposition, 2011, pp. 792–799, 2011.</ce:textref>
+                     </ce:other-ref>
+                     <ce:source-text id="afs15">Imtiaz, Abusaleh M., Faisal H. Khan, and Haresh Kamath. (2011) A low-cost time shared cell balancing technique for future lithium-ion battery storage system featuring regenerative energy distribution. In 2011 Twenty-Sixth Annual IEEE Applied Power Electronics Conference and Exposition (APEC), (2011): 792-799.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b16">
+                     <ce:label>[16]</ce:label>
+                     <sb:reference id="sb16">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Yu</ce:surname>
+                                 <ce:given-name>Yanqi</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Saasaa</ce:surname>
+                                 <ce:given-name>Raed</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Khan</ce:surname>
+                                 <ce:given-name>Ashraf Ali</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Eberle</ce:surname>
+                                 <ce:given-name>Wilson</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A series resonant energy storage cell voltage balancing circuit</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE J Emerg Sel Top Power Electr</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>8</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>3</sb:issue-nr>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3151</sb:first-page>
+                              <sb:last-page>3161</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>2019</sb:comment>
+                     </sb:reference>
+                     <ce:source-text id="afs16">Yu, Yanqi, Raed Saasaa, Ashraf Ali Khan, and Wilson Eberle. (2019) A series resonant energy storage cell voltage balancing circuit. IEEE Journal of Emerging and Selected Topics in Power Electronics, 8(3) (2019) 3151-3161.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b17">
+                     <ce:label>[17]</ce:label>
+                     <sb:reference id="sb17">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Luo</ce:surname>
+                                 <ce:given-name>Xuan</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Kang</ce:surname>
+                                 <ce:given-name>Longyun</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Lu</ce:surname>
+                                 <ce:given-name>Chusheng</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Linghu</ce:surname>
+                                 <ce:given-name>Jinqing</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Lin</ce:surname>
+                                 <ce:given-name>Hongye</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Hu</ce:surname>
+                                 <ce:given-name>Bihua</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>An enhanced multicell-to-multicell battery equalizer based on bipolar-resonant LC converter</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electronics</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>10</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>3</sb:issue-nr>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>293</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>2021</sb:comment>
+                     </sb:reference>
+                     <ce:source-text id="afs17">Luo, Xuan, Longyun Kang, Chusheng Lu, Jinqing Linghu, Hongye Lin, and Bihua Hu. (2021) An enhanced multicell-to-multicell battery equalizer based on bipolar-resonant LC converter. Electronics, 10(3) (2021) 293.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b18">
+                     <ce:label>[18]</ce:label>
+                     <sb:reference id="sb18">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Yuanmao</ce:surname>
+                                 <ce:given-name>Ye</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Lin</ce:surname>
+                                 <ce:given-name>Jingxiong</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Li</ce:surname>
+                                 <ce:given-name>Zhenpeng</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Wang</ce:surname>
+                                 <ce:given-name>Xiaolin</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Double-tiered cell balancing system with switched-capacitor and switched-inductor</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>IEEE Access</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>7</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>183356</sb:first-page>
+                              <sb:last-page>183364</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>2019</sb:comment>
+                     </sb:reference>
+                     <ce:source-text id="afs18">Ye, Yuanmao, Jingxiong Lin, Zhenpeng Li, and Xiaolin Wang. (2019) Double-Tiered Cell Balancing System with Switched-Capacitor and Switched-Inductor. IEEE Access, 7 (2019) 183356-183364.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b19">
+                     <ce:label>[19]</ce:label>
+                     <ce:other-ref id="sb19">
+                        <ce:textref>Farzan Ali Moghaddam, Alex Van den Bossche, Multi-winding equalization technique for lithium ion batteries for electrical vehicles, in: 2018 7th International conference on renewable energy research and applications, 2018, pp. 139–143, 2018.</ce:textref>
+                     </ce:other-ref>
+                     <ce:source-text id="afs19">Moghaddam, Ali Farzan, and Alex Van den Bossche. (2018) Multi-winding equalization technique for lithium ion batteries for electrical vehicles. In 2018 7th International Conference on Renewable Energy Research and Applications (ICRERA), (2018): 139-143.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b20">
+                     <ce:label>[20]</ce:label>
+                     <ce:other-ref id="sb20">
+                        <ce:textref>Vitols Kristaps, Efficiency of LiFePO4 battery and charger with a mixed two level balancing, in: 2016 57th International scientific conference on power and electrical Engineering of Riga technical university, 2016, pp. 1–4, 2016.</ce:textref>
+                     </ce:other-ref>
+                     <ce:source-text id="afs20">Vitols, Kristaps. Efficiency of LiFePO4 battery and charger with a mixed two level balancing. (2016) In 2016 57th International Scientific Conference on Power and Electrical Engineering of Riga Technical University (RTUCON), (2016): 1-4.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b21">
+                     <ce:label>[21]</ce:label>
+                     <sb:reference id="sb21">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Mahammad</ce:surname>
+                                 <ce:given-name>A Hannan</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Hoque</ce:surname>
+                                 <ce:given-name>Mohammad M.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Ker</ce:surname>
+                                 <ce:given-name>Pin J.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Begum</ce:surname>
+                                 <ce:given-name>Rawshan A.</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Mohamed</ce:surname>
+                                 <ce:given-name>Azah</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Charge equalization controller algorithm for series-connected lithium-ion battery storage systems: Modeling and applications</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Energies</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>10</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>9</sb:issue-nr>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1390</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>2017</sb:comment>
+                     </sb:reference>
+                     <ce:source-text id="afs21">Hannan, Mahammad A., Mohammad M. Hoque, Pin J. Ker, Rawshan A. Begum, and Azah Mohamed. (2017) Charge equalization controller algorithm for series-connected lithium-ion battery storage systems: Modeling and applications. Energies, 10(9) (2017) 1390.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b22">
+                     <ce:label>[22]</ce:label>
+                     <ce:other-ref id="sb22">
+                        <ce:textref>Ahmed Musse Mohamud, Mohammad Kamrul Hasan, Muhammad Shafiq, Md Ohirul Qays, Thippa Reddy Gadekallu, Jamel Nebhen, et al., A peer-to-peer blockchain based interconnected power system, Energy Rep 7, 7890–7905, 2021.</ce:textref>
+                     </ce:other-ref>
+                     <ce:source-text id="afs22">Ahmed, Musse Mohamud, Mohammad Kamrul Hasan, Muhammad Shafiq, Md Ohirul Qays, Thippa Reddy Gadekallu, Jamel Nebhen, and Shayla Islam. A peer-to-peer blockchain based interconnected power system. Energy Reports 7 (2021) 7890-7905.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b23">
+                     <ce:label>[23]</ce:label>
+                     <sb:reference id="sb23">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Song</ce:surname>
+                                 <ce:given-name>Dawei</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Shi</ce:surname>
+                                 <ce:given-name>Fengdong</ce:given-name>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:surname>Liu</ce:surname>
+                                 <ce:given-name>Wei</ce:given-name>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Review of lithium battery equalization control methods</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Phys Conf Ser</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>1449</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>1</sb:issue-nr>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:article-number>012087</sb:article-number>
+                        </sb:host>
+                        <sb:comment>2020</sb:comment>
+                     </sb:reference>
+                     <ce:source-text id="afs23">Song, Dawei, Fengdong Shi, and Wei Liu. (2020) Review of lithium battery equalization control methods. Journal of Physics: Conference Series, 1449 (1) (2020) 012087.</ce:source-text>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>
